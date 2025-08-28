@@ -1,4 +1,4 @@
-## Hi there 👋
+## Read me
 
 <!--
 **kyodai-nikki/kyodai-nikki** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+### リポジトリ概要
+ここは「kyodai-nikki」の移行用テストサイトです。
+TRPGのセッションログを格納する箇所なので、シナリオのネタバレを多分に含みます。

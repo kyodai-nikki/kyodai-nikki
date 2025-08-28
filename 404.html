@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>Redirecting…</title>
+<script>
+  (function () {
+    // プロジェクトページのベースパス
+    var base = "/kyodai-nikki/";
+    // 例: /kyodai-nikki/episodes/season1/1 → /episodes/season1/1 に変換
+    var from = location.pathname.replace(/^\/kyodai-nikki/, "");
+    if (!from.startsWith("/")) from = "/" + from;
+    // クエリとハッシュも引き継ぐ
+    var target =
+      base +
+      "?redirect=" +
+      encodeURIComponent(from + location.search + location.hash);
+    location.replace(target);
+  })();
+</script>
