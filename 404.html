@@ -1,14 +1,18 @@
-<!DOCTYPE html>
-<meta charset="utf-8" />
-<title>Redirecting…</title>
+<!DOCTYPE html><meta charset="utf-8" /><title>Redirecting…</title>
 <script>
   (function () {
-    // プロジェクトページのベースパス
-    var base = "/kyodai-nikki/";
-    // 例: /kyodai-nikki/episodes/season1/1 → /episodes/season1/1 に変換
-    var from = location.pathname.replace(/^\/kyodai-nikki/, "");
+    // 1) <base href="..."> からベースパスを決定（なければ "/"）
+    var baseEl = document.querySelector("base");
+    var base = (baseEl ? baseEl.getAttribute("href") : "/") || "/";
+    // 末尾スラッシュを揃える
+    if (!base.endsWith("/")) base += "/";
+
+    // 2) 現在のパスからベース部分を剥がす（プロジェクトサイト/独自ドメインどちらでもOK）
+    var prefix = base.replace(/\/$/, ""); // 例: "/kyodai-nikki"
+    var from = location.pathname.replace(new RegExp("^" + prefix), "");
     if (!from.startsWith("/")) from = "/" + from;
-    // クエリとハッシュも引き継ぐ
+
+    // 3) クエリ・ハッシュも引き継いで index へ
     var target =
       base +
       "?redirect=" +
