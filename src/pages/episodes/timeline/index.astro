@@ -33,9 +33,9 @@ const grouped = seasons.map((s) => ({
     {/* シーズン切替タブ＋ timeline -------------------------- */}
     <nav class="ep-seasons" aria-label="シーズン切替">
       {seasons.map((s) => (
-        <a href={`${base}/episodes/${s.slug}/`}>{s.label}</a>
+        <a href={`${base}/episodes/${s.slug}`}>{s.label}</a>
       ))}
-      <a href={`${base}/episodes/timeline/`} aria-current="page">timeline</a>
+      <a href={`${base}/episodes/timeline`} aria-current="page">timeline</a>
     </nav>
 
     {/* タイムライン本体：左にクイックジャンプ、右に本文 ----- */}

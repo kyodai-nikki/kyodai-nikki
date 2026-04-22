@@ -47,13 +47,13 @@ const detailImagePath = (e: EpisodeEntry): string =>
   `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/detail.png`;
 
 const epHref = (e: EpisodeEntry) =>
-  `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/`;
+  `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}`;
 
 const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
   const first = firstEpisodeOfSeason(seasonNumber);
   return first
-    ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}/`
-    : `${base}/episodes/${seasonSlug}/`;
+    ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}`
+    : `${base}/episodes/${seasonSlug}`;
 };
 
 /** 一覧カード用クラス名を組み立て */
@@ -71,9 +71,9 @@ const numberLabel = (e: EpisodeEntry) =>
 /** 詳細パネルのクラス */
 const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-detail";
 
-/** ログページへのリンク（episodes/season{N}/{seasonEpisodeNumber}/log/） */
+/** ログページへのリンク（episodes/season{N}/{seasonEpisodeNumber}/log） */
 const logHref = current
-  ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log/`
+  ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log`
   : undefined;
 ---
 
@@ -90,7 +90,7 @@ const logHref = current
         {s.label}
       </a>
     ))}
-    <a href={`${base}/episodes/timeline/`}>timeline</a>
+    <a href={`${base}/episodes/timeline`}>timeline</a>
   </nav>
 
   {/* 一覧 ＋ 詳細パネル ----------------------------------- */}

@@ -8,14 +8,14 @@ const withBase = (p: string) => `${base.replace(/\/$/, "")}${p}`;
 const path = Astro.url.pathname;
 
 const items = [
-  { href: "/news/",         label: "News" },
-  { href: "/introduction/", label: "Introduction" },
-  { href: "/characters/",   label: "Characters" },
-  { href: "/episodes/season1/1/",     label: "Episodes" },
-  { href: "/gallery/",      label: "Gallery" },
-  { href: "/movies/",       label: "Movies" },
-  { href: "/goods/",        label: "Goods" },
-  { href: "/others/",       label: "Others" },
+  { href: "/news",          label: "News" },
+  { href: "/introduction",  label: "Introduction" },
+  { href: "/characters",    label: "Characters" },
+  { href: "/episodes/season1/1",      label: "Episodes" },
+  { href: "/gallery",       label: "Gallery" },
+  { href: "/movies",        label: "Movies" },
+  { href: "/goods",         label: "Goods" },
+  { href: "/others",        label: "Others" },
 ];
 
 /** 現在ページ判定（BASE_URL を差し引いた上での前方一致） */
@@ -64,4 +64,3 @@ const isCurrent = (href: string) => {
       ))}
     </nav>
   </div>
-</header>

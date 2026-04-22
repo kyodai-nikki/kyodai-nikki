@@ -619,14 +619,14 @@ export const seasonFromSlug = (slug: string): SeasonInfo | undefined =>
 export const allEpisodes = (): { season: Season; episode: EpisodeEntry }[] =>
   episodes.flatMap((s) => s.episodes.map((e) => ({ season: s, episode: e })));
 
-/** エピソード詳細ページ URL（/episodes/season{N}/{seasonEpisodeNumber}/） */
+/** エピソード詳細ページ URL（/episodes/season{N}/{seasonEpisodeNumber}） */
 export const episodeHref = (seasonSlug: string, e: EpisodeEntry): string =>
-  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}/`;
+  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}`;
 
 /** タイムライン項目からエピソード詳細ページ URL を組み立てる */
 export const timelineEpisodeHref = (entry: TimelineEntry): string =>
   episodeHref(entry.seasonSlug, entry);
 
-/** ログ本文ページ URL（/episodes/season{N}/{seasonEpisodeNumber}/log/） */
+/** ログ本文ページ URL（/episodes/season{N}/{seasonEpisodeNumber}/log） */
 export const episodeLogHref = (seasonSlug: string, e: EpisodeEntry): string =>
-  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}/log/`;
+  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}/log`;

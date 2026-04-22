@@ -22,7 +22,7 @@ const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 const initial = firstEpisodeOfSeason(seasonNumber);
 const redirectTo = initial
   ? episodeHref(seasonInfo.slug, initial)
-  : "/episodes/";
+  : "/episodes";
 ---
 
 <html lang="ja">
