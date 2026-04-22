@@ -4,20 +4,20 @@
 // ---------------------------------------------------------
 // props
 //   - activeSeason : 現在表示中のシーズン（1〜4）
-//   - selected     : 右パネルに表示する EpisodeEntry。未指定なら slug / 先頭を使用
-//   - activeSlug   : URL に含まれる現在の slug。左一覧のアクティブ判定に利用
+//   - selected     : 右パネルに表示する EpisodeEntry。未指定なら activeSlug / 先頭を使用
+//   - activeSlug   : URL に含まれる現在の slug（= seasonEpisodeNumber）。左一覧のアクティブ判定に利用
 // =========================================================
 import {
   seasons,
   episodesBySeason,
   firstEpisodeOfSeason,
+  episodeUrlSlug,
   type EpisodeEntry,
 } from "../data/episodes";
 import PageHeading from "./PageHeading.astro";
 
 type EpisodeMeta = EpisodeEntry & {
   badge?: string;
-  readHref?: string;
 };
 
 interface Props {
@@ -29,33 +29,39 @@ interface Props {
 const { activeSeason, selected, activeSlug } = Astro.props as Props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const dummySummary = `${base}/images/episodes/dummy-summary.svg`;
-const dummyDetail = `${base}/images/episodes/dummy-detail.svg`;
+const dummyDetail  = `${base}/images/episodes/dummy-detail.svg`;
 
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
 const list = episodesBySeason(activeSeason);
+
 // selected が無い場合は URL の slug、それも無ければシーズン先頭へフォールバック
-const current =
+const current: EpisodeMeta | undefined =
   (selected as EpisodeMeta | undefined) ??
-  (list.find((e) => e.slug === activeSlug) as EpisodeMeta | undefined) ??
+  (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
   (list[0] as EpisodeMeta | undefined);
 
-const episodeHref = (seasonSlug: string, episodeSlug: string) =>
-  `${base}/episodes/${seasonSlug}/${episodeSlug}/`;
+// 画像パスを自動解決（public/images/episodes/{seasonSlug}/{seasonEpisodeNumber}/summary.png）
+const summaryImagePath = (e: EpisodeEntry): string =>
+  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/summary.png`;
+const detailImagePath = (e: EpisodeEntry): string =>
+  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/detail.png`;
 
-const epUrl = (e: EpisodeEntry) => episodeHref(activeSeasonInfo.slug, e.slug);
+const epHref = (e: EpisodeEntry) =>
+  `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/`;
 
 const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
-  // シーズンタブは /episodes/seasonN/ ではなく、そのシーズン先頭 slug へ遷移
   const first = firstEpisodeOfSeason(seasonNumber);
-  return first ? episodeHref(seasonSlug, first.slug) : `${base}/episodes/${seasonSlug}/`;
+  return first
+    ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}/`
+    : `${base}/episodes/${seasonSlug}/`;
 };
 
 /** 一覧カード用クラス名を組み立て */
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
   if (e.isAlternate) cls.push("ep-item--alt");
-  if (e.smallText) cls.push("ep-item--sm");
-  if (current?.slug === e.slug) cls.push("ep-item--selected");
+  if (e.smallText)   cls.push("ep-item--sm");
+  if (current?.overallNumber === e.overallNumber) cls.push("ep-item--selected");
   return cls.join(" ");
 };
 
@@ -64,6 +70,11 @@ const numberLabel = (e: EpisodeEntry) =>
 
 /** 詳細パネルのクラス */
 const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-detail";
+
+/** ログページへのリンク（episodes/season{N}/{seasonEpisodeNumber}/log/） */
+const logHref = current
+  ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log/`
+  : undefined;
 ---
 
 <section class="section container">
@@ -93,8 +104,8 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
           <li>
             <a
               class={itemClass(e)}
-              href={epUrl(e)}
-              style={`--ep-bg: url('${dummySummary}');`}
+              href={epHref(e)}
+              style={`--ep-bg: url('${summaryImagePath(e)}'), url('${dummySummary}');`}
             >
               <span class="ep-item__no">{numberLabel(e)}</span>
               <span class="ep-item__title">{e.title}</span>
@@ -107,15 +118,14 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
     {/* 右：選択中エピソードの詳細 */}
     {current ? (
       <article class={detailClass} aria-live="polite">
-        {current.detailImage && (
-          <div class="ep-detail__image-wrap">
-            <img
-              class="ep-detail__image"
-              src={dummyDetail}
-              alt={`${current.title} main visual`}
-            />
-          </div>
-        )}
+        <div class="ep-detail__image-wrap">
+          <img
+            class="ep-detail__image"
+            src={detailImagePath(current)}
+            alt={`${current.title} main visual`}
+            onerror={`this.src='${dummyDetail}'`}
+          />
+        </div>
 
         <h2 class="ep-detail__title">
           <span>{current.title}</span>
@@ -134,13 +144,8 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
             {current.isR18 && !current.isR18G && <span class="ep-detail__badge">R-18</span>}
             {current.isR18G && <span class="ep-detail__badge">R-18G</span>}
           </div>
-          {current.readHref && (
-            <a
-              class="ep-detail__read"
-              href={current.readHref}
-              target={current.readHref.startsWith("http") ? "_blank" : undefined}
-              rel={current.readHref.startsWith("http") ? "noopener" : undefined}
-            >
+          {logHref && (
+            <a class="ep-detail__read" href={logHref}>
               読む
             </a>
           )}
@@ -233,7 +238,8 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
 
   /* ====== 一覧カード ====== */
   /* 概要画像はカード全体の background-image として使い、
-     その上に白→透明のグラデーションを overlay として重ねる */
+     その上に白→透明のグラデーションを overlay として重ねる。
+     画像が存在しない場合はダミー SVG にフォールバック */
   .ep-item {
     position: relative;
     display: grid;
@@ -475,6 +481,6 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
 
     // li の上端をリスト内のスクロール位置 0 に合わせる
     const target = li.offsetTop - list.offsetTop;
-    list.scrollTo({ top: target, behavior: "auto" });
+    list.scrollTop = target;
   })();
 </script>

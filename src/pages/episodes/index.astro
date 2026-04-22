@@ -3,7 +3,7 @@
 import { firstEpisodeOfSeason, episodeHref } from "../../data/episodes";
 
 const initial = firstEpisodeOfSeason(1);
-const redirectTo = initial ? episodeHref("season1", initial.slug) : "/episodes/timeline/";
+const redirectTo = initial ? episodeHref("season1", initial) : "/episodes/timeline/";
 ---
 
 <html lang="ja">
@@ -12,8 +12,4 @@ const redirectTo = initial ? episodeHref("season1", initial.slug) : "/episodes/t
     <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
     <link rel="canonical" href={redirectTo} />
     <title>Episodes</title>
-  </head>
-  <body>
-    <script is:inline>{`location.replace(${JSON.stringify(redirectTo)});`}</script>
-  </body>
-</html>
+  </

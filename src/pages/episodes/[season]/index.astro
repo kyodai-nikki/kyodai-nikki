@@ -21,7 +21,7 @@ const { seasonNumber } = Astro.props as Props;
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 const initial = firstEpisodeOfSeason(seasonNumber);
 const redirectTo = initial
-  ? episodeHref(seasonInfo.slug, initial.slug)
+  ? episodeHref(seasonInfo.slug, initial)
   : "/episodes/";
 ---
 
@@ -32,7 +32,4 @@ const redirectTo = initial
     <link rel="canonical" href={redirectTo} />
     <title>{seasonInfo.label} | Episodes</title>
   </head>
-  <body>
-    <script is:inline>{`location.replace(${JSON.stringify(redirectTo)});`}</script>
-  </body>
-</html>
+  <b
