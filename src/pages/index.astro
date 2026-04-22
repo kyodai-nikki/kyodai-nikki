@@ -2,15 +2,14 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { hero } from "../data/hero";
 import { site } from "../data/site";
-import { episodesTimeline, seasons } from "../data/episodes";
+import { episodesTimeline, timelineEpisodeHref } from "../data/episodes";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 // 新しい順に 5 件ピック（overallNumber 降順）
 const latest = [...episodesTimeline()].reverse().slice(0, 5);
 
-const epHref = (e: typeof latest[number]) =>
-  `${base}/episodes/${seasons.find((s) => s.number === e.season)!.slug}/${e.slug}/`;
+const epHref = (e: typeof latest[number]) => base + timelineEpisodeHref(e);
 
 const numberLabel = (e: typeof latest[number]) =>
   e.isAlternate
@@ -60,7 +59,7 @@ const numberLabel = (e: typeof latest[number]) =>
             <a href={epHref(e)}>
               <span class="latest-card__no">{numberLabel(e)}</span>
               <span class="latest-card__title">{e.title}</span>
-              <span class="latest-card__season">{seasons.find((s) => s.number === e.season)!.label}</span>
+              <span class="latest-card__season">{e.seasonLabel}</span>
             </a>
           </li>
         ))}
