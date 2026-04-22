@@ -27,7 +27,7 @@ const list = episodesBySeason(activeSeason);
 const current: EpisodeEntry | undefined = selected ?? list[0];
 
 const epUrl = (e: EpisodeEntry) =>
-  `${base}/episodes/${seasons.find((s) => s.number === e.season)!.slug}/${e.slug}/`;
+  `${base}/episodes/${activeSeasonInfo.slug}/${e.slug}/`;
 
 /** 一覧カード用クラス名を組み立て */
 const itemClass = (e: EpisodeEntry) => {
