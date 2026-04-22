@@ -1,0 +1,59 @@
+<a href="#top" class="back-to-top" aria-label="ページ先頭へ戻る">
+  <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="5 15 12 8 19 15"></polyline>
+  </svg>
+</a>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    right: 28px;
+    bottom: 28px;
+    width: 68px;
+    height: 68px;
+    border-radius: 9999px;
+    background: rgba(206, 206, 206, 0.96);
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition:
+      opacity var(--dur-slow) var(--ease-out),
+      transform var(--dur-base) var(--ease-out),
+      background var(--dur-fast) var(--ease-out);
+    z-index: 20;
+  }
+
+  .back-to-top[data-visible="true"] {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .back-to-top:hover {
+    transform: translateY(-2px);
+    background: rgba(184, 184, 184, 0.98);
+    color: #ffffff;
+  }
+
+  .back-to-top svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  @media (max-width: 640px) {
+    .back-to-top {
+      right: 20px;
+      bottom: 20px;
+      width: 62px;
+      height: 62px;
+    }
+
+    .back-to-top svg {
+      width: 25px;
+      height: 25px;
+    }
+  }
+</style>

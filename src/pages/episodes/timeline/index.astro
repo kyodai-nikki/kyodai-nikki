@@ -3,6 +3,7 @@
 //   - 左：シーズン一覧（クイックジャンプ、sticky）
 //   - 右：シーズン毎にまとまった縦タイムライン
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/PageHeading.astro";
 import {
   seasons,
   episodesTimeline,
@@ -27,9 +28,7 @@ const grouped = seasons.map((s) => ({
 ---
 <BaseLayout title="Timeline | Episodes" description="兄弟日記 全エピソードのタイムライン。">
   <section class="section container">
-    <header class="section-head section-head--center">
-      <h1 class="ep-heading">Episodes</h1>
-    </header>
+    <PageHeading title="Episodes" />
 
     {/* シーズン切替タブ＋ timeline -------------------------- */}
     <nav class="ep-seasons" aria-label="シーズン切替">
@@ -94,14 +93,6 @@ const grouped = seasons.map((s) => ({
 </BaseLayout>
 
 <style>
-  .ep-heading {
-    font-family: var(--f-serif);
-    font-size: var(--fs-3xl);
-    font-weight: var(--fw-bold);
-    letter-spacing: 0.02em;
-    margin: 0;
-  }
-
   /* ====== シーズンタブ（共通スタイル） ====== */
   .ep-seasons {
     display: flex;
@@ -128,7 +119,7 @@ const grouped = seasons.map((s) => ({
     right: 50%;
     bottom: -3px;
     height: 2px;
-    background: var(--c-accent-cyan);
+    background: var(--c-site-cyan);
     transition: left var(--dur-base) var(--ease-out),
                 right var(--dur-base) var(--ease-out);
     pointer-events: none;
@@ -141,7 +132,7 @@ const grouped = seasons.map((s) => ({
   .ep-seasons a[aria-current="page"]::after {
     left: 0;
     right: 0;
-    background: var(--c-accent-pink);
+    background: var(--c-site-pink);
     transition: none;
   }
 
@@ -197,7 +188,7 @@ const grouped = seasons.map((s) => ({
     scroll-margin-top: var(--s-5);
   }
   .tl-season__head {
-    background: var(--c-accent-cyan);
+    background: var(--c-site-cyan);
     color: #ffffff;
     padding: var(--s-3) var(--s-4);
     margin-bottom: var(--s-5);

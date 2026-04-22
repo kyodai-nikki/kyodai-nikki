@@ -13,6 +13,7 @@ import {
   firstEpisodeOfSeason,
   type EpisodeEntry,
 } from "../data/episodes";
+import PageHeading from "./PageHeading.astro";
 
 type EpisodeMeta = EpisodeEntry & {
   badge?: string;
@@ -27,6 +28,8 @@ interface Props {
 
 const { activeSeason, selected, activeSlug } = Astro.props as Props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const dummySummary = `${base}/images/episodes/dummy-summary.svg`;
+const dummyDetail = `${base}/images/episodes/dummy-detail.svg`;
 
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
 const list = episodesBySeason(activeSeason);
@@ -64,9 +67,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
 ---
 
 <section class="section container">
-  <header class="section-head section-head--center">
-    <h1 class="ep-heading">Episodes</h1>
-  </header>
+  <PageHeading title="Episodes" />
 
   {/* シーズン切替タブ＋ timeline -------------------------- */}
   <nav class="ep-seasons" aria-label="Season navigation">
@@ -93,7 +94,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
             <a
               class={itemClass(e)}
               href={epUrl(e)}
-              style={e.summaryImage ? `--ep-bg: url('${base + e.summaryImage}');` : undefined}
+              style={`--ep-bg: url('${dummySummary}');`}
             >
               <span class="ep-item__no">{numberLabel(e)}</span>
               <span class="ep-item__title">{e.title}</span>
@@ -110,7 +111,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
           <div class="ep-detail__image-wrap">
             <img
               class="ep-detail__image"
-              src={base + current.detailImage}
+              src={dummyDetail}
               alt={`${current.title} main visual`}
             />
           </div>
@@ -154,14 +155,6 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
 </section>
 
 <style>
-  .ep-heading {
-    font-family: var(--f-serif);
-    font-size: var(--fs-3xl);
-    font-weight: var(--fw-bold);
-    letter-spacing: 0.02em;
-    margin: 0;
-  }
-
   /* ====== シーズンタブ（chars-tabs と同等のアニメーション） ====== */
   .ep-seasons {
     display: flex;
@@ -188,7 +181,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
     right: 50%;
     bottom: -3px;
     height: 2px;
-    background: var(--c-accent-cyan);
+    background: var(--c-site-cyan);
     transition: left var(--dur-base) var(--ease-out),
       right var(--dur-base) var(--ease-out);
     pointer-events: none;
@@ -201,7 +194,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
   .ep-seasons a[aria-current="page"]::after {
     left: 0;
     right: 0;
-    background: var(--c-accent-pink);
+    background: var(--c-site-pink);
     transition: none;
   }
 

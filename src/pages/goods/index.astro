@@ -1,26 +1,29 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/PageHeading.astro";
 import { goods } from "../../data/goods";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
-<BaseLayout title="Goods" description="公式グッズ・物販情報。">
+<BaseLayout title="Goods" description="公式グッズ・関連商品情報。">
   <section class="section container">
-    <header class="stack-sm section-head">
-      <p class="card__eyebrow">Goods</p>
-      <h1>グッズ</h1>
-    </header>
+    <PageHeading title="グッズ" eyebrow="Goods" centered={false} />
 
     {goods.length === 0 ? (
       <p style="color: var(--c-fg-muted);">
-        商品を追加するには <code>src/data/goods.ts</code> の <code>goods</code> 配列を編集してください。
+        商品を追加するには <code>src/data/goods.ts</code> の <code>goods</code> 配列を更新してください。
       </p>
     ) : (
       <div class="card-grid">
         {goods.map((g) => (
           <a class="card" href={g.url} target="_blank" rel="noopener">
             {g.image && (
-              <img src={base + g.image} alt={g.title} loading="lazy" style="border-radius: var(--r-sm); aspect-ratio: 1 / 1; object-fit: cover;" />
+              <img
+                src={base + g.image}
+                alt={g.title}
+                loading="lazy"
+                style="border-radius: var(--r-sm); aspect-ratio: 1 / 1; object-fit: cover;"
+              />
             )}
             <h3 class="card__title">{g.title}</h3>
             {g.price && <div class="card__meta"><span>{g.price}</span></div>}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Character dummy portrait</title>
+  <desc id="desc">A tall placeholder portrait used for the character list.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1eadf" />
+      <stop offset="50%" stop-color="#dfe9f5" />
+      <stop offset="100%" stop-color="#f2e4ea" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="1500" fill="url(#bg)" />
+  <circle cx="300" cy="340" r="120" fill="#fff" fill-opacity=".55" />
+  <path d="M162 856c0-170 76-314 138-314s138 144 138 314v302H162Z" fill="#1d2735" />
+  <rect x="183" y="1008" width="234" height="320" rx="24" fill="#293649" />
+  <path d="M208 524c0-72 41-132 92-132s92 60 92 132-41 149-92 149-92-77-92-149Z" fill="#f6e7d8" />
+  <path d="M194 516c0-118 66-188 106-188 68 0 115 58 115 164 0 15-1 29-4 42-36-37-77-58-123-65-31-4-63 10-94 47Z" fill="#20242d" />
+  <text x="300" y="1412" text-anchor="middle" fill="#4d4d4d" font-size="44" font-family="Noto Serif JP, serif">Dummy Portrait</text>
+</svg>

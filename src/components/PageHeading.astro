@@ -1,0 +1,31 @@
+---
+interface Props {
+  title: string;
+  eyebrow?: string;
+  centered?: boolean;
+}
+
+const { title, eyebrow, centered = true } = Astro.props;
+---
+
+<header class:list={["page-heading", "section-head", centered && "section-head--center", eyebrow && "stack-sm"]}>
+  {eyebrow && <p class="card__eyebrow">{eyebrow}</p>}
+  <h1 class="page-heading__title">{title}</h1>
+</header>
+
+<style>
+  .page-heading__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: 48px;
+    font-weight: var(--fw-regular);
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+  }
+
+  @media (max-width: 640px) {
+    .page-heading__title {
+      font-size: 36px;
+    }
+  }
+</style>

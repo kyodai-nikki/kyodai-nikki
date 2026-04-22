@@ -1,28 +1,18 @@
-/* Site Header / Nav
-   ---------------------------------------------------------
-   kyodai-nikki.com の 2 段構成ヘッダーを踏襲。
-   - 上段：ロゴ左 / SNS アイコン右
-   - 下段：ナビ横並び（センター寄り）
-   - 背景は純白、影や色は使わず極薄のグレー罫線で区切る
-   --------------------------------------------------------- */
-
 .site-header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: saturate(1.2) blur(8px);
-  -webkit-backdrop-filter: saturate(1.2) blur(8px);
+  background: #ffffff;
   border-bottom: 1px solid var(--c-border);
 }
 
-/* --- 上段：ブランド + ソーシャル ---------------------- */
 .site-header__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: var(--s-5);
   height: var(--h-header-top);
+  background: #ffffff;
 }
 
 .site-brand {
@@ -36,6 +26,7 @@
   text-decoration: none;
   letter-spacing: var(--ls-normal);
 }
+
 .site-brand__tag {
   font-family: var(--f-sans);
   font-size: var(--fs-xs);
@@ -49,6 +40,7 @@
   align-items: center;
   gap: var(--s-3);
 }
+
 .site-social a {
   display: inline-flex;
   align-items: center;
@@ -59,19 +51,27 @@
   border-radius: var(--r-full);
   transition: color var(--dur-fast) var(--ease-out);
 }
-.site-social a:hover { color: var(--c-fg-muted); }
+
+.site-social a:hover {
+  color: var(--c-fg-muted);
+}
+
 .site-social svg {
   width: 18px;
   height: 18px;
   fill: currentColor;
 }
 
-/* --- 下段：ナビ -------------------------------------- */
 .site-header__nav {
+  position: relative;
+  z-index: 11;
   display: flex;
-  justify-content: center;   /* kyodai-nikki のようにセンター寄せ */
-  border-top: 1px solid var(--c-border);
+  justify-content: center;
   min-height: var(--h-header-nav);
+  border-top: 1px solid var(--c-border);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: saturate(1.2) blur(8px);
+  -webkit-backdrop-filter: saturate(1.2) blur(8px);
 }
 
 .site-nav {
@@ -82,28 +82,26 @@
   justify-content: center;
   padding: var(--s-2) 0;
 }
+
 .site-nav a {
   display: inline-block;
-  color: var(--c-fg);
+  color: #5f5f5f;
   text-decoration: none;
   font-family: var(--f-serif);
-  font-size: var(--fs-sm);
+  font-size: 20px;
   font-weight: var(--fw-regular);
-  letter-spacing: var(--ls-wide);
+  letter-spacing: 0;
   padding: var(--s-2) 0;
   position: relative;
   transition: color var(--dur-fast) var(--ease-out);
 }
-.site-nav a:hover { color: var(--c-fg-muted); }
-.site-nav a[aria-current="page"]::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -2px;
-  width: 20px;
-  height: 1px;
-  background: var(--c-fg);
+
+.site-nav a:hover {
+  color: var(--c-site-cyan);
+}
+
+.site-nav a[aria-current="page"] {
+  color: var(--c-site-pink);
 }
 
 .nav-toggle {
@@ -117,25 +115,31 @@
   color: var(--c-fg);
 }
 
-/* 中間幅ではナビ項目のギャップを詰めて 1 行を維持 */
 @media (max-width: 1024px) {
-  .site-nav { gap: var(--s-5); }
-  .site-nav a { font-size: var(--fs-xs); }
+  .site-nav {
+    gap: var(--s-5);
+  }
+
+  .site-nav a {
+    font-size: var(--fs-xs);
+  }
 }
 
-/* 狭い画面ではドロワー表示（8 項目あるので早めに切替） */
 @media (max-width: 860px) {
-  .site-header__top { height: 60px; }
-  .site-header__nav {
-    position: relative;
-    min-height: 0;
-    border-top: 0;
+  .site-header__top {
+    height: 60px;
   }
+
+  .site-header__nav {
+    min-height: 0;
+  }
+
   .site-nav {
     display: none;
     position: absolute;
     top: 100%;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     flex-direction: column;
     align-items: stretch;
     padding: var(--s-3) var(--s-5);
@@ -145,14 +149,23 @@
     gap: 0;
     z-index: 9;
   }
-  .site-nav[data-open="true"] { display: flex; }
+
+  .site-nav[data-open="true"] {
+    display: flex;
+  }
+
   .site-nav a {
     padding: var(--s-3) 0;
     border-bottom: 1px solid var(--c-border);
     font-size: var(--fs-sm);
     text-align: left;
   }
-  .site-nav a:last-child { border-bottom: 0; }
-  .site-nav a[aria-current="page"]::after { display: none; }
-  .nav-toggle { display: inline-flex; }
+
+  .site-nav a:last-child {
+    border-bottom: 0;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+  }
 }

@@ -1,73 +1,48 @@
-/* Site Footer
-   ---------------------------------------------------------
-   kyodai-nikki 準拠：中央寄せの簡素なブロック。
-   ブランド名 → 著作表記 → Share 行 の順。
-   --------------------------------------------------------- */
-
 .site-footer {
-  margin-top: var(--s-9);
-  padding-block: var(--s-7) var(--s-6);
+  padding-block: 32px 20px;
   border-top: 1px solid var(--c-border);
   background: #ffffff;
-  color: var(--c-fg-muted);
-  font-size: var(--fs-sm);
   text-align: center;
+}
+
+.site-footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
 
 .site-footer__brand {
   font-family: var(--f-serif);
-  font-size: var(--fs-lg);
+  font-size: 48px;
+  line-height: 1.1;
   color: var(--c-fg);
-  font-weight: var(--fw-bold);
-  margin-bottom: var(--s-3);
+  font-weight: var(--fw-regular);
 }
 
 .site-footer__copyright {
-  font-size: var(--fs-xs);
-  color: var(--c-fg-muted);
-  letter-spacing: var(--ls-wide);
-  margin-bottom: var(--s-3);
+  font-family: var(--f-serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: #6a6a6a;
 }
 
 .site-footer__share {
   display: inline-flex;
   align-items: center;
-  gap: var(--s-3);
-  font-size: var(--fs-xs);
-  letter-spacing: var(--ls-wide);
-  color: var(--c-fg-muted);
+  gap: 10px;
+  font-family: var(--f-serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: #4d4d4d;
 }
-.site-footer__share a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  color: var(--c-fg-muted);
-}
-.site-footer__share a:hover { color: var(--c-fg); }
-.site-footer__share svg {
-  width: 14px;
-  height: 14px;
-  fill: currentColor;
-}
-
-.site-footer__links {
-  list-style: none;
-  padding: 0;
-  margin: var(--s-4) 0 0;
-  display: inline-flex;
-  gap: var(--s-5);
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.site-footer__links a {
-  color: var(--c-fg-muted);
-  font-size: var(--fs-xs);
-  letter-spacing: var(--ls-wide);
-}
-.site-footer__links a:hover { color: var(--c-fg); }
 
 @media (max-width: 640px) {
-  .site-footer { padding-block: var(--s-6) var(--s-5); }
+  .site-footer {
+    padding-block: 28px 18px;
+  }
+
+  .site-footer__brand {
+    font-size: 40px;
+  }
 }

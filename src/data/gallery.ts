@@ -1,16 +1,39 @@
-// =========================================================
-// Gallery ページ（/gallery/）の画像一覧
-// ---------------------------------------------------------
-// 画像は public/images/gallery/ 配下に置いて、
-// src のパスは "/images/gallery/xxx.jpg" の形で指定する。
-// =========================================================
-
 export interface GalleryImage {
-  src: string;     // public/ からの相対パス（先頭 "/"）
-  alt: string;     // 代替テキスト（必須）
+  src: string;
+  alt: string;
   caption?: string;
+  title?: string;
+  description?: string;
+  detailSrcs?: string[];
+  creditName?: string;
+  creditUrl?: string;
+  twitterId?: string;
+  buttonLabel?: string;
 }
 
 export const images: GalleryImage[] = [
-  // { src: "/images/gallery/ep01-01.jpg", alt: "第1話 冒頭シーン", caption: "街道沿いの林" },
+  {
+    src: "/images/gallery/dummy-01.svg",
+    alt: "ギャラリー動作確認用のダミー画像",
+    caption: "ダミー画像",
+    title: "ギャラリー確認用",
+    description: "ポップアップの表示確認用に追加したダミー画像です。",
+    detailSrcs: ["/images/gallery/dummy-01.svg"],
+    creditName: "Codex dummy asset",
+    twitterId: "openai",
+    buttonLabel: "戻る",
+  },
+  // Example:
+  // {
+  //   src: "/images/gallery/sample.jpg",
+  //   alt: "Sample artwork",
+  //   caption: "Sample caption",
+  //   title: "Sample artwork",
+  //   description: "Any short note you want to show in the popup.",
+  //   detailSrcs: ["/images/gallery/sample.jpg"],
+  //   creditName: "Artist name",
+  //   creditUrl: "https://example.com",
+  //   twitterId: "artist_id",
+  //   buttonLabel: "Back",
+  // },
 ];

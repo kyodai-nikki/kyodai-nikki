@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/PageHeading.astro";
 import { paragraphs } from "../../data/introduction";
 ---
 <BaseLayout
@@ -7,9 +8,7 @@ import { paragraphs } from "../../data/introduction";
   description="兄弟日記 シリーズ紹介。あらすじ・作品概要。"
 >
   <section class="section container">
-    <header class="section-head section-head--center">
-      <h1 class="intro-heading">Introduction</h1>
-    </header>
+    <PageHeading title="Introduction" />
 
     <div class="intro-box">
       {paragraphs.map((p) => (
@@ -20,14 +19,6 @@ import { paragraphs } from "../../data/introduction";
 </BaseLayout>
 
 <style>
-  .intro-heading {
-    font-family: var(--f-serif);
-    font-size: var(--fs-3xl);
-    font-weight: var(--fw-bold);
-    letter-spacing: 0.02em;
-    margin: 0;
-  }
-
   /* 中央の文章ボックス：罫線だけの素朴な四角。
      ページに入った瞬間、横からふわっとスライドインしてくる */
   .intro-box {

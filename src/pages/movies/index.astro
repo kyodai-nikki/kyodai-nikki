@@ -1,21 +1,18 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/PageHeading.astro";
 import { videos, type Video } from "../../data/movies";
 
-const embedUrl = (v: Video) =>
-  `https://www.youtube-nocookie.com/embed/${v.id}`;
+const embedUrl = (v: Video) => `https://www.youtube-nocookie.com/embed/${v.id}`;
 ---
-<BaseLayout title="Movies" description="動画アーカイブ。プレイ動画・ダイジェストなど。">
+<BaseLayout title="Movies" description="PV・動画・ダイジェストなど。">
   <section class="section container">
-    <header class="stack-sm section-head">
-      <p class="card__eyebrow">Movies</p>
-      <h1>動画</h1>
-    </header>
+    <PageHeading title="動画" eyebrow="Movies" centered={false} />
 
     {videos.length === 0 ? (
       <p style="color: var(--c-fg-muted);">
         動画を追加するには <code>src/data/movies.ts</code> の <code>videos</code> 配列に
-        YouTube の動画 ID とタイトルを入れてください。
+        YouTube の動画 ID とタイトルを記入してください。
       </p>
     ) : (
       <div class="card-grid" style="--min: 320px;">
