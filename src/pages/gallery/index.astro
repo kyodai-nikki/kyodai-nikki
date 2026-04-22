@@ -1,16 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/PageHeading.astro";
+import GalleryModal from "../../components/GalleryModal.astro";
 import { images } from "../../data/gallery";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
 ---
-<BaseLayout
-  title="Gallery"
-  description="スチル・挿絵などのギャラリー。"
-  bodyClass="gallery-page"
->
+<BaseLayout title="Gallery" description="スチル・挿絵などのギャラリー。" bodyClass="gallery-page">
   <section class="gallery section">
     <div class="container">
       <PageHeading title="Gallery" />
@@ -21,183 +18,59 @@ const withBase = (path: string) => `${base}${path}`;
           <code>src/data/gallery.ts</code> の <code>images</code> 配列に記入してください。
         </p>
       ) : (
-        <div class="gallery-grid" aria-label="Gallery image list">
+        <>
+          <div class="gallery-grid" aria-label="Gallery image list">
+            {images.map((img, index) => {
+              const modalId = `gallery-modal-${index}`;
+              const modalTitle = img.title ?? img.caption ?? img.alt;
+
+              return (
+                <button
+                  class="gallery-card"
+                  type="button"
+                  aria-label={`${modalTitle} を開く`}
+                  data-modal-open={modalId}
+                  style={`--delay:${index * 30}ms;`}
+                >
+                  <img
+                    src={withBase(img.src)}
+                    alt={img.alt}
+                    loading="lazy"
+                    width="640"
+                    height="480"
+                  />
+                </button>
+              );
+            })}
+          </div>
+
           {images.map((img, index) => {
+            const modalId = `gallery-modal-${index}`;
             const modalTitle = img.title ?? img.caption ?? img.alt;
-            const modalDescription = img.description ?? "";
-            const detailSrcs = (img.detailSrcs?.length ? img.detailSrcs : [img.src]).map(withBase);
+            const modalDescription = img.description ?? img.caption ?? "";
+            const detailSrcs = (img.detailSrcs?.length ? img.detailSrcs : [img.src]).map((src) => ({
+              src: withBase(src),
+              alt: img.alt,
+            }));
 
             return (
-              <button
-                class="gallery-card"
-                type="button"
-                aria-label={`${modalTitle} を開く`}
-                data-gallery-trigger
-                data-title={modalTitle}
-                data-description={modalDescription}
-                data-caption={img.caption ?? ""}
-                data-credit-name={img.creditName ?? ""}
-                data-credit-url={img.creditUrl ?? ""}
-                data-twitter-id={img.twitterId ?? ""}
-                data-button-label={img.buttonLabel ?? "戻る"}
-                data-detail-srcs={JSON.stringify(detailSrcs)}
-                data-detail-alt={img.alt}
-                style={`--delay:${index * 30}ms;`}
-              >
-                <img
-                  src={withBase(img.src)}
-                  alt={img.alt}
-                  loading="lazy"
-                  width="640"
-                  height="480"
-                />
-              </button>
+              <GalleryModal
+                id={modalId}
+                title={modalTitle}
+                description={modalDescription}
+                images={detailSrcs}
+                creditName={img.creditName}
+                creditUrl={img.creditUrl}
+                twitterId={img.twitterId}
+                buttonLabel={img.buttonLabel}
+              />
             );
           })}
-        </div>
+        </>
       )}
     </div>
   </section>
-
-  <dialog class="gallery-modal" data-gallery-modal aria-label="Gallery image details">
-    <div class="gallery-modal__panel">
-      <button class="gallery-modal__close" type="button" aria-label="Close popup" data-gallery-close>
-        ×
-      </button>
-
-      <div class="gallery-modal__body">
-        <div class="gallery-modal__images" data-gallery-images></div>
-
-        <div class="gallery-modal__copy">
-          <p class="gallery-modal__title" data-gallery-title></p>
-          <p class="gallery-modal__description" data-gallery-description hidden></p>
-          <p class="gallery-modal__credit" data-gallery-credit hidden></p>
-          <a
-            class="gallery-modal__credit-link"
-            data-gallery-credit-link
-            hidden
-            target="_blank"
-            rel="noopener"
-          ></a>
-          <a
-            class="gallery-modal__twitter"
-            data-gallery-twitter
-            hidden
-            target="_blank"
-            rel="noopener"
-          ></a>
-          <button class="gallery-modal__back" type="button" data-gallery-close>戻る</button>
-        </div>
-      </div>
-    </div>
-  </dialog>
 </BaseLayout>
-
-<script>
-  const dialog = document.querySelector("[data-gallery-modal]");
-
-  if (dialog instanceof HTMLDialogElement) {
-    let isClosing = false;
-    const imagesRoot = dialog.querySelector("[data-gallery-images]");
-    const title = dialog.querySelector("[data-gallery-title]");
-    const description = dialog.querySelector("[data-gallery-description]");
-    const credit = dialog.querySelector("[data-gallery-credit]");
-    const creditLink = dialog.querySelector("[data-gallery-credit-link]");
-    const twitterLink = dialog.querySelector("[data-gallery-twitter]");
-    const backButton = dialog.querySelector(".gallery-modal__back");
-    const closeButtons = dialog.querySelectorAll("[data-gallery-close]");
-    const triggers = document.querySelectorAll("[data-gallery-trigger]");
-
-    const setText = (element, value) => {
-      if (!(element instanceof HTMLElement)) return;
-      const visible = Boolean(value);
-      element.hidden = !visible;
-      element.textContent = value ?? "";
-    };
-
-    const setCreditLink = (label, href) => {
-      if (!(creditLink instanceof HTMLAnchorElement)) return;
-      const visible = Boolean(label && href);
-      creditLink.hidden = !visible;
-      creditLink.textContent = visible ? href : "";
-      creditLink.href = visible ? href : "";
-      creditLink.setAttribute("aria-label", visible ? `${label} のリンクを開く` : "");
-    };
-
-    const setTwitterLink = (twitterId) => {
-      if (!(twitterLink instanceof HTMLAnchorElement)) return;
-
-      const normalizedId = (twitterId ?? "").replace(/^@+/, "").trim();
-      const visible = Boolean(normalizedId);
-
-      twitterLink.hidden = !visible;
-      twitterLink.textContent = visible ? `(TwitterID: @${normalizedId})` : "";
-      twitterLink.href = visible ? `https://x.com/${normalizedId}` : "";
-      twitterLink.setAttribute("aria-label", visible ? `@${normalizedId} のXプロフィールを開く` : "");
-    };
-
-    const renderImages = (sources, alt) => {
-      if (!(imagesRoot instanceof HTMLElement)) return;
-      imagesRoot.innerHTML = "";
-
-      sources.forEach((src, index) => {
-        const image = document.createElement("img");
-        image.src = src;
-        image.alt = index === 0 ? alt : `${alt} ${index + 1}`;
-        image.loading = "eager";
-        imagesRoot.appendChild(image);
-      });
-    };
-
-    const closeWithAnimation = () => {
-      if (isClosing || !dialog.open) return;
-      isClosing = true;
-      dialog.dataset.state = "closing";
-
-      window.setTimeout(() => {
-        dialog.close();
-        dialog.dataset.state = "";
-        isClosing = false;
-      }, 220);
-    };
-
-    triggers.forEach((trigger) => {
-      trigger.addEventListener("click", () => {
-        if (!(trigger instanceof HTMLButtonElement)) return;
-
-        const detailSrcs = JSON.parse(trigger.dataset.detailSrcs ?? "[]");
-        renderImages(Array.isArray(detailSrcs) ? detailSrcs : [], trigger.dataset.detailAlt ?? "");
-        setText(title, trigger.dataset.title ?? "");
-        setText(description, trigger.dataset.description || trigger.dataset.caption || "");
-        setText(credit, trigger.dataset.creditName ?? "");
-        setCreditLink(trigger.dataset.creditName ?? "", trigger.dataset.creditUrl ?? "");
-        setTwitterLink(trigger.dataset.twitterId ?? "");
-
-        if (backButton instanceof HTMLButtonElement) {
-          backButton.textContent = trigger.dataset.buttonLabel ?? "戻る";
-        }
-
-        dialog.dataset.state = "open";
-        dialog.showModal();
-      });
-    });
-
-    closeButtons.forEach((button) => {
-      button.addEventListener("click", closeWithAnimation);
-    });
-
-    dialog.addEventListener("click", (event) => {
-      const bounds = dialog.getBoundingClientRect();
-      const isBackdropClick =
-        event.clientX < bounds.left ||
-        event.clientX > bounds.right ||
-        event.clientY < bounds.top ||
-        event.clientY > bounds.bottom;
-
-      if (isBackdropClick) closeWithAnimation();
-    });
-  }
-</script>
 
 <style>
   .gallery {
@@ -253,181 +126,10 @@ const withBase = (path: string) => `${base}${path}`;
     object-fit: cover;
   }
 
-  .gallery-modal {
-    width: min(900px, calc(100vw - 40px));
-    max-height: calc(100dvh - 40px);
-    padding: 0;
-    border: 1px solid rgba(17, 17, 17, 0.75);
-    background: #fff;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.22);
-    opacity: 0;
-    transform: translateY(56px);
-    will-change: transform, opacity;
-  }
-
-  .gallery-modal::backdrop {
-    background: rgba(0, 0, 0, 0.24);
-  }
-
-  .gallery-modal[open] {
-    animation: gallery-window-rise 280ms var(--ease-out) forwards;
-  }
-
-  .gallery-modal[open][data-state="closing"] {
-    animation: gallery-window-fade-out 220ms ease-out forwards;
-  }
-
-  .gallery-modal[open]::backdrop {
-    animation: gallery-backdrop-in 260ms ease-out forwards;
-  }
-
-  .gallery-modal[open][data-state="closing"]::backdrop {
-    animation: gallery-backdrop-out 220ms ease-out forwards;
-  }
-
-  .gallery-modal__panel {
-    position: relative;
-    max-height: calc(100dvh - 40px);
-    padding: 56px 48px 48px;
-    overflow: auto;
-  }
-
-  .gallery-modal__close {
-    position: absolute;
-    top: 18px;
-    right: 18px;
-    border: 0;
-    background: transparent;
-    color: var(--c-fg);
-    font-size: 2rem;
-    line-height: 1;
-    cursor: pointer;
-  }
-
-  .gallery-modal__body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
-  }
-
-  .gallery-modal__images {
-    width: min(100%, 420px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 28px;
-  }
-
-  .gallery-modal__images img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    background: #fff;
-  }
-
-  .gallery-modal__copy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    text-align: center;
-    color: #5b5b5b;
-  }
-
-  .gallery-modal__title {
-    margin: 0;
-    font-family: var(--f-serif);
-    font-size: clamp(1.375rem, 2vw, 1.75rem);
-    color: var(--c-fg);
-  }
-
-  .gallery-modal__description,
-  .gallery-modal__credit {
-    margin: 0;
-    font-size: 1rem;
-  }
-
-  .gallery-modal__credit-link {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  .gallery-modal__twitter {
-    color: inherit;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-  }
-
-  .gallery-modal__back {
-    margin-top: 10px;
-    min-width: 90px;
-    padding: 10px 22px;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    background: #fff;
-    color: var(--c-fg);
-    font-family: var(--f-serif);
-    font-size: 1rem;
-    cursor: pointer;
-    transition:
-      background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out);
-  }
-
-  .gallery-modal__back:hover {
-    background: var(--c-fg);
-    color: #fff;
-  }
-
   @keyframes gallery-in {
     to {
       transform: translateY(0);
       opacity: 1;
-    }
-  }
-
-  @keyframes gallery-backdrop-in {
-    from {
-      background: rgba(0, 0, 0, 0);
-    }
-
-    to {
-      background: rgba(0, 0, 0, 0.24);
-    }
-  }
-
-  @keyframes gallery-backdrop-out {
-    from {
-      background: rgba(0, 0, 0, 0.24);
-    }
-
-    to {
-      background: rgba(0, 0, 0, 0);
-    }
-  }
-
-  @keyframes gallery-window-rise {
-    from {
-      transform: translateY(56px);
-      opacity: 0;
-    }
-
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
-  @keyframes gallery-window-fade-out {
-    from {
-      transform: translateY(0);
-      opacity: 1;
-    }
-
-    to {
-      transform: translateY(28px);
-      opacity: 0;
     }
   }
 
@@ -445,19 +147,6 @@ const withBase = (path: string) => `${base}${path}`;
     .gallery-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
-    }
-
-    .gallery-modal {
-      width: min(100vw - 20px, 680px);
-    }
-
-    .gallery-modal__panel {
-      padding: 48px 20px 28px;
-    }
-
-    .gallery-modal__images {
-      width: min(100%, 320px);
-      gap: 20px;
     }
   }
 

@@ -1,24 +1,22 @@
-// =========================================================
-// Goods ページ（/goods/）の物販情報
-// ---------------------------------------------------------
-// image: public/ 配下のパス（例 "/images/goods/xxx.jpg"）
-// url:   BOOTH / STORES などの商品ページURL
-// =========================================================
-
 export interface GoodsItem {
   title: string;
-  url: string;
-  image?: string;
-  price?: string;
-  note?: string;
+  url?: string;
+  image: string;
+  detailImage?: string;
+  description?: string;
+  saleLabel?: string;
+  buttonLabel?: string;
 }
 
 export const goods: GoodsItem[] = [
+  // Example:
   // {
-  //   title: "第1シーズン スペシャルブックレット",
-  //   image: "/images/goods/booklet-01.jpg",
-  //   price: "¥1,500",
+  //   title: "ふくふく缶バッジ",
+  //   image: "/images/goods/can-badge-thumb.jpg",
+  //   detailImage: "/images/goods/can-badge-detail.jpg",
+  //   description: "クッション素材入りの厚みがある缶バッジです。",
   //   url: "https://example.booth.pm/items/xxxx",
-  //   note: "全32p / 特典ポストカード付",
+  //   saleLabel: "販売ページ",
+  //   buttonLabel: "戻る",
   // },
 ];

@@ -1,0 +1,128 @@
+---
+import Modal from "./Modal.astro";
+
+interface Props {
+  id: string;
+  title: string;
+  image: string;
+  description?: string;
+  saleUrl?: string;
+  saleLabel?: string;
+  buttonLabel?: string;
+}
+
+const {
+  id,
+  title,
+  image,
+  description = "",
+  saleUrl,
+  saleLabel = "販売ページ",
+  buttonLabel = "戻る",
+} = Astro.props;
+---
+
+<Modal id={id} ariaLabel={`${title} details`} panelClass="goods-modal-panel">
+  <div class="goods-modal">
+    <div class="goods-modal__image-wrap">
+      <img class="goods-modal__image" src={image} alt={title} loading="eager" />
+    </div>
+
+    <div class="goods-modal__copy">
+      <p class="goods-modal__title">{title}</p>
+      {description && <p class="goods-modal__description">{description}</p>}
+
+      <div class="goods-modal__actions">
+        {saleUrl && (
+          <a class="goods-modal__action" href={saleUrl} target="_blank" rel="noopener">
+            {saleLabel}
+          </a>
+        )}
+        <button class="goods-modal__action" type="button" data-modal-close>{buttonLabel}</button>
+      </div>
+    </div>
+  </div>
+</Modal>
+
+<style>
+  .goods-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .goods-modal__image-wrap {
+    width: min(100%, 530px);
+  }
+
+  .goods-modal__image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+  .goods-modal__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: #5b5b5b;
+  }
+
+  .goods-modal__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: clamp(1.375rem, 2vw, 1.75rem);
+    color: var(--c-fg);
+  }
+
+  .goods-modal__description {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+
+  .goods-modal__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 12px;
+  }
+
+  .goods-modal__action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    padding: 12px 22px;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: #fff;
+    color: var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .goods-modal__action:hover {
+    background: var(--c-fg);
+    color: #fff;
+  }
+
+  @media (max-width: 720px) {
+    .goods-modal__image-wrap {
+      width: 100%;
+    }
+
+    .goods-modal__actions {
+      gap: 14px;
+    }
+  }
+</style>

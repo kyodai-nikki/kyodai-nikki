@@ -1,10 +1,3 @@
-// =========================================================
-// Movies ページ（/movies/）の動画一覧
-// ---------------------------------------------------------
-// id: YouTube 動画 ID（URL `v=` パラメータの値）
-// title: 動画タイトル（iframe の title / 見出しに使用）
-// =========================================================
-
 export interface Video {
   id: string;
   title: string;
@@ -12,5 +5,25 @@ export interface Video {
 }
 
 export const videos: Video[] = [
-  // { id: "dQw4w9WgXcQ", title: "第1話 プレビュー", platform: "youtube" },
+  {
+    id: "j0b8G0JUblI",
+    title: "なんてねのワンシーン",
+    platform: "youtube",
+  },
+  {
+    id: "TkM1iUDaG7U",
+    title: "傘に臨界のおまけ",
+    platform: "youtube",
+  },
+  {
+    id: "HvMEQ0rm89g",
+    title: "死にたがり電車のエピローグ",
+    platform: "youtube",
+  },
+  {
+    id: "-7r_-aiUACI",
+    title: "染谷兄弟で「パンこげこげになっちゃった」",
+    platform: "youtube",
+  },
+  { id: "kjXmpEishoM", title: "兄弟で「混沌ブギ」", platform: "youtube" },
 ];

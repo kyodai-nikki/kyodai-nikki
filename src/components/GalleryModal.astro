@@ -1,0 +1,133 @@
+---
+import Modal from "./Modal.astro";
+
+interface Props {
+  id: string;
+  title: string;
+  description?: string;
+  images: { src: string; alt: string }[];
+  creditName?: string;
+  creditUrl?: string;
+  twitterId?: string;
+  buttonLabel?: string;
+}
+
+const {
+  id,
+  title,
+  description = "",
+  images,
+  creditName,
+  creditUrl,
+  twitterId,
+  buttonLabel = "戻る",
+} = Astro.props;
+
+const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
+---
+
+<Modal id={id} ariaLabel={`${title} details`} panelClass="gallery-modal-panel">
+  <div class="gallery-modal">
+    <div class="gallery-modal__images">
+      {images.map((image, index) => (
+        <img src={image.src} alt={index === 0 ? image.alt : `${image.alt} ${index + 1}`} loading="eager" />
+      ))}
+    </div>
+
+    <div class="gallery-modal__copy">
+      <p class="gallery-modal__title">{title}</p>
+      {description && <p class="gallery-modal__description">{description}</p>}
+      {creditName && <p class="gallery-modal__credit">{creditName}</p>}
+      {creditUrl && (
+        <a class="gallery-modal__link" href={creditUrl} target="_blank" rel="noopener">
+          {creditUrl}
+        </a>
+      )}
+      {normalizedTwitterId && (
+        <a class="gallery-modal__link" href={`https://x.com/${normalizedTwitterId}`} target="_blank" rel="noopener">
+          (TwitterID: @{normalizedTwitterId})
+        </a>
+      )}
+      <button class="gallery-modal__back" type="button" data-modal-close>{buttonLabel}</button>
+    </div>
+  </div>
+</Modal>
+
+<style>
+  .gallery-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .gallery-modal__images {
+    width: min(100%, 420px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .gallery-modal__images img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: #fff;
+  }
+
+  .gallery-modal__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+    color: #5b5b5b;
+  }
+
+  .gallery-modal__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: clamp(1.375rem, 2vw, 1.75rem);
+    color: var(--c-fg);
+  }
+
+  .gallery-modal__description,
+  .gallery-modal__credit {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .gallery-modal__link {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .gallery-modal__back {
+    margin-top: 10px;
+    min-width: 90px;
+    padding: 10px 22px;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: #fff;
+    color: var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: 1rem;
+    cursor: pointer;
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .gallery-modal__back:hover {
+    background: var(--c-fg);
+    color: #fff;
+  }
+
+  @media (max-width: 720px) {
+    .gallery-modal__images {
+      width: min(100%, 320px);
+      gap: 20px;
+    }
+  }
+</style>
