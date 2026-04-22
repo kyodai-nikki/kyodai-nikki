@@ -388,7 +388,146 @@ export const episodes: Season[] = [
     number: 3,
     label: "3rd season",
     slug: "season3",
-    episodes: [],
+    episodes: [
+      {
+        overallNumber: 22,
+        seasonEpisodeNumber: 22,
+        slug: "22",
+        title: "Seven-Night, Monochrome Summer",
+        summaryImage: `${IMG}/s3-22-summary.jpg`,
+        detailImage: `${IMG}/s3-22-detail.jpg`,
+        description:
+          "蝉時雨と千冬の死体。\n\n部屋は冷房も効いておらず、暑くて仕方がない。\nむわりとむせ返るほどの生臭いにおい。死のにおい。\n蝿が一匹、千冬の瞼に止まっている。\n\n暑い夏が始まった。",
+        isR18: true,
+        isR18G: true,
+      },
+      {
+        overallNumber: 23,
+        seasonEpisodeNumber: 23,
+        slug: "23",
+        title: "奪取脱出ストラグル",
+        summaryImage: `${IMG}/s3-23-summary.jpg`,
+        detailImage: `${IMG}/s3-23-detail.jpg`,
+        description:
+          "奇妙な視線を感じるようになって早3ヶ月。家を出てから帰るまで、千冬は謎の視線にさらされていた。物理的な攻撃や直接的な脅迫はないにせよ、視線に晒され続ける生活にストレスを感じていた頃その事件は起こった。\n\n凄まじいブレーキ音と何か大きな物が衝突したかの様な轟音が耳に届く。\n「オカエリハ　コチラカラ」\n――――一つの狂愛の末路。巻き込まれたふたりの人間。\n果たして、奪われる前に日常への扉をくぐれるのか。",
+        isR18: true,
+      },
+      {
+        overallNumber: 24,
+        seasonEpisodeNumber: 24,
+        slug: "24",
+        title: "お前が人を殺すのだ",
+        summaryImage: `${IMG}/s3-24-summary.jpg`,
+        detailImage: `${IMG}/s3-24-detail.jpg`,
+        description:
+          "目が覚める。そこは小さな法廷だった。目の前には檻が二つ。その中に人がいる。\n「原告、証言をどうぞ」\n法廷の奥には扉が見える。その扉は開かない。\n「被告、証言をどうぞ」\n覆面をかぶった人間が一人立っていた。それは千秋に向かって口を開く。\n\n「君が罪を裁くのだ。さて、罪人はどちらだ？」",
+      },
+      {
+        overallNumber: 25,
+        seasonEpisodeNumber: 25,
+        slug: "25",
+        title: "ミュージアム・トゥ・ユー",
+        summaryImage: `${IMG}/s3-25-summary.jpg`,
+        detailImage: `${IMG}/s3-25-detail.jpg`,
+        description:
+          "「俺が、俺じゃなくなったら、どうする？」\n\n市所有の建物が博物館としてリニューアルオープンするらしい。展示会が開催されるというその広告に、一つの作品が載っていた。千秋の目に止まったそれは、美しい花の絵だった。\n\n直感が警鐘を鳴らす。このミュージアムには何かがある。\n花を千冬と見なければならない。これは眠らせるべきだ。\nそうして千秋は千冬を博物館へと連れ出すのだった。",
+      },
+      {
+        overallNumber: 26,
+        seasonEpisodeNumber: 26,
+        slug: "26",
+        title: "水中密室",
+        summaryImage: `${IMG}/s3-26-summary.jpg`,
+        detailImage: `${IMG}/s3-26-detail.jpg`,
+        description:
+          "「奇跡のリアル脱出ショーへようこそ！」\n\n目を覚ますと、そこは10m四方くらいの正方形の部屋だった。\nそこに来た記憶はない。前前の記憶も思い出せない。\n目を覚ましたときにはもうそこにいた。\n\n「貴方に与えられた時間は60分、見事脱出出来たら豪華景品をプレゼントしております」\nそう告げた瞬間、カウントダウンが始まる。",
+      },
+      {
+        overallNumber: 27,
+        seasonEpisodeNumber: 27,
+        slug: "27",
+        title: "喰らわば、日常",
+        summaryImage: `${IMG}/s3-27-summary.jpg`,
+        detailImage: `${IMG}/s3-27-detail.jpg`,
+        description:
+          "目が覚めると見知らぬ場所に立っていた。\n隣には千冬がいる。このような経験が初めてであれば驚くかもしれないが、ふたりは揃ってこう思うのだ。\n「ああ、またか」\n\nいつものことだ。いつものことだ。\nこれはふたりにとって日常だ。認めたくはないかもしれないが。\n\n……ああ、それにしても。ここは随分と居心地がいい、気がする。",
+      },
+      {
+        overallNumber: 28,
+        seasonEpisodeNumber: 28,
+        slug: "28",
+        title: "縁々獄々",
+        summaryImage: `${IMG}/s3-28-summary.jpg`,
+        detailImage: `${IMG}/s3-28-detail.jpg`,
+        description:
+          "「問一。貴方の目は正常に機能していますか？」\n「問二。貴方の口は正常に機能していますか？」\n\n「問八。貴方の××は正常に機能していますか？」\n\n結ばれる縁は選べない。\n理不尽はいつでもあなたの隣に存在する。",
+        isR18G: true,
+      },
+      {
+        overallNumber: 28.1,
+        slug: "yasashii-sekai-to-kokyuhou",
+        title: "やさしい世界と呼吸法",
+        summaryImage: `${IMG}/s3-yasashii-sekai-to-kokyuhou-summary.jpg`,
+        detailImage: `${IMG}/s3-yasashii-sekai-to-kokyuhou-detail.jpg`,
+        description:
+          "さあ、息をしようか。この穏やかな日常を噛み締めながら。\n\n※本シナリオは、出来事自体を無いものとする。",
+        isAlternate: true,
+      },
+      {
+        overallNumber: 28.2,
+        slug: "jigoku-to-tengoku-wa-kokuji-suru",
+        title: "地獄と天国は酷似する",
+        summaryImage: `${IMG}/s3-jigoku-to-tengoku-wa-kokuji-suru-summary.jpg`,
+        detailImage: `${IMG}/s3-jigoku-to-tengoku-wa-kokuji-suru-detail.jpg`,
+        description:
+          "「皿とは言わず地獄まで」\n「私に協力してほしい」\n深夜、最愛の顔をした誰かが告げる。\n\n「天国では生きられない」\n目を覚ますと、そこは楽園だった。\nあなただけがいない楽園だ。\n\n※本シナリオは、出来事自体を無いものとする。",
+        isAlternate: true,
+      },
+      {
+        overallNumber: 29,
+        seasonEpisodeNumber: 29,
+        slug: "29",
+        title: "ナイトアクアリウムの怪",
+        summaryImage: `${IMG}/s3-29-summary.jpg`,
+        detailImage: `${IMG}/s3-29-detail.jpg`,
+        description:
+          "あなた方は都会の喧騒を忘れるような、穏やかな癒しの空間だと話題のナイトアクアリウムを訪れた。\n\n不可思議な旋律に導かれるようにして顔をあげた先で、水槽からぬっと抜け出て宙を優雅に泳ぐものを目にする。\n\nそれは此処にいるはずのない、大きな、大きな一頭のクジラだった。",
+        isR18: true,
+      },
+      {
+        overallNumber: 30,
+        seasonEpisodeNumber: 30,
+        slug: "30",
+        title: "ラストオーダーはキミがいい",
+        summaryImage: `${IMG}/s3-30-summary.jpg`,
+        detailImage: `${IMG}/s3-30-detail.jpg`,
+        description:
+          "真夏の夜、金曜日の時刻は22時。\n夏のひとしずくが過ぎ去り、暑さがまだ残る中、千冬は一日の労働を終えて車に乗り込んだ。\nその時千秋から連絡が入る。今日は遅くなるらしい。先に寝てほしいという千秋の連絡と、スマホに表示された時刻を見比べた千冬は、ちょうどいいと考え、千秋を迎えに行くことにした。\n\nホテルについた千冬が目にしたのは、大きな真珠をもつ怪しい男と、泥酔した千秋の姿だった。",
+        isR18: true,
+      },
+      {
+        overallNumber: 31,
+        seasonEpisodeNumber: 31,
+        slug: "31",
+        title: "LaLuLa",
+        summaryImage: `${IMG}/s3-31-summary.jpg`,
+        detailImage: `${IMG}/s3-31-detail.jpg`,
+        description:
+          "ふたりは探索者である。\n神話的事象に遭遇し、辛くも生き延びつつ、束の間の平穏を身近な人々と謳歌している。\n\n街角のはやり歌。\n親しい人との外出。\n他愛もない噂話。\n\n時にふたりは、近頃うまく眠れない。",
+        isR18: true,
+      },
+      {
+        overallNumber: 32,
+        seasonEpisodeNumber: 32,
+        slug: "32",
+        title: "深海より",
+        summaryImage: `${IMG}/s3-32-summary.jpg`,
+        detailImage: `${IMG}/s3-32-detail.jpg`,
+        description:
+          "千冬は仕事を辞め、これから千秋の配信活動を手伝うことになる。それに合わせて、北海道へ引っ越しをすることにした。\n\n引っ越す前日、二人は近くの海に訪れた。そして海辺のとある神社に足を踏み入れる。\n中を見て回っていたその時、突然景色が歪む。重力が失われる。\nそして眩い光に包まれた後、すぐに暗闇が訪れた。\n視界が光を取り戻した時、目の前には――。",
+        isR18: true,
+      },
+    ],
   },
 
   // ===================== 4th season =====================
@@ -396,7 +535,49 @@ export const episodes: Season[] = [
     number: 4,
     label: "4th season",
     slug: "season4",
-    episodes: [],
+    episodes: [
+      {
+        overallNumber: 33,
+        seasonEpisodeNumber: 33,
+        slug: "33",
+        title: "催眠ダーリンLv1",
+        summaryImage: `${IMG}/s4-33-summary.jpg`,
+        detailImage: `${IMG}/s4-33-detail.jpg`,
+        description:
+          "千冬と一緒に街へ繰り出した千秋。\nひょんなことから人にぶつかり、落ちた自分のスマホを取り上げた瞬間。\nカシャッ、という音と共に、画面の中央に紙吹雪が舞い、ウィンドウがポップアップされる。\n「おめでとうございます、新しいキャラクターの登録が完了しました！」\nそこに表示されたのは、入れた覚えのない『催眠アプリ』。\nそして、千冬の様子が……！？",
+      },
+      {
+        overallNumber: 34,
+        seasonEpisodeNumber: 34,
+        slug: "34",
+        title: "双離の果実",
+        summaryImage: `${IMG}/s4-34-summary.jpg`,
+        detailImage: `${IMG}/s4-34-detail.jpg`,
+        description:
+          "千秋と千冬は、少し硬いベッドで身を起こす。見渡せば、そこは殺風景な見知らぬ部屋だった。\nどちらも頼りない「一枚のガウン」と「赤色のチョーカー」しか身につけていなかった。\n\n――だからこそ、気づいたのだ。\n自分の身体に起きている『異変』に。",
+      },
+      {
+        overallNumber: 35,
+        seasonEpisodeNumber: 35,
+        slug: "35",
+        title: "夜になんか攫われてたまるか",
+        summaryImage: `${IMG}/s4-35-summary.jpg`,
+        detailImage: `${IMG}/s4-35-detail.jpg`,
+        description:
+          "「……見られている気がする」\n外出先で視線を感じた千冬。しかし辺りを見回しても、視線の元となる人物はいない。警戒した千秋は、千冬に外出禁止と言い渡した。\nそれから一ヶ月。『外に出たい』という千冬の願いを聞いて、二人は久々に近くのスーパーへと出かけた。その帰りだった。\n\n「ようやく捕まえた。君こそ我が夜に相応しい」",
+      },
+      {
+        overallNumber: 36,
+        seasonEpisodeNumber: 36,
+        slug: "36",
+        title: "蓄壊",
+        summaryImage: `${IMG}/s4-36-summary.jpg`,
+        detailImage: `${IMG}/s4-36-detail.jpg`,
+        description:
+          "感じないと思い込んでも\n感じたものは　確かに　そこに\n蓄積されていくだけだ。\n\n目が覚めたら見知らぬ施設、手首には重苦しいバングル。\n「おつきあいいただければ、みのあんぜんは保証しましょう」\n\nさて、従おうか？ 逃げ出そうか？",
+        isR18: true,
+      },
+    ],
   },
 ];
 

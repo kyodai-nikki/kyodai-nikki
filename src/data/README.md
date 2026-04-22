@@ -106,6 +106,6 @@
 | ページ | URL |
 |---|---|
 | トップ（season1 の先頭） | `/episodes/` |
-| シーズン先頭 | `/episodes/season1/` 〜 `/episodes/season4/` |
+| シーズン先頭 | `/episodes/season1/00/` のように各シーズンの先頭 slug へ遷移 |
 | 個別エピソード | `/episodes/season1/00/` 等 |
 | 全話タイムライン | `/episodes/timeline/` |

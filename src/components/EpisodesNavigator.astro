@@ -3,55 +3,64 @@
 // Episodes ナビゲータ
 // ---------------------------------------------------------
 // props
-//   - activeSeason :  現在表示中のシーズン（1〜4）または "timeline"
-//   - selected     :  右パネルに表示する EpisodeEntry。未指定なら最初の1件
+//   - activeSeason : 現在表示中のシーズン（1〜4）
+//   - selected     : 右パネルに表示する EpisodeEntry。未指定なら slug / 先頭を使用
+//   - activeSlug   : URL に含まれる現在の slug。左一覧のアクティブ判定に利用
 // =========================================================
 import {
   seasons,
   episodesBySeason,
+  firstEpisodeOfSeason,
   type EpisodeEntry,
 } from "../data/episodes";
+
+type EpisodeMeta = EpisodeEntry & {
+  badge?: string;
+  readHref?: string;
+};
 
 interface Props {
   activeSeason: 1 | 2 | 3 | 4;
   selected?: EpisodeEntry;
+  activeSlug?: string;
 }
 
-const { activeSeason, selected } = Astro.props as Props;
+const { activeSeason, selected, activeSlug } = Astro.props as Props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
 const list = episodesBySeason(activeSeason);
+// selected が無い場合は URL の slug、それも無ければシーズン先頭へフォールバック
+const current =
+  (selected as EpisodeMeta | undefined) ??
+  (list.find((e) => e.slug === activeSlug) as EpisodeMeta | undefined) ??
+  (list[0] as EpisodeMeta | undefined);
 
-// selected が無い場合、シーズンの先頭エピソードをフォールバック
-const current: EpisodeEntry | undefined = selected ?? list[0];
+const episodeHref = (seasonSlug: string, episodeSlug: string) =>
+  `${base}/episodes/${seasonSlug}/${episodeSlug}/`;
 
-const epUrl = (e: EpisodeEntry) =>
-  `${base}/episodes/${activeSeasonInfo.slug}/${e.slug}/`;
+const epUrl = (e: EpisodeEntry) => episodeHref(activeSeasonInfo.slug, e.slug);
+
+const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
+  // シーズンタブは /episodes/seasonN/ ではなく、そのシーズン先頭 slug へ遷移
+  const first = firstEpisodeOfSeason(seasonNumber);
+  return first ? episodeHref(seasonSlug, first.slug) : `${base}/episodes/${seasonSlug}/`;
+};
 
 /** 一覧カード用クラス名を組み立て */
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
   if (e.isAlternate) cls.push("ep-item--alt");
-  if (e.smallText)  cls.push("ep-item--sm");
-  if (current && current.slug === e.slug && current.season === e.season) {
-    cls.push("ep-item--selected");
-  }
+  if (e.smallText) cls.push("ep-item--sm");
+  if (current?.slug === e.slug) cls.push("ep-item--selected");
   return cls.join(" ");
 };
 
-/** カードに出す番号文字列。別史なら "—" */
 const numberLabel = (e: EpisodeEntry) =>
-  e.isAlternate
-    ? "—"
-    : String(e.seasonEpisodeNumber ?? "").padStart(2, "0");
+  e.isAlternate ? "..." : String(e.seasonEpisodeNumber ?? "").padStart(2, "0");
 
 /** 詳細パネルのクラス */
-const detailClass = (() => {
-  if (!current) return "ep-detail";
-  if (current.isAlternate) return "ep-detail ep-detail--alt";
-  return "ep-detail";
-})();
+const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-detail";
 ---
 
 <section class="section container">
@@ -60,10 +69,10 @@ const detailClass = (() => {
   </header>
 
   {/* シーズン切替タブ＋ timeline -------------------------- */}
-  <nav class="ep-seasons" aria-label="シーズン切替">
+  <nav class="ep-seasons" aria-label="Season navigation">
     {seasons.map((s) => (
       <a
-        href={`${base}/episodes/${s.slug}/`}
+        href={seasonHref(s.number, s.slug)}
         aria-current={s.number === activeSeason ? "page" : undefined}
       >
         {s.label}
@@ -75,9 +84,9 @@ const detailClass = (() => {
   {/* 一覧 ＋ 詳細パネル ----------------------------------- */}
   <div class="ep-layout">
     {/* 左：エピソード一覧（縦スクロール、スクロールバー非表示） */}
-    <ol class="ep-list" aria-label={`${activeSeasonInfo.label} エピソード一覧`}>
+    <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
       {list.length === 0 ? (
-        <li class="ep-empty">エピソードがまだありません。</li>
+        <li class="ep-empty">No episodes yet.</li>
       ) : (
         list.map((e) => (
           <li>
@@ -102,7 +111,7 @@ const detailClass = (() => {
             <img
               class="ep-detail__image"
               src={base + current.detailImage}
-              alt={`${current.title} のメイン画像`}
+              alt={`${current.title} main visual`}
             />
           </div>
         )}
@@ -119,11 +128,18 @@ const detailClass = (() => {
         <p class="ep-detail__body">{current.description}</p>
 
         <div class="ep-detail__foot">
-          {current.badge && (
-            <span class="ep-detail__badge">{current.badge}</span>
-          )}
+          <div>
+            {current.badge && <span class="ep-detail__badge">{current.badge}</span>}
+            {current.isR18 && !current.isR18G && <span class="ep-detail__badge">R-18</span>}
+            {current.isR18G && <span class="ep-detail__badge">R-18G</span>}
+          </div>
           {current.readHref && (
-            <a class="ep-detail__read" href={current.readHref} target={current.readHref.startsWith("http") ? "_blank" : undefined} rel={current.readHref.startsWith("http") ? "noopener" : undefined}>
+            <a
+              class="ep-detail__read"
+              href={current.readHref}
+              target={current.readHref.startsWith("http") ? "_blank" : undefined}
+              rel={current.readHref.startsWith("http") ? "noopener" : undefined}
+            >
               読む
             </a>
           )}
@@ -174,7 +190,7 @@ const detailClass = (() => {
     height: 2px;
     background: var(--c-accent-cyan);
     transition: left var(--dur-base) var(--ease-out),
-                right var(--dur-base) var(--ease-out);
+      right var(--dur-base) var(--ease-out);
     pointer-events: none;
   }
   .ep-seasons a:hover::after,
@@ -207,14 +223,14 @@ const detailClass = (() => {
     max-height: 640px;
     overflow-y: auto;
     overscroll-behavior: contain;
-    scrollbar-width: none;        /* Firefox */
-    -ms-overflow-style: none;     /* IE/Edge legacy */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     display: flex;
     flex-direction: column;
     gap: var(--s-3);
   }
   .ep-list::-webkit-scrollbar {
-    display: none;                /* WebKit */
+    display: none;
   }
   .ep-empty {
     padding: var(--s-5);
@@ -250,8 +266,8 @@ const detailClass = (() => {
     text-decoration: none;
     overflow: hidden;
     transition: background-color var(--dur-base) var(--ease-out),
-                color var(--dur-base) var(--ease-out),
-                border-color var(--dur-base) var(--ease-out);
+      color var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out);
   }
   .ep-item:hover {
     border-color: var(--c-border-strong);
@@ -277,7 +293,7 @@ const detailClass = (() => {
     font-size: var(--fs-sm);
   }
 
-  /* 通常エピソード：選択時 → 黒背景（左半分のグラデを黒系に差し替え） */
+  /* 通常エピソード：選択時 → 黒背景 */
   .ep-item--selected:not(.ep-item--alt) {
     background-color: #1a1a1a;
     background-image:
@@ -346,15 +362,6 @@ const detailClass = (() => {
     background: #ffffff;
     color: #1a1a1a;
   }
-  .ep-detail--alt .ep-detail__read {
-    background: #ffffff;
-    color: #1a1a1a;
-    border-color: #ffffff;
-  }
-  .ep-detail--alt .ep-detail__read:hover {
-    background: transparent;
-    color: #ffffff;
-  }
 
   .ep-detail--empty {
     align-items: center;
@@ -409,6 +416,11 @@ const detailClass = (() => {
     gap: var(--s-3);
     flex-wrap: wrap;
   }
+  .ep-detail__foot > div {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+  }
   .ep-detail__badge {
     display: inline-block;
     padding: var(--s-1) var(--s-3);
@@ -432,7 +444,7 @@ const detailClass = (() => {
     font-size: var(--fs-sm);
     letter-spacing: var(--ls-wide);
     transition: background var(--dur-fast) var(--ease-out),
-                color var(--dur-fast) var(--ease-out);
+      color var(--dur-fast) var(--ease-out);
   }
   .ep-detail__read:hover {
     background: var(--c-fg);
@@ -459,12 +471,14 @@ const detailClass = (() => {
     自動でスクロールする。リスト内 scroll なので親ページはスクロールしない。
   */
   (() => {
-    const list = document.querySelector<HTMLElement>(".ep-list");
-    if (!list) return;
-    const selected = list.querySelector<HTMLElement>(".ep-item--selected");
-    if (!selected) return;
-    const li = selected.closest("li") as HTMLElement | null;
-    if (!li) return;
+    const list = document.querySelector(".ep-list");
+    if (!(list instanceof HTMLElement)) return;
+
+    const selected = list.querySelector(".ep-item--selected");
+    if (!(selected instanceof HTMLElement)) return;
+
+    const li = selected.closest("li");
+    if (!(li instanceof HTMLElement)) return;
 
     // li の上端をリスト内のスクロール位置 0 に合わせる
     const target = li.offsetTop - list.offsetTop;

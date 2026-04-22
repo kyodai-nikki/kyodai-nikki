@@ -3,31 +3,34 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import EpisodesNavigator from "../../../components/EpisodesNavigator.astro";
 import {
+  allEpisodes,
   seasons,
-  episodes,
   type EpisodeEntry,
 } from "../../../data/episodes";
 
 export async function getStaticPaths() {
-  return episodes.map((e) => {
-    const seasonInfo = seasons.find((s) => s.number === e.season)!;
-    return {
-      params: { season: seasonInfo.slug, slug: e.slug },
-      props: { episode: e, seasonNumber: e.season },
-    };
-  });
+  return allEpisodes().map(({ season, episode }) => ({
+    params: { season: season.slug, slug: episode.slug },
+    props: { episode, seasonNumber: season.number },
+  }));
 }
 
 interface Props {
   episode: EpisodeEntry;
   seasonNumber: 1 | 2 | 3 | 4;
 }
+
 const { episode, seasonNumber } = Astro.props as Props;
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 ---
+
 <BaseLayout
   title={`${episode.title} | ${seasonInfo.label} | Episodes`}
   description={episode.description.split("\n")[0] ?? episode.title}
 >
-  <EpisodesNavigator activeSeason={seasonNumber} selected={episode} />
+  <EpisodesNavigator
+    activeSeason={seasonNumber}
+    selected={episode}
+    activeSlug={episode.slug}
+  />
 </BaseLayout>

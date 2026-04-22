@@ -1,10 +1,9 @@
 ---
-// /episodes/season{N}/  → 該当シーズンの最初のエピソードを選択
-import BaseLayout from "../../../layouts/BaseLayout.astro";
-import EpisodesNavigator from "../../../components/EpisodesNavigator.astro";
+// /episodes/season{N}/  → 該当シーズンの最初のエピソードへリダイレクト
 import {
   seasons,
   firstEpisodeOfSeason,
+  episodeHref,
 } from "../../../data/episodes";
 
 export async function getStaticPaths() {
@@ -14,14 +13,26 @@ export async function getStaticPaths() {
   }));
 }
 
-interface Props { seasonNumber: 1 | 2 | 3 | 4 }
+interface Props {
+  seasonNumber: 1 | 2 | 3 | 4;
+}
+
 const { seasonNumber } = Astro.props as Props;
-const initial = firstEpisodeOfSeason(seasonNumber);
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
+const initial = firstEpisodeOfSeason(seasonNumber);
+const redirectTo = initial
+  ? episodeHref(seasonInfo.slug, initial.slug)
+  : "/episodes/";
 ---
-<BaseLayout
-  title={`${seasonInfo.label} | Episodes`}
-  description={`兄弟日記 ${seasonInfo.label} エピソード一覧。`}
->
-  <EpisodesNavigator activeSeason={seasonNumber} selected={initial} />
-</BaseLayout>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
+    <link rel="canonical" href={redirectTo} />
+    <title>{seasonInfo.label} | Episodes</title>
+  </head>
+  <body>
+    <script is:inline>{`location.replace(${JSON.stringify(redirectTo)});`}</script>
+  </body>
+</html>
