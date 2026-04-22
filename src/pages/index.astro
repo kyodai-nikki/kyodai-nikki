@@ -1,11 +1,231 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { hero } from "../data/hero";
+import { site } from "../data/site";
+import { episodesTimeline, seasons } from "../data/episodes";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// 新しい順に 5 件ピック（overallNumber 降順）
+const latest = [...episodesTimeline()].reverse().slice(0, 5);
+
+const epHref = (e: typeof latest[number]) =>
+  `${base}/episodes/${seasons.find((s) => s.number === e.season)!.slug}/${e.slug}/`;
+
+const numberLabel = (e: typeof latest[number]) =>
+  e.isAlternate
+    ? "—"
+    : `Episode${String(e.seasonEpisodeNumber ?? "").padStart(2, "0")}`;
 ---
+<BaseLayout
+  title="兄弟日記"
+  description="兄弟日記 公式サイト。TRPG セッションのエピソード・キャラクター・ギャラリーなどをまとめています。"
+  bodyClass="is-home"
+>
+  {/* ヒーロー：右上にタイトル、全面に画像 ---------------- */}
+  <section class="hero" aria-label="ヒーロービジュアル">
+    <div
+      class="hero__image"
+      style={`background-image: url('${base}${hero.image}');`}
+      role="img"
+      aria-label={hero.imageCredit || "メインビジュアル"}
+    ></div>
+    <div class="hero__overlay">
+      <div class="hero__copyline">©{site.copyStartYear}-{new Date().getFullYear()} {site.name}制作チーム</div>
+      <div class="hero__share">
+        Share :
+        <span aria-hidden="true">🕊</span>
+      </div>
+      <h1 class="hero__title">{hero.title}</h1>
+      <p class="hero__tagline">
+        <span>{hero.startDate}</span><br />
+        <span>{hero.status}</span>
+      </p>
+    </div>
+  </section>
 
-<Layout>
-	<Welcome />
-</Layout>
+  {/* 最新エピソード ------------------------------------- */}
+  <section class="section container">
+    <header class="stack-sm section-head section-head--center">
+      <p class="eyebrow">Latest episodes</p>
+      <h2>最新のエピソード</h2>
+    </header>
+
+    {latest.length === 0 ? (
+      <p style="color: var(--c-fg-muted); text-align: center;">まだエピソードがありません。</p>
+    ) : (
+      <ul class="latest-list">
+        {latest.map((e) => (
+          <li class={e.isAlternate ? "latest-card latest-card--alt" : "latest-card"}>
+            <a href={epHref(e)}>
+              <span class="latest-card__no">{numberLabel(e)}</span>
+              <span class="latest-card__title">{e.title}</span>
+              <span class="latest-card__season">{seasons.find((s) => s.number === e.season)!.label}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    )}
+
+    <p style="margin-top: var(--s-6); text-align: center;">
+      <a href={`${base}/episodes/`} style="letter-spacing: var(--ls-wide);">
+        すべてのエピソードを見る →
+      </a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  /* ヒーロー：画像を全面に敷いて、右上にシリアスな明朝タイトルを載せる */
+  .hero {
+    position: relative;
+    width: 100%;
+    min-height: min(92vh, 900px);
+    overflow: hidden;
+    background: #eef1f4;   /* 画像未設定時のフォールバック（寒色の薄色） */
+  }
+
+  .hero__image {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero__overlay {
+    position: relative;
+    max-width: var(--w-wide);
+    margin-inline: auto;
+    padding: var(--s-7) var(--s-6);
+    min-height: inherit;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr;
+    column-gap: var(--s-5);
+    row-gap: var(--s-2);
+  }
+
+  .hero__copyline {
+    grid-column: 2;
+    grid-row: 1;
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: right;
+  }
+
+  .hero__share {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: right;
+  }
+
+  .hero__title {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: start;
+    justify-self: end;
+    font-family: var(--f-serif);
+    font-weight: var(--fw-black);
+    font-size: clamp(2.75rem, 6vw, 4.5rem);
+    color: var(--c-fg);
+    margin: var(--s-3) 0 var(--s-3);
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  }
+
+  .hero__tagline {
+    grid-column: 2;
+    grid-row: 4;
+    justify-self: end;
+    text-align: right;
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+    line-height: 1.8;
+    margin: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+  }
+
+  @media (max-width: 640px) {
+    .hero { min-height: min(70vh, 640px); }
+    .hero__overlay {
+      padding: var(--s-5) var(--s-4);
+      grid-template-columns: 1fr;
+    }
+    .hero__copyline,
+    .hero__share,
+    .hero__title,
+    .hero__tagline {
+      grid-column: 1;
+      text-align: left;
+      justify-self: start;
+    }
+    .hero__title { font-size: clamp(2rem, 10vw, 3rem); }
+  }
+
+  /* 最新エピソードの簡易リスト */
+  .latest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-3);
+  }
+  .latest-card a {
+    display: grid;
+    grid-template-columns: 110px 1fr auto;
+    align-items: center;
+    gap: var(--s-3);
+    padding: var(--s-3) var(--s-4);
+    background: #ffffff;
+    border: 1px solid var(--c-border);
+    color: var(--c-fg);
+    text-decoration: none;
+    font-family: var(--f-serif);
+    transition: background var(--dur-fast) var(--ease-out),
+                border-color var(--dur-fast) var(--ease-out);
+  }
+  .latest-card a:hover {
+    background: var(--c-bg-muted);
+    border-color: var(--c-border-strong);
+  }
+  .latest-card__no {
+    font-size: var(--fs-sm);
+    letter-spacing: var(--ls-wide);
+    color: var(--c-fg-muted);
+  }
+  .latest-card__title {
+    font-size: var(--fs-base);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .latest-card__season {
+    font-family: var(--f-mono);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+  }
+  .latest-card--alt a {
+    background: #2a2a2a;
+    color: #ffffff;
+    border-color: #2a2a2a;
+  }
+  .latest-card--alt .latest-card__no,
+  .latest-card--alt .latest-card__season {
+    color: #cccccc;
+  }
+  .latest-card--alt a:hover {
+    background: #3a3a3a;
+  }
+</style>

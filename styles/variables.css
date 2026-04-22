@@ -1,0 +1,115 @@
+/* =========================================================
+   Design Tokens — kyodai-nikki.com テイストに合わせたモノクロ基調
+   ---------------------------------------------------------
+   - 背景は真っ白、テキストはほぼ黒。寒色の空気感は画像で出す
+   - 見出し = Noto Serif JP、UI/ナビ = Noto Sans JP
+   - アクセントカラーは置かず、濃淡とフォントで階層を作る
+   ========================================================= */
+
+:root {
+  /* Colors ------------------------------------------------ */
+  /* 基調：純白 + 濃墨。線や meta はごく薄いグレーで締める */
+  --c-bg: #ffffff;
+  --c-bg-elev: #ffffff;
+  --c-bg-muted: #f5f5f5;       /* セクション背景を少しだけ落としたい時 */
+
+  --c-fg: #111111;             /* 見出し・強いテキスト */
+  --c-fg-body: #2a2a2a;        /* 本文 */
+  --c-fg-muted: #8a8a8a;       /* meta / 補助 */
+  --c-fg-subtle: #b5b5b5;      /* disabled / プレースホルダ */
+
+  --c-border: #e5e5e5;         /* デフォルト罫線（ごく薄い） */
+  --c-border-strong: #cfcfcf;  /* hover やフォーカス時 */
+
+  /* アクセントは設けず、本文色を使い回す（兄弟日記のモノクロ感を優先） */
+  --c-accent: #111111;
+  --c-accent-hover: #4a4a4a;
+  --c-accent-soft: #f2f2f2;
+
+  /* 寒色・暖色のワンポイント（タブのアクティブ/ホバーなどに使用） */
+  --c-accent-pink: #e86a8b;
+  --c-accent-cyan: #6ec1c9;
+
+  /* ログ内の役割色（控えめに残す） */
+  --c-roll: #2f5d3f;
+  --c-roll-bg: #eef3ef;
+  --c-fail: #8a3030;
+  --c-fail-bg: #f5ecec;
+
+  /* Typography ------------------------------------------- */
+  --f-sans:
+    "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+    "Yu Gothic", "Meiryo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --f-serif:
+    "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho",
+    Georgia, "Times New Roman", serif;
+  --f-mono:
+    "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+
+  --fs-xs: 0.75rem;    /* 12px */
+  --fs-sm: 0.8125rem;  /* 13px — ナビ・meta に多用 */
+  --fs-base: 1rem;     /* 16px */
+  --fs-lg: 1.125rem;   /* 18px */
+  --fs-xl: 1.375rem;   /* 22px */
+  --fs-2xl: 1.75rem;   /* 28px */
+  --fs-3xl: 2.25rem;   /* 36px */
+  --fs-4xl: 3.25rem;   /* 52px — ヒーローの 兄弟日記 ロゴ想定 */
+
+  --lh-tight: 1.2;
+  --lh-normal: 1.7;
+  --lh-loose: 2.0;     /* 本文・ログ用。日本語の読みやすさ重視 */
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-black: 900;
+
+  /* letter-spacing：ナビや英字ラベルに広めに入れて抜け感を出す */
+  --ls-tight: -0.01em;
+  --ls-normal: 0;
+  --ls-wide: 0.08em;
+  --ls-wider: 0.16em;
+
+  /* Spacing (4px ベース) -------------------------------- */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+  --s-10: 8rem;
+
+  /* Radius ----------------------------------------------- */
+  --r-sm: 2px;     /* 基本的に角丸は控えめ */
+  --r-md: 4px;
+  --r-lg: 8px;
+  --r-full: 9999px;
+
+  /* Shadows ---------------------------------------------- */
+  /* モノクロ基調では影をほぼ使わない。カードは線で区切る方針。 */
+  --sh-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --sh-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --sh-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+
+  /* Layout widths --------------------------------------- */
+  --w-content: 68ch;      /* 本文・ログ本体（読み物向け幅） */
+  --w-wide: 1200px;       /* カードグリッド等 */
+  --w-narrow: 52ch;
+  --w-full: 100%;
+
+  /* Header / UI 寸法 ----------------------------------- */
+  --h-header-top: 72px;
+  --h-header-nav: 56px;
+
+  /* Motion ---------------------------------------------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --dur-slow: 400ms;
+}
+
+/* Dark mode は後から追加しやすいようにフック用意
+   :root[data-theme="dark"] { --c-bg: ...; } の形で上書き */

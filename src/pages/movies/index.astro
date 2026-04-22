@@ -1,0 +1,42 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { videos, type Video } from "../../data/movies";
+
+const embedUrl = (v: Video) =>
+  `https://www.youtube-nocookie.com/embed/${v.id}`;
+---
+<BaseLayout title="Movies" description="動画アーカイブ。プレイ動画・ダイジェストなど。">
+  <section class="section container">
+    <header class="stack-sm section-head">
+      <p class="card__eyebrow">Movies</p>
+      <h1>動画</h1>
+    </header>
+
+    {videos.length === 0 ? (
+      <p style="color: var(--c-fg-muted);">
+        動画を追加するには <code>src/data/movies.ts</code> の <code>videos</code> 配列に
+        YouTube の動画 ID とタイトルを入れてください。
+      </p>
+    ) : (
+      <div class="card-grid" style="--min: 320px;">
+        {videos.map((v) => (
+          <article style="background: var(--c-bg-elev); border: 1px solid var(--c-border); border-radius: var(--r-md); overflow: hidden;">
+            <div style="aspect-ratio: 16 / 9;">
+              <iframe
+                src={embedUrl(v)}
+                title={v.title}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                style="width: 100%; height: 100%; border: 0;"
+              ></iframe>
+            </div>
+            <h2 style="padding: var(--s-3) var(--s-4); margin: 0; font-size: var(--fs-base);">
+              {v.title}
+            </h2>
+          </article>
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>

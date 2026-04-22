@@ -1,0 +1,320 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { characters } from "../../data/characters";
+
+export async function getStaticPaths() {
+  return characters.map((c) => ({
+    params: { slug: c.slug },
+    props: { character: c },
+  }));
+}
+
+const { character } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<BaseLayout
+  title={`${character.name} | Characters`}
+  description={`${character.name}（${character.furigana}）のキャラクター紹介。`}
+>
+  <section class="section container">
+    <header class="section-head section-head--center">
+      <h1 class="chars-heading">Characters</h1>
+    </header>
+
+    {/* キャラ切替タブ：4人横並び、現在のキャラに下線 -------------- */}
+    <nav class="chars-tabs" aria-label="キャラクター切替">
+      {characters.map((c) => (
+        <a
+          href={`${base}/characters/${c.slug}/`}
+          aria-current={c.slug === character.slug ? "page" : undefined}
+        >
+          {c.name}
+        </a>
+      ))}
+    </nav>
+
+    {/* 詳細ボックス -------------------------------------------- */}
+    <article class="char-detail">
+      <div class="char-detail__inner">
+        {/* 立ち絵：横からぬるっと入ってくる */}
+        <div class="char-portrait">
+          <img
+            src={base + character.standing}
+            alt={`${character.name} 立ち絵`}
+            loading="eager"
+          />
+        </div>
+
+        {/* 縦書きの台詞（空なら表示しない） */}
+        {character.quote && (
+          <div class="char-quote" aria-label="代表的な台詞">
+            {character.quote}
+          </div>
+        )}
+
+        {/* 右側のテキスト情報 */}
+        <div class="char-info">
+          <header class="char-info__header">
+            <h2 class="char-info__name">{character.name}</h2>
+            <span class="char-info__furigana">{character.furigana}</span>
+          </header>
+
+          <p class="char-info__description">
+            {character.description}
+          </p>
+
+          <dl class="char-stats">
+            <div><dt>年齢</dt><dd>{character.age}</dd></div>
+            <div><dt>性別</dt><dd>{character.gender}</dd></div>
+            <div><dt>身長</dt><dd>{character.height}</dd></div>
+            <div><dt>体重</dt><dd>{character.weight}</dd></div>
+            <div class="char-stats__birthday"><dt>誕生日</dt><dd>{character.birthday}</dd></div>
+          </dl>
+
+          {character.externalLink && (
+            <p class="char-info__external">
+              ▼ <a href={character.externalLink} target="_blank" rel="noopener">
+                他ステータス（外部サイト）
+              </a>
+            </p>
+          )}
+        </div>
+      </div>
+    </article>
+  </section>
+</BaseLayout>
+
+<style>
+  .chars-heading {
+    font-family: var(--f-serif);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  /* キャラ切替タブ ---------------------------------------------- */
+  .chars-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(var(--s-5), 5vw, var(--s-8));
+    margin-bottom: 30px;
+    padding-bottom: var(--s-3);
+  }
+  .chars-tabs a {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+    text-decoration: none;
+    letter-spacing: var(--ls-wide);
+    padding: var(--s-2) 0;
+    position: relative;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  /* デフォルトの下線（インアクティブ用、初期は中央0幅） */
+  .chars-tabs a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -3px;
+    height: 2px;
+    background: var(--c-accent-cyan);
+    transition: left var(--dur-base) var(--ease-out),
+                right var(--dur-base) var(--ease-out);
+    pointer-events: none;
+  }
+  /* ホバー：水色の下線が中央から左右に伸びる */
+  .chars-tabs a:hover::after,
+  .chars-tabs a:focus-visible::after {
+    left: 0;
+    right: 0;
+  }
+
+  /* アクティブ：ピンクの下線を常に表示（ホバーしても色は変えない） */
+  .chars-tabs a[aria-current="page"]::after {
+    left: 0;
+    right: 0;
+    background: var(--c-accent-pink);
+    transition: none;
+  }
+
+  /* 詳細ボックス ---------------------------------------------- */
+  .char-detail {
+    max-width: 1040px;
+    margin: 0 auto;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: #ffffff;
+    padding: clamp(var(--s-5), 4vw, var(--s-8));
+    overflow: hidden;
+  }
+
+  .char-detail__inner {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) auto 1fr;
+    gap: clamp(var(--s-4), 3vw, var(--s-6));
+    align-items: start;
+  }
+
+  /* 立ち絵：横からぬるっとスライドインしてくる ----------------- */
+  .char-portrait {
+    grid-column: 1;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 480px;
+  }
+  .char-portrait img {
+    max-height: 560px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    animation: portrait-slide-in 1100ms cubic-bezier(0.16, 0.78, 0.24, 1) both;
+    animation-delay: 150ms;
+    will-change: opacity, transform;
+  }
+
+  @keyframes portrait-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-72px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* 縦書きの台詞 ---------------------------------------------- */
+  .char-quote {
+    grid-column: 2;
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    line-height: 2.0;
+    color: var(--c-fg);
+    letter-spacing: 0.08em;
+    white-space: pre-wrap;        /* \n を改行として扱う */
+    align-self: end;
+    max-height: 460px;
+  }
+
+  /* 右側のテキスト情報 --------------------------------------- */
+  .char-info {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    min-width: 0;
+  }
+
+  .char-info__header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--s-4);
+    padding-bottom: var(--s-3);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .char-info__name {
+    font-family: var(--f-serif);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: var(--fw-bold);
+    margin: 0;
+    letter-spacing: 0.04em;
+  }
+  .char-info__furigana {
+    font-family: var(--f-serif);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    white-space: nowrap;
+  }
+
+  .char-info__description {
+    margin: 0;
+    padding-bottom: var(--s-4);
+    border-bottom: 1px solid var(--c-border);
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    line-height: 1.9;
+    color: var(--c-fg-body);
+    white-space: pre-wrap;
+  }
+
+  .char-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-2) var(--s-5);
+    margin: 0;
+    padding-bottom: var(--s-4);
+    border-bottom: 1px solid var(--c-border);
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-body);
+  }
+  .char-stats > div {
+    display: flex;
+    gap: var(--s-2);
+  }
+  .char-stats__birthday { grid-column: 1 / -1; }
+  .char-stats dt {
+    color: var(--c-fg-body);
+    font-weight: var(--fw-regular);
+  }
+  .char-stats dt::after { content: "："; }
+  .char-stats dd { margin: 0; }
+
+  .char-info__external {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg);
+  }
+  .char-info__external a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    color: var(--c-fg);
+  }
+  .char-info__external a:hover {
+    text-decoration-thickness: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .char-portrait img { animation: none; }
+  }
+
+  /* レスポンシブ：タブレット以下では縦積みに */
+  @media (max-width: 880px) {
+    .char-detail__inner {
+      grid-template-columns: 1fr;
+    }
+    .char-portrait {
+      grid-column: 1;
+      min-height: auto;
+      justify-content: center;
+    }
+    .char-portrait img {
+      max-height: 420px;
+    }
+    .char-quote {
+      grid-column: 1;
+      writing-mode: horizontal-tb;
+      -webkit-writing-mode: horizontal-tb;
+      max-height: none;
+      text-align: center;
+      border-top: 1px solid var(--c-border);
+      border-bottom: 1px solid var(--c-border);
+      padding: var(--s-4) 0;
+    }
+    .char-info {
+      grid-column: 1;
+    }
+  }
+</style>

@@ -1,0 +1,67 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { links, type OtherLink } from "../../data/others";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+/** 外部 URL かを URL から判定（明示指定があればそれを優先） */
+const isExternal = (l: OtherLink) => {
+  if (l.external !== undefined) return l.external;
+  return /^(https?:)?\/\//.test(l.href) || l.href.startsWith("mailto:");
+};
+
+/** 内部パスなら BASE_URL を付与、それ以外はそのまま返す */
+const toHref = (l: OtherLink) =>
+  isExternal(l) ? l.href : base + (l.href.startsWith("/") ? l.href : "/" + l.href);
+---
+<BaseLayout title="Others" description="Q&A・クレジット・規約などのその他情報。">
+  <section class="section container container--narrow">
+    <header class="stack-sm section-head">
+      <p class="card__eyebrow">Others</p>
+      <h1>その他</h1>
+    </header>
+
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      {links.map((l) => (
+        <li style="border-bottom: 1px solid var(--c-border);">
+          {l.disabled ? (
+            <div
+              aria-disabled="true"
+              style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); padding: var(--s-5) 0; opacity: 0.55;"
+            >
+              <div>
+                <div style="font-family: var(--f-serif); font-size: var(--fs-lg); color: var(--c-fg);">
+                  {l.title} <span class="chip" style="margin-left: var(--s-2);">準備中</span>
+                </div>
+                {l.description && (
+                  <div style="color: var(--c-fg-muted); font-size: var(--fs-sm); margin-top: var(--s-1);">
+                    {l.description}
+                  </div>
+                )}
+              </div>
+            </div>
+          ) : (
+            <a
+              href={toHref(l)}
+              target={isExternal(l) ? "_blank" : undefined}
+              rel={isExternal(l) ? "noopener" : undefined}
+              style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); padding: var(--s-5) 0; text-decoration: none;"
+            >
+              <div>
+                <div style="font-family: var(--f-serif); font-size: var(--fs-lg); color: var(--c-fg);">
+                  {l.title}{isExternal(l) ? " ↗" : ""}
+                </div>
+                {l.description && (
+                  <div style="color: var(--c-fg-muted); font-size: var(--fs-sm); margin-top: var(--s-1);">
+                    {l.description}
+                  </div>
+                )}
+              </div>
+              <span aria-hidden="true" style="color: var(--c-fg-muted);">→</span>
+            </a>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>

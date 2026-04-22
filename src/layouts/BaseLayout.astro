@@ -1,0 +1,94 @@
+---
+// 全ページ共通レイアウト。タイトル・description をprops で受ける。
+// Astro の <slot /> に各ページの本文が入る。
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+// グローバルCSS（この Layout を使うページ全てに適用される）
+import "../../styles/variables.css";
+import "../../styles/globals.css";
+import "../../styles/components/header.css";
+import "../../styles/components/footer.css";
+import "../../styles/components/card.css";
+import "../../styles/components/session-log.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  /** og:image など。public/ 配下のパスを渡す */
+  ogImage?: string;
+  /** <body> に付与するクラス（ページ固有スタイリング用） */
+  bodyClass?: string;
+}
+
+const {
+  title,
+  description = "TRPG セッションログのアーカイブ",
+  ogImage = "/images/logo.svg",
+  bodyClass = "",
+} = Astro.props;
+
+const siteName = "兄弟日記";
+const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+
+    <!-- OGP -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(ogImage, canonical).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class={bodyClass}>
+    <a href="#main" class="visually-hidden">本文へスキップ</a>
+    <Header />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+
+    {/* Back to top（ページ下部で表示） */}
+    <a href="#top" class="to-top" aria-label="ページ先頭へ戻る">
+      <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </a>
+
+    <script>
+      // モバイルナビのトグル（JS 1箇所だけ）
+      const btn = document.querySelector<HTMLButtonElement>(".nav-toggle");
+      const nav = document.querySelector<HTMLElement>(".site-nav");
+      btn?.addEventListener("click", () => {
+        const open = nav?.dataset.open === "true";
+        if (nav) nav.dataset.open = (!open).toString();
+        btn.setAttribute("aria-expanded", (!open).toString());
+      });
+
+      // Back to top：ある程度スクロールしたら表示
+      const toTop = document.querySelector<HTMLAnchorElement>(".to-top");
+      if (toTop) {
+        const updateToTop = () => {
+          toTop.dataset.visible = (window.scrollY > 400).toString();
+        };
+        updateToTop();
+        window.addEventListener("scroll", updateToTop, { passive: true });
+        toTop.addEventListener("click", (e) => {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+    </script>
+  </body>
+</html>

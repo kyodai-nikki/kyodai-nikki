@@ -1,0 +1,46 @@
+---
+// コンパクトな中央寄せフッター。
+// ブランド名・SNS・著作年は src/data/site.ts からまとめて参照。
+import { site } from "../data/site";
+
+const base = import.meta.env.BASE_URL;
+const withBase = (p: string) => `${base.replace(/\/$/, "")}${p}`;
+const year = new Date().getFullYear();
+
+const navItems = [
+  { href: "/news/",         label: "News" },
+  { href: "/introduction/", label: "Introduction" },
+  { href: "/characters/",   label: "Characters" },
+  { href: "/episodes/",     label: "Episodes" },
+  { href: "/gallery/",      label: "Gallery" },
+  { href: "/movies/",       label: "Movies" },
+  { href: "/goods/",        label: "Goods" },
+  { href: "/others/",       label: "Others" },
+];
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__brand">{site.name}</div>
+
+    <div class="site-footer__copyright">
+      © {site.copyStartYear}–{year} {site.name}制作チーム
+    </div>
+
+    <div class="site-footer__share">
+      <span>Share :</span>
+      {site.social.twitter && (
+        <a href={site.social.twitter} target="_blank" rel="noopener" aria-label="X でシェア">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z"/>
+          </svg>
+        </a>
+      )}
+    </div>
+
+    <ul class="site-footer__links">
+      {navItems.map((item) => (
+        <li><a href={withBase(item.href)}>{item.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</footer>

@@ -1,0 +1,133 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { characters } from "../../data/characters";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<BaseLayout title="Characters" description="兄弟日記 登場キャラクター紹介。">
+  <section class="section container">
+    <header class="section-head section-head--center">
+      <h1 class="chars-heading">Characters</h1>
+    </header>
+
+    <ul class="chars-grid">
+      {characters.map((c, i) => (
+        <li class="chars-card" style={`--i: ${i};`}>
+          <a href={`${base}/characters/${c.slug}/`} aria-label={c.name}>
+            <div class="chars-card__img-wrap">
+              <img
+                src={base + c.portrait}
+                alt={c.name}
+                loading="lazy"
+                class="chars-card__img"
+              />
+            </div>
+            <div class="chars-card__name">{c.name}</div>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .chars-heading {
+    font-family: var(--f-serif);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  /* 横並び：4枚がセンタリングされて並ぶ。ビューが狭くなったら折り返す */
+  .chars-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(12px, 2vw, 20px);
+  }
+
+  /* 縦長のカード：スクショの通り portrait っぽいアスペクト */
+  .chars-card {
+    flex: 0 1 220px;
+    max-width: 240px;
+    opacity: 0;
+    transform: translateY(32px);
+    animation: chars-rise 700ms var(--ease-out) both;
+    animation-delay: calc(var(--i, 0) * 120ms + 120ms);
+  }
+
+  .chars-card a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .chars-card__img-wrap {
+    position: relative;
+    aspect-ratio: 2 / 5;
+    overflow: hidden;
+    border-radius: var(--r-sm);
+    /* 画像未設定時のフォールバック：斜めストライプのプレースホルダ */
+    background:
+      repeating-linear-gradient(
+        135deg,
+        #d7d7d7 0 2px,
+        #ebebeb 2px 8px
+      );
+    transition: transform var(--dur-base) var(--ease-out),
+                filter var(--dur-base) var(--ease-out);
+  }
+
+  .chars-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(0.1);
+    transition: filter var(--dur-base) var(--ease-out);
+  }
+
+  .chars-card a:hover .chars-card__img-wrap {
+    transform: translateY(-4px);
+  }
+  .chars-card a:hover .chars-card__img {
+    filter: grayscale(0);
+  }
+
+  .chars-card__name {
+    margin-top: var(--s-3);
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    text-align: center;
+    color: var(--c-fg);
+  }
+
+  @keyframes chars-rise {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chars-card {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .chars-card { flex-basis: 45%; }
+  }
+</style>

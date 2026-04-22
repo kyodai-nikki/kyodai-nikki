@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+---
+<BaseLayout title="404 Not Found">
+  <section class="section container container--narrow" style="text-align: center;">
+    <p class="card__eyebrow">404</p>
+    <h1>ページが見つかりませんでした</h1>
+    <p style="color: var(--c-fg-muted);">
+      URL が古いか、ログがまだ投稿されていないかもしれません。
+    </p>
+    <p><a href={`${base}/`}>トップへ戻る</a></p>
+  </section>
+</BaseLayout>

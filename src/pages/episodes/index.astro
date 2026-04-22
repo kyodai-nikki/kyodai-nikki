@@ -1,0 +1,11 @@
+---
+// /episodes/  → デフォルトで 1st season / 最初のエピソードを選択した状態。
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EpisodesNavigator from "../../components/EpisodesNavigator.astro";
+import { firstEpisodeOfSeason } from "../../data/episodes";
+
+const initial = firstEpisodeOfSeason(1);
+---
+<BaseLayout title="Episodes" description="兄弟日記 シナリオ・エピソード一覧。">
+  <EpisodesNavigator activeSeason={1} selected={initial} />
+</BaseLayout>

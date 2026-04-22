@@ -1,0 +1,27 @@
+---
+// /episodes/season{N}/  → 該当シーズンの最初のエピソードを選択
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import EpisodesNavigator from "../../../components/EpisodesNavigator.astro";
+import {
+  seasons,
+  firstEpisodeOfSeason,
+} from "../../../data/episodes";
+
+export async function getStaticPaths() {
+  return seasons.map((s) => ({
+    params: { season: s.slug },
+    props: { seasonNumber: s.number },
+  }));
+}
+
+interface Props { seasonNumber: 1 | 2 | 3 | 4 }
+const { seasonNumber } = Astro.props as Props;
+const initial = firstEpisodeOfSeason(seasonNumber);
+const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
+---
+<BaseLayout
+  title={`${seasonInfo.label} | Episodes`}
+  description={`兄弟日記 ${seasonInfo.label} エピソード一覧。`}
+>
+  <EpisodesNavigator activeSeason={seasonNumber} selected={initial} />
+</BaseLayout>

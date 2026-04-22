@@ -1,0 +1,473 @@
+---
+// =========================================================
+// Episodes ナビゲータ
+// ---------------------------------------------------------
+// props
+//   - activeSeason :  現在表示中のシーズン（1〜4）または "timeline"
+//   - selected     :  右パネルに表示する EpisodeEntry。未指定なら最初の1件
+// =========================================================
+import {
+  seasons,
+  episodesBySeason,
+  type EpisodeEntry,
+} from "../data/episodes";
+
+interface Props {
+  activeSeason: 1 | 2 | 3 | 4;
+  selected?: EpisodeEntry;
+}
+
+const { activeSeason, selected } = Astro.props as Props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
+const list = episodesBySeason(activeSeason);
+
+// selected が無い場合、シーズンの先頭エピソードをフォールバック
+const current: EpisodeEntry | undefined = selected ?? list[0];
+
+const epUrl = (e: EpisodeEntry) =>
+  `${base}/episodes/${seasons.find((s) => s.number === e.season)!.slug}/${e.slug}/`;
+
+/** 一覧カード用クラス名を組み立て */
+const itemClass = (e: EpisodeEntry) => {
+  const cls = ["ep-item"];
+  if (e.isAlternate) cls.push("ep-item--alt");
+  if (e.smallText)  cls.push("ep-item--sm");
+  if (current && current.slug === e.slug && current.season === e.season) {
+    cls.push("ep-item--selected");
+  }
+  return cls.join(" ");
+};
+
+/** カードに出す番号文字列。別史なら "—" */
+const numberLabel = (e: EpisodeEntry) =>
+  e.isAlternate
+    ? "—"
+    : String(e.seasonEpisodeNumber ?? "").padStart(2, "0");
+
+/** 詳細パネルのクラス */
+const detailClass = (() => {
+  if (!current) return "ep-detail";
+  if (current.isAlternate) return "ep-detail ep-detail--alt";
+  return "ep-detail";
+})();
+---
+
+<section class="section container">
+  <header class="section-head section-head--center">
+    <h1 class="ep-heading">Episodes</h1>
+  </header>
+
+  {/* シーズン切替タブ＋ timeline -------------------------- */}
+  <nav class="ep-seasons" aria-label="シーズン切替">
+    {seasons.map((s) => (
+      <a
+        href={`${base}/episodes/${s.slug}/`}
+        aria-current={s.number === activeSeason ? "page" : undefined}
+      >
+        {s.label}
+      </a>
+    ))}
+    <a href={`${base}/episodes/timeline/`}>timeline</a>
+  </nav>
+
+  {/* 一覧 ＋ 詳細パネル ----------------------------------- */}
+  <div class="ep-layout">
+    {/* 左：エピソード一覧（縦スクロール、スクロールバー非表示） */}
+    <ol class="ep-list" aria-label={`${activeSeasonInfo.label} エピソード一覧`}>
+      {list.length === 0 ? (
+        <li class="ep-empty">エピソードがまだありません。</li>
+      ) : (
+        list.map((e) => (
+          <li>
+            <a
+              class={itemClass(e)}
+              href={epUrl(e)}
+              style={e.summaryImage ? `--ep-bg: url('${base + e.summaryImage}');` : undefined}
+            >
+              <span class="ep-item__no">{numberLabel(e)}</span>
+              <span class="ep-item__title">{e.title}</span>
+            </a>
+          </li>
+        ))
+      )}
+    </ol>
+
+    {/* 右：選択中エピソードの詳細 */}
+    {current ? (
+      <article class={detailClass} aria-live="polite">
+        {current.detailImage && (
+          <div class="ep-detail__image-wrap">
+            <img
+              class="ep-detail__image"
+              src={base + current.detailImage}
+              alt={`${current.title} のメイン画像`}
+            />
+          </div>
+        )}
+
+        <h2 class="ep-detail__title">
+          <span>{current.title}</span>
+          <span class="ep-detail__subtitle">
+            {current.isAlternate
+              ? "Another Episode"
+              : `Episode${String(current.seasonEpisodeNumber ?? "").padStart(2, "0")}`}
+          </span>
+        </h2>
+
+        <p class="ep-detail__body">{current.description}</p>
+
+        <div class="ep-detail__foot">
+          {current.badge && (
+            <span class="ep-detail__badge">{current.badge}</span>
+          )}
+          {current.readHref && (
+            <a class="ep-detail__read" href={current.readHref} target={current.readHref.startsWith("http") ? "_blank" : undefined} rel={current.readHref.startsWith("http") ? "noopener" : undefined}>
+              読む
+            </a>
+          )}
+        </div>
+      </article>
+    ) : (
+      <article class="ep-detail ep-detail--empty">
+        <p>エピソードを選択してください。</p>
+      </article>
+    )}
+  </div>
+</section>
+
+<style>
+  .ep-heading {
+    font-family: var(--f-serif);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  /* ====== シーズンタブ（chars-tabs と同等のアニメーション） ====== */
+  .ep-seasons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(var(--s-5), 5vw, var(--s-8));
+    margin-bottom: 30px;
+    padding-bottom: var(--s-3);
+  }
+  .ep-seasons a {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+    text-decoration: none;
+    letter-spacing: var(--ls-wide);
+    padding: var(--s-2) 0;
+    position: relative;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+  .ep-seasons a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -3px;
+    height: 2px;
+    background: var(--c-accent-cyan);
+    transition: left var(--dur-base) var(--ease-out),
+                right var(--dur-base) var(--ease-out);
+    pointer-events: none;
+  }
+  .ep-seasons a:hover::after,
+  .ep-seasons a:focus-visible::after {
+    left: 0;
+    right: 0;
+  }
+  .ep-seasons a[aria-current="page"]::after {
+    left: 0;
+    right: 0;
+    background: var(--c-accent-pink);
+    transition: none;
+  }
+
+  /* ====== 一覧 ＋ 詳細の 2 カラム ====== */
+  .ep-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: clamp(var(--s-4), 3vw, var(--s-6));
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ====== 一覧（スクロールバー非表示） ====== */
+  .ep-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 640px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none;     /* IE/Edge legacy */
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-3);
+  }
+  .ep-list::-webkit-scrollbar {
+    display: none;                /* WebKit */
+  }
+  .ep-empty {
+    padding: var(--s-5);
+    color: var(--c-fg-muted);
+    text-align: center;
+  }
+
+  /* ====== 一覧カード ====== */
+  /* 概要画像はカード全体の background-image として使い、
+     その上に白→透明のグラデーションを overlay として重ねる */
+  .ep-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    align-items: center;
+    gap: var(--s-3);
+    min-height: 88px;
+    padding: var(--s-3) var(--s-4);
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(
+        90deg,
+        rgb(255, 255, 255) 37%,
+        rgba(245, 242, 237, 0.54) 100%,
+        rgba(234, 227, 215, 0) 100%
+      ),
+      var(--ep-bg, none);
+    background-size: cover, cover;
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    border: 1px solid var(--c-border);
+    color: var(--c-fg);
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color var(--dur-base) var(--ease-out),
+                color var(--dur-base) var(--ease-out),
+                border-color var(--dur-base) var(--ease-out);
+  }
+  .ep-item:hover {
+    border-color: var(--c-border-strong);
+  }
+  .ep-item__no {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+  }
+  .ep-item__title {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ep-item--sm .ep-item__title {
+    font-size: var(--fs-sm);
+  }
+
+  /* 通常エピソード：選択時 → 黒背景（左半分のグラデを黒系に差し替え） */
+  .ep-item--selected:not(.ep-item--alt) {
+    background-color: #1a1a1a;
+    background-image:
+      linear-gradient(
+        90deg,
+        rgb(26, 26, 26) 37%,
+        rgba(26, 26, 26, 0.54) 100%,
+        rgba(26, 26, 26, 0) 100%
+      ),
+      var(--ep-bg, none);
+    color: #ffffff;
+    border-color: #1a1a1a;
+  }
+
+  /* 別史エピソード：通常時 → 黒背景＋番号非表示 */
+  .ep-item--alt {
+    background-color: #2a2a2a;
+    background-image:
+      linear-gradient(
+        90deg,
+        rgb(42, 42, 42) 37%,
+        rgba(42, 42, 42, 0.54) 100%,
+        rgba(42, 42, 42, 0) 100%
+      ),
+      var(--ep-bg, none);
+    color: #ffffff;
+    border-color: #2a2a2a;
+  }
+  /* 別史 ＋ 選択時 → 白背景に反転 */
+  .ep-item--alt.ep-item--selected {
+    background-color: #ffffff;
+    background-image:
+      linear-gradient(
+        90deg,
+        rgb(255, 255, 255) 37%,
+        rgba(245, 242, 237, 0.54) 100%,
+        rgba(234, 227, 215, 0) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg);
+    border-color: var(--c-fg);
+  }
+
+  /* ====== 詳細パネル ====== */
+  .ep-detail {
+    border: 1px solid var(--c-border);
+    background: #ffffff;
+    color: var(--c-fg);
+    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    min-height: 640px;
+  }
+
+  /* 別史選択中：黒地に白文字＋画像グレースケール */
+  .ep-detail--alt {
+    background: #1a1a1a;
+    color: #ffffff;
+    border-color: #1a1a1a;
+  }
+  .ep-detail--alt .ep-detail__image {
+    filter: grayscale(1);
+  }
+  .ep-detail--alt .ep-detail__badge {
+    background: #ffffff;
+    color: #1a1a1a;
+  }
+  .ep-detail--alt .ep-detail__read {
+    background: #ffffff;
+    color: #1a1a1a;
+    border-color: #ffffff;
+  }
+  .ep-detail--alt .ep-detail__read:hover {
+    background: transparent;
+    color: #ffffff;
+  }
+
+  .ep-detail--empty {
+    align-items: center;
+    justify-content: center;
+    color: var(--c-fg-muted);
+  }
+
+  .ep-detail__image-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #f5f5f5;
+    overflow: hidden;
+  }
+  .ep-detail__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ep-detail__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    display: flex;
+    align-items: baseline;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+  .ep-detail__subtitle {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    color: inherit;
+    opacity: 0.75;
+    letter-spacing: var(--ls-wide);
+  }
+
+  .ep-detail__body {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    line-height: 1.9;
+    white-space: pre-wrap;
+  }
+
+  .ep-detail__foot {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+  .ep-detail__badge {
+    display: inline-block;
+    padding: var(--s-1) var(--s-3);
+    background: #1a1a1a;
+    color: #ffffff;
+    font-family: var(--f-mono);
+    font-size: var(--fs-xs);
+    letter-spacing: var(--ls-wide);
+  }
+  .ep-detail__read {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: var(--s-2) var(--s-5);
+    border: 1px solid var(--c-fg);
+    color: var(--c-fg);
+    background: transparent;
+    text-decoration: none;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    letter-spacing: var(--ls-wide);
+    transition: background var(--dur-fast) var(--ease-out),
+                color var(--dur-fast) var(--ease-out);
+  }
+  .ep-detail__read:hover {
+    background: var(--c-fg);
+    color: #ffffff;
+  }
+
+  /* ====== レスポンシブ：狭い画面では縦積み ====== */
+  @media (max-width: 880px) {
+    .ep-layout {
+      grid-template-columns: 1fr;
+    }
+    .ep-list {
+      max-height: 360px;
+    }
+    .ep-detail {
+      min-height: auto;
+    }
+  }
+</style>
+
+<script>
+  /*
+    選択中のエピソード（.ep-item--selected）を一覧の一番上に来るよう
+    自動でスクロールする。リスト内 scroll なので親ページはスクロールしない。
+  */
+  (() => {
+    const list = document.querySelector<HTMLElement>(".ep-list");
+    if (!list) return;
+    const selected = list.querySelector<HTMLElement>(".ep-item--selected");
+    if (!selected) return;
+    const li = selected.closest("li") as HTMLElement | null;
+    if (!li) return;
+
+    // li の上端をリスト内のスクロール位置 0 に合わせる
+    const target = li.offsetTop - list.offsetTop;
+    list.scrollTo({ top: target, behavior: "auto" });
+  })();
+</script>

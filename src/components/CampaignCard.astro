@@ -1,0 +1,42 @@
+---
+// キャンペーン一覧で使うカード。
+interface Props {
+  href: string;
+  title: string;
+  system?: string;
+  status?: "ongoing" | "completed" | "paused";
+  startDate?: string | Date;
+  sessionCount?: number;
+  excerpt?: string;
+}
+
+const {
+  href,
+  title,
+  system,
+  status,
+  startDate,
+  sessionCount,
+  excerpt,
+} = Astro.props;
+
+const statusLabel = {
+  ongoing: "進行中",
+  completed: "完結",
+  paused: "休止中",
+}[status ?? "ongoing"];
+
+const dateText = startDate
+  ? new Date(startDate).toLocaleDateString("ja-JP", { year: "numeric", month: "long" })
+  : undefined;
+---
+<a class="card" href={href}>
+  <span class="card__eyebrow">{system ?? "Campaign"}</span>
+  <h3 class="card__title">{title}</h3>
+  <div class="card__meta">
+    {status && <span class={`chip chip--${status}`}>{statusLabel}</span>}
+    {dateText && <span>開始: {dateText}</span>}
+    {sessionCount !== undefined && <span>全{sessionCount}セッション</span>}
+  </div>
+  {excerpt && <p class="card__excerpt">{excerpt}</p>}
+</a>

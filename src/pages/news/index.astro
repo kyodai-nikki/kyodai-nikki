@@ -1,0 +1,136 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { news, type NewsItem } from "../../data/news";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+// 新しい順に並び替え
+const sorted: NewsItem[] = [...news].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+);
+
+/** 外部 URL かどうかを判定 */
+const isExternal = (item: NewsItem) => {
+  if (item.external !== undefined) return item.external;
+  return /^(https?:)?\/\//.test(item.href) || item.href.startsWith("mailto:");
+};
+
+/** 内部パスなら BASE_URL を付与、それ以外はそのまま */
+const toHref = (item: NewsItem) =>
+  isExternal(item) ? item.href : base + (item.href.startsWith("/") ? item.href : "/" + item.href);
+
+/** "YYYY-MM-DD" → "YYYY.MM.DD" */
+const formatDate = (d: string) => d.replace(/-/g, ".");
+---
+<BaseLayout title="News" description="兄弟日記のお知らせ一覧。">
+  <section class="section container">
+    <header class="section-head section-head--center">
+      <h1 class="news-heading">News</h1>
+    </header>
+
+    {sorted.length === 0 ? (
+      <p style="color: var(--c-fg-muted); text-align: center;">お知らせはありません。</p>
+    ) : (
+      <ul class="news-list">
+        {sorted.map((item) => {
+          const external = isExternal(item);
+          return (
+            <li class="news-item">
+              <a
+                class="news-link"
+                href={toHref(item)}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener" : undefined}
+              >
+                <time class="news-date" datetime={item.date}>
+                  {formatDate(item.date)}
+                </time>
+                <span class="news-sep" aria-hidden="true">|</span>
+                <span class="news-text">
+                  {item.text}{external ? " ↗" : ""}
+                </span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .news-heading {
+    font-family: var(--f-serif);
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.02em;
+    margin: 0;
+  }
+
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    gap: var(--s-5);
+  }
+
+  .news-item {
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: #ffffff;
+    transition: border-color var(--dur-fast) var(--ease-out),
+                background var(--dur-fast) var(--ease-out);
+  }
+  .news-item:hover { border-color: var(--c-fg); }
+
+  .news-link {
+    display: grid;
+    grid-template-columns: 120px auto 1fr;
+    align-items: baseline;
+    gap: var(--s-4);
+    padding: var(--s-5) var(--s-6);
+    color: var(--c-fg);
+    text-decoration: none;
+  }
+
+  .news-date {
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-sep {
+    color: var(--c-fg-subtle);
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    user-select: none;
+  }
+
+  .news-text {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--c-fg);
+  }
+  .news-link:hover .news-text {
+    text-decoration-thickness: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .news-link {
+      grid-template-columns: 1fr;
+      gap: var(--s-2);
+      padding: var(--s-4) var(--s-5);
+    }
+    .news-sep { display: none; }
+    .news-date { text-align: left; }
+  }
+</style>
