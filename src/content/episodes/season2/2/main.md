@@ -2,9 +2,10 @@
 season: 2
 session:
   type:
-    isAnother: false
     isR18: false
     isR18G: false
+  badge:
+    isAnother: false
     isDeleted: false
   storyDate: "2023.03.04"
   timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"

@@ -25,16 +25,6 @@
 
 エピソード追加時は `episodes/{season}/{episode}/main.md` を作ります。`main.md` は必須で、frontmatter に一覧・詳細・タイムライン用の情報を書き、本文にはログ本編を書けます。
 `season` は `season1` のような文字列ではなく数値で指定します。エピソード情報は `session` / `scenario` / `custom` に分けて管理します。
-`session.storyDate` は作中日付、`session.timelineCast` はタイムライン表示用の文字列、`session.cast` はログ表示用の配列です。セッション種別や年齢制限、削除済み表示は `session.type` 配下のフラグで管理します。概要文は `scenario.description`、表示系フラグは `custom.showSmallTitle` と `custom.isCompactDescription` を使います。
+`session.storyDate` は作中日付、`session.timelineCast` はタイムライン表示用の文字列、`session.cast` はログ表示用の配列です。年齢制限フラグ (`isR18` / `isR18G`) は `session.type` 配下で、バッジ表示用のフラグ (別ログを示す `isAnother` と削除済みを示す `isDeleted`) は `session.badge` 配下で管理します。概要文は `scenario.description`、表示系フラグは `custom.showSmallTitle` と `custom.isCompactDescription` を使います。
 
-任意で `prologue.md`、`epilogue.md`、`background.md`、`omake.md` を同じディレクトリに置くと、ログページにセクションとして表示されます。本文が空のセクションは表示されません。
-
-画像は `public/images/episodes/{season}/{episode}/summary.png` と `detail.png` に置きます。
-
-`seasonAllNumber` は自動計算なので書かなくて OK です。
-
-## News
-
-テンプレートは `news/_template-episode.md.example`、`news/_template-page.md.example`、`news/_template-custom.md.example` を使います。
-
-ファイル名は `YYYYMMDD-slug.md` 形式にすると管理しやすいです。
+任意で `prologue.md`、`epilogue.md`、`background.md`、`omake.md` 

@@ -2,9 +2,10 @@
 season: 4
 session:
   type:
-    isAnother: false
     isR18: true
     isR18G: false
+  badge:
+    isAnother: false
     isDeleted: false
   storyDate: "2026.03.17"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"

@@ -2,9 +2,10 @@
 season: 1
 session:
   type:
-    isAnother: false
     isR18: false
     isR18G: false
+  badge:
+    isAnother: false
     isDeleted: false
   storyDate: "2021.11.19"
   timelineCast: "千秋 (15歳・高校生) 千冬 (18歳・専門学校)"

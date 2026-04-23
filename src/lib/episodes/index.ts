@@ -131,6 +131,7 @@ const loadEpisodes = async (): Promise<Season[]> => {
           const data = entry.data;
           const session = data.session;
           const sessionType = session?.type;
+          const sessionBadge = session?.badge;
           const episode: EpisodeEntry = {
             overallNumber: overallNumberMap.get(entry.id)!,
             seasonEpisodeNumber: episodeNumberFromId(entry.id),
@@ -138,7 +139,7 @@ const loadEpisodes = async (): Promise<Season[]> => {
             description: data.scenario?.description!,
             date: session?.storyDate,
             cast: session?.timelineCast,
-            isAnother: sessionType?.isAnother,
+            isAnother: sessionBadge?.isAnother,
             smallText: data.custom?.showSmallTitle,
             isR18: sessionType?.isR18,
             isR18G: sessionType?.isR18G,
@@ -146,7 +147,7 @@ const loadEpisodes = async (): Promise<Season[]> => {
               ...data.scenario,
               storyDate: session?.storyDate,
               cast: session?.cast,
-              isDeleted: sessionType?.isDeleted,
+              isDeleted: sessionBadge?.isDeleted,
               isCompactDescription: data.custom?.isCompactDescription,
             },
           };
