@@ -1,5 +1,6 @@
 ﻿---
 import type { EpisodeScenarioInfo } from "../../../lib/episodes/logs";
+import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 
 interface Props {
@@ -10,7 +11,7 @@ interface Props {
 }
 
 const { title, episodeNumberLabel, badges, scenario } = Astro.props;
-const castLabel = scenario?.participants?.length ? scenario.participants.join("繝ｻ") : undefined;
+const castLabel = scenario?.participants?.length ? scenario.participants.join(commonMsg.symbol.dot) : undefined;
 const writerLabel = scenario?.author;
 const sourceLabel = scenario?.distributionName;
 ---
@@ -49,7 +50,7 @@ const sourceLabel = scenario?.distributionName;
         {writerLabel && (
           <div class="episode-log__meta-inline">
             <dt>{episodesPageMsg.logInfo.scenarioAuthor}</dt>
-            <dd>{writerLabel}</dd>
+            <dd>{writerLabel}{commonMsg.dear}</dd>
           </div>
         )}
         {sourceLabel && (

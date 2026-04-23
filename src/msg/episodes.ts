@@ -23,6 +23,5 @@ export const episodesPageMsg = {
     scenarioDistribution: "シナリオ頒布先 :",
     adaptedScenario: "改変シナリオ :",
     adaptedScenarioLink: "該当ページへのリンク",
-    yes: "あり",
   },
 } as const;

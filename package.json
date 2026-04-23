@@ -10,7 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.18.1"
+    "astro": "^5.18.1",
+    "rehype-external-links": "^3.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.53.0",

@@ -1,6 +1,7 @@
 ﻿---
 import ShareButtons from "../../common/btn/ShareButtons.astro";
 import { episodesPageMsg } from "../../../msg/episodes";
+import { commonMsg } from "../../../msg/common";
 
 interface Props {
   showPreviousButton: boolean;
@@ -25,7 +26,7 @@ const {
   <div class="episode-log__footer-nav">
     {showPreviousButton && previousHref ? (
       <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
-        {episodesPageMsg.previousEpisodeArrow}
+        {commonMsg.symbol.previousEpisodeArrow}
       </a>
     ) : (
       <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
@@ -39,7 +40,7 @@ const {
 
     {showNextButton && nextHref ? (
       <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
-        {episodesPageMsg.nextEpisodeArrow}
+        {commonMsg.symbol.nextEpisodeArrow}
       </a>
     ) : (
       <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>

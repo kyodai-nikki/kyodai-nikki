@@ -1,4 +1,10 @@
 export const commonMsg = {
+  symbol: {
+    dot: "・",
+    previousEpisodeArrow: "‹",
+    nextEpisodeArrow: "›",
+  },
+  dear: "様",
   site: {
     defaultDescription: "TRPG セッションログのアーカイブ。",
   },
