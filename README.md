@@ -17,7 +17,7 @@ kyodai-nikki/
 │   ├── favicon.svg
 │   └── images/
 │       ├── characters/            # キャラクター画像
-│       ├── episodes/              # エピソード画像（summary.png / detail.png）
+│       ├── episodes/              # エピソード画像（summary.png / thumbnail.png）
 │       ├── gallery/               # ギャラリー画像
 │       ├── goods/                 # 物販画像
 │       ├── home/                  # トップ画像
@@ -96,10 +96,4 @@ kyodai-nikki/
 
 ## 公開パスの調整
 
-`astro.config.mjs` の `base` がサブパス。
-`kyodai-nikki.github.io` 直下で公開したい場合は `base` を削除する。
-
-## デプロイ
-
-`.github/workflows/deploy.yml` により `master` への push で自動デプロイ。
-`withastro/action@v5` を使っており、package-lock.json からパッケージマネージャを自動判定する。
+`astro.co

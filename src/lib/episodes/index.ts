@@ -182,10 +182,10 @@ export const episodeSummaryImage = (
 ): string => `${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/summary.png`;
 
 // エピソード詳細画像のパスを返す。
-export const episodeDetailImage = (
+export const episodeThumbnailImage = (
   seasonSlug: string,
   e: EpisodeEntry,
-): string => `${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/detail.png`;
+): string => `${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/thumbnail.png`;
 
 // シーズン一覧を取得する。
 export const seasons = async (): Promise<readonly SeasonInfo[]> =>
@@ -290,15 +290,4 @@ export const episodeSeasonStaticPaths = async (): Promise<
     props: { seasonNumber: season.number },
   }));
 
-// エピソードログページへのパスを返す。
-export const episodeLogHref = (seasonSlug: string, e: EpisodeEntry): string =>
-  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}/log`;
-
-// ログ本文が存在するか判定する。
-export const hasEpisodeLogBody = (
-  entry: EpisodeLogEntry | undefined,
-): boolean => Boolean(entry?.body?.trim());
-
-// main ログの entry id からエピソード slug を取り出す。
-export const episodeSlugFromMainEntry = (entry: EpisodeLogEntry): string =>
-  episodeSlugFromId(entry.id);
+// エピソードログページへのパス

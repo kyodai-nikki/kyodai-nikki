@@ -16,7 +16,7 @@ export const episodesPageMsg = {
   nextEpisodeArrow: "›",
   previousEpisodeMove: "前の話へ移動",
   nextEpisodeMove: "次の話へ移動",
-  detailImageAlt: (title: string) => `${title} main visual`,
+  thumbnailAlt: (title: string) => `${title} main visual`,
   redirecting: "移動中…",
   logInfo: {
     scenarioAuthor: "シナリオ制作者 :",

@@ -35,10 +35,10 @@ const current: EpisodeMeta | undefined =
   (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
   (list[0] as EpisodeMeta | undefined);
 
+const episodeListImagePath = (e: EpisodeEntry): string =>
+  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/episode-list.png`;
 const thumbnailImagePath = (e: EpisodeEntry): string =>
   `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/thumbnail.png`;
-const detailImagePath = (e: EpisodeEntry): string =>
-  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/detail.png`;
 
 const epHref = (e: EpisodeEntry) =>
   `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}`;
@@ -72,7 +72,7 @@ const logHref = current
           <a
             class={itemClass(e)}
             href={epHref(e)}
-            style={`--ep-bg: url('${thumbnailImagePath(e)}'), url('${dummySummary}');`}
+            style={`--ep-bg: url('${episodeListImagePath(e)}'), url('${dummySummary}');`}
           >
             <span class="ep-item__no">{numberLabel(e)}</span>
             <span class="ep-item__title">{e.title}</span>
@@ -87,8 +87,8 @@ const logHref = current
       <div class="ep-detail__image-wrap">
         <img
           class="ep-detail__image"
-          src={detailImagePath(current)}
-          alt={episodesPageMsg.detailImageAlt(current.title)}
+          src={thumbnailImagePath(current)}
+          alt={episodesPageMsg.thumbnailAlt(current.title)}
           onerror={`this.src='${dummyDetail}'`}
         />
       </div>
