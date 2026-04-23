@@ -2,33 +2,30 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import { news, type NewsItem } from "../../data/news";
+import { newsPageMsg } from "../../msg/pages/news";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
-// 新しい順に並び替え
 const sorted: NewsItem[] = [...news].sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
 );
 
-/** 外部 URL かどうかを判定 */
 const isExternal = (item: NewsItem) => {
   if (item.external !== undefined) return item.external;
   return /^(https?:)?\/\//.test(item.href) || item.href.startsWith("mailto:");
 };
 
-/** 内部パスなら BASE_URL を付与、それ以外はそのまま */
 const toHref = (item: NewsItem) =>
   isExternal(item) ? item.href : base + (item.href.startsWith("/") ? item.href : "/" + item.href);
 
-/** "YYYY-MM-DD" → "YYYY.MM.DD" */
 const formatDate = (d: string) => d.replace(/-/g, ".");
 ---
-<BaseLayout title="News" description="兄弟日記のお知らせ一覧。">
+<BaseLayout title={newsPageMsg.title} description={newsPageMsg.description}>
   <section class="section container">
-    <PageHeading title="News" />
+    <PageHeading title={newsPageMsg.title} />
 
     {sorted.length === 0 ? (
-      <p style="color: var(--c-fg-muted); text-align: center;">お知らせはありません。</p>
+      <p style="color: var(--c-fg-muted); text-align: center;">{newsPageMsg.empty}</p>
     ) : (
       <ul class="news-list">
         {sorted.map((item) => {
@@ -46,7 +43,7 @@ const formatDate = (d: string) => d.replace(/-/g, ".");
                 </time>
                 <span class="news-sep" aria-hidden="true">|</span>
                 <span class="news-text">
-                  {item.text}{external ? " ↗" : ""}
+                  {item.text}{external ? newsPageMsg.externalSuffix : ""}
                 </span>
               </a>
             </li>

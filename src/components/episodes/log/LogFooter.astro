@@ -1,5 +1,6 @@
 ---
 import ShareButtons from "../../common/btn/ShareButtons.astro";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 interface Props {
   previousHref?: string;
@@ -14,7 +15,7 @@ const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
 <footer class="episode-log__footer">
   <div class="episode-log__footer-nav">
     {previousHref ? (
-      <a class="episode-log__arrow" href={previousHref} aria-label="前の話へ移動">
+      <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
         ‹
       </a>
     ) : (
@@ -30,7 +31,7 @@ const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
     />
 
     {nextHref ? (
-      <a class="episode-log__arrow" href={nextHref} aria-label="次の話へ移動">
+      <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
         ›
       </a>
     ) : (

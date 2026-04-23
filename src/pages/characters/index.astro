@@ -2,13 +2,14 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import { characters } from "../../data/characters";
+import { charactersPageMsg } from "../../msg/pages/characters";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
 ---
-<BaseLayout title="Characters" description="兄弟日記 登場キャラクター紹介。">
+<BaseLayout title={charactersPageMsg.title} description={charactersPageMsg.description}>
   <section class="section container">
-    <PageHeading title="Characters" />
+    <PageHeading title={charactersPageMsg.title} />
 
     <ul class="chars-grid">
       {characters.map((c, i) => (
@@ -30,7 +31,6 @@ const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
 </BaseLayout>
 
 <style>
-  /* 横並び：4枚がセンタリングされて並ぶ。ビューが狭くなったら折り返す */
   .chars-grid {
     list-style: none;
     padding: 0;
@@ -42,7 +42,6 @@ const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
     gap: clamp(12px, 2vw, 20px);
   }
 
-  /* 縦長のカード：スクショの通り portrait っぽいアスペクト */
   .chars-card {
     flex: 0 1 220px;
     max-width: 240px;
@@ -63,7 +62,6 @@ const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
     aspect-ratio: 2 / 5;
     overflow: hidden;
     border-radius: var(--r-sm);
-    /* 画像未設定時のフォールバック：斜めストライプのプレースホルダ */
     background:
       repeating-linear-gradient(
         135deg,

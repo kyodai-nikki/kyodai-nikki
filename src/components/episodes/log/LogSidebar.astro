@@ -1,5 +1,7 @@
 ---
 import type { EpisodeLogSection } from "../../../data/episodeLogs";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 interface Props {
   overviewHref: string;
@@ -20,15 +22,15 @@ const {
 } = Astro.props;
 ---
 
-<aside class="episode-log__sidebar" aria-label="ログナビゲーション">
+<aside class="episode-log__sidebar" aria-label={episodesPageMsg.logNavigation}>
   <a class="episode-log__button episode-log__button--primary" href={overviewHref}>
-    概要に戻る
+    {commonMsg.actions.backToOverview}
   </a>
   {showNextButton && nextHref && (
-    <a class="episode-log__button" href={nextHref}>次の話</a>
+    <a class="episode-log__button" href={nextHref}>{commonMsg.actions.nextEpisode}</a>
   )}
   {showPreviousButton && previousHref && (
-    <a class="episode-log__button" href={previousHref}>前の話</a>
+    <a class="episode-log__button" href={previousHref}>{commonMsg.actions.previousEpisode}</a>
   )}
   {sections.map((section) => (
     <a class="episode-log__button" href={`#${section.anchor}`}>{section.label}</a>

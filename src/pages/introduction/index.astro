@@ -2,13 +2,14 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import { paragraphs } from "../../data/introduction";
+import { introductionPageMsg } from "../../msg/pages/introduction";
 ---
 <BaseLayout
-  title="Introduction"
-  description="兄弟日記 シリーズ紹介。あらすじ・作品概要。"
+  title={introductionPageMsg.title}
+  description={introductionPageMsg.description}
 >
   <section class="section container">
-    <PageHeading title="Introduction" />
+    <PageHeading title={introductionPageMsg.title} />
 
     <div class="intro-box">
       {paragraphs.map((p) => (
@@ -19,8 +20,6 @@ import { paragraphs } from "../../data/introduction";
 </BaseLayout>
 
 <style>
-  /* 中央の文章ボックス：罫線だけの素朴な四角。
-     ページに入った瞬間、横からふわっとスライドインしてくる */
   .intro-box {
     max-width: 880px;
     margin: 0 auto;
@@ -32,11 +31,6 @@ import { paragraphs } from "../../data/introduction";
     color: var(--c-fg-body);
     line-height: var(--lh-loose);
     font-size: var(--fs-base);
-
-    /* ── Animation ──────────────────────────────────
-       横から入ってきつつフェードイン。
-       `both` を付けて、開始前の状態（透明・左にずれた状態）も
-       キープしてから再生されるようにしている。 */
     animation: intro-slide-in 900ms var(--ease-out) both;
     animation-delay: 120ms;
     will-change: opacity, transform;
@@ -44,7 +38,7 @@ import { paragraphs } from "../../data/introduction";
 
   .intro-para {
     margin: 0 0 1.6em;
-    white-space: pre-wrap;    /* `\n` を改行として扱う */
+    white-space: pre-wrap;
   }
   .intro-para:last-child {
     margin-bottom: 0;

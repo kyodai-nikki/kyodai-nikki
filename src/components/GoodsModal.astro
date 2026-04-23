@@ -1,5 +1,7 @@
 ---
 import Modal from "./common/Modal.astro";
+import { commonMsg } from "../msg/common";
+import { goodsPageMsg } from "../msg/pages/goods";
 
 interface Props {
   id: string;
@@ -17,8 +19,8 @@ const {
   image,
   description = "",
   saleUrl,
-  saleLabel = "販売ページ",
-  buttonLabel = "戻る",
+  saleLabel = goodsPageMsg.salePage,
+  buttonLabel = commonMsg.actions.back,
 } = Astro.props;
 ---
 

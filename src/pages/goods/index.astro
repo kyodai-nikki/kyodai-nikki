@@ -3,29 +3,31 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import GoodsModal from "../../components/GoodsModal.astro";
 import { goods } from "../../data/goods";
+import { commonMsg } from "../../msg/common";
+import { goodsPageMsg } from "../../msg/pages/goods";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
 ---
-<BaseLayout title="Goods" description="公式グッズ・関連商品情報。">
+<BaseLayout title={goodsPageMsg.title} description={goodsPageMsg.description}>
   <section class="goods section">
     <div class="container">
-      <PageHeading title="Goods" />
+      <PageHeading title={goodsPageMsg.title} />
 
       {goods.length === 0 ? (
         <p class="goods__empty">
-          商品を追加するには <code>src/data/goods.ts</code> の <code>goods</code> 配列を更新してください。
+          {goodsPageMsg.empty}
         </p>
       ) : (
         <>
-          <div class="goods-grid" aria-label="Goods item list">
+          <div class="goods-grid" aria-label={goodsPageMsg.listAriaLabel}>
             {goods.map((item, index) => {
               const modalId = `goods-modal-${index}`;
               return (
                 <button
                   class="goods-card"
                   type="button"
-                  aria-label={`${item.title} を開く`}
+                  aria-label={commonMsg.actions.open(item.title)}
                   data-modal-open={modalId}
                 >
                   <div class="goods-card__image-wrap">

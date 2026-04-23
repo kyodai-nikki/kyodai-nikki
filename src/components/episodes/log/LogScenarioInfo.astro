@@ -1,5 +1,6 @@
 ---
 import type { EpisodeScenarioInfo } from "../../../data/episodeLogs";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 interface Props {
   title: string;
@@ -47,13 +48,13 @@ const sourceLabel = scenario?.distributionName;
       <div class="episode-log__meta-line">
         {writerLabel && (
           <div class="episode-log__meta-inline">
-            <dt>シナリオ制作者 :</dt>
+            <dt>{episodesPageMsg.logInfo.scenarioAuthor}</dt>
             <dd>{writerLabel}</dd>
           </div>
         )}
         {sourceLabel && (
           <div class="episode-log__meta-inline">
-            <dt>シナリオ頒布先 :</dt>
+            <dt>{episodesPageMsg.logInfo.scenarioDistribution}</dt>
             <dd>
               {scenario?.distributionUrl ? (
                 <a href={scenario.distributionUrl} target="_blank" rel="noopener">
@@ -71,14 +72,14 @@ const sourceLabel = scenario?.distributionName;
     {scenario?.isAdapted && (
       <div class="episode-log__meta-line">
         <div class="episode-log__meta-inline">
-          <dt>改変シナリオ :</dt>
+          <dt>{episodesPageMsg.logInfo.adaptedScenario}</dt>
           <dd>
             {scenario.adaptedScenarioUrl ? (
               <a href={scenario.adaptedScenarioUrl} target="_blank" rel="noopener">
-                該当ページへのリンク
+                {episodesPageMsg.logInfo.adaptedScenarioLink}
               </a>
             ) : (
-              "あり"
+              episodesPageMsg.logInfo.yes
             )}
           </dd>
         </div>

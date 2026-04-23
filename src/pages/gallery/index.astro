@@ -3,23 +3,24 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import GalleryModal from "../../components/GalleryModal.astro";
 import { images } from "../../data/gallery";
+import { commonMsg } from "../../msg/common";
+import { galleryPageMsg } from "../../msg/pages/gallery";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
 ---
-<BaseLayout title="Gallery" description="スチル・挿絵などのギャラリー。" bodyClass="gallery-page">
+<BaseLayout title={galleryPageMsg.title} description={galleryPageMsg.description} bodyClass="gallery-page">
   <section class="gallery section">
     <div class="container">
-      <PageHeading title="Gallery" />
+      <PageHeading title={galleryPageMsg.title} />
 
       {images.length === 0 ? (
         <p class="gallery__empty">
-          画像を追加するには <code>public/images/gallery/</code> にファイルを置き、
-          <code>src/data/gallery.ts</code> の <code>images</code> 配列に記入してください。
+          {galleryPageMsg.empty}
         </p>
       ) : (
         <>
-          <div class="gallery-grid" aria-label="Gallery image list">
+          <div class="gallery-grid" aria-label={galleryPageMsg.listAriaLabel}>
             {images.map((img, index) => {
               const modalId = `gallery-modal-${index}`;
               const modalTitle = img.title ?? img.caption ?? img.alt;
@@ -28,7 +29,7 @@ const withBase = (path: string) => `${base}${path}`;
                 <button
                   class="gallery-card"
                   type="button"
-                  aria-label={`${modalTitle} を開く`}
+                  aria-label={commonMsg.actions.open(modalTitle)}
                   data-modal-open={modalId}
                   style={`--delay:${index * 30}ms;`}
                 >

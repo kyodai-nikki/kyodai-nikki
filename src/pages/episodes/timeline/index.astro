@@ -1,7 +1,4 @@
 ---
-// /episodes/timeline/  → 全シーズン通しタイムライン
-//   - 左：シーズン一覧（クイックジャンプ、sticky）
-//   - 右：シーズン毎にまとまった縦タイムライン
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import {
@@ -10,6 +7,8 @@ import {
   timelineEpisodeHref,
   type TimelineEntry,
 } from "../../../data/episodes";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -17,31 +16,27 @@ const timeline = episodesTimeline();
 
 const numberLabel = (e: TimelineEntry) =>
   e.isAlternate
-    ? "—"
+    ? "…"
     : `Episode${String(e.seasonEpisodeNumber ?? "").padStart(2, "0")}`;
 
-// シーズン毎に通算番号順で並べる
 const grouped = seasons.map((s) => ({
   season: s,
   items: timeline.filter((e) => e.season === s.number),
 }));
 ---
-<BaseLayout title="Timeline | Episodes" description="兄弟日記 全エピソードのタイムライン。">
+<BaseLayout title={episodesPageMsg.timelinePageTitle} description={episodesPageMsg.timelineDescription}>
   <section class="section container">
-    <PageHeading title="Episodes" />
+    <PageHeading title={episodesPageMsg.title} />
 
-    {/* シーズン切替タブ＋ timeline -------------------------- */}
-    <nav class="ep-seasons" aria-label="シーズン切替">
+    <nav class="ep-seasons" aria-label={episodesPageMsg.timelineSeasonNav}>
       {seasons.map((s) => (
         <a href={`${base}/episodes/${s.slug}`}>{s.label}</a>
       ))}
-      <a href={`${base}/episodes/timeline`} aria-current="page">timeline</a>
+      <a href={`${base}/episodes/timeline`} aria-current="page">{episodesPageMsg.seasonTimelineLabel}</a>
     </nav>
 
-    {/* タイムライン本体：左にクイックジャンプ、右に本文 ----- */}
     <div class="tl-layout">
-      {/* 左：シーズン一覧 */}
-      <aside class="tl-side" aria-label="シーズンへジャンプ">
+      <aside class="tl-side" aria-label={episodesPageMsg.timelineJumpNav}>
         <ol class="tl-side__list">
           {seasons.map((s) => (
             <li>
@@ -51,7 +46,6 @@ const grouped = seasons.map((s) => ({
         </ol>
       </aside>
 
-      {/* 右：シーズン毎の縦タイムライン */}
       <div class="tl-main">
         {grouped.map(({ season, items }) => (
           <section class="tl-season" id={season.slug} aria-label={season.label}>
@@ -60,21 +54,19 @@ const grouped = seasons.map((s) => ({
             </header>
 
             {items.length === 0 ? (
-              <p class="tl-season__empty">エピソードがまだありません。</p>
+              <p class="tl-season__empty">{commonMsg.states.noEpisodes}</p>
             ) : (
               <ol class="tl-rows">
                 {items.map((e) => {
                   const cls = ["tl-row"];
                   if (e.isAlternate) cls.push("tl-row--alt");
-                  if (e.smallText)  cls.push("tl-row--sm");
+                  if (e.smallText) cls.push("tl-row--sm");
                   return (
                     <li class={cls.join(" ")}>
-                      {/* 通常エピソード：左＝カード、右＝日付/キャスト */}
-                      {/* 別史エピソード：左＝日付/キャスト、右＝黒カード（CSS で順序入替） */}
                       <a class="tl-row__card" href={base + timelineEpisodeHref(e)}>
                         <span class="tl-row__no">{numberLabel(e)}</span>
                         <span class="tl-row__title">{e.title}</span>
-                        {e.isAlternate && <span class="tl-row__tag">Another Episode</span>}
+                        {e.isAlternate && <span class="tl-row__tag">{episodesPageMsg.alternateTag}</span>}
                       </a>
                       <div class="tl-row__meta">
                         {e.date && <div class="tl-row__date">{e.date}</div>}
@@ -93,7 +85,6 @@ const grouped = seasons.map((s) => ({
 </BaseLayout>
 
 <style>
-  /* ====== シーズンタブ（共通スタイル） ====== */
   .ep-seasons {
     display: flex;
     justify-content: center;
@@ -136,7 +127,6 @@ const grouped = seasons.map((s) => ({
     transition: none;
   }
 
-  /* ====== 左：シーズン一覧（sticky） ＋ 右：本体 ====== */
   .tl-layout {
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr);
@@ -178,7 +168,6 @@ const grouped = seasons.map((s) => ({
     border-color: var(--c-border-strong);
   }
 
-  /* ====== 右：シーズンごとのまとまり ====== */
   .tl-main {
     display: flex;
     flex-direction: column;
@@ -207,7 +196,6 @@ const grouped = seasons.map((s) => ({
     padding: var(--s-5);
   }
 
-  /* ====== タイムライン本体：中央に縦線、左右に要素 ====== */
   .tl-rows {
     list-style: none;
     margin: 0;
@@ -234,7 +222,6 @@ const grouped = seasons.map((s) => ({
     min-height: 76px;
   }
 
-  /* 中央線上のドット */
   .tl-row::after {
     content: "";
     position: absolute;
@@ -249,7 +236,6 @@ const grouped = seasons.map((s) => ({
     z-index: 1;
   }
 
-  /* ----- 通常エピソード：左にカード、右にメタ ----- */
   .tl-row__card {
     grid-column: 1;
     justify-self: end;
@@ -286,7 +272,7 @@ const grouped = seasons.map((s) => ({
   }
   .tl-row--sm .tl-row__title { font-size: var(--fs-sm); }
   .tl-row__tag {
-    display: none; /* 通常エピソードでは非表示 */
+    display: none;
   }
 
   .tl-row__meta {
@@ -311,7 +297,6 @@ const grouped = seasons.map((s) => ({
     line-height: 1.6;
   }
 
-  /* ----- 別史エピソード：左右を入れ替え（左にメタ、右に黒カード） ----- */
   .tl-row--alt .tl-row__card {
     grid-column: 2;
     grid-row: 1;
@@ -329,7 +314,7 @@ const grouped = seasons.map((s) => ({
     background: #2c2c2c;
     border-color: #2c2c2c;
   }
-  .tl-row--alt .tl-row__no { display: none; } /* "—" は出さない */
+  .tl-row--alt .tl-row__no { display: none; }
   .tl-row--alt .tl-row__tag {
     display: inline-block;
     font-family: var(--f-mono);
@@ -353,7 +338,6 @@ const grouped = seasons.map((s) => ({
     padding-right: var(--s-3);
   }
 
-  /* ====== レスポンシブ ====== */
   @media (max-width: 880px) {
     .tl-layout {
       grid-template-columns: 1fr;
@@ -372,7 +356,6 @@ const grouped = seasons.map((s) => ({
     }
   }
   @media (max-width: 640px) {
-    /* 中央線レイアウトを諦め、すべて 1 カラム表示 */
     .tl-rows::before { display: none; }
     .tl-row,
     .tl-row--alt {

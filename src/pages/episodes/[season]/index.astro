@@ -4,6 +4,7 @@ import {
   firstEpisodeOfSeason,
   episodeHref,
 } from "../../../data/episodes";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 export async function getStaticPaths() {
   return seasons.map((s) => ({
@@ -27,9 +28,9 @@ const redirectTo = initial ? episodeHref(seasonInfo.slug, initial) : "/episodes"
     <meta charset="utf-8" />
     <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
     <link rel="canonical" href={redirectTo} />
-    <title>{seasonInfo.label} | Episodes</title>
+    <title>{seasonInfo.label} | {episodesPageMsg.title}</title>
   </head>
   <body>
-    <p><a href={redirectTo}>移動中…</a></p>
+    <p><a href={redirectTo}>{episodesPageMsg.redirecting}</a></p>
   </body>
 </html>

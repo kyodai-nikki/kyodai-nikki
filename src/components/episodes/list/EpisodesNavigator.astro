@@ -1,12 +1,4 @@
 ---
-// =========================================================
-// Episodes ナビゲータ
-// ---------------------------------------------------------
-// props
-//   - activeSeason : 現在表示中のシーズン（1〜4）
-//   - selected     : 右パネルに表示する EpisodeEntry。未指定なら activeSlug / 先頭を使用
-//   - activeSlug   : URL に含まれる現在の slug（= seasonEpisodeNumber）。左一覧のアクティブ判定に利用
-// =========================================================
 import {
   seasons,
   episodesBySeason,
@@ -17,6 +9,8 @@ import {
 import { getCollection } from "astro:content";
 import { hasAnyEpisodeLog } from "../../../data/episodeLogs";
 import PageHeading from "../../common/PageHeading.astro";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 type EpisodeMeta = EpisodeEntry & {
   badge?: string;
@@ -31,20 +25,18 @@ interface Props {
 const { activeSeason, selected, activeSlug } = Astro.props as Props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const dummySummary = `${base}/images/episodes/dummy-summary.svg`;
-const dummyDetail  = `${base}/images/episodes/dummy-detail.svg`;
+const dummyDetail = `${base}/images/episodes/dummy-detail.svg`;
 
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
 const list = episodesBySeason(activeSeason);
 const logEntries = await getCollection("episodeLogs");
 const logIds = new Set(logEntries.map((entry) => entry.id));
 
-// selected が無い場合は URL の slug、それも無ければシーズン先頭へフォールバック
 const current: EpisodeMeta | undefined =
   (selected as EpisodeMeta | undefined) ??
   (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
   (list[0] as EpisodeMeta | undefined);
 
-// 画像パスを自動解決（public/images/episodes/{seasonSlug}/{seasonEpisodeNumber}/summary.png）
 const summaryImagePath = (e: EpisodeEntry): string =>
   `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/summary.png`;
 const detailImagePath = (e: EpisodeEntry): string =>
@@ -60,11 +52,10 @@ const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
     : `${base}/episodes/${seasonSlug}`;
 };
 
-/** 一覧カード用クラス名を組み立て */
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
   if (e.isAlternate) cls.push("ep-item--alt");
-  if (e.smallText)   cls.push("ep-item--sm");
+  if (e.smallText) cls.push("ep-item--sm");
   if (current?.overallNumber === e.overallNumber) cls.push("ep-item--selected");
   return cls.join(" ");
 };
@@ -72,10 +63,8 @@ const itemClass = (e: EpisodeEntry) => {
 const numberLabel = (e: EpisodeEntry) =>
   e.isAlternate ? "..." : String(e.seasonEpisodeNumber ?? "").padStart(2, "0");
 
-/** 詳細パネルのクラス */
 const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-detail";
 
-/** ログページへのリンク（episodes/season{N}/{seasonEpisodeNumber}/log） */
 const logHref = current
   && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logIds)
   ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log`
@@ -83,9 +72,8 @@ const logHref = current
 ---
 
 <section class="section container">
-  <PageHeading title="Episodes" />
+  <PageHeading title={episodesPageMsg.title} />
 
-  {/* シーズン切替タブ＋ timeline -------------------------- */}
   <nav class="ep-seasons" aria-label="Season navigation">
     {seasons.map((s) => (
       <a
@@ -95,15 +83,13 @@ const logHref = current
         {s.label}
       </a>
     ))}
-    <a href={`${base}/episodes/timeline`}>timeline</a>
+    <a href={`${base}/episodes/timeline`}>{episodesPageMsg.seasonTimelineLabel}</a>
   </nav>
 
-  {/* 一覧 ＋ 詳細パネル ----------------------------------- */}
   <div class="ep-layout">
-    {/* 左：エピソード一覧（縦スクロール、スクロールバー非表示） */}
     <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
       {list.length === 0 ? (
-        <li class="ep-empty">No episodes yet.</li>
+        <li class="ep-empty">{episodesPageMsg.noEpisodesYet}</li>
       ) : (
         list.map((e) => (
           <li>
@@ -120,14 +106,13 @@ const logHref = current
       )}
     </ol>
 
-    {/* 右：選択中エピソードの詳細 */}
     {current ? (
       <article class={detailClass} aria-live="polite">
         <div class="ep-detail__image-wrap">
           <img
             class="ep-detail__image"
             src={detailImagePath(current)}
-            alt={`${current.title} main visual`}
+            alt={episodesPageMsg.detailImageAlt(current.title)}
             onerror={`this.src='${dummyDetail}'`}
           />
         </div>
@@ -136,7 +121,7 @@ const logHref = current
           <span>{current.title}</span>
           <span class="ep-detail__subtitle">
             {current.isAlternate
-              ? "Another Episode"
+              ? episodesPageMsg.alternateTag
               : `Episode${String(current.seasonEpisodeNumber ?? "").padStart(2, "0")}`}
           </span>
         </h2>
@@ -151,21 +136,20 @@ const logHref = current
           </div>
           {logHref && (
             <a class="ep-detail__read" href={logHref}>
-              読む
+              {commonMsg.actions.read}
             </a>
           )}
         </div>
       </article>
     ) : (
       <article class="ep-detail ep-detail--empty">
-        <p>エピソードを選択してください。</p>
+        <p>{episodesPageMsg.episodeSelectionEmpty}</p>
       </article>
     )}
   </div>
 </section>
 
 <style>
-  /* ====== シーズンタブ（chars-tabs と同等のアニメーション） ====== */
   .ep-seasons {
     display: flex;
     justify-content: center;
@@ -208,7 +192,6 @@ const logHref = current
     transition: none;
   }
 
-  /* ====== 一覧 ＋ 詳細の 2 カラム ====== */
   .ep-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
@@ -218,7 +201,6 @@ const logHref = current
     margin: 0 auto;
   }
 
-  /* ====== 一覧（スクロールバー非表示） ====== */
   .ep-list {
     list-style: none;
     margin: 0;
@@ -241,10 +223,6 @@ const logHref = current
     text-align: center;
   }
 
-  /* ====== 一覧カード ====== */
-  /* 概要画像はカード全体の background-image として使い、
-     その上に白→透明のグラデーションを overlay として重ねる。
-     画像が存在しない場合はダミー SVG にフォールバック */
   .ep-item {
     position: relative;
     display: grid;
@@ -297,7 +275,6 @@ const logHref = current
     font-size: var(--fs-sm);
   }
 
-  /* 通常エピソード：選択時 → 黒背景 */
   .ep-item--selected:not(.ep-item--alt) {
     background-color: #1a1a1a;
     background-image:
@@ -312,7 +289,6 @@ const logHref = current
     border-color: #1a1a1a;
   }
 
-  /* 別史エピソード：通常時 → 黒背景＋番号非表示 */
   .ep-item--alt {
     background-color: #2a2a2a;
     background-image:
@@ -326,7 +302,6 @@ const logHref = current
     color: #ffffff;
     border-color: #2a2a2a;
   }
-  /* 別史 ＋ 選択時 → 白背景に反転 */
   .ep-item--alt.ep-item--selected {
     background-color: #ffffff;
     background-image:
@@ -341,7 +316,6 @@ const logHref = current
     border-color: var(--c-fg);
   }
 
-  /* ====== 詳細パネル ====== */
   .ep-detail {
     border: 1px solid var(--c-border);
     background: #ffffff;
@@ -353,7 +327,6 @@ const logHref = current
     min-height: 640px;
   }
 
-  /* 別史選択中：黒地に白文字＋画像グレースケール */
   .ep-detail--alt {
     background: #1a1a1a;
     color: #ffffff;
@@ -455,7 +428,6 @@ const logHref = current
     color: #ffffff;
   }
 
-  /* ====== レスポンシブ：狭い画面では縦積み ====== */
   @media (max-width: 880px) {
     .ep-layout {
       grid-template-columns: 1fr;
@@ -470,10 +442,6 @@ const logHref = current
 </style>
 
 <script>
-  /*
-    選択中のエピソード（.ep-item--selected）を一覧の一番上に来るよう
-    自動でスクロールする。リスト内 scroll なので親ページはスクロールしない。
-  */
   (() => {
     const list = document.querySelector(".ep-list");
     if (!(list instanceof HTMLElement)) return;
@@ -484,7 +452,6 @@ const logHref = current
     const li = selected.closest("li");
     if (!(li instanceof HTMLElement)) return;
 
-    // li の上端をリスト内のスクロール位置 0 に合わせる
     const target = li.offsetTop - list.offsetTop;
     list.scrollTop = target;
   })();

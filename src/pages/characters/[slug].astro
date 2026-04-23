@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import { characters } from "../../data/characters";
+import { charactersPageMsg } from "../../msg/pages/characters";
 
 export async function getStaticPaths() {
   return characters.map((c) => ({
@@ -15,13 +16,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
 <BaseLayout
   title={`${character.name} | Characters`}
-  description={`${character.name}（${character.furigana}）のキャラクター紹介。`}
+  description={charactersPageMsg.detailDescription(character.name, character.furigana)}
 >
   <section class="section container">
-    <PageHeading title="Characters" />
+    <PageHeading title={charactersPageMsg.title} />
 
-    {/* キャラ切替タブ：4人横並び、現在のキャラに下線 -------------- */}
-    <nav class="chars-tabs" aria-label="キャラクター切替">
+    <nav class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
       {characters.map((c) => (
         <a
           href={`${base}/characters/${c.slug}/`}
@@ -32,26 +32,22 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
       ))}
     </nav>
 
-    {/* 詳細ボックス -------------------------------------------- */}
     <article class="char-detail">
       <div class="char-detail__inner">
-        {/* 立ち絵：横からぬるっと入ってくる */}
         <div class="char-portrait">
           <img
             src={base + character.standing}
-            alt={`${character.name} 立ち絵`}
+            alt={charactersPageMsg.standingAlt(character.name)}
             loading="eager"
           />
         </div>
 
-        {/* 縦書きの台詞（空なら表示しない） */}
         {character.quote && (
-          <div class="char-quote" aria-label="代表的な台詞">
+          <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
             {character.quote}
           </div>
         )}
 
-        {/* 右側のテキスト情報 */}
         <div class="char-info">
           <header class="char-info__header">
             <h2 class="char-info__name">{character.name}</h2>
@@ -63,17 +59,17 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
           </p>
 
           <dl class="char-stats">
-            <div><dt>年齢</dt><dd>{character.age}</dd></div>
-            <div><dt>性別</dt><dd>{character.gender}</dd></div>
-            <div><dt>身長</dt><dd>{character.height}</dd></div>
-            <div><dt>体重</dt><dd>{character.weight}</dd></div>
-            <div class="char-stats__birthday"><dt>誕生日</dt><dd>{character.birthday}</dd></div>
+            <div><dt>{charactersPageMsg.stats.age}</dt><dd>{character.age}</dd></div>
+            <div><dt>{charactersPageMsg.stats.gender}</dt><dd>{character.gender}</dd></div>
+            <div><dt>{charactersPageMsg.stats.height}</dt><dd>{character.height}</dd></div>
+            <div><dt>{charactersPageMsg.stats.weight}</dt><dd>{character.weight}</dd></div>
+            <div class="char-stats__birthday"><dt>{charactersPageMsg.stats.birthday}</dt><dd>{character.birthday}</dd></div>
           </dl>
 
           {character.externalLink && (
             <p class="char-info__external">
-              ▼ <a href={character.externalLink} target="_blank" rel="noopener">
-                他ステータス（外部サイト）
+              ※ <a href={character.externalLink} target="_blank" rel="noopener">
+                {charactersPageMsg.externalStatusLink}
               </a>
             </p>
           )}
@@ -84,7 +80,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 </BaseLayout>
 
 <style>
-  /* キャラ切替タブ ---------------------------------------------- */
   .chars-tabs {
     display: flex;
     justify-content: center;
@@ -104,7 +99,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     transition: color var(--dur-fast) var(--ease-out);
   }
 
-  /* デフォルトの下線（インアクティブ用、初期は中央0幅） */
   .chars-tabs a::after {
     content: "";
     position: absolute;
@@ -117,14 +111,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
                 right var(--dur-base) var(--ease-out);
     pointer-events: none;
   }
-  /* ホバー：水色の下線が中央から左右に伸びる */
   .chars-tabs a:hover::after,
   .chars-tabs a:focus-visible::after {
     left: 0;
     right: 0;
   }
 
-  /* アクティブ：ピンクの下線を常に表示（ホバーしても色は変えない） */
   .chars-tabs a[aria-current="page"]::after {
     left: 0;
     right: 0;
@@ -132,7 +124,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     transition: none;
   }
 
-  /* 詳細ボックス ---------------------------------------------- */
   .char-detail {
     max-width: 1040px;
     margin: 0 auto;
@@ -150,7 +141,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     align-items: start;
   }
 
-  /* 立ち絵：横からぬるっとスライドインしてくる ----------------- */
   .char-portrait {
     grid-column: 1;
     align-self: stretch;
@@ -180,7 +170,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     }
   }
 
-  /* 縦書きの台詞 ---------------------------------------------- */
   .char-quote {
     grid-column: 2;
     writing-mode: vertical-rl;
@@ -190,12 +179,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     line-height: 2.0;
     color: var(--c-fg);
     letter-spacing: 0.08em;
-    white-space: pre-wrap;        /* \n を改行として扱う */
+    white-space: pre-wrap;
     align-self: end;
     max-height: 460px;
   }
 
-  /* 右側のテキスト情報 --------------------------------------- */
   .char-info {
     grid-column: 3;
     display: flex;
@@ -281,7 +269,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     .char-portrait img { animation: none; }
   }
 
-  /* レスポンシブ：タブレット以下では縦積みに */
   @media (max-width: 880px) {
     .char-detail__inner {
       grid-template-columns: 1fr;

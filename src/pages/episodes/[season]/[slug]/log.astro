@@ -21,6 +21,7 @@ import {
   type EpisodeLogSectionKey,
 } from "../../../../data/episodeLogs";
 import { getEpisodeLogOverride } from "../../../../data/episodeLogOverrides";
+import { episodesPageMsg } from "../../../../msg/pages/episodes";
 
 export async function getStaticPaths() {
   const logEntries = await getCollection("episodeLogs");
@@ -117,7 +118,7 @@ const episodeNumberLabel = `Episode${String(episode.seasonEpisodeNumber ?? 0).pa
 const badges = [
   episode.isR18G ? "R-18G" : undefined,
   episode.isR18 && !episode.isR18G ? "R-18" : undefined,
-  scenario?.removeCanon ? "削除史実" : undefined,
+  scenario?.removeCanon ? episodesPageMsg.deletedCanonBadge : undefined,
 ].filter(Boolean) as string[];
 ---
 
@@ -128,7 +129,7 @@ const badges = [
 >
   <section class="section container episode-log">
     <header class="episode-log__page-head">
-      <h1 class="episode-log__page-title">Episodes</h1>
+      <h1 class="episode-log__page-title">{episodesPageMsg.logPageTitle}</h1>
     </header>
 
     <div class="episode-log__layout">
@@ -156,7 +157,7 @@ const badges = [
             previousHref={previousHref}
             nextHref={nextHref}
             shareUrl={Astro.url.href}
-            shareTitle={`${episode.title} のログ`}
+            shareTitle={`${episode.title} ${episodesPageMsg.logSuffix}`}
           />
         </section>
       </div>

@@ -1,15 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import PageHeading from "../components/common/PageHeading.astro";
+import { notFoundPageMsg } from "../msg/pages/notFound";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
-<BaseLayout title="404 Not Found">
+<BaseLayout title={notFoundPageMsg.title}>
   <section class="section container container--narrow" style="text-align: center;">
-    <PageHeading title="ページが見つかりませんでした" eyebrow="404" />
+    <PageHeading title={notFoundPageMsg.heading} eyebrow="404" />
     <p style="color: var(--c-fg-muted);">
-      URL が違うか、ページの場所が変更されている可能性があります。
+      {notFoundPageMsg.description}
     </p>
-    <p><a href={`${base}/`}>トップへ戻る</a></p>
+    <p><a href={`${base}/`}>{notFoundPageMsg.backToTop}</a></p>
   </section>
 </BaseLayout>

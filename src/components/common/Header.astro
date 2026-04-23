@@ -1,24 +1,22 @@
 ---
-// サイトヘッダー：2 段構成（上：ブランド+SNS / 下：ナビ）
-// ブランド名・SNS URL は src/data/site.ts、ナビ項目はこのファイルの items 配列を編集。
 import { site } from "../../data/site";
+import { commonMsg } from "../../msg/common";
 
 const base = import.meta.env.BASE_URL;
 const withBase = (p: string) => `${base.replace(/\/$/, "")}${p}`;
 const path = Astro.url.pathname;
 
 const items = [
-  { href: "/news",          label: "News" },
-  { href: "/introduction",  label: "Introduction" },
-  { href: "/characters",    label: "Characters" },
-  { href: "/episodes/season1/1",      label: "Episodes" },
-  { href: "/gallery",       label: "Gallery" },
-  { href: "/movies",        label: "Movies" },
-  { href: "/goods",         label: "Goods" },
-  { href: "/others",        label: "Others" },
+  { href: "/news", label: "News" },
+  { href: "/introduction", label: "Introduction" },
+  { href: "/characters", label: "Characters" },
+  { href: "/episodes/season1/1", label: "Episodes" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/movies", label: "Movies" },
+  { href: "/goods", label: "Goods" },
+  { href: "/others", label: "Others" },
 ];
 
-/** 現在ページ判定（BASE_URL を差し引いた上での前方一致） */
 const isCurrent = (href: string) => {
   const full = withBase(href);
   return full === "/" ? path === base : path.startsWith(full);
@@ -33,7 +31,7 @@ const isCurrent = (href: string) => {
 
     <div class="site-social">
       {site.social.twitter && (
-        <a href={site.social.twitter} target="_blank" rel="noopener" aria-label="公式 X (Twitter)">
+        <a href={site.social.twitter} target="_blank" rel="noopener" aria-label={commonMsg.social.officialX}>
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z"/>
           </svg>
@@ -45,15 +43,15 @@ const isCurrent = (href: string) => {
         type="button"
         aria-expanded="false"
         aria-controls="site-nav"
-        aria-label="メニューを開く"
+        aria-label={commonMsg.menu.open}
       >
-        ≡ Menu
+        Menu
       </button>
     </div>
   </div>
 
   <div class="site-header__nav">
-    <nav id="site-nav" class="site-nav container" aria-label="サイトナビゲーション">
+    <nav id="site-nav" class="site-nav container" aria-label={commonMsg.menu.navigation}>
       {items.map((item) => (
         <a
           href={withBase(item.href)}
@@ -64,3 +62,4 @@ const isCurrent = (href: string) => {
       ))}
     </nav>
   </div>
+</header>

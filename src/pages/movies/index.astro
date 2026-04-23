@@ -2,19 +2,19 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import { videos, type Video } from "../../data/movies";
+import { moviesPageMsg } from "../../msg/pages/movies";
 
 const embedUrl = (v: Video) => `https://www.youtube-nocookie.com/embed/${v.id}`;
 const orderedVideos = [...videos].reverse();
 ---
-<BaseLayout title="Movies" description="PV・動画・ダイジェストなど。">
+<BaseLayout title={moviesPageMsg.title} description={moviesPageMsg.description}>
   <section class="movies section">
     <div class="container">
-      <PageHeading title="Movies" />
+      <PageHeading title={moviesPageMsg.title} />
 
       {orderedVideos.length === 0 ? (
         <p class="movies__empty">
-          動画を追加するには <code>src/data/movies.ts</code> の <code>videos</code> 配列に
-          YouTube の動画 ID とタイトルを記入してください。
+          {moviesPageMsg.empty}
         </p>
       ) : (
         <div class="movies-grid">
