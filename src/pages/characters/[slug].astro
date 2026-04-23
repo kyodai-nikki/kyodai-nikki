@@ -1,31 +1,38 @@
----
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { characters } from "../../data/characters";
-import { charactersPageMsg } from "../../msg/pages/characters";
+import {
+  characterHref,
+  characterStandingSrc,
+  orderedCharacters,
+  type CharacterEntry,
+} from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
 
 export async function getStaticPaths() {
+  const characters = await orderedCharacters();
+
   return characters.map((c) => ({
-    params: { slug: c.slug },
+    params: { slug: c.id },
     props: { character: c },
   }));
 }
 
-const { character } = Astro.props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const { character } = Astro.props as { character: CharacterEntry };
+const characters = await orderedCharacters();
 ---
 <BaseLayout
-  title={`${character.name} | Characters`}
-  description={charactersPageMsg.detailDescription(character.name, character.furigana)}
+  title={`${character.data.name} | Characters`}
+  description={charactersPageMsg.detailDescription(character.data.name, character.data.furigana)}
 >
   <PageHeading slot="page-heading" title={charactersPageMsg.title} />
   <nav slot="page-tabs" class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
     {characters.map((c) => (
       <a
-        href={`${base}/characters/${c.slug}/`}
-        aria-current={c.slug === character.slug ? "page" : undefined}
+        href={characterHref(c)}
+        aria-current={c.id === character.id ? "page" : undefined}
       >
-        {c.name}
+        {c.data.name}
       </a>
     ))}
   </nav>
@@ -34,39 +41,39 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     <div class="char-detail__inner">
       <div class="char-portrait">
         <img
-          src={base + character.standing}
-          alt={charactersPageMsg.standingAlt(character.name)}
+          src={characterStandingSrc(character)}
+          alt={charactersPageMsg.standingAlt(character.data.name)}
           loading="eager"
         />
       </div>
 
-      {character.quote && (
+      {character.data.quote && (
         <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
-          {character.quote}
+          {character.data.quote}
         </div>
       )}
 
       <div class="char-info">
         <header class="char-info__header">
-          <h2 class="char-info__name">{character.name}</h2>
-          <span class="char-info__furigana">{character.furigana}</span>
+          <h2 class="char-info__name">{character.data.name}</h2>
+          <span class="char-info__furigana">{character.data.furigana}</span>
         </header>
 
           <p class="char-info__description">
-            {character.description}
+            {character.data.description}
           </p>
 
           <dl class="char-stats">
-            <div><dt>{charactersPageMsg.stats.age}</dt><dd>{character.age}</dd></div>
-            <div><dt>{charactersPageMsg.stats.gender}</dt><dd>{character.gender}</dd></div>
-            <div><dt>{charactersPageMsg.stats.height}</dt><dd>{character.height}</dd></div>
-            <div><dt>{charactersPageMsg.stats.weight}</dt><dd>{character.weight}</dd></div>
-            <div class="char-stats__birthday"><dt>{charactersPageMsg.stats.birthday}</dt><dd>{character.birthday}</dd></div>
+            <div><dt>{charactersPageMsg.stats.age}</dt><dd>{character.data.age}</dd></div>
+            <div><dt>{charactersPageMsg.stats.gender}</dt><dd>{character.data.gender}</dd></div>
+            <div><dt>{charactersPageMsg.stats.height}</dt><dd>{character.data.height}</dd></div>
+            <div><dt>{charactersPageMsg.stats.weight}</dt><dd>{character.data.weight}</dd></div>
+            <div class="char-stats__birthday"><dt>{charactersPageMsg.stats.birthday}</dt><dd>{character.data.birthday}</dd></div>
           </dl>
 
-          {character.externalLink && (
+          {character.data.externalLink && (
             <p class="char-info__external">
-              ※ <a href={character.externalLink} target="_blank" rel="noopener">
+              窶ｻ <a href={character.data.externalLink} target="_blank" rel="noopener">
                 {charactersPageMsg.externalStatusLink}
               </a>
             </p>
@@ -242,7 +249,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     color: var(--c-fg-body);
     font-weight: var(--fw-regular);
   }
-  .char-stats dt::after { content: "："; }
+  .char-stats dt::after { content: ":"; }
   .char-stats dd { margin: 0; }
 
   .char-info__external {

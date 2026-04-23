@@ -1,8 +1,8 @@
----
-import { firstEpisodeOfSeason, episodeHref } from "../../data/episodes";
-import { episodesPageMsg } from "../../msg/pages/episodes";
+﻿---
+import { firstEpisodeOfSeason, episodeHref } from "../../lib/episodes";
+import { episodesPageMsg } from "../../msg/episodes";
 
-const initial = firstEpisodeOfSeason(1);
+const initial = await firstEpisodeOfSeason(1);
 const redirectTo = initial ? episodeHref("season1", initial) : "/episodes/timeline";
 ---
 

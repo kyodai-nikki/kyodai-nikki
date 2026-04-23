@@ -1,16 +1,14 @@
----
+﻿---
 import {
-  seasons,
+  seasons as getSeasons,
   firstEpisodeOfSeason,
   episodeHref,
-} from "../../../data/episodes";
-import { episodesPageMsg } from "../../../msg/pages/episodes";
+  episodeSeasonStaticPaths,
+} from "../../../lib/episodes";
+import { episodesPageMsg } from "../../../msg/episodes";
 
 export async function getStaticPaths() {
-  return seasons.map((s) => ({
-    params: { season: s.slug },
-    props: { seasonNumber: s.number },
-  }));
+  return await episodeSeasonStaticPaths();
 }
 
 interface Props {
@@ -18,8 +16,9 @@ interface Props {
 }
 
 const { seasonNumber } = Astro.props as Props;
+const seasons = await getSeasons();
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
-const initial = firstEpisodeOfSeason(seasonNumber);
+const initial = await firstEpisodeOfSeason(seasonNumber);
 const redirectTo = initial ? episodeHref(seasonInfo.slug, initial) : "/episodes";
 ---
 

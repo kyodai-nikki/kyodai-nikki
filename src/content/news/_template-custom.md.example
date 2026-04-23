@@ -1,0 +1,10 @@
+---
+# Copy this file to `YYYYMMDD-slug.md`.
+# Example: `20260501-announcement.md`
+
+date: "2026-05-01"
+kind: "custom"
+text: "お知らせを公開しました！"
+url: "https://example.com"
+external: true
+---

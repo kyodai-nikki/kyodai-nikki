@@ -1,11 +1,10 @@
----
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { videos, type Video } from "../../data/movies";
-import { moviesPageMsg } from "../../msg/pages/movies";
+import { movieEmbedUrl, orderedMovies } from "../../lib/movies";
+import { moviesPageMsg } from "../../msg/movies";
 
-const embedUrl = (v: Video) => `https://www.youtube-nocookie.com/embed/${v.id}`;
-const orderedVideos = [...videos].reverse();
+const orderedVideos = await orderedMovies();
 ---
 <BaseLayout
   title={moviesPageMsg.title}
@@ -24,14 +23,14 @@ const orderedVideos = [...videos].reverse();
         <article class="movie-card">
           <div class="movie-card__frame">
             <iframe
-              src={embedUrl(video)}
-              title={video.title}
+              src={movieEmbedUrl(video)}
+              title={video.data.title}
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
-          <h2 class="movie-card__title">{video.title}</h2>
+          <h2 class="movie-card__title">{video.data.title}</h2>
         </article>
       ))}
     </div>

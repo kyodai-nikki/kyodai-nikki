@@ -1,29 +1,19 @@
----
+﻿---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
 import {
-  seasons,
-  episodesTimeline,
+  seasons as getSeasons,
+  groupedEpisodesTimeline,
+  timelineEpisodeNumberLabel,
   timelineEpisodeHref,
-  type TimelineEntry,
-} from "../../../data/episodes";
+} from "../../../lib/episodes";
+import { basePath } from "../../../lib/urls";
 import { commonMsg } from "../../../msg/common";
-import { episodesPageMsg } from "../../../msg/pages/episodes";
+import { episodesPageMsg } from "../../../msg/episodes";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-
-const timeline = episodesTimeline();
-
-const numberLabel = (e: TimelineEntry) =>
-  e.isAlternate
-    ? "…"
-    : `Episode${String(e.seasonEpisodeNumber ?? "").padStart(2, "0")}`;
-
-const grouped = seasons.map((s) => ({
-  season: s,
-  items: timeline.filter((e) => e.season === s.number),
-}));
+const seasons = await getSeasons();
+const grouped = await groupedEpisodesTimeline();
 ---
 <BaseLayout title={episodesPageMsg.timelinePageTitle} description={episodesPageMsg.timelineDescription}>
   <PageHeading slot="page-heading" title={episodesPageMsg.title} />
@@ -57,8 +47,8 @@ const grouped = seasons.map((s) => ({
                   if (e.smallText) cls.push("tl-row--sm");
                   return (
                     <li class={cls.join(" ")}>
-                      <a class="tl-row__card" href={base + timelineEpisodeHref(e)}>
-                        <span class="tl-row__no">{numberLabel(e)}</span>
+                      <a class="tl-row__card" href={basePath + timelineEpisodeHref(e)}>
+                        <span class="tl-row__no">{timelineEpisodeNumberLabel(e)}</span>
                         <span class="tl-row__title">{e.title}</span>
                         {e.isAlternate && <span class="tl-row__tag">{episodesPageMsg.alternateTag}</span>}
                       </a>

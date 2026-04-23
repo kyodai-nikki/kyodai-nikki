@@ -1,18 +1,18 @@
----
+﻿---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
 import EpisodesNavigator from "../../../components/episodes/list/EpisodesNavigator.astro";
 import {
   allEpisodes,
-  seasons,
+  seasons as getSeasons,
   episodeUrlSlug,
   type EpisodeEntry,
-} from "../../../data/episodes";
-import { episodesPageMsg } from "../../../msg/pages/episodes";
+} from "../../../lib/episodes";
+import { episodesPageMsg } from "../../../msg/episodes";
 
 export async function getStaticPaths() {
-  return allEpisodes().map(({ season, episode }) => ({
+  return (await allEpisodes()).map(({ season, episode }) => ({
     params: { season: season.slug, slug: episodeUrlSlug(episode) },
     props: { episode, seasonNumber: season.number },
   }));
@@ -24,6 +24,7 @@ interface Props {
 }
 
 const { episode, seasonNumber } = Astro.props as Props;
+const seasons = await getSeasons();
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 ---
 

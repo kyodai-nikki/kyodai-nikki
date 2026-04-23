@@ -1,41 +1,50 @@
----
+﻿---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { hero } from "../data/home/hero";
-import { site } from "../data/site";
+import { basePath } from "../lib/urls";
 import { commonMsg } from "../msg/common";
-import { homePageMsg } from "../msg/pages/home";
+import { homePageMsg } from "../msg/home";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const [homeEntry] = await getCollection("home");
+const [commonEntry] = await getCollection("common");
+if (!homeEntry) {
+  throw new Error("Missing home content");
+}
+if (!commonEntry) {
+  throw new Error("Missing common content");
+}
+const home = homeEntry.data;
+const site = commonEntry.data;
 ---
 <BaseLayout
   title={homePageMsg.title}
   description={homePageMsg.description}
   bodyClass="is-home"
 >
-  <section class="hero" aria-label={homePageMsg.heroAriaLabel}>
+  <section class="home" aria-label={homePageMsg.homeAriaLabel}>
     <div
-      class="hero__image"
-      style={`background-image: url('${base}${hero.image}');`}
+      class="home__image"
+      style={`background-image: url('${basePath}${home.image}');`}
       role="img"
-      aria-label={hero.imageCredit || homePageMsg.heroFallbackImageLabel}
+      aria-label={home.imageCredit || homePageMsg.homeFallbackImageLabel}
     ></div>
-    <div class="hero__overlay">
-      <div class="hero__copyline">©{site.copyStartYear}-{new Date().getFullYear()} {site.name}{commonMsg.footer.madeByTeam}</div>
-      <div class="hero__share">
+    <div class="home__overlay">
+      <div class="home__copyline">ﾂｩ{site.copyStartYear}-{new Date().getFullYear()} {site.name}{commonMsg.footer.madeByTeam}</div>
+      <div class="home__share">
         {commonMsg.footer.shareLabel}
-        <span aria-hidden="true">・</span>
+        <span aria-hidden="true">繝ｻ</span>
       </div>
-      <h1 class="hero__title">{hero.title}</h1>
-      <p class="hero__tagline">
-        <span>{hero.startDate}</span><br />
-        <span>{hero.status}</span>
+      <h1 class="home__title">{home.title}</h1>
+      <p class="home__tagline">
+        <span>{home.startDate}</span><br />
+        <span>{home.status}</span>
       </p>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .hero {
+  .home {
     position: relative;
     width: 100%;
     min-height: min(92vh, 900px);
@@ -43,7 +52,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     background: #eef1f4;
   }
 
-  .hero__image {
+  .home__image {
     position: absolute;
     inset: 0;
     background-position: center;
@@ -51,7 +60,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     background-repeat: no-repeat;
   }
 
-  .hero__overlay {
+  .home__overlay {
     position: relative;
     max-width: var(--w-wide);
     margin-inline: auto;
@@ -64,7 +73,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     row-gap: var(--s-2);
   }
 
-  .hero__copyline {
+  .home__copyline {
     grid-column: 2;
     grid-row: 1;
     font-family: var(--f-sans);
@@ -74,7 +83,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     text-align: right;
   }
 
-  .hero__share {
+  .home__share {
     grid-column: 2;
     grid-row: 2;
     font-family: var(--f-sans);
@@ -84,7 +93,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     text-align: right;
   }
 
-  .hero__title {
+  .home__title {
     grid-column: 2;
     grid-row: 3;
     align-self: start;
@@ -99,7 +108,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
   }
 
-  .hero__tagline {
+  .home__tagline {
     grid-column: 2;
     grid-row: 4;
     justify-self: end;
@@ -113,25 +122,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   }
 
   @media (max-width: 640px) {
-    .hero {
+    .home {
       min-height: min(70vh, 640px);
     }
 
-    .hero__overlay {
+    .home__overlay {
       padding: var(--s-5) var(--s-4);
       grid-template-columns: 1fr;
     }
 
-    .hero__copyline,
-    .hero__share,
-    .hero__title,
-    .hero__tagline {
+    .home__copyline,
+    .home__share,
+    .home__title,
+    .home__tagline {
       grid-column: 1;
       text-align: left;
       justify-self: start;
     }
 
-    .hero__title {
+    .home__title {
       font-size: clamp(2rem, 10vw, 3rem);
     }
   }

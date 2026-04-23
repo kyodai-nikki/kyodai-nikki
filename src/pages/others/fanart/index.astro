@@ -1,12 +1,12 @@
----
+﻿---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
-import { fanArt } from "../../../data/others/fanArt";
-import { othersPageMsg } from "../../../msg/pages/others";
+import { orderedFanArt } from "../../../lib/others";
+import { withBase } from "../../../lib/urls";
+import { othersPageMsg } from "../../../msg/others";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const withBase = (path: string) => `${base}${path}`;
+const fanArt = await orderedFanArt();
 ---
 
 <BaseLayout
@@ -21,22 +21,22 @@ const withBase = (path: string) => `${base}${path}`;
         {fanArt.map((item) => (
           <a
             class="others-fanart__card"
-            href={item.url}
+            href={item.data.url}
             target="_blank"
             rel="noopener"
-            aria-label={`${item.title} を新しいタブで開く`}
+            aria-label={`${item.data.title} 繧呈眠縺励＞繧ｿ繝悶〒髢九￥`}
           >
             <div class="others-fanart__image-wrap">
               <img
                 class="others-fanart__image"
-                src={withBase(item.image)}
-                alt={item.title}
+                src={withBase(item.data.image)}
+                alt={item.data.title}
                 loading="lazy"
                 width="640"
                 height="480"
               />
             </div>
-            <p class="others-fanart__title">{item.title}</p>
+            <p class="others-fanart__title">{item.data.title}</p>
           </a>
         ))}
   </div>

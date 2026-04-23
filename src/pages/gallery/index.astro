@@ -1,14 +1,18 @@
----
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import MediaModal from "../../components/common/MediaModal.astro";
-import { images } from "../../data/gallery";
+import {
+  displayedGalleryImages,
+  galleryDetailImages,
+  galleryModalDescription,
+  galleryModalTitle,
+} from "../../lib/gallery";
+import { withBase } from "../../lib/urls";
 import { commonMsg } from "../../msg/common";
-import { galleryPageMsg } from "../../msg/pages/gallery";
+import { galleryPageMsg } from "../../msg/gallery";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const withBase = (path: string) => `${base}${path}`;
-const displayedImages = [...images].reverse();
+const displayedImages = await displayedGalleryImages();
 ---
 <BaseLayout
   title={galleryPageMsg.title}
@@ -25,9 +29,10 @@ const displayedImages = [...images].reverse();
   ) : (
     <>
       <div class="gallery-grid" aria-label={galleryPageMsg.listAriaLabel}>
-        {displayedImages.map((img, index) => {
+        {displayedImages.map((entry, index) => {
+          const img = entry.data;
           const modalId = `gallery-modal-${index}`;
-          const modalTitle = img.title ?? img.caption ?? img.alt;
+          const modalTitle = galleryModalTitle(entry);
 
           return (
             <button
@@ -49,14 +54,12 @@ const displayedImages = [...images].reverse();
         })}
       </div>
 
-      {displayedImages.map((img, index) => {
+      {displayedImages.map((entry, index) => {
+        const img = entry.data;
         const modalId = `gallery-modal-${index}`;
-        const modalTitle = img.title ?? img.caption ?? img.alt;
-        const modalDescription = img.description ?? img.caption ?? "";
-        const detailSrcs = (img.detailSrcs?.length ? img.detailSrcs : [img.src]).map((src) => ({
-          src: withBase(src),
-          alt: img.alt,
-        }));
+        const modalTitle = galleryModalTitle(entry);
+        const modalDescription = galleryModalDescription(entry);
+        const detailSrcs = galleryDetailImages(entry);
 
         return (
           <MediaModal

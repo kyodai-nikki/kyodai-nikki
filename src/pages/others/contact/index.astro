@@ -1,11 +1,11 @@
----
+﻿---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
-import { othersPageMsg } from "../../../msg/pages/others";
+import { othersPageMsg } from "../../../msg/others";
 ---
 
-<BaseLayout title={`${othersPageMsg.title} | 問い合わせ`} description={othersPageMsg.description}>
+<BaseLayout title={`${othersPageMsg.title} | お問い合わせ`} description={othersPageMsg.description}>
   <PageHeading slot="page-heading" title={othersPageMsg.title} />
   <OthersTabs slot="page-tabs" currentSection="contact" />
   <section class="others">

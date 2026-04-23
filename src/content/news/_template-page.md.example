@@ -1,0 +1,9 @@
+---
+# Copy this file to `YYYYMMDD-slug.md`.
+# Example: `20260501-gallery-update.md`
+
+date: "2026-05-01"
+kind: "page"
+text: "ギャラリーを更新しました！"
+page: "gallery"
+---

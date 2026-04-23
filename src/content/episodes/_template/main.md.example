@@ -1,0 +1,15 @@
+---
+season: "season1"
+overallNumber: 0
+seasonEpisodeNumber: 1
+title: "Episode title"
+description: |-
+  Episode description.
+date: "2026.01.01"
+cast: ""
+# isAlternate: true
+# smallText: true
+# isR18: true
+# isR18G: true
+---
+

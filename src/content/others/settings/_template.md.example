@@ -1,0 +1,14 @@
+---
+order: 3
+name: "キャラクター名"
+materials:
+  - id: "sample-material"
+    title: "資料タイトル"
+    image: "/images/others/sample.svg"
+    documentUrl: "https://drive.google.com/file/d/sample/view"
+    details:
+      - label: "カテゴリ"
+        value: "設定資料"
+      - label: "形式"
+        value: "Google Drive"
+---

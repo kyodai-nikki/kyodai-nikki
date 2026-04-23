@@ -1,13 +1,12 @@
----
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import MediaModal from "../../components/common/MediaModal.astro";
-import { goods } from "../../data/goods";
+import { goodsActions, goodsDetailImage, goodsImage, orderedGoods } from "../../lib/goods";
 import { commonMsg } from "../../msg/common";
-import { goodsPageMsg } from "../../msg/pages/goods";
+import { goodsPageMsg } from "../../msg/goods";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const withBase = (path: string) => `${base}${path}`;
+const goods = await orderedGoods();
 ---
 <BaseLayout
   title={goodsPageMsg.title}
@@ -23,7 +22,8 @@ const withBase = (path: string) => `${base}${path}`;
   ) : (
     <>
       <div class="goods-grid" aria-label={goodsPageMsg.listAriaLabel}>
-        {goods.map((item, index) => {
+        {goods.map((entry, index) => {
+          const item = entry.data;
           const modalId = `goods-modal-${index}`;
           return (
             <button
@@ -35,7 +35,7 @@ const withBase = (path: string) => `${base}${path}`;
               <div class="goods-card__image-wrap">
                 <img
                   class="goods-card__image"
-                  src={withBase(item.image)}
+                  src={goodsImage(entry)}
                   alt={item.title}
                   loading="lazy"
                   width="640"
@@ -48,11 +48,10 @@ const withBase = (path: string) => `${base}${path}`;
         })}
       </div>
 
-      {goods.map((item, index) => {
-        const detailImg = withBase(item.detailImage ?? item.image);
-        const actions = item.url
-          ? [{ label: item.saleLabel ?? goodsPageMsg.salePage, href: item.url }]
-          : [];
+      {goods.map((entry, index) => {
+        const item = entry.data;
+        const detailImg = goodsDetailImage(entry);
+        const actions = goodsActions(entry, goodsPageMsg.salePage);
         return (
           <MediaModal
             id={`goods-modal-${index}`}

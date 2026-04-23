@@ -1,8 +1,15 @@
----
+﻿---
+import { getCollection, render } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { paragraphs } from "../../data/introduction";
-import { introductionPageMsg } from "../../msg/pages/introduction";
+import { introductionPageMsg } from "../../msg/introduction";
+
+const [introduction] = await getCollection("introduction");
+if (!introduction) {
+  throw new Error("Missing introduction content");
+}
+
+const { Content } = await render(introduction);
 ---
 <BaseLayout
   title={introductionPageMsg.title}
@@ -11,9 +18,7 @@ import { introductionPageMsg } from "../../msg/pages/introduction";
   <PageHeading slot="page-heading" title={introductionPageMsg.title} />
 
   <div class="intro-box">
-    {paragraphs.map((p) => (
-      <p class="intro-para">{p}</p>
-    ))}
+    <Content />
   </div>
 </BaseLayout>
 
@@ -34,11 +39,11 @@ import { introductionPageMsg } from "../../msg/pages/introduction";
     will-change: opacity, transform;
   }
 
-  .intro-para {
+  .intro-box :global(p) {
     margin: 0 0 1.6em;
     white-space: pre-wrap;
   }
-  .intro-para:last-child {
+  .intro-box :global(p:last-child) {
     margin-bottom: 0;
   }
 

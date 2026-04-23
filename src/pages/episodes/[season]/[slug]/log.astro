@@ -1,4 +1,4 @@
----
+﻿---
 import { getCollection, getEntry, render } from "astro:content";
 import LogBody from "../../../../components/episodes/log/LogBody.astro";
 import LogFooter from "../../../../components/episodes/log/LogFooter.astro";
@@ -10,26 +10,24 @@ import {
   episodeHref,
   episodeUrlSlug,
   episodesBySeason,
-  seasons,
+  seasons as getSeasons,
   type EpisodeEntry,
-} from "../../../../data/episodes";
+} from "../../../../lib/episodes";
 import {
   episodeLogContentId,
   episodeLogSectionOrder,
   episodeLogSectionsFromEntries,
   hasAnyEpisodeLog,
   type EpisodeLogSectionKey,
-} from "../../../../data/episodes/logs";
-import { getEpisodeLogOverride } from "../../../../data/episodes/logOverrides";
-import { episodesPageMsg } from "../../../../msg/pages/episodes";
+} from "../../../../lib/episodes/logs";
+import { episodesPageMsg } from "../../../../msg/episodes";
 
 export async function getStaticPaths() {
   const logEntries = await getCollection("episodeLogs");
-  const logIds = new Set(logEntries.map((entry) => entry.id));
 
-  return allEpisodes()
+  return (await allEpisodes())
     .filter(({ season, episode }) =>
-      hasAnyEpisodeLog(season.slug, episodeUrlSlug(episode), logIds),
+      hasAnyEpisodeLog(season.slug, episodeUrlSlug(episode), logEntries),
     )
     .map(({ season, episode }) => ({
       params: {
@@ -49,6 +47,7 @@ interface Props {
 }
 
 const { episode, seasonNumber } = Astro.props as Props;
+const seasons = await getSeasons();
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 const episodeSlug = episodeUrlSlug(episode);
 const logEntries = await getCollection("episodeLogs");
@@ -84,14 +83,13 @@ const renderedSections = await Promise.all(
   }),
 );
 
-const overrides = getEpisodeLogOverride(seasonInfo.slug, episodeSlug);
-const scenario = overrides.scenario ?? episode.scenario;
-const logMeta = { ...episode.log, ...overrides.log };
+const scenario = episode.scenario;
+const logMeta = episode.log ?? {};
 const overviewHref = episodeHref(seasonInfo.slug, episode);
 
-const seasonEpisodes = episodesBySeason(seasonNumber);
+const seasonEpisodes = await episodesBySeason(seasonNumber);
 const logEntriesBySeason = seasonEpisodes.filter((item) =>
-  hasAnyEpisodeLog(seasonInfo.slug, episodeUrlSlug(item), entryIds),
+  hasAnyEpisodeLog(seasonInfo.slug, episodeUrlSlug(item), logEntries),
 );
 const currentIndex = logEntriesBySeason.findIndex(
   (item) => item.overallNumber === episode.overallNumber,
@@ -114,7 +112,7 @@ const mainSection = sectionEntries.main;
 const pageDescription =
   mainSection?.data.description ?? episode.description.split("\n")[0] ?? episode.title;
 
-const episodeNumberLabel = `Episode${String(episode.seasonEpisodeNumber ?? 0).padStart(2, "0")}`;
+const episodeNumberLabel = `Episode${String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0")}`;
 const badges = [
   episode.isR18G ? "R-18G" : undefined,
   episode.isR18 && !episode.isR18G ? "R-18" : undefined,

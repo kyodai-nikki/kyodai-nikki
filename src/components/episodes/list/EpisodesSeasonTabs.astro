@@ -1,7 +1,7 @@
----
+﻿---
 import Tabs from "../../common/Tabs.astro";
-import { firstEpisodeOfSeason, episodeUrlSlug, seasons } from "../../../data/episodes";
-import { episodesPageMsg } from "../../../msg/pages/episodes";
+import { firstEpisodeOfSeason, episodeUrlSlug, seasons as getSeasons } from "../../../lib/episodes";
+import { episodesPageMsg } from "../../../msg/episodes";
 
 interface Props {
   activeSeason?: 1 | 2 | 3 | 4;
@@ -10,20 +10,21 @@ interface Props {
 
 const { activeSeason, current = "season" } = Astro.props as Props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const seasons = await getSeasons();
 
-const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
-  const first = firstEpisodeOfSeason(seasonNumber);
+const seasonHref = async (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
+  const first = await firstEpisodeOfSeason(seasonNumber);
   return first
     ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}`
     : `${base}/episodes/${seasonSlug}`;
 };
 
 const items = [
-  ...seasons.map((season) => ({
+  ...(await Promise.all(seasons.map(async (season) => ({
     label: season.label,
-    href: seasonHref(season.number, season.slug),
+    href: await seasonHref(season.number, season.slug),
     active: current === "season" && season.number === activeSeason,
-  })),
+  })))),
   {
     label: episodesPageMsg.seasonTimelineLabel,
     href: `${base}/episodes/timeline`,

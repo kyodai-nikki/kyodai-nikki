@@ -1,5 +1,5 @@
 ---
-import { site } from "../../data/site";
+import { getCollection } from "astro:content";
 import ShareButtons from "./btn/ShareButtons.astro";
 import { commonMsg } from "../../msg/common";
 
@@ -9,6 +9,11 @@ interface Props {
 }
 
 const { shareUrl, shareTitle } = Astro.props;
+const [commonEntry] = await getCollection("common");
+if (!commonEntry) {
+  throw new Error("Missing common content");
+}
+const site = commonEntry.data;
 const year = new Date().getFullYear();
 ---
 <footer class="site-footer">

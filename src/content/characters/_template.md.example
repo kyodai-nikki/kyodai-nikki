@@ -1,0 +1,21 @@
+---
+# Copy this file to `<slug>.md`.
+# Example: `new-character.md`
+
+order: 5
+name: "表示名"
+furigana: "ふりがな"
+portrait: "/images/characters/new-character-portrait.jpg"
+standing: "/images/characters/new-character-standing.png"
+quote: |-
+  「ここに台詞を入れます」
+description: |-
+  紹介文を入れます。
+  改行もそのまま反映されます。
+age: "?"
+gender: "?"
+height: "?"
+weight: "?"
+birthday: "?"
+externalLink: ""
+---

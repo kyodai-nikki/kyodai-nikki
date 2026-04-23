@@ -1,11 +1,11 @@
----
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { characters } from "../../data/characters";
-import { charactersPageMsg } from "../../msg/pages/characters";
+import { characterHref, dummyPortraitSrc, orderedCharacters } from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
+const dummyPortrait = dummyPortraitSrc();
+const characters = await orderedCharacters();
 ---
 <BaseLayout title={charactersPageMsg.title} description={charactersPageMsg.description}>
   <PageHeading slot="page-heading" title={charactersPageMsg.title} />
@@ -13,11 +13,11 @@ const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
   <ul class="chars-grid">
     {characters.map((c, i) => (
       <li class="chars-card" style={`--i: ${i};`}>
-        <a href={`${base}/characters/${c.slug}/`} aria-label={c.name}>
+        <a href={characterHref(c)} aria-label={c.data.name}>
           <div class="chars-card__img-wrap">
             <img
               src={dummyPortrait}
-              alt={c.name}
+              alt={c.data.name}
               loading="lazy"
               class="chars-card__img"
             />

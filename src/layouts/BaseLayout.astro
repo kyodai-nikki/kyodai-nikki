@@ -1,9 +1,9 @@
 ---
-import { ViewTransitions } from "astro:transitions";
+import { getCollection } from "astro:content";
+import { ClientRouter } from "astro:transitions";
 import Header from "../components/common/Header.astro";
 import Footer from "../components/common/Footer.astro";
 import BackToTop from "../components/common/BackToTop.astro";
-import { site } from "../data/site";
 import { commonMsg } from "../msg/common";
 
 import "../../styles/variables.css";
@@ -31,6 +31,11 @@ const {
   pageContainerClass = "",
 } = Astro.props;
 
+const [commonEntry] = await getCollection("common");
+if (!commonEntry) {
+  throw new Error("Missing common content");
+}
+const site = commonEntry.data;
 const siteName = site.name;
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
@@ -47,7 +52,7 @@ const hasPageShell =
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
-    <ViewTransitions />
+    <ClientRouter />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical.href} />

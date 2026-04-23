@@ -1,6 +1,6 @@
----
-import type { EpisodeScenarioInfo } from "../../../data/episodes/logs";
-import { episodesPageMsg } from "../../../msg/pages/episodes";
+﻿---
+import type { EpisodeScenarioInfo } from "../../../lib/episodes/logs";
+import { episodesPageMsg } from "../../../msg/episodes";
 
 interface Props {
   title: string;
@@ -10,7 +10,7 @@ interface Props {
 }
 
 const { title, episodeNumberLabel, badges, scenario } = Astro.props;
-const castLabel = scenario?.participants?.length ? scenario.participants.join("・") : undefined;
+const castLabel = scenario?.participants?.length ? scenario.participants.join("繝ｻ") : undefined;
 const writerLabel = scenario?.author;
 const sourceLabel = scenario?.distributionName;
 ---

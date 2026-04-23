@@ -1,78 +1,33 @@
----
-import { getCollection, type CollectionEntry } from "astro:content";
+﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { episodeHrefByNumber } from "../../data/episodes";
-import { newsPageMsg } from "../../msg/pages/news";
+import { formatNewsDate, newsListItems } from "../../lib/news";
+import { newsPageMsg } from "../../msg/news";
 
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const pagePaths = {
-  gallery: "/gallery",
-  goods: "/goods",
-  characters: "/characters",
-  news: "/news",
-  movies: "/movies",
-  introduction: "/introduction",
-  others: "/others",
-} as const;
-
-type NewsEntry = CollectionEntry<"news">;
-
-const sorted: NewsEntry[] = (await getCollection("news")).sort(
-  (a, b) =>
-    new Date(b.data.date).getTime() - new Date(a.data.date).getTime() ||
-    a.id.localeCompare(b.id),
-);
-
-const isExternal = (item: NewsEntry) => {
-  if (item.data.kind !== "custom") return false;
-  if (item.data.external !== undefined) return item.data.external;
-  return /^(https?:)?\/\//.test(item.data.url) || item.data.url.startsWith("mailto:");
-};
-
-const resolveUrl = (item: NewsEntry) => {
-  switch (item.data.kind) {
-    case "episode":
-      return episodeHrefByNumber(item.data.season, item.data.episode);
-    case "page":
-      return pagePaths[item.data.page];
-    case "custom":
-      return item.data.url;
-  }
-};
-
-const toUrl = (item: NewsEntry) => {
-  const resolved = resolveUrl(item);
-  return isExternal(item)
-    ? resolved
-    : base + (resolved.startsWith("/") ? resolved : "/" + resolved);
-};
-
-const formatDate = (d: string) => d.replace(/-/g, ".");
+const items = await newsListItems();
 ---
 <BaseLayout title={newsPageMsg.title} description={newsPageMsg.description}>
   <PageHeading slot="page-heading" title={newsPageMsg.title} />
 
-  {sorted.length === 0 ? (
+  {items.length === 0 ? (
     <p style="color: var(--c-fg-muted); text-align: center;">{newsPageMsg.empty}</p>
   ) : (
     <ul class="news-list">
-      {sorted.map((item) => {
-        const external = isExternal(item);
+      {items.map(({ entry: item, external, href, text }) => {
         return (
           <li class="news-item">
             <a
               class="news-link"
-              href={toUrl(item)}
+              href={href}
               target={external ? "_blank" : undefined}
               rel={external ? "noopener" : undefined}
             >
               <time class="news-date" datetime={item.data.date}>
-                {formatDate(item.data.date)}
+                {formatNewsDate(item.data.date)}
               </time>
               <span class="news-sep" aria-hidden="true">|</span>
               <span class="news-text">
-                {item.data.text}{external ? newsPageMsg.externalSuffix : ""}
+                {text}{external ? newsPageMsg.externalSuffix : ""}
               </span>
             </a>
           </li>
