@@ -4,9 +4,16 @@
 
 date: "2026-05-01"
 text: "第36話を追加しました！"
-href: "/episodes/season4/5"
+kind: "episode"
+season: 4
+episode: 5
 
-# 外部リンクを必ず新規タブで開きたい場合だけ使います。
-# 未指定なら href から自動判定されます。
+# 固定ページのお知らせなら、こんな形でも OK です。
+# kind: "page"
+# page: "gallery"
+#
+# 外部リンクなら custom を使います。
+# kind: "custom"
+# url: "https://example.com"
 # external: true
 ---

@@ -1,5 +1,6 @@
 ---
 date: "2023-09-02"
 text: "アクリルスタンド販売開始！"
-href: "/goods/"
+kind: "page"
+page: "goods"
 ---

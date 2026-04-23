@@ -1,5 +1,6 @@
 ---
 date: "2024-02-22"
 text: "ちびキャラアクリルスタンド販売開始！"
-href: "/goods/"
+kind: "page"
+page: "goods"
 ---

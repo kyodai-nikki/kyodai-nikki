@@ -76,7 +76,7 @@ export const episodes: Season[] = [
     slug: "season1",
     episodes: [
       {
-        overallNumber: 1,
+        overallNumber: 0,
         seasonAllNumber: 1,
         seasonEpisodeNumber: 1,
         title: "「」なんてね",
@@ -87,7 +87,7 @@ export const episodes: Season[] = [
         cast: "千秋 (15歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 2,
+        overallNumber: 1,
         seasonAllNumber: 2,
         seasonEpisodeNumber: 2,
         title: "傘に臨界",
@@ -97,7 +97,7 @@ export const episodes: Season[] = [
         cast: "千秋 (15歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 3,
+        overallNumber: 2,
         seasonAllNumber: 3,
         seasonEpisodeNumber: 3,
         title: "対談、鼎談、座談",
@@ -107,7 +107,7 @@ export const episodes: Season[] = [
         cast: "千秋 (15歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 4,
+        overallNumber: 3,
         seasonAllNumber: 4,
         seasonEpisodeNumber: 4,
         title: "奇想翻弄",
@@ -118,7 +118,7 @@ export const episodes: Season[] = [
       },
       {
         // 別史エピソード：03 と 04 の間に配置
-        overallNumber: 5,
+        overallNumber: 4,
         seasonEpisodeNumber: 5,
         title: "君を願う",
         description:
@@ -128,7 +128,7 @@ export const episodes: Season[] = [
         cast: "千秋 (高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 6,
+        overallNumber: 5,
         seasonAllNumber: 5,
         seasonEpisodeNumber: 6,
         title: "Multi*Dead*Ending",
@@ -138,7 +138,7 @@ export const episodes: Season[] = [
         cast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 7,
+        overallNumber: 6,
         seasonAllNumber: 6,
         seasonEpisodeNumber: 7,
         title: "探索者に猫耳生えるだけ",
@@ -148,7 +148,7 @@ export const episodes: Season[] = [
         cast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 8,
+        overallNumber: 7,
         seasonAllNumber: 7,
         seasonEpisodeNumber: 8,
         title: "君の胴",
@@ -157,7 +157,7 @@ export const episodes: Season[] = [
         cast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 9,
+        overallNumber: 8,
         seasonEpisodeNumber: 9,
         title: "問：死の定義を教えてください",
         description:
@@ -167,7 +167,7 @@ export const episodes: Season[] = [
         cast: "千秋 (高校生) 千冬 (専門学校)",
       },
       {
-        overallNumber: 10,
+        overallNumber: 9,
         seasonAllNumber: 8,
         seasonEpisodeNumber: 10,
         title: "死にたがり電車",
@@ -177,7 +177,7 @@ export const episodes: Season[] = [
         cast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)",
       },
       {
-        overallNumber: 11,
+        overallNumber: 10,
         seasonAllNumber: 9,
         seasonEpisodeNumber: 11,
         title: "Mess up with Desire !",
@@ -188,7 +188,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 12,
+        overallNumber: 11,
         seasonAllNumber: 10,
         seasonEpisodeNumber: 12,
         title: "純愛、故に",
@@ -199,7 +199,7 @@ export const episodes: Season[] = [
         isR18G: true,
       },
       {
-        overallNumber: 13,
+        overallNumber: 12,
         seasonAllNumber: 11,
         seasonEpisodeNumber: 13,
         title: "灯路帰譚",
@@ -218,7 +218,7 @@ export const episodes: Season[] = [
     slug: "season2",
     episodes: [
       {
-        overallNumber: 14,
+        overallNumber: 13,
         seasonAllNumber: 12,
         seasonEpisodeNumber: 1,
         title: "52Hzの救難信号",
@@ -228,7 +228,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)",
       },
       {
-        overallNumber: 15,
+        overallNumber: 14,
         seasonAllNumber: 13,
         seasonEpisodeNumber: 2,
         title: "世界の終わりを君と見たい",
@@ -238,7 +238,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)",
       },
       {
-        overallNumber: 16,
+        overallNumber: 15,
         seasonAllNumber: 14,
         seasonEpisodeNumber: 3,
         title: "おはよう、世界。",
@@ -248,7 +248,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)",
       },
       {
-        overallNumber: 17,
+        overallNumber: 16,
         seasonAllNumber: 15,
         seasonEpisodeNumber: 4,
         title: "ブルー・スターズ・セパレート",
@@ -258,7 +258,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)",
       },
       {
-        overallNumber: 18,
+        overallNumber: 17,
         seasonAllNumber: 16,
         seasonEpisodeNumber: 5,
         title: "真実は無色",
@@ -268,7 +268,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)",
       },
       {
-        overallNumber: 19,
+        overallNumber: 18,
         seasonAllNumber: 17,
         seasonEpisodeNumber: 6,
         title: "貴方の顔も知らない",
@@ -278,7 +278,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)",
       },
       {
-        overallNumber: 20,
+        overallNumber: 19,
         seasonAllNumber: 18,
         seasonEpisodeNumber: 7,
         title: "最果てへの逃避行",
@@ -288,7 +288,7 @@ export const episodes: Season[] = [
         cast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)",
       },
       {
-        overallNumber: 21,
+        overallNumber: 20,
         seasonAllNumber: 19,
         seasonEpisodeNumber: 8,
         title: "愛猫の上手な鳴かせ方",
@@ -299,7 +299,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 22,
+        overallNumber: 21,
         seasonEpisodeNumber: 9,
         title: "幻界θバッドトリップ",
         description:
@@ -311,7 +311,7 @@ export const episodes: Season[] = [
         isR18G: true,
       },
       {
-        overallNumber: 23,
+        overallNumber: 22,
         seasonEpisodeNumber: 10,
         title: "ポルノスナッフハルシネイト",
         description:
@@ -323,7 +323,7 @@ export const episodes: Season[] = [
         isR18G: true,
       },
       {
-        overallNumber: 24,
+        overallNumber: 23,
         seasonAllNumber: 20,
         seasonEpisodeNumber: 11,
         title: "またたくシティライト",
@@ -333,7 +333,7 @@ export const episodes: Season[] = [
         cast: "千秋 (20歳・通信大学2年) 千冬 (21歳・建築士1年)",
       },
       {
-        overallNumber: 25,
+        overallNumber: 24,
         seasonAllNumber: 21,
         seasonEpisodeNumber: 12,
         title: "命泥棒",
@@ -344,7 +344,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 26,
+        overallNumber: 25,
         seasonAllNumber: 22,
         seasonEpisodeNumber: 13,
         title: "more than WHITE",
@@ -364,7 +364,7 @@ export const episodes: Season[] = [
     slug: "season3",
     episodes: [
       {
-        overallNumber: 27,
+        overallNumber: 26,
         seasonAllNumber: 23,
         seasonEpisodeNumber: 1,
         title: "Seven-Night, Monochrome Summer",
@@ -376,7 +376,7 @@ export const episodes: Season[] = [
         isR18G: true,
       },
       {
-        overallNumber: 28,
+        overallNumber: 27,
         seasonAllNumber: 24,
         seasonEpisodeNumber: 2,
         title: "奪取脱出ストラグル",
@@ -387,7 +387,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 29,
+        overallNumber: 28,
         seasonAllNumber: 25,
         seasonEpisodeNumber: 3,
         title: "お前が人を殺すのだ",
@@ -397,7 +397,7 @@ export const episodes: Season[] = [
         cast: "千秋 (21歳・通信大学3年) 千冬 (21歳・建築士2年)",
       },
       {
-        overallNumber: 30,
+        overallNumber: 29,
         seasonAllNumber: 26,
         seasonEpisodeNumber: 4,
         title: "ミュージアム・トゥ・ユー",
@@ -407,7 +407,7 @@ export const episodes: Season[] = [
         cast: "千秋 (21歳・通信大学3年) 千冬 (22歳・建築士2年)",
       },
       {
-        overallNumber: 31,
+        overallNumber: 30,
         seasonAllNumber: 27,
         seasonEpisodeNumber: 5,
         title: "水中密室",
@@ -417,7 +417,7 @@ export const episodes: Season[] = [
         cast: "千秋 (21歳・通信大学3年) 千冬 (22歳・建築士2年)",
       },
       {
-        overallNumber: 32,
+        overallNumber: 31,
         seasonAllNumber: 28,
         seasonEpisodeNumber: 6,
         title: "喰らわば、日常",
@@ -427,7 +427,7 @@ export const episodes: Season[] = [
         cast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)",
       },
       {
-        overallNumber: 33,
+        overallNumber: 32,
         seasonAllNumber: 29,
         seasonEpisodeNumber: 7,
         title: "縁々獄々",
@@ -438,7 +438,7 @@ export const episodes: Season[] = [
         isR18G: true,
       },
       {
-        overallNumber: 34,
+        overallNumber: 33,
         seasonEpisodeNumber: 8,
         title: "やさしい世界と呼吸法",
         description:
@@ -448,7 +448,7 @@ export const episodes: Season[] = [
         cast: "千秋 (24歳・-) 千冬 (24歳・-)",
       },
       {
-        overallNumber: 35,
+        overallNumber: 34,
         seasonEpisodeNumber: 9,
         title: "地獄と天国は酷似する",
         description:
@@ -458,7 +458,7 @@ export const episodes: Season[] = [
         cast: "千秋 (22歳・通信大学4年) 千冬 (23歳・建築士3年)",
       },
       {
-        overallNumber: 36,
+        overallNumber: 35,
         seasonAllNumber: 30,
         seasonEpisodeNumber: 10,
         title: "ナイトアクアリウムの怪",
@@ -469,7 +469,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 37,
+        overallNumber: 36,
         seasonAllNumber: 31,
         seasonEpisodeNumber: 11,
         title: "ラストオーダーはキミがいい",
@@ -480,7 +480,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 38,
+        overallNumber: 37,
         seasonAllNumber: 32,
         seasonEpisodeNumber: 12,
         title: "LaLuLa",
@@ -491,7 +491,7 @@ export const episodes: Season[] = [
         isR18: true,
       },
       {
-        overallNumber: 39,
+        overallNumber: 38,
         seasonAllNumber: 33,
         seasonEpisodeNumber: 13,
         title: "深海より",
@@ -511,7 +511,7 @@ export const episodes: Season[] = [
     slug: "season4",
     episodes: [
       {
-        overallNumber: 40,
+        overallNumber: 39,
         seasonAllNumber: 34,
         seasonEpisodeNumber: 1,
         title: "催眠ダーリンLv1",
@@ -521,7 +521,7 @@ export const episodes: Season[] = [
         cast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)",
       },
       {
-        overallNumber: 41,
+        overallNumber: 40,
         seasonAllNumber: 35,
         seasonEpisodeNumber: 2,
         title: "双離の果実",
@@ -531,7 +531,7 @@ export const episodes: Season[] = [
         cast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)",
       },
       {
-        overallNumber: 42,
+        overallNumber: 41,
         seasonAllNumber: 36,
         seasonEpisodeNumber: 3,
         title: "夜になんか攫われてたまるか",
@@ -541,7 +541,7 @@ export const episodes: Season[] = [
         cast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)",
       },
       {
-        overallNumber: 43,
+        overallNumber: 42,
         seasonAllNumber: 37,
         seasonEpisodeNumber: 4,
         title: "蓄壊",
@@ -626,6 +626,18 @@ export const allEpisodes = (): { season: Season; episode: EpisodeEntry }[] =>
 /** エピソード詳細ページ URL（/episodes/season{N}/{seasonEpisodeNumber}） */
 export const episodeHref = (seasonSlug: string, e: EpisodeEntry): string =>
   `/episodes/${seasonSlug}/${episodeUrlSlug(e)}`;
+
+/** シーズン番号と話数からエピソード詳細ページ URL を組み立てる */
+export const episodeHrefByNumber = (
+  seasonNumber: SeasonInfo["number"],
+  episodeNumber: number,
+): string => {
+  const season = seasons.find((item) => item.number === seasonNumber);
+  if (!season) {
+    throw new Error(`Unknown season number: ${seasonNumber}`);
+  }
+  return `/episodes/${season.slug}/${episodeNumber}`;
+};
 
 /** タイムライン項目からエピソード詳細ページ URL を組み立てる */
 export const timelineEpisodeHref = (entry: TimelineEntry): string =>

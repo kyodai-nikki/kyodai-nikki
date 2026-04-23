@@ -9,8 +9,8 @@ import { defineConfig } from "astro/config";
 //       もしサブパス（/kyodai など）で公開するなら base: "/kyodai" を追加する。
 export default defineConfig({
   site: "https://kyodai-nikki.com",
-  trailingSlash: "never",      // URL 末尾の "/" を付けない（/about 形式）
+  trailingSlash: "ignore",     // /about と /about/ の両方を許可
   build: {
-    format: "file",            // 出力を about.html 形式に
+    format: "directory",       // about/index.html 形式にして /about と /about/ の両方を拾いやすくする
   },
 });

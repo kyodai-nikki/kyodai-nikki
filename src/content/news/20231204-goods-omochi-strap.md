@@ -1,5 +1,6 @@
 ---
 date: "2023-12-04"
 text: "兄弟おもちストラップ販売開始！"
-href: "/goods/"
+kind: "page"
+page: "goods"
 ---

@@ -37,11 +37,14 @@
 ---
 date: "2026-05-01"
 text: "第36話を追加しました！"
-href: "/episodes/main/36-xxx/"
+kind: "episode"
+season: 4
+episode: 5
 ---
 ```
 
 ファイル名は `YYYYMMDD-slug.md` 形式にしておくと管理しやすいです。episode 系なら `YYYYMMDD-episode36.md` のような短い名前で OK です。
+固定ページなら `kind: "page"` と `page: "gallery"` のように書けます。
 
 ### Introduction の文章を差し替えたい
 

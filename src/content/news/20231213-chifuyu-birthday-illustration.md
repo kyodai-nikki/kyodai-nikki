@@ -1,5 +1,6 @@
 ---
 date: "2023-12-13"
 text: "千冬の誕生日イラストを公開しました！"
-href: "/gallery/"
+kind: "page"
+page: "gallery"
 ---

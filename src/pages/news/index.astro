@@ -2,9 +2,19 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
+import { episodeHrefByNumber } from "../../data/episodes";
 import { newsPageMsg } from "../../msg/pages/news";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const pagePaths = {
+  gallery: "/gallery",
+  goods: "/goods",
+  characters: "/characters",
+  news: "/news",
+  movies: "/movies",
+  introduction: "/introduction",
+  others: "/others",
+} as const;
 
 type NewsEntry = CollectionEntry<"news">;
 
@@ -15,14 +25,28 @@ const sorted: NewsEntry[] = (await getCollection("news")).sort(
 );
 
 const isExternal = (item: NewsEntry) => {
+  if (item.data.kind !== "custom") return false;
   if (item.data.external !== undefined) return item.data.external;
-  return /^(https?:)?\/\//.test(item.data.href) || item.data.href.startsWith("mailto:");
+  return /^(https?:)?\/\//.test(item.data.url) || item.data.url.startsWith("mailto:");
 };
 
-const toHref = (item: NewsEntry) =>
-  isExternal(item)
-    ? item.data.href
-    : base + (item.data.href.startsWith("/") ? item.data.href : "/" + item.data.href);
+const resolveUrl = (item: NewsEntry) => {
+  switch (item.data.kind) {
+    case "episode":
+      return episodeHrefByNumber(item.data.season, item.data.episode);
+    case "page":
+      return pagePaths[item.data.page];
+    case "custom":
+      return item.data.url;
+  }
+};
+
+const toUrl = (item: NewsEntry) => {
+  const resolved = resolveUrl(item);
+  return isExternal(item)
+    ? resolved
+    : base + (resolved.startsWith("/") ? resolved : "/" + resolved);
+};
 
 const formatDate = (d: string) => d.replace(/-/g, ".");
 ---
@@ -39,7 +63,7 @@ const formatDate = (d: string) => d.replace(/-/g, ".");
           <li class="news-item">
             <a
               class="news-link"
-              href={toHref(item)}
+              href={toUrl(item)}
               target={external ? "_blank" : undefined}
               rel={external ? "noopener" : undefined}
             >

@@ -1,5 +1,6 @@
 ---
 date: "2024-12-21"
 text: "ふくふく缶バッジ販売開始！"
-href: "/goods/"
+kind: "page"
+page: "goods"
 ---
