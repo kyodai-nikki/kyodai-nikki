@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import GalleryModal from "../../components/GalleryModal.astro";
+import MediaModal from "../../components/common/MediaModal.astro";
 import { images } from "../../data/gallery";
 import { commonMsg } from "../../msg/common";
 import { galleryPageMsg } from "../../msg/pages/gallery";
@@ -59,15 +59,17 @@ const displayedImages = [...images].reverse();
         }));
 
         return (
-          <GalleryModal
+          <MediaModal
             id={modalId}
             title={modalTitle}
             description={modalDescription}
             images={detailSrcs}
+            imageMaxWidth="420px"
             creditName={img.creditName}
             creditUrl={img.creditUrl}
             twitterId={img.twitterId}
-            buttonLabel={img.buttonLabel}
+            closeLabel={img.buttonLabel}
+            panelClass="gallery-modal-panel"
           />
         );
       })}

@@ -1,6 +1,6 @@
 # src/data/ — サイト更新はこのフォルダだけで完結
 
-このディレクトリの TypeScript ファイルを編集すると、各ページに自動反映されます。
+このディレクトリの TypeScript ファイル、または `src/content/` 配下のコンテンツを編集すると、各ページに自動反映されます。
 ページ本体（`src/pages/*/index.astro`）は表示だけを担当していて、データは編集しません。
 
 ## ファイル一覧
@@ -8,14 +8,14 @@
 | ファイル | 対応するページ | 役割 |
 |---|---|---|
 | `site.ts` | 全ページ | サイト名・SNS URL などグローバル設定 |
-| `hero.ts` | `/` | トップのキービジュアル・タイトル・タグライン |
-| `news.ts` | `/news/` | お知らせ一覧（日付・本文・リンク先） |
-| `introduction.ts` | `/introduction/` | あらすじ段落 |
-| `characters.ts` | `/characters/` `/characters/{slug}/` | キャラ一覧カード＆詳細（立ち絵・台詞・ステータス・外部リンク） |
-| `episodes.ts` | `/episodes/` `/episodes/season{N}/{slug}/` `/episodes/timeline/` | エピソードカード＆詳細パネル、シーズン分け、別史フラグ |
-| `gallery.ts` | `/gallery/` | ギャラリー画像 |
-| `movies.ts` | `/movies/` | 動画埋め込み |
-| `goods.ts` | `/goods/` | 物販リンク |
+| `home/hero.ts` | `/` | トップのキービジュアル・タイトル・タグライン |
+| `src/content/news/*.md` | `/news/` | お知らせ一覧（日付・本文・リンク先） |
+| `introduction/index.ts` | `/introduction/` | あらすじ段落 |
+| `characters/index.ts` | `/characters/` `/characters/{slug}/` | キャラ一覧カード＆詳細（立ち絵・台詞・ステータス・外部リンク） |
+| `episodes/index.ts` | `/episodes/` `/episodes/season{N}/{slug}/` `/episodes/timeline/` | エピソードカード＆詳細パネル、シーズン分け、別史フラグ |
+| `gallery/index.ts` | `/gallery/` | ギャラリー画像 |
+| `movies/index.ts` | `/movies/` | 動画埋め込み |
+| `goods/index.ts` | `/goods/` | 物販リンク |
 | `others/tab.ts` | `/others/` | Othersタブの導線 |
 | `others/settings.ts` | `/others/settings/{character}/` | 設定資料データ |
 | `others/fanArt.ts` | `/others/fanart/` | fan art の外部リンク一覧 |
@@ -25,30 +25,32 @@
 - 各ファイルの先頭に、フィールドの意味をコメントで書いています。迷ったらそこを読めば OK。
 - 配列に 1 要素足せば、ページ側も 1 枚 / 1 行増えます。
 - 画像や動画のファイル本体は `public/` 以下（例: `public/images/gallery/`）に置き、このファイルではパスだけを指定します。
-- 長文ログ系の Markdown は `src/content/episodes/` 配下で管理します。
+- News と長文ログ系の Markdown は `src/content/` 配下で管理します。
 
 ## よくあるパターン
 
 ### News を 1 件追加したい
 
-`news.ts` の `news` 配列の先頭に追記：
+`src/content/news/_template.md.example` をコピーして、`src/content/news/` に Markdown ファイルを 1 つ追加：
 
-```ts
-{
-  date: "2026-05-01",
-  text: "第36話を追加しました！",
-  href: "/episodes/main/36-xxx/",
-},
+```md
+---
+date: "2026-05-01"
+text: "第36話を追加しました！"
+href: "/episodes/main/36-xxx/"
+---
 ```
+
+ファイル名は `YYYYMMDD-slug.md` 形式にしておくと管理しやすいです。
 
 ### Introduction の文章を差し替えたい
 
-`introduction.ts` の `paragraphs` 配列を書き換えるだけ。段落ごとに 1 つの文字列です。
+`introduction/index.ts` の `paragraphs` 配列を書き換えるだけ。段落ごとに 1 つの文字列です。
 文字列の中に `\n` を入れると、改行として表示されます。
 
 ### キャラクターを増やしたい・差し替えたい
 
-`characters.ts` の `characters` 配列にオブジェクトを追加、または既存要素を編集します。
+`characters/index.ts` の `characters` 配列にオブジェクトを追加、または既存要素を編集します。
 
 フィールドは以下の通り（`?` は省略可）：
 
@@ -74,7 +76,7 @@
 
 ### エピソードを追加・編集したい
 
-`episodes.ts` の `episodes` 配列にオブジェクトを追加します。シーズン枠は `seasons` 定数（1〜4）を使います。
+`episodes/index.ts` の `episodes` 配列にオブジェクトを追加します。シーズン枠は `seasons` 定数（1〜4）を使います。
 
 | フィールド | 用途 |
 |---|---|
@@ -101,7 +103,7 @@
 - 詳細画像：`s1-00-detail.jpg`
 - 別史　　：`s1-negai-summary.jpg` / `s1-negai-detail.jpg`
 
-ファイル名は自由で、`episodes.ts` の `summaryImage` / `detailImage` を合わせて書き換えれば OK。
+ファイル名は自由で、`episodes/index.ts` の `summaryImage` / `detailImage` を合わせて書き換えれば OK。
 
 #### URL の早見表
 

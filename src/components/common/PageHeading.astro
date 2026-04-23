@@ -9,7 +9,7 @@ const { title, eyebrow, centered = true } = Astro.props;
 ---
 
 <header class:list={["page-heading", "section-head", centered && "section-head--center", eyebrow && "stack-sm"]}>
-  {eyebrow && <p class="card__eyebrow">{eyebrow}</p>}
+  {eyebrow && <p class="eyebrow">{eyebrow}</p>}
   <h1 class="page-heading__title">{title}</h1>
 </header>
 
@@ -26,6 +26,4 @@ const { title, eyebrow, centered = true } = Astro.props;
   @media (max-width: 640px) {
     .page-heading__title {
       font-size: 36px;
-    }
-  }
-</style>
+  

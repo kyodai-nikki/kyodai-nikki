@@ -1,4 +1,5 @@
 ---
+import Tabs from "../../common/Tabs.astro";
 import { firstEpisodeOfSeason, episodeUrlSlug, seasons } from "../../../data/episodes";
 import { episodesPageMsg } from "../../../msg/pages/episodes";
 
@@ -16,65 +17,19 @@ const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
     ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}`
     : `${base}/episodes/${seasonSlug}`;
 };
+
+const items = [
+  ...seasons.map((season) => ({
+    label: season.label,
+    href: seasonHref(season.number, season.slug),
+    active: current === "season" && season.number === activeSeason,
+  })),
+  {
+    label: episodesPageMsg.seasonTimelineLabel,
+    href: `${base}/episodes/timeline`,
+    active: current === "timeline",
+  },
+];
 ---
 
-<nav class="ep-seasons" aria-label="Season navigation">
-  {seasons.map((season) => (
-    <a
-      href={seasonHref(season.number, season.slug)}
-      aria-current={current === "season" && season.number === activeSeason ? "page" : undefined}
-    >
-      {season.label}
-    </a>
-  ))}
-  <a href={`${base}/episodes/timeline`} aria-current={current === "timeline" ? "page" : undefined}>
-    {episodesPageMsg.seasonTimelineLabel}
-  </a>
-</nav>
-
-<style>
-  .ep-seasons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
-    padding-bottom: var(--s-3);
-  }
-
-  .ep-seasons a {
-    font-family: var(--font-family-navigation);
-    font-size: var(--fs-base);
-    color: var(--c-fg);
-    text-decoration: none;
-    letter-spacing: var(--ls-wide);
-    padding: var(--s-2) 0;
-    position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-
-  .ep-seasons a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: -3px;
-    height: 2px;
-    background: var(--c-site-cyan);
-    transition: left var(--dur-base) var(--ease-out),
-      right var(--dur-base) var(--ease-out);
-    pointer-events: none;
-  }
-
-  .ep-seasons a:hover::after,
-  .ep-seasons a:focus-visible::after {
-    left: 0;
-    right: 0;
-  }
-
-  .ep-seasons a[aria-current="page"]::after {
-    left: 0;
-    right: 0;
-    background: var(--c-site-pink);
-    transition: none;
-  }
-</style>
+<Tabs items={items} ariaLabel="Season navigation" size="md" />

@@ -1,0 +1,29 @@
+---
+export interface TabItem {
+  /** 表示ラベル */
+  label: string;
+  /** 遷移先 URL（base 込みの完成形を渡す） */
+  href: string;
+  /** 現在ページならtrue。aria-current="page" になる */
+  active?: boolean;
+}
+
+interface Props {
+  /** タブの並び。渡された順に左から表示する */
+  items: TabItem[];
+  /** <nav> の aria-label。スクリーンリーダー用 */
+  ariaLabel: string;
+  /** サイズ。md = Episodes 系（小さめ）、lg = Others 系（大きめ） */
+  size?: "md" | "lg";
+}
+
+const { items, ariaLabel, size = "md" } = Astro.props;
+---
+
+<nav class:list={["tab-nav", `tab-nav--${size}`]} aria-label={ariaLabel}>
+  {items.map((item) => (
+    <a href={item.href} aria-current={item.active ? "page" : undefined}>
+      {item.label}
+    </a>
+  ))}
+</nav>

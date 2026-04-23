@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import GoodsModal from "../../components/GoodsModal.astro";
+import MediaModal from "../../components/common/MediaModal.astro";
 import { goods } from "../../data/goods";
 import { commonMsg } from "../../msg/common";
 import { goodsPageMsg } from "../../msg/pages/goods";
@@ -48,17 +48,24 @@ const withBase = (path: string) => `${base}${path}`;
         })}
       </div>
 
-      {goods.map((item, index) => (
-        <GoodsModal
-          id={`goods-modal-${index}`}
-          title={item.title}
-          image={withBase(item.detailImage ?? item.image)}
-          description={item.description}
-          saleUrl={item.url}
-          saleLabel={item.saleLabel}
-          buttonLabel={item.buttonLabel}
-        />
-      ))}
+      {goods.map((item, index) => {
+        const detailImg = withBase(item.detailImage ?? item.image);
+        const actions = item.url
+          ? [{ label: item.saleLabel ?? goodsPageMsg.salePage, href: item.url }]
+          : [];
+        return (
+          <MediaModal
+            id={`goods-modal-${index}`}
+            title={item.title}
+            description={item.description}
+            images={[{ src: detailImg, alt: item.title }]}
+            imageMaxWidth="530px"
+            actions={actions}
+            closeLabel={item.buttonLabel}
+            panelClass="goods-modal-panel"
+          />
+        );
+      })}
     </>
   )}
 </BaseLayout>

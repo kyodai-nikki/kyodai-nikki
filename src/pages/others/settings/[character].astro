@@ -2,7 +2,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
-import OthersSettingsModal from "../../../components/OthersSettingsModal.astro";
+import MediaModal from "../../../components/common/MediaModal.astro";
 import { settingsCharacters, type SettingsCharacter } from "../../../data/others/settings";
 import { commonMsg } from "../../../msg/common";
 import { othersPageMsg } from "../../../msg/pages/others";
@@ -69,12 +69,16 @@ const withBase = (path: string) => `${base}${path}`;
   </div>
 
   {character.materials.map((item, index) => (
-    <OthersSettingsModal
+    <MediaModal
       id={`others-settings-${character.slug}-${index}`}
       title={item.title}
-      image={withBase(item.image)}
-      documentUrl={item.documentUrl}
+      images={[{ src: withBase(item.image), alt: item.title }]}
+      imageHref={item.documentUrl}
+      imageHrefAriaLabel={`${item.title} をGoogle Driveで開く`}
+      hint={othersPageMsg.detailHint}
       details={item.details}
+      detailsAriaLabel={othersPageMsg.detailsHeading}
+      panelClass="others-settings-modal-panel"
     />
   ))}
 </BaseLayout>

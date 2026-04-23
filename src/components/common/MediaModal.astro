@@ -1,0 +1,294 @@
+---
+import Modal from "./Modal.astro";
+import { commonMsg } from "../../msg/common";
+
+export interface MediaModalImage {
+  src: string;
+  alt: string;
+}
+
+export interface MediaModalDetail {
+  label: string;
+  value: string;
+}
+
+export interface MediaModalAction {
+  label: string;
+  href?: string;
+  ariaLabel?: string;
+}
+
+interface Props {
+  /** Modal id (data-modal-open のターゲット) */
+  id: string;
+  /** ヘッダ的に表示するタイトル */
+  title: string;
+  /** 表示する画像（複数可） */
+  images: MediaModalImage[];
+  /** 画像をクリックしたときの遷移先（Google Drive 等の外部リンク） */
+  imageHref?: string;
+  /** imageHref を持つ画像リンクの aria-label */
+  imageHrefAriaLabel?: string;
+  /** 画像領域の最大幅（CSS値）。デフォルト 720px */
+  imageMaxWidth?: string;
+  /** タイトル直下の説明文 */
+  description?: string;
+  /** description より小さめの補足文（Settings 用） */
+  hint?: string;
+  /** クレジット表示の名前 */
+  creditName?: string;
+  /** クレジットURL */
+  creditUrl?: string;
+  /** Twitter (X) ID。@ は付けても付けなくてもよい */
+  twitterId?: string;
+  /** dt/dd で並べる詳細情報 */
+  details?: MediaModalDetail[];
+  /** details の aria-label */
+  detailsAriaLabel?: string;
+  /** 閉じるボタンの前に並べる任意のアクション */
+  actions?: MediaModalAction[];
+  /** 閉じるボタンのラベル。デフォルト commonMsg.actions.back */
+  closeLabel?: string;
+  /** dialog の panel に追加する class */
+  panelClass?: string;
+}
+
+const {
+  id,
+  title,
+  images,
+  imageHref,
+  imageHrefAriaLabel,
+  imageMaxWidth = "720px",
+  description,
+  hint,
+  creditName,
+  creditUrl,
+  twitterId,
+  details = [],
+  detailsAriaLabel,
+  actions = [],
+  closeLabel = commonMsg.actions.back,
+  panelClass = "",
+} = Astro.props;
+
+const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
+---
+
+<Modal id={id} ariaLabel={`${title} details`} panelClass={panelClass}>
+  <div class="media-modal" style={`--media-modal-image-max: ${imageMaxWidth};`}>
+    {imageHref ? (
+      <a
+        class="media-modal__media media-modal__media--link"
+        href={imageHref}
+        target="_blank"
+        rel="noopener"
+        aria-label={imageHrefAriaLabel ?? `${title} を開く`}
+      >
+        {images.map((image, index) => (
+          <img
+            src={image.src}
+            alt={index === 0 ? image.alt : `${image.alt} ${index + 1}`}
+            loading="eager"
+          />
+        ))}
+      </a>
+    ) : (
+      <div class="media-modal__media">
+        {images.map((image, index) => (
+          <img
+            src={image.src}
+            alt={index === 0 ? image.alt : `${image.alt} ${index + 1}`}
+            loading="eager"
+          />
+        ))}
+      </div>
+    )}
+
+    <div class="media-modal__copy">
+      <p class="media-modal__title">{title}</p>
+
+      {description && <p class="media-modal__description">{description}</p>}
+      {hint && <p class="media-modal__hint">{hint}</p>}
+      {creditName && <p class="media-modal__credit">{creditName}</p>}
+      {creditUrl && (
+        <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
+          {creditUrl}
+        </a>
+      )}
+      {normalizedTwitterId && (
+        <a
+          class="media-modal__link"
+          href={`https://x.com/${normalizedTwitterId}`}
+          target="_blank"
+          rel="noopener"
+        >
+          (TwitterID: @{normalizedTwitterId})
+        </a>
+      )}
+
+      {details.length > 0 && (
+        <dl class="media-modal__details" aria-label={detailsAriaLabel}>
+          {details.map((detail) => (
+            <div>
+              <dt>{detail.label}</dt>
+              <dd>{detail.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+
+      <div class="media-modal__actions">
+        {actions.map((action) =>
+          action.href ? (
+            <a
+              class="media-modal__action"
+              href={action.href}
+              target="_blank"
+              rel="noopener"
+              aria-label={action.ariaLabel}
+            >
+              {action.label}
+            </a>
+          ) : (
+            <button
+              class="media-modal__action"
+              type="button"
+              aria-label={action.ariaLabel}
+            >
+              {action.label}
+            </button>
+          )
+        )}
+        <button class="media-modal__action" type="button" data-modal-close>
+          {closeLabel}
+        </button>
+      </div>
+    </div>
+  </div>
+</Modal>
+
+<style>
+  .media-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .media-modal__media {
+    width: min(100%, var(--media-modal-image-max));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .media-modal__media--link {
+    display: block;
+  }
+
+  .media-modal__media img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background: #fff;
+    display: block;
+  }
+
+  .media-modal__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: #5b5b5b;
+  }
+
+  .media-modal__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: clamp(1.375rem, 2vw, 1.75rem);
+    color: var(--c-fg);
+  }
+
+  .media-modal__description,
+  .media-modal__credit {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .media-modal__description {
+    line-height: 1.8;
+  }
+
+  .media-modal__hint {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .media-modal__link {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .media-modal__details {
+    display: grid;
+    gap: 8px;
+    margin: 6px 0 0;
+  }
+
+  .media-modal__details > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .media-modal__details dt {
+    color: var(--c-fg);
+  }
+
+  .media-modal__details dd {
+    margin: 0;
+  }
+
+  .media-modal__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 12px;
+  }
+
+  .media-modal__action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+    padding: 10px 22px;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: #fff;
+    color: var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .media-modal__action:hover {
+    background: var(--c-fg);
+    color: #fff;
+  }
+
+  @media (max-width: 720px) {
+    .media-modal__media {
+      width: 100%;
+    }
+  }
+</style>
