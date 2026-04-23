@@ -14,9 +14,12 @@ scenario:
   description: |-
     吐く息が白くなろうという季節。時刻は午後8時過ぎ。
     一日の仕事を終えた千冬は、誕生日ケーキを片手に、千秋の待つ家へと向かっていた。小雨の中帰路につく。暗がりに差し掛かったところで、突如物陰から伸びてきた手が千冬の手をがしりと掴んだ。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    「予報だと曇りだったのにな。ついてねー」
+    千冬を路地裏に引っ張ったのは、先程まで連絡を取り合っていたはずの千秋だった。
+  author: "かし"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3586801"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

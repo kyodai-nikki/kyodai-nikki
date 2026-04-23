@@ -17,9 +17,11 @@ scenario:
     ロビーに通じる扉は手で押すたびにひどくきしむ。
     路地を挟んですぐそばには浅いどぶ川が流れていて湿気が籠り、お世辞にも過ごしやすい場所とは言えない。
     しかし、今はここだけがふたりの――千冬と千秋の棲処だ。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    ※本シナリオは、出来事自体を無いものとする。
+  author: "ぽに大根"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3314707"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

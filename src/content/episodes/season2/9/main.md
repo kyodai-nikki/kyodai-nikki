@@ -2,22 +2,26 @@
 season: 2
 session:
   type:
-    isAnother: true
+    isAnother: false
     isR18: true
     isR18G: true
-    isDeleted: false
+    isDeleted: true
   storyDate: "2024.03.31"
   timelineCast: "千秋 (20歳・通信大学2年) 千冬 (21歳・建築士1年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "幻界θバッドトリップ"
   description: |-
-    ――千冬と音信不通になってから2週間。
+    ──千冬と音信不通になってから2週間。
     千秋は行方不明になった千冬を探していた。
     同じく姉を探す女性と出会い、捜査に進展があった日の夜、千秋の元へ一本の着信が入る。表示には千冬の名前が映し出されていた。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    半月ぶりに聞いたその声には、苦痛と快楽が滲んでいた――。
+
+    ※本シナリオは、出来事自体を無いものとする。
+  author: "江久井"
+  distributionName: "booth"
+  distributionUrl: "https://egui.booth.pm/items/4051742"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

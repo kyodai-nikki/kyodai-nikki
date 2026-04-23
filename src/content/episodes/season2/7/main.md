@@ -13,10 +13,13 @@ scenario:
   title: "最果てへの逃避行"
   description: |-
     強風の吹き抜けるビルの屋上。曇天の下、騒ぎ立てる人々の声が耳に突き刺さる。
-    千冬に銃口を向けているのは、千冬がよく知る唯一無二の存在だった。誰よりも大切なはずのその人は、ゆっくりとその唇を開き、確かな意思を宿した冷たい眼差しを向ける。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    千冬に銃口を向けているのは――千冬がよく知る唯一無二の存在だった。誰よりも大切なはずのその人は、ゆっくりとその唇を開き、確かな意思を宿した冷たい眼差しを向ける。
+
+    「……なぁ、頼むよ」
+    「……頼むから、死んでくれ」
+  author: "カンデラ"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=13922164"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

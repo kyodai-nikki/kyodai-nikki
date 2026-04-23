@@ -12,13 +12,17 @@ session:
 scenario:
   title: "愛猫の上手な鳴かせ方"
   description: |-
-    ――ふ、と意識が浮上する。
+    ──ふ、と意識が浮上する。
     休日の朝、目を覚ました千冬。
     重さを感じて目を向ければ、その隣には丸まって眠る千秋がいた。
     しかし、様子がいつもと違う。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    動物の耳と尻尾の生えた、それはまるで猫。
+
+    「さて、まずは猫ちゃんの可愛い声を聞いてみましょう」
+  author: "しろは"
+  distributionName: "booth"
+  distributionUrl: "https://shirohappa.booth.pm/items/3674797"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

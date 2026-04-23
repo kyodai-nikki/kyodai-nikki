@@ -13,9 +13,14 @@ scenario:
   title: "命泥棒"
   description: |-
     春の陽光が降り注ぐ暖かい休日。ふたりは水族館へと足を運んでいた。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    クラゲがゆらゆらと漂い、光の反射が水槽の壁にきらきらと踊る。生命の神秘が鮮やかな輝きを放っていた。
+    人混みの中、千冬と千秋は離れてしまわないように身体を近付け、手をしっかりと握り笑い合う。
+
+    そんな平和で、幸せな日常を――泥棒に奪われた。
+  author: "朧々"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=14908017"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

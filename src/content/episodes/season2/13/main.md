@@ -8,14 +8,20 @@ session:
     isDeleted: false
   storyDate: "2024.06.01"
   timelineCast: "千秋 (20歳・通信大学3年) 千冬 (21歳・建築士2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "more than WHITE"
   description: |-
     「千秋。俺の誓いを、聞いてくれないか」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    千秋の誘いで、二人はとあるリゾート地に訪れた。その島ではフォトウェディングを行うツアーがあるらしい。
+    絵具を塗ったように鮮やかな空の青と、白い船の対比が眩しい。
+    地平の向こう側から覗くその島は、まるで天国のようだ。
+    統一された白い石の建築物が目立つ島で、二人は永遠の誓いを交わす。
+    ──不穏な影が忍び寄ることに気付かないまま。
+  author: "とーま"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/2972261"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false
