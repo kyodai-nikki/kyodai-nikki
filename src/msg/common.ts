@@ -1,9 +1,16 @@
+export const redirectingMsg = "移動中…";
+
 export const commonMsg = {
   symbol: {
     dot: "・",
     previousEpisodeArrow: "‹",
     nextEpisodeArrow: "›",
   },
+  badge: {
+    r18: "R-18",
+    r18g: "R-18G",
+  },
+  redirectingMsg: "移動中…",
   dear: "様",
   site: {
     defaultDescription: "TRPG セッションログのアーカイブ。",

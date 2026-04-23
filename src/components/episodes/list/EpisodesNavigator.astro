@@ -3,8 +3,13 @@ import {
   episodesBySeason,
   seasons as getSeasons,
   episodeUrlSlug,
+  episodeListImage,
+  episodeThumbnailImage,
+  episodeListDummyImage,
+  episodeThumbnailDummyImage,
   type EpisodeEntry,
 } from "../../../lib/episodes";
+import { withBase } from "../../../lib/urls";
 import { getCollection } from "astro:content";
 import { hasAnyEpisodeLog } from "../../../lib/episodes/logs";
 import { commonMsg } from "../../../msg/common";
@@ -21,9 +26,8 @@ interface Props {
 }
 
 const { activeSeason, selected, activeSlug } = Astro.props as Props;
-const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const dummySummary = `${base}/images/episodes/dummy-summary.svg`;
-const dummyDetail = `${base}/images/episodes/dummy-detail.svg`;
+const dummyEpisodeList = episodeListDummyImage();
+const dummyThumbnail = episodeThumbnailDummyImage();
 
 const seasons = await getSeasons();
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
@@ -35,13 +39,8 @@ const current: EpisodeMeta | undefined =
   (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
   (list[0] as EpisodeMeta | undefined);
 
-const episodeListImagePath = (e: EpisodeEntry): string =>
-  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/episode-list.png`;
-const thumbnailImagePath = (e: EpisodeEntry): string =>
-  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/thumbnail.png`;
-
 const epHref = (e: EpisodeEntry) =>
-  `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}`;
+  withBase(`/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}`);
 
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
@@ -58,7 +57,7 @@ const detailClass = current?.isAnother ? "ep-detail ep-detail--alt" : "ep-detail
 
 const logHref = current
   && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logEntries)
-  ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log`
+  ? withBase(`/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log`)
   : undefined;
 ---
 
@@ -72,7 +71,7 @@ const logHref = current
           <a
             class={itemClass(e)}
             href={epHref(e)}
-            style={`--ep-bg: url('${episodeListImagePath(e)}'), url('${dummySummary}');`}
+            style={`--ep-bg: url('${episodeListImage(activeSeasonInfo.slug, e)}'), url('${dummyEpisodeList}');`}
           >
             <span class="ep-item__no">{numberLabel(e)}</span>
             <span class="ep-item__title">{e.title}</span>
@@ -87,9 +86,9 @@ const logHref = current
       <div class="ep-detail__image-wrap">
         <img
           class="ep-detail__image"
-          src={thumbnailImagePath(current)}
+          src={episodeThumbnailImage(activeSeasonInfo.slug, current)}
           alt={episodesPageMsg.thumbnailAlt(current.title)}
-          onerror={`this.src='${dummyDetail}'`}
+          onerror={`this.src='${dummyThumbnail}'`}
         />
       </div>
 
@@ -107,8 +106,8 @@ const logHref = current
       <div class="ep-detail__foot">
         <div>
           {current.badge && <span class="ep-detail__badge">{current.badge}</span>}
-          {current.isR18 && !current.isR18G && <span class="ep-detail__badge">R-18</span>}
-          {current.isR18G && <span class="ep-detail__badge">R-18G</span>}
+          {current.isR18 && !current.isR18G && <span class="ep-detail__badge">{commonMsg.badge.r18}</span>}
+          {current.isR18G && <span class="ep-detail__badge">{commonMsg.badge.r18g}</span>}
         </div>
         {logHref && (
           <a class="ep-detail__read" href={logHref}>

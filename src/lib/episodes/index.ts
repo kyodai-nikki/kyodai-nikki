@@ -1,5 +1,6 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import { sortByOrder, sortByOverallNumber } from "../common";
+import { withBase } from "../urls";
 import type { EpisodeScenarioInfo } from "./logs";
 
 export interface EpisodeEntry {
@@ -175,17 +176,27 @@ const loadEpisodes = async (): Promise<Season[]> => {
 export const episodeUrlSlug = (e: EpisodeEntry): string =>
   String(e.seasonEpisodeNumber ?? e.overallNumber);
 
-// エピソード概要画像のパスを返す。
-export const episodeSummaryImage = (
+// エピソード一覧カード用の画像のパスを返す。
+export const episodeListImage = (
   seasonSlug: string,
   e: EpisodeEntry,
-): string => `${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/summary.png`;
+): string =>
+  withBase(`${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/episode-list.png`);
 
-// エピソード詳細画像のパスを返す。
+// エピソード概要パネル用のサムネイル画像のパスを返す。
 export const episodeThumbnailImage = (
   seasonSlug: string,
   e: EpisodeEntry,
-): string => `${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/thumbnail.png`;
+): string =>
+  withBase(`${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/thumbnail.png`);
+
+// 一覧カードのダミー画像（フォールバック）のパスを返す。
+export const episodeListDummyImage = (): string =>
+  withBase(`${IMG_BASE}/dummy-episode-list.svg`);
+
+// 概要パネルのダミー画像（フォールバック）のパスを返す。
+export const episodeThumbnailDummyImage = (): string =>
+  withBase(`${IMG_BASE}/dummy-thumbnail.svg`);
 
 // シーズン一覧を取得する。
 export const seasons = async (): Promise<readonly SeasonInfo[]> =>

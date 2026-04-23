@@ -21,6 +21,7 @@ import {
   type EpisodeLogSectionKey,
 } from "../../../../lib/episodes/logs";
 import { episodesPageMsg } from "../../../../msg/episodes";
+import { commonMsg } from "../../../../msg/common";
 
 export async function getStaticPaths() {
   const logEntries = await getCollection("episodeLogs");
@@ -144,7 +145,7 @@ const pageDescription =
 
 const episodeNumberLabel = `Episode${String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0")}`;
 const badges = [
-  episode.isR18G ? "R-18G" : undefined,
+  episode.isR18G ? commonMsg.badge.r18 : undefined,
   episode.isR18 && !episode.isR18G ? "R-18" : undefined,
   scenario?.isDeleted ? episodesPageMsg.deletedCanonBadge : undefined,
 ].filter(Boolean) as string[];

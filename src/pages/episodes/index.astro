@@ -1,4 +1,5 @@
-﻿---
+---
+import Redirect from "../../components/common/Redirect.astro";
 import { firstEpisodeOfSeason, episodeHref } from "../../lib/episodes";
 import { episodesPageMsg } from "../../msg/episodes";
 
@@ -6,14 +7,4 @@ const initial = await firstEpisodeOfSeason(1);
 const redirectTo = initial ? episodeHref("season1", initial) : "/episodes/timeline";
 ---
 
-<html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
-    <link rel="canonical" href={redirectTo} />
-    <title>{episodesPageMsg.title}</title>
-  </head>
-  <body>
-    <p><a href={redirectTo}>{episodesPageMsg.redirecting}</a></p>
-  </body>
-</html>
+<Redirect title={episodesPageMsg.title} redirectTo={redirectTo} />

@@ -17,7 +17,7 @@ kyodai-nikki/
 │   ├── favicon.svg
 │   └── images/
 │       ├── characters/            # キャラクター画像
-│       ├── episodes/              # エピソード画像（summary.png / thumbnail.png）
+│       ├── episodes/              # エピソード画像（episode-list.png / thumbnail.png）
 │       ├── gallery/               # ギャラリー画像
 │       ├── goods/                 # 物販画像
 │       ├── home/                  # トップ画像
