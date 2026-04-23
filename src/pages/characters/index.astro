@@ -40,8 +40,8 @@ const characters = await orderedCharacters();
   }
 
   .chars-card {
-    flex: 0 1 220px;
-    max-width: 240px;
+    flex: 0 0 150px;
+    width: 150px;
     opacity: 0;
     transform: translateY(32px);
     animation: chars-rise 700ms var(--ease-out) both;
@@ -56,9 +56,11 @@ const characters = await orderedCharacters();
 
   .chars-card__img-wrap {
     position: relative;
-    aspect-ratio: 2 / 5;
+    width: 150px;
+    height: 600px;
     overflow: hidden;
     border-radius: var(--r-sm);
+    border: 1px solid var(--c-fg);
     background:
       repeating-linear-gradient(
         135deg,
@@ -74,14 +76,16 @@ const characters = await orderedCharacters();
     height: 100%;
     object-fit: cover;
     display: block;
-    filter: grayscale(0.1);
+    filter: grayscale(1);
     transition: filter var(--dur-base) var(--ease-out);
   }
 
-  .chars-card a:hover .chars-card__img-wrap {
+  .chars-card a:hover .chars-card__img-wrap,
+  .chars-card a:focus-visible .chars-card__img-wrap {
     transform: translateY(-4px);
   }
-  .chars-card a:hover .chars-card__img {
+  .chars-card a:hover .chars-card__img,
+  .chars-card a:focus-visible .chars-card__img {
     filter: grayscale(0);
   }
   @keyframes chars-rise {
@@ -104,6 +108,8 @@ const characters = await orderedCharacters();
   }
 
   @media (max-width: 640px) {
-    .chars-card { flex-basis: 45%; }
+    .chars-card {
+      flex-basis: 150px;
+    }
   }
 </style>

@@ -4,7 +4,7 @@ import {
   sortByOverallNumber,
   sortLogEntriesByOverallNumber,
 } from "../common";
-import type { EpisodeLogMeta, EpisodeScenarioInfo } from "./logs";
+import type { EpisodeScenarioInfo } from "./logs";
 
 export interface EpisodeEntry {
   overallNumber: number;
@@ -12,14 +12,13 @@ export interface EpisodeEntry {
   seasonEpisodeNumber?: number;
   title: string;
   description: string;
-  isAlternate?: boolean;
+  isAnother?: boolean;
   smallText?: boolean;
   date?: string;
   cast?: string;
   isR18?: boolean;
   isR18G?: boolean;
   scenario?: EpisodeScenarioInfo;
-  log?: EpisodeLogMeta;
 }
 
 export interface SeasonInfo {
@@ -58,8 +57,8 @@ const assertEpisodeMain = (entry: EpisodeLogEntry) => {
     entry.data.season ? undefined : "season",
     entry.data.overallNumber === undefined ? "overallNumber" : undefined,
     entry.data.seasonEpisodeNumber === undefined ? "seasonEpisodeNumber" : undefined,
-    entry.data.title ? undefined : "title",
-    entry.data.description ? undefined : "description",
+    entry.data.scenario?.title ? undefined : "scenario.title",
+    entry.data.scenario?.description ? undefined : "scenario.description",
   ].filter(Boolean);
 
   if (missing.length > 0) {
@@ -101,25 +100,32 @@ const loadEpisodes = async (): Promise<Season[]> => {
     let seasonAllCounter = 0;
     return seasonEntries.map<Season>((seasonEntry) => {
       const episodes = mainEntries
-        .filter((entry) => entry.data.season === seasonEntry.data.slug)
+        .filter((entry) => entry.data.season === seasonEntry.data.number)
         .map<EpisodeEntry>((entry) => {
           const data = entry.data;
+          const session = data.session;
+          const sessionType = session?.type;
           const episode: EpisodeEntry = {
             overallNumber: data.overallNumber!,
             seasonEpisodeNumber: data.seasonEpisodeNumber,
-            title: data.title!,
-            description: data.description!,
-            date: data.date,
-            cast: data.cast,
-            isAlternate: data.isAlternate,
-            smallText: data.smallText,
-            isR18: data.isR18,
-            isR18G: data.isR18G,
-            scenario: data.scenario,
-            log: data.log,
+            title: data.scenario?.title!,
+            description: data.scenario?.description!,
+            date: session?.storyDate,
+            cast: session?.timelineCast,
+            isAnother: sessionType?.isAnother,
+            smallText: data.custom?.showSmallTitle,
+            isR18: sessionType?.isR18,
+            isR18G: sessionType?.isR18G,
+            scenario: {
+              ...data.scenario,
+              storyDate: session?.storyDate,
+              cast: session?.cast,
+              isDeleted: sessionType?.isDeleted,
+              isCompactDescription: data.custom?.isCompactDescription,
+            },
           };
 
-          if (!episode.isAlternate) {
+          if (!episode.isAnother) {
             episode.seasonAllNumber = seasonAllCounter++;
           }
 
@@ -216,7 +222,7 @@ export const timelineEpisodeHref = (entry: TimelineEntry): string =>
 
 // タイムラインに表示するエピソード番号ラベルを作る。
 export const timelineEpisodeNumberLabel = (entry: TimelineEntry): string =>
-  entry.isAlternate
+  entry.isAnother
     ? "…"
     : `Episode${String(entry.seasonEpisodeNumber ?? "").padStart(2, "0")}`;
 

@@ -3,20 +3,32 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
 import MediaModal from "../../../components/common/MediaModal.astro";
-import { orderedSettingsCharacters, type OthersSettingsEntry } from "../../../lib/others";
+import {
+  orderedSettingsCharacters,
+  orderedSettingsMaterials,
+  settingsCharacterSlug,
+  type OthersSettingsCharacterEntry,
+} from "../../../lib/others";
 import { commonMsg } from "../../../msg/common";
 import { othersPageMsg } from "../../../msg/others";
 
 export async function getStaticPaths() {
   const settingsCharacters = await orderedSettingsCharacters();
   return settingsCharacters.map((character) => ({
-    params: { character: character.id },
-    props: { character },
+    params: { character: settingsCharacterSlug(character) },
+    props: {
+      character,
+      characterSlug: settingsCharacterSlug(character),
+    },
   }));
 }
 
-const { character } = Astro.props as { character: OthersSettingsEntry };
+const { character, characterSlug } = Astro.props as {
+  character: OthersSettingsCharacterEntry;
+  characterSlug: string;
+};
 const settingsCharacters = await orderedSettingsCharacters();
+const materials = await orderedSettingsMaterials(characterSlug);
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
 ---
@@ -33,8 +45,8 @@ const withBase = (path: string) => `${base}${path}`;
         <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
           {settingsCharacters.map((item) => (
             <a
-              href={withBase(`/others/settings/${item.id}`)}
-              aria-current={item.id === character.id ? "page" : undefined}
+              href={withBase(`/others/settings/${settingsCharacterSlug(item)}`)}
+              aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
             >
               {item.data.name}
             </a>
@@ -43,26 +55,26 @@ const withBase = (path: string) => `${base}${path}`;
 
         <div class="others-settings__content">
           <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.data.name)}>
-            {character.data.materials.map((item, index) => {
-              const modalId = `others-settings-${character.id}-${index}`;
+            {materials.map((item, index) => {
+              const modalId = `others-settings-${characterSlug}-${index}`;
               return (
                 <button
                   class="others-settings__card"
                   type="button"
-                  aria-label={commonMsg.actions.open(item.title)}
+                  aria-label={commonMsg.actions.open(item.data.title)}
                   data-modal-open={modalId}
                 >
                   <div class="others-settings__card-image-wrap">
                     <img
                       class="others-settings__card-image"
-                      src={withBase(item.image)}
-                      alt={item.title}
+                      src={withBase(item.data.image)}
+                      alt={item.data.title}
                       loading="lazy"
                       width="640"
                       height="480"
                     />
                   </div>
-                  <p class="others-settings__card-title">{item.title}</p>
+                  <p class="others-settings__card-title">{item.data.title}</p>
                 </button>
               );
             })}
@@ -70,15 +82,15 @@ const withBase = (path: string) => `${base}${path}`;
         </div>
   </div>
 
-  {character.data.materials.map((item, index) => (
+  {materials.map((item, index) => (
     <MediaModal
-      id={`others-settings-${character.id}-${index}`}
-      title={item.title}
-      images={[{ src: withBase(item.image), alt: item.title }]}
-      imageHref={item.documentUrl}
-      imageHrefAriaLabel={`${item.title} 繧竪oogle Drive縺ｧ髢九￥`}
+      id={`others-settings-${characterSlug}-${index}`}
+      title={item.data.title}
+      images={[{ src: withBase(item.data.image), alt: item.data.title }]}
+      imageHref={item.data.documentUrl}
+      imageHrefAriaLabel={`${item.data.title} 繧竪oogle Drive縺ｧ髢九￥`}
       hint={othersPageMsg.detailHint}
-      details={item.details}
+      details={item.data.details}
       detailsAriaLabel={othersPageMsg.detailsHeading}
       panelClass="others-settings-modal-panel"
     />

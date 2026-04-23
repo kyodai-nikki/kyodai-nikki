@@ -10,6 +10,36 @@ export type OthersSectionEntry = CollectionEntry<"othersSections">;
 export type OthersFanArtEntry = CollectionEntry<"othersFanArt">;
 export type OthersSettingsEntry = CollectionEntry<"othersSettings">;
 
+export type OthersSettingsCharacterEntry = OthersSettingsEntry & {
+  data: {
+    kind: "character";
+    order: number;
+    name: string;
+  };
+};
+
+export type OthersSettingsMaterialEntry = OthersSettingsEntry & {
+  data: {
+    kind: "material";
+    order: number;
+    title: string;
+    image: string;
+    documentUrl: string;
+    details?: {
+      label: string;
+      value: string;
+    }[];
+  };
+};
+
+const isSettingsCharacterEntry = (entry: OthersSettingsEntry): entry is OthersSettingsCharacterEntry =>
+  entry.data.kind === "character";
+
+const isSettingsMaterialEntry = (entry: OthersSettingsEntry): entry is OthersSettingsMaterialEntry =>
+  entry.data.kind === "material";
+
+export const settingsCharacterSlug = (entry: OthersSettingsEntry): string => entry.id.split("/")[0];
+
 // Others のタブ定義を表示順で取得する。
 export const orderedOthersSections = async (): Promise<OthersSectionEntry[]> =>
   sortByOrder(await getCollection("othersSections"));
@@ -37,5 +67,15 @@ export const fanArtImageSrc = (entry: OthersFanArtEntry): string => {
 };
 
 // 設定資料のキャラクターコレクションを表示順で取得する。
-export const orderedSettingsCharacters = async (): Promise<OthersSettingsEntry[]> =>
-  sortByOrder(await getCollection("othersSettings"));
+export const orderedSettingsCharacters = async (): Promise<OthersSettingsCharacterEntry[]> =>
+  sortByOrder((await getCollection("othersSettings")).filter(isSettingsCharacterEntry));
+
+export const orderedSettingsMaterials = async (
+  characterSlug: string,
+): Promise<OthersSettingsMaterialEntry[]> =>
+  sortByOrder(
+    (await getCollection("othersSettings")).filter(
+      (entry): entry is OthersSettingsMaterialEntry =>
+        isSettingsMaterialEntry(entry) && settingsCharacterSlug(entry) === characterSlug,
+    ),
+  );

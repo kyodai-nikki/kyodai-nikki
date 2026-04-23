@@ -1,4 +1,4 @@
-﻿---
+---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
@@ -43,14 +43,14 @@ const grouped = await groupedEpisodesTimeline();
               <ol class="tl-rows">
                 {items.map((e) => {
                   const cls = ["tl-row"];
-                  if (e.isAlternate) cls.push("tl-row--alt");
+                  if (e.isAnother) cls.push("tl-row--alt");
                   if (e.smallText) cls.push("tl-row--sm");
                   return (
                     <li class={cls.join(" ")}>
                       <a class="tl-row__card" href={basePath + timelineEpisodeHref(e)}>
                         <span class="tl-row__no">{timelineEpisodeNumberLabel(e)}</span>
                         <span class="tl-row__title">{e.title}</span>
-                        {e.isAlternate && <span class="tl-row__tag">{episodesPageMsg.alternateTag}</span>}
+                        {e.isAnother && <span class="tl-row__tag">{episodesPageMsg.alternateTag}</span>}
                       </a>
                       <div class="tl-row__meta">
                         {e.date && <div class="tl-row__date">{e.date}</div>}

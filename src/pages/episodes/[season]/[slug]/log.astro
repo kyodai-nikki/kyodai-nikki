@@ -1,4 +1,4 @@
-﻿---
+---
 import { getCollection, getEntry, render } from "astro:content";
 import LogBody from "../../../../components/episodes/log/LogBody.astro";
 import LogFooter from "../../../../components/episodes/log/LogFooter.astro";
@@ -84,7 +84,6 @@ const renderedSections = await Promise.all(
 );
 
 const scenario = episode.scenario;
-const logMeta = episode.log ?? {};
 const overviewHref = episodeHref(seasonInfo.slug, episode);
 
 const seasonEpisodes = await episodesBySeason(seasonNumber);
@@ -101,22 +100,53 @@ const nextEpisode =
     ? logEntriesBySeason[currentIndex + 1]
     : undefined;
 
+const previousSeasonInfo =
+  seasonNumber > 1 ? seasons.find((s) => s.number === (seasonNumber - 1)) : undefined;
+const nextSeasonInfo =
+  seasonNumber < 4 ? seasons.find((s) => s.number === (seasonNumber + 1)) : undefined;
+
+const previousSeasonEpisodes = previousSeasonInfo
+  ? await episodesBySeason(previousSeasonInfo.number)
+  : [];
+const previousSeasonLastEpisode = previousSeasonEpisodes.at(-1);
+const previousSeasonLastLogEpisode =
+  previousSeasonInfo && previousSeasonLastEpisode &&
+  hasAnyEpisodeLog(previousSeasonInfo.slug, episodeUrlSlug(previousSeasonLastEpisode), logEntries)
+    ? previousSeasonLastEpisode
+    : undefined;
+
+const nextSeasonEpisodes = nextSeasonInfo
+  ? await episodesBySeason(nextSeasonInfo.number)
+  : [];
+const nextSeasonFirstEpisode = nextSeasonEpisodes[0];
+const nextSeasonFirstLogEpisode =
+  nextSeasonInfo && nextSeasonFirstEpisode &&
+  hasAnyEpisodeLog(nextSeasonInfo.slug, episodeUrlSlug(nextSeasonFirstEpisode), logEntries)
+    ? nextSeasonFirstEpisode
+    : undefined;
+
 const previousHref = previousEpisode
   ? `${episodeHref(seasonInfo.slug, previousEpisode)}/log`
-  : undefined;
-const nextHref = nextEpisode ? `${episodeHref(seasonInfo.slug, nextEpisode)}/log` : undefined;
-const showPreviousButton = Boolean(logMeta.showPreviousEpisode && previousHref);
-const showNextButton = Boolean(logMeta.showNextEpisode && nextHref);
+  : previousSeasonInfo && previousSeasonLastLogEpisode
+    ? `${episodeHref(previousSeasonInfo.slug, previousSeasonLastLogEpisode)}/log`
+    : undefined;
+const nextHref = nextEpisode
+  ? `${episodeHref(seasonInfo.slug, nextEpisode)}/log`
+  : nextSeasonInfo && nextSeasonFirstLogEpisode
+    ? `${episodeHref(nextSeasonInfo.slug, nextSeasonFirstLogEpisode)}/log`
+    : undefined;
+const showPreviousButton = Boolean(previousHref);
+const showNextButton = Boolean(nextHref);
 
 const mainSection = sectionEntries.main;
 const pageDescription =
-  mainSection?.data.description ?? episode.description.split("\n")[0] ?? episode.title;
+  mainSection?.data.scenario?.description ?? episode.description.split("\n")[0] ?? episode.title;
 
 const episodeNumberLabel = `Episode${String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0")}`;
 const badges = [
   episode.isR18G ? "R-18G" : undefined,
   episode.isR18 && !episode.isR18G ? "R-18" : undefined,
-  scenario?.removeCanon ? episodesPageMsg.deletedCanonBadge : undefined,
+  scenario?.isDeleted ? episodesPageMsg.deletedCanonBadge : undefined,
 ].filter(Boolean) as string[];
 ---
 

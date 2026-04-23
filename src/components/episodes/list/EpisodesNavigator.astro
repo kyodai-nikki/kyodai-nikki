@@ -1,4 +1,4 @@
-﻿---
+---
 import {
   episodesBySeason,
   seasons as getSeasons,
@@ -45,16 +45,16 @@ const epHref = (e: EpisodeEntry) =>
 
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
-  if (e.isAlternate) cls.push("ep-item--alt");
+  if (e.isAnother) cls.push("ep-item--alt");
   if (e.smallText) cls.push("ep-item--sm");
   if (current?.overallNumber === e.overallNumber) cls.push("ep-item--selected");
   return cls.join(" ");
 };
 
 const numberLabel = (e: EpisodeEntry) =>
-  e.isAlternate ? "..." : String(e.seasonAllNumber ?? e.overallNumber).padStart(2, "0");
+  e.isAnother ? "..." : String(e.seasonAllNumber ?? e.overallNumber).padStart(2, "0");
 
-const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-detail";
+const detailClass = current?.isAnother ? "ep-detail ep-detail--alt" : "ep-detail";
 
 const logHref = current
   && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logEntries)
@@ -96,7 +96,7 @@ const logHref = current
       <h2 class="ep-detail__title">
         <span>{current.title}</span>
         <span class="ep-detail__subtitle">
-          {current.isAlternate
+          {current.isAnother
             ? episodesPageMsg.alternateTag
             : `Episode${String(current.seasonAllNumber ?? current.overallNumber).padStart(2, "0")}`}
         </span>

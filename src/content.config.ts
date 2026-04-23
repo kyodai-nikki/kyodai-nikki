@@ -30,32 +30,32 @@ const news = defineCollection({
 const episodeLogs = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/episodes" }),
   schema: z.object({
-    season: z.enum(["season1", "season2", "season3", "season4"]).optional(),
+    season: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
     overallNumber: z.number().optional(),
     seasonEpisodeNumber: z.number().int().positive().optional(),
-    title: z.string().optional(),
-    description: z.string().optional(),
-    date: z.string().optional(),
-    cast: z.string().optional(),
-    isAlternate: z.boolean().optional().default(false),
-    smallText: z.boolean().optional().default(false),
-    isR18: z.boolean().optional().default(false),
-    isR18G: z.boolean().optional().default(false),
+    session: z.object({
+      type: z.object({
+        isAnother: z.boolean().optional().default(false),
+        isR18: z.boolean().optional().default(false),
+        isR18G: z.boolean().optional().default(false),
+        isDeleted: z.boolean().optional().default(false),
+      }).optional(),
+      storyDate: z.string().optional(),
+      timelineCast: z.string().optional(),
+      cast: z.array(z.string()).optional(),
+    }).optional(),
     scenario: z.object({
       title: z.string().optional(),
-      inStoryDate: z.string().optional(),
-      participants: z.array(z.string()).optional(),
+      description: z.string().optional(),
       author: z.string().optional(),
       distributionName: z.string().optional(),
       distributionUrl: z.string().optional(),
       isAdapted: z.boolean().optional(),
       adaptedScenarioUrl: z.string().optional(),
-      compactDescription: z.boolean().optional(),
-      removeCanon: z.boolean().optional(),
     }).optional(),
-    log: z.object({
-      showNextEpisode: z.boolean().optional(),
-      showPreviousEpisode: z.boolean().optional(),
+    custom: z.object({
+      showSmallTitle: z.boolean().optional().default(false),
+      isCompactDescription: z.boolean().optional().default(false),
     }).optional(),
   }),
 });
@@ -171,19 +171,24 @@ const othersFanArt = defineCollection({
 
 const othersSettings = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/others/settings" }),
-  schema: z.object({
-    order: z.number().int().positive(),
-    name: z.string(),
-    materials: z.array(z.object({
-      id: z.string(),
+  schema: z.discriminatedUnion("kind", [
+    z.object({
+      kind: z.literal("character"),
+      order: z.number().int().positive(),
+      name: z.string(),
+    }),
+    z.object({
+      kind: z.literal("material"),
+      order: z.number().int().positive(),
       title: z.string(),
+      image: z.string(),
       documentUrl: z.string(),
       details: z.array(z.object({
         label: z.string(),
         value: z.string(),
       })).optional(),
-    })),
-  }),
+    }),
+  ]),
 });
 
 export const collections = {

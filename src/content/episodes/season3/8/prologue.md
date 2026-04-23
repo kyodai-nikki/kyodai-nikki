@@ -1,1 +1,0 @@
-<!-- Optional prologue log section. -->

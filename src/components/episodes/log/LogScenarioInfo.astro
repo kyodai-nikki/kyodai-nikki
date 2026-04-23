@@ -11,7 +11,7 @@ interface Props {
 }
 
 const { title, episodeNumberLabel, badges, scenario } = Astro.props;
-const castLabel = scenario?.participants?.length ? scenario.participants.join(commonMsg.symbol.dot) : undefined;
+const castLabel = scenario?.cast?.length ? scenario.cast.join(commonMsg.symbol.dot) : undefined;
 const writerLabel = scenario?.author;
 const sourceLabel = scenario?.distributionName;
 ---
@@ -33,12 +33,12 @@ const sourceLabel = scenario?.distributionName;
   </div>
 
   <dl class="episode-log__meta-lines">
-    {(scenario?.inStoryDate || castLabel) && (
+    {(scenario?.storyDate || castLabel) && (
       <div class="episode-log__meta-line">
-        {scenario?.inStoryDate && (
+        {scenario?.storyDate && (
           <div class="episode-log__meta-inline">
             <dt>Date :</dt>
-            <dd>{scenario.inStoryDate}</dd>
+            <dd>{scenario.storyDate}</dd>
           </div>
         )}
         {castLabel && <dd class="episode-log__meta-free">{castLabel}</dd>}

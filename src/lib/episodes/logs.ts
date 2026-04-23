@@ -9,20 +9,16 @@ export type EpisodeLogSectionKey =
 
 export interface EpisodeScenarioInfo {
   title?: string;
-  inStoryDate?: string;
-  participants?: string[];
+  description?: string;
+  storyDate?: string;
+  cast?: string[];
   author?: string;
   distributionName?: string;
   distributionUrl?: string;
   isAdapted?: boolean;
   adaptedScenarioUrl?: string;
-  compactDescription?: boolean;
-  removeCanon?: boolean;
-}
-
-export interface EpisodeLogMeta {
-  showNextEpisode?: boolean;
-  showPreviousEpisode?: boolean;
+  isDeleted?: boolean;
+  isCompactDescription?: boolean;
 }
 
 export interface EpisodeLogSection {
