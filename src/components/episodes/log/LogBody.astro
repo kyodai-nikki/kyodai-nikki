@@ -1,0 +1,82 @@
+---
+interface RenderedSection {
+  section: {
+    key: string;
+    label: string;
+    anchor: string;
+  };
+  Content: any;
+}
+
+interface Props {
+  renderedSections: RenderedSection[];
+}
+
+const { renderedSections } = Astro.props;
+---
+
+<article class="log prose episode-log__body">
+  {renderedSections.map(({ section, Content }) => (
+    <section class="episode-log__content-section" id={section.anchor}>
+      <div class="episode-log__content-head">
+        <h3>{section.label}</h3>
+      </div>
+      <Content />
+    </section>
+  ))}
+</article>
+
+<style>
+  .episode-log__body {
+    max-width: none;
+    display: grid;
+    gap: 40px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #1f1f1f;
+    font-size: 1.02rem;
+    line-height: 1.86;
+  }
+
+  .episode-log__content-section {
+    scroll-margin-top: calc(
+      var(--h-header-top) + var(--h-header-nav) + var(--s-5) + var(--s-4)
+    );
+  }
+
+  .episode-log__content-head {
+    margin-bottom: 14px;
+  }
+
+  .episode-log__content-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    font-size: clamp(1.55rem, 2.5vw, 2rem);
+    font-weight: var(--fw-bold);
+  }
+
+  .episode-log__content-head h3::before {
+    content: "▼";
+    font-size: 0.95em;
+    line-height: 1;
+  }
+
+  .episode-log__content-section :global(p) {
+    margin-bottom: 0.75em;
+    font-family: var(--f-serif);
+  }
+
+  .episode-log__content-section :global(ul) {
+    margin: 0;
+    padding-left: 1.25em;
+    font-family: var(--f-serif);
+  }
+
+  .episode-log__content-section :global(li + li) {
+    margin-top: 0.35em;
+  }
+</style>
