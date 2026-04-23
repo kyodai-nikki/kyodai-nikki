@@ -1,5 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
 import EpisodesNavigator from "../../../components/episodes/list/EpisodesNavigator.astro";
 import {
   allEpisodes,
@@ -7,6 +9,7 @@ import {
   episodeUrlSlug,
   type EpisodeEntry,
 } from "../../../data/episodes";
+import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 export async function getStaticPaths() {
   return allEpisodes().map(({ season, episode }) => ({
@@ -28,6 +31,8 @@ const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
   title={`${episode.title} | ${seasonInfo.label} | Episodes`}
   description={episode.description.split("\n")[0] ?? episode.title}
 >
+  <PageHeading slot="page-heading" title={episodesPageMsg.title} />
+  <EpisodesSeasonTabs slot="page-tabs" activeSeason={seasonNumber} />
   <EpisodesNavigator
     activeSeason={seasonNumber}
     selected={episode}

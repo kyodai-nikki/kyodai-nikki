@@ -25,7 +25,7 @@
 - 各ファイルの先頭に、フィールドの意味をコメントで書いています。迷ったらそこを読めば OK。
 - 配列に 1 要素足せば、ページ側も 1 枚 / 1 行増えます。
 - 画像や動画のファイル本体は `public/` 以下（例: `public/images/gallery/`）に置き、このファイルではパスだけを指定します。
-- 長文のエピソードログは別枠（`src/content/sessions/<campaign>/<slug>.md`）です。こちらは Markdown で書きます。
+- 長文ログ系の Markdown は `src/content/episodes/` 配下で管理します。
 
 ## よくあるパターン
 

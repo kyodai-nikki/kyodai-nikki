@@ -7,35 +7,35 @@ import { moviesPageMsg } from "../../msg/pages/movies";
 const embedUrl = (v: Video) => `https://www.youtube-nocookie.com/embed/${v.id}`;
 const orderedVideos = [...videos].reverse();
 ---
-<BaseLayout title={moviesPageMsg.title} description={moviesPageMsg.description}>
-  <section class="movies section">
-    <div class="container">
-      <PageHeading title={moviesPageMsg.title} />
+<BaseLayout
+  title={moviesPageMsg.title}
+  description={moviesPageMsg.description}
+  pageSectionClass="movies"
+>
+  <PageHeading slot="page-heading" title={moviesPageMsg.title} />
 
-      {orderedVideos.length === 0 ? (
-        <p class="movies__empty">
-          {moviesPageMsg.empty}
-        </p>
-      ) : (
-        <div class="movies-grid">
-          {orderedVideos.map((video) => (
-            <article class="movie-card">
-              <div class="movie-card__frame">
-                <iframe
-                  src={embedUrl(video)}
-                  title={video.title}
-                  loading="lazy"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <h2 class="movie-card__title">{video.title}</h2>
-            </article>
-          ))}
-        </div>
-      )}
+  {orderedVideos.length === 0 ? (
+    <p class="movies__empty">
+      {moviesPageMsg.empty}
+    </p>
+  ) : (
+    <div class="movies-grid">
+      {orderedVideos.map((video) => (
+        <article class="movie-card">
+          <div class="movie-card__frame">
+            <iframe
+              src={embedUrl(video)}
+              title={video.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h2 class="movie-card__title">{video.title}</h2>
+        </article>
+      ))}
     </div>
-  </section>
+  )}
 </BaseLayout>
 
 <style>

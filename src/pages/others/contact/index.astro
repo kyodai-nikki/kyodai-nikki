@@ -6,10 +6,9 @@ import { othersPageMsg } from "../../../msg/pages/others";
 ---
 
 <BaseLayout title={`${othersPageMsg.title} | 問い合わせ`} description={othersPageMsg.description}>
-  <section class="others section">
-    <div class="container">
-      <PageHeading title={othersPageMsg.title} />
-      <OthersTabs currentSection="contact" />
+  <PageHeading slot="page-heading" title={othersPageMsg.title} />
+  <OthersTabs slot="page-tabs" currentSection="contact" />
+  <section class="others">
 
       <div class="others-contact">
         <div class="others-contact__card">
@@ -21,7 +20,6 @@ import { othersPageMsg } from "../../../msg/pages/others";
           </p>
         </div>
       </div>
-    </div>
   </section>
 </BaseLayout>
 

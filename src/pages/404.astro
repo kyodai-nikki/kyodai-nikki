@@ -5,12 +5,12 @@ import { notFoundPageMsg } from "../msg/pages/notFound";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
-<BaseLayout title={notFoundPageMsg.title}>
-  <section class="section container container--narrow" style="text-align: center;">
-    <PageHeading title={notFoundPageMsg.heading} eyebrow="404" />
+<BaseLayout title={notFoundPageMsg.title} pageContainerClass="container--narrow">
+  <PageHeading slot="page-heading" title={notFoundPageMsg.heading} eyebrow="404" />
+  <div style="text-align: center;">
     <p style="color: var(--c-fg-muted);">
       {notFoundPageMsg.description}
     </p>
     <p><a href={`${base}/`}>{notFoundPageMsg.backToTop}</a></p>
-  </section>
+  </div>
 </BaseLayout>

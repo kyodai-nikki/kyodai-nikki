@@ -154,7 +154,9 @@ const badges = [
           <LogBody renderedSections={renderedSections} />
 
           <LogFooter
+            showPreviousButton={showPreviousButton}
             previousHref={previousHref}
+            showNextButton={showNextButton}
             nextHref={nextHref}
             shareUrl={Astro.url.href}
             shareTitle={`${episode.title} ${episodesPageMsg.logSuffix}`}
@@ -178,6 +180,7 @@ const badges = [
 
   .episode-log__page-title {
     margin: 0;
+    font-family: var(--font-family-log-heading);
     font-size: clamp(2.75rem, 4vw, 3.5rem);
     font-weight: var(--fw-regular);
     letter-spacing: 0.01em;

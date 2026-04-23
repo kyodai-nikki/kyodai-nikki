@@ -8,15 +8,13 @@ import { introductionPageMsg } from "../../msg/pages/introduction";
   title={introductionPageMsg.title}
   description={introductionPageMsg.description}
 >
-  <section class="section container">
-    <PageHeading title={introductionPageMsg.title} />
+  <PageHeading slot="page-heading" title={introductionPageMsg.title} />
 
-    <div class="intro-box">
-      {paragraphs.map((p) => (
-        <p class="intro-para">{p}</p>
-      ))}
-    </div>
-  </section>
+  <div class="intro-box">
+    {paragraphs.map((p) => (
+      <p class="intro-para">{p}</p>
+    ))}
+  </div>
 </BaseLayout>
 
 <style>
@@ -31,8 +29,8 @@ import { introductionPageMsg } from "../../msg/pages/introduction";
     color: var(--c-fg-body);
     line-height: var(--lh-loose);
     font-size: var(--fs-base);
-    animation: intro-slide-in 900ms var(--ease-out) both;
-    animation-delay: 120ms;
+    animation: intro-slide-in 1700ms var(--ease-out) both;
+    animation-delay: 160ms;
     will-change: opacity, transform;
   }
 
@@ -47,7 +45,7 @@ import { introductionPageMsg } from "../../msg/pages/introduction";
   @keyframes intro-slide-in {
     from {
       opacity: 0;
-      transform: translateX(-48px);
+      transform: translateX(-20px);
     }
     to {
       opacity: 1;

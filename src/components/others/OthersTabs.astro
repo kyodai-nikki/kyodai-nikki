@@ -25,7 +25,7 @@ const withBase = (path: string) => `${base}${path}`;
     justify-content: center;
     flex-wrap: wrap;
     gap: clamp(28px, 4vw, 56px);
-    margin: 20px 0 38px;
+    margin: 20px 0 0;
     padding-bottom: 8px;
   }
 
@@ -33,7 +33,7 @@ const withBase = (path: string) => `${base}${path}`;
     position: relative;
     padding: 6px 0;
     color: var(--c-fg);
-    font-family: var(--f-serif);
+    font-family: var(--font-family-navigation);
     font-size: clamp(1.25rem, 2vw, 1.5rem);
     text-decoration: none;
     transition: color var(--dur-fast) var(--ease-out);
@@ -68,7 +68,6 @@ const withBase = (path: string) => `${base}${path}`;
   @media (max-width: 640px) {
     .others-tabs {
       gap: 20px 28px;
-      margin-bottom: 28px;
     }
 
     .others-tabs a {

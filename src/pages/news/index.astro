@@ -21,37 +21,35 @@ const toHref = (item: NewsItem) =>
 const formatDate = (d: string) => d.replace(/-/g, ".");
 ---
 <BaseLayout title={newsPageMsg.title} description={newsPageMsg.description}>
-  <section class="section container">
-    <PageHeading title={newsPageMsg.title} />
+  <PageHeading slot="page-heading" title={newsPageMsg.title} />
 
-    {sorted.length === 0 ? (
-      <p style="color: var(--c-fg-muted); text-align: center;">{newsPageMsg.empty}</p>
-    ) : (
-      <ul class="news-list">
-        {sorted.map((item) => {
-          const external = isExternal(item);
-          return (
-            <li class="news-item">
-              <a
-                class="news-link"
-                href={toHref(item)}
-                target={external ? "_blank" : undefined}
-                rel={external ? "noopener" : undefined}
-              >
-                <time class="news-date" datetime={item.date}>
-                  {formatDate(item.date)}
-                </time>
-                <span class="news-sep" aria-hidden="true">|</span>
-                <span class="news-text">
-                  {item.text}{external ? newsPageMsg.externalSuffix : ""}
-                </span>
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    )}
-  </section>
+  {sorted.length === 0 ? (
+    <p style="color: var(--c-fg-muted); text-align: center;">{newsPageMsg.empty}</p>
+  ) : (
+    <ul class="news-list">
+      {sorted.map((item) => {
+        const external = isExternal(item);
+        return (
+          <li class="news-item">
+            <a
+              class="news-link"
+              href={toHref(item)}
+              target={external ? "_blank" : undefined}
+              rel={external ? "noopener" : undefined}
+            >
+              <time class="news-date" datetime={item.date}>
+                {formatDate(item.date)}
+              </time>
+              <span class="news-sep" aria-hidden="true">|</span>
+              <span class="news-text">
+                {item.text}{external ? newsPageMsg.externalSuffix : ""}
+              </span>
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  )}
 </BaseLayout>
 
 <style>
@@ -103,13 +101,14 @@ const formatDate = (d: string) => d.replace(/-/g, ".");
     font-family: var(--f-serif);
     font-size: var(--fs-base);
     color: var(--c-fg);
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 4px;
-    text-decoration-color: var(--c-fg);
+    text-decoration: none;
   }
   .news-link:hover .news-text {
-    text-decoration-thickness: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: currentColor;
   }
 
   @media (max-width: 640px) {

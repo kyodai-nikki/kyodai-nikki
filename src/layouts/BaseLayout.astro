@@ -18,6 +18,8 @@ interface Props {
   description?: string;
   ogImage?: string;
   bodyClass?: string;
+  pageSectionClass?: string;
+  pageContainerClass?: string;
 }
 
 const {
@@ -25,11 +27,19 @@ const {
   description = commonMsg.site.defaultDescription,
   ogImage = "/images/logo.svg",
   bodyClass = "",
+  pageSectionClass = "",
+  pageContainerClass = "",
 } = Astro.props;
 
 const siteName = site.name;
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
+const hasPageTabs = Astro.slots.has("page-tabs");
+const hasPageShell =
+  Astro.slots.has("page-heading")
+  || hasPageTabs
+  || pageSectionClass.length > 0
+  || pageContainerClass.length > 0;
 ---
 <!doctype html>
 <html lang="ja">
@@ -54,7 +64,21 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
     <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
     <Header />
     <main id="main" data-page-shell>
-      <slot />
+      {hasPageShell ? (
+        <section class:list={["section", pageSectionClass]}>
+          <div class:list={["container", pageContainerClass]}>
+            <slot name="page-heading" />
+            {hasPageTabs && (
+              <div class="page-shell__tabs">
+                <slot name="page-tabs" />
+              </div>
+            )}
+            <slot />
+          </div>
+        </section>
+      ) : (
+        <slot />
+      )}
     </main>
     <Footer shareUrl={canonical.href} shareTitle={fullTitle} />
     <BackToTop />

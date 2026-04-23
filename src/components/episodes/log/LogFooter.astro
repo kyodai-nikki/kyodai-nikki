@@ -3,25 +3,32 @@ import ShareButtons from "../../common/btn/ShareButtons.astro";
 import { episodesPageMsg } from "../../../msg/pages/episodes";
 
 interface Props {
+  showPreviousButton: boolean;
   previousHref?: string;
+  showNextButton: boolean;
   nextHref?: string;
   shareUrl: string;
   shareTitle: string;
 }
 
-const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
+const {
+  showPreviousButton,
+  previousHref,
+  showNextButton,
+  nextHref,
+  shareUrl,
+  shareTitle,
+} = Astro.props;
 ---
 
 <footer class="episode-log__footer">
   <div class="episode-log__footer-nav">
-    {previousHref ? (
+    {showPreviousButton && previousHref ? (
       <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
         ‹
       </a>
     ) : (
-      <span class="episode-log__arrow episode-log__arrow--disabled" aria-hidden="true">
-        ‹
-      </span>
+      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
     )}
 
     <ShareButtons
@@ -30,14 +37,12 @@ const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
       className="episode-log__share-buttons"
     />
 
-    {nextHref ? (
+    {showNextButton && nextHref ? (
       <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
         ›
       </a>
     ) : (
-      <span class="episode-log__arrow episode-log__arrow--disabled" aria-hidden="true">
-        ›
-      </span>
+      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
     )}
   </div>
 </footer>
@@ -64,7 +69,7 @@ const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
     width: 40px;
     height: 40px;
     color: #1f1f1f;
-    font-family: var(--f-serif);
+    font-family: var(--font-family-log-heading);
     font-size: 2.5rem;
     line-height: 1;
   }
@@ -73,8 +78,8 @@ const { previousHref, nextHref, shareUrl, shareTitle } = Astro.props;
     color: #000000;
   }
 
-  .episode-log__arrow--disabled {
-    color: #b7b7b7;
+  .episode-log__arrow--spacer {
+    visibility: hidden;
   }
 
   .episode-log__footer :global(.episode-log__share-buttons) {

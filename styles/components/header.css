@@ -19,7 +19,7 @@
   display: inline-flex;
   align-items: baseline;
   gap: var(--s-3);
-  font-family: var(--f-serif);
+  font-family: var(--font-family-navigation);
   font-size: var(--fs-xl);
   font-weight: var(--fw-bold);
   color: var(--c-fg);
@@ -87,7 +87,7 @@
   display: inline-block;
   color: #5f5f5f;
   text-decoration: none;
-  font-family: var(--f-serif);
+  font-family: var(--font-family-navigation);
   font-size: 20px;
   font-weight: var(--fw-regular);
   letter-spacing: 0;

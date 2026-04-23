@@ -9,58 +9,58 @@ import { goodsPageMsg } from "../../msg/pages/goods";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const withBase = (path: string) => `${base}${path}`;
 ---
-<BaseLayout title={goodsPageMsg.title} description={goodsPageMsg.description}>
-  <section class="goods section">
-    <div class="container">
-      <PageHeading title={goodsPageMsg.title} />
+<BaseLayout
+  title={goodsPageMsg.title}
+  description={goodsPageMsg.description}
+  pageSectionClass="goods"
+>
+  <PageHeading slot="page-heading" title={goodsPageMsg.title} />
 
-      {goods.length === 0 ? (
-        <p class="goods__empty">
-          {goodsPageMsg.empty}
-        </p>
-      ) : (
-        <>
-          <div class="goods-grid" aria-label={goodsPageMsg.listAriaLabel}>
-            {goods.map((item, index) => {
-              const modalId = `goods-modal-${index}`;
-              return (
-                <button
-                  class="goods-card"
-                  type="button"
-                  aria-label={commonMsg.actions.open(item.title)}
-                  data-modal-open={modalId}
-                >
-                  <div class="goods-card__image-wrap">
-                    <img
-                      class="goods-card__image"
-                      src={withBase(item.image)}
-                      alt={item.title}
-                      loading="lazy"
-                      width="640"
-                      height="480"
-                    />
-                  </div>
-                  <p class="goods-card__title">{item.title}</p>
-                </button>
-              );
-            })}
-          </div>
+  {goods.length === 0 ? (
+    <p class="goods__empty">
+      {goodsPageMsg.empty}
+    </p>
+  ) : (
+    <>
+      <div class="goods-grid" aria-label={goodsPageMsg.listAriaLabel}>
+        {goods.map((item, index) => {
+          const modalId = `goods-modal-${index}`;
+          return (
+            <button
+              class="goods-card"
+              type="button"
+              aria-label={commonMsg.actions.open(item.title)}
+              data-modal-open={modalId}
+            >
+              <div class="goods-card__image-wrap">
+                <img
+                  class="goods-card__image"
+                  src={withBase(item.image)}
+                  alt={item.title}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+              </div>
+              <p class="goods-card__title">{item.title}</p>
+            </button>
+          );
+        })}
+      </div>
 
-          {goods.map((item, index) => (
-            <GoodsModal
-              id={`goods-modal-${index}`}
-              title={item.title}
-              image={withBase(item.detailImage ?? item.image)}
-              description={item.description}
-              saleUrl={item.url}
-              saleLabel={item.saleLabel}
-              buttonLabel={item.buttonLabel}
-            />
-          ))}
-        </>
-      )}
-    </div>
-  </section>
+      {goods.map((item, index) => (
+        <GoodsModal
+          id={`goods-modal-${index}`}
+          title={item.title}
+          image={withBase(item.detailImage ?? item.image)}
+          description={item.description}
+          saleUrl={item.url}
+          saleLabel={item.saleLabel}
+          buttonLabel={item.buttonLabel}
+        />
+      ))}
+    </>
+  )}
 </BaseLayout>
 
 <style>

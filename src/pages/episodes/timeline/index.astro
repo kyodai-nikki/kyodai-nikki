@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
+import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
 import {
   seasons,
   episodesTimeline,
@@ -25,15 +26,8 @@ const grouped = seasons.map((s) => ({
 }));
 ---
 <BaseLayout title={episodesPageMsg.timelinePageTitle} description={episodesPageMsg.timelineDescription}>
-  <section class="section container">
-    <PageHeading title={episodesPageMsg.title} />
-
-    <nav class="ep-seasons" aria-label={episodesPageMsg.timelineSeasonNav}>
-      {seasons.map((s) => (
-        <a href={`${base}/episodes/${s.slug}`}>{s.label}</a>
-      ))}
-      <a href={`${base}/episodes/timeline`} aria-current="page">{episodesPageMsg.seasonTimelineLabel}</a>
-    </nav>
+  <PageHeading slot="page-heading" title={episodesPageMsg.title} />
+  <EpisodesSeasonTabs slot="page-tabs" current="timeline" />
 
     <div class="tl-layout">
       <aside class="tl-side" aria-label={episodesPageMsg.timelineJumpNav}>
@@ -81,52 +75,9 @@ const grouped = seasons.map((s) => ({
         ))}
       </div>
     </div>
-  </section>
 </BaseLayout>
 
 <style>
-  .ep-seasons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
-    margin-bottom: 30px;
-    padding-bottom: var(--s-3);
-  }
-  .ep-seasons a {
-    font-family: var(--f-serif);
-    font-size: var(--fs-base);
-    color: var(--c-fg);
-    text-decoration: none;
-    letter-spacing: var(--ls-wide);
-    padding: var(--s-2) 0;
-    position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-  .ep-seasons a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: -3px;
-    height: 2px;
-    background: var(--c-site-cyan);
-    transition: left var(--dur-base) var(--ease-out),
-                right var(--dur-base) var(--ease-out);
-    pointer-events: none;
-  }
-  .ep-seasons a:hover::after,
-  .ep-seasons a:focus-visible::after {
-    left: 0;
-    right: 0;
-  }
-  .ep-seasons a[aria-current="page"]::after {
-    left: 0;
-    right: 0;
-    background: var(--c-site-pink);
-    transition: none;
-  }
-
   .tl-layout {
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr);

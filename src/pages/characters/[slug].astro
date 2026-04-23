@@ -18,41 +18,39 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   title={`${character.name} | Characters`}
   description={charactersPageMsg.detailDescription(character.name, character.furigana)}
 >
-  <section class="section container">
-    <PageHeading title={charactersPageMsg.title} />
+  <PageHeading slot="page-heading" title={charactersPageMsg.title} />
+  <nav slot="page-tabs" class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
+    {characters.map((c) => (
+      <a
+        href={`${base}/characters/${c.slug}/`}
+        aria-current={c.slug === character.slug ? "page" : undefined}
+      >
+        {c.name}
+      </a>
+    ))}
+  </nav>
 
-    <nav class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
-      {characters.map((c) => (
-        <a
-          href={`${base}/characters/${c.slug}/`}
-          aria-current={c.slug === character.slug ? "page" : undefined}
-        >
-          {c.name}
-        </a>
-      ))}
-    </nav>
+  <article class="char-detail">
+    <div class="char-detail__inner">
+      <div class="char-portrait">
+        <img
+          src={base + character.standing}
+          alt={charactersPageMsg.standingAlt(character.name)}
+          loading="eager"
+        />
+      </div>
 
-    <article class="char-detail">
-      <div class="char-detail__inner">
-        <div class="char-portrait">
-          <img
-            src={base + character.standing}
-            alt={charactersPageMsg.standingAlt(character.name)}
-            loading="eager"
-          />
+      {character.quote && (
+        <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
+          {character.quote}
         </div>
+      )}
 
-        {character.quote && (
-          <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
-            {character.quote}
-          </div>
-        )}
-
-        <div class="char-info">
-          <header class="char-info__header">
-            <h2 class="char-info__name">{character.name}</h2>
-            <span class="char-info__furigana">{character.furigana}</span>
-          </header>
+      <div class="char-info">
+        <header class="char-info__header">
+          <h2 class="char-info__name">{character.name}</h2>
+          <span class="char-info__furigana">{character.furigana}</span>
+        </header>
 
           <p class="char-info__description">
             {character.description}
@@ -73,10 +71,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
               </a>
             </p>
           )}
-        </div>
       </div>
-    </article>
-  </section>
+    </div>
+  </article>
 </BaseLayout>
 
 <style>
@@ -85,11 +82,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
     justify-content: center;
     flex-wrap: wrap;
     gap: clamp(var(--s-5), 5vw, var(--s-8));
-    margin-bottom: 30px;
     padding-bottom: var(--s-3);
   }
   .chars-tabs a {
-    font-family: var(--f-serif);
+    font-family: var(--font-family-navigation);
     font-size: var(--fs-base);
     color: var(--c-fg);
     text-decoration: none;

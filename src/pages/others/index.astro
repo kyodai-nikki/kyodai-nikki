@@ -9,14 +9,18 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const target = `${base}${defaultOthersPath}`;
 ---
 
-<BaseLayout title={othersPageMsg.title} description={othersPageMsg.description}>
-  <section class="section container container--narrow others-redirect">
-    <PageHeading title={othersPageMsg.title} />
+<BaseLayout
+  title={othersPageMsg.title}
+  description={othersPageMsg.description}
+  pageContainerClass="container--narrow others-redirect"
+>
+  <PageHeading slot="page-heading" title={othersPageMsg.title} />
+  <div>
     <p>{othersPageMsg.redirecting}</p>
     <p>
       <a href={target}>{othersPageMsg.redirectLink}</a>
     </p>
-  </section>
+  </div>
 
   <script is:inline define:vars={{ target }}>
     window.location.replace(target);

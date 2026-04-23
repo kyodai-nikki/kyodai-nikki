@@ -1,14 +1,12 @@
 ---
 import {
-  seasons,
   episodesBySeason,
-  firstEpisodeOfSeason,
+  seasons,
   episodeUrlSlug,
   type EpisodeEntry,
 } from "../../../data/episodes";
 import { getCollection } from "astro:content";
 import { hasAnyEpisodeLog } from "../../../data/episodeLogs";
-import PageHeading from "../../common/PageHeading.astro";
 import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/pages/episodes";
 
@@ -45,13 +43,6 @@ const detailImagePath = (e: EpisodeEntry): string =>
 const epHref = (e: EpisodeEntry) =>
   `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}`;
 
-const seasonHref = (seasonNumber: 1 | 2 | 3 | 4, seasonSlug: string) => {
-  const first = firstEpisodeOfSeason(seasonNumber);
-  return first
-    ? `${base}/episodes/${seasonSlug}/${episodeUrlSlug(first)}`
-    : `${base}/episodes/${seasonSlug}`;
-};
-
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
   if (e.isAlternate) cls.push("ep-item--alt");
@@ -71,127 +62,69 @@ const logHref = current
   : undefined;
 ---
 
-<section class="section container">
-  <PageHeading title={episodesPageMsg.title} />
-
-  <nav class="ep-seasons" aria-label="Season navigation">
-    {seasons.map((s) => (
-      <a
-        href={seasonHref(s.number, s.slug)}
-        aria-current={s.number === activeSeason ? "page" : undefined}
-      >
-        {s.label}
-      </a>
-    ))}
-    <a href={`${base}/episodes/timeline`}>{episodesPageMsg.seasonTimelineLabel}</a>
-  </nav>
-
-  <div class="ep-layout">
-    <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
-      {list.length === 0 ? (
-        <li class="ep-empty">{episodesPageMsg.noEpisodesYet}</li>
-      ) : (
-        list.map((e) => (
-          <li>
-            <a
-              class={itemClass(e)}
-              href={epHref(e)}
-              style={`--ep-bg: url('${summaryImagePath(e)}'), url('${dummySummary}');`}
-            >
-              <span class="ep-item__no">{numberLabel(e)}</span>
-              <span class="ep-item__title">{e.title}</span>
-            </a>
-          </li>
-        ))
-      )}
-    </ol>
-
-    {current ? (
-      <article class={detailClass} aria-live="polite">
-        <div class="ep-detail__image-wrap">
-          <img
-            class="ep-detail__image"
-            src={detailImagePath(current)}
-            alt={episodesPageMsg.detailImageAlt(current.title)}
-            onerror={`this.src='${dummyDetail}'`}
-          />
-        </div>
-
-        <h2 class="ep-detail__title">
-          <span>{current.title}</span>
-          <span class="ep-detail__subtitle">
-            {current.isAlternate
-              ? episodesPageMsg.alternateTag
-              : `Episode${String(current.seasonEpisodeNumber ?? "").padStart(2, "0")}`}
-          </span>
-        </h2>
-
-        <p class="ep-detail__body">{current.description}</p>
-
-        <div class="ep-detail__foot">
-          <div>
-            {current.badge && <span class="ep-detail__badge">{current.badge}</span>}
-            {current.isR18 && !current.isR18G && <span class="ep-detail__badge">R-18</span>}
-            {current.isR18G && <span class="ep-detail__badge">R-18G</span>}
-          </div>
-          {logHref && (
-            <a class="ep-detail__read" href={logHref}>
-              {commonMsg.actions.read}
-            </a>
-          )}
-        </div>
-      </article>
+<div class="ep-layout">
+  <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
+    {list.length === 0 ? (
+      <li class="ep-empty">{episodesPageMsg.noEpisodesYet}</li>
     ) : (
-      <article class="ep-detail ep-detail--empty">
-        <p>{episodesPageMsg.episodeSelectionEmpty}</p>
-      </article>
+      list.map((e) => (
+        <li>
+          <a
+            class={itemClass(e)}
+            href={epHref(e)}
+            style={`--ep-bg: url('${summaryImagePath(e)}'), url('${dummySummary}');`}
+          >
+            <span class="ep-item__no">{numberLabel(e)}</span>
+            <span class="ep-item__title">{e.title}</span>
+          </a>
+        </li>
+      ))
     )}
-  </div>
-</section>
+  </ol>
+
+  {current ? (
+    <article class={detailClass} aria-live="polite">
+      <div class="ep-detail__image-wrap">
+        <img
+          class="ep-detail__image"
+          src={detailImagePath(current)}
+          alt={episodesPageMsg.detailImageAlt(current.title)}
+          onerror={`this.src='${dummyDetail}'`}
+        />
+      </div>
+
+      <h2 class="ep-detail__title">
+        <span>{current.title}</span>
+        <span class="ep-detail__subtitle">
+          {current.isAlternate
+            ? episodesPageMsg.alternateTag
+            : `Episode${String(current.seasonEpisodeNumber ?? "").padStart(2, "0")}`}
+        </span>
+      </h2>
+
+      <p class="ep-detail__body">{current.description}</p>
+
+      <div class="ep-detail__foot">
+        <div>
+          {current.badge && <span class="ep-detail__badge">{current.badge}</span>}
+          {current.isR18 && !current.isR18G && <span class="ep-detail__badge">R-18</span>}
+          {current.isR18G && <span class="ep-detail__badge">R-18G</span>}
+        </div>
+        {logHref && (
+          <a class="ep-detail__read" href={logHref}>
+            {commonMsg.actions.read}
+          </a>
+        )}
+      </div>
+    </article>
+  ) : (
+    <article class="ep-detail ep-detail--empty">
+      <p>{episodesPageMsg.episodeSelectionEmpty}</p>
+    </article>
+  )}
+</div>
 
 <style>
-  .ep-seasons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
-    margin-bottom: 30px;
-    padding-bottom: var(--s-3);
-  }
-  .ep-seasons a {
-    font-family: var(--f-serif);
-    font-size: var(--fs-base);
-    color: var(--c-fg);
-    text-decoration: none;
-    letter-spacing: var(--ls-wide);
-    padding: var(--s-2) 0;
-    position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-  .ep-seasons a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: -3px;
-    height: 2px;
-    background: var(--c-site-cyan);
-    transition: left var(--dur-base) var(--ease-out),
-      right var(--dur-base) var(--ease-out);
-    pointer-events: none;
-  }
-  .ep-seasons a:hover::after,
-  .ep-seasons a:focus-visible::after {
-    left: 0;
-    right: 0;
-  }
-  .ep-seasons a[aria-current="page"]::after {
-    left: 0;
-    right: 0;
-    background: var(--c-site-pink);
-    transition: none;
-  }
-
   .ep-layout {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);

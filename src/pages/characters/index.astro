@@ -8,26 +8,24 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const dummyPortrait = `${base}/images/characters/dummy-portrait.svg`;
 ---
 <BaseLayout title={charactersPageMsg.title} description={charactersPageMsg.description}>
-  <section class="section container">
-    <PageHeading title={charactersPageMsg.title} />
+  <PageHeading slot="page-heading" title={charactersPageMsg.title} />
 
-    <ul class="chars-grid">
-      {characters.map((c, i) => (
-        <li class="chars-card" style={`--i: ${i};`}>
-          <a href={`${base}/characters/${c.slug}/`} aria-label={c.name}>
-            <div class="chars-card__img-wrap">
-              <img
-                src={dummyPortrait}
-                alt={c.name}
-                loading="lazy"
-                class="chars-card__img"
-              />
-            </div>
-          </a>
-        </li>
-      ))}
-    </ul>
-  </section>
+  <ul class="chars-grid">
+    {characters.map((c, i) => (
+      <li class="chars-card" style={`--i: ${i};`}>
+        <a href={`${base}/characters/${c.slug}/`} aria-label={c.name}>
+          <div class="chars-card__img-wrap">
+            <img
+              src={dummyPortrait}
+              alt={c.name}
+              loading="lazy"
+              class="chars-card__img"
+            />
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
 </BaseLayout>
 
 <style>
