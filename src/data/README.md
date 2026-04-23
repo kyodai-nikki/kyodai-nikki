@@ -41,7 +41,7 @@ href: "/episodes/main/36-xxx/"
 ---
 ```
 
-ファイル名は `YYYYMMDD-slug.md` 形式にしておくと管理しやすいです。
+ファイル名は `YYYYMMDD-slug.md` 形式にしておくと管理しやすいです。episode 系なら `YYYYMMDD-episode36.md` のような短い名前で OK です。
 
 ### Introduction の文章を差し替えたい
 

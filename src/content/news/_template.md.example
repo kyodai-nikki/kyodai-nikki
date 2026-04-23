@@ -1,10 +1,10 @@
 ---
-# このファイルをコピーして、`YYYYMMDD-slug.md` の形式で保存してください。
-# 例: `20260501-episode36-xxx.md`
+# このファイルをコピーして、`YYYYMMDD.md` の形式で保存してください。
+# 例：20260501-episode36.md
 
 date: "2026-05-01"
 text: "第36話を追加しました！"
-href: "/episodes/season4/5/"
+href: "/episodes/season4/5"
 
 # 外部リンクを必ず新規タブで開きたい場合だけ使います。
 # 未指定なら href から自動判定されます。
