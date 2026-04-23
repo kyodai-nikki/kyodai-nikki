@@ -1,9 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import {
-  sortByOrder,
-  sortByOverallNumber,
-  sortLogEntriesByOverallNumber,
-} from "../common";
+import { sortByOrder, sortByOverallNumber } from "../common";
 import type { EpisodeScenarioInfo } from "./logs";
 
 export interface EpisodeEntry {
@@ -41,7 +37,13 @@ type EpisodeLogEntry = CollectionEntry<"episodeLogs">;
 type EpisodeSeasonEntry = CollectionEntry<"episodeSeasons">;
 
 const IMG_BASE = "/images/episodes";
-const allowedLogSections = new Set(["main", "prologue", "epilogue", "background", "omake"]);
+const allowedLogSections = new Set([
+  "main",
+  "prologue",
+  "epilogue",
+  "background",
+  "omake",
+]);
 
 // episodeLogs の entry id からセクション名を取り出す。
 const sectionKeyFromId = (id: string) => id.split("/").at(-1) ?? "";
@@ -49,20 +51,27 @@ const sectionKeyFromId = (id: string) => id.split("/").at(-1) ?? "";
 // episodeLogs の entry id からエピソード slug を取り出す。
 const episodeSlugFromId = (id: string) => id.split("/").at(-2) ?? "";
 
+// episodeLogs の entry id からシーズン slug を取り出す。
+const seasonSlugFromId = (id: string) => id.split("/").at(-3) ?? "";
+
+// episodeLogs の entry id からエピソード番号（数値）を取り出す。
+const episodeNumberFromId = (id: string) =>
+  parseInt(id.split("/").at(-2) ?? "0", 10);
+
 let cachedEpisodes: Promise<Season[]> | undefined;
 
 // main ログにエピソード一覧用の必須メタ情報があるか検証する。
 const assertEpisodeMain = (entry: EpisodeLogEntry) => {
   const missing = [
     entry.data.season ? undefined : "season",
-    entry.data.overallNumber === undefined ? "overallNumber" : undefined,
-    entry.data.seasonEpisodeNumber === undefined ? "seasonEpisodeNumber" : undefined,
     entry.data.scenario?.title ? undefined : "scenario.title",
     entry.data.scenario?.description ? undefined : "scenario.description",
   ].filter(Boolean);
 
   if (missing.length > 0) {
-    throw new Error(`Missing episode metadata in ${entry.id}: ${missing.join(", ")}`);
+    throw new Error(
+      `Missing episode metadata in ${entry.id}: ${missing.join(", ")}`,
+    );
   }
 };
 
@@ -71,14 +80,15 @@ const validateLogEntryNames = (entries: EpisodeLogEntry[]) => {
   for (const entry of entries) {
     const sectionKey = sectionKeyFromId(entry.id);
     if (!allowedLogSections.has(sectionKey)) {
-      throw new Error(`Unknown episode log section "${sectionKey}" in ${entry.id}`);
+      throw new Error(
+        `Unknown episode log section "${sectionKey}" in ${entry.id}`,
+      );
     }
   }
 };
 
 // シーズン定義を表示順に並び替える。
-const sortSeasons = (entries: EpisodeSeasonEntry[]) =>
-  sortByOrder(entries);
+const sortSeasons = (entries: EpisodeSeasonEntry[]) => sortByOrder(entries);
 
 // content collection からシーズン別エピソード一覧を組み立ててキャッシュする。
 const loadEpisodes = async (): Promise<Season[]> => {
@@ -89,25 +99,41 @@ const loadEpisodes = async (): Promise<Season[]> => {
     const logEntries = await getCollection("episodeLogs");
     validateLogEntryNames(logEntries);
 
-    const mainEntries = sortLogEntriesByOverallNumber(
-      logEntries.filter((entry) => sectionKeyFromId(entry.id) === "main"),
+    const mainEntries = logEntries.filter(
+      (entry) => sectionKeyFromId(entry.id) === "main",
     );
 
     for (const entry of mainEntries) {
       assertEpisodeMain(entry);
     }
 
+    // シーズン slug → 表示順のマップを作成
+    const seasonOrderMap = new Map(
+      seasonEntries.map((s, i) => [s.data.slug, i]),
+    );
+
+    // シーズン順・エピソード番号順にソートして overallNumber を連番で割り当て
+    const sortedMainEntries = mainEntries.slice().sort((a, b) => {
+      const aOrder = seasonOrderMap.get(seasonSlugFromId(a.id)) ?? 0;
+      const bOrder = seasonOrderMap.get(seasonSlugFromId(b.id)) ?? 0;
+      if (aOrder !== bOrder) return aOrder - bOrder;
+      return episodeNumberFromId(a.id) - episodeNumberFromId(b.id);
+    });
+    const overallNumberMap = new Map(
+      sortedMainEntries.map((entry, i) => [entry.id, i]),
+    );
+
     let seasonAllCounter = 0;
     return seasonEntries.map<Season>((seasonEntry) => {
-      const episodes = mainEntries
+      const episodes = sortedMainEntries
         .filter((entry) => entry.data.season === seasonEntry.data.number)
         .map<EpisodeEntry>((entry) => {
           const data = entry.data;
           const session = data.session;
           const sessionType = session?.type;
           const episode: EpisodeEntry = {
-            overallNumber: data.overallNumber!,
-            seasonEpisodeNumber: data.seasonEpisodeNumber,
+            overallNumber: overallNumberMap.get(entry.id)!,
+            seasonEpisodeNumber: episodeNumberFromId(entry.id),
             title: data.scenario?.title!,
             description: data.scenario?.description!,
             date: session?.storyDate,
@@ -162,11 +188,17 @@ export const episodeDetailImage = (
 
 // シーズン一覧を取得する。
 export const seasons = async (): Promise<readonly SeasonInfo[]> =>
-  (await loadEpisodes()).map(({ number, label, slug }) => ({ number, label, slug }));
+  (await loadEpisodes()).map(({ number, label, slug }) => ({
+    number,
+    label,
+    slug,
+  }));
 
 // 指定シーズンのエピソード一覧を取得する。
 export const episodesBySeason = async (n: number): Promise<EpisodeEntry[]> =>
-  sortByOverallNumber((await loadEpisodes()).find((s) => s.number === n)?.episodes ?? []);
+  sortByOverallNumber(
+    (await loadEpisodes()).find((s) => s.number === n)?.episodes ?? [],
+  );
 
 // シーズン番号と slug からエピソードを探す。
 export const findEpisode = async (
@@ -176,8 +208,9 @@ export const findEpisode = async (
   (await episodesBySeason(season)).find((e) => episodeUrlSlug(e) === slug);
 
 // 指定シーズンの先頭エピソードを取得する。
-export const firstEpisodeOfSeason = async (n: number): Promise<EpisodeEntry | undefined> =>
-  (await episodesBySeason(n))[0];
+export const firstEpisodeOfSeason = async (
+  n: number,
+): Promise<EpisodeEntry | undefined> => (await episodesBySeason(n))[0];
 
 // 全シーズンのエピソードを時系列表示用の形で取得する。
 export const episodesTimeline = async (): Promise<TimelineEntry[]> =>
@@ -193,12 +226,18 @@ export const episodesTimeline = async (): Promise<TimelineEntry[]> =>
   );
 
 // slug からシーズン情報を探す。
-export const seasonFromSlug = async (slug: string): Promise<SeasonInfo | undefined> =>
+export const seasonFromSlug = async (
+  slug: string,
+): Promise<SeasonInfo | undefined> =>
   (await seasons()).find((s) => s.slug === slug);
 
 // 全エピソードを season と episode の組で取得する。
-export const allEpisodes = async (): Promise<{ season: Season; episode: EpisodeEntry }[]> =>
-  (await loadEpisodes()).flatMap((s) => s.episodes.map((e) => ({ season: s, episode: e })));
+export const allEpisodes = async (): Promise<
+  { season: Season; episode: EpisodeEntry }[]
+> =>
+  (await loadEpisodes()).flatMap((s) =>
+    s.episodes.map((e) => ({ season: s, episode: e })),
+  );
 
 // エピソード詳細ページへのパスを返す。
 export const episodeHref = (seasonSlug: string, e: EpisodeEntry): string =>
@@ -240,7 +279,10 @@ export const groupedEpisodesTimeline = async (): Promise<
 
 // シーズン別リダイレクトページの static paths を作る。
 export const episodeSeasonStaticPaths = async (): Promise<
-  { params: { season: string }; props: { seasonNumber: SeasonInfo["number"] } }[]
+  {
+    params: { season: string };
+    props: { seasonNumber: SeasonInfo["number"] };
+  }[]
 > =>
   (await seasons()).map((season) => ({
     params: { season: season.slug },
@@ -252,8 +294,9 @@ export const episodeLogHref = (seasonSlug: string, e: EpisodeEntry): string =>
   `/episodes/${seasonSlug}/${episodeUrlSlug(e)}/log`;
 
 // ログ本文が存在するか判定する。
-export const hasEpisodeLogBody = (entry: EpisodeLogEntry | undefined): boolean =>
-  Boolean(entry?.body?.trim());
+export const hasEpisodeLogBody = (
+  entry: EpisodeLogEntry | undefined,
+): boolean => Boolean(entry?.body?.trim());
 
 // main ログの entry id からエピソード slug を取り出す。
 export const episodeSlugFromMainEntry = (entry: EpisodeLogEntry): string =>

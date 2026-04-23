@@ -1,7 +1,5 @@
 ---
 season: 3
-overallNumber: 37
-seasonEpisodeNumber: 12
 session:
   type:
     isAnother: false

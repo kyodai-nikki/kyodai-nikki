@@ -1,7 +1,5 @@
 ---
 season: 2
-overallNumber: 17
-seasonEpisodeNumber: 5
 session:
   type:
     isAnother: false
@@ -10,16 +8,17 @@ session:
     isDeleted: false
   storyDate: "2023.07.13"
   timelineCast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "真実は無色"
   description: |-
     物の変化とは表面に現れた現象面での変化に過ぎない。万物は絶えざる変化を遂げるが、その実、本質においては何ら変わりの無い。
-    しかし貴方が望むのなら、その形を自身の好きな色に彩っても良いだろう。
-    真実は無色なのだから。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    しかし貴方が望むのなら、その形を自身の好きな色に彩っても良いだろう。真実は無色なのだから。
+
+    「勿論、貴方が全ての選択に満足していると言うなら――別世界線を鑑賞するだけにしましょうか」
+  author: "湯"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3724022"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

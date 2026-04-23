@@ -1,7 +1,5 @@
 ---
 season: 2
-overallNumber: 18
-seasonEpisodeNumber: 6
 session:
   type:
     isAnother: false
@@ -10,18 +8,20 @@ session:
     isDeleted: false
   storyDate: "2023.08.01"
   timelineCast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "貴方の顔も知らない"
   description: |-
     カツ、カツ、カツ。
     背後から軽やかな足音が聞こえる。
-    「なんてね。ただの夢だよ」
+    「なんてね。“ただの夢”だよ」
     「この先を見たくなかった？　あの日をやり直そうと思った？　運命を変えたいと思った？」
     「あははは。ご冗談を」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    「久しぶり。元気にしてたかい」
+  author: "湯"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3724022"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

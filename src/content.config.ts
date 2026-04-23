@@ -41,8 +41,6 @@ const episodeLogs = defineCollection({
     season: z
       .union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)])
       .optional(),
-    overallNumber: z.number().optional(),
-    seasonEpisodeNumber: z.number().int().positive().optional(),
     session: z
       .object({
         type: z

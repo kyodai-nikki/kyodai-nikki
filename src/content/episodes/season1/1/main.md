@@ -1,7 +1,5 @@
 ---
 season: 1
-overallNumber: 0
-seasonEpisodeNumber: 1
 session:
   type:
     isAnother: false
