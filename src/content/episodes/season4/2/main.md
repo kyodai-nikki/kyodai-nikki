@@ -8,15 +8,18 @@ session:
     isDeleted: false
   storyDate: "2026.01.16"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "双離の果実"
   description: |-
     千秋と千冬は、少し硬いベッドで身を起こす。見渡せば、そこは殺風景な見知らぬ部屋だった。
-    どちらも頼りない「一枚のガウン」と「赤色のチョーカー」しか身につけていなかった。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    どちらも頼りない『一枚のガウン』と『赤色のチョーカー』しか身につけていなかった。
+
+    ――だからこそ、気づいたのだ。
+    自分の身体に起きている『異変』に。
+  author: "童懐屋ぐりこ"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=14637649"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

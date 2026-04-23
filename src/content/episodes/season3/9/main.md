@@ -2,22 +2,28 @@
 season: 3
 session:
   type:
-    isAnother: true
+    isAnother: false
     isR18: false
     isR18G: false
-    isDeleted: false
+    isDeleted: true
   storyDate: "2025.12.24"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・建築士3年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "地獄と天国は酷似する"
   description: |-
-    「皿とは言わず地獄まで」
+    『皿とは言わず地獄まで』
     「私に協力してほしい」
     深夜、最愛の顔をした誰かが告げる。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    『天国では生きられない』
+    目を覚ますと、そこは楽園だった。
+    あなただけがいない楽園だ。
+
+    ※本シナリオは、出来事自体を無いものとする。
+  author: "空色の空"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3111015"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

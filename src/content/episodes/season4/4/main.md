@@ -8,16 +8,21 @@ session:
     isDeleted: false
   storyDate: "2026.03.17"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
-  title: "蓄壊"
+  title: "蓄堰"
   description: |-
     感じないと思い込んでも
-    感じたものは　確かに　そこに
+    感じたものは　確かに　　そこに
     蓄積されていくだけだ。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    目が覚めたら見知らぬ施設、手首には重苦しいバングル。
+    「おつきあいいただければ、みのあんぜんは保証しましょう」
+
+    さて、従おうか？逃げ出そうか？
+  author: "彼岸花の部屋"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/5930504"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

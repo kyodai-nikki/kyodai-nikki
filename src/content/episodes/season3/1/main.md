@@ -8,17 +8,23 @@ session:
     isDeleted: false
   storyDate: "2024.08.10"
   timelineCast: "千秋 (20歳・通信大学3年) 千冬 (21歳・建築士2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "Seven-Night, Monochrome Summer"
   description: |-
     蝉時雨と千冬の死体。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    部屋は冷房も効いておらず、暑くて仕方がない。
+    むわりとむせ返るほどの生臭いにおい。死のにおい。
+    蠅が一匹、千冬の虚ろな目にとまっている。
+
+    暑い夏が始まった。
+  author: "海月"
+  distributionName: "booth"
+  distributionUrl: "https://jellyfish-mii.booth.pm/items/4943130"
   adaptedScenarioUrl: ""
 custom:
-  showSmallTitle: false
+  showSmallTitle: true
   isCompactDescription: false
 ---
 

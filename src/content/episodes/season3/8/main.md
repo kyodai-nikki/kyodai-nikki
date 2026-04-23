@@ -2,20 +2,22 @@
 season: 3
 session:
   type:
-    isAnother: true
+    isAnother: false
     isR18: false
     isR18G: false
-    isDeleted: false
+    isDeleted: true
   storyDate: "2027.11.14"
   timelineCast: "千秋 (24歳・-) 千冬 (24歳・-)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千冬"]
 scenario:
   title: "やさしい世界と呼吸法"
   description: |-
     さあ、息をしようか。この穏やかな日常を噛み締めながら。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    ※本シナリオは、出来事自体を無いものとする。
+  author: "七月馬鹿"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3086837"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

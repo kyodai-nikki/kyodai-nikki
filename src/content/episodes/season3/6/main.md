@@ -8,16 +8,21 @@ session:
     isDeleted: false
   storyDate: "2025.04.26"
   timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "喰らわば、日常"
   description: |-
     目が覚めると見知らぬ場所に立っていた。
     隣には千冬がいる。このような経験が初めてであれば驚くかもしれないが、ふたりは揃ってこう思うのだ。
     「ああ、またか」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    いつものことだ。いつものことだ。
+    これはふたりにとって日常だ。認めたくはないかもしれないが。
+
+    ……ああ、それにしても。ここは随分と居心地がいい、気がする。
+  author: "みくろ"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3628676"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

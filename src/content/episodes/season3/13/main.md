@@ -13,9 +13,14 @@ scenario:
   title: "深海より"
   description: |-
     千冬は仕事を辞め、これから千秋の配信活動を手伝うことになる。それに合わせて、北海道へ引っ越しをすることにした。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    引っ越す前日、二人は近くの海に訪れた。そして海辺のとある神社に足を踏み入れる。
+    中を見て回っていたその時、突然景色が歪む。重力が失われる。
+    そして眩い光に包まれた後、すぐに暗闇が訪れた。
+    視界が光を取り戻した時、目の前には――。
+  author: "東鴇臣"
+  distributionName: "booth"
+  distributionUrl: "https://omiazm.booth.pm/items/6012118"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

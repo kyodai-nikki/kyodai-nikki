@@ -3,12 +3,12 @@ season: 4
 session:
   type:
     isAnother: false
-    isR18: false
+    isR18: true
     isR18G: false
     isDeleted: false
   storyDate: "2025.12.26"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "催眠ダーリンLv1"
   description: |-
@@ -18,9 +18,9 @@ scenario:
     「おめでとうございます、新しいキャラクターの登録が完了しました！」
     そこに表示されたのは、入れた覚えのない『催眠アプリ』。
     そして、千冬の様子が……！？
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+  author: "竜原"
+  distributionName: "booth"
+  distributionUrl: "https://tatuhara.booth.pm/items/4014982"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

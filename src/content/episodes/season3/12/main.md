@@ -8,15 +8,21 @@ session:
     isDeleted: false
   storyDate: "2025.10.16"
   timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "LaLuLa"
   description: |-
     ふたりは探索者である。
     神話的事象に遭遇し、辛くも生き延びつつ、束の間の平穏を身近な人々と謳歌している。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    街角のはやり歌。
+    親しい人との外出。
+    他愛もない噂話。
+
+    時にふたりは、近頃うまく眠れない。
+  author: "櫻庭"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/3493458"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

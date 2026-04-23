@@ -8,7 +8,7 @@ session:
     isDeleted: false
   storyDate: "2026.01.01"
   timelineCast: ""
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "Episode title"
   description: |-

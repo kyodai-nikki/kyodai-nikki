@@ -8,14 +8,19 @@ session:
     isDeleted: false
   storyDate: "2025.07.05"
   timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬", "？？"]
 scenario:
   title: "ナイトアクアリウムの怪"
   description: |-
-    あなた方は都会の喧騒を忘れるような、穏やかな癒しの空間だと話題のナイトアクアリウムを訪れた。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    あなたは方は都会の喧騒を忘れるような、穏やかな癒しの空間だと話題のナイトアクアリウムを訪れた。
+
+    不可思議な旋律に導かれるようにして顔をあげた先で、
+    水槽からぬっと抜け出て宙を優雅に泳ぐものを目にする。
+
+    それは此処にいるはずのない、大きな、大きな一頭のクジラだった。
+  author: "シム"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=13403296"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

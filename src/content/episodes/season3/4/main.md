@@ -8,14 +8,20 @@ session:
     isDeleted: false
   storyDate: "2025.02.05"
   timelineCast: "千秋 (21歳・通信大学3年) 千冬 (22歳・建築士2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "ミュージアム・トゥ・ユー"
   description: |-
     「俺が、俺じゃなくなったら、どうする？」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    市所有の建物が博物館としてリニューアルオープンするらしい。展示会が開催されるというそのちらしに、一つの作品が載っていた。千秋の目に止まったそれは、美しい花の絵だった。
+
+    直感が警鐘を鳴らす。このミュージアムには何かがある。
+    花を千冬と見なければならない。これは眠らせるべきだ。
+    そうして千秋は千冬を博物館へと連れ出すのだった。
+  author: "緋上"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=9961856"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

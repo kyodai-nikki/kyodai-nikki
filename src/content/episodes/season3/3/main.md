@@ -8,7 +8,7 @@ session:
     isDeleted: false
   storyDate: "2024.12.12"
   timelineCast: "千秋 (21歳・通信大学3年) 千冬 (21歳・建築士2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "お前が人を殺すのだ"
   description: |-
@@ -17,10 +17,12 @@ scenario:
     法廷の奥には扉が見える。その扉は開かない。
     「被告、証言をどうぞ」
     覆面をかぶった人間が一人立っていた。それは千秋に向かって口を開く。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  adaptedScenarioUrl: ""
+
+    「君が罪を裁くのだ。さて、罪人はどちらだ？」
+  author: "○助"
+  distributionName: "tumblr"
+  distributionUrl: "https://www.tumblr.com/manmaru-xxx/71698728741/%E3%82%AF%E3%83%88%E3%82%A5%E3%83%AB%E3%83%95%E7%A5%9E%E8%A9%B1trpg%E4%B8%80%E4%BA%BA%E7%94%A8%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%81%8A%E5%89%8D%E3%81%8C%E4%BA%BA%E3%82%92%E6%AE%BA%E3%81%99%E3%81%AE%E3%81%A0"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/125EnXVvz8d0O7cY3ew_t7mA-k--Wl1LblewhMHsFWEc/edit?tab=t.0#heading=h.ubsrtcsa777j"
 custom:
   showSmallTitle: false
   isCompactDescription: false

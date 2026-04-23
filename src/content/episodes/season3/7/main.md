@@ -8,15 +8,20 @@ session:
     isDeleted: false
   storyDate: "2025.05.02"
   timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "縁々獄々"
   description: |-
     「問一。貴方の目は正常に機能していますか？」
     「問二。貴方の口は正常に機能していますか？」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    　…
+    「問八。貴方の××は正常に機能していますか？」
+
+    結ばれる縁は選べない。
+    理不尽はいつでもあなたの隣に存在する。
+  author: "街助"
+  distributionName: "booth"
+  distributionUrl: "https://omac1o.booth.pm/items/4284345"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

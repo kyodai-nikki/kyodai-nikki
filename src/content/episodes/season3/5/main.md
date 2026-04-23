@@ -13,9 +13,16 @@ scenario:
   title: "水中密室"
   description: |-
     「奇跡のリアル脱出ショーへようこそ！」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    目を覚ますと、そこは 10m 四方くらいの正方形の部屋だった。
+    そこに来た記憶はない。直前の記憶も思い出せない。
+    目を覚ましたときにはもうそこにいた。
+
+    「貴方に与えられた時間は 60 分、見事脱出出来たら豪華景品をプレゼントしております！」
+    そう告げた瞬間、カウントダウンが始まる。
+  author: "香月悠"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=7535593"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

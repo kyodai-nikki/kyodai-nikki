@@ -12,11 +12,16 @@ session:
 scenario:
   title: "奪取脱出ストラグル"
   description: |-
-    奇妙な視線を感じるようになって早3ヶ月。家を出てから帰るまで、千冬は謎の視線にさらされていた。物理的な攻撃や直接的な脅迫はないにせよ、視線に晒され続ける生活にストレスを感じていた頃その事件は起こった。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  adaptedScenarioUrl: ""
+    奇妙な視線を感じるようになって早3ヵ月。家を出てから帰るまで、千冬は謎の視線にさらされていた。物理的な攻撃や直接的な脅迫はないにせよ、視線に晒され続ける生活にストレスを感じていた頃その事件は起こった。
+
+    凄まじいブレーキ音と何か大きな物が衝突したかの様な轟音が耳に届く。
+    「オカエリハ　コチラカラ」
+    ────一つの狂愛の末路。巻き込まれたふたりの人間。
+    果たして、奪われる前に日常への扉をくぐれるのか。
+  author: "童懐屋ぐりこ"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=10167830"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/1vf-B9TwK0S_bIJdD8Vu8-8o6yofNez0kh-W5a95Qvi0/edit?tab=t.0#heading=h.47m6ltw0729a"
 custom:
   showSmallTitle: false
   isCompactDescription: false

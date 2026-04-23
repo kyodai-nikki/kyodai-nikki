@@ -8,16 +8,18 @@ session:
     isDeleted: false
   storyDate: "2026.01.23"
   timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "夜になんか攫われてたまるか"
   description: |-
     「……見られている気がする」
-    外出先で視線を感じた千冬。しかし辺りを見回しても、視線の元となる人物はいない。警戒した千秋は、千冬に外出禁止と言い渡した。
-    それから一ヶ月。『外に出たい』という千冬の願いを聞いて、二人は久々に近くのスーパーへと出かけた。その帰りだった。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+    外出先で視線を感じた千冬。しかし辺りを見回しても、視線の元となる人物はいない。警戒した千秋は、千冬に外出禁止を言い渡した。
+    それから一ヶ月。「外に出たい」という千冬の願いを聞いて、二人は久々に近くのスーパーへと出かけた。その帰りだった。
+
+    「ようやく捕まえた。君こそ我が夜に相応しい」
+  author: "アストロモーター"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/4329465"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

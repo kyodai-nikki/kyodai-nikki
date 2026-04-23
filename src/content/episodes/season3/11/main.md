@@ -15,9 +15,11 @@ scenario:
     真夏の夜、金曜日の時刻は22時。
     夏のひとしずくが過ぎ去り、暑さがまだ残る中、千冬は一日の労働を終えて車に乗り込んだ。
     その時千秋から連絡が入る。今日は遅くなるらしい。先に寝てほしいという千秋の連絡と、スマホに表示された時刻を見比べた千冬は、ちょうどいいと考え、千秋を迎えに行くことにした。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
+
+    ホテルについた千冬が目にしたのは、大きな真珠をもつ怪しい男と、泥酔した千秋の姿だった。
+  author: "竜原"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/4289260"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false
