@@ -35,8 +35,8 @@ const current: EpisodeMeta | undefined =
   (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
   (list[0] as EpisodeMeta | undefined);
 
-const summaryImagePath = (e: EpisodeEntry): string =>
-  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/summary.png`;
+const thumbnailImagePath = (e: EpisodeEntry): string =>
+  `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/thumbnail.png`;
 const detailImagePath = (e: EpisodeEntry): string =>
   `${base}/images/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(e)}/detail.png`;
 
@@ -72,7 +72,7 @@ const logHref = current
           <a
             class={itemClass(e)}
             href={epHref(e)}
-            style={`--ep-bg: url('${summaryImagePath(e)}'), url('${dummySummary}');`}
+            style={`--ep-bg: url('${thumbnailImagePath(e)}'), url('${dummySummary}');`}
           >
             <span class="ep-item__no">{numberLabel(e)}</span>
             <span class="ep-item__title">{e.title}</span>
