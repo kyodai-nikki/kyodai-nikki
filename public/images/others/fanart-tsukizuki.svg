@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 795" role="img" aria-labelledby="title desc">
+  <title id="title">Fan art placeholder by Tsukizuki</title>
+  <desc id="desc">A placeholder fan art image for an external fan art link.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22090d" />
+      <stop offset="54%" stop-color="#4b1020" />
+      <stop offset="100%" stop-color="#1f223b" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="795" fill="url(#bg)" />
+  <circle cx="618" cy="292" r="188" fill="#8d7893" />
+  <path d="M450 198c86-112 330-118 410-16" fill="none" stroke="#352d39" stroke-width="60" stroke-linecap="round" />
+  <circle cx="618" cy="346" r="20" fill="#69519a" />
+  <circle cx="756" cy="324" r="20" fill="#69519a" />
+  <path d="M640 450c36 2 92-16 132-54" fill="none" stroke="#e8e6ee" stroke-width="14" stroke-linecap="round" />
+  <path d="M846 330c20 120 8 204-34 254" fill="none" stroke="#d8e0ff" stroke-width="30" stroke-linecap="round" />
+  <text x="600" y="732" text-anchor="middle" fill="#ffffff" font-size="50" font-family="Noto Serif JP, serif">倉月 - poipiku</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Chiaki expression placeholder 3</title>
+  <desc id="desc">A placeholder expression image for Chiaki.</desc>
+  <rect width="1200" height="900" fill="#ffffff" />
+  <rect x="110" y="90" width="980" height="720" fill="#f9f9f9" stroke="#222222" stroke-opacity=".16" />
+  <circle cx="600" cy="330" r="190" fill="#d9d9d9" />
+  <path d="M450 296c54-54 246-54 300 0" fill="none" stroke="#202020" stroke-width="34" stroke-linecap="round" />
+  <circle cx="525" cy="370" r="20" fill="#6a5a68" />
+  <circle cx="675" cy="370" r="20" fill="#6a5a68" />
+  <path d="M520 490c42 34 118 34 160-4" fill="none" stroke="#7d5869" stroke-width="18" stroke-linecap="round" />
+  <text x="600" y="792" text-anchor="middle" fill="#343434" font-size="54" font-family="Noto Serif JP, serif">千秋 - 表情差分③</text>
+</svg>

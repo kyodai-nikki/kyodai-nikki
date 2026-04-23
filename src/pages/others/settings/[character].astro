@@ -1,0 +1,216 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import OthersTabs from "../../../components/others/OthersTabs.astro";
+import OthersSettingsModal from "../../../components/OthersSettingsModal.astro";
+import { settingsCharacters, type SettingsCharacter } from "../../../data/others/settings";
+import { commonMsg } from "../../../msg/common";
+import { othersPageMsg } from "../../../msg/pages/others";
+
+export async function getStaticPaths() {
+  return settingsCharacters.map((character) => ({
+    params: { character: character.slug },
+    props: { character },
+  }));
+}
+
+const { character } = Astro.props as { character: SettingsCharacter };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (path: string) => `${base}${path}`;
+---
+
+<BaseLayout title={`${othersPageMsg.title} | ${character.name}`} description={othersPageMsg.description}>
+  <section class="others section">
+    <div class="container">
+      <PageHeading title={othersPageMsg.title} />
+      <OthersTabs currentSection="settings" />
+
+      <div class="others-settings">
+        <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
+          {settingsCharacters.map((item) => (
+            <a
+              href={withBase(`/others/settings/${item.slug}`)}
+              aria-current={item.slug === character.slug ? "page" : undefined}
+            >
+              {item.name}
+            </a>
+          ))}
+        </nav>
+
+        <div class="others-settings__content">
+          <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.name)}>
+            {character.materials.map((item, index) => {
+              const modalId = `others-settings-${character.slug}-${index}`;
+              return (
+                <button
+                  class="others-settings__card"
+                  type="button"
+                  aria-label={commonMsg.actions.open(item.title)}
+                  data-modal-open={modalId}
+                >
+                  <div class="others-settings__card-image-wrap">
+                    <img
+                      class="others-settings__card-image"
+                      src={withBase(item.image)}
+                      alt={item.title}
+                      loading="lazy"
+                      width="640"
+                      height="480"
+                    />
+                  </div>
+                  <p class="others-settings__card-title">{item.title}</p>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {character.materials.map((item, index) => (
+        <OthersSettingsModal
+          id={`others-settings-${character.slug}-${index}`}
+          title={item.title}
+          image={withBase(item.image)}
+          documentUrl={item.documentUrl}
+          details={item.details}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .others {
+    padding-top: 20px;
+  }
+
+  .others-settings {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 28px;
+    max-width: 1220px;
+    margin: 0 auto;
+    min-height: 620px;
+  }
+
+  .others-settings__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 4px;
+  }
+
+  .others-settings__nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 58px;
+    padding: 14px 18px;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: #fff;
+    color: var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .others-settings__nav a[aria-current="page"] {
+    background: #2f2f2f;
+    color: #fff;
+  }
+
+  .others-settings__content {
+    border-left: 1px solid rgba(17, 17, 17, 0.18);
+    padding-left: 28px;
+  }
+
+  .others-settings__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px 26px;
+    align-content: start;
+  }
+
+  .others-settings__card {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .others-settings__card-image-wrap {
+    width: 100%;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .others-settings__card-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: block;
+    object-fit: cover;
+    background: #fff;
+  }
+
+  .others-settings__card-title {
+    margin: 0;
+    text-align: center;
+    font-family: var(--f-serif);
+    font-size: 1.125rem;
+    line-height: 1.45;
+    color: var(--c-fg);
+  }
+
+  @media (max-width: 1080px) {
+    .others-settings__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .others-settings {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      min-height: auto;
+    }
+
+    .others-settings__nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .others-settings__nav a {
+      min-width: 148px;
+      min-height: 52px;
+    }
+
+    .others-settings__content {
+      border-left: 0;
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+      padding-left: 0;
+      padding-top: 24px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .others-settings__grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .others-settings__card-title {
+      font-size: 1rem;
+    }
+  }
+</style>

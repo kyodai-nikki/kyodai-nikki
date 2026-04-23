@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Chifuyu expression placeholder</title>
+  <desc id="desc">A placeholder expression image for Chifuyu.</desc>
+  <rect width="1200" height="900" fill="#ffffff" />
+  <rect x="110" y="90" width="980" height="720" fill="#f9f9f9" stroke="#222222" stroke-opacity=".16" />
+  <circle cx="600" cy="320" r="184" fill="#d9d6d7" />
+  <path d="M430 254c66-78 278-78 340 0" fill="none" stroke="#22252d" stroke-width="52" stroke-linecap="round" />
+  <circle cx="530" cy="374" r="18" fill="#514454" />
+  <circle cx="670" cy="374" r="18" fill="#514454" />
+  <path d="M536 480c46 16 84 16 128 0" fill="none" stroke="#60515f" stroke-width="14" stroke-linecap="round" />
+  <text x="600" y="792" text-anchor="middle" fill="#343434" font-size="54" font-family="Noto Serif JP, serif">千冬 - 表情差分</text>
+</svg>

@@ -16,7 +16,9 @@
 | `gallery.ts` | `/gallery/` | ギャラリー画像 |
 | `movies.ts` | `/movies/` | 動画埋め込み |
 | `goods.ts` | `/goods/` | 物販リンク |
-| `others.ts` | `/others/` | その他リンク（準備中ラベル可） |
+| `others/tab.ts` | `/others/` | Othersタブの導線 |
+| `others/settings.ts` | `/others/settings/{character}/` | 設定資料データ |
+| `others/fanArt.ts` | `/others/fanart/` | fan art の外部リンク一覧 |
 
 ## 編集のコツ
 

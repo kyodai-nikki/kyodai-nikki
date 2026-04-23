@@ -1,65 +1,41 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { links, type OtherLink } from "../../data/others";
+import { defaultOthersPath } from "../../data/others/tab";
 import { commonMsg } from "../../msg/common";
 import { othersPageMsg } from "../../msg/pages/others";
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-
-const isExternal = (l: OtherLink) => {
-  if (l.external !== undefined) return l.external;
-  return /^(https?:)?\/\//.test(l.href) || l.href.startsWith("mailto:");
-};
-
-const toHref = (l: OtherLink) =>
-  isExternal(l) ? l.href : base + (l.href.startsWith("/") ? l.href : "/" + l.href);
+const target = `${base}${defaultOthersPath}`;
 ---
-<BaseLayout title={othersPageMsg.title} description={othersPageMsg.description}>
-  <section class="section container container--narrow">
-    <PageHeading title={othersPageMsg.heading} eyebrow={othersPageMsg.title} centered={false} />
 
-    <ul style="list-style: none; padding: 0; margin: 0;">
-      {links.map((l) => (
-        <li style="border-bottom: 1px solid var(--c-border);">
-          {l.disabled ? (
-            <div
-              aria-disabled="true"
-              style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); padding: var(--s-5) 0; opacity: 0.55;"
-            >
-              <div>
-                <div style="font-family: var(--f-serif); font-size: var(--fs-lg); color: var(--c-fg);">
-                  {l.title} <span class="chip" style="margin-left: var(--s-2);">{commonMsg.states.preparing}</span>
-                </div>
-                {l.description && (
-                  <div style="color: var(--c-fg-muted); font-size: var(--fs-sm); margin-top: var(--s-1);">
-                    {l.description}
-                  </div>
-                )}
-              </div>
-            </div>
-          ) : (
-            <a
-              href={toHref(l)}
-              target={isExternal(l) ? "_blank" : undefined}
-              rel={isExternal(l) ? "noopener" : undefined}
-              style="display: flex; align-items: baseline; justify-content: space-between; gap: var(--s-4); padding: var(--s-5) 0; text-decoration: none;"
-            >
-              <div>
-                <div style="font-family: var(--f-serif); font-size: var(--fs-lg); color: var(--c-fg);">
-                  {l.title}{isExternal(l) ? othersPageMsg.externalSuffix : ""}
-                </div>
-                {l.description && (
-                  <div style="color: var(--c-fg-muted); font-size: var(--fs-sm); margin-top: var(--s-1);">
-                    {l.description}
-                  </div>
-                )}
-              </div>
-              <span aria-hidden="true" style="color: var(--c-fg-muted);">{othersPageMsg.trailingArrow}</span>
-            </a>
-          )}
-        </li>
-      ))}
-    </ul>
+<BaseLayout title={othersPageMsg.title} description={othersPageMsg.description}>
+  <section class="section container container--narrow others-redirect">
+    <PageHeading title={othersPageMsg.title} />
+    <p>{othersPageMsg.redirecting}</p>
+    <p>
+      <a href={target}>{othersPageMsg.redirectLink}</a>
+    </p>
   </section>
+
+  <script is:inline define:vars={{ target }}>
+    window.location.replace(target);
+  </script>
 </BaseLayout>
+
+<style>
+  .others-redirect {
+    text-align: center;
+  }
+
+  .others-redirect p {
+    margin: 12px 0 0;
+    color: var(--c-fg-muted);
+  }
+
+  .others-redirect a {
+    color: var(--c-fg);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+</style>

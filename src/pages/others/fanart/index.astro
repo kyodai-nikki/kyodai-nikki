@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import OthersTabs from "../../../components/others/OthersTabs.astro";
+import { fanArt } from "../../../data/others/fanArt";
+import { othersPageMsg } from "../../../msg/pages/others";
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const withBase = (path: string) => `${base}${path}`;
+---
+
+<BaseLayout title={`${othersPageMsg.title} | fan art`} description={othersPageMsg.description}>
+  <section class="others section">
+    <div class="container">
+      <PageHeading title={othersPageMsg.title} />
+      <OthersTabs currentSection="fan-art" />
+
+      <div class="others-fanart">
+        {fanArt.map((item) => (
+          <a
+            class="others-fanart__card"
+            href={item.url}
+            target="_blank"
+            rel="noopener"
+            aria-label={`${item.title} を新しいタブで開く`}
+          >
+            <div class="others-fanart__image-wrap">
+              <img
+                class="others-fanart__image"
+                src={withBase(item.image)}
+                alt={item.title}
+                loading="lazy"
+                width="640"
+                height="480"
+              />
+            </div>
+            <p class="others-fanart__title">{item.title}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .others {
+    padding-top: 20px;
+  }
+
+  .others-fanart {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 300px));
+    justify-content: center;
+    gap: 24px 26px;
+    max-width: 980px;
+    min-height: 520px;
+    margin: 0 auto;
+  }
+
+  .others-fanart__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--c-fg);
+    text-decoration: none;
+  }
+
+  .others-fanart__image-wrap {
+    width: 100%;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .others-fanart__image {
+    width: 100%;
+    aspect-ratio: 4 / 2.65;
+    display: block;
+    object-fit: cover;
+    transition: transform var(--dur-base) var(--ease-out);
+  }
+
+  .others-fanart__card:hover .others-fanart__image,
+  .others-fanart__card:focus-visible .others-fanart__image {
+    transform: scale(1.03);
+  }
+
+  .others-fanart__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: 1.125rem;
+    line-height: 1.45;
+    text-align: center;
+  }
+
+  @media (max-width: 760px) {
+    .others-fanart {
+      grid-template-columns: minmax(0, 320px);
+      min-height: auto;
+    }
+  }
+</style>

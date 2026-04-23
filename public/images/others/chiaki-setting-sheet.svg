@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Chiaki setting sheet placeholder</title>
+  <desc id="desc">A placeholder setting sheet image for Chiaki.</desc>
+  <rect width="1200" height="900" fill="#fbfbfb" />
+  <rect x="60" y="60" width="1080" height="780" fill="#ffffff" stroke="#222222" stroke-opacity=".22" />
+  <rect x="120" y="120" width="360" height="300" fill="#f7eef1" stroke="#222222" stroke-opacity=".18" />
+  <rect x="120" y="450" width="360" height="270" fill="#faf4f6" stroke="#222222" stroke-opacity=".18" />
+  <rect x="520" y="120" width="560" height="600" fill="#f8f8f8" stroke="#222222" stroke-opacity=".18" />
+  <circle cx="300" cy="248" r="90" fill="#f1dbe3" />
+  <circle cx="300" cy="584" r="72" fill="#ead4dc" />
+  <rect x="604" y="184" width="180" height="440" rx="18" fill="#d8d8d8" />
+  <rect x="810" y="184" width="180" height="440" rx="18" fill="#ececec" />
+  <text x="120" y="810" fill="#343434" font-size="54" font-family="Noto Serif JP, serif">千秋 - 設定画</text>
+  <text x="120" y="110" fill="#6a7280" font-size="28" font-family="Noto Sans JP, sans-serif">dummy setting sheet</text>
+</svg>

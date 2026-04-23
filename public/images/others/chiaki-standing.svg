@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Chiaki standing placeholder</title>
+  <desc id="desc">A placeholder standing illustration for Chiaki.</desc>
+  <rect width="1200" height="900" fill="#ffffff" />
+  <rect x="120" y="80" width="960" height="740" fill="#f8f8f8" stroke="#222222" stroke-opacity=".16" />
+  <circle cx="600" cy="210" r="92" fill="#d5d5d5" />
+  <rect x="520" y="300" width="160" height="250" rx="54" fill="#4c4749" />
+  <rect x="470" y="320" width="70" height="240" rx="30" fill="#5f595b" />
+  <rect x="660" y="320" width="70" height="240" rx="30" fill="#5f595b" />
+  <rect x="535" y="548" width="50" height="180" rx="24" fill="#3b3538" />
+  <rect x="615" y="548" width="50" height="180" rx="24" fill="#3b3538" />
+  <text x="600" y="792" text-anchor="middle" fill="#343434" font-size="54" font-family="Noto Serif JP, serif">千秋 - 立ち絵</text>
+</svg>

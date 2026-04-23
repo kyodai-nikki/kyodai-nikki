@@ -1,5 +1,6 @@
 ---
 import { site } from "../../data/site";
+import { defaultOthersPath } from "../../data/others/tab";
 import { commonMsg } from "../../msg/common";
 
 const base = import.meta.env.BASE_URL;
@@ -14,7 +15,7 @@ const items = [
   { href: "/gallery", label: "Gallery" },
   { href: "/movies", label: "Movies" },
   { href: "/goods", label: "Goods" },
-  { href: "/others", label: "Others" },
+  { href: defaultOthersPath, label: "Others" },
 ];
 
 const isCurrent = (href: string) => {

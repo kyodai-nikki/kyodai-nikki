@@ -1,0 +1,141 @@
+---
+import Modal from "./common/Modal.astro";
+import { commonMsg } from "../msg/common";
+import { othersPageMsg } from "../msg/pages/others";
+import type { SettingDetail } from "../data/others/settings";
+
+interface Props {
+  id: string;
+  title: string;
+  image: string;
+  documentUrl: string;
+  details?: SettingDetail[];
+  buttonLabel?: string;
+}
+
+const {
+  id,
+  title,
+  image,
+  documentUrl,
+  details = [],
+  buttonLabel = commonMsg.actions.back,
+} = Astro.props;
+---
+
+<Modal id={id} ariaLabel={`${title} details`} panelClass="others-settings-modal-panel">
+  <div class="others-settings-modal">
+    <a
+      class="others-settings-modal__image-link"
+      href={documentUrl}
+      target="_blank"
+      rel="noopener"
+      aria-label={`${title} をGoogle Driveで開く`}
+    >
+      <img class="others-settings-modal__image" src={image} alt={title} loading="eager" />
+    </a>
+
+    <div class="others-settings-modal__copy">
+      <p class="others-settings-modal__title">{title}</p>
+      <p class="others-settings-modal__hint">{othersPageMsg.detailHint}</p>
+
+      {details.length > 0 && (
+        <dl class="others-settings-modal__details" aria-label={othersPageMsg.detailsHeading}>
+          {details.map((detail) => (
+            <div>
+              <dt>{detail.label}</dt>
+              <dd>{detail.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+
+      <button class="others-settings-modal__back" type="button" data-modal-close>{buttonLabel}</button>
+    </div>
+  </div>
+</Modal>
+
+<style>
+  .others-settings-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .others-settings-modal__image-link {
+    display: block;
+    width: min(100%, 720px);
+  }
+
+  .others-settings-modal__image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    background: #fff;
+  }
+
+  .others-settings-modal__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: #5b5b5b;
+  }
+
+  .others-settings-modal__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: clamp(1.375rem, 2vw, 1.75rem);
+    color: var(--c-fg);
+  }
+
+  .others-settings-modal__hint {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .others-settings-modal__details {
+    display: grid;
+    gap: 8px;
+    margin: 6px 0 0;
+  }
+
+  .others-settings-modal__details div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .others-settings-modal__details dt {
+    color: var(--c-fg);
+  }
+
+  .others-settings-modal__details dd {
+    margin: 0;
+  }
+
+  .others-settings-modal__back {
+    margin-top: 10px;
+    min-width: 90px;
+    padding: 10px 22px;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: #fff;
+    color: var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: 1rem;
+    cursor: pointer;
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .others-settings-modal__back:hover {
+    background: var(--c-fg);
+    color: #fff;
+  }
+</style>

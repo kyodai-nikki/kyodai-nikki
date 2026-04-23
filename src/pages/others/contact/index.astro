@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import OthersTabs from "../../../components/others/OthersTabs.astro";
+import { othersPageMsg } from "../../../msg/pages/others";
+---
+
+<BaseLayout title={`${othersPageMsg.title} | 問い合わせ`} description={othersPageMsg.description}>
+  <section class="others section">
+    <div class="container">
+      <PageHeading title={othersPageMsg.title} />
+      <OthersTabs currentSection="contact" />
+
+      <div class="others-contact">
+        <div class="others-contact__card">
+          <p class="others-contact__team">兄弟日記制作チーム</p>
+          <p class="others-contact__body">ご連絡は以下にお願いいたします。</p>
+          <p class="others-contact__mail">
+            mail:
+            <a href="mailto:kyodai-nikki@googlegroups.com">kyodai-nikki@googlegroups.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .others {
+    padding-top: 20px;
+  }
+
+  .others-contact {
+    max-width: 1080px;
+    min-height: 560px;
+    margin: 0 auto;
+  }
+
+  .others-contact__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    min-height: 250px;
+    padding: 48px 24px;
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    background: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+
+  .others-contact__team,
+  .others-contact__body,
+  .others-contact__mail {
+    margin: 0;
+    font-family: var(--f-serif);
+    color: var(--c-fg);
+  }
+
+  .others-contact__team {
+    font-size: clamp(1.75rem, 2.8vw, 2.25rem);
+    line-height: 1.4;
+  }
+
+  .others-contact__body,
+  .others-contact__mail {
+    font-size: clamp(1.125rem, 1.8vw, 1.5rem);
+    line-height: 1.9;
+  }
+
+  .others-contact__mail a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  @media (max-width: 640px) {
+    .others-contact {
+      min-height: auto;
+    }
+
+    .others-contact__card {
+      gap: 20px;
+      padding: 36px 20px;
+    }
+  }
+</style>
