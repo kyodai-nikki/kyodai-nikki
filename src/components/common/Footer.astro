@@ -1,6 +1,6 @@
 ---
-import { site } from "../data/site";
-import ShareButtons from "./ShareButtons.astro";
+import { site } from "../../data/site";
+import ShareButtons from "./btn/ShareButtons.astro";
 
 interface Props {
   shareUrl: string;
@@ -20,7 +20,15 @@ const year = new Date().getFullYear();
 
     <div class="site-footer__share">
       <span>Share :</span>
-      <ShareButtons url={shareUrl} title={shareTitle} />
+      <ShareButtons url={shareUrl} title={shareTitle} className="site-footer__share-buttons" />
     </div>
   </div>
 </footer>
+
+<style>
+  .site-footer__share-buttons {
+    --share-btn-size: 22px;
+    --share-icon-size: 11px;
+    --share-line-icon-size: 15px;
+  }
+</style>

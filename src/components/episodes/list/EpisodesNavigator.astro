@@ -13,8 +13,10 @@ import {
   firstEpisodeOfSeason,
   episodeUrlSlug,
   type EpisodeEntry,
-} from "../data/episodes";
-import PageHeading from "./PageHeading.astro";
+} from "../../../data/episodes";
+import { getCollection } from "astro:content";
+import { hasAnyEpisodeLog } from "../../../data/episodeLogs";
+import PageHeading from "../../common/PageHeading.astro";
 
 type EpisodeMeta = EpisodeEntry & {
   badge?: string;
@@ -33,6 +35,8 @@ const dummyDetail  = `${base}/images/episodes/dummy-detail.svg`;
 
 const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
 const list = episodesBySeason(activeSeason);
+const logEntries = await getCollection("episodeLogs");
+const logIds = new Set(logEntries.map((entry) => entry.id));
 
 // selected が無い場合は URL の slug、それも無ければシーズン先頭へフォールバック
 const current: EpisodeMeta | undefined =
@@ -73,6 +77,7 @@ const detailClass = current?.isAlternate ? "ep-detail ep-detail--alt" : "ep-deta
 
 /** ログページへのリンク（episodes/season{N}/{seasonEpisodeNumber}/log） */
 const logHref = current
+  && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logIds)
   ? `${base}/episodes/${activeSeasonInfo.slug}/${episodeUrlSlug(current)}/log`
   : undefined;
 ---

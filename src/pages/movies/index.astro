@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import PageHeading from "../../components/PageHeading.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
 import { videos, type Video } from "../../data/movies";
 
 const embedUrl = (v: Video) => `https://www.youtube-nocookie.com/embed/${v.id}`;

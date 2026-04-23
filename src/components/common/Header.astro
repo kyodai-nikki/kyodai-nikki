@@ -1,7 +1,7 @@
 ---
 // サイトヘッダー：2 段構成（上：ブランド+SNS / 下：ナビ）
 // ブランド名・SNS URL は src/data/site.ts、ナビ項目はこのファイルの items 配列を編集。
-import { site } from "../data/site";
+import { site } from "../../data/site";
 
 const base = import.meta.env.BASE_URL;
 const withBase = (p: string) => `${base.replace(/\/$/, "")}${p}`;

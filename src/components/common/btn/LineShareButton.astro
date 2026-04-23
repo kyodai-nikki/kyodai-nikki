@@ -1,0 +1,48 @@
+---
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+---
+
+<a
+  class="share-button share-button--line"
+  href={href}
+  target="_blank"
+  rel="noopener"
+  aria-label="LINEで共有"
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.03 10.31c0-4.18-4.19-7.58-9.34-7.58-5.16 0-9.35 3.4-9.35 7.58 0 3.75 3.32 6.89 7.81 7.48.3.06.71.19.81.43.09.21.06.54.03.76l-.13.72c-.04.21-.18.82.72.45.91-.38 4.91-2.89 6.7-4.95 1.24-1.36 2.75-2.74 2.75-4.89Zm-12.38 2.1H5.79a.49.49 0 0 1-.49-.49V8.25c0-.27.22-.49.49-.49s.49.22.49.49v3.18h1.37c.27 0 .49.22.49.49s-.22.49-.49.49Zm2.03-.49a.49.49 0 0 1-.98 0V8.25a.49.49 0 0 1 .98 0v3.67Zm4.14 0a.49.49 0 0 1-.41.48h-.08a.49.49 0 0 1-.4-.21L10.86 9.4v2.52a.49.49 0 0 1-.98 0V8.25c0-.21.13-.4.33-.46a.49.49 0 0 1 .55.18l2.08 2.79V8.25a.49.49 0 0 1 .98 0v3.67Zm3.22-2.69h-1.37v.9H17c.27 0 .49.22.49.49s-.22.49-.49.49h-1.35v.92h1.37c.27 0 .49.22.49.49s-.22.49-.49.49h-1.86a.49.49 0 0 1-.49-.49V8.25c0-.27.22-.49.49-.49h1.86c.27 0 .49.22.49.49s-.22.48-.49.48Z" />
+  </svg>
+</a>
+
+<style>
+  .share-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--share-btn-size);
+    height: var(--share-btn-size);
+    border-radius: 9999px;
+    background: #6c6c6c;
+    color: #ffffff;
+    transition:
+      transform var(--dur-fast) var(--ease-out),
+      background var(--dur-fast) var(--ease-out);
+  }
+
+  .share-button:hover {
+    transform: translateY(-1px);
+    background: #3f3f3f;
+    color: #ffffff;
+  }
+
+  .share-button svg {
+    width: var(--share-line-icon-size);
+    height: var(--share-line-icon-size);
+    fill: currentColor;
+    display: block;
+  }
+</style>

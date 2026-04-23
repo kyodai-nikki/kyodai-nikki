@@ -1,3 +1,5 @@
+import type { EpisodeLogMeta, EpisodeScenarioInfo } from "./episodeLogs";
+
 // =========================================================
 // Episodes ページのデータ
 // ---------------------------------------------------------
@@ -47,6 +49,8 @@ export interface EpisodeEntry {
   isR18?: boolean;
   /** R-18G バッジを表示する */
   isR18G?: boolean;
+  scenario?: EpisodeScenarioInfo;
+  log?: EpisodeLogMeta;
 }
 
 /** シーズンの基本メタ情報（番号・表示名・URL スラッグ） */

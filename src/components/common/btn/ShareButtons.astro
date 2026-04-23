@@ -1,0 +1,33 @@
+---
+import LineShareButton from "./LineShareButton.astro";
+import XShareButton from "./XShareButton.astro";
+
+interface Props {
+  url: string;
+  title: string;
+  className?: string;
+}
+
+const { url, title, className = "" } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+const xHref = `https://x.com/intent/post?url=${encodedUrl}&text=${encodedTitle}`;
+const lineHref = `https://social-plugins.line.me/lineit/share?url=${encodedUrl}`;
+---
+
+<div class:list={["share-buttons", className]}>
+  <XShareButton href={xHref} />
+  <LineShareButton href={lineHref} />
+</div>
+
+<style>
+  .share-buttons {
+    --share-btn-size: 22px;
+    --share-icon-size: 11px;
+    --share-line-icon-size: 15px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+</style>
