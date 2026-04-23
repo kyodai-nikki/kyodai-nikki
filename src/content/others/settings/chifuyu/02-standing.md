@@ -2,7 +2,6 @@
 kind: "material"
 order: 2
 title: "千冬 - 立ち絵"
-image: "/images/others/settings/chifuyu-standing.svg"
 documentUrl: "https://drive.google.com/file/d/chifuyu-standing/view"
 details:
   - label: "カテゴリ"

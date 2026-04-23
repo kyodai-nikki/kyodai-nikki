@@ -23,7 +23,6 @@ scenario:
   author: ""
   distributionName: ""
   distributionUrl: ""
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

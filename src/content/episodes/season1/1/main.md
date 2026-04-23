@@ -22,7 +22,6 @@ scenario:
   author: "かのこ"
   distributionName: ""
   distributionUrl: ""
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

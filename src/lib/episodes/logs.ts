@@ -15,7 +15,6 @@ export interface EpisodeScenarioInfo {
   author?: string;
   distributionName?: string;
   distributionUrl?: string;
-  isAdapted?: boolean;
   adaptedScenarioUrl?: string;
   isDeleted?: boolean;
   isCompactDescription?: boolean;
@@ -58,7 +57,9 @@ export const episodeLogContentId = (
 export const episodeLogSectionsFromEntries = (
   seasonSlug: string,
   episodeSlug: string | number,
-  entries: Partial<Record<EpisodeLogSectionKey, CollectionEntry<"episodeLogs"> | undefined>>,
+  entries: Partial<
+    Record<EpisodeLogSectionKey, CollectionEntry<"episodeLogs"> | undefined>
+  >,
 ): EpisodeLogSection[] =>
   episodeLogSectionOrder.flatMap((key) => {
     if (!entries[key]?.body?.trim()) return [];

@@ -10,15 +10,19 @@ session:
     isDeleted: false
   storyDate: "2022.10.15"
   timelineCast: "千秋 (高校生) 千冬 (専門学校)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千冬"]
 scenario:
   title: "問：死の定義を教えてください"
   description: |-
     [お知らせです。██ ██さん、██ ███さんがお待ちでした。]
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
+
+    それでは、探索者の自己紹介をお願い致します。
+    設定を全て読み上げ、認知しましょう。
+
+    ※本シナリオは、IF世界の出来事である。
+  author: "から"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/2823582"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

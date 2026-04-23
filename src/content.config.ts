@@ -15,7 +15,15 @@ const news = defineCollection({
       kind: z.literal("page"),
       date: z.string(),
       text: z.string(),
-      page: z.enum(["gallery", "goods", "characters", "news", "movies", "introduction", "others"]),
+      page: z.enum([
+        "gallery",
+        "goods",
+        "characters",
+        "news",
+        "movies",
+        "introduction",
+        "others",
+      ]),
     }),
     z.object({
       kind: z.literal("custom"),
@@ -30,33 +38,42 @@ const news = defineCollection({
 const episodeLogs = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/episodes" }),
   schema: z.object({
-    season: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]).optional(),
+    season: z
+      .union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)])
+      .optional(),
     overallNumber: z.number().optional(),
     seasonEpisodeNumber: z.number().int().positive().optional(),
-    session: z.object({
-      type: z.object({
-        isAnother: z.boolean().optional().default(false),
-        isR18: z.boolean().optional().default(false),
-        isR18G: z.boolean().optional().default(false),
-        isDeleted: z.boolean().optional().default(false),
-      }).optional(),
-      storyDate: z.string().optional(),
-      timelineCast: z.string().optional(),
-      cast: z.array(z.string()).optional(),
-    }).optional(),
-    scenario: z.object({
-      title: z.string().optional(),
-      description: z.string().optional(),
-      author: z.string().optional(),
-      distributionName: z.string().optional(),
-      distributionUrl: z.string().optional(),
-      isAdapted: z.boolean().optional(),
-      adaptedScenarioUrl: z.string().optional(),
-    }).optional(),
-    custom: z.object({
-      showSmallTitle: z.boolean().optional().default(false),
-      isCompactDescription: z.boolean().optional().default(false),
-    }).optional(),
+    session: z
+      .object({
+        type: z
+          .object({
+            isAnother: z.boolean().optional().default(false),
+            isR18: z.boolean().optional().default(false),
+            isR18G: z.boolean().optional().default(false),
+            isDeleted: z.boolean().optional().default(false),
+          })
+          .optional(),
+        storyDate: z.string().optional(),
+        timelineCast: z.string().optional(),
+        cast: z.array(z.string()).optional(),
+      })
+      .optional(),
+    scenario: z
+      .object({
+        title: z.string().optional(),
+        description: z.string().optional(),
+        author: z.string().optional(),
+        distributionName: z.string().optional(),
+        distributionUrl: z.string().optional(),
+        adaptedScenarioUrl: z.string().optional(),
+      })
+      .optional(),
+    custom: z
+      .object({
+        showSmallTitle: z.boolean().optional().default(false),
+        isCompactDescription: z.boolean().optional().default(false),
+      })
+      .optional(),
   }),
 });
 
@@ -150,17 +167,6 @@ const common = defineCollection({
   }),
 });
 
-const othersSections = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/others/sections" }),
-  schema: z.object({
-    order: z.number().int().positive(),
-    slug: z.enum(["settings", "fan-art", "contact"]),
-    label: z.string(),
-    href: z.string(),
-    default: z.boolean().optional().default(false),
-  }),
-});
-
 const othersFanArt = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/others/fanart" }),
   schema: z.object({
@@ -181,12 +187,15 @@ const othersSettings = defineCollection({
       kind: z.literal("material"),
       order: z.number().int().positive(),
       title: z.string(),
-      image: z.string(),
       documentUrl: z.string(),
-      details: z.array(z.object({
-        label: z.string(),
-        value: z.string(),
-      })).optional(),
+      details: z
+        .array(
+          z.object({
+            label: z.string(),
+            value: z.string(),
+          }),
+        )
+        .optional(),
     }),
   ]),
 });
@@ -202,7 +211,6 @@ export const collections = {
   movies,
   home,
   common,
-  othersSections,
   othersFanArt,
   othersSettings,
 };

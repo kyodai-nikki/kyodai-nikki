@@ -24,7 +24,6 @@ scenario:
   author: "蝉"
   distributionName: "pixiv"
   distributionUrl: "https://www.pixiv.net/novel/show.php?id=16790400"
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

@@ -1,7 +1,0 @@
----
-order: 4
-slug: "contact"
-label: "表示ラベル"
-href: "/others/contact"
-default: false
----

@@ -15,14 +15,16 @@ scenario:
   title: "世界の終わりを君と見たい"
   description: |-
     がたんごとん。がたんごとん。
-    ――電車の音で目を覚ます。
+    ──電車の音で目を覚ます。
     千冬が窓の外に視線を向けると、そこには満天の星空が広がっていた。
     真っ黒なキャンバスを、小さな星たちが散らばり、夜空を明るく彩っている。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
-  adaptedScenarioUrl: ""
+
+    「行こうぜ。世界の終わりを見に！」
+    幻想的な星空の下、千秋は屈託のない笑顔を浮かべた。
+  author: "うななん。"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=15902500"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/14qfgBcgQLWASdNMyJpzTR4XIrge9J7FQE2rzIlzee3Q/edit?tab=t.0#heading=h.l001x5tvw5l8"
 custom:
   showSmallTitle: false
   isCompactDescription: false

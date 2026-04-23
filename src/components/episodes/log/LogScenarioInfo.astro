@@ -70,18 +70,14 @@ const sourceLabel = scenario?.distributionName;
       </div>
     )}
 
-    {scenario?.isAdapted && (
+    {scenario?.adaptedScenarioUrl && (
       <div class="episode-log__meta-line">
         <div class="episode-log__meta-inline">
           <dt>{episodesPageMsg.logInfo.adaptedScenario}</dt>
           <dd>
-            {scenario.adaptedScenarioUrl ? (
-              <a href={scenario.adaptedScenarioUrl} target="_blank" rel="noopener">
-                {episodesPageMsg.logInfo.adaptedScenarioLink}
-              </a>
-            ) : (
-              episodesPageMsg.logInfo.yes
-            )}
+            <a href={scenario.adaptedScenarioUrl} target="_blank" rel="noopener">
+              {episodesPageMsg.logInfo.adaptedScenarioLink}
+            </a>
           </dd>
         </div>
       </div>
@@ -199,8 +195,4 @@ const sourceLabel = scenario?.distributionName;
     }
 
     .episode-log__meta-line {
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-  }
-</style>
+   

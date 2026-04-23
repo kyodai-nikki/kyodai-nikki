@@ -1,9 +1,7 @@
 ﻿---
 import Tabs from "../common/Tabs.astro";
-import { orderedOthersSections } from "../../lib/others";
+import { OTHERS_SECTIONS, type OthersSectionSlug } from "../../data/othersSections";
 import { othersPageMsg } from "../../msg/others";
-
-type OthersSectionSlug = "settings" | "fan-art" | "contact";
 
 interface Props {
   currentSection: OthersSectionSlug;
@@ -11,12 +9,11 @@ interface Props {
 
 const { currentSection } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const othersSections = await orderedOthersSections();
 
-const items = othersSections.map((section) => ({
-  label: section.data.label,
-  href: `${base}${section.data.href}`,
-  active: section.data.slug === currentSection,
+const items = OTHERS_SECTIONS.map((section) => ({
+  label: section.label,
+  href: `${base}${section.href}`,
+  active: section.slug === currentSection,
 }));
 ---
 

@@ -24,7 +24,6 @@ scenario:
   author: "もずくうさぎ"
   distributionName: "pixiv"
   distributionUrl: "https://www.pixiv.net/novel/show.php?id=13117028"
-  isAdapted: true
   adaptedScenarioUrl: "https://docs.google.com/document/d/1pWkP3hlUm0JPabZFvfzjZzwPIJoRZxldJngeULjpPdI/edit?tab=t.0#heading=h.ktdj296vpkd4"
 custom:
   showSmallTitle: false

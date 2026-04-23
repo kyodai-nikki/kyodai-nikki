@@ -1,10 +1,10 @@
 ﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { defaultOthersHref } from "../../lib/others";
+import { defaultOthersPath } from "../../data/othersSections";
 import { othersPageMsg } from "../../msg/others";
 
-const target = await defaultOthersHref();
+const target = `${import.meta.env.BASE_URL.replace(/\/$/, "")}${defaultOthersPath()}`;
 ---
 
 <BaseLayout

@@ -10,17 +10,21 @@ session:
     isDeleted: false
   storyDate: "2023.01.21"
   timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "灯路帰譚"
   description: |-
-    すべてを飲み込む漆黒の風景で、千秋は身を寝かせて目を覚ました。
+    すべてを飲み込む漆黒の風景で、千秋は身を震わせて目を覚ました。
     その闇を照らすのは、千冬が握る提灯のひかりのみ。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
-  adaptedScenarioUrl: ""
+
+    行きはよいよい、帰りはこわい。
+    何も見ないで、聞かないで。
+
+    ――千冬と共に、ふたりで帰路を歩み出す。
+  author: "榎日シユ"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=16922246"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/1bHF-Zx6XiMybYFVkdji33FmsSlq1neXxGCp7GdZrHaQ/edit?tab=t.0#heading=h.x4id6a86o6ry"
 custom:
   showSmallTitle: false
   isCompactDescription: false

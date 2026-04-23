@@ -10,17 +10,19 @@ session:
     isDeleted: false
   storyDate: "2023.02.04"
   timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "52Hzの救難信号"
   description: |-
     寒さが身に染みる季節。
     千冬と千秋は、冷え込む夜の中帰り道で、古いレンガ造りの建物に貼られているポスターに目を惹かれた。
-    深い青色のポスターには、『世界でもっとも孤独な鯨』と書かれていた。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
+    深い青色のポスターには、「世界でもっとも孤独な鯨」と書かれていた。
+
+    視界が青に包まれる。泡の音に紛れて音が反響する。巨大な影が頭上を覆う。
+    ──────高い歌声が、聞こえる。
+  author: "ハトざらし"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/1253360"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

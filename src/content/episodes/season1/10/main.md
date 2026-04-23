@@ -10,16 +10,17 @@ session:
     isDeleted: false
   storyDate: "2022.10.24"
   timelineCast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋"]
 scenario:
   title: "死にたがり電車"
   description: |-
     ホームで電車を待っていた千秋。
     ――背後から、声が聞こえた。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
+
+    「命は粗末にするものではありませんよ」
+  author: "ごんずい"
+  distributionName: "pixiv"
+  distributionUrl: "https://www.pixiv.net/novel/show.php?id=6125873"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

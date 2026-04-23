@@ -10,17 +10,19 @@ session:
     isDeleted: false
   storyDate: "2022.11.26"
   timelineCast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "Mess up with Desire !"
   description: |-
     本能が囁く。
     「欲望に忠実であれ」「理性なんて捨てて」
-    「あるがままに生きろ」と。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
+    「あるがままに溺れればいい」
+
+    目の前にいるものにすべて、己の欲を、全て全て全て。
+    ――ああ、君を××したい。
+  author: "ぼー線。"
+  distributionName: "booth"
+  distributionUrl: "https://bo-sentai.booth.pm/items/4018990"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

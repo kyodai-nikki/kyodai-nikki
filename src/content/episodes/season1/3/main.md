@@ -24,7 +24,6 @@ scenario:
   author: "ちまも"
   distributionName: "pixiv"
   distributionUrl: "https://www.pixiv.net/novel/show.php?id=12650542"
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

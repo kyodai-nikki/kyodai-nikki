@@ -16,11 +16,14 @@ scenario:
   description: |-
     「これから先、何があろうとも」
     「ずっと、千冬を愛してる」
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
-  adaptedScenarioUrl: ""
+
+    『愛とは暴力、愛とは加虐、愛とは強欲』
+    『純愛、故に人は＿＿＿である』
+    ────がたんがたん、と電車が近づく音がする。
+  author: "たぬき"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/1687780"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/1KA2dDmccymR2MsOmjI9ym1PvMDxuGcC4JKGv8t04N2I/edit?tab=t.0"
 custom:
   showSmallTitle: false
   isCompactDescription: false

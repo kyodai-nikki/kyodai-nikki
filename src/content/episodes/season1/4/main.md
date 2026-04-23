@@ -25,7 +25,6 @@ scenario:
   author: "にょろ"
   distributionName: "pixiv"
   distributionUrl: "https://www.pixiv.net/novel/show.php?id=19217459"
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

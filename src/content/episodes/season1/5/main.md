@@ -25,7 +25,6 @@ scenario:
   author: "ゆっくり"
   distributionName: "booth"
   distributionUrl: "https://neote-mu.booth.pm/items/3540590"
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

@@ -14,14 +14,16 @@ session:
 scenario:
   title: "ブルー・スターズ・セパレート"
   description: |-
-    ――千冬は今日も水の中にいた。
+    ──千冬は今日も水の中にいた。
     指先はピクリとも動かない。後方に向かってゆっくりと沈んでいき、潰されるような水圧で肺からゴボリと空気が抜ける。
     冷たい水に体温を奪われながら、深い水底へと沈んでいく。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
-  adaptedScenarioUrl: ""
+
+    ……梅雨のある日、千秋と待ち合わせをしていた千冬に通話が届く。
+    その内容は、「千秋は預かった。返してほしければ指示に従え」というものだった。
+  author: "松葉"
+  distributionName: "booth"
+  distributionUrl: "https://warabukiyane.booth.pm/items/2378007"
+  adaptedScenarioUrl: "https://docs.google.com/document/d/1Ks-r5EACI4IpKhWcx_4RpOQ2nhAqrRzc3b1Eb0mPGAk/edit?tab=t.0#heading=h.l001x5tvw5l8"
 custom:
   showSmallTitle: false
   isCompactDescription: false

@@ -6,7 +6,6 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { sortByOrder } from "./common";
 import { withBase } from "./urls";
 
-export type OthersSectionEntry = CollectionEntry<"othersSections">;
 export type OthersFanArtEntry = CollectionEntry<"othersFanArt">;
 export type OthersSettingsEntry = CollectionEntry<"othersSettings">;
 
@@ -23,7 +22,6 @@ export type OthersSettingsMaterialEntry = OthersSettingsEntry & {
     kind: "material";
     order: number;
     title: string;
-    image: string;
     documentUrl: string;
     details?: {
       label: string;
@@ -40,19 +38,10 @@ const isSettingsMaterialEntry = (entry: OthersSettingsEntry): entry is OthersSet
 
 export const settingsCharacterSlug = (entry: OthersSettingsEntry): string => entry.id.split("/")[0];
 
-// Others のタブ定義を表示順で取得する。
-export const orderedOthersSections = async (): Promise<OthersSectionEntry[]> =>
-  sortByOrder(await getCollection("othersSections"));
+const settingsMaterialSlug = (entry: OthersSettingsMaterialEntry): string =>
+  entry.id.split("/")[1]?.replace(/^\d+-/, "") ?? entry.id;
 
-// Others のデフォルト遷移先パスを決める。
-export const defaultOthersPath = (sections: OthersSectionEntry[]): string =>
-  sections.find((section) => section.data.default)?.data.href ?? sections[0]?.data.href ?? "/others";
-
-// Others のデフォルト遷移先 href を base path つきで返す。
-export const defaultOthersHref = async (): Promise<string> =>
-  withBase(defaultOthersPath(await orderedOthersSections()));
-
-// ファンアートコレクションをファイル名の昇順（追加順）で取得する。
+// ファンアートコレクションをファイル名の昇順で取得する。
 export const orderedFanArt = async (): Promise<OthersFanArtEntry[]> => {
   const entries = await getCollection("othersFanArt");
   return [...entries].sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
@@ -79,3 +68,15 @@ export const orderedSettingsMaterials = async (
         isSettingsMaterialEntry(entry) && settingsCharacterSlug(entry) === characterSlug,
     ),
   );
+
+export const settingsMaterialImageSrc = (entry: OthersSettingsMaterialEntry): string => {
+  const characterSlug = settingsCharacterSlug(entry);
+  const materialSlug = settingsMaterialSlug(entry);
+  const imageBaseName = `${characterSlug}-${materialSlug}`;
+  const imageDir = resolve(process.cwd(), "public/images/others/settings");
+  const ext = ["svg", "png", "jpg", "webp"].find((candidate) =>
+    existsSync(resolve(imageDir, `${imageBaseName}.${candidate}`)),
+  ) ?? "png";
+
+  return withBase(`/images/others/settings/${imageBaseName}.${ext}`);
+};

@@ -1,13 +1,13 @@
 ---
 import { getCollection } from "astro:content";
-import { defaultOthersPath, orderedOthersSections } from "../../lib/others";
+import { defaultOthersPath } from "../../data/othersSections";
 import { commonMsg } from "../../msg/common";
 
 const [commonEntry] = await getCollection("common");
 if (!commonEntry) {
   throw new Error("Missing common content");
 }
-const othersPath = defaultOthersPath(await orderedOthersSections());
+const othersPath = defaultOthersPath();
 const site = commonEntry.data;
 const base = import.meta.env.BASE_URL;
 const withBase = (p: string) => `${base.replace(/\/$/, "")}${p}`;

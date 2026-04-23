@@ -18,7 +18,6 @@ scenario:
   author: "ヴォンボ"
   distributionName: "個人サイト"
   distributionUrl: "https://unknowndevil.fc2.page/callofcthulhu-free-kiminodou/"
-  isAdapted: false
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false

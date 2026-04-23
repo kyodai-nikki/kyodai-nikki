@@ -10,16 +10,20 @@ session:
     isDeleted: false
   storyDate: "2023.04.06"
   timelineCast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)"
-  cast: ["染谷千冬", "染谷千秋"]
+  cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "おはよう、世界。"
   description: |-
     どこにいても、あいしていたい。
     どこにいたって、あいされたい。
-  author: ""
-  distributionName: ""
-  distributionUrl: ""
-  isAdapted: false
+
+    ――眠りに落ちる瞬間、「××になってみない？」という声が聞こえた。
+    千秋は、××になった。
+
+    千秋にとっての世界とは、千冬だ。
+  author: "三途川よみち"
+  distributionName: "booth"
+  distributionUrl: "https://booth.pm/ja/items/2639489"
   adaptedScenarioUrl: ""
 custom:
   showSmallTitle: false
