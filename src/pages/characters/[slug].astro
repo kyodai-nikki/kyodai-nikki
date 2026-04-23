@@ -4,26 +4,20 @@ import PageHeading from "../../components/common/PageHeading.astro";
 import {
   characterHref,
   characterStandingSrc,
+  getCharacterStaticPaths,
   orderedCharacters,
   type CharacterEntry,
 } from "../../lib/characters";
 import { charactersPageMsg } from "../../msg/characters";
 
-export async function getStaticPaths() {
-  const characters = await orderedCharacters();
-
-  return characters.map((c) => ({
-    params: { slug: c.id },
-    props: { character: c },
-  }));
-}
+export const getStaticPaths = getCharacterStaticPaths;
 
 const { character } = Astro.props as { character: CharacterEntry };
 const characters = await orderedCharacters();
 ---
 <BaseLayout
-  title={`${character.data.name} | Characters`}
-  description={charactersPageMsg.detailDescription(character.data.name, character.data.furigana)}
+  title={charactersPageMsg.detailPageTitle(character.data.name)}
+  description={charactersPageMsg.detailDescription(character.data.name, character.data.nameKana)}
 >
   <PageHeading slot="page-heading" title={charactersPageMsg.title} />
   <nav slot="page-tabs" class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
@@ -40,6 +34,11 @@ const characters = await orderedCharacters();
   <article class="char-detail">
     <div class="char-detail__inner">
       <div class="char-portrait">
+        {character.data.quote && (
+          <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
+            {character.data.quote}
+          </div>
+        )}
         <img
           src={characterStandingSrc(character)}
           alt={charactersPageMsg.standingAlt(character.data.name)}
@@ -47,16 +46,10 @@ const characters = await orderedCharacters();
         />
       </div>
 
-      {character.data.quote && (
-        <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
-          {character.data.quote}
-        </div>
-      )}
-
       <div class="char-info">
         <header class="char-info__header">
           <h2 class="char-info__name">{character.data.name}</h2>
-          <span class="char-info__furigana">{character.data.furigana}</span>
+          <span class="char-info__name-kana">{character.data.nameKana}</span>
         </header>
 
           <p class="char-info__description">
@@ -73,7 +66,7 @@ const characters = await orderedCharacters();
 
           {character.data.externalLink && (
             <p class="char-info__external">
-              窶ｻ <a href={character.data.externalLink} target="_blank" rel="noopener">
+              {charactersPageMsg.externalStatusIcon} <a href={character.data.externalLink} target="_blank" rel="noopener">
                 {charactersPageMsg.externalStatusLink}
               </a>
             </p>
@@ -89,7 +82,7 @@ const characters = await orderedCharacters();
     justify-content: center;
     flex-wrap: wrap;
     gap: clamp(var(--s-5), 5vw, var(--s-8));
-    padding-bottom: var(--s-3);
+    margin-bottom: var(--m-l30);
   }
   .chars-tabs a {
     font-family: var(--font-family-navigation);
@@ -130,10 +123,10 @@ const characters = await orderedCharacters();
   .char-detail {
     max-width: 1040px;
     margin: 0 auto;
-    border: 1px solid var(--c-border);
+    border: 1px solid var(--c-fg);
     border-radius: var(--r-md);
     background: #ffffff;
-    padding: clamp(var(--s-5), 4vw, var(--s-8));
+    padding: 0 clamp(var(--s-5), 4vw, var(--s-8));
     overflow: hidden;
   }
 
@@ -179,16 +172,18 @@ const characters = await orderedCharacters();
     -webkit-writing-mode: vertical-rl;
     font-family: var(--f-serif);
     font-size: var(--fs-base);
-    line-height: 2.0;
+    line-height: 1.5;
     color: var(--c-fg);
     letter-spacing: 0.08em;
     white-space: pre-wrap;
     align-self: end;
     max-height: 460px;
+    font-size: 24px;
   }
 
   .char-info {
     grid-column: 3;
+    padding: clamp(var(--s-4), 3vw, var(--s-6)) 0;
     display: flex;
     flex-direction: column;
     gap: var(--s-4);
@@ -201,7 +196,7 @@ const characters = await orderedCharacters();
     justify-content: space-between;
     gap: var(--s-4);
     padding-bottom: var(--s-3);
-    border-bottom: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-fg);
   }
   .char-info__name {
     font-family: var(--f-serif);
@@ -210,7 +205,7 @@ const characters = await orderedCharacters();
     margin: 0;
     letter-spacing: 0.04em;
   }
-  .char-info__furigana {
+  .char-info__name-kana {
     font-family: var(--f-serif);
     font-size: var(--fs-xs);
     color: var(--c-fg-muted);
@@ -221,7 +216,7 @@ const characters = await orderedCharacters();
   .char-info__description {
     margin: 0;
     padding-bottom: var(--s-4);
-    border-bottom: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-fg);
     font-family: var(--f-serif);
     font-size: var(--fs-sm);
     line-height: 1.9;
@@ -235,7 +230,7 @@ const characters = await orderedCharacters();
     gap: var(--s-2) var(--s-5);
     margin: 0;
     padding-bottom: var(--s-4);
-    border-bottom: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-fg);
     font-family: var(--f-serif);
     font-size: var(--fs-sm);
     color: var(--c-fg-body);
@@ -289,13 +284,4 @@ const characters = await orderedCharacters();
       writing-mode: horizontal-tb;
       -webkit-writing-mode: horizontal-tb;
       max-height: none;
-      text-align: center;
-      border-top: 1px solid var(--c-border);
-      border-bottom: 1px solid var(--c-border);
-      padding: var(--s-4) 0;
-    }
-    .char-info {
-      grid-column: 1;
-    }
-  }
-</style>
+ 

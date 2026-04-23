@@ -4,7 +4,7 @@ name: "染谷千冬"
 materials:
   - id: "chifuyu-expression"
     title: "千冬 - 表情差分"
-    image: "/images/others/chifuyu-expression.svg"
+    image: "/images/others/settings/chifuyu-expression.svg"
     documentUrl: "https://drive.google.com/file/d/chifuyu-expression/view"
     details:
       - label: "カテゴリ"
@@ -13,7 +13,7 @@ materials:
         value: "Google Drive"
   - id: "chifuyu-standing"
     title: "千冬 - 立ち絵"
-    image: "/images/others/chifuyu-standing.svg"
+    image: "/images/others/settings/chifuyu-standing.svg"
     documentUrl: "https://drive.google.com/file/d/chifuyu-standing/view"
     details:
       - label: "カテゴリ"

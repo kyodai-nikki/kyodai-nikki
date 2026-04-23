@@ -80,9 +80,7 @@ const characters = defineCollection({
   schema: z.object({
     order: z.number().int().positive(),
     name: z.string(),
-    furigana: z.string(),
-    portrait: z.string(),
-    standing: z.string(),
+    nameKana: z.string(),
     quote: z.string().optional().default(""),
     description: z.string(),
     age: z.string(),
@@ -98,12 +96,10 @@ const gallery = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/gallery" }),
   schema: z.object({
     order: z.number().int().positive(),
-    src: z.string(),
     alt: z.string(),
     caption: z.string().optional(),
     title: z.string().optional(),
     description: z.string().optional(),
-    detailSrcs: z.array(z.string()).optional(),
     creditName: z.string().optional(),
     creditUrl: z.string().optional(),
     twitterId: z.string().optional(),
@@ -114,11 +110,8 @@ const gallery = defineCollection({
 const goods = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/goods" }),
   schema: z.object({
-    order: z.number().int().positive(),
     title: z.string(),
     url: z.string().optional(),
-    image: z.string(),
-    detailImage: z.string().optional(),
     description: z.string().optional(),
     saleLabel: z.string().optional(),
     buttonLabel: z.string().optional(),
@@ -138,7 +131,6 @@ const movies = defineCollection({
 const home = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/home" }),
   schema: z.object({
-    image: z.string(),
     title: z.string(),
     startDate: z.string(),
     status: z.string(),
@@ -172,9 +164,7 @@ const othersSections = defineCollection({
 const othersFanArt = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/others/fanart" }),
   schema: z.object({
-    order: z.number().int().positive(),
     title: z.string(),
-    image: z.string(),
     url: z.string(),
   }),
 });
@@ -187,7 +177,6 @@ const othersSettings = defineCollection({
     materials: z.array(z.object({
       id: z.string(),
       title: z.string(),
-      image: z.string(),
       documentUrl: z.string(),
       details: z.array(z.object({
         label: z.string(),

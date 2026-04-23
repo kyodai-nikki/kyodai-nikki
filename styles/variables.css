@@ -11,15 +11,15 @@
   /* 基調：純白 + 濃墨。線や meta はごく薄いグレーで締める */
   --c-bg: #ffffff;
   --c-bg-elev: #ffffff;
-  --c-bg-muted: #f5f5f5;       /* セクション背景を少しだけ落としたい時 */
+  --c-bg-muted: #f5f5f5; /* セクション背景を少しだけ落としたい時 */
 
-  --c-fg: #111111;             /* 見出し・強いテキスト */
-  --c-fg-body: #2a2a2a;        /* 本文 */
-  --c-fg-muted: #8a8a8a;       /* meta / 補助 */
-  --c-fg-subtle: #b5b5b5;      /* disabled / プレースホルダ */
+  --c-fg: #111111; /* 見出し・強いテキスト */
+  --c-fg-body: #2a2a2a; /* 本文 */
+  --c-fg-muted: #8a8a8a; /* meta / 補助 */
+  --c-fg-subtle: #b5b5b5; /* disabled / プレースホルダ */
 
-  --c-border: #e5e5e5;         /* デフォルト罫線（ごく薄い） */
-  --c-border-strong: #cfcfcf;  /* hover やフォーカス時 */
+  --c-border: #e5e5e5; /* デフォルト罫線（ごく薄い） */
+  --c-border-strong: #cfcfcf; /* hover やフォーカス時 */
 
   /* アクセントは設けず、本文色を使い回す（兄弟日記のモノクロ感を優先） */
   --c-accent: #111111;
@@ -38,13 +38,14 @@
 
   /* Typography ------------------------------------------- */
   --f-sans:
-    "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans",
-    "Yu Gothic", "Meiryo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    "Abhaya Libre", "Noto Sans JP", "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
   --f-serif:
-    "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Mincho",
-    Georgia, "Times New Roman", serif;
+    "Abhaya Libre", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho",
+    "MS Mincho", Georgia, "Times New Roman", serif;
   --f-mono:
-    "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+    "Abhaya Libre", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
 
   /* Font roles ------------------------------------------- */
   --font-family-other: var(--f-sans);
@@ -54,18 +55,18 @@
   --font-family-log-heading: var(--f-serif);
   --font-family-navigation: var(--f-serif);
 
-  --fs-xs: 0.75rem;    /* 12px */
-  --fs-sm: 0.8125rem;  /* 13px — ナビ・meta に多用 */
-  --fs-base: 1rem;     /* 16px */
-  --fs-lg: 1.125rem;   /* 18px */
-  --fs-xl: 1.375rem;   /* 22px */
-  --fs-2xl: 1.75rem;   /* 28px */
-  --fs-3xl: 2.25rem;   /* 36px */
-  --fs-4xl: 3.25rem;   /* 52px — ヒーローの 兄弟日記 ロゴ想定 */
+  --fs-xs: 0.75rem; /* 12px */
+  --fs-sm: 0.8125rem; /* 13px — ナビ・meta に多用 */
+  --fs-base: 1rem; /* 16px */
+  --fs-lg: 1.125rem; /* 18px */
+  --fs-xl: 1.375rem; /* 22px */
+  --fs-2xl: 1.75rem; /* 28px */
+  --fs-3xl: 2.25rem; /* 36px */
+  --fs-4xl: 3.25rem; /* 52px — ヒーローの 兄弟日記 ロゴ想定 */
 
   --lh-tight: 1.2;
   --lh-normal: 1.7;
-  --lh-loose: 2.0;     /* 本文・ログ用。日本語の読みやすさ重視 */
+  --lh-loose: 2; /* 本文・ログ用。日本語の読みやすさ重視 */
 
   --fw-regular: 400;
   --fw-medium: 500;
@@ -77,6 +78,14 @@
   --ls-normal: 0;
   --ls-wide: 0.08em;
   --ls-wider: 0.16em;
+
+  /* Spacing (4px ベース) -------------------------------- */
+  --m-xs: 4px;
+  --m-s: 8px;
+  --m-m: 16px;
+  --m-l: 24px;
+  --m-l30: 30px;
+  --m-xl: 48px;
 
   /* Spacing (4px ベース) -------------------------------- */
   --s-1: 0.25rem;
@@ -91,7 +100,7 @@
   --s-10: 8rem;
 
   /* Radius ----------------------------------------------- */
-  --r-sm: 2px;     /* 基本的に角丸は控えめ */
+  --r-sm: 2px; /* 基本的に角丸は控えめ */
   --r-md: 4px;
   --r-lg: 8px;
   --r-full: 9999px;
@@ -103,8 +112,8 @@
   --sh-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
 
   /* Layout widths --------------------------------------- */
-  --w-content: 68ch;      /* 本文・ログ本体（読み物向け幅） */
-  --w-wide: 1200px;       /* カードグリッド等 */
+  --w-content: 68ch; /* 本文・ログ本体（読み物向け幅） */
+  --w-wide: 1200px; /* カードグリッド等 */
   --w-narrow: 52ch;
   --w-full: 100%;
 

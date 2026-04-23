@@ -2,8 +2,7 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
-import { orderedFanArt } from "../../../lib/others";
-import { withBase } from "../../../lib/urls";
+import { fanArtImageSrc, orderedFanArt } from "../../../lib/others";
 import { othersPageMsg } from "../../../msg/others";
 
 const fanArt = await orderedFanArt();
@@ -29,7 +28,7 @@ const fanArt = await orderedFanArt();
             <div class="others-fanart__image-wrap">
               <img
                 class="others-fanart__image"
-                src={withBase(item.data.image)}
+                src={fanArtImageSrc(item)}
                 alt={item.data.title}
                 loading="lazy"
                 width="640"
@@ -100,4 +99,3 @@ const fanArt = await orderedFanArt();
       min-height: auto;
     }
   }
-</style>

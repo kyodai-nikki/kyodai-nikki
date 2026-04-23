@@ -2,7 +2,6 @@
 # Copy this file to `NN-slug.md`.
 # Example: `05-new-item.md`
 
-order: 5
 title: "商品名"
 url: "https://example.booth.pm/items/new-item"
 image: "/images/goods/new-item-thumb.jpg"

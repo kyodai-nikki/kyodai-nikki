@@ -1,3 +1,6 @@
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
+
 import { getCollection, type CollectionEntry } from "astro:content";
 
 import { sortByOrder } from "./common";
@@ -19,9 +22,19 @@ export const defaultOthersPath = (sections: OthersSectionEntry[]): string =>
 export const defaultOthersHref = async (): Promise<string> =>
   withBase(defaultOthersPath(await orderedOthersSections()));
 
-// ファンアートコレクションを表示順で取得する。
-export const orderedFanArt = async (): Promise<OthersFanArtEntry[]> =>
-  sortByOrder(await getCollection("othersFanArt"));
+// ファンアートコレクションをファイル名の昇順（追加順）で取得する。
+export const orderedFanArt = async (): Promise<OthersFanArtEntry[]> => {
+  const entries = await getCollection("othersFanArt");
+  return [...entries].sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
+};
+
+// ファンアート画像のパスを base path つきで返す。
+// images/others/fanart/{id}.jpg が存在すれば jpg、なければ png を返す。
+export const fanArtImageSrc = (entry: OthersFanArtEntry): string => {
+  const jpgPath = resolve(process.cwd(), "public/images/others/fanart", `${entry.id}.jpg`);
+  const ext = existsSync(jpgPath) ? "jpg" : "png";
+  return withBase(`/images/others/fanart/${entry.id}.${ext}`);
+};
 
 // 設定資料のキャラクターコレクションを表示順で取得する。
 export const orderedSettingsCharacters = async (): Promise<OthersSettingsEntry[]> =>

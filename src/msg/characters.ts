@@ -1,7 +1,8 @@
 export const charactersPageMsg = {
   title: "Characters",
   description: "兄弟日記 登場キャラクター紹介。",
-  detailDescription: (name: string, furigana: string) => `${name}（${furigana}）のキャラクター紹介。`,
+  detailPageTitle: (name: string) => `${name} | Characters`,
+  detailDescription: (name: string, nameKana: string) => `${name}（${nameKana}）のキャラクター紹介。`,
   tabsAriaLabel: "キャラクター切替",
   standingAlt: (name: string) => `${name} 立ち絵`,
   quoteAriaLabel: "代表的な台詞",
@@ -12,5 +13,6 @@ export const charactersPageMsg = {
     weight: "体重",
     birthday: "誕生日",
   },
+  externalStatusIcon: "▼",
   externalStatusLink: "他ステータス（外部サイト）",
 } as const;

@@ -1,9 +1,7 @@
 ---
 order: 2
 name: "染谷千冬"
-furigana: "そめや ちふゆ"
-portrait: "/images/characters/chifuyu-portrait.jpg"
-standing: "/images/characters/chifuyu-standing.png"
+nameKana: "そめや ちふゆ"
 quote: |-
   「俺も、千秋を信じるから。
   だから千秋も、俺を信じてくれ」

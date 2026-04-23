@@ -2,16 +2,16 @@
 
 キャラクターの画像を置くフォルダです。
 
-## 必要なファイル
+## 概要
 
-現在 `src/data/characters.ts` に登録されている 4 キャラ分：
+contents/characters/{fileName}.md の画像を置く場所
 
-| slug | 一覧サムネ（縦長） | 詳細ページ立ち絵（透過 PNG 推奨） |
-|---|---|---|
-| chiaki | `chiaki-portrait.jpg` | `chiaki-standing.png` |
-| chifuyu | `chifuyu-portrait.jpg` | `chifuyu-standing.png` |
-| akito | `akito-portrait.jpg` | `akito-standing.png` |
-| kujo | `kujo-portrait.jpg` | `kujo-standing.png` |
+| slug    | 一覧サムネ（縦長） | 詳細ページ立ち絵（透過 PNG 推奨） |
+| ------- | ------------------ | --------------------------------- |
+| chiaki  | `portrait.jpg`     | `standing.png`                    |
+| chifuyu | `portrait.jpg`     | `standing.png`                    |
+| akito   | `portrait.jpg`     | `standing.png`                    |
+| kujo    | `portrait.jpg`     | `standing.png`                    |
 
 ## 推奨サイズ
 

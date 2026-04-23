@@ -1,10 +1,9 @@
 ﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import { characterHref, dummyPortraitSrc, orderedCharacters } from "../../lib/characters";
+import { characterHref, characterPortraitSrc, orderedCharacters } from "../../lib/characters";
 import { charactersPageMsg } from "../../msg/characters";
 
-const dummyPortrait = dummyPortraitSrc();
 const characters = await orderedCharacters();
 ---
 <BaseLayout title={charactersPageMsg.title} description={charactersPageMsg.description}>
@@ -16,7 +15,7 @@ const characters = await orderedCharacters();
         <a href={characterHref(c)} aria-label={c.data.name}>
           <div class="chars-card__img-wrap">
             <img
-              src={dummyPortrait}
+              src={characterPortraitSrc(c)}
               alt={c.data.name}
               loading="lazy"
               class="chars-card__img"

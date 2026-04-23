@@ -7,8 +7,8 @@ import {
   galleryDetailImages,
   galleryModalDescription,
   galleryModalTitle,
+  gallerySrc,
 } from "../../lib/gallery";
-import { withBase } from "../../lib/urls";
 import { commonMsg } from "../../msg/common";
 import { galleryPageMsg } from "../../msg/gallery";
 
@@ -43,7 +43,7 @@ const displayedImages = await displayedGalleryImages();
               style={`--delay:${index * 30}ms;`}
             >
               <img
-                src={withBase(img.src)}
+                src={gallerySrc(entry)}
                 alt={img.alt}
                 loading="lazy"
                 width="640"

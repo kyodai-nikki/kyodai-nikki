@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import MediaModal from "../../components/common/MediaModal.astro";
-import { goodsActions, goodsDetailImage, goodsImage, orderedGoods } from "../../lib/goods";
+import { goodsActions, goodsDetailImages, goodsImage, orderedGoods } from "../../lib/goods";
 import { commonMsg } from "../../msg/common";
 import { goodsPageMsg } from "../../msg/goods";
 
@@ -50,14 +50,14 @@ const goods = await orderedGoods();
 
       {goods.map((entry, index) => {
         const item = entry.data;
-        const detailImg = goodsDetailImage(entry);
+        const detailImgs = goodsDetailImages(entry);
         const actions = goodsActions(entry, goodsPageMsg.salePage);
         return (
           <MediaModal
             id={`goods-modal-${index}`}
             title={item.title}
             description={item.description}
-            images={[{ src: detailImg, alt: item.title }]}
+            images={detailImgs}
             imageMaxWidth="530px"
             actions={actions}
             closeLabel={item.buttonLabel}

@@ -1,9 +1,7 @@
 ---
 order: 3
 name: "深山彰人"
-furigana: "みやま あきと"
-portrait: "/images/characters/akito-portrait.jpg"
-standing: "/images/characters/akito-standing.png"
+nameKana: "みやま あきと"
 quote: ""
 description: |-
   建築専門学校の一年。千冬のクラスメイト。

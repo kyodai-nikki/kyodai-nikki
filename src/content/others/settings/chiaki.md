@@ -4,7 +4,7 @@ name: "染谷千秋"
 materials:
   - id: "chiaki-setting-sheet"
     title: "千秋 - 設定画"
-    image: "/images/others/chiaki-setting-sheet.svg"
+    image: "/images/others/settings/chiaki-setting-sheet.svg"
     documentUrl: "https://drive.google.com/file/d/chiaki-setting-sheet/view"
     details:
       - label: "カテゴリ"
@@ -13,7 +13,7 @@ materials:
         value: "Google Drive"
   - id: "chiaki-expression-03"
     title: "千秋 - 表情差分③"
-    image: "/images/others/chiaki-expression-03.svg"
+    image: "/images/others/settings/chiaki-expression-03.svg"
     documentUrl: "https://drive.google.com/file/d/chiaki-expression-03/view"
     details:
       - label: "カテゴリ"
@@ -22,7 +22,7 @@ materials:
         value: "ダミー画像"
   - id: "chiaki-expression-02"
     title: "千秋 - 表情差分②"
-    image: "/images/others/chiaki-expression-02.svg"
+    image: "/images/others/settings/chiaki-expression-02.svg"
     documentUrl: "https://drive.google.com/file/d/chiaki-expression-02/view"
     details:
       - label: "カテゴリ"
@@ -31,7 +31,7 @@ materials:
         value: "ダミー画像"
   - id: "chiaki-expression-01"
     title: "千秋 - 表情差分①"
-    image: "/images/others/chiaki-expression-01.svg"
+    image: "/images/others/settings/chiaki-expression-01.svg"
     documentUrl: "https://drive.google.com/file/d/chiaki-expression-01/view"
     details:
       - label: "カテゴリ"
@@ -40,7 +40,7 @@ materials:
         value: "ダミー画像"
   - id: "chiaki-standing"
     title: "千秋 - 立ち絵"
-    image: "/images/others/chiaki-standing.svg"
+    image: "/images/others/settings/chiaki-standing.svg"
     documentUrl: "https://drive.google.com/file/d/chiaki-standing/view"
     details:
       - label: "カテゴリ"

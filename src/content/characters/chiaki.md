@@ -1,9 +1,7 @@
 ---
 order: 1
 name: "染谷千秋"
-furigana: "そめや ちあき"
-portrait: "/images/characters/chiaki-portrait.jpg"
-standing: "/images/characters/chiaki-standing.png"
+nameKana: "そめや ちあき"
 quote: |-
   「好きだよ。
   千冬のためなら何でもできる。

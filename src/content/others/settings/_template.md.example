@@ -4,7 +4,7 @@ name: "キャラクター名"
 materials:
   - id: "sample-material"
     title: "資料タイトル"
-    image: "/images/others/sample.svg"
+    image: "/images/others/settings/sample.svg"
     documentUrl: "https://drive.google.com/file/d/sample/view"
     details:
       - label: "カテゴリ"

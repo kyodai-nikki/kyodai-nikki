@@ -83,7 +83,7 @@ const logHref = current
   </ol>
 
   {current ? (
-    <article class={detailClass} aria-live="polite">
+    <article id="ep-detail" class={detailClass} aria-live="polite">
       <div class="ep-detail__image-wrap">
         <img
           class="ep-detail__image"
@@ -375,17 +375,26 @@ const logHref = current
 </style>
 
 <script>
-  (() => {
+  const initEpisodesNavigator = () => {
+    // リスト内の選択中エピソードが見えるようにリストをスクロール
     const list = document.querySelector(".ep-list");
-    if (!(list instanceof HTMLElement)) return;
+    if (list instanceof HTMLElement) {
+      const selected = list.querySelector(".ep-item--selected");
+      if (selected instanceof HTMLElement) {
+        const li = selected.closest("li");
+        if (li instanceof HTMLElement) {
+          list.scrollTop = li.offsetTop - list.offsetTop;
+        }
+      }
+    }
 
-    const selected = list.querySelector(".ep-item--selected");
-    if (!(selected instanceof HTMLElement)) return;
+    // モバイルではリストの下に詳細が表示されるのでページをスクロール
+    const detail = document.querySelector("#ep-detail");
+    if (detail instanceof HTMLElement && window.matchMedia("(max-width: 880px)").matches) {
+      detail.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
-    const li = selected.closest("li");
-    if (!(li instanceof HTMLElement)) return;
-
-    const target = li.offsetTop - list.offsetTop;
-    list.scrollTop = target;
-  })();
+  // ClientRouter 対応: ページ遷移のたびに実行
+  document.addEventListener("astro:page-load", initEpisodesNavigator);
 </script>

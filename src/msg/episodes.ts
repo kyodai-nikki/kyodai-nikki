@@ -12,6 +12,8 @@ export const episodesPageMsg = {
   logSuffix: "のログ",
   logNavigation: "ログナビゲーション",
   deletedCanonBadge: "削除史実",
+  previousEpisodeArrow: "‹",
+  nextEpisodeArrow: "›",
   previousEpisodeMove: "前の話へ移動",
   nextEpisodeMove: "次の話へ移動",
   detailImageAlt: (title: string) => `${title} main visual`,

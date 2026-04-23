@@ -1,9 +1,7 @@
 ---
 order: 4
 name: "九条"
-furigana: "くじょう"
-portrait: "/images/characters/kujo-portrait.jpg"
-standing: "/images/characters/kujo-standing.png"
+nameKana: "くじょう"
 quote: ""
 description: |-
   千秋の裏バイトの同僚。
