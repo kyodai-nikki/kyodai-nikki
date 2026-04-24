@@ -1,0 +1,22 @@
+---
+# Copy this file to `<slug>.md`.
+# Example: `new-character.md`
+
+order: 5
+name: "表示名"
+nameKana: "ふりがな"
+# portrait と standing は images/characters/<ファイル名>/ 配下の
+# portrait.png / standing.png が自動で使われます。
+# ここに記載不要です。
+quote: |-
+  「ここに台詞を入れます」
+description: |-
+  紹介文を入れます。
+  改行もそのまま反映されます。
+age: "?"
+gender: "?"
+height: "?"
+weight: "?"
+birthday: "?"
+externalLink: ""
+---

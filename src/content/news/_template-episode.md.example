@@ -1,0 +1,16 @@
+---
+kind: "episode"
+
+# エピソード更新用テンプレート
+# 特定のエピソードに遷移させたい際に利用してください。
+# 
+# テンプレートファイルをコピーし、ファイル名を「YYYYMMDD-episode{slug}.md」に変更してください。更新日はファイル名から自動的に算出されます。
+#   Example: `20260501-episode{n}.md`
+#   ※ 必ずこの命名に従う必要はありませんが、エピソードの連番やサイトの更新を分かりやすくするためこの運用としています。
+# お知らせしたいログのURL（season{X}/{Y}）からseasonとepisodeUrlSlugを指定してください。
+# season:{X}
+# episodeUrlSlug:{Y}
+
+season: 4
+episodeUrlSlug: 5
+---
