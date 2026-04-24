@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Button from "../../../components/common/btn/Button.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
 import {
@@ -24,7 +25,9 @@ const grouped = await groupedEpisodesTimeline();
         <ol class="tl-side__list">
           {seasons.map((s) => (
             <li>
-              <a class="tl-side__btn" href={`#${s.slug}`}>{s.label}</a>
+              <Button class="tl-side__btn" href={`#${s.slug}`} type="white" size="xl">
+                {s.label}
+              </Button>
             </li>
           ))}
         </ol>
@@ -43,15 +46,17 @@ const grouped = await groupedEpisodesTimeline();
               <ol class="tl-rows">
                 {items.map((e) => {
                   const cls = ["tl-row"];
-                  if (e.isAnother) cls.push("tl-row--alt");
+                  if (e.type !== "normal") cls.push("tl-row--alt");
+                  if (e.type === "another") cls.push("tl-row--another");
+                  if (e.type === "deleted") cls.push("tl-row--deleted");
                   if (e.smallText) cls.push("tl-row--sm");
                   return (
                     <li class={cls.join(" ")}>
                       <a class="tl-row__card" href={basePath + timelineEpisodeHref(e)}>
                         <span class="tl-row__no">{timelineEpisodeNumberLabel(e)}</span>
                         <span class="tl-row__title">{e.title}</span>
-                        {e.isAnother && <span class="tl-row__tag">{episodesPageMsg.alternateTag}</span>}
                       </a>
+                      <span class="tl-row__rail" aria-hidden="true"></span>
                       <div class="tl-row__meta">
                         {e.date && <div class="tl-row__date">{e.date}</div>}
                         {e.cast && <div class="tl-row__cast">{e.cast}</div>}
@@ -69,17 +74,31 @@ const grouped = await groupedEpisodesTimeline();
 
 <style>
   .tl-layout {
+    --tl-side-width: 220px;
+    --tl-gap: 32px;
     display: grid;
-    grid-template-columns: 200px minmax(0, 1fr);
-    gap: clamp(var(--s-4), 4vw, var(--s-7));
+    grid-template-columns: var(--tl-side-width) minmax(0, 1fr);
+    gap: var(--tl-gap);
     align-items: start;
-    max-width: 1100px;
+    max-width: 1130px;
     margin: 0 auto;
+    position: relative;
+  }
+  .tl-layout::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(var(--tl-side-width) + (var(--tl-gap) / 2) - 1px);
+    width: 1px;
+    background: rgba(32, 32, 32, 0.7);
+    transform: translateX(-0.5px);
   }
 
   .tl-side {
     position: sticky;
-    top: var(--s-5);
+    top: calc(var(--h-header-top) + var(--h-header-nav) + var(--s-4));
+    padding: 0;
   }
   .tl-side__list {
     list-style: none;
@@ -89,47 +108,41 @@ const grouped = await groupedEpisodesTimeline();
     flex-direction: column;
     gap: var(--s-3);
   }
-  .tl-side__btn {
-    display: block;
-    padding: var(--s-3) var(--s-4);
-    background: #ffffff;
-    border: 1px solid var(--c-border);
-    color: var(--c-fg);
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    letter-spacing: var(--ls-wide);
-    text-decoration: none;
-    text-align: center;
-    transition: background var(--dur-fast) var(--ease-out),
-                border-color var(--dur-fast) var(--ease-out);
-  }
-  .tl-side__btn:hover,
-  .tl-side__btn:focus-visible {
-    background: var(--c-bg-muted);
-    border-color: var(--c-border-strong);
+  :global(.tl-side__btn) {
+    --button-hover-bg: var(--c-bg-muted);
+    --button-hover-border-color: var(--c-border-strong);
+    --button-hover-color: var(--c-fg);
+    --button-hover-transform: translateY(-1px);
+
+    width: 100%;
   }
 
   .tl-main {
     display: flex;
     flex-direction: column;
-    gap: var(--s-7);
+    gap: clamp(var(--s-6), 4vw, var(--s-8));
+    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    border: 1px solid rgba(32, 32, 32, 0.7);
+    background: rgba(255, 255, 255, 0.82);
   }
   .tl-season {
-    scroll-margin-top: var(--s-5);
+    scroll-margin-top: calc(var(--h-header-top) + var(--h-header-nav) + var(--s-5));
   }
   .tl-season__head {
     background: var(--c-site-cyan);
     color: #ffffff;
-    padding: var(--s-3) var(--s-4);
+    padding: var(--s-4) var(--s-5);
     margin-bottom: var(--s-5);
+    border-radius: 12px;
   }
   .tl-season__head h2 {
     margin: 0;
     text-align: center;
     font-family: var(--f-serif);
-    font-size: var(--fs-base);
+    font-size: 20px;
     font-weight: var(--fw-bold);
     letter-spacing: var(--ls-wide);
+    color: #ffffff;
   }
   .tl-season__empty {
     color: var(--c-fg-muted);
@@ -138,136 +151,152 @@ const grouped = await groupedEpisodesTimeline();
   }
 
   .tl-rows {
+    --tl-row-gap: var(--s-3);
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-  }
-  .tl-rows::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 1px;
-    background: var(--c-border);
-    transform: translateX(-0.5px);
+    display: flex;
+    flex-direction: column;
+    gap: var(--tl-row-gap);
   }
   .tl-row {
-    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: var(--s-5);
+    grid-template-columns: minmax(220px, 380px) 72px minmax(220px, 1fr);
+    column-gap: 0;
     align-items: center;
-    padding: var(--s-3) 0;
-    min-height: 76px;
-  }
-
-  .tl-row::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 9px;
-    height: 9px;
-    background: #ffffff;
-    border: 2px solid var(--c-fg);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
+    min-height: 124px;
   }
 
   .tl-row__card {
     grid-column: 1;
     justify-self: end;
-    display: inline-flex;
-    align-items: center;
-    gap: var(--s-3);
-    max-width: 100%;
-    padding: var(--s-3) var(--s-4);
+    position: relative;
+    z-index: 1;
+    width: min(100%, 380px);
+    min-height: 90px;
+    padding: var(--s-4) var(--s-5);
     background: #ffffff;
-    border: 1px solid var(--c-border);
+    border: 1px solid rgba(32, 32, 32, 0.9);
     color: var(--c-fg);
     text-decoration: none;
-    font-family: var(--f-serif);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--s-2);
+    text-align: center;
     transition: background var(--dur-fast) var(--ease-out),
-                border-color var(--dur-fast) var(--ease-out);
+                border-color var(--dur-fast) var(--ease-out),
+                transform var(--dur-fast) var(--ease-out),
+                box-shadow var(--dur-fast) var(--ease-out);
   }
   .tl-row__card:hover,
   .tl-row__card:focus-visible {
     background: var(--c-bg-muted);
     border-color: var(--c-border-strong);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
   }
   .tl-row__no {
-    font-family: var(--f-mono);
-    font-size: var(--fs-xs);
-    color: var(--c-fg-muted);
-    letter-spacing: var(--ls-wide);
+    font-family: var(--f-serif);
+    font-size: 16px;
+    color: var(--c-fg);
+    letter-spacing: 0.04em;
     white-space: nowrap;
+    line-height: 1;
   }
   .tl-row__title {
-    font-size: var(--fs-base);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    font-family: var(--f-serif);
+    font-size: 20px;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
   }
-  .tl-row--sm .tl-row__title { font-size: var(--fs-sm); }
-  .tl-row__tag {
-    display: none;
+
+  .tl-row__rail {
+    grid-column: 2;
+    display: block;
+    align-self: stretch;
+    justify-self: center;
+    position: relative;
+    width: 72px;
+    z-index: 2;
+  }
+  .tl-row__rail::before {
+    content: "";
+    position: absolute;
+    top: calc(var(--tl-row-gap) * -0.5);
+    bottom: calc(var(--tl-row-gap) * -0.5);
+    left: 50%;
+    width: 4px;
+    background: #9f9f9f;
+    transform: translateX(-50%);
+  }
+  .tl-row:first-child .tl-row__rail::before {
+    top: 50%;
+  }
+  .tl-row:last-child .tl-row__rail::before {
+    bottom: 50%;
+  }
+  .tl-row__rail::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 26px;
+    height: 26px;
+    background: #cccccc;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .tl-row__meta {
-    grid-column: 2;
+    grid-column: 3;
     justify-self: start;
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding-left: var(--s-3);
+    gap: 4px;
+    padding-left: var(--s-4);
+    position: relative;
+    z-index: 1;
   }
   .tl-row__date {
     font-family: var(--f-serif);
-    font-size: var(--fs-base);
-    letter-spacing: var(--ls-wide);
-    color: var(--c-fg);
+    font-size: 28px;
+    letter-spacing: 0.08em;
+    color: #7e7e7e;
+    line-height: 1.1;
   }
   .tl-row__cast {
     font-family: var(--f-sans);
-    font-size: var(--fs-xs);
-    color: var(--c-fg-muted);
-    letter-spacing: var(--ls-wide);
-    line-height: 1.6;
+    font-size: 14px;
+    color: #8a8a8a;
+    letter-spacing: 0.02em;
+    line-height: 1.7;
   }
 
   .tl-row--alt .tl-row__card {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
     justify-self: start;
-    background: #1a1a1a;
+    width: min(100%, 420px);
+    min-height: 100px;
+    background: #343434;
     color: #ffffff;
-    border-color: #1a1a1a;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--s-1);
-    padding: var(--s-3) var(--s-4);
-    min-width: 220px;
+    border-color: #343434;
   }
-  .tl-row--alt .tl-row__card:hover {
-    background: #2c2c2c;
-    border-color: #2c2c2c;
+  .tl-row--alt .tl-row__card:hover,
+  .tl-row--alt .tl-row__card:focus-visible {
+    background: #2b2b2b;
+    border-color: #2b2b2b;
   }
-  .tl-row--alt .tl-row__no { display: none; }
-  .tl-row--alt .tl-row__tag {
-    display: inline-block;
-    font-family: var(--f-mono);
-    font-size: 10px;
-    letter-spacing: var(--ls-wide);
-    color: #cccccc;
-    text-transform: uppercase;
+  .tl-row--alt .tl-row__no {
+    color: rgba(255, 255, 255, 0.92);
   }
   .tl-row--alt .tl-row__title {
-    font-family: var(--f-serif);
-    font-size: var(--fs-base);
     color: #ffffff;
+    line-height: 1.35;
+    overflow-wrap: normal;
+    word-break: keep-all;
   }
 
   .tl-row--alt .tl-row__meta {
@@ -276,44 +305,51 @@ const grouped = await groupedEpisodesTimeline();
     justify-self: end;
     text-align: right;
     padding-left: 0;
-    padding-right: var(--s-3);
+    padding-right: var(--s-4);
+  }
+  .tl-row--alt .tl-row__rail {
+    grid-column: 2;
+    grid-row: 1;
   }
 
-  @media (max-width: 880px) {
+  .tl-row--deleted .tl-row__no {
+    letter-spacing: 0.18em;
+  }
+  @media (max-width: 960px) {
     .tl-layout {
       grid-template-columns: 1fr;
     }
+    .tl-layout::before {
+      display: none;
+    }
     .tl-side {
       position: static;
+      padding-bottom: var(--s-3);
     }
     .tl-side__list {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
     }
-    .tl-side__btn {
-      padding: var(--s-2) var(--s-3);
-      font-size: var(--fs-xs);
-    }
   }
-  @media (max-width: 640px) {
-    .tl-rows::before { display: none; }
+  @media (max-width: 720px) {
     .tl-row,
     .tl-row--alt {
       grid-template-columns: 1fr;
-      row-gap: var(--s-2);
+      row-gap: var(--s-3);
     }
-    .tl-row::after { display: none; }
+    .tl-row__rail {
+      display: none;
+    }
     .tl-row__card,
     .tl-row--alt .tl-row__card {
       grid-column: 1;
-      grid-row: auto;
       justify-self: stretch;
+      width: 100%;
     }
     .tl-row__meta,
     .tl-row--alt .tl-row__meta {
       grid-column: 1;
-      grid-row: auto;
       justify-self: stretch;
       text-align: left;
       padding: 0;

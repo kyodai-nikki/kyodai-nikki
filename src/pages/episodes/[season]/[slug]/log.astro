@@ -8,6 +8,7 @@ import BaseLayout from "../../../../layouts/BaseLayout.astro";
 import {
   allEpisodes,
   episodeHref,
+  episodeLogHeadingLabel,
   episodeUrlSlug,
   episodesBySeason,
   seasons as getSeasons,
@@ -143,11 +144,10 @@ const mainSection = sectionEntries.main;
 const pageDescription =
   mainSection?.data.scenario?.description ?? episode.description.split("\n")[0] ?? episode.title;
 
-const episodeNumberLabel = `Episode${String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0")}`;
+const episodeNumberLabel = episodeLogHeadingLabel(episode, episodesPageMsg.deletedEpisodeTag);
 const badges = [
   episode.isR18G ? commonMsg.badge.r18 : undefined,
   episode.isR18 && !episode.isR18G ? "R-18" : undefined,
-  scenario?.isDeleted ? episodesPageMsg.deletedCanonBadge : undefined,
 ].filter(Boolean) as string[];
 ---
 

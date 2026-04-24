@@ -16,7 +16,6 @@ export interface EpisodeScenarioInfo {
   distributionName?: string;
   distributionUrl?: string;
   adaptedScenarioUrl?: string;
-  isDeleted?: boolean;
   isCompactDescription?: boolean;
 }
 

@@ -89,6 +89,7 @@ const { id, ariaLabel, panelClass = "" } = Astro.props;
     padding: 0;
     border: 1px solid rgba(17, 17, 17, 0.75);
     background: #fff;
+    overflow: hidden;
     box-shadow: 0 30px 80px rgba(0, 0, 0, 0.22);
     opacity: 0;
     transform: translateY(56px);
@@ -118,12 +119,14 @@ const { id, ariaLabel, panelClass = "" } = Astro.props;
   .modal__panel {
     position: relative;
     max-height: calc(100dvh - 40px);
-    padding: 56px 48px 48px;
-    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 56px 0 48px;
   }
 
   .modal__content {
-    min-height: 100%;
+    min-height: 0;
+    overflow: auto;
   }
 
   .modal__close {
@@ -188,7 +191,7 @@ const { id, ariaLabel, panelClass = "" } = Astro.props;
     }
 
     .modal__panel {
-      padding: 48px 20px 28px;
+      padding: 48px 0 28px;
     }
   }
 </style>

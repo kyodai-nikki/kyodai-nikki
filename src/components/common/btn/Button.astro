@@ -1,0 +1,150 @@
+---
+interface Props {
+  href?: string;
+  type?: "white" | "black";
+  size?: "ss" | "s" | "m" | "l" | "xl";
+  buttonType?: "button" | "submit" | "reset";
+  class?: string;
+  className?: string;
+}
+
+const {
+  href,
+  type = "white",
+  size = "m",
+  buttonType = "button",
+  class: classProp = "",
+  className = "",
+  ...attrs
+} = Astro.props as Props & Record<string, unknown>;
+
+const classes = ["ui-button", `ui-button--${type}`, `ui-button--${size}`, classProp, className];
+---
+
+{
+  href ? (
+    <a class:list={classes} href={href} {...attrs}>
+      <slot />
+    </a>
+  ) : (
+    <button class:list={classes} type={buttonType} {...attrs}>
+      <slot />
+    </button>
+  )
+}
+
+<style>
+  .ui-button {
+    --button-min-height: 58px;
+    --button-min-width: auto;
+    --button-padding-block: 14px;
+    --button-padding-inline: 18px;
+    --button-border-color: rgba(17, 17, 17, 0.72);
+    --button-bg: #ffffff;
+    --button-color: var(--c-fg);
+    --button-hover-bg: #232323;
+    --button-hover-border-color: #232323;
+    --button-hover-color: #ffffff;
+    --button-font-family: var(--font-family-navigation);
+    --button-font-size: 1.125rem;
+    --button-line-height: 1.2;
+    --button-letter-spacing: var(--ls-normal);
+    --button-box-shadow: none;
+    --button-hover-box-shadow: none;
+    --button-transform: translateY(0);
+    --button-hover-transform: translateY(0);
+
+    appearance: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: var(--button-min-width);
+    min-height: var(--button-min-height);
+    padding: var(--button-padding-block) var(--button-padding-inline);
+    margin: 0;
+    border: 1px solid var(--button-border-color);
+    background: var(--button-bg);
+    color: var(--button-color);
+    font-family: var(--button-font-family);
+    font-size: var(--button-font-size);
+    line-height: var(--button-line-height);
+    letter-spacing: var(--button-letter-spacing);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: var(--button-box-shadow);
+    transform: var(--button-transform);
+    transition:
+      background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out),
+      transform var(--dur-fast) var(--ease-out),
+      box-shadow var(--dur-fast) var(--ease-out);
+  }
+
+  .ui-button:hover,
+  .ui-button:focus-visible {
+    background: var(--button-hover-bg);
+    color: var(--button-hover-color);
+    border-color: var(--button-hover-border-color);
+    box-shadow: var(--button-hover-box-shadow);
+    transform: var(--button-hover-transform);
+  }
+
+  .ui-button--white {
+    --button-border-color: rgba(17, 17, 17, 0.72);
+    --button-bg: #ffffff;
+    --button-color: var(--c-fg);
+    --button-hover-bg: #232323;
+    --button-hover-border-color: #232323;
+    --button-hover-color: #ffffff;
+  }
+
+  .ui-button--black {
+    --button-border-color: #2f2f2f;
+    --button-bg: #2f2f2f;
+    --button-color: #ffffff;
+    --button-hover-bg: #232323;
+    --button-hover-border-color: #232323;
+    --button-hover-color: #ffffff;
+  }
+
+  .ui-button--ss {
+    --button-min-width: 90px;
+    --button-min-height: 0;
+    --button-padding-block: 10px;
+    --button-padding-inline: 22px;
+    --button-font-size: 1rem;
+  }
+
+  .ui-button--s {
+    --button-min-height: 64px;
+    --button-padding-block: 0;
+    --button-padding-inline: 18px;
+    --button-font-size: 1.05rem;
+  }
+
+  .ui-button--m {
+    --button-min-height: 58px;
+    --button-padding-block: 14px;
+    --button-padding-inline: 18px;
+    --button-font-size: 1.125rem;
+  }
+
+  .ui-button--l {
+    --button-min-width: 165px;
+    --button-min-height: 55px;
+    --button-padding-block: 0;
+    --button-padding-inline: 20px;
+    --button-font-size: 1.25rem;
+    --button-letter-spacing: var(--ls-normal);
+  }
+
+  .ui-button--xl {
+    --button-min-height: 64px;
+    --button-padding-block: 20px;
+    --button-padding-inline: 20px;
+    --button-font-size: 20px;
+    --button-letter-spacing: var(--ls-wide);
+  }
+</style>

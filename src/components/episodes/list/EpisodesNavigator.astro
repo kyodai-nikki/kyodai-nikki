@@ -7,6 +7,8 @@ import {
   episodeThumbnailImage,
   episodeListDummyImage,
   episodeThumbnailDummyImage,
+  episodeListNumberLabel,
+  episodeOverviewLabel,
   type EpisodeEntry,
 } from "../../../lib/episodes";
 import { withBase } from "../../../lib/urls";
@@ -44,16 +46,13 @@ const epHref = (e: EpisodeEntry) =>
 
 const itemClass = (e: EpisodeEntry) => {
   const cls = ["ep-item"];
-  if (e.isAnother) cls.push("ep-item--alt");
+  if (e.type !== "normal") cls.push("ep-item--alt");
   if (e.smallText) cls.push("ep-item--sm");
   if (current?.overallNumber === e.overallNumber) cls.push("ep-item--selected");
   return cls.join(" ");
 };
 
-const numberLabel = (e: EpisodeEntry) =>
-  e.isAnother ? "..." : String(e.seasonAllNumber ?? e.overallNumber).padStart(2, "0");
-
-const detailClass = current?.isAnother ? "ep-detail ep-detail--alt" : "ep-detail";
+const detailClass = current?.type !== "normal" ? "ep-detail ep-detail--alt" : "ep-detail";
 
 const logHref = current
   && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logEntries)
@@ -73,7 +72,7 @@ const logHref = current
             href={epHref(e)}
             style={`--ep-bg: url('${episodeListImage(activeSeasonInfo.slug, e)}'), url('${dummyEpisodeList}');`}
           >
-            <span class="ep-item__no">{numberLabel(e)}</span>
+            <span class="ep-item__no">{episodeListNumberLabel(e)}</span>
             <span class="ep-item__title">{e.title}</span>
           </a>
         </li>
@@ -95,9 +94,7 @@ const logHref = current
       <h2 class="ep-detail__title">
         <span>{current.title}</span>
         <span class="ep-detail__subtitle">
-          {current.isAnother
-            ? episodesPageMsg.alternateTag
-            : `Episode${String(current.seasonAllNumber ?? current.overallNumber).padStart(2, "0")}`}
+          {episodeOverviewLabel(current)}
         </span>
       </h2>
 
@@ -267,7 +264,20 @@ const logHref = current
   .ep-detail--alt .ep-detail__image {
     filter: grayscale(1);
   }
+  .ep-detail--alt .ep-detail__title,
+  .ep-detail--alt .ep-detail__subtitle {
+    color: #ffffff;
+    opacity: 1;
+  }
   .ep-detail--alt .ep-detail__badge {
+    background: #ffffff;
+    color: #1a1a1a;
+  }
+  .ep-detail--alt .ep-detail__read {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  .ep-detail--alt .ep-detail__read:hover {
     background: #ffffff;
     color: #1a1a1a;
   }

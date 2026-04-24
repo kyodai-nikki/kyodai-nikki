@@ -1,4 +1,5 @@
-﻿---
+---
+import Button from "../../common/btn/Button.astro";
 import type { EpisodeLogSection } from "../../../lib/episodes/logs";
 import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
@@ -23,17 +24,23 @@ const {
 ---
 
 <aside class="episode-log__sidebar" aria-label={episodesPageMsg.logNavigation}>
-  <a class="episode-log__button episode-log__button--primary" href={overviewHref}>
+  <Button class="episode-log__button" href={overviewHref} type="black" size="s">
     {commonMsg.actions.backToOverview}
-  </a>
+  </Button>
   {showNextButton && nextHref && (
-    <a class="episode-log__button" href={nextHref}>{commonMsg.actions.nextEpisode}</a>
+    <Button class="episode-log__button" href={nextHref} type="white" size="s">
+      {commonMsg.actions.nextEpisode}
+    </Button>
   )}
   {showPreviousButton && previousHref && (
-    <a class="episode-log__button" href={previousHref}>{commonMsg.actions.previousEpisode}</a>
+    <Button class="episode-log__button" href={previousHref} type="white" size="s">
+      {commonMsg.actions.previousEpisode}
+    </Button>
   )}
   {sections.map((section) => (
-    <a class="episode-log__button" href={`#${section.anchor}`}>{section.label}</a>
+    <Button class="episode-log__button" href={`#${section.anchor}`} type="white" size="s">
+      {section.label}
+    </Button>
   ))}
 </aside>
 
@@ -43,36 +50,6 @@ const {
     top: calc(var(--h-header-top) + var(--h-header-nav) + var(--s-5));
     display: grid;
     gap: 16px;
-  }
-
-  .episode-log__button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 64px;
-    padding: 0 18px;
-    border: 1px solid #2d2d2d;
-    background: rgba(255, 255, 255, 0.95);
-    color: #111111;
-    font-family: var(--font-family-navigation);
-    font-size: 1.05rem;
-    line-height: 1.2;
-    transition:
-      background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out),
-      border-color var(--dur-fast) var(--ease-out);
-  }
-
-  .episode-log__button:hover {
-    background: #232323;
-    border-color: #232323;
-    color: #ffffff;
-  }
-
-  .episode-log__button--primary {
-    background: #2f2f2f;
-    border-color: #2f2f2f;
-    color: #ffffff;
   }
 
   @media (max-width: 960px) {

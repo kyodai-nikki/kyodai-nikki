@@ -1,5 +1,6 @@
-﻿---
+---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Button from "../../../components/common/btn/Button.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
 import MediaModal from "../../../components/common/MediaModal.astro";
@@ -43,45 +44,48 @@ const withBase = (path: string) => `${base}${path}`;
   <OthersTabs slot="page-tabs" currentSection="settings" />
 
   <div class="others-settings">
-        <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
-          {settingsCharacters.map((item) => (
-            <a
-              href={withBase(`/others/settings/${settingsCharacterSlug(item)}`)}
-              aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
-            >
-              {item.data.name}
-            </a>
-          ))}
-        </nav>
+    <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
+      {settingsCharacters.map((item) => (
+        <Button
+          class="others-settings__nav-button"
+          href={withBase(`/others/settings/${settingsCharacterSlug(item)}`)}
+          type={settingsCharacterSlug(item) === characterSlug ? "black" : "white"}
+          size="m"
+          aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
+        >
+          {item.data.name}
+        </Button>
+      ))}
+    </nav>
 
-        <div class="others-settings__content">
-          <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.data.name)}>
-            {materials.map((item, index) => {
-              const modalId = `others-settings-${characterSlug}-${index}`;
-              const imageSrc = settingsMaterialImageSrc(item);
-              return (
-                <button
-                  class="others-settings__card"
-                  type="button"
-                  aria-label={commonMsg.actions.open(item.data.title)}
-                  data-modal-open={modalId}
-                >
-                  <div class="others-settings__card-image-wrap">
-                    <img
-                      class="others-settings__card-image"
-                      src={imageSrc}
-                      alt={item.data.title}
-                      loading="lazy"
-                      width="640"
-                      height="480"
-                    />
-                  </div>
-                  <p class="others-settings__card-title">{item.data.title}</p>
-                </button>
-              );
-            })}
-          </div>
-        </div>
+    <div class="others-settings__content">
+      <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.data.name)}>
+        {materials.map((item, index) => {
+          const modalId = `others-settings-${characterSlug}-${index}`;
+          const imageSrc = settingsMaterialImageSrc(item);
+          return (
+            <button
+              class="others-settings__card"
+              type="button"
+              aria-label={commonMsg.actions.open(item.data.title)}
+              data-modal-open={modalId}
+            >
+              <div class="others-settings__card-image-wrap">
+                <img
+                  class="others-settings__card-image"
+                  src={imageSrc}
+                  alt={item.data.title}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+              </div>
+              <p class="others-settings__card-title">{item.data.title}</p>
+            </button>
+          );
+        })}
+      </div>
+    </div>
   </div>
 
   {materials.map((item, index) => (
@@ -118,28 +122,6 @@ const withBase = (path: string) => `${base}${path}`;
     flex-direction: column;
     gap: 18px;
     padding-top: 4px;
-  }
-
-  .others-settings__nav a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 58px;
-    padding: 14px 18px;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    background: #fff;
-    color: var(--c-fg);
-    font-family: var(--font-family-navigation);
-    font-size: 1.125rem;
-    text-decoration: none;
-    transition:
-      background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out);
-  }
-
-  .others-settings__nav a[aria-current="page"] {
-    background: #2f2f2f;
-    color: #fff;
   }
 
   .others-settings__content {
@@ -210,9 +192,8 @@ const withBase = (path: string) => `${base}${path}`;
       justify-content: center;
     }
 
-    .others-settings__nav a {
-      min-width: 148px;
-      min-height: 52px;
+    :global(.others-settings__nav-button) {
+      --button-min-width: 148px;
     }
 
     .others-settings__content {

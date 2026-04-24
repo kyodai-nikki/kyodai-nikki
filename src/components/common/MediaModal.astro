@@ -1,4 +1,5 @@
 ---
+import Button from "./btn/Button.astro";
 import Modal from "./Modal.astro";
 import { commonMsg } from "../../msg/common";
 
@@ -17,6 +18,8 @@ export interface MediaModalAction {
   href?: string;
   ariaLabel?: string;
 }
+
+type MediaModalButtonSize = "ss" | "s" | "m" | "l" | "xl";
 
 interface Props {
   /** Modal id (data-modal-open のターゲット) */
@@ -47,6 +50,7 @@ interface Props {
   detailsAriaLabel?: string;
   /** 閉じるボタンの前に並べる任意のアクション */
   actions?: MediaModalAction[];
+  actionButtonSize?: MediaModalButtonSize;
   /** 閉じるボタンのラベル。デフォルト commonMsg.actions.back */
   closeLabel?: string;
   /** dialog の panel に追加する class */
@@ -68,6 +72,7 @@ const {
   details = [],
   detailsAriaLabel,
   actions = [],
+  actionButtonSize = "ss",
   closeLabel = commonMsg.actions.back,
   panelClass = "",
 } = Astro.props;
@@ -141,28 +146,38 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
       <div class="media-modal__actions">
         {actions.map((action) =>
           action.href ? (
-            <a
+            <Button
               class="media-modal__action"
               href={action.href}
+              type="white"
+              size={actionButtonSize}
               target="_blank"
               rel="noopener"
               aria-label={action.ariaLabel}
             >
               {action.label}
-            </a>
+            </Button>
           ) : (
-            <button
+            <Button
               class="media-modal__action"
-              type="button"
+              type="white"
+              size={actionButtonSize}
+              buttonType="button"
               aria-label={action.ariaLabel}
             >
               {action.label}
-            </button>
+            </Button>
           )
         )}
-        <button class="media-modal__action" type="button" data-modal-close>
+        <Button
+          class="media-modal__action"
+          type="white"
+          size={actionButtonSize}
+          buttonType="button"
+          data-modal-close
+        >
           {closeLabel}
-        </button>
+        </Button>
       </div>
     </div>
   </div>
@@ -261,29 +276,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     justify-content: center;
     gap: 22px;
     margin-top: 12px;
-  }
-
-  .media-modal__action {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 90px;
-    padding: 10px 22px;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    background: #fff;
-    color: var(--c-fg);
-    font-family: var(--f-serif);
-    font-size: 1rem;
-    text-decoration: none;
-    cursor: pointer;
-    transition:
-      background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out);
-  }
-
-  .media-modal__action:hover {
-    background: var(--c-fg);
-    color: #fff;
   }
 
   @media (max-width: 720px) {

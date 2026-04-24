@@ -8,9 +8,9 @@ export interface EpisodeEntry {
   seasonAllNumber?: number;
   seasonEpisodeNumber?: number;
   type: "normal" | "another" | "deleted";
+  episodeLabel: string;
   title: string;
   description: string;
-  isAnother?: boolean;
   smallText?: boolean;
   date?: string;
   cast?: string;
@@ -37,6 +37,7 @@ export interface TimelineEntry extends EpisodeEntry {
 
 type EpisodeLogEntry = CollectionEntry<"episodeLogs">;
 type EpisodeSeasonEntry = CollectionEntry<"episodeSeasons">;
+type EpisodeType = EpisodeEntry["type"];
 
 const IMG_BASE = "/images/episodes";
 const allowedLogSections = new Set([
@@ -61,6 +62,21 @@ const episodeNumberFromId = (id: string) =>
   parseInt(id.split("/").at(-2) ?? "0", 10);
 
 let cachedEpisodes: Promise<Season[]> | undefined;
+
+const isNonNormalEpisode = (type: EpisodeType): boolean => type !== "normal";
+
+const episodeSeasonNumberLabel = (
+  episode: Pick<EpisodeEntry, "seasonAllNumber" | "overallNumber">,
+): string => String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0");
+
+const buildEpisodeLabel = (
+  type: EpisodeType,
+  episode: Pick<EpisodeEntry, "seasonAllNumber" | "overallNumber">,
+): string => {
+  if (type === "another") return "─";
+  if (type === "deleted") return "――";
+  return episodeSeasonNumberLabel(episode);
+};
 
 // main ログにエピソード一覧用の必須メタ情報があるか検証する。
 const assertEpisodeMain = (entry: EpisodeLogEntry) => {
@@ -138,11 +154,11 @@ const loadEpisodes = async (): Promise<Season[]> => {
             overallNumber: overallNumberMap.get(entry.id)!,
             seasonEpisodeNumber: episodeNumberFromId(entry.id),
             type: episodeType,
+            episodeLabel: "",
             title: data.scenario?.title!,
             description: data.scenario?.description!,
             date: session?.storyDate,
             cast: session?.timelineCast,
-            isAnother: episodeType === "another",
             smallText: data.custom?.showSmallTitle,
             isR18: sessionRating?.isR18,
             isR18G: sessionRating?.isR18G,
@@ -150,14 +166,15 @@ const loadEpisodes = async (): Promise<Season[]> => {
               ...data.scenario,
               storyDate: session?.storyDate,
               cast: session?.cast,
-              isDeleted: episodeType === "deleted",
               isCompactDescription: data.custom?.isCompactDescription,
             },
           };
 
-          if (!episode.isAnother) {
+          if (!isNonNormalEpisode(episode.type)) {
             episode.seasonAllNumber = seasonAllCounter++;
           }
+
+          episode.episodeLabel = buildEpisodeLabel(episode.type, episode);
 
           return episode;
         });
@@ -273,11 +290,36 @@ export const episodeHrefByNumber = async (
 export const timelineEpisodeHref = (entry: TimelineEntry): string =>
   episodeHref(entry.seasonSlug, entry);
 
+export const episodeListNumberLabel = (entry: EpisodeEntry): string =>
+  entry.episodeLabel;
+
+export const episodeOverviewLabel = (entry: EpisodeEntry): string => {
+  switch (entry.type) {
+    case "another":
+      return "Another Episode";
+    case "normal":
+      return `Episode${entry.episodeLabel}`;
+    case "deleted":
+      return entry.episodeLabel;
+  }
+};
+
+export const episodeDetailSubtitle = (entry: EpisodeEntry): string =>
+  episodeOverviewLabel(entry);
+
+export const episodeLogHeadingLabel = (
+  entry: EpisodeEntry,
+  deletedLabel: string,
+): string => {
+  if (entry.type === "deleted") return deletedLabel;
+  if (entry.type === "another") return `Episode${deletedLabel}`;
+  return `Episode${episodeSeasonNumberLabel(entry)}`;
+};
+
 // タイムラインに表示するエピソード番号ラベルを作る。
-export const timelineEpisodeNumberLabel = (entry: TimelineEntry): string =>
-  entry.isAnother
-    ? "…"
-    : `Episode${String(entry.seasonEpisodeNumber ?? "").padStart(2, "0")}`;
+export const timelineEpisodeNumberLabel = (entry: TimelineEntry): string => {
+  return episodeOverviewLabel(entry);
+};
 
 // タイムライン項目をシーズンごとにグルーピングする。
 export const groupedEpisodesTimeline = async (): Promise<
