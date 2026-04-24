@@ -1,12 +1,10 @@
 ---
 season: 3
 session:
-  type:
+  type: deleted
+  rating:
     isR18: false
     isR18G: false
-  badge:
-    isAnother: false
-    isDeleted: true
   storyDate: "2027.11.14"
   timelineCast: "千秋 (24歳・-) 千冬 (24歳・-)"
   cast: ["染谷千冬"]

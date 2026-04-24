@@ -43,16 +43,11 @@ const episodeLogs = defineCollection({
       .optional(),
     session: z
       .object({
-        type: z
+        type: z.enum(["normal", "another", "deleted"]).optional().default("normal"),
+        rating: z
           .object({
             isR18: z.boolean().optional().default(false),
             isR18G: z.boolean().optional().default(false),
-          })
-          .optional(),
-        badge: z
-          .object({
-            isAnother: z.boolean().optional().default(false),
-            isDeleted: z.boolean().optional().default(false),
           })
           .optional(),
         storyDate: z.string().optional(),

@@ -1,12 +1,10 @@
 ---
 season: 1
 session:
-  type:
+  type: another
+  rating:
     isR18: false
     isR18G: false
-  badge:
-    isAnother: true
-    isDeleted: false
   storyDate: "2022.10.15"
   timelineCast: "千秋 (高校生) 千冬 (専門学校)"
   cast: ["染谷千冬"]

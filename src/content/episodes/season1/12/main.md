@@ -1,12 +1,10 @@
 ---
 season: 1
 session:
-  type:
+  type: normal
+  rating:
     isR18: false
     isR18G: true
-  badge:
-    isAnother: false
-    isDeleted: false
   storyDate: "2022.12.24"
   timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"
   cast: ["染谷千冬", "染谷千秋"]

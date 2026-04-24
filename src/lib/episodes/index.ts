@@ -7,6 +7,7 @@ export interface EpisodeEntry {
   overallNumber: number;
   seasonAllNumber?: number;
   seasonEpisodeNumber?: number;
+  type: "normal" | "another" | "deleted";
   title: string;
   description: string;
   isAnother?: boolean;
@@ -131,24 +132,25 @@ const loadEpisodes = async (): Promise<Season[]> => {
         .map<EpisodeEntry>((entry) => {
           const data = entry.data;
           const session = data.session;
-          const sessionType = session?.type;
-          const sessionBadge = session?.badge;
+          const episodeType = session?.type ?? "normal";
+          const sessionRating = session?.rating;
           const episode: EpisodeEntry = {
             overallNumber: overallNumberMap.get(entry.id)!,
             seasonEpisodeNumber: episodeNumberFromId(entry.id),
+            type: episodeType,
             title: data.scenario?.title!,
             description: data.scenario?.description!,
             date: session?.storyDate,
             cast: session?.timelineCast,
-            isAnother: sessionBadge?.isAnother,
+            isAnother: episodeType === "another",
             smallText: data.custom?.showSmallTitle,
-            isR18: sessionType?.isR18,
-            isR18G: sessionType?.isR18G,
+            isR18: sessionRating?.isR18,
+            isR18G: sessionRating?.isR18G,
             scenario: {
               ...data.scenario,
               storyDate: session?.storyDate,
               cast: session?.cast,
-              isDeleted: sessionBadge?.isDeleted,
+              isDeleted: episodeType === "deleted",
               isCompactDescription: data.custom?.isCompactDescription,
             },
           };

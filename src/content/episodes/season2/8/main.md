@@ -1,12 +1,10 @@
 ---
 season: 2
 session:
-  type:
+  type: normal
+  rating:
     isR18: true
     isR18G: false
-  badge:
-    isAnother: false
-    isDeleted: false
   storyDate: "2023.11.26"
   timelineCast: "千秋 (20歳・通信大学2年) 千冬 (20歳・建築士1年)"
   cast: ["染谷千冬", "染谷千秋"]
