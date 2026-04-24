@@ -115,7 +115,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 
       {description && <p class="media-modal__description">{description}</p>}
       {hint && <p class="media-modal__hint">{hint}</p>}
-      {creditName && <p class="media-modal__credit">{creditName}</p>}
+      {creditName && <p class="media-modal__credit">{creditName}{commonMsg.dear}</p>}
       {creditUrl && (
         <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
           {creditUrl}

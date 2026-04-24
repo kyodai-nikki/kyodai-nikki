@@ -51,7 +51,7 @@ const goods = await orderedGoods();
       {goods.map((entry, index) => {
         const item = entry.data;
         const detailImgs = goodsDetailImages(entry);
-        const actions = goodsActions(entry, goodsPageMsg.salePage);
+        const actions = goodsActions(entry);
         return (
           <MediaModal
             id={`goods-modal-${index}`}
@@ -61,7 +61,7 @@ const goods = await orderedGoods();
             imageMaxWidth="530px"
             actions={actions}
             actionButtonSize="l"
-            closeLabel={item.buttonLabel}
+            closeLabel={commonMsg.actions.close}
             panelClass="goods-modal-panel"
           />
         );

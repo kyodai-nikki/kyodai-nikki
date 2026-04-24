@@ -43,7 +43,10 @@ const episodeLogs = defineCollection({
       .optional(),
     session: z
       .object({
-        type: z.enum(["normal", "another", "deleted"]).optional().default("normal"),
+        type: z
+          .enum(["normal", "another", "deleted"])
+          .optional()
+          .default("normal"),
         rating: z
           .object({
             isR18: z.boolean().optional().default(false),
@@ -111,11 +114,10 @@ const gallery = defineCollection({
   schema: z.object({
     order: z.number().int().positive(),
     alt: z.string(),
-    caption: z.string().optional(),
     title: z.string().optional(),
     description: z.string().optional(),
     creditName: z.string().optional(),
-    creditUrl: z.string().optional(),
+    creditUrl: z.string().url().optional(),
     twitterId: z.string().optional(),
     buttonLabel: z.string().optional(),
   }),
@@ -127,8 +129,6 @@ const goods = defineCollection({
     title: z.string(),
     url: z.string().optional(),
     description: z.string().optional(),
-    saleLabel: z.string().optional(),
-    buttonLabel: z.string().optional(),
   }),
 });
 

@@ -34,8 +34,10 @@ export const commonMsg = {
   },
   actions: {
     back: "戻る",
+    close: "閉じる",
     open: (label: string) => `${label} を開く`,
     read: "読む",
+    salePage: "販売ページ",
     backToOverview: "概要に戻る",
     nextEpisode: "次の話",
     previousEpisode: "前の話",

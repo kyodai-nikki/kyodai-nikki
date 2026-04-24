@@ -4,9 +4,5 @@
 
 title: "商品名"
 url: "https://example.booth.pm/items/new-item"
-image: "/images/goods/new-item-thumb.jpg"
-detailImage: "/images/goods/new-item-detail.jpg"
 description: "商品の説明を入れます。"
-saleLabel: "販売ページへ"
-buttonLabel: "戻る"
 ---

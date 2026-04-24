@@ -42,11 +42,11 @@ export const galleryDetailImagePaths = (entry: GalleryEntry): string[] => {
 
 // モーダルに表示するタイトルを優先順つきで決める。
 export const galleryModalTitle = (entry: GalleryEntry): string =>
-  entry.data.title ?? entry.data.caption ?? entry.data.alt;
+  entry.data.title ?? entry.data.alt;
 
 // モーダルに表示する説明文を優先順つきで決める。
 export const galleryModalDescription = (entry: GalleryEntry): string =>
-  entry.data.description ?? entry.data.caption ?? "";
+  entry.data.description ?? "";
 
 // モーダル用の詳細画像リストを base path つきで作る。
 export const galleryDetailImages = (entry: GalleryEntry): { src: string; alt: string }[] =>
