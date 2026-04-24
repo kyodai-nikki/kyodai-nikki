@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Episode dummy detail image</title>
+  <desc id="desc">A large placeholder image for the episode detail panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4ebdf" />
+      <stop offset="50%" stop-color="#d9e8f6" />
+      <stop offset="100%" stop-color="#efe1e6" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)" />
+  <circle cx="220" cy="180" r="110" fill="#ffffff" fill-opacity=".55" />
+  <circle cx="1080" cy="530" r="150" fill="#ffffff" fill-opacity=".4" />
+  <rect x="150" y="124" width="980" height="472" rx="28" fill="#ffffff" fill-opacity=".54" stroke="#111111" stroke-opacity=".12" />
+  <rect x="230" y="190" width="332" height="340" rx="20" fill="#253243" />
+  <circle cx="396" cy="306" r="82" fill="#f6e7d8" />
+  <path d="M300 454c22-73 60-122 96-122 34 0 78 47 99 122" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round" />
+  <text x="660" y="278" fill="#2f3948" font-size="68" font-family="Noto Serif JP, serif">Episode</text>
+  <text x="660" y="362" fill="#596273" font-size="40" font-family="Noto Sans JP, sans-serif">dummy visual for detail panel</text>
+  <text x="660" y="430" fill="#596273" font-size="40" font-family="Noto Sans JP, sans-serif">used while real images are pending</text>
+</svg>
