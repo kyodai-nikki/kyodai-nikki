@@ -1,0 +1,117 @@
+﻿---
+import ShareButtons from "../../common/btn/ShareButtons.astro";
+import { episodesPageMsg } from "../../../msg/episodes";
+import { commonMsg } from "../../../msg/common";
+
+interface Props {
+  showPreviousButton: boolean;
+  previousHref?: string;
+  showNextButton: boolean;
+  nextHref?: string;
+  shareUrl: string;
+  shareTitle: string;
+}
+
+const {
+  showPreviousButton,
+  previousHref,
+  showNextButton,
+  nextHref,
+  shareUrl,
+  shareTitle,
+} = Astro.props;
+---
+
+<footer class="episode-log__footer">
+  <div class="episode-log__footer-nav">
+    {showPreviousButton && previousHref ? (
+      <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
+        {commonMsg.symbol.previousEpisodeArrow}
+      </a>
+    ) : (
+      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
+    )}
+
+    <ShareButtons
+      url={shareUrl}
+      title={shareTitle}
+      className="episode-log__share-buttons"
+    />
+
+    {showNextButton && nextHref ? (
+      <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
+        {commonMsg.symbol.nextEpisodeArrow}
+      </a>
+    ) : (
+      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
+    )}
+  </div>
+</footer>
+
+<style>
+  .episode-log__footer {
+    display: grid;
+    justify-content: center;
+    padding-top: 6px;
+  }
+
+  .episode-log__footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    width: 100%;
+  }
+
+  .episode-log__arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #1f1f1f;
+    font-family: var(--font-family-log-heading);
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+
+  .episode-log__arrow:hover {
+    color: #000000;
+  }
+
+  .episode-log__arrow--spacer {
+    visibility: hidden;
+  }
+
+  .episode-log__footer :global(.episode-log__share-buttons) {
+    --share-btn-size: 36px;
+    --share-icon-size: 17px;
+    --share-line-icon-size: 28px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+  }
+
+  .episode-log__footer :global(.episode-log__share-buttons .share-button) {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #6f6f6f;
+  }
+
+  .episode-log__footer :global(.episode-log__share-buttons .share-button:hover) {
+    background: #2f2f2f;
+    transform: none;
+  }
+
+  .episode-log__footer :global(.episode-log__share-buttons .share-button svg) {
+    display: block;
+  }
+
+  @media (max-width: 720px) {
+    .episode-log__footer-nav {
+      gap: 22px;
+    }
+  }
+</style>

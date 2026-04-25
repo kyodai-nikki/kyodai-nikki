@@ -1,0 +1,85 @@
+---
+import ShareButtons from "./btn/ShareButtons.astro";
+import { commonMsg } from "../../msg/common";
+import { siteConfig } from "../../config";
+
+interface Props {
+  shareUrl: string;
+  shareTitle: string;
+}
+
+const { shareUrl, shareTitle } = Astro.props;
+const site = siteConfig;
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__brand">{site.name}</div>
+
+    <div class="site-footer__copyright">
+      ©{site.copyStartYear}-{year} {site.name}{commonMsg.footer.madeByTeam}
+    </div>
+
+    <div class="site-footer__share">
+      <span>{commonMsg.footer.shareLabel}</span>
+      <ShareButtons url={shareUrl} title={shareTitle} className="site-footer__share-buttons" />
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    padding-block: 32px 20px;
+    border-top: 1px solid var(--c-border);
+    background: #ffffff;
+    text-align: center;
+  }
+
+  .site-footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .site-footer__brand {
+    font-family: var(--f-serif);
+    font-size: 48px;
+    line-height: 1.1;
+    color: var(--c-fg);
+    font-weight: var(--fw-regular);
+  }
+
+  .site-footer__copyright {
+    font-family: var(--f-serif);
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6a6a6a;
+  }
+
+  .site-footer__share {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--f-serif);
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4d4d4d;
+  }
+
+  .site-footer__share-buttons {
+    --share-btn-size: 22px;
+    --share-icon-size: 11px;
+    --share-line-icon-size: 15px;
+  }
+
+  @media (max-width: 640px) {
+    .site-footer {
+      padding-block: 28px 18px;
+    }
+
+    .site-footer__brand {
+      font-size: 40px;
+    }
+  }
+</style>

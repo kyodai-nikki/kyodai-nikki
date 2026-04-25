@@ -1,0 +1,31 @@
+---
+import LineShareButton from "./LineShareButton.astro";
+import XShareButton from "./XShareButton.astro";
+import { shareLinks } from "../../../lib/view/share";
+
+interface Props {
+  url: string;
+  title: string;
+  className?: string;
+}
+
+const { url, title, className = "" } = Astro.props;
+const { xHref, lineHref } = shareLinks(url, title);
+---
+
+<div class:list={["share-buttons", className]}>
+  <XShareButton href={xHref} />
+  <LineShareButton href={lineHref} />
+</div>
+
+<style>
+  .share-buttons {
+    --share-btn-size: 22px;
+    --share-icon-size: 11px;
+    --share-line-icon-size: 15px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+</style>

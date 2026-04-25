@@ -1,0 +1,62 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import { introductionPageMsg } from "../../msg/introduction";
+import { navigation } from "../../data/navigation";
+import Content from "../../content/introduction.md";
+---
+<BaseLayout
+  title={navigation.introduction.title}
+  description={introductionPageMsg.description}
+>
+  <PageHeading slot="page-heading" title={navigation.introduction.title} />
+
+  <div class="intro-box">
+    <Content />
+  </div>
+</BaseLayout>
+
+<style>
+  .intro-box {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: clamp(var(--s-6), 5vw, var(--s-8)) clamp(var(--s-5), 6vw, var(--s-9));
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    background: #ffffff;
+    font-family: var(--f-serif);
+    color: var(--c-fg-body);
+    line-height: var(--lh-loose);
+    font-size: var(--fs-base);
+    animation: intro-slide-in 1700ms var(--ease-out) both;
+    animation-delay: 160ms;
+    will-change: opacity, transform;
+  }
+
+  .intro-box :global(p) {
+    margin: 0 0 1.6em;
+    white-space: pre-wrap;
+  }
+  .intro-box :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  @keyframes intro-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .intro-box { animation: none; }
+  }
+
+  @media (max-width: 640px) {
+    .intro-box { font-size: var(--fs-sm); }
+  }
+</style>

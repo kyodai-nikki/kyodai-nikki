@@ -1,5 +1,29 @@
 <!-- Optional omake log section. -->
 
-<span class="kp">◆ シナリオ内での猫耳・尻尾の感情表現<br>・耳<br>正面に向いてる時…興奮や興味などポジティブ寄りな感情<br>後ろ向いてる時…反省や後ろめたさ、ゾワゾワした時などネガティブ寄りな感情<br><br>・尻尾<br>左右に振る…興奮している<br>尻尾を立ててぶるぶる…嬉しい<br>尻尾を下げる…耳と同じ、反応や後ろめたさや落ち込みなどネガティブ寄りな時<br>ゆらゆら揺れてる…楽しい<br>ぴんと立てる…驚いた時、情報が処理しきれない時<br><br>・喉<br>ゴロゴロ…リラックスしてる時<br>ぐるぐる…興奮している時<br><br>◆ 雑談タブで出た「普段セックスする時の体力」ダイス*3<br><br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 77 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 48 ＞ 成功<br></span>
+<span class="kp">◆ シナリオ内での猫耳・尻尾の感情表現
+・耳
+正面に向いてる時…興奮や興味などポジティブ寄りな感情
+後ろ向いてる時…反省や後ろめたさ、ゾワゾワした時などネガティブ寄りな感情
+
+・尻尾
+左右に振る…興奮している
+尻尾を立ててぶるぶる…嬉しい
+尻尾を下げる…耳と同じ、反応や後ろめたさや落ち込みなどネガティブ寄りな時
+ゆらゆら揺れてる…楽しい
+ぴんと立てる…驚いた時、情報が処理しきれない時
+
+・喉
+ゴロゴロ…リラックスしてる時
+ぐるぐる…興奮している時
+
+◆ 雑談タブで出た「普段セックスする時の体力」ダイス*3
+
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 77 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 48 ＞ 成功
+</span>
 
 <style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

@@ -27,6 +27,1401 @@ custom:
   isCompactDescription: false
 ---
 
-<span class="kp">【一日目】8/10<br></span><span class="kp">目の前に、千冬の死体がある。<br>自分が殺した。腹に包丁を突き立て、倒れたその身体に何度も何度も同じものを突き立てた。<br>時刻は午後1時を少し回った頃。窓の外では頭の割れそうなほど蝉が煩く鳴き、だというのに部屋の中は酷く静かだ。<br>自分の荒い息遣い、包丁から滴る血が床の血だまりを叩く音。<br></span><span class="kp">何故殺したのかは分からない。<br>ただ、自分が彼を殺したという事実だけは認識ができる。<br></span><span class="kp">SANC 1d3/1d10<br><br></span><span class="chiaki">染谷千秋 : 1d100<=50 【SAN値チェック】 (1D100<=50) ＞ 20 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 2<br></span><span class="chiaki">染谷千秋 : この部屋は自分達が今住んでる部屋と同じ構造ですか？<br><br></span><span class="kp">部屋を見渡したあなたは、あなたたちが住んでいる部屋と同じ構造だと認識する。シンプルな部屋だが、今は至る所に血が飛び散っている。<br><br></span><span class="chiaki">染谷千秋 : 殺人の前後の記憶はありますか？<br><br></span><span class="kp">アイデアどうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 1 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : 千秋、全部覚えてます！<br><br></span><span class="kp">思い返すが、前後の記憶がない。靄がかかっていて、まるで夢の中のようだ。<br><br></span><span class="chiaki">染谷千秋 : 「……、……」千冬の死体を前にして一瞬思考が停止します。<br></span><span class="chiaki">染谷千秋 : （……、落ち着け。前後の記憶がない。悪夢か怪異のどっちかだ。……千冬は生きてる）目を閉じて前後の記憶を探ります。夢だと認識し、落ち着きを取り戻します。<br></span><span class="chiaki">染谷千秋 : 千冬の身体に目星！<br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 68 ＞ 成功<br><br></span><span class="kp">ついさっきまで生きていたようだ。傷口から流れ出る血は既に止まっていて、床の上のそれは端から乾き始めている。気の早い蠅が一匹、彼の見開いた眼球の上を歩いていた。<br><br></span><span class="chiaki">染谷千秋 : （……千冬……）蝿をはらって千冬の顔を覗き込みます。<br><br></span><span class="kp">頬に触れて覗き込むと、まだ少し温かかった。しかし呼吸はしていない。見開いた目が痛々しい。<br></span><span class="kp">目星-50% or アイデア-50%どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=85-50 【アイデア】 (1D100<=35) ＞ 53 ＞ 失敗<br><br></span><span class="kp">千冬の様子から、状況についてこれ以上分かることはないだろう。<br><br></span><span class="chiaki">染谷千秋 : 千冬の目を閉じさせた後、口付けをします。そして切り傷の方も見ます。<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 54 ＞ 成功<br><br></span><span class="kp">傷口の幅や深さから、記憶の通り、あなたが持っていた包丁で刺したことが窺える。<br><br></span><span class="chiaki">染谷千秋 : 血に触れて舐めてみます。<br><br></span><span class="kp">血を舐めると、舌に鉄の味が広がる。<br><br></span><span class="chiaki">染谷千秋 : 傷口にキスしてから身体を観察します。必要があればひっくり返します。<br><br></span><span class="kp">出血量が多く、服は血が滲みとても汚れている。首や腹部に刺し傷がある。千冬をひっくり返しても、背中に特に変わった様子はない。血の広がったシーツがあるのみだ。<br><br></span><span class="chiaki">染谷千秋 : シーツの染みやベッドに異変はありますか？<br><br></span><span class="kp">シーツやベッドをよく見ても、特に異変はない。<br><br></span><span class="chiaki">染谷千秋 : 手にしている狂気に目星！<br><br></span><span class="kp">よく見るまでもなく、あなたの家にある包丁だ。<br><br></span><span class="chiaki">染谷千秋 : 自分に目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 32 ＞ 成功<br><br></span><span class="kp">自身の身体にも変わったところはない。ポケットにスマホが入っているようだ。<br><br></span><span class="chiaki">染谷千秋 : スマホを取り出して操作します。<br><br></span><span class="kp">操作しようとしたところ、電源が入らない。千冬の血と自分の汗に塗れており、既に乾いた箇所が不快にベタベタとしている。<br></span><span class="kp">アイデアどうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 30 ＞ 成功<br><br></span><span class="kp">必要があれば、シャワーで血を洗い流すことはできるだろう。なぜなら、ここはあなたたちの家だから。<br><br>――ここがあなたちの家であるなら。<br>この部屋には[クローゼット]と机があり、その上には[ノートパソコン]と[リモコン]がある。<br>そして何より[ベッド]の上には[千冬]が横たわっている。<br>隣の部屋にはリビングダイニングで、ソファとローテーブルが置かれており、その前には[テレビ]がテレビ台に置かれている。<br>壁にはシンプルな[カレンダー]と[時計]がかかっている。ダイニングテーブルの横には[キッチン]と[冷蔵庫]がある。<br>それぞれの部屋には、[クーラー]が設置されている。<br>[玄関]を入ってすぐの真横の扉から、洗面所に向かうことができる。そこには[洗濯機]が設置されており、[浴室]に繋がる扉がある。その廊下の向かいにはトイレがある。<br>窓の外には[ベランダ]と[室外機]がある。<br><br></span><span class="chiaki">染谷千秋 : （……悪夢にせよ、怪異にせよ、早く抜け出さねーと）<br></span><span class="chiaki">染谷千秋 : （……もし、これが現実だったら、そん時は……）包丁をしばらく見つめ、机の上に置きます。その後ノートパソコンを調べます。<br><br></span><span class="kp">立ち上がるものの、ロックがかかっている。パスワードを入力しないと動かせないようだ。<br><br></span><span class="chiaki">染谷千秋 : パソコンは普段使用しているものですか？<br><br></span><span class="kp">そうです！<br><br></span><span class="chiaki">染谷千秋 : いつも入力しているパスワードを入力します。<br><br></span><span class="kp">あなたが普段使用しているパソコンと変わりなく見えるが、いつものパスワードを入力してもロックが解除されることはなかった。<br><br></span><span class="chiaki">染谷千秋 : （パスワードが違う。……先に他のところを調べるか）<br></span><span class="chiaki">染谷千秋 : 机の引き出しを開けてから気になるところが無いか確認し、その後クローゼットを開けます。<br><br></span><span class="kp">引き出しの中に変わった様子はない。あなたや千冬の小物類や文房具、大事な書類が収納されている。<br></span><span class="kp">クローゼットには、千冬の服やあなたの服が収納されている。<br><br></span><span class="chiaki">染谷千秋 : 物をひっくり返して中を確認します。目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 83 ＞ 成功<br><br></span><span class="kp">なぜかそこにあるはずのない、ナタとノコギリを見つける。<br></span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 55 ＞ 成功<br><br></span><span class="chiaki">染谷千秋 : （……凶器？なんでここにあんだ？）二つの凶器を良く見てみます。<br><br></span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 19 ＞ 成功<br></span><span class="kp">使用された形跡はない。刃先も鋭く、よく切れそうだ。<br><br></span><span class="chiaki">染谷千秋 : （どっちも新品だ。何か切る時はこれを使おう。……にしても、ナタとノコギリか。こんな状況だと、死体を切り分けろって意味に聞こえるな）<br></span><span class="chiaki">染谷千秋 : 部屋から出てキッチンを見ます。目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 13 ＞ スペシャル<br><br></span><span class="kp">何も置いていないが、シンク下の収納スペースを確認すると、フライパンと鍋、箸など一通り調理器具が置いてある。ふたつある包丁入れのうち、ひとつだけにしか包丁は収まっていない。ガス、水道は通っている様子だ。<br></span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 57 ＞ 成功<br><br></span><span class="chiaki">染谷千秋 : （包丁の出処はここだな。ガスも水道も通ってる）<br></span><span class="chiaki">染谷千秋 : 冷蔵庫を調べます！<br><br></span><span class="kp">塩、胡椒、油などの調味料が並んでいるが、食材は無い。稼働はしているらしく、開けるとひんやりしている。<br><br></span><span class="chiaki">染谷千秋 : もっと詳細に見てみます。目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 70 ＞ 成功<br><br></span><span class="kp">続けてアイデアどうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功<br><br></span><span class="kp">中身はすっからかんだ。……死後硬直が始まる前のため、今のみ遺体を冷蔵庫へ収めることができるかもしれない、なんて思考が頭に一瞬浮かぶ。<br><br></span><span class="chiaki">染谷千秋 : （何日も続く夢もあった。ここに長期間閉じ込められる可能性もある。……現実と同じで死体が腐敗すんなら、……腐るよりはマシだ）<br>部屋に戻り、冷蔵庫の仕切りを取り外し、千冬の遺体を痛めないように収めます。<br><br></span><span class="kp">中にはめ込まれているプラスチックの板を取り外し、僅かな調味料を取り出し、千冬の遺体をその狭い空間へ押し込む。胎児のように膝を抱えた彼の遺体は、そうしてようやく冷蔵庫の中に収まることだろう。<br><br></span><span class="chiaki">染谷千秋 : （いくら夢の中だって言っても、気分悪いな……。だりー）SAN値を1減らします！<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 50 → 49<br></span><span class="chiaki">染谷千秋 : 壁を調べます！<br><br></span><span class="kp">壁にはカレンダーと時計がかかっており、クーラーも設置されている。<br><br></span><span class="chiaki">染谷千秋 : クーラーをつけ、内部含めて気になる箇所を見ます！<br><br></span><span class="kp">机上のリモコンを取ってクーラーをつけようとする。しかしなぜか動かない。電池は入っている様子だが、操作しても反応がない。<br></span><span class="kp">機械修理を振ってもいいですよ！<br><br></span><span class="chiaki">染谷千秋 : ccb<=20 【機械修理】 (1D100<=20) ＞ 69 ＞ 失敗<br><br></span><span class="kp">リモコンやクーラーの様子を窺っても、壊れている原因は特定できなかった。真夏の閉じられた部屋の中というのは、想像以上に耐えがたい蒸し暑さだというのをひしひしと感じるだろう。<br><br></span><span class="chiaki">染谷千秋 : （……だる）時計を見ます。目星！<br><br></span><span class="kp">シンプルなアナログ時計は、現在時刻を確認できる。今は1時を少し過ぎたあたりだ。<br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功<br><br></span><span class="kp">特におかしな点はない。<br><br></span><span class="chiaki">染谷千秋 : 時計の裏を見たり分解したりします。<br><br></span><span class="kp">分解の程度によって元に戻せなくなる可能性もありますが、分解しますか？<br><br></span><span class="chiaki">染谷千秋 : アイデア振って成功したら分解の手順覚えて戻せることになりませんか？（）<br><br></span><span class="kp">では分解する場合はアイデア-30%に成功で正しく手順を記憶できることとします！<br><br></span><span class="chiaki">染谷千秋 : 分解します！<br></span><span class="chiaki">染谷千秋 : CCB<=85-30 【アイデア】 (1D100<=55) ＞ 77 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 忘れた箇所もう一度戻して再チャレンジできませんか？（）<br><br></span><span class="kp">再チャレンジ込みでの失敗ということで不可とします！<br><br></span><span class="chiaki">染谷千秋 : （……どうなってんだ？）分解する前に仕組みを見ますが、良く理解らずに手を止めます。<br></span><span class="chiaki">染谷千秋 : カレンダーを見ます。<br><br></span><span class="kp">今日は[8/10]だ。[8/16]が赤い丸で囲んである。この日は何か大事な日だったような気がする。<br><br></span><span class="chiaki">染谷千秋 : （……今日含めて1週間か。この日に何かあんのか？）<br></span><span class="chiaki">染谷千秋 : 思い出せるかアイデア振りたいです！<br><br></span><span class="kp">どうぞ～！<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 33 ＞ 成功<br><br></span><span class="kp">やはり大事な予定があったはずだ。自分がそれを忘れてしまっているのだという思いが強くなる。<br><br></span><span class="chiaki">染谷千秋 : 関連する日程を思い返してみますがどれもしっくり来ません。<br>（……）<br></span><span class="chiaki">染谷千秋 : ベランダに出ます。目星！<br><br></span><span class="kp">どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 30 ＞ 成功<br><br></span><span class="kp">直射日光が当たり、コンクリートの表面には蜃気楼が立っている。酷い猛暑だ。<br>左右には壁がある。下をのぞくと、真っ白な景色の中、黒く焼けたアスファルトが遠くに見える。雨どいにはカサカサに干からびた枯れ葉が詰まり、頭のとれた蝉の死体がひとつ落ちている。<br>ここを出てはいけない。みつかってしまう。強い恐怖を感じる。<br><br></span><span class="chiaki">染谷千秋 : （……見つかる？何に？）暑さで汗が一筋伝います。恐怖から流れた汗を乱暴に拭います。<br></span><span class="chiaki">染谷千秋 : 外に出てみたいです！<br><br></span><span class="kp">玄関から外に出るということでしょうか？<br><br></span><span class="chiaki">染谷千秋 : ベランダにどうにか乗って左右の壁の向こう側確認してあれば乗りたい！下の階も確認したいです<br><br></span><span class="kp">左右の部屋も下の階もあります。左右の部屋には、手すりに乗れば行くことも可能でしょう。<br><br></span><span class="chiaki">染谷千秋 : 手すりに乗って左右の部屋にいきます！<br><br></span><span class="kp">手すりを伝い、隣の敷地内に踏み入る。そして窓越しに部屋の中を窺うと、先ほどまでいた自分の家と全く同じ様子だった。――無限ループしている、という事実に気付く。<br></span><span class="kp">SANC 1/1d3<br><br></span><span class="chiaki">染谷千秋 : oh<br></span><span class="chiaki">染谷千秋 : 1d100<=49 【SAN値チェック】 (1D100<=49) ＞ 33 ＞ 成功<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 49 → 48<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : （同じ場所に戻ってる。下もか？）下の階に行きます。<br><br></span><span class="kp">隣の部屋と違い、下の階に降りるには手すりをしっかりと掴み、上手く飛び降りる必要があるように思います。下の階に行きますか？<br><br></span><span class="chiaki">染谷千秋 : はい<br><br></span><span class="kp">STR*5どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 69 ＞ 失敗<br><br></span><span class="kp">下の階に降りようとして、手すりを掴みながら身をベランダの外側に出す。そして足を外して降りようとした時――汗で手が滑ったのか、それとも何かに引っ張られたのか――あなたの体は空に投げ出され、そして地面に叩きつけられた。<br>ごぱんという何かが爆ぜる音が聞こえ、意識が一瞬途切れる。<br>気付くと、元の部屋に戻っていた。<br></span><span class="kp">SANC 1/1d5<br><br></span><span class="chiaki">染谷千秋 : 1d100<=48 【SAN値チェック】 (1D100<=48) ＞ 42 ＞ 成功<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 48 → 47<br></span><span class="chiaki">染谷千秋 : （……死んでも元の部屋に戻されるのか。この調子じゃ下の階も同じか）<br></span><span class="chiaki">染谷千秋 : （開くか怪しいけど、一回玄関も見てみるか）<br></span><span class="chiaki">染谷千秋 : 玄関の方に行き扉を開けてみます。<br><br></span><span class="kp">ベランダで感じた恐怖を抑えて玄関へ向かう。扉を開けようと、ドアノブに手をかける。<br>――ここをあけてはいけない。出てはいけない。みつかってしまう。<br>頭がズキズキと脈打つように痛み、警鐘を鳴らす。<br></span><span class="kp">心理学または精神分析を振っても構いません。<br><br></span><span class="chiaki">染谷千秋 : 心理学振ります<br><br></span><span class="kp">この心理学は自分で振っていただきます。どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=5 【心理学】 (1D100<=5) ＞ 95 ＞ 失敗<br><br></span><span class="kp">扉を開けますか？<br><br></span><span class="chiaki">染谷千秋 : 聞き耳振りたいです！<br><br></span><span class="kp">どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 24 ＞ 成功<br><br></span><span class="kp">扉の奥に耳をすましても、何も聞こえない。<br><br></span><span class="chiaki">染谷千秋 : 開　け　ま　す<br><br></span><span class="kp">ドアノブを握る手に自然と力がこもる。自身から湧き上がる警告を無視して、ドアノブを捻った。<br><br>ここをあけてはいけない。出てはいけない。みつかってしまう。<br><br>ここをあけてはいけない。出てはいけない。みつかってしまう。<br><br>ここをあけてはいけない。出てはいけない。みつかってしまう。<br><br>脳がばくばくと脈打っている。<br>ぶつり。<br><br>その場に崩れ落ちる。扉が開いたかどうかも分からないうちに意識が途切れた。<br>気付くと、元の部屋に戻っていた。<br></span><span class="kp">SANC 1/1d3<br><br></span><span class="chiaki">染谷千秋 : 1d100<=47 【SAN値チェック】 (1D100<=47) ＞ 38 ＞ 成功<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 47 → 46<br></span><span class="chiaki">染谷千秋 : 玄関の方を確認します。自分の死体はありますか？<br><br></span><span class="kp">玄関に戻るが、様子は特に変わりない。自分の死体が転がっているようなこともなかった。<br><br></span><span class="chiaki">染谷千秋 : 玄関に目星！他に気になる箇所はありますか？<br><br></span><span class="kp">どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功<br><br></span><span class="kp">玄関を改めて観察するが、いつもの玄関と変わりがないように見える。<br><br></span><span class="chiaki">染谷千秋 : ベランダに戻り室外機を確認します。<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 62 ＞ 成功<br><br></span><span class="kp">室外機は熱されていて、触ると熱い。<br>室外機の置かれている地面が乾ききっていることから、あのエアコンはしばらくの間稼働していなかったのだろうということが見てとれる。少なくとも、日単位で。<br><br></span><span class="chiaki">染谷千秋 : 「……」浴室にいきます！<br><br></span><span class="kp">浴室に向かう。置いてある物もその配置も、いつもと一緒だった。<br>体についた血を流そうと思うなら、シャワーで洗い流せるかもしれない。<br><br></span><span class="chiaki">染谷千秋 : 洗い流します！<br><br></span><span class="kp">血を洗い流す。赤く染まった水が、次第に透明になる。<br>汚れが落ち、体は綺麗になった。人を殺したとは思えないほどだ。<br><br></span><span class="chiaki">染谷千秋 : 濡らした服でスマホをきれいにします。<br><br></span><span class="kp">自身の服を濡らして、雑巾代わりにする。<br>血で汚れていない場所を使って、血や汗を綺麗に拭き取った。<br><br></span><span class="chiaki">染谷千秋 : スマホを操作します！<br><br></span><span class="kp">もう一度点けようと試みたが、やはり電源は入らなかった。<br><br></span><span class="chiaki">染谷千秋 : 充電器を取り出して接続してみます！電源はつきますか？<br><br></span><span class="kp">充電器を繋いでみるが、電源は点かない。充電の問題ではないようだった。<br><br></span><span class="chiaki">染谷千秋 : （……つかねーな）洗濯機を調べます！<br><br></span><span class="kp">洗濯機のボタンに触れてみると、ピッと音が鳴る。どうやら動くようだ。<br><br></span><span class="chiaki">染谷千秋 : 中には何か入っていますか？<br><br></span><span class="kp">洗濯機の中を覗く。何も入っていない。<br><br></span><span class="chiaki">染谷千秋 : （電気は通ってる。……、あと確かめてない所か……）テレビを調べます！<br><br></span><span class="kp">急に思い立ち、リビングへ戻る。<br>テレビを点けてみたが、砂嵐が映るのみだった。<br><br></span><span class="chiaki">染谷千秋 : （……。特別気になる場所はないな。脱出への手がかりは見つからなかった。……気になるのは時計ぐらいだけど、一回分解したら戻せそうにない。……長時間閉じ込められる可能性もある。時間感覚が分かるものは残しておきたい）<br></span><span class="chiaki">染谷千秋 : （……この部屋に閉じ込められてるな。部屋から出ようとすると悪寒がする。外に繋がる道で確認してないのは下の階ぐらいか。……望みは薄いけど、何度か挑戦してみるか）ベランダから下の階に飛び降ります。<br><br></span><span class="kp">STR*5どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 56 ＞ 失敗<br><br></span><span class="kp">掴みづらい手すりに舌打ちをする。なんとかぶら下がって、飛び移ろうとした瞬間に、再び手が滑る。片手で手すりを掴み直すが、急には自身の重さを支えきれず、あなたの体は中に浮いた。<br><br>意識が途切れる。<br><br>気付くと、元の部屋に戻っていた。<br>SANC 1/1d3<br><br></span><span class="chiaki">染谷千秋 : 1d100<=46 【SAN値チェック】 (1D100<=46) ＞ 92 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 46 → 43<br></span><span class="chiaki">染谷千秋 : 舌打ちしてもう一度ベランダに出ます。もう一回！<br><br></span><span class="kp">STR*5どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 18 ＞ 成功<br><br></span><span class="kp">跳躍どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=25 【跳躍】 (1D100<=25) ＞ 35 ＞ 失敗<br><br></span><span class="kp">要領を得て、なんとかぶら下がるところまでは成功する。勢いをつけて飛び移ろうと手を離したが、半身だけで勢いをつけるのは難しかった。下の階のベランダの手すりに足を強打した後、あなたは頭から地に落ちていく。<br><br>何かが弾ける音がする。<br>意識が途切れる。<br><br>気付くと、元の部屋に戻っていた。<br>SANC 1/1d2<br><br></span><span class="chiaki">染谷千秋 : 1d100<=43 【SAN値チェック】 (1D100<=43) ＞ 24 ＞ 成功<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 43 → 42<br></span><span class="chiaki">染谷千秋 : 部屋に戻り本を持ち出します。下の階に投げ入れてみます。<br><br></span><span class="kp">ここからではあまりよく見えないが、響いた音から下の階のベランダに本が落ちたように思う。<br><br></span><span class="chiaki">染谷千秋 : 続けて本を落とします。自分が先程落ちて激突したであろう場所まで。<br><br></span><span class="kp">本を落として、下を覗きこむ。地面には本が落ちている。<br><br></span><span class="chiaki">染谷千秋 : （……本は元に戻らないのか。本が戻らなかったら下の階に行ける証明になると思ったけど、違うみたいだ。部屋が無限に続いてるわけじゃなくて、俺が部屋に戻されてるのか？）<br></span><span class="chiaki">染谷千秋 : （死んだら強制的に戻される、か。ゲームの残機みたいだな）<br></span><span class="chiaki">染谷千秋 : （下の階も左右の部屋と同じ可能性が高い、けどな……）部屋に戻り、包丁を取ります。そのまま首をかききります。<br><br></span><span class="kp">自分の首を包丁で掻き切った。当たり前のように血が溢れ、際限のない痛みが脳を焼き、一瞬だけ意識が途切れる。<br>気付くと、元の部屋の真ん中に立っていた。<br>SANC 1/1d2<br><br></span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 46 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 42 → 40<br></span><span class="chiaki">染谷千秋 : （……まあ変わらねーか）<br></span><span class="chiaki">染谷千秋 : （……暑、……せめてスマホがつけばな）うだる暑さの中ソファに座ってぼーっとします。<br></span><span class="chifuyu">染谷千冬 : 「おなかがすいただろう」<br></span><span class="chiaki">染谷千秋 : 「！」<br><br></span><span class="kp">聞き間違えるはずもない、千冬の声だった。<br>がたりと、冷蔵庫のほうから音がした。<br><br>その言葉のどこか甘美な響きにぐらりとする。<br>口の中に、生唾がわいた気がした。<br><br>頭がずきずきとする。目がくらむ。吐き気がひどい。<br>背や顎を伝っていた汗はいつの間にか止まっており、あがった息はハァハァとうるさく頭の中でこだまする。<br>熱中症だと気付いたときには既に膝から力が抜けており、その場で倒れ伏した。<br></span><span class="kp">・・・<br></span><span class="kp">【二日目】8/11<br></span><span class="kp">酷い頭痛と吐き気、強い腐臭で目を覚ます。<br>体調の悪化により、HP-3。<br><br></span><span class="chiaki">[ 染谷千秋 ] HP : 12 → 9<br><br></span><span class="kp">どうやら自室の床に倒れていたようだった。そして横のベッドには、千冬の死体がある。冷蔵庫に入れていたはずが、なぜか元の場所に戻っている。<br></span><span class="kp">蒸し暑い室内で長時間放置されたせいだろうか、腐敗が酷く進み、腹部は不気味に膨らみ大量の蠅と蛆が溢れ返っている。虫はあなたの手足を這いずり回り、身体の下では何匹かが潰れて醜い染みになっている。<br>SANC 1/1d6<br><br></span><span class="chiaki">染谷千秋 : 1d100<=40 【SAN値チェック】 (1D100<=40) ＞ 90 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 1<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 39<br></span><span class="chiaki">染谷千秋 : 「……ッ！」<br>痛みと吐き気で思考が上手くまとまらず、一瞬夢の中だと忘れます。<br>半ば衝動的に千冬の身体に湧いた蛆を払います。<br></span><span class="chiaki">染谷千秋 : 「……は、」<br></span><span class="chiaki">染谷千秋 : （何やってんだか……。落ち着け。これは夢だ）<br></span><span class="chiaki">染谷千秋 : 「……」<br>手についた蛆を振り払い起き上がり、改めて部屋を見渡します。千冬の身体が突然現れたこと以外に変化がないか、千冬の身体と部屋に目星！<br><br></span><span class="kp">目星を2回どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 75 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 71 ＞ 成功<br><br></span><span class="kp">千冬を見ると、死後硬直はとけているが、腐敗が進んでいる。内臓から腐り始めているのだろうか、衣服の隙間から見える腹は青黒い色に染まっている。大量の蛆と蠅に犯されている。<br></span><span class="kp">部屋を見ると、この部屋は一見、昨日と変わりないように見える。<br>時計を見て、時間を確認する。現在時刻は午前11時だった。<br>喉が渇いている。口の中に鉄錆の臭いがこびりついていて、血生臭さを感じる。また、熱中症の症状が出ているようにも思う。<br><br></span><span class="chiaki">染谷千秋 : キッチンに向かい水に塩を入れて飲みます。<br><br></span><span class="kp">水を飲むことで体調が若干緩和する。HP+1。<br><br></span><span class="chiaki">[ 染谷千秋 ] HP : 9 → 10<br></span><span class="chiaki">染谷千秋 : （こうしてる間に千冬も怪異に巻き込まれるかもしんねー。……早く出ねーと）<br>水を飲み宙を睨みながら意識を改めます。<br></span><span class="chiaki">染谷千秋 : 一息ついてカレンダーを見ます。変化はありますか？<br><br></span><span class="kp">カレンダーを見るが、特に変化はない。<br></span><span class="kp">アイデアどうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 7 ＞ スペシャル<br><br></span><span class="kp">よく考えると、千冬はいつも予定を文字でカレンダーに書込んでいる。<br>しかし8/16はただ赤い丸がついているだけだ。<br><br></span><span class="chiaki">染谷千秋 : （千冬なら予定を書くはずだ。……なら誰が？……記憶を失ってない限りは俺じゃない。俺をここに閉じ込めてる奴か？）<br></span><span class="chiaki">染谷千秋 : キッチンに向かいガスが使えるか見ます。<br><br></span><span class="kp">試しにコンロのツマミを回すと点火した。ガスは使えるようだ。<br><br></span><span class="chiaki">染谷千秋 : （……寝る前に聞いた声といい、閉鎖空間に閉じ込められたことといい、いつでも調理できる状態になってることといい……、俺にあれを食わせたいのか？……悪趣味なヤツ）<br></span><span class="chiaki">染谷千秋 : 自分の空腹状態を知りたいです。<br><br></span><span class="kp">飢えているというほどではないが、空腹が続いている。<br><br></span><span class="chiaki">染谷千秋 : ベランダに出て天気を確認します。<br><br></span><span class="kp">ベランダに出るが、日差しが直接肌を焼く。息苦しいほどの熱気が体を纏う。とても暑い。<br>上から何かが落ちてくる。ごぱぢゅん、と下で何かが割れ弾ける音がした。<br><br></span><span class="chiaki">染谷千秋 : 下を見ます。死体は見たことあります！<br><br></span><span class="kp">下をのぞくと、コンクリートに真っ赤な液体が広がっていた。潰れた死体と目があう。それは紛れもなく”あなた”だった。<br>SANC 1/1d3<br><br></span><span class="chiaki">染谷千秋 : 先生！覚悟してました！<br><br></span><span class="kp">減らしてます！<br><br></span><span class="chiaki">染谷千秋 : あっ<br></span><span class="chiaki">染谷千秋 : 1d100<=39 【SAN値チェック】 (1D100<=39) ＞ 77 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1D3 (1D3) ＞ 3<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 39 → 36<br></span><span class="chiaki">染谷千秋 : 落ちてきた死体は1体だけですか？<br><br></span><span class="kp">そうです！<br><br></span><span class="chiaki">染谷千秋 : 落ちてきた死体に目星降りたいです！<br><br></span><span class="kp">どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 12 ＞ スペシャル<br><br></span><span class="kp">ぐちゃぐちゃの赤黒い液体の中に死体が沈んでいる。頭蓋は割れ、脳が散らばっている。腕が有り得ない方向に曲がり、骨が露出していた。高所から転落した死体であることが分かる。<br><br></span><span class="chiaki">染谷千秋 : （……）<br></span><span class="chiaki">染谷千秋 : 先程天気を見ましたが日光はありますか？<br><br></span><span class="kp">あります！<br><br></span><span class="chiaki">染谷千秋 : （太陽は見える。……）<br>部屋に戻り、家にあるもので簡易的な日時計を作ります。<br><br></span><span class="kp">時間が分かるように日時計を作る。今日、時刻ごとの影の位置を記録すれば、太陽がある限りは時間が分かるだろう。<br><br></span><span class="chiaki">染谷千秋 : 風で飛ばされないように日差しがあたる室内に固定します。その後現在の位置・時間を記録します。<br></span><span class="chiaki">染谷千秋 : （……今日は倒れねーようにしないとな。あの太陽が本物で、時間の進みが現実世界と同じなら、上手くいけば明日には時計の代替品になる）<br><br></span><span class="kp">再び時計を見ると12時になっていた。日時計に記録をする。<br><br></span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】死体の匂いに慣れてない/もう慣れた (1D100<=75) ＞ 58 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】死体の匂い耐えれるか (1D100<=80) ＞ 79 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 15度間隔で日時計に目安線を引いておきます。<br>（また1時間後に記録しよう）<br></span><span class="chiaki">染谷千秋 : 部屋に戻り、死体がいる方の部屋の窓を開けます。<br>（……これで少しでも腐臭はマシになるか？）<br>その後掃除用の手袋とマスクをつけます。蝿が飛び回る中、死体に触れてベッドの下を確認します。<br><br></span><span class="kp">ベッドを確認するが、千冬の体液がすっかり滲み、駄目になっている。<br><br></span><span class="chiaki">染谷千秋 : 昨日と変わりないか目星！<br><br></span><span class="kp">どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 98 ＞ 致命的失敗<br><br></span><span class="kp">sccb<=16*3 【千秋 POW*3】 (1D100<=48) ＞ 95 ＞ 失敗<br></span><span class="kp">ﾌwww<br><br></span><span class="chiaki">染谷千秋 : ゑ？<br><br></span><span class="kp">千冬の体が腐っていく。<br>見るに堪えない、惨い状態だ。<br><br>千冬を、解体しなければならない。<br><br>ふと、そんな気持ちが湧き起こる。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 83 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「……これ以上腐る前に、しまわないとな」<br>フラフラとクローゼットに近づきます。<br>ナタを取り出し、頭部を切り離します。<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 33 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 切り離した頭部を愛おしげに覗きこみます。しばらく眼孔を見つめるうちに正気を取り戻します。<br>（……、今の、何だ）<br></span><span class="chiaki">染谷千秋 : 「……」<br>頭部が切り離された千冬の身体を見て不快な気持ちになります。<br>見るに耐えず、四肢を切り離します。<br><br></span><span class="kp">関節に刃物を突き立て、肉を引き千切り、骨を砕く。血は、案外出ない。<br>それは、想像していた以上の重労働だった。手には千冬の脂と体液がぬるぬるとまとわりつき、にじむ汗がとめどなく目に入っては痛みを訴える。何度もそれを腕でぬぐい、千冬の血が混じったあなたの汗がぼたぼたと顎から膝に落ちていく。<br>千冬はあなたの手により「肉」となっていった。<br>SANC 1d3/1d8<br><br></span><span class="chiaki">染谷千秋 : 1d100<=36 【SAN値チェック】 (1D100<=36) ＞ 44 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d8 (1D8) ＞ 7<br><br></span><span class="kp">一時的発狂のアイデアロールどうぞ。<br><br></span><span class="chiaki">[ 染谷千秋 ] SAN : 36 → 29<br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 79 ＞ 成功<br><br></span><span class="kp">発狂表からRoCで発狂しましょう～！<br>発狂は今日のみとします。<br><br></span><span class="chiaki">染谷千秋 : 1D10 (1D10) ＞ 4<br></span><span class="chiaki">染谷千秋 : choice[短期,長期] (choice[短期,長期]) ＞ 長期<br></span><span class="chiaki">染谷千秋 : 長期の一時的凶器表から「4.奇妙な性的嗜好（ネクロフィリア）」を発症しま～す。<br></span><span class="chiaki">染谷千秋 : 「っはは、千冬……。好きだ。……愛してる」<br>腐って溶けた千冬の頭部に口付けをします。そしてぶつ切りになった手に指を絡め、半分程溶けた下腹部に唇を押し付け、流れ出る体液を啜ります。<br>千冬が死んだことも、蝿が飛び回っていることも、蛆が湧いていることも忘れ、そこにはいない千冬面影を求めながら千冬の死体を犯します。<br><br></span><span class="kp">殺したのは自分なのに、バラバラにしたのも自分なのに、肉片と化した千冬を見て思考が崩壊していく。<br>どんな千冬でも愛おしい。だから千冬を求めた。ただの肉に欲を打ちつけ、溶けた液体を啜る。自分がどんな顔をしているかは、分からなかった。<br>SAN回復1d2どうぞ。<br><br></span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 29 → 31<br><br></span><span class="kp">千冬に、自身の欲を吐き出して、恍惚の時を過ごす。<br>――しかし、体調は限界だった。<br>ずっと頭痛が酷い。震えが止まらない。<br>とうとう耐えられなくなって、その場に思わず嘔吐する。びたびたと胃液が吐き出され、強い酸の臭いが腐臭と混じる。<br>汗はとうに止まっている。いよいよ身体に力が入らなくなり、吐いたばかりの吐瀉物と、バラバラになった千冬の中へ倒れ伏した。<br>蝉が開いた窓から入り、煩く鳴き出した。しかしそれをどうにかする気力もなく、意識は沈んでいった。<br></span><span class="kp">・・・<br></span><span class="kp">【三日目】8/12<br></span><span class="kp">――千冬の、声がする。<br><br></span><span class="chifuyu">染谷千冬 : 「起きろ」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】勢いない/ある (1D100<=80) ＞ 51 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 身体を起こして声のする方向を見ます。<br><br></span><span class="kp">起き上がって声の方向を見ようとすると、べちゃりと手の下から音がした。それを認識した途端、麻痺していた五感が戻っていく。<br>千冬の体は散り散りになったままだった。千冬の腐敗した内臓から何かの汁がどろりと流れていた。<br>床のほとんどは千冬の腐った体液で汚れている。もちろん、そこで寝ていた自身も。<br>口の中にもぞもぞとした感覚がある。吐き出すと、大きな蛆虫がべちゃりと涎に濡れて落ちる。<br>それを気にする間もなく、はっと顔を上げた先――目を奪われた。<br>切断された首上の、その口が、頭が、動いていた。<br>そして、明確に口をきく。大量の蛆を吐き出しながら。<br><br></span><span class="chifuyu">染谷千冬 : 「おはよう、千秋。……具合はどうだ？」<br><br></span><span class="kp">SANC 1/1d6<br><br></span><span class="chiaki">染谷千秋 : 1d100<=31 【SAN値チェック】 (1D100<=31) ＞ 1 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「誰だお前」冷めた目で千冬の形をしたそれを見ます。<br></span><span class="chifuyu">染谷千冬 : 「……そうか」悲しそうに眉を下げます。<br><br></span><span class="kp">……目の前のものに言われて気がつく。<br>あの酷い頭痛も吐き気も、身体の震えも消えていた。<br>HP全回復。<br><br></span><span class="chiaki">[ 染谷千秋 ] HP : 10 → 12<br></span><span class="chiaki">染谷千秋 : （……幻覚か？）身体を起こし、千冬の形をしたそれから距離をとります。<br></span><span class="chiaki">染谷千秋 : 「誰だって聞いてんだよ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br><br></span><span class="kp">悲しげに千秋を見ています。<br><br></span><span class="chifuyu">染谷千冬 : 「……水、飲め」<br></span><span class="chiaki">染谷千秋 : 「……答えろ」それを睨んだまま微動だにしません。<br></span><span class="chifuyu">染谷千冬 : 「……俺は、千冬だ……」<br></span><span class="chiaki">染谷千秋 : 「……」目の前の生首に心理学振りたいです！補正ください！染谷千秋、千冬の形をしたものに詳しいです！<br><br></span><span class="kp">ふ、いいでしょう！これはKPが振ります。<br><br></span><span class="chiaki">染谷千秋 : やった～～～！！陳謝！<br><br></span><span class="kp">初期値で笑いました。<br>今までも目星で判定していた時があったので、対千冬ということで、今回も目星で許可します。<br><br></span><span class="chiaki">染谷千秋 : 助かります！！！<br><br></span><span class="kp">目星の値でこちらでシークレットダイスを振ります。<br></span><span class="kp">sCCB<=83 【目星】 (1D100<=83) ＞ 66 ＞ 成功<br></span><span class="kp">目の前のものに、嘘をついているような含みは感じない。むしろ、不器用な言葉に千冬らしさを感じるかもしれない。<br><br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……お前が本当に千冬なら、何でここにいるんだ。……それに、その姿は何だよ」<br></span><span class="chifuyu">染谷千冬 : 「何で、ここにいるか……？　……この姿は……これは、千秋がやったんだろう？」うまく分かってない顔で答えます。<br></span><span class="chiaki">染谷千秋 : 「……、ここは夢の中だ。もしくは怪異の中。違うか？」<br></span><span class="chifuyu">染谷千冬 : 「……そうか。じゃあ、そうだ」<br></span><span class="chiaki">染谷千秋 : 「……。じゃあ、ってなんだよ」<br></span><span class="chifuyu">染谷千冬 : 「千秋がそう思うなら、そうだと思った」<br></span><span class="chiaki">染谷千秋 : 「……。俺がその姿にしたってのは？殺して首だけにしたってことか？……何でそのまま喋れてる」<br></span><span class="chifuyu">染谷千冬 : 「……千秋が俺を殺した。でも、別にいい。……そういうこともあるんじゃないか」<br></span><span class="chiaki">染谷千秋 : 「俺には前後の記憶がない。お前が殺されるまでに何があった」<br></span><span class="chifuyu">染谷千冬 : 「……俺にも、分からない。俺が分かるのは……千秋が俺を殺したこと……俺が死んだこと……だ」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「8/16に何があるかわかるか」<br></span><span class="chifuyu">染谷千冬 : 「……秘密、だ」照れたような表情を浮かべます。<br></span><span class="chifuyu">染谷千冬 : 「……千秋。水を飲め。体調を崩してしまう。……あと、ずっと食べてないだろう。お腹はすいてないか」<br></span><span class="chiaki">染谷千秋 : 「……悪いけど、俺はお前が千冬だって信じられない。俺のことは気にかけなくていいぜ。……お前はこの部屋から抜け出す方法は分かるか」<br></span><span class="chifuyu">染谷千冬 : 「……出なくていい。一緒にいたい、千秋」<br></span><span class="chiaki">染谷千秋 : 「……」<br>これ以上の情報は手に入らないと考え、その言葉を無視して身体を起こします。時計を確認したいです。今何時ですか？<br><br></span><span class="kp">時刻は午後7時。外からはヒグラシの声が聞こえてきていた。真っ赤な夕焼けが藍に染まってきている。<br>相変わらず酷く暑い部屋だが、この温度には慣れてしまった気がする。<br><br></span><span class="chiaki">染谷千秋 : 日時計に記録して風呂に入ります。体液と汚れを流し、出た後に塩分水を飲みます。<br></span><span class="chiaki">染谷千秋 : （……腹減った）<br>キッチンに向かい、包丁を手に取り指先から手のひらにかけて切ります。<br><br></span><span class="kp">自身の体に刃を入れて、皮膚を断つ。じんと鋭い痛みが走り、血がすぐに滲み上がる。<br><br></span><span class="chiaki">染谷千秋 : （……けど、得体のしれないもん食いたくねーしな）<br>水を大量に飲みます。その後ベランダから下階へ飛び降りチャレンジします。<br><br></span><span class="kp">STR*5どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 59 ＞ 失敗<br><br></span><span class="kp">頭痛や吐き気、体の震えこそないが、ろくに食べておらず、力が入らない。自身の体重を支えることすら難しく、あなたは地に落ちた。<br>気付くと、元の部屋に戻っていた。<br>SAN-1<br><br></span><span class="chiaki">[ 染谷千秋 ] SAN : 31 → 30<br></span><span class="chiaki">染谷千秋 : 手とお腹の具合を確認します。手の傷はどうなっていますか？また水を大量に飲んだ感覚はありますか？<br><br></span><span class="kp">手や腹の状態を確認する。手には傷が残っており、水を飲んだ感覚もある。<br><br></span><span class="chiaki">染谷千秋 : （身体の状態はリセットされねーのか。されんなら食えると思ったけど無理か）<br>一息ついてもう一度水を飲み、空腹を紛らわします。<br>その後時計の構造をメモしながら分解してみます。<br><br></span><span class="kp">時計を分解したが、特に異常も、変わったものも無さそうだった。<br><br></span><span class="chiaki">染谷千秋 : 時計を戻します。<br><br></span><span class="kp">DEX*5どうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功<br><br></span><span class="kp">メモに残した甲斐あって、元に戻すことができた。<br><br></span><span class="chiaki">染谷千秋 : （……日時計要らなかったか？）<br>他に気になる箇所がないか部屋全体に目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 35 ＞ 成功<br><br></span><span class="kp">部屋を見渡す。千冬の腐敗した体液が床に零れ落ちている。<br>白かった壁は黒く濁り、窓にはヒビが入っている。<br><br></span><span class="chiaki">染谷千秋 : （体液が原因か？……老朽化が進んでる？……部屋を破壊することはできねーか？）<br>部屋に戻り体液とその周辺を更に見てみます。<br></span><span class="chiaki">染谷千秋 : （あれは千冬じゃない、はずだ。……8/16日に起きることを聞いた時、あいつは照れくさそうにしてた。あいつが俺の敵で、俺を閉じ込めるのが目的だとしたら、このまま部屋に居続けるのは危ねーな。玄関から外に出ようとした時、嫌な感覚がしたけど、……それも操作されてんのか？）<br><br></span><span class="kp">部屋に戻り、体液やその周辺、そしてその中心にいる「千冬」に目を向ける。<br>なぜか途端に空腹が気になり始める。目の前の千冬はドロドロに腐って溶けているというのに、何故かその体液を『舐めたい』と、肉を『啜りたい』と思う。飢餓感が明確になる。<br>――壁や窓にまで及んでいるから、家の変貌はこれが原因ではないだろう。窓はともかく、壁は汚れているだけで材質が変わっているわけではない。破壊することはできなさそうだった。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢餓感を感じない/感じる (1D100<=80) ＞ 96 ＞ 致命的失敗<br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】飢えを耐えれる体力がある/ない (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢えを耐えれる/耐えれない (1D100<=80) ＞ 7 ＞ スペシャル<br></span><span class="chiaki">染谷千秋 : 知らず知らずのうちに手を握りしめます。唾を飲み込み、千冬と名乗るそいつに視線をやります。今は何をしていますか？<br><br></span><span class="kp">千冬を見ると、崩れかけた顔ながらも、戸惑いながらこちらを見つめているのだろうと分かる。<br><br></span><span class="chiaki">染谷千秋 : 「……『千冬』」<br></span><span class="chifuyu">染谷千冬 : 「……何だ？」<br></span><span class="chiaki">染谷千秋 : 「出なくていい、ってなんでだ。『千冬』はここから出たくねえの」<br></span><span class="chifuyu">染谷千冬 : 「ここにいれば、安心だから」<br></span><span class="chiaki">染谷千秋 : 「……『千冬』はここが何か知ってるのか？外には何がいんの」<br></span><span class="chifuyu">染谷千冬 : 「俺たちの家だろう？　外は危険だ。何が起こるか分からない。千秋は俺が守る」<br></span><span class="chiaki">染谷千秋 : 「俺達の家とは違うだろ？出ようとしたら強制的に戻される」<br></span><span class="chiaki">染谷千秋 : 「……俺はここにいたくない。千冬に守られんのも嫌だ」<br></span><span class="chifuyu">染谷千冬 : 「……そうか」<br></span><span class="chiaki">染谷千秋 : 「……『千冬』はこの家から出たらどうなるんだ」<br></span><span class="chifuyu">染谷千冬 : ふ、と笑います。<br>「俺は死んでいるから動けない」<br></span><span class="chiaki">染谷千秋 : 「俺が持てばいい」<br></span><span class="chifuyu">染谷千冬 : 「……いいのか？」<br></span><span class="chiaki">染谷千秋 : 「？ああ」<br></span><span class="chifuyu">染谷千冬 : 「……千秋は俺のことを信じてないんだと思ってた」<br></span><span class="chiaki">染谷千秋 : 「さっきは気が動転してた。悪いな」<br></span><span class="chiaki">染谷千秋 : 「けど、俺が出たいって意見は変わらないぜ。協力してくれ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「そもそも、俺は死人で、千秋は……殺人者だ。もう……外には出れない」<br></span><span class="chiaki">染谷千秋 : 「そういうルールがあんのか？」<br></span><span class="chifuyu">染谷千冬 : 「法律だ」<br></span><span class="chiaki">染谷千秋 : 「物理的に出れなくなるわけじゃないだろ？けど、この家は違う」<br></span><span class="chifuyu">染谷千冬 : 「でも、出る必要がない」<br></span><span class="chiaki">染谷千秋 : 「俺は出たい」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……『千冬』」<br></span><span class="chifuyu">染谷千冬 : 「……何だ」<br></span><span class="chiaki">染谷千秋 : 「何で黙った」<br></span><span class="chifuyu">染谷千冬 : 「千秋は出たくて、俺は出たくないからだ」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「話を変える。俺がここに閉じ込められた日、倒れる直前に『千冬』の声を聞いた。あの時から意識はあったのか？」<br></span><span class="chifuyu">染谷千冬 : 「あった」<br></span><span class="chiaki">染谷千秋 : 「ずっと？」<br></span><span class="chifuyu">染谷千冬 : 「ずっと、千秋を見ていた」<br></span><span class="chiaki">染谷千秋 : 「昨日までは俺の意識がなくなる直前に話しかけてきただろ。今日になって話そうと思った理由は何だ」<br></span><span class="chifuyu">染谷千冬 : 「話せたからだ」<br></span><span class="chiaki">染谷千秋 : 「……？」<br></span><span class="chifuyu">染谷千冬 : 困り顔で微笑みます。<br></span><span class="chiaki">染谷千秋 : 「昨日までは話せなかった？」<br></span><span class="chifuyu">染谷千冬 : 「そうかもしれない。よくわからない」<br></span><span class="chiaki">染谷千秋 : 「……。俺がここに閉じ込められてから3日が過ぎた。『千冬』の身体はどんどん崩れてる。直にまた話せなくなる可能性もある」<br></span><span class="chiaki">染谷千秋 : 「16日、何があるんだ。教えてくれ」<br></span><span class="chifuyu">染谷千冬 : 「……ひみつ」<br></span><span class="chiaki">染谷千秋 : 「……そーかよ」<br></span><span class="chiaki">染谷千秋 : 他に気になる箇所がないか家全体に目星したいです！！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 66 ＞ 成功<br><br></span><span class="kp">家の中を歩き回って確認する。やはり家全体にどこか劣化を感じる。キッチンの周りで、ゴキブリが数匹這いまわっている。そのうち共食いを始め、聞こえないはずの鳴き声がギィギィと耳につく。<br>SAN0/1<br><br></span><span class="chiaki">染谷千秋 : 1d100<=30 【SAN値チェック】 (1D100<=30) ＞ 46 ＞ 失敗<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 30 → 29<br></span><span class="chiaki">染谷千秋 : クローゼットを見ます。<br><br></span><span class="kp">クローゼットを開けると、人影が自分のほうへ倒れこむ。その人影に両手で首を掴まれ、ぎりぎりと締め上げられる。ゆっくりと顔を起こしたその女性は、記憶の映像にある自身の母親だった。口をぱくぱくと動かして、何かを呟いている。その声を思い出すことはできないが、自分に向かって呪詛を吐いているに違いなかった。――しかし瞬きの合間に、その女性は姿ごと掻き消える。一体、どこからが夢なのだろうか。<br></span><span class="kp">SANC 1/1d3<br><br></span><span class="chiaki">染谷千秋 : 1d100<=29 【SAN値チェック】 (1D100<=29) ＞ 98 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 1<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 机の上を調べます！<br><br></span><span class="kp">机の上に目をやる。パソコンとクーラーのリモコンがある。特に配置は変わっていない。<br><br></span><span class="chiaki">染谷千秋 : どちらも触ってみます。<br><br></span><span class="kp">パソコンにはパスワードがかかっており、リモコンも相変わらず動かない。<br><br></span><span class="chiaki">染谷千秋 : パソコンのパスワードに0816と入力してみます。失敗した場合は続けて入力します。文字長などのヒントが出てきたりしませんか？<br><br></span><span class="kp">様々な数字を試すが、どれも解除できなかった。ヒントの文字列も出ない。<br><br></span><span class="chiaki">染谷千秋 : （……だめか）<br></span><span class="chiaki">染谷千秋 : 冷蔵庫、洗濯機、浴室、テレビの順に見ていきます。<br><br></span><span class="kp">冷蔵庫を開くと、むわりとこもった臭いがする。電気が通じておらず、特有の刺激臭が麻痺した鼻をついた。幸いなのは、中身が入っていないことだった。<br>洗濯機の様子には変わりがない。しかし、洗剤の中に虫が混じり、その体液で汚していた。<br>浴室も確認する。水を流すと、僅かに赤さびが混じっていた。水が生臭い。<br>リビングに戻りテレビを点けると、カラーバーが表示される。<br><br></span><span class="chiaki">染谷千秋 : （……はあ。まだ3日しか経ってねーって）<br>惨状を見て千冬を恋しく思う気持ちが湧き上がります。ここにきてからの日数を思い出し、気持ちを落ち着かせます。<br></span><span class="chiaki">染谷千秋 : 玄関にいって外の様子を伺います。<br><br></span><span class="kp">覗き穴から外を見てみると、そこは真っ暗だった。<br></span><span class="kp">アイデアをどうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 69 ＞ 成功<br><br></span><span class="kp">暗いのではなく「瞳孔が間近にあったから黒く見えた」ということに気付く。<br>つまり、この扉一枚隔てた向こうから”誰か”がこちらをのぞき込んでいる。<br>カリカリと扉をひっかく音がする。<br><br></span><span class="chiaki">染谷千秋 : 聞き耳立てて相手が人間かどうか分かったりしないですか？<br><br></span><span class="kp">耳をそばだてても、引っ掻く音が聞こえるのみで様子は窺えない。<br><br></span><span class="chiaki">染谷千秋 : ドン、と扉を軽く殴ります。<br>「おい。誰かいるのか」<br><br></span><span class="kp">一瞬音が止んだかと思うと、再びガリガリと鳴り始める。しかし問いかけに応える声はない。<br><br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 扉を開けます。<br><br></span><span class="kp">扉を開けようとしても、ドアノブはびくとも動かない。<br><br></span><span class="chiaki">染谷千秋 : 「……開かなくなってる」<br></span><span class="chiaki">染谷千秋 : カレンダーと時計を見てから室外機を見ます。<br><br></span><span class="kp">カレンダーの8/17以降の日付が全て「44」に変化している。めくると以降は黒塗りが続いている。<br>室外機は沈黙を保ったままだ。<br><br></span><span class="chiaki">染谷千秋 : （……４。死……？……。8/16までに出ないと死ぬのか？）<br></span><span class="chiaki">染谷千秋 : （一通り調べ終わったか。大した収穫はねーな。……）<br>暑さと飢えによる疲労から壁に寄りかかり、ずるずると座り込みます。<br></span><span class="chiaki">染谷千秋 : （急いで脱出したいけど、ここは日を重ねるごとに変化してる。明日以降に備えて体力は温存しとこう）<br>床に横たわり、身体の側を横切るゴキブリを眺めながらぼんやりと考え事をします。<br></span><span class="chiaki">染谷千秋 : （……千冬は今どうしてるかな。俺みたいに閉じ込められてなきゃいいけど。……もし閉じ込められてんなら、早く助けにいかねーと……）考え事を続けながら微睡みます。<br></span><span class="chiaki">染谷千秋 : （気分悪い。頭痛がする。腹減った。早く出たい。……千冬に会いたい。……千冬……）うつらうつらと考え事をしながら意識を手放します。<br><br></span><span class="kp">やけに眠い。朦朧とする意識の中で、何か、脳裏にどこかの景色がちらついている。<br><br></span><span class="chifuyu">染谷千冬 : 「眠いなら、寝ていい。……千秋」<br></span><span class="chifuyu">染谷千冬 : 「おやすみ」<br><br></span><span class="kp">腐肉の海の中から千冬の声がする。どうしてかそれに安心感を覚える。<br>蒸し風呂の部屋がヒトの胎内のように、腐った内臓が羊水のように身を包むのを感じた。<br>ここはあたたかい。この部屋と千冬が、ひとつになっている。<br></span><span class="kp">SAN回復　1d10<br><br></span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 1<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 29 → 30<br><br></span><span class="kp">・・・<br></span><span class="kp">【四日目】8/13<br></span><span class="kp">空腹で目が覚めた。寝覚めがよく、体調も悪くない。<br>時計を見ると、千冬の顔がそこに埋まっていた。安らかな顔でこちらを見下ろしている。時刻は不明だ。<br></span><span class="kp">窓の外は白く染まっており、蝉が一匹近くで鳴いている。<br>頬を腕を腹の上を蛆虫や蠅や他にもよく分からない虫が這いまわる。ひとつひとつが千冬の顔を持っており、ちいさく笑っていた。<br>こちらも微笑んでしまう。指先で潰すと桃色の粘液になって自分の肌と一体化した。<br></span><span class="kp">千冬はこの部屋とひとつになった。ここは千冬のはらのなかなのだ。心地がいい。<br>床を撫でると、ぐにゃりと生暖かい感覚が手に伝わった。<br>ああ、喜んでいる。<br></span><span class="kp">あなたは、幸福を感じている。あなたの心は穏やかに凪いでいる。<br>頭のどこかではこれが異常な状態だと理解しているものの、それすら桃色にとろけた思考に塗りつぶされていくだろう。<br>今のあなたは、千冬の腹におさまり守られているのだ。それがどうして確かな安心感でないといえるのだろうか。<br>ああ、今ならきっと、何を見ても大丈夫だ。<br></span><span class="kp">SANC 1/1d6<br><br></span><span class="chiaki">染谷千秋 : 1d100<=30 【SAN値チェック】 (1D100<=30) ＞ 74 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 4<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 30 → 26<br><br></span><span class="kp">頭の芯がじん、とする。晴れやかな気持ちだが、思考がうまくまとまらない。<br>腹を見ると、赤いくだが臍の横から布団に伸びている。くだは部屋を回れる程度には長い。触るとちいさく脈打っている。<br><br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正気を保てる/保てない (1D100<=80) ＞ 100 ＞ 致命的失敗<br></span><span class="chiaki">染谷千秋 : 寝転がったまま、目に映る光景をぼんやりと眺めます。<br></span><span class="chiaki">染谷千秋 : 「……」<br>そのまま暖かな気持ちで繋がったへその緒の方へ視線をやります。へその緒にそっと触れてみます。<br><br></span><span class="kp">触れた箇所から、どくり、どくりと振動が伝わる。一定の間隔で、どこか安心する。心地が良い。<br><br></span><span class="chiaki">染谷千秋 : 「……千冬」<br><br></span><span class="kp">ベッドの上には溶けた千冬がいる。幸せそうに満ち足りた顔で寝ているようだ。<br>やわらかく腐り熟成の進んだ肉が食欲をそそる。<br><br></span><span class="chiaki">染谷千秋 : 寝ている千冬の側に寄ります。そうして千冬が起きるまで眠ります。<br><br></span><span class="kp">千冬の隣で眠りにつく。<br>どれぐらい時間が経っただろうか。目が覚めたので隣を見ると、千冬が身じろぎをしていた。<br><br></span><span class="chifuyu">染谷千冬 : 「……おはよう」<br></span><span class="chiaki">染谷千秋 : 「……はよ」<br>溶けた千冬の顔を見て微笑みます。<br></span><span class="chiaki">染谷千秋 : 「なあ、これなに？」<br>溶けた千冬の身体に擦り寄りながら、へその緒を指します。<br></span><span class="chifuyu">染谷千冬 : 「ん……」<br>眠たげな声で千秋の指すほうに視線を向けます。<br>「……へその緒だ」<br></span><span class="chiaki">染谷千秋 : 「ふは、見りゃ分かるよ。……千冬と繋がってるように見えるけど、こうなってる理由分かる？」<br></span><span class="chifuyu">染谷千冬 : 「こうなってる理由……？」<br></span><span class="chifuyu">染谷千冬 : 「俺が産むからだ」<br></span><span class="chiaki">染谷千秋 : 「……産む？」<br></span><span class="chiaki">染谷千秋 : 「……8/16は、俺が産まれる日なのか？」<br></span><span class="chifuyu">染谷千冬 : 穏やかに微笑みます。<br></span><span class="chiaki">染谷千秋 : 「……千冬は俺を産んだらどうなんの？」<br></span><span class="chifuyu">染谷千冬 : 「……？」<br></span><span class="chiaki">染谷千秋 : 「俺が産まれたらここは……空き家になるだろ？その後千冬はどうなんの」<br></span><span class="chifuyu">染谷千冬 : 「千秋と一緒にいる。千秋を育てる」<br></span><span class="chiaki">染谷千秋 : 「……千冬はここから出られんの？昨日は動けないって言ってただろ？」<br></span><span class="chifuyu">染谷千冬 : 「……？　よく、わからない。けど、気にしなくていい」<br></span><span class="chiaki">染谷千秋 : 「……ん、わかった。……千冬がそう言うんなら」<br></span><span class="chiaki">染谷千秋 : 「なあ、……千冬は腹減らねーの」<br></span><span class="chifuyu">染谷千冬 : 「俺は大丈夫だ。千秋は、お腹がすいただろう」<br></span><span class="chiaki">染谷千秋 : 「少し。……大丈夫だ、って……、腹減ってねーの？その姿でも何か食べた方がいいだろ？」<br></span><span class="chifuyu">染谷千冬 : 「いい。……千秋、俺を食べろ」<br></span><span class="chiaki">染谷千秋 : 「そ？なら俺もいい。千冬が何も食わねーんなら、俺も要らない」<br></span><span class="chifuyu">染谷千冬 : 「……じゃあ、俺も食う。先に食べろ」<br></span><span class="chiaki">染谷千秋 : 「嫌だ。千冬と一緒に食う。……それができないんなら、いい。……寝る……」<br>溶けた千冬を抱きしめて目を閉じます。<br><br></span><span class="kp">その時、おぎゃあ、と声がする。部屋の中に赤子がいるようだ。<br>耳をすますと、それはクーラーに絡んだ蔦から聞こえてくる。<br></span><span class="kp">目星どうぞ。<br><br></span><span class="chiaki">染谷千秋 : 現状を正しく理解できないまま千冬と2人で眠る心地よさに身体を預けます。声が聞こえてきても目を開けません。<br></span><span class="chifuyu">染谷千冬 : 「……千秋、あれ、食べたい」<br></span><span class="chiaki">染谷千秋 : 「……あれって？」心地良い空間で千冬の声だけに耳を傾けます。<br></span><span class="chifuyu">染谷千冬 : 「壁に生えてる」<br></span><span class="chiaki">染谷千秋 : 「……？」<br>目を薄らと開けて壁の方を見ます。<br><br></span><span class="kp">壁を見ると、クーラーに絡んだ蔦に、拳大の胎児と丸々太った蛹が実っていた。<br><br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】現在体力まだ舞える/舞えない (1D100<=50) ＞ 72 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「あれ、何……」<br>すぐに目を伏せて千冬に尋ねます。<br></span><span class="chifuyu">染谷千冬 : 「たべものだ」<br></span><span class="chiaki">染谷千秋 : 「……へえ」<br></span><span class="chiaki">染谷千秋 : （……食べ物……、胎児と蛹が？……。……まあ、千冬が言うならそうなんだろうな）<br>のろのろと身体を起こして胎児と蛹を収穫（？）します（？）<br><br></span><span class="kp">それらは容易く千切ることができた。<br><br></span><span class="chiaki">染谷千秋 : 千冬の側に戻り、収穫（？）したものを抱えて座ります。<br>「どうやって食うの、これ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br><br></span><span class="kp">千冬はどろりと口を開いた。<br><br></span><span class="chiaki">染谷千秋 : 食べやすい大きさにするために胎児の四肢を千切ります。<br>その後千冬の口に差し出します。<br></span><span class="chifuyu">染谷千冬 : 「ありがとう」<br><br></span><span class="kp">千冬はもちゃり、もちゃりと頬張った。体が無いのに食べたものはどこへ向かうのか、行方は知れない。<br><br></span><span class="chifuyu">染谷千冬 : 「……千秋も、俺を食べろ」<br></span><span class="chiaki">染谷千秋 : 「……ん」<br>溶けた千冬の頬にキスします。先程胎児を飲み込んだ場所に口付けをしてべろりと舐めます。<br></span><span class="chiaki">染谷千秋 : 「千冬食べたら、千冬なくなっちゃうだろ。嫌だ……。俺もさっきのがいい」<br><br></span><span class="kp">千冬は不思議と甘く感じた。麻痺した鼻に腐臭は気にならず、鈍った舌はその腐液を喉へと誘導する。唾液と混じり嚥下される千冬の体液。<br>幸福を感じる。<br><br></span><span class="chifuyu">染谷千冬 : 「千秋のたべものは俺だ。……じゃあ、『あし』は？」<br><br></span><span class="kp">生首の千冬はそう言って、少し離れたところにある塊に視線を向ける。<br><br></span><span class="chiaki">染谷千秋 : 「……？」<br>のろのろと視線を移し、その先にあるものを見ます。<br><br></span><span class="kp">生首の下にごろごろと転がる塊は、元はといえば千冬の体だったものだった。とても柔らかそうだ。<br><br></span><span class="chiaki">染谷千秋 : 塊を持って千冬の顔を見ます。<br>「……これ？……千冬、たべられて痛くねえの」<br><br></span><span class="kp">千冬は頷いたのか、崩れかけた顔が波打つ。<br><br></span><span class="chifuyu">染谷千冬 : 「千秋に食べられたら嬉しい」<br></span><span class="chiaki">染谷千秋 : 「……そっか。じゃ、遠慮なく。いただきます」<br>塊に食いつきます。<br><br></span><span class="kp">柔らかい肉を口に含む。糸を引く汁と筋繊維、脂肪があまくとけてほぐれた。<br>ひとくち食べるごとに、千冬の記憶が、想いが、自分の意識と混じり溶けていく。<br>ああ、千冬は、ああして刺された時とても幸福だったのだ。こうして食べられて、とても幸福なのだ。<br>散っていった肉のひとつひとつに意識がある。それらは広がり続け、世界と一体化している。<br>この世の真理をそこに見た気がした。<br></span><span class="kp">SAN回復　1d10<br><br></span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 10<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 26 → 36<br><br></span><span class="kp">千冬を食べると、臍の緒を通じて抗いがたい眠気が訪れる。穏やかで生温かい空気に包まれ、意識を深く落としていく。<br><br></span><span class="chifuyu">染谷千冬 : 「千秋……、……」<br><br></span><span class="kp">SAN回復　1d10<br><br></span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 7<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 36 → 43<br><br></span><span class="kp">・・・<br></span><span class="kp">【五日目】8/14<br></span><span class="kp">意識が朦朧としている。手足は動かず、力なくえずいた喉の奥からごぼりと何かが溢れ落ちてきた。それは小さく白い塊だった。骨、と頭の隅で認識した気がする。<br>緩慢に身体を起こす。とうに崩れ落ちていた衣服がずぶ濡れの肩にひっかかっていた。<br>外からは雨音がし、部屋は黒い水に浸っている。原形を留めない千冬の骨と肉、髪が水面に浮いている。<br></span><span class="kp">黒い水の中に半分浸って寝ていたようだ。腹から伸びたくだはまだそこにある。<br>酷く衰弱しており、妙にねむい。気を抜くと意識を失ってしまいそうになる。昨日まであんなに幸せでおいしそうだった千冬は、今はただの腐った肉にしか見えない。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 4】正気を保てる/保てない (1D100<=64) ＞ 38 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「う゛、っ……」<br>力が入らず身体を起こすことが出来ません。腐海に漂う異物を視界に収めながら、限りある力を使ってへその緒を掴みます。そのまま千切ろうとします。<br><br></span><span class="kp">ダイスを振ってください。75%で成功します。<br><br></span><span class="chiaki">染谷千秋 : ccb<=75 (1D100<=75) ＞ 59 ＞ 成功<br><br></span><span class="kp">へその緒を自らの手で引きちぎる。血が溢れ出し気が遠くなっていく。<br>目が覚めると、そのくだはまだ自身の腹に繋がっていた。<br></span><span class="kp">SANC 1/1d6<br><br></span><span class="chiaki">染谷千秋 : 1d100<=43 【SAN値チェック】 (1D100<=43) ＞ 25 ＞ 成功<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 43 → 42<br></span><span class="chiaki">染谷千秋 : 「ッ……、おえ」<br>昨日口に指を突っ込んで食べたものを吐き出します。<br>へその緒をもう一度引きちぎります。<br></span><span class="chiaki">染谷千秋 : 自身に繋がる部分を押さえて血が溢れる前に止められないですか？<br><br></span><span class="kp">部屋にボトボトと胃液を垂らす。限界まで吐き出し胃を空にする。<br>引きちぎれたくだを押さえて流れようとする血をせき止める。<br><br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 4 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : 壁を支えにして身体を起こします。ベランダの窓を開けて水を外にだします。<br><br></span><span class="kp">戸を開けて部屋の排水をする。外は雨が降っている。<br>蓮がどす黒く腐って、不法投棄された菓子の袋に混じり水面を汚している。腐って膨らんだ魚が、腹を上にして浮いていた。<br>ベランダに置かれた室外機が、風化してそこかしこにヒビが入っている。とうに動かなくなり久しいことが見てとれる程度にはボロボロだった。<br><br></span><span class="chiaki">染谷千秋 : リビングに対して目星！<br><br></span><span class="kp">目星どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 71 ＞ 成功<br><br></span><span class="kp">窓から外を眺めると、黒雲が垂れ下がり雨が降っていた。<br>天井からは雨水が滴り落ち、壁紙はぶよぶよに腐り所々剥がれている。浮いた隙間にはゴキブリが真黒な卵を産み付けており、既に何匹か半透明な幼虫が産まれて這いずり回っている。コンクリートに染みついている蛆の腐った汁を舐めているようだ。全て出し切ったはずなのに、また吐き気が強くなる。<br>SANC 0/1<br><br></span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 18 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 96 ＞ 致命的失敗<br></span><span class="chiaki">染谷千秋 : 脱出の手がかりを探そうとしますが、身体から力が抜けてその場にずるずると座り込みます。<br></span><span class="chiaki">染谷千秋 : 「……っは、……」<br>何度か起き上がろうとしますが力が入らず、苛立たしい気持ちから床を力なく叩きます。<br><br></span><span class="kp">その場に座り込んだ時、背後からどさ、と音がする。<br>先ほどまでいたベランダに、人が立っている。<br>それは幼子で、千冬だった。<br>「おぇプ」と奇妙な声を出し、口の中から何かを吐き出す。<br>幼児の足だった。千冬は何度もえづき、その度に目玉、舌、腸、心臓、指を吐いていく。<br>千冬の涎と胃液に濡れた肉が膨れ上がり、こちらに襲い掛かってきた。爪が皮膚を裂き、目や口、性器から血が体内に侵入してくる。歯が肉を千切り咀嚼し、それらすべての苦痛が「心地いい」。<br>千冬は泣きながら笑っていた。<br>細い指が視界を潰し、意識が途切れる。<br></span><span class="kp">・・・<br></span><span class="kp">【六日目】8/15<br></span><span class="kp">目が覚める。まるい行き止まりの部屋にいる。うしろには長い廊下と見送ってくれた父の姿があり、周りには白く細長いたくさんのあなたがいる。<br>とびらがひとつ、ひらいていた。<br>そこはあたたかくやわらかい。<br></span><span class="kp">服はしっとり濡れていて、体には力がみなぎっている。周りにいるのはみなきょうだいでありライバルだ。父の元にはもう帰れない。<br></span><span class="kp">目星どうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 10 ＞ スペシャル<br><br></span><span class="kp">目の前には扉があり、その扉は薄くひらいている。その先から「おいで」とちいさな声が聞こえてくる。自分はこの扉の先に待つ誰かの元へ、だれよりも先にたどり着かなくてはならない。<br>扉の先には、また長い廊下が続いている。<br></span><span class="kp">呼び声の導くままに、きょうだいたちと共に廊下を進む。それは協力などではない。れっきとした競争であり、だれよりも早くその先へ辿り着くというつよいきもちがある。そこへ辿り着かなければ、いのちがない。<br></span><span class="kp">気が遠くなるほど長い距離を走り、ようやく真っ赤な部屋にたどり着く。<br>部屋は果てしないほど広く、あたたかくて心地がいい。あなたはとてもくたびれているが、その部屋は”まだ”自身のための部屋ではない。<br>部屋にあるのは、毛足の長い真っ赤なじゅうたんと、ひとつのベッド。霞むほど遠い奥には、左右にふたつの扉が見える。<br><br></span><span class="chiaki">染谷千秋 : 兄弟たちはどうしてますか？全員ころします<br><br></span><span class="kp">一番前を走っている。振り返る余裕はあるだろうか。<br>聞き耳をどうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 70 ＞ 成功<br><br></span><span class="kp">左の扉から、「おいで」とちいさな声が聞こえてくる。最後の力を振り絞り、先へ先へと走る。<br><br></span><span class="chiaki">染谷千秋 : 左の扉に向かいます。<br><br></span><span class="kp">左の扉を抜けて、気が遠くなるほど長い距離を走り、ようやくそれを見つけ出す。<br>まるいたまご。自分を呼んでいたのは、このたまごだ。<br>それに手を伸ばす。<br></span><span class="kp">じぶんは、たまごとひとつになり、じぶんとわたしは”わたし”になった。<br>あんなに長かった廊下はやわらかくわたしを運び、赤い部屋までゆらゆらと戻ることとなる。<br>途中には力尽きたきょうだいたちが倒れ伏しており、それらは既に溶け始めている。<br></span><span class="kp">赤い部屋のおおきなベッドで、”わたし”はまどろむ。<br>”わたし”は”わたしたち”になり、2つ、4つ、8つ、16…と”わたしたち”は増えていく。<br></span><span class="kp">そうしていると、不意に部屋が大きく震えた。<br>最初の扉が酷い勢いでぶち壊され、銀色の光るなにかがあなたへ迫ってくる。<br>それはあなたをベッドから引きずり出し、手を千切り、足を千切り、<br>そして最後に、<br></span><span class="kp">・・・<br></span><span class="kp">【七日目】8/16<br></span><span class="kp">ゆらゆらとゆらめいている。<br>とおくに、おかあさんのこえがきこえる。<br>ああ、うまれるんだ。<br><br>おはよう、こんにちは。<br><br>てをのばして、おおきく息をはく。<br>じぶんのものではない声が、のどからきこえた。<br></span><span class="kp">・・・<br></span><span class="kp">【■日目】-/--<br></span><span class="kp">目を覚ます。<br>息が荒い。背中がじっとりと汗で滲んでいる。<br>隣には、顔の崩れていない、溶けていない、腹も喉も刺されていない綺麗な千冬が、自分を抱きしめながらすうと眠っていた。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】メンタル正常/正常じゃない (1D100<=80) ＞ 88 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : CCB<=17*3 【INT × 3】戻ったことが分かる/分からない (1D100<=51) ＞ 89 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「っはぁ、はぁ、ッ、はぁっ、はぁ」<br>荒い息を吐き出しながら目の前にいる人間の顔を凝視します。拘束されている状況から抜け出し、起こさないように腕の中から抜け出します。<br>悪夢から覚めたことを認識できないまま、部屋の中を一通り見て回ります。<br></span><span class="chifuyu">染谷千冬 : 拘束してる状況で抜け出されたら気づきます！<br><br></span><span class="kp">千冬はダイスを振ってください。ファンブルじゃなければ気づきます。<br><br></span><span class="chifuyu">染谷千冬 : ccb<=95 (1D100<=95) ＞ 96 ＞ 致命的失敗<br><br></span><span class="kp">千冬の眠りは深く、腕の中の温もりがなくなったことにすぐに気づかなかった。<br>千秋の一行動分後、千秋がいなくなったことに気づきます。<br><br></span><span class="chiaki">染谷千秋 : 寝室からリビングを見て回り、その後玄関のドアノブを捻ります。鍵がかかっていて開かないのにも関わらず、夢と同じで閉じ込められているものだと思います。<br></span><span class="chiaki">染谷千秋 : ベランダに出て外の様子を確認します。<br><br></span><span class="kp">ベランダの外には夜空が広がる。地平際が薄らと明るい。建物は綺麗な状態で、劣化していることも謎の液体に浸されていることもない。<br><br></span><span class="chiaki">染谷千秋 : （現実に繋がってる……？……、俺の記憶が確かなら、今日は8/16だ。……今日出れなかったら千冬の元に帰れないかもしれない。時間がない。急がねえと）<br></span><span class="chiaki">染谷千秋 : （後見てない所は……、下の階だ）<br></span><span class="chiaki">染谷千秋 : ベランダから下の階へ飛び降りようとします。<br></span><span class="chifuyu">染谷千冬 : 部屋を歩き戸を開く物音に気づいて目を覚まします。飛び降りようと手すりに手をかけた千秋に声をかけます。<br>「千秋！？」<br>ベッドから跳ね上がって千秋へ駆け寄り、腕を掴みます。<br></span><span class="chiaki">染谷千秋 : 「ッ……！」<br>溶けた死体が形を取り戻したので焦ります。<br>拘束されては身動きできなくなると思い、手を振り放ってすぐに飛び降ります。<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】千秋の状況を察せるか (1D100<=80) ＞ 5 ＞ 決定的成功/スペシャル<br></span><span class="chifuyu">染谷千冬 : 腕をしっかりと掴んでいます！なぜなら不定の狂気中です！よろしくお願いします！<br><br></span><span class="kp">ヨシ！<br><br></span><span class="chiaki">染谷千秋 : STR対抗！STR対抗！STR対抗！STR対抗！<br><br></span><span class="kp">本来65%ですが、千冬は発狂中なので+20%とします。85%でどうぞ。<br><br></span><span class="chifuyu">染谷千冬 : ccb<=85 【STR対抗】 (1D100<=85) ＞ 58 ＞ 成功<br><br></span><span class="kp">千冬は暴れる千秋の腕をしっかりと掴み、飛び降りようとする千秋を引き止める。<br><br></span><span class="chifuyu">染谷千冬 : 「千秋、夢じゃない！　現実だ！　飛び降りたら死ぬ！　嫌だ……！」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】千冬の言葉を聞いて落ち着ける/落ち着けない (1D100<=80) ＞ 92 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : CCB<=17*3 【INT × 3】現実に戻ってきたことが分かる/分からない (1D100<=51) ＞ 88 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : choice[吐く,吐かない] (choice[吐く,吐かない]) ＞ 吐く<br></span><span class="chiaki">染谷千秋 : 「離せ、ッ、離せよ！　……クソ、う゛ッ、えっ、」<br>腕を掴まれて抵抗しますが、力で敵わず抜け出すことができません。<br>引き戻された後、昨日の事を思い出し、その場に夕飯の残りを吐き出します。<br></span><span class="chiaki">染谷千秋 : CCB<=17*5 【INT × 5】戻ったことに気付けるかチャレンジ (1D100<=85) ＞ 2 ＞ 決定的成功/スペシャル<br></span><span class="chifuyu">染谷千冬 : 「千秋……！？」その場に吐いたのを見て、千秋の精神的負担を察し衝撃を受けます。千秋の腕をかたく掴んだまま、一方の手で背中を擦って吐かせます。<br></span><span class="chiaki">染谷千秋 : 「っ、う、……はぁ、はぁっ、は、……っ、……？」<br>吐いて少しだけ冷静さを取り戻します。その後吐瀉物に固形物が混じっていることに気付き、疑問に思います。<br></span><span class="chiaki">染谷千秋 : （何で中身があるんだ？……、現実って、俺を引き止めるための嘘じゃねーのか？）<br>荒い息を吐き出しながら汚れた口を拭います。<br>かたく掴まれた手を見た後に千冬と目を合わせます。<br></span><span class="chiaki">染谷千秋 : 「……ち、ふゆ」<br></span><span class="chifuyu">染谷千冬 : 千秋と目が合った後、服が汚れるのも厭わずに千秋を強く抱きしめます。<br>「千秋、千秋……お願いだ、行かないでくれ、これは夢じゃないんだ、……千秋をいくらでも抱きしめるから、千秋も俺に触れて、抱きしめてくれ……それで、確かめてくれ、千秋……」<br></span><span class="chiaki">染谷千秋 : 「千冬……」<br>千冬の身体を強く抱きしめ、その体温を感じます。<br>首に顔を埋め、千冬の匂いをかぎます。<br>不自然に力を入れていた身体から力を抜いて、心臓の音を聞きます。<br></span><span class="chiaki">染谷千秋 : 「……、なぁ。今日何日」<br></span><span class="chifuyu">染谷千冬 : 「今日、は、17日だ」<br></span><span class="chiaki">染谷千秋 : 夢の中では忘れていた記憶が思い出されます。<br>（……そうだ。昨日千冬迎えに行って、週末だからって食材を買いためたんだ。……何で忘れてたんだ……）<br></span><span class="chiaki">染谷千秋 : （……さっきの夢。ただの悪夢じゃない。怪異だ。……何が原因がわかんねーけど、この様子じゃ千冬は巻き込まれてねーな。……良かった）<br></span><span class="chiaki">染谷千秋 : （……。俺達は1年で大体5回怪異に巻き込まれてる。そして、一度怪異に遭遇してからは最低でも2週間間隔が開く。……経験通りに行くなら、千冬は後2週間安全だ）<br>千冬を抱きしめながら呼吸を落ち着かせます。<br></span><span class="chiaki">染谷千秋 : 「……嫌な夢を見た。この家に閉じ込められる夢、……多分怪異だ」<br>抱きしめる力を緩め、千冬の顔を見つめます。<br></span><span class="chifuyu">染谷千冬 : 「……」<br>顔を歪めて千秋をもっと強く抱きしめます。<br></span><span class="chiaki">染谷千秋 : 「千冬。さんきゅ。……助かった」<br>千冬の背中に回した手を外します。千冬の顔に触れ、姿かたちを改めて確認します。<br>怪異から抜け出せたことを実感します。<br></span><span class="chifuyu">染谷千冬 : 「千秋……」<br>泣き出しそうな顔で、千秋の腰を抱える腕をもっと締めます。<br></span><span class="chiaki">染谷千秋 : 「びっくりさせたよな。……もう大丈夫だぜ」<br>身体を預けながら千冬の背中をポンポンと叩きます。<br>横目でじっと千冬の顔を見て、夢で見た化け物の姿を上書きしていきます。<br></span><span class="chifuyu">染谷千冬 : 「大丈夫じゃ……ない……！　もし、俺が間に合ってなかったら。もし、俺が気づいてなかったら、……千秋は……千秋は……」<br>想像しただけで息が浅くなり、呼吸が乱れます。<br></span><span class="chifuyu">染谷千冬 : CCB<=11*2 【POW × 2】精神力に基づいた判断力 (1D100<=22) ＞ 31 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「千秋……」<br>千秋の肩口にぐ、と顔を押しつけ、落ち着こうと口を噤みます。しばらくして、ぽつりと呟きます。<br></span><span class="chifuyu">染谷千冬 : 「……千秋を、繋いでいたい。……だめか？」<br></span><span class="chiaki">染谷千秋 : 千冬を落ち着かせようと背中を撫でていましたが、千冬の提案を受けて手を止めます。<br>「……繋ぐって、何と？」<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 26 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「……ベッド、だろうか。トイレには行けるぐらい。……飛び降りるのは、できないぐらいに。俺が傍にいる時は外す。俺がいない時や、寝る時はつける」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】許容する/しない (1D100<=80) ＞ 28 ＞ 成功<br></span><span class="chiaki">染谷千秋 : choice[期限付き,無期限] (choice[期限付き,無期限]) ＞ 無期限<br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 34 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】説得する/しない (1D100<=80) ＞ 19 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「千冬が望むんなら別にいいぜ。……けど、それのせいで千冬が同じ状況になっても助けにいけなくなるのは嫌だ。ベランダにも出れるようにはしてくれ」<br></span><span class="chiaki">染谷千秋 : 「……それより、飛び降り以外にも自殺する手段はいくらでもある。なら、俺たちを繋ぐ方が良くねえ？起きて何かしようとした時も気付けるだろ？」<br></span><span class="chifuyu">染谷千冬 : 「俺はそんなことしない、が……そうだな。互いがいる時は、俺たちを繋ぐほうが良い。ベランダには出れるぐらいの長さにはする。ただ……」<br></span><span class="chifuyu">染谷千冬 : （……確かに、他にも死ぬ方法はある。意味がないだろうか……いや、）<br></span><span class="chifuyu">染谷千冬 : 「……繋がれていることで、夢か現実か、分かりやすくなるかもしれない」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……直接的な解決じゃないな。……千秋、病院に行こう。今回のは怪異だったとしても……悪夢もよく見るんだろう。……こんなことがまた起こったら困る。対処するべきだ」<br><br></span><span class="kp">病院、と聞いて思い出す。<br>ベランダから部屋の机に視線を向ける。そこには錠剤の入ったシートが置かれている。<br>最近うまく寝付けず、人からこの薬を分けてもらった。副作用が悪夢と聞いていたが、普段からよく見ているため影響を気にしていなかった。しかし、その考えは甘かったようだ。こんな寝覚めを毎日経験するのであれば、それは不眠と大差ない。<br><br>――そもそも。<br>誰から、この薬をもらった？<br><br>記憶に靄がかかっており、鮮明に思い出すことができない。何度も怪異に遭遇したため分かる。明らかに不自然だ。その睡眠薬が突然不気味なものに思える。<br></span><span class="kp">SANC 1/1d2<br><br></span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 77 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 42 → 40<br></span><span class="chiaki">染谷千秋 : （そうだ、あの薬……。飲んだら副作用が出るって聞いた、……けど、誰から貰った？そもそも俺は人に不眠の話をしたか？……何も思い出せねー。……けど、原因は恐らくあれだ）<br></span><span class="chiaki">染谷千秋 : 「……それだけど、心当たりがある。千冬、俺が昨日食後に飲んだ薬、覚えてるか」<br></span><span class="chifuyu">染谷千冬 : 「……ああ。もらったんだろ。眠れるように。……それのせいか？」<br></span><span class="chiaki">染谷千秋 : 「ああ。薬について全く覚えてないんだ。どういう経緯で貰うことになったのか、誰に貰ったのか……。そもそも不眠だって、周りに伝えた覚えがないんだぜ。不自然だろ。……あの薬について覚えてるのは、副作用が悪夢だってことだけ。……普段も見てるから、そん時は気にしてなかったけど」<br>千冬に抱きしめられたまま決まり悪く言います。<br></span><span class="chiaki">染谷千秋 : 「……普段見る悪夢は今日程酷くないんだぜ。現実か悪夢かぐらいは判断できる。……けど今日見たのは、千冬の姿をした化け物にこの部屋に閉じ込められる夢だった。それが何日も続くんだ。今日抜け出せないと、千冬の元に戻れないと思った。……」<br></span><span class="chiaki">染谷千秋 : 「あれを飲まなければ、今日みたいなことは起こらないと思う。なあ、……病院行かなきゃ駄目？」<br></span><span class="chifuyu">染谷千冬 : 「だめだ。薬のせいで悪化したとしても……それまでも起きた時に、どっちか分からなくなる瞬間はあったんだろう。なかなか寝れないのも心配だ。一度診てもらったほうがいい」<br></span><span class="chiaki">染谷千秋 : 「……、分からなくなるのも一瞬だけだって。身体起こせば分かる。……それに、千冬が一緒にいてくれるんだろ」<br></span><span class="chiaki">染谷千秋 : 「寝れないのもそういう体質ってだけだ。困ってない。……なあ、千冬……」<br>千冬の首元に擦り寄ります。<br></span><span class="chifuyu">染谷千冬 : KP！SAN値チェックさせてください！<br><br></span><span class="kp">0/1どうぞ！<br><br></span><span class="chifuyu">染谷千冬 : 1d100<=39 【SAN値チェック】 (1D100<=39) ＞ 32 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「……でも、今日は分からなかった！　それは薬じゃなくて、夢の内容のせいだろう。じゃあ、いつか同じことが起こるかもしれない。俺が一緒にいても……止められないかもしれない……」<br></span><span class="chiaki">染谷千秋 : choice[言う事聞く,ゴネる] (choice[言う事聞く,ゴネる]) ＞ 言う事聞く<br></span><span class="chiaki">染谷千秋 : 「……そのために繋ぐんだろ？……」<br>首だけを曲げて千冬の方へ視線を投げます。行きたくない理由を重ねようとしますが、千冬の精神状態を思い出して口を噤みます。<br></span><span class="chiaki">染谷千秋 : 「……分かった。行ってみる」<br></span><span class="chifuyu">染谷千冬 : 「方法は他にもある。俺たちを繋いだからといって、解決にはならない。根本をどうにかできるなら、試したい……」<br></span><span class="chifuyu">染谷千冬 : 「……じゃあ、確認だ。俺も千秋も家にいる時は、俺と千秋が繋がっている。俺が仕事に行く時、千秋をベッドに繋ぐ。鍵は俺が持つ。俺が仕事から帰ってきたら、俺と千秋を繋ぐ。買い物は週末に二人で行くようにしよう。それか、俺が買って帰る。それで来週に病院を予約して、二人で行こう。……いいか？」<br></span><span class="chiaki">染谷千秋 : 1d100<=40 【SAN値チェック】千冬に言われたことを飲み込めるか (1D100<=40) ＞ 7 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】それでいい/悪い (1D100<=80) ＞ 89 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「……ちょっとタンマ。繋ぐって、ずっと？てっきり、俺が寝てる時だけだと思ってたんだけど」<br></span><span class="chifuyu">染谷千冬 : 「ああ。俺がいない時が心配だろう」<br></span><span class="chiaki">染谷千秋 : 「……」<br>困惑しながら千冬を見ます。<br></span><span class="chiaki">染谷千秋 : 「俺が起きてる時は問題ねーだろ？　……千冬がいない間に寝る時と、夜寝る時につけるんじゃないんなら……悪いけど、他の手段がないかもう少し考えようぜ。バイト行かなきゃだし、……千冬のこと迎えに行けなくなるのは嫌だ」<br></span><span class="chifuyu">染谷千冬 : 1d100<=39 【SAN値チェック】頷く/駄々をこねる (1D100<=39) ＞ 10 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「……」<br>千秋の心配が募りますが、不自由を強いていることを理解し、千秋の言葉を飲みこみます。<br>「……じゃあ、寝る時と、俺がいない間に寝る時だけでいい」<br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 22 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……納得してねー顔してる」<br>千冬の顔をじっと見た後、頭を繰り返し撫でます。<br></span><span class="chiaki">染谷千秋 : 「迎えにさえいけんなら、日中繋がれんのは別にいいけどな……。そうだ、遠隔ロックがついたやつ探してみる？もしあんなら、迎えに行く前とバイト前だけ解除すれば千冬も安心だろ」<br></span><span class="chifuyu">染谷千冬 : 「……なるほど、そうか。そうしたい」<br></span><span class="chifuyu">染谷千冬 : 「別に、納得できなかったわけじゃない。ただ心配だっただけだ。俺がいない時に、何があるか分からない……それなら、ずっと繋いでいたほうが安心できると思った。でも、千秋を縛ることになるのも理解してる」<br></span><span class="chifuyu">染谷千冬 : 「……探してみる」<br>PCを開いてそういった商品がないか調べます！<br></span><span class="chiaki">染谷千秋 : 「千冬、先に着替えな」<br>引き止めて服を脱がせます！<br></span><span class="chifuyu">染谷千冬 : 「ん？　ああ……」<br>気にしていませんでしたが、引き止められて着替えます。その後すぐに調べます。<br></span><span class="chiaki">染谷千秋 : その間に汚れた衣服を洗い流し、ベランダを掃除します。口を濯いで歯を磨きます。<br><br></span><span class="kp">遠隔でロックできるようなものがあるか、千冬は幸運どうぞ！<br><br></span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 65 ＞ 失敗<br><br></span><span class="kp">遠隔ロックできるようなものは見つけられませんでした。<br><br></span><span class="chifuyu">染谷千冬 : 「……」<br>立ち上がります。千秋のところへ行き、後ろから抱きしめます。<br></span><span class="chifuyu">染谷千冬 : 「無かった。……千秋」<br></span><span class="chiaki">染谷千秋 : 「ん、そっか。……」<br>顔を後ろに向け、後ろ手で千冬の頭をぽんぽんと撫でます。<br></span><span class="chiaki">染谷千秋 : choice[譲歩する,しない] (choice[譲歩する,しない]) ＞ 譲歩する<br></span><span class="chiaki">染谷千秋 : choice[期間は一週間,ニ週間,一ヶ月,千冬が満足するまで] (choice[期間は一週間,ニ週間,一ヶ月,千冬が満足するまで]) ＞ ニ週間<br></span><span class="chiaki">染谷千秋 : 「……なら、試しにニ週間、俺が起きてる間も繋いでいいぜ」<br>身体を千冬の方へ向け、千冬の髪の毛で遊びながら言います。<br></span><span class="chifuyu">染谷千冬 : 「……いいのか？」声に嬉しさが滲み出ます。<br></span><span class="chiaki">染谷千秋 : 「ふ、ああ。……言っとくけど、ニ週間だけだぜ。俺も千冬のことが心配だから、それ以上は考えさせてくれ」<br></span><span class="chifuyu">染谷千冬 : 「わかった。……ありがとう、千秋」<br></span><span class="chiaki">染谷千秋 : 「いーよ。……千冬」<br>ベッドの上にいき、布団を持ち上げます。自分の横を軽く叩きます。<br></span><span class="chifuyu">染谷千冬 : 「……寝るのか？」<br></span><span class="chiaki">染谷千秋 : ccb 眠気 80以上なら寝る (1D100) ＞ 1<br></span><span class="chiaki">染谷千秋 : 「寝ない。千冬が起きる時間になるまで抱きしめさせてよ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br>引き出しを漁り、モルフェ島で買った手錠とハンカチを持ってきます。<br>「千秋、これつけたい。買うまでの間……」<br></span><span class="chiaki">染谷千秋 : 「ん、わかった」<br>ハンカチを取り、千冬の手に巻き付けます。その後自分の手にも巻き付け、その上から手錠をかけます。<br>千冬の身体を抱きしめて、そのまま寝転がります。<br></span><span class="chiaki">染谷千秋 : 千冬の背中をポンポンと撫でます。<br>「心配しなくても、どこにも行かないから安心しろよ。……しばらく千冬の顔見れなかったから、目に焼き付けときたいんだ」<br></span><span class="chifuyu">染谷千冬 : 「……わかった」<br>キスした後、千秋を抱えます。そして目を閉じ、そう時間の経たないうちに眠りに落ちます。<br></span><span class="chiaki">染谷千秋 : 千冬を同じように抱きしめて、その顔をじっと観察します。千冬が深い眠りについたのを確認した後、千冬の体温や匂い、その存在を千冬が起きるまで堪能します。<br><br></span><span class="kp">千冬が眠るのを見届け、その存在を堪能する。<br>――口の中に生臭い血の匂いがしたような気がした。<br><br>あなたの眠りに、幸多からんことを。<br><br>＊　＊　＊<br><br>シナリオEND<br><br>【生還報酬】<br><br>・SAN回復　1d10<br>・KPCを解体した　1d5<br>・KPCを食べた　1d5<br>・屍姦した　1d10<br><br>【後遺症】<br><br>・執着、あるいは執拗な生存確認<br>KPCを解体し、かつ食べた　1d10ヶ月<br>・1d100で10以下を出した場合、クトゥルフ神話技能を1%得られる。<br><br></span><span class="chiaki">染谷千秋 : 2d10+2d5 (2D10+2D5) ＞ 10[8,2]+8[3,5] ＞ 18<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 58<br></span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 2<br></span><span class="chiaki">染谷千秋 : 1d100 (1D100) ＞ 5<br><br></span><span class="kp">千秋は目星の成長判定どうぞ！<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功<br></span><span class="chiaki">染谷千秋 : ;^;<br><br></span><span class="kp">この後、起きたあなたたちはすぐに拘束具を買いに行きます。そして千秋は二週間の間、ほぼ家に監禁された生活を送るでしょう。<br><br>病院で診断を受けた千秋ですが、不眠や悪夢の原因は不明のまま、それほど強くない睡眠薬を処方されて終わります。<br><br>約束の二週間後、ちょうど千冬の不定の狂気が完全に解けます。千秋の行動を制限したことを千冬は謝り、千秋が起きている間の拘束はもちろん、寝ている間の拘束についても続けるかどうか尋ねます。<br>千秋は何と答えますか？<br><br></span><span class="chiaki">染谷千秋 : choice[寝ている間の拘束を続ける,続けない] (choice[寝ている間の拘束を続ける,続けない]) ＞ 寝ている間の拘束を続ける<br></span><span class="chiaki">染谷千秋 : 起きている間の拘束はやめて、何があるか分からないため寝ている間の拘束は続けようといいます！<br>バイトの時は千冬だけにつけてもらいます。<br><br></span><span class="kp">バイトの時というのは、千冬が寝ている間バイトに行く時ですか？<br><br></span><span class="chiaki">染谷千秋 : とりあえずは、そうです！<br><br></span><span class="kp">ｱﾜﾜ……<br></span><span class="kp">それでは二週間後の8/31から、あなたたちの拘束は寝ている間のみとなります。<br></span>
+<span class="kp">【一日目】8/10
+</span><span class="kp">目の前に、千冬の死体がある。
+自分が殺した。腹に包丁を突き立て、倒れたその身体に何度も何度も同じものを突き立てた。
+時刻は午後1時を少し回った頃。窓の外では頭の割れそうなほど蝉が煩く鳴き、だというのに部屋の中は酷く静かだ。
+自分の荒い息遣い、包丁から滴る血が床の血だまりを叩く音。
+</span><span class="kp">何故殺したのかは分からない。
+ただ、自分が彼を殺したという事実だけは認識ができる。
+</span><span class="kp">SANC 1d3/1d10
+
+</span><span class="chiaki">染谷千秋 : 1d100<=50 【SAN値チェック】 (1D100<=50) ＞ 20 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 2
+</span><span class="chiaki">染谷千秋 : この部屋は自分達が今住んでる部屋と同じ構造ですか？
+
+</span><span class="kp">部屋を見渡したあなたは、あなたたちが住んでいる部屋と同じ構造だと認識する。シンプルな部屋だが、今は至る所に血が飛び散っている。
+
+</span><span class="chiaki">染谷千秋 : 殺人の前後の記憶はありますか？
+
+</span><span class="kp">アイデアどうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : 千秋、全部覚えてます！
+
+</span><span class="kp">思い返すが、前後の記憶がない。靄がかかっていて、まるで夢の中のようだ。
+
+</span><span class="chiaki">染谷千秋 : 「……、……」千冬の死体を前にして一瞬思考が停止します。
+</span><span class="chiaki">染谷千秋 : （……、落ち着け。前後の記憶がない。悪夢か怪異のどっちかだ。……千冬は生きてる）目を閉じて前後の記憶を探ります。夢だと認識し、落ち着きを取り戻します。
+</span><span class="chiaki">染谷千秋 : 千冬の身体に目星！
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 68 ＞ 成功
+
+</span><span class="kp">ついさっきまで生きていたようだ。傷口から流れ出る血は既に止まっていて、床の上のそれは端から乾き始めている。気の早い蠅が一匹、彼の見開いた眼球の上を歩いていた。
+
+</span><span class="chiaki">染谷千秋 : （……千冬……）蝿をはらって千冬の顔を覗き込みます。
+
+</span><span class="kp">頬に触れて覗き込むと、まだ少し温かかった。しかし呼吸はしていない。見開いた目が痛々しい。
+</span><span class="kp">目星-50% or アイデア-50%どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=85-50 【アイデア】 (1D100<=35) ＞ 53 ＞ 失敗
+
+</span><span class="kp">千冬の様子から、状況についてこれ以上分かることはないだろう。
+
+</span><span class="chiaki">染谷千秋 : 千冬の目を閉じさせた後、口付けをします。そして切り傷の方も見ます。
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 54 ＞ 成功
+
+</span><span class="kp">傷口の幅や深さから、記憶の通り、あなたが持っていた包丁で刺したことが窺える。
+
+</span><span class="chiaki">染谷千秋 : 血に触れて舐めてみます。
+
+</span><span class="kp">血を舐めると、舌に鉄の味が広がる。
+
+</span><span class="chiaki">染谷千秋 : 傷口にキスしてから身体を観察します。必要があればひっくり返します。
+
+</span><span class="kp">出血量が多く、服は血が滲みとても汚れている。首や腹部に刺し傷がある。千冬をひっくり返しても、背中に特に変わった様子はない。血の広がったシーツがあるのみだ。
+
+</span><span class="chiaki">染谷千秋 : シーツの染みやベッドに異変はありますか？
+
+</span><span class="kp">シーツやベッドをよく見ても、特に異変はない。
+
+</span><span class="chiaki">染谷千秋 : 手にしている狂気に目星！
+
+</span><span class="kp">よく見るまでもなく、あなたの家にある包丁だ。
+
+</span><span class="chiaki">染谷千秋 : 自分に目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 32 ＞ 成功
+
+</span><span class="kp">自身の身体にも変わったところはない。ポケットにスマホが入っているようだ。
+
+</span><span class="chiaki">染谷千秋 : スマホを取り出して操作します。
+
+</span><span class="kp">操作しようとしたところ、電源が入らない。千冬の血と自分の汗に塗れており、既に乾いた箇所が不快にベタベタとしている。
+</span><span class="kp">アイデアどうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 30 ＞ 成功
+
+</span><span class="kp">必要があれば、シャワーで血を洗い流すことはできるだろう。なぜなら、ここはあなたたちの家だから。
+
+――ここがあなたちの家であるなら。
+この部屋には[クローゼット]と机があり、その上には[ノートパソコン]と[リモコン]がある。
+そして何より[ベッド]の上には[千冬]が横たわっている。
+隣の部屋にはリビングダイニングで、ソファとローテーブルが置かれており、その前には[テレビ]がテレビ台に置かれている。
+壁にはシンプルな[カレンダー]と[時計]がかかっている。ダイニングテーブルの横には[キッチン]と[冷蔵庫]がある。
+それぞれの部屋には、[クーラー]が設置されている。
+[玄関]を入ってすぐの真横の扉から、洗面所に向かうことができる。そこには[洗濯機]が設置されており、[浴室]に繋がる扉がある。その廊下の向かいにはトイレがある。
+窓の外には[ベランダ]と[室外機]がある。
+
+</span><span class="chiaki">染谷千秋 : （……悪夢にせよ、怪異にせよ、早く抜け出さねーと）
+</span><span class="chiaki">染谷千秋 : （……もし、これが現実だったら、そん時は……）包丁をしばらく見つめ、机の上に置きます。その後ノートパソコンを調べます。
+
+</span><span class="kp">立ち上がるものの、ロックがかかっている。パスワードを入力しないと動かせないようだ。
+
+</span><span class="chiaki">染谷千秋 : パソコンは普段使用しているものですか？
+
+</span><span class="kp">そうです！
+
+</span><span class="chiaki">染谷千秋 : いつも入力しているパスワードを入力します。
+
+</span><span class="kp">あなたが普段使用しているパソコンと変わりなく見えるが、いつものパスワードを入力してもロックが解除されることはなかった。
+
+</span><span class="chiaki">染谷千秋 : （パスワードが違う。……先に他のところを調べるか）
+</span><span class="chiaki">染谷千秋 : 机の引き出しを開けてから気になるところが無いか確認し、その後クローゼットを開けます。
+
+</span><span class="kp">引き出しの中に変わった様子はない。あなたや千冬の小物類や文房具、大事な書類が収納されている。
+</span><span class="kp">クローゼットには、千冬の服やあなたの服が収納されている。
+
+</span><span class="chiaki">染谷千秋 : 物をひっくり返して中を確認します。目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 83 ＞ 成功
+
+</span><span class="kp">なぜかそこにあるはずのない、ナタとノコギリを見つける。
+</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 55 ＞ 成功
+
+</span><span class="chiaki">染谷千秋 : （……凶器？なんでここにあんだ？）二つの凶器を良く見てみます。
+
+</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 19 ＞ 成功
+</span><span class="kp">使用された形跡はない。刃先も鋭く、よく切れそうだ。
+
+</span><span class="chiaki">染谷千秋 : （どっちも新品だ。何か切る時はこれを使おう。……にしても、ナタとノコギリか。こんな状況だと、死体を切り分けろって意味に聞こえるな）
+</span><span class="chiaki">染谷千秋 : 部屋から出てキッチンを見ます。目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 13 ＞ スペシャル
+
+</span><span class="kp">何も置いていないが、シンク下の収納スペースを確認すると、フライパンと鍋、箸など一通り調理器具が置いてある。ふたつある包丁入れのうち、ひとつだけにしか包丁は収まっていない。ガス、水道は通っている様子だ。
+</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 57 ＞ 成功
+
+</span><span class="chiaki">染谷千秋 : （包丁の出処はここだな。ガスも水道も通ってる）
+</span><span class="chiaki">染谷千秋 : 冷蔵庫を調べます！
+
+</span><span class="kp">塩、胡椒、油などの調味料が並んでいるが、食材は無い。稼働はしているらしく、開けるとひんやりしている。
+
+</span><span class="chiaki">染谷千秋 : もっと詳細に見てみます。目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 70 ＞ 成功
+
+</span><span class="kp">続けてアイデアどうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功
+
+</span><span class="kp">中身はすっからかんだ。……死後硬直が始まる前のため、今のみ遺体を冷蔵庫へ収めることができるかもしれない、なんて思考が頭に一瞬浮かぶ。
+
+</span><span class="chiaki">染谷千秋 : （何日も続く夢もあった。ここに長期間閉じ込められる可能性もある。……現実と同じで死体が腐敗すんなら、……腐るよりはマシだ）
+部屋に戻り、冷蔵庫の仕切りを取り外し、千冬の遺体を痛めないように収めます。
+
+</span><span class="kp">中にはめ込まれているプラスチックの板を取り外し、僅かな調味料を取り出し、千冬の遺体をその狭い空間へ押し込む。胎児のように膝を抱えた彼の遺体は、そうしてようやく冷蔵庫の中に収まることだろう。
+
+</span><span class="chiaki">染谷千秋 : （いくら夢の中だって言っても、気分悪いな……。だりー）SAN値を1減らします！
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 50 → 49
+</span><span class="chiaki">染谷千秋 : 壁を調べます！
+
+</span><span class="kp">壁にはカレンダーと時計がかかっており、クーラーも設置されている。
+
+</span><span class="chiaki">染谷千秋 : クーラーをつけ、内部含めて気になる箇所を見ます！
+
+</span><span class="kp">机上のリモコンを取ってクーラーをつけようとする。しかしなぜか動かない。電池は入っている様子だが、操作しても反応がない。
+</span><span class="kp">機械修理を振ってもいいですよ！
+
+</span><span class="chiaki">染谷千秋 : ccb<=20 【機械修理】 (1D100<=20) ＞ 69 ＞ 失敗
+
+</span><span class="kp">リモコンやクーラーの様子を窺っても、壊れている原因は特定できなかった。真夏の閉じられた部屋の中というのは、想像以上に耐えがたい蒸し暑さだというのをひしひしと感じるだろう。
+
+</span><span class="chiaki">染谷千秋 : （……だる）時計を見ます。目星！
+
+</span><span class="kp">シンプルなアナログ時計は、現在時刻を確認できる。今は1時を少し過ぎたあたりだ。
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功
+
+</span><span class="kp">特におかしな点はない。
+
+</span><span class="chiaki">染谷千秋 : 時計の裏を見たり分解したりします。
+
+</span><span class="kp">分解の程度によって元に戻せなくなる可能性もありますが、分解しますか？
+
+</span><span class="chiaki">染谷千秋 : アイデア振って成功したら分解の手順覚えて戻せることになりませんか？（）
+
+</span><span class="kp">では分解する場合はアイデア-30%に成功で正しく手順を記憶できることとします！
+
+</span><span class="chiaki">染谷千秋 : 分解します！
+</span><span class="chiaki">染谷千秋 : CCB<=85-30 【アイデア】 (1D100<=55) ＞ 77 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 忘れた箇所もう一度戻して再チャレンジできませんか？（）
+
+</span><span class="kp">再チャレンジ込みでの失敗ということで不可とします！
+
+</span><span class="chiaki">染谷千秋 : （……どうなってんだ？）分解する前に仕組みを見ますが、良く理解らずに手を止めます。
+</span><span class="chiaki">染谷千秋 : カレンダーを見ます。
+
+</span><span class="kp">今日は[8/10]だ。[8/16]が赤い丸で囲んである。この日は何か大事な日だったような気がする。
+
+</span><span class="chiaki">染谷千秋 : （……今日含めて1週間か。この日に何かあんのか？）
+</span><span class="chiaki">染谷千秋 : 思い出せるかアイデア振りたいです！
+
+</span><span class="kp">どうぞ～！
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 33 ＞ 成功
+
+</span><span class="kp">やはり大事な予定があったはずだ。自分がそれを忘れてしまっているのだという思いが強くなる。
+
+</span><span class="chiaki">染谷千秋 : 関連する日程を思い返してみますがどれもしっくり来ません。
+（……）
+</span><span class="chiaki">染谷千秋 : ベランダに出ます。目星！
+
+</span><span class="kp">どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 30 ＞ 成功
+
+</span><span class="kp">直射日光が当たり、コンクリートの表面には蜃気楼が立っている。酷い猛暑だ。
+左右には壁がある。下をのぞくと、真っ白な景色の中、黒く焼けたアスファルトが遠くに見える。雨どいにはカサカサに干からびた枯れ葉が詰まり、頭のとれた蝉の死体がひとつ落ちている。
+ここを出てはいけない。みつかってしまう。強い恐怖を感じる。
+
+</span><span class="chiaki">染谷千秋 : （……見つかる？何に？）暑さで汗が一筋伝います。恐怖から流れた汗を乱暴に拭います。
+</span><span class="chiaki">染谷千秋 : 外に出てみたいです！
+
+</span><span class="kp">玄関から外に出るということでしょうか？
+
+</span><span class="chiaki">染谷千秋 : ベランダにどうにか乗って左右の壁の向こう側確認してあれば乗りたい！下の階も確認したいです
+
+</span><span class="kp">左右の部屋も下の階もあります。左右の部屋には、手すりに乗れば行くことも可能でしょう。
+
+</span><span class="chiaki">染谷千秋 : 手すりに乗って左右の部屋にいきます！
+
+</span><span class="kp">手すりを伝い、隣の敷地内に踏み入る。そして窓越しに部屋の中を窺うと、先ほどまでいた自分の家と全く同じ様子だった。――無限ループしている、という事実に気付く。
+</span><span class="kp">SANC 1/1d3
+
+</span><span class="chiaki">染谷千秋 : oh
+</span><span class="chiaki">染谷千秋 : 1d100<=49 【SAN値チェック】 (1D100<=49) ＞ 33 ＞ 成功
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 49 → 48
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : （同じ場所に戻ってる。下もか？）下の階に行きます。
+
+</span><span class="kp">隣の部屋と違い、下の階に降りるには手すりをしっかりと掴み、上手く飛び降りる必要があるように思います。下の階に行きますか？
+
+</span><span class="chiaki">染谷千秋 : はい
+
+</span><span class="kp">STR*5どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 69 ＞ 失敗
+
+</span><span class="kp">下の階に降りようとして、手すりを掴みながら身をベランダの外側に出す。そして足を外して降りようとした時――汗で手が滑ったのか、それとも何かに引っ張られたのか――あなたの体は空に投げ出され、そして地面に叩きつけられた。
+ごぱんという何かが爆ぜる音が聞こえ、意識が一瞬途切れる。
+気付くと、元の部屋に戻っていた。
+</span><span class="kp">SANC 1/1d5
+
+</span><span class="chiaki">染谷千秋 : 1d100<=48 【SAN値チェック】 (1D100<=48) ＞ 42 ＞ 成功
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 48 → 47
+</span><span class="chiaki">染谷千秋 : （……死んでも元の部屋に戻されるのか。この調子じゃ下の階も同じか）
+</span><span class="chiaki">染谷千秋 : （開くか怪しいけど、一回玄関も見てみるか）
+</span><span class="chiaki">染谷千秋 : 玄関の方に行き扉を開けてみます。
+
+</span><span class="kp">ベランダで感じた恐怖を抑えて玄関へ向かう。扉を開けようと、ドアノブに手をかける。
+――ここをあけてはいけない。出てはいけない。みつかってしまう。
+頭がズキズキと脈打つように痛み、警鐘を鳴らす。
+</span><span class="kp">心理学または精神分析を振っても構いません。
+
+</span><span class="chiaki">染谷千秋 : 心理学振ります
+
+</span><span class="kp">この心理学は自分で振っていただきます。どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=5 【心理学】 (1D100<=5) ＞ 95 ＞ 失敗
+
+</span><span class="kp">扉を開けますか？
+
+</span><span class="chiaki">染谷千秋 : 聞き耳振りたいです！
+
+</span><span class="kp">どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 24 ＞ 成功
+
+</span><span class="kp">扉の奥に耳をすましても、何も聞こえない。
+
+</span><span class="chiaki">染谷千秋 : 開　け　ま　す
+
+</span><span class="kp">ドアノブを握る手に自然と力がこもる。自身から湧き上がる警告を無視して、ドアノブを捻った。
+
+ここをあけてはいけない。出てはいけない。みつかってしまう。
+
+ここをあけてはいけない。出てはいけない。みつかってしまう。
+
+ここをあけてはいけない。出てはいけない。みつかってしまう。
+
+脳がばくばくと脈打っている。
+ぶつり。
+
+その場に崩れ落ちる。扉が開いたかどうかも分からないうちに意識が途切れた。
+気付くと、元の部屋に戻っていた。
+</span><span class="kp">SANC 1/1d3
+
+</span><span class="chiaki">染谷千秋 : 1d100<=47 【SAN値チェック】 (1D100<=47) ＞ 38 ＞ 成功
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 47 → 46
+</span><span class="chiaki">染谷千秋 : 玄関の方を確認します。自分の死体はありますか？
+
+</span><span class="kp">玄関に戻るが、様子は特に変わりない。自分の死体が転がっているようなこともなかった。
+
+</span><span class="chiaki">染谷千秋 : 玄関に目星！他に気になる箇所はありますか？
+
+</span><span class="kp">どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功
+
+</span><span class="kp">玄関を改めて観察するが、いつもの玄関と変わりがないように見える。
+
+</span><span class="chiaki">染谷千秋 : ベランダに戻り室外機を確認します。
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 62 ＞ 成功
+
+</span><span class="kp">室外機は熱されていて、触ると熱い。
+室外機の置かれている地面が乾ききっていることから、あのエアコンはしばらくの間稼働していなかったのだろうということが見てとれる。少なくとも、日単位で。
+
+</span><span class="chiaki">染谷千秋 : 「……」浴室にいきます！
+
+</span><span class="kp">浴室に向かう。置いてある物もその配置も、いつもと一緒だった。
+体についた血を流そうと思うなら、シャワーで洗い流せるかもしれない。
+
+</span><span class="chiaki">染谷千秋 : 洗い流します！
+
+</span><span class="kp">血を洗い流す。赤く染まった水が、次第に透明になる。
+汚れが落ち、体は綺麗になった。人を殺したとは思えないほどだ。
+
+</span><span class="chiaki">染谷千秋 : 濡らした服でスマホをきれいにします。
+
+</span><span class="kp">自身の服を濡らして、雑巾代わりにする。
+血で汚れていない場所を使って、血や汗を綺麗に拭き取った。
+
+</span><span class="chiaki">染谷千秋 : スマホを操作します！
+
+</span><span class="kp">もう一度点けようと試みたが、やはり電源は入らなかった。
+
+</span><span class="chiaki">染谷千秋 : 充電器を取り出して接続してみます！電源はつきますか？
+
+</span><span class="kp">充電器を繋いでみるが、電源は点かない。充電の問題ではないようだった。
+
+</span><span class="chiaki">染谷千秋 : （……つかねーな）洗濯機を調べます！
+
+</span><span class="kp">洗濯機のボタンに触れてみると、ピッと音が鳴る。どうやら動くようだ。
+
+</span><span class="chiaki">染谷千秋 : 中には何か入っていますか？
+
+</span><span class="kp">洗濯機の中を覗く。何も入っていない。
+
+</span><span class="chiaki">染谷千秋 : （電気は通ってる。……、あと確かめてない所か……）テレビを調べます！
+
+</span><span class="kp">急に思い立ち、リビングへ戻る。
+テレビを点けてみたが、砂嵐が映るのみだった。
+
+</span><span class="chiaki">染谷千秋 : （……。特別気になる場所はないな。脱出への手がかりは見つからなかった。……気になるのは時計ぐらいだけど、一回分解したら戻せそうにない。……長時間閉じ込められる可能性もある。時間感覚が分かるものは残しておきたい）
+</span><span class="chiaki">染谷千秋 : （……この部屋に閉じ込められてるな。部屋から出ようとすると悪寒がする。外に繋がる道で確認してないのは下の階ぐらいか。……望みは薄いけど、何度か挑戦してみるか）ベランダから下の階に飛び降ります。
+
+</span><span class="kp">STR*5どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 56 ＞ 失敗
+
+</span><span class="kp">掴みづらい手すりに舌打ちをする。なんとかぶら下がって、飛び移ろうとした瞬間に、再び手が滑る。片手で手すりを掴み直すが、急には自身の重さを支えきれず、あなたの体は中に浮いた。
+
+意識が途切れる。
+
+気付くと、元の部屋に戻っていた。
+SANC 1/1d3
+
+</span><span class="chiaki">染谷千秋 : 1d100<=46 【SAN値チェック】 (1D100<=46) ＞ 92 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 46 → 43
+</span><span class="chiaki">染谷千秋 : 舌打ちしてもう一度ベランダに出ます。もう一回！
+
+</span><span class="kp">STR*5どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 18 ＞ 成功
+
+</span><span class="kp">跳躍どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=25 【跳躍】 (1D100<=25) ＞ 35 ＞ 失敗
+
+</span><span class="kp">要領を得て、なんとかぶら下がるところまでは成功する。勢いをつけて飛び移ろうと手を離したが、半身だけで勢いをつけるのは難しかった。下の階のベランダの手すりに足を強打した後、あなたは頭から地に落ちていく。
+
+何かが弾ける音がする。
+意識が途切れる。
+
+気付くと、元の部屋に戻っていた。
+SANC 1/1d2
+
+</span><span class="chiaki">染谷千秋 : 1d100<=43 【SAN値チェック】 (1D100<=43) ＞ 24 ＞ 成功
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 43 → 42
+</span><span class="chiaki">染谷千秋 : 部屋に戻り本を持ち出します。下の階に投げ入れてみます。
+
+</span><span class="kp">ここからではあまりよく見えないが、響いた音から下の階のベランダに本が落ちたように思う。
+
+</span><span class="chiaki">染谷千秋 : 続けて本を落とします。自分が先程落ちて激突したであろう場所まで。
+
+</span><span class="kp">本を落として、下を覗きこむ。地面には本が落ちている。
+
+</span><span class="chiaki">染谷千秋 : （……本は元に戻らないのか。本が戻らなかったら下の階に行ける証明になると思ったけど、違うみたいだ。部屋が無限に続いてるわけじゃなくて、俺が部屋に戻されてるのか？）
+</span><span class="chiaki">染谷千秋 : （死んだら強制的に戻される、か。ゲームの残機みたいだな）
+</span><span class="chiaki">染谷千秋 : （下の階も左右の部屋と同じ可能性が高い、けどな……）部屋に戻り、包丁を取ります。そのまま首をかききります。
+
+</span><span class="kp">自分の首を包丁で掻き切った。当たり前のように血が溢れ、際限のない痛みが脳を焼き、一瞬だけ意識が途切れる。
+気付くと、元の部屋の真ん中に立っていた。
+SANC 1/1d2
+
+</span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 46 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 42 → 40
+</span><span class="chiaki">染谷千秋 : （……まあ変わらねーか）
+</span><span class="chiaki">染谷千秋 : （……暑、……せめてスマホがつけばな）うだる暑さの中ソファに座ってぼーっとします。
+</span><span class="chifuyu">染谷千冬 : 「おなかがすいただろう」
+</span><span class="chiaki">染谷千秋 : 「！」
+
+</span><span class="kp">聞き間違えるはずもない、千冬の声だった。
+がたりと、冷蔵庫のほうから音がした。
+
+その言葉のどこか甘美な響きにぐらりとする。
+口の中に、生唾がわいた気がした。
+
+頭がずきずきとする。目がくらむ。吐き気がひどい。
+背や顎を伝っていた汗はいつの間にか止まっており、あがった息はハァハァとうるさく頭の中でこだまする。
+熱中症だと気付いたときには既に膝から力が抜けており、その場で倒れ伏した。
+</span><span class="kp">・・・
+</span><span class="kp">【二日目】8/11
+</span><span class="kp">酷い頭痛と吐き気、強い腐臭で目を覚ます。
+体調の悪化により、HP-3。
+
+</span><span class="chiaki">[ 染谷千秋 ] HP : 12 → 9
+
+</span><span class="kp">どうやら自室の床に倒れていたようだった。そして横のベッドには、千冬の死体がある。冷蔵庫に入れていたはずが、なぜか元の場所に戻っている。
+</span><span class="kp">蒸し暑い室内で長時間放置されたせいだろうか、腐敗が酷く進み、腹部は不気味に膨らみ大量の蠅と蛆が溢れ返っている。虫はあなたの手足を這いずり回り、身体の下では何匹かが潰れて醜い染みになっている。
+SANC 1/1d6
+
+</span><span class="chiaki">染谷千秋 : 1d100<=40 【SAN値チェック】 (1D100<=40) ＞ 90 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 1
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 39
+</span><span class="chiaki">染谷千秋 : 「……ッ！」
+痛みと吐き気で思考が上手くまとまらず、一瞬夢の中だと忘れます。
+半ば衝動的に千冬の身体に湧いた蛆を払います。
+</span><span class="chiaki">染谷千秋 : 「……は、」
+</span><span class="chiaki">染谷千秋 : （何やってんだか……。落ち着け。これは夢だ）
+</span><span class="chiaki">染谷千秋 : 「……」
+手についた蛆を振り払い起き上がり、改めて部屋を見渡します。千冬の身体が突然現れたこと以外に変化がないか、千冬の身体と部屋に目星！
+
+</span><span class="kp">目星を2回どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 75 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 71 ＞ 成功
+
+</span><span class="kp">千冬を見ると、死後硬直はとけているが、腐敗が進んでいる。内臓から腐り始めているのだろうか、衣服の隙間から見える腹は青黒い色に染まっている。大量の蛆と蠅に犯されている。
+</span><span class="kp">部屋を見ると、この部屋は一見、昨日と変わりないように見える。
+時計を見て、時間を確認する。現在時刻は午前11時だった。
+喉が渇いている。口の中に鉄錆の臭いがこびりついていて、血生臭さを感じる。また、熱中症の症状が出ているようにも思う。
+
+</span><span class="chiaki">染谷千秋 : キッチンに向かい水に塩を入れて飲みます。
+
+</span><span class="kp">水を飲むことで体調が若干緩和する。HP+1。
+
+</span><span class="chiaki">[ 染谷千秋 ] HP : 9 → 10
+</span><span class="chiaki">染谷千秋 : （こうしてる間に千冬も怪異に巻き込まれるかもしんねー。……早く出ねーと）
+水を飲み宙を睨みながら意識を改めます。
+</span><span class="chiaki">染谷千秋 : 一息ついてカレンダーを見ます。変化はありますか？
+
+</span><span class="kp">カレンダーを見るが、特に変化はない。
+</span><span class="kp">アイデアどうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 7 ＞ スペシャル
+
+</span><span class="kp">よく考えると、千冬はいつも予定を文字でカレンダーに書込んでいる。
+しかし8/16はただ赤い丸がついているだけだ。
+
+</span><span class="chiaki">染谷千秋 : （千冬なら予定を書くはずだ。……なら誰が？……記憶を失ってない限りは俺じゃない。俺をここに閉じ込めてる奴か？）
+</span><span class="chiaki">染谷千秋 : キッチンに向かいガスが使えるか見ます。
+
+</span><span class="kp">試しにコンロのツマミを回すと点火した。ガスは使えるようだ。
+
+</span><span class="chiaki">染谷千秋 : （……寝る前に聞いた声といい、閉鎖空間に閉じ込められたことといい、いつでも調理できる状態になってることといい……、俺にあれを食わせたいのか？……悪趣味なヤツ）
+</span><span class="chiaki">染谷千秋 : 自分の空腹状態を知りたいです。
+
+</span><span class="kp">飢えているというほどではないが、空腹が続いている。
+
+</span><span class="chiaki">染谷千秋 : ベランダに出て天気を確認します。
+
+</span><span class="kp">ベランダに出るが、日差しが直接肌を焼く。息苦しいほどの熱気が体を纏う。とても暑い。
+上から何かが落ちてくる。ごぱぢゅん、と下で何かが割れ弾ける音がした。
+
+</span><span class="chiaki">染谷千秋 : 下を見ます。死体は見たことあります！
+
+</span><span class="kp">下をのぞくと、コンクリートに真っ赤な液体が広がっていた。潰れた死体と目があう。それは紛れもなく”あなた”だった。
+SANC 1/1d3
+
+</span><span class="chiaki">染谷千秋 : 先生！覚悟してました！
+
+</span><span class="kp">減らしてます！
+
+</span><span class="chiaki">染谷千秋 : あっ
+</span><span class="chiaki">染谷千秋 : 1d100<=39 【SAN値チェック】 (1D100<=39) ＞ 77 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1D3 (1D3) ＞ 3
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 39 → 36
+</span><span class="chiaki">染谷千秋 : 落ちてきた死体は1体だけですか？
+
+</span><span class="kp">そうです！
+
+</span><span class="chiaki">染谷千秋 : 落ちてきた死体に目星降りたいです！
+
+</span><span class="kp">どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 12 ＞ スペシャル
+
+</span><span class="kp">ぐちゃぐちゃの赤黒い液体の中に死体が沈んでいる。頭蓋は割れ、脳が散らばっている。腕が有り得ない方向に曲がり、骨が露出していた。高所から転落した死体であることが分かる。
+
+</span><span class="chiaki">染谷千秋 : （……）
+</span><span class="chiaki">染谷千秋 : 先程天気を見ましたが日光はありますか？
+
+</span><span class="kp">あります！
+
+</span><span class="chiaki">染谷千秋 : （太陽は見える。……）
+部屋に戻り、家にあるもので簡易的な日時計を作ります。
+
+</span><span class="kp">時間が分かるように日時計を作る。今日、時刻ごとの影の位置を記録すれば、太陽がある限りは時間が分かるだろう。
+
+</span><span class="chiaki">染谷千秋 : 風で飛ばされないように日差しがあたる室内に固定します。その後現在の位置・時間を記録します。
+</span><span class="chiaki">染谷千秋 : （……今日は倒れねーようにしないとな。あの太陽が本物で、時間の進みが現実世界と同じなら、上手くいけば明日には時計の代替品になる）
+
+</span><span class="kp">再び時計を見ると12時になっていた。日時計に記録をする。
+
+</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】死体の匂いに慣れてない/もう慣れた (1D100<=75) ＞ 58 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】死体の匂い耐えれるか (1D100<=80) ＞ 79 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 15度間隔で日時計に目安線を引いておきます。
+（また1時間後に記録しよう）
+</span><span class="chiaki">染谷千秋 : 部屋に戻り、死体がいる方の部屋の窓を開けます。
+（……これで少しでも腐臭はマシになるか？）
+その後掃除用の手袋とマスクをつけます。蝿が飛び回る中、死体に触れてベッドの下を確認します。
+
+</span><span class="kp">ベッドを確認するが、千冬の体液がすっかり滲み、駄目になっている。
+
+</span><span class="chiaki">染谷千秋 : 昨日と変わりないか目星！
+
+</span><span class="kp">どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 98 ＞ 致命的失敗
+
+</span><span class="kp">sccb<=16*3 【千秋 POW*3】 (1D100<=48) ＞ 95 ＞ 失敗
+</span><span class="kp">ﾌwww
+
+</span><span class="chiaki">染谷千秋 : ゑ？
+
+</span><span class="kp">千冬の体が腐っていく。
+見るに堪えない、惨い状態だ。
+
+千冬を、解体しなければならない。
+
+ふと、そんな気持ちが湧き起こる。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 83 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「……これ以上腐る前に、しまわないとな」
+フラフラとクローゼットに近づきます。
+ナタを取り出し、頭部を切り離します。
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 33 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 切り離した頭部を愛おしげに覗きこみます。しばらく眼孔を見つめるうちに正気を取り戻します。
+（……、今の、何だ）
+</span><span class="chiaki">染谷千秋 : 「……」
+頭部が切り離された千冬の身体を見て不快な気持ちになります。
+見るに耐えず、四肢を切り離します。
+
+</span><span class="kp">関節に刃物を突き立て、肉を引き千切り、骨を砕く。血は、案外出ない。
+それは、想像していた以上の重労働だった。手には千冬の脂と体液がぬるぬるとまとわりつき、にじむ汗がとめどなく目に入っては痛みを訴える。何度もそれを腕でぬぐい、千冬の血が混じったあなたの汗がぼたぼたと顎から膝に落ちていく。
+千冬はあなたの手により「肉」となっていった。
+SANC 1d3/1d8
+
+</span><span class="chiaki">染谷千秋 : 1d100<=36 【SAN値チェック】 (1D100<=36) ＞ 44 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d8 (1D8) ＞ 7
+
+</span><span class="kp">一時的発狂のアイデアロールどうぞ。
+
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 36 → 29
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 79 ＞ 成功
+
+</span><span class="kp">発狂表からRoCで発狂しましょう～！
+発狂は今日のみとします。
+
+</span><span class="chiaki">染谷千秋 : 1D10 (1D10) ＞ 4
+</span><span class="chiaki">染谷千秋 : choice[短期,長期] (choice[短期,長期]) ＞ 長期
+</span><span class="chiaki">染谷千秋 : 長期の一時的凶器表から「4.奇妙な性的嗜好（ネクロフィリア）」を発症しま～す。
+</span><span class="chiaki">染谷千秋 : 「っはは、千冬……。好きだ。……愛してる」
+腐って溶けた千冬の頭部に口付けをします。そしてぶつ切りになった手に指を絡め、半分程溶けた下腹部に唇を押し付け、流れ出る体液を啜ります。
+千冬が死んだことも、蝿が飛び回っていることも、蛆が湧いていることも忘れ、そこにはいない千冬面影を求めながら千冬の死体を犯します。
+
+</span><span class="kp">殺したのは自分なのに、バラバラにしたのも自分なのに、肉片と化した千冬を見て思考が崩壊していく。
+どんな千冬でも愛おしい。だから千冬を求めた。ただの肉に欲を打ちつけ、溶けた液体を啜る。自分がどんな顔をしているかは、分からなかった。
+SAN回復1d2どうぞ。
+
+</span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 29 → 31
+
+</span><span class="kp">千冬に、自身の欲を吐き出して、恍惚の時を過ごす。
+――しかし、体調は限界だった。
+ずっと頭痛が酷い。震えが止まらない。
+とうとう耐えられなくなって、その場に思わず嘔吐する。びたびたと胃液が吐き出され、強い酸の臭いが腐臭と混じる。
+汗はとうに止まっている。いよいよ身体に力が入らなくなり、吐いたばかりの吐瀉物と、バラバラになった千冬の中へ倒れ伏した。
+蝉が開いた窓から入り、煩く鳴き出した。しかしそれをどうにかする気力もなく、意識は沈んでいった。
+</span><span class="kp">・・・
+</span><span class="kp">【三日目】8/12
+</span><span class="kp">――千冬の、声がする。
+
+</span><span class="chifuyu">染谷千冬 : 「起きろ」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】勢いない/ある (1D100<=80) ＞ 51 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 身体を起こして声のする方向を見ます。
+
+</span><span class="kp">起き上がって声の方向を見ようとすると、べちゃりと手の下から音がした。それを認識した途端、麻痺していた五感が戻っていく。
+千冬の体は散り散りになったままだった。千冬の腐敗した内臓から何かの汁がどろりと流れていた。
+床のほとんどは千冬の腐った体液で汚れている。もちろん、そこで寝ていた自身も。
+口の中にもぞもぞとした感覚がある。吐き出すと、大きな蛆虫がべちゃりと涎に濡れて落ちる。
+それを気にする間もなく、はっと顔を上げた先――目を奪われた。
+切断された首上の、その口が、頭が、動いていた。
+そして、明確に口をきく。大量の蛆を吐き出しながら。
+
+</span><span class="chifuyu">染谷千冬 : 「おはよう、千秋。……具合はどうだ？」
+
+</span><span class="kp">SANC 1/1d6
+
+</span><span class="chiaki">染谷千秋 : 1d100<=31 【SAN値チェック】 (1D100<=31) ＞ 1 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「誰だお前」冷めた目で千冬の形をしたそれを見ます。
+</span><span class="chifuyu">染谷千冬 : 「……そうか」悲しそうに眉を下げます。
+
+</span><span class="kp">……目の前のものに言われて気がつく。
+あの酷い頭痛も吐き気も、身体の震えも消えていた。
+HP全回復。
+
+</span><span class="chiaki">[ 染谷千秋 ] HP : 10 → 12
+</span><span class="chiaki">染谷千秋 : （……幻覚か？）身体を起こし、千冬の形をしたそれから距離をとります。
+</span><span class="chiaki">染谷千秋 : 「誰だって聞いてんだよ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+
+</span><span class="kp">悲しげに千秋を見ています。
+
+</span><span class="chifuyu">染谷千冬 : 「……水、飲め」
+</span><span class="chiaki">染谷千秋 : 「……答えろ」それを睨んだまま微動だにしません。
+</span><span class="chifuyu">染谷千冬 : 「……俺は、千冬だ……」
+</span><span class="chiaki">染谷千秋 : 「……」目の前の生首に心理学振りたいです！補正ください！染谷千秋、千冬の形をしたものに詳しいです！
+
+</span><span class="kp">ふ、いいでしょう！これはKPが振ります。
+
+</span><span class="chiaki">染谷千秋 : やった～～～！！陳謝！
+
+</span><span class="kp">初期値で笑いました。
+今までも目星で判定していた時があったので、対千冬ということで、今回も目星で許可します。
+
+</span><span class="chiaki">染谷千秋 : 助かります！！！
+
+</span><span class="kp">目星の値でこちらでシークレットダイスを振ります。
+</span><span class="kp">sCCB<=83 【目星】 (1D100<=83) ＞ 66 ＞ 成功
+</span><span class="kp">目の前のものに、嘘をついているような含みは感じない。むしろ、不器用な言葉に千冬らしさを感じるかもしれない。
+
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……お前が本当に千冬なら、何でここにいるんだ。……それに、その姿は何だよ」
+</span><span class="chifuyu">染谷千冬 : 「何で、ここにいるか……？　……この姿は……これは、千秋がやったんだろう？」うまく分かってない顔で答えます。
+</span><span class="chiaki">染谷千秋 : 「……、ここは夢の中だ。もしくは怪異の中。違うか？」
+</span><span class="chifuyu">染谷千冬 : 「……そうか。じゃあ、そうだ」
+</span><span class="chiaki">染谷千秋 : 「……。じゃあ、ってなんだよ」
+</span><span class="chifuyu">染谷千冬 : 「千秋がそう思うなら、そうだと思った」
+</span><span class="chiaki">染谷千秋 : 「……。俺がその姿にしたってのは？殺して首だけにしたってことか？……何でそのまま喋れてる」
+</span><span class="chifuyu">染谷千冬 : 「……千秋が俺を殺した。でも、別にいい。……そういうこともあるんじゃないか」
+</span><span class="chiaki">染谷千秋 : 「俺には前後の記憶がない。お前が殺されるまでに何があった」
+</span><span class="chifuyu">染谷千冬 : 「……俺にも、分からない。俺が分かるのは……千秋が俺を殺したこと……俺が死んだこと……だ」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「8/16に何があるかわかるか」
+</span><span class="chifuyu">染谷千冬 : 「……秘密、だ」照れたような表情を浮かべます。
+</span><span class="chifuyu">染谷千冬 : 「……千秋。水を飲め。体調を崩してしまう。……あと、ずっと食べてないだろう。お腹はすいてないか」
+</span><span class="chiaki">染谷千秋 : 「……悪いけど、俺はお前が千冬だって信じられない。俺のことは気にかけなくていいぜ。……お前はこの部屋から抜け出す方法は分かるか」
+</span><span class="chifuyu">染谷千冬 : 「……出なくていい。一緒にいたい、千秋」
+</span><span class="chiaki">染谷千秋 : 「……」
+これ以上の情報は手に入らないと考え、その言葉を無視して身体を起こします。時計を確認したいです。今何時ですか？
+
+</span><span class="kp">時刻は午後7時。外からはヒグラシの声が聞こえてきていた。真っ赤な夕焼けが藍に染まってきている。
+相変わらず酷く暑い部屋だが、この温度には慣れてしまった気がする。
+
+</span><span class="chiaki">染谷千秋 : 日時計に記録して風呂に入ります。体液と汚れを流し、出た後に塩分水を飲みます。
+</span><span class="chiaki">染谷千秋 : （……腹減った）
+キッチンに向かい、包丁を手に取り指先から手のひらにかけて切ります。
+
+</span><span class="kp">自身の体に刃を入れて、皮膚を断つ。じんと鋭い痛みが走り、血がすぐに滲み上がる。
+
+</span><span class="chiaki">染谷千秋 : （……けど、得体のしれないもん食いたくねーしな）
+水を大量に飲みます。その後ベランダから下階へ飛び降りチャレンジします。
+
+</span><span class="kp">STR*5どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 59 ＞ 失敗
+
+</span><span class="kp">頭痛や吐き気、体の震えこそないが、ろくに食べておらず、力が入らない。自身の体重を支えることすら難しく、あなたは地に落ちた。
+気付くと、元の部屋に戻っていた。
+SAN-1
+
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 31 → 30
+</span><span class="chiaki">染谷千秋 : 手とお腹の具合を確認します。手の傷はどうなっていますか？また水を大量に飲んだ感覚はありますか？
+
+</span><span class="kp">手や腹の状態を確認する。手には傷が残っており、水を飲んだ感覚もある。
+
+</span><span class="chiaki">染谷千秋 : （身体の状態はリセットされねーのか。されんなら食えると思ったけど無理か）
+一息ついてもう一度水を飲み、空腹を紛らわします。
+その後時計の構造をメモしながら分解してみます。
+
+</span><span class="kp">時計を分解したが、特に異常も、変わったものも無さそうだった。
+
+</span><span class="chiaki">染谷千秋 : 時計を戻します。
+
+</span><span class="kp">DEX*5どうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功
+
+</span><span class="kp">メモに残した甲斐あって、元に戻すことができた。
+
+</span><span class="chiaki">染谷千秋 : （……日時計要らなかったか？）
+他に気になる箇所がないか部屋全体に目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 35 ＞ 成功
+
+</span><span class="kp">部屋を見渡す。千冬の腐敗した体液が床に零れ落ちている。
+白かった壁は黒く濁り、窓にはヒビが入っている。
+
+</span><span class="chiaki">染谷千秋 : （体液が原因か？……老朽化が進んでる？……部屋を破壊することはできねーか？）
+部屋に戻り体液とその周辺を更に見てみます。
+</span><span class="chiaki">染谷千秋 : （あれは千冬じゃない、はずだ。……8/16日に起きることを聞いた時、あいつは照れくさそうにしてた。あいつが俺の敵で、俺を閉じ込めるのが目的だとしたら、このまま部屋に居続けるのは危ねーな。玄関から外に出ようとした時、嫌な感覚がしたけど、……それも操作されてんのか？）
+
+</span><span class="kp">部屋に戻り、体液やその周辺、そしてその中心にいる「千冬」に目を向ける。
+なぜか途端に空腹が気になり始める。目の前の千冬はドロドロに腐って溶けているというのに、何故かその体液を『舐めたい』と、肉を『啜りたい』と思う。飢餓感が明確になる。
+――壁や窓にまで及んでいるから、家の変貌はこれが原因ではないだろう。窓はともかく、壁は汚れているだけで材質が変わっているわけではない。破壊することはできなさそうだった。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢餓感を感じない/感じる (1D100<=80) ＞ 96 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】飢えを耐えれる体力がある/ない (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢えを耐えれる/耐えれない (1D100<=80) ＞ 7 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : 知らず知らずのうちに手を握りしめます。唾を飲み込み、千冬と名乗るそいつに視線をやります。今は何をしていますか？
+
+</span><span class="kp">千冬を見ると、崩れかけた顔ながらも、戸惑いながらこちらを見つめているのだろうと分かる。
+
+</span><span class="chiaki">染谷千秋 : 「……『千冬』」
+</span><span class="chifuyu">染谷千冬 : 「……何だ？」
+</span><span class="chiaki">染谷千秋 : 「出なくていい、ってなんでだ。『千冬』はここから出たくねえの」
+</span><span class="chifuyu">染谷千冬 : 「ここにいれば、安心だから」
+</span><span class="chiaki">染谷千秋 : 「……『千冬』はここが何か知ってるのか？外には何がいんの」
+</span><span class="chifuyu">染谷千冬 : 「俺たちの家だろう？　外は危険だ。何が起こるか分からない。千秋は俺が守る」
+</span><span class="chiaki">染谷千秋 : 「俺達の家とは違うだろ？出ようとしたら強制的に戻される」
+</span><span class="chiaki">染谷千秋 : 「……俺はここにいたくない。千冬に守られんのも嫌だ」
+</span><span class="chifuyu">染谷千冬 : 「……そうか」
+</span><span class="chiaki">染谷千秋 : 「……『千冬』はこの家から出たらどうなるんだ」
+</span><span class="chifuyu">染谷千冬 : ふ、と笑います。
+「俺は死んでいるから動けない」
+</span><span class="chiaki">染谷千秋 : 「俺が持てばいい」
+</span><span class="chifuyu">染谷千冬 : 「……いいのか？」
+</span><span class="chiaki">染谷千秋 : 「？ああ」
+</span><span class="chifuyu">染谷千冬 : 「……千秋は俺のことを信じてないんだと思ってた」
+</span><span class="chiaki">染谷千秋 : 「さっきは気が動転してた。悪いな」
+</span><span class="chiaki">染谷千秋 : 「けど、俺が出たいって意見は変わらないぜ。協力してくれ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「そもそも、俺は死人で、千秋は……殺人者だ。もう……外には出れない」
+</span><span class="chiaki">染谷千秋 : 「そういうルールがあんのか？」
+</span><span class="chifuyu">染谷千冬 : 「法律だ」
+</span><span class="chiaki">染谷千秋 : 「物理的に出れなくなるわけじゃないだろ？けど、この家は違う」
+</span><span class="chifuyu">染谷千冬 : 「でも、出る必要がない」
+</span><span class="chiaki">染谷千秋 : 「俺は出たい」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……『千冬』」
+</span><span class="chifuyu">染谷千冬 : 「……何だ」
+</span><span class="chiaki">染谷千秋 : 「何で黙った」
+</span><span class="chifuyu">染谷千冬 : 「千秋は出たくて、俺は出たくないからだ」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「話を変える。俺がここに閉じ込められた日、倒れる直前に『千冬』の声を聞いた。あの時から意識はあったのか？」
+</span><span class="chifuyu">染谷千冬 : 「あった」
+</span><span class="chiaki">染谷千秋 : 「ずっと？」
+</span><span class="chifuyu">染谷千冬 : 「ずっと、千秋を見ていた」
+</span><span class="chiaki">染谷千秋 : 「昨日までは俺の意識がなくなる直前に話しかけてきただろ。今日になって話そうと思った理由は何だ」
+</span><span class="chifuyu">染谷千冬 : 「話せたからだ」
+</span><span class="chiaki">染谷千秋 : 「……？」
+</span><span class="chifuyu">染谷千冬 : 困り顔で微笑みます。
+</span><span class="chiaki">染谷千秋 : 「昨日までは話せなかった？」
+</span><span class="chifuyu">染谷千冬 : 「そうかもしれない。よくわからない」
+</span><span class="chiaki">染谷千秋 : 「……。俺がここに閉じ込められてから3日が過ぎた。『千冬』の身体はどんどん崩れてる。直にまた話せなくなる可能性もある」
+</span><span class="chiaki">染谷千秋 : 「16日、何があるんだ。教えてくれ」
+</span><span class="chifuyu">染谷千冬 : 「……ひみつ」
+</span><span class="chiaki">染谷千秋 : 「……そーかよ」
+</span><span class="chiaki">染谷千秋 : 他に気になる箇所がないか家全体に目星したいです！！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 66 ＞ 成功
+
+</span><span class="kp">家の中を歩き回って確認する。やはり家全体にどこか劣化を感じる。キッチンの周りで、ゴキブリが数匹這いまわっている。そのうち共食いを始め、聞こえないはずの鳴き声がギィギィと耳につく。
+SAN0/1
+
+</span><span class="chiaki">染谷千秋 : 1d100<=30 【SAN値チェック】 (1D100<=30) ＞ 46 ＞ 失敗
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 30 → 29
+</span><span class="chiaki">染谷千秋 : クローゼットを見ます。
+
+</span><span class="kp">クローゼットを開けると、人影が自分のほうへ倒れこむ。その人影に両手で首を掴まれ、ぎりぎりと締め上げられる。ゆっくりと顔を起こしたその女性は、記憶の映像にある自身の母親だった。口をぱくぱくと動かして、何かを呟いている。その声を思い出すことはできないが、自分に向かって呪詛を吐いているに違いなかった。――しかし瞬きの合間に、その女性は姿ごと掻き消える。一体、どこからが夢なのだろうか。
+</span><span class="kp">SANC 1/1d3
+
+</span><span class="chiaki">染谷千秋 : 1d100<=29 【SAN値チェック】 (1D100<=29) ＞ 98 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 1
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 机の上を調べます！
+
+</span><span class="kp">机の上に目をやる。パソコンとクーラーのリモコンがある。特に配置は変わっていない。
+
+</span><span class="chiaki">染谷千秋 : どちらも触ってみます。
+
+</span><span class="kp">パソコンにはパスワードがかかっており、リモコンも相変わらず動かない。
+
+</span><span class="chiaki">染谷千秋 : パソコンのパスワードに0816と入力してみます。失敗した場合は続けて入力します。文字長などのヒントが出てきたりしませんか？
+
+</span><span class="kp">様々な数字を試すが、どれも解除できなかった。ヒントの文字列も出ない。
+
+</span><span class="chiaki">染谷千秋 : （……だめか）
+</span><span class="chiaki">染谷千秋 : 冷蔵庫、洗濯機、浴室、テレビの順に見ていきます。
+
+</span><span class="kp">冷蔵庫を開くと、むわりとこもった臭いがする。電気が通じておらず、特有の刺激臭が麻痺した鼻をついた。幸いなのは、中身が入っていないことだった。
+洗濯機の様子には変わりがない。しかし、洗剤の中に虫が混じり、その体液で汚していた。
+浴室も確認する。水を流すと、僅かに赤さびが混じっていた。水が生臭い。
+リビングに戻りテレビを点けると、カラーバーが表示される。
+
+</span><span class="chiaki">染谷千秋 : （……はあ。まだ3日しか経ってねーって）
+惨状を見て千冬を恋しく思う気持ちが湧き上がります。ここにきてからの日数を思い出し、気持ちを落ち着かせます。
+</span><span class="chiaki">染谷千秋 : 玄関にいって外の様子を伺います。
+
+</span><span class="kp">覗き穴から外を見てみると、そこは真っ暗だった。
+</span><span class="kp">アイデアをどうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 69 ＞ 成功
+
+</span><span class="kp">暗いのではなく「瞳孔が間近にあったから黒く見えた」ということに気付く。
+つまり、この扉一枚隔てた向こうから”誰か”がこちらをのぞき込んでいる。
+カリカリと扉をひっかく音がする。
+
+</span><span class="chiaki">染谷千秋 : 聞き耳立てて相手が人間かどうか分かったりしないですか？
+
+</span><span class="kp">耳をそばだてても、引っ掻く音が聞こえるのみで様子は窺えない。
+
+</span><span class="chiaki">染谷千秋 : ドン、と扉を軽く殴ります。
+「おい。誰かいるのか」
+
+</span><span class="kp">一瞬音が止んだかと思うと、再びガリガリと鳴り始める。しかし問いかけに応える声はない。
+
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 扉を開けます。
+
+</span><span class="kp">扉を開けようとしても、ドアノブはびくとも動かない。
+
+</span><span class="chiaki">染谷千秋 : 「……開かなくなってる」
+</span><span class="chiaki">染谷千秋 : カレンダーと時計を見てから室外機を見ます。
+
+</span><span class="kp">カレンダーの8/17以降の日付が全て「44」に変化している。めくると以降は黒塗りが続いている。
+室外機は沈黙を保ったままだ。
+
+</span><span class="chiaki">染谷千秋 : （……４。死……？……。8/16までに出ないと死ぬのか？）
+</span><span class="chiaki">染谷千秋 : （一通り調べ終わったか。大した収穫はねーな。……）
+暑さと飢えによる疲労から壁に寄りかかり、ずるずると座り込みます。
+</span><span class="chiaki">染谷千秋 : （急いで脱出したいけど、ここは日を重ねるごとに変化してる。明日以降に備えて体力は温存しとこう）
+床に横たわり、身体の側を横切るゴキブリを眺めながらぼんやりと考え事をします。
+</span><span class="chiaki">染谷千秋 : （……千冬は今どうしてるかな。俺みたいに閉じ込められてなきゃいいけど。……もし閉じ込められてんなら、早く助けにいかねーと……）考え事を続けながら微睡みます。
+</span><span class="chiaki">染谷千秋 : （気分悪い。頭痛がする。腹減った。早く出たい。……千冬に会いたい。……千冬……）うつらうつらと考え事をしながら意識を手放します。
+
+</span><span class="kp">やけに眠い。朦朧とする意識の中で、何か、脳裏にどこかの景色がちらついている。
+
+</span><span class="chifuyu">染谷千冬 : 「眠いなら、寝ていい。……千秋」
+</span><span class="chifuyu">染谷千冬 : 「おやすみ」
+
+</span><span class="kp">腐肉の海の中から千冬の声がする。どうしてかそれに安心感を覚える。
+蒸し風呂の部屋がヒトの胎内のように、腐った内臓が羊水のように身を包むのを感じた。
+ここはあたたかい。この部屋と千冬が、ひとつになっている。
+</span><span class="kp">SAN回復　1d10
+
+</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 1
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 29 → 30
+
+</span><span class="kp">・・・
+</span><span class="kp">【四日目】8/13
+</span><span class="kp">空腹で目が覚めた。寝覚めがよく、体調も悪くない。
+時計を見ると、千冬の顔がそこに埋まっていた。安らかな顔でこちらを見下ろしている。時刻は不明だ。
+</span><span class="kp">窓の外は白く染まっており、蝉が一匹近くで鳴いている。
+頬を腕を腹の上を蛆虫や蠅や他にもよく分からない虫が這いまわる。ひとつひとつが千冬の顔を持っており、ちいさく笑っていた。
+こちらも微笑んでしまう。指先で潰すと桃色の粘液になって自分の肌と一体化した。
+</span><span class="kp">千冬はこの部屋とひとつになった。ここは千冬のはらのなかなのだ。心地がいい。
+床を撫でると、ぐにゃりと生暖かい感覚が手に伝わった。
+ああ、喜んでいる。
+</span><span class="kp">あなたは、幸福を感じている。あなたの心は穏やかに凪いでいる。
+頭のどこかではこれが異常な状態だと理解しているものの、それすら桃色にとろけた思考に塗りつぶされていくだろう。
+今のあなたは、千冬の腹におさまり守られているのだ。それがどうして確かな安心感でないといえるのだろうか。
+ああ、今ならきっと、何を見ても大丈夫だ。
+</span><span class="kp">SANC 1/1d6
+
+</span><span class="chiaki">染谷千秋 : 1d100<=30 【SAN値チェック】 (1D100<=30) ＞ 74 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 4
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 30 → 26
+
+</span><span class="kp">頭の芯がじん、とする。晴れやかな気持ちだが、思考がうまくまとまらない。
+腹を見ると、赤いくだが臍の横から布団に伸びている。くだは部屋を回れる程度には長い。触るとちいさく脈打っている。
+
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正気を保てる/保てない (1D100<=80) ＞ 100 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : 寝転がったまま、目に映る光景をぼんやりと眺めます。
+</span><span class="chiaki">染谷千秋 : 「……」
+そのまま暖かな気持ちで繋がったへその緒の方へ視線をやります。へその緒にそっと触れてみます。
+
+</span><span class="kp">触れた箇所から、どくり、どくりと振動が伝わる。一定の間隔で、どこか安心する。心地が良い。
+
+</span><span class="chiaki">染谷千秋 : 「……千冬」
+
+</span><span class="kp">ベッドの上には溶けた千冬がいる。幸せそうに満ち足りた顔で寝ているようだ。
+やわらかく腐り熟成の進んだ肉が食欲をそそる。
+
+</span><span class="chiaki">染谷千秋 : 寝ている千冬の側に寄ります。そうして千冬が起きるまで眠ります。
+
+</span><span class="kp">千冬の隣で眠りにつく。
+どれぐらい時間が経っただろうか。目が覚めたので隣を見ると、千冬が身じろぎをしていた。
+
+</span><span class="chifuyu">染谷千冬 : 「……おはよう」
+</span><span class="chiaki">染谷千秋 : 「……はよ」
+溶けた千冬の顔を見て微笑みます。
+</span><span class="chiaki">染谷千秋 : 「なあ、これなに？」
+溶けた千冬の身体に擦り寄りながら、へその緒を指します。
+</span><span class="chifuyu">染谷千冬 : 「ん……」
+眠たげな声で千秋の指すほうに視線を向けます。
+「……へその緒だ」
+</span><span class="chiaki">染谷千秋 : 「ふは、見りゃ分かるよ。……千冬と繋がってるように見えるけど、こうなってる理由分かる？」
+</span><span class="chifuyu">染谷千冬 : 「こうなってる理由……？」
+</span><span class="chifuyu">染谷千冬 : 「俺が産むからだ」
+</span><span class="chiaki">染谷千秋 : 「……産む？」
+</span><span class="chiaki">染谷千秋 : 「……8/16は、俺が産まれる日なのか？」
+</span><span class="chifuyu">染谷千冬 : 穏やかに微笑みます。
+</span><span class="chiaki">染谷千秋 : 「……千冬は俺を産んだらどうなんの？」
+</span><span class="chifuyu">染谷千冬 : 「……？」
+</span><span class="chiaki">染谷千秋 : 「俺が産まれたらここは……空き家になるだろ？その後千冬はどうなんの」
+</span><span class="chifuyu">染谷千冬 : 「千秋と一緒にいる。千秋を育てる」
+</span><span class="chiaki">染谷千秋 : 「……千冬はここから出られんの？昨日は動けないって言ってただろ？」
+</span><span class="chifuyu">染谷千冬 : 「……？　よく、わからない。けど、気にしなくていい」
+</span><span class="chiaki">染谷千秋 : 「……ん、わかった。……千冬がそう言うんなら」
+</span><span class="chiaki">染谷千秋 : 「なあ、……千冬は腹減らねーの」
+</span><span class="chifuyu">染谷千冬 : 「俺は大丈夫だ。千秋は、お腹がすいただろう」
+</span><span class="chiaki">染谷千秋 : 「少し。……大丈夫だ、って……、腹減ってねーの？その姿でも何か食べた方がいいだろ？」
+</span><span class="chifuyu">染谷千冬 : 「いい。……千秋、俺を食べろ」
+</span><span class="chiaki">染谷千秋 : 「そ？なら俺もいい。千冬が何も食わねーんなら、俺も要らない」
+</span><span class="chifuyu">染谷千冬 : 「……じゃあ、俺も食う。先に食べろ」
+</span><span class="chiaki">染谷千秋 : 「嫌だ。千冬と一緒に食う。……それができないんなら、いい。……寝る……」
+溶けた千冬を抱きしめて目を閉じます。
+
+</span><span class="kp">その時、おぎゃあ、と声がする。部屋の中に赤子がいるようだ。
+耳をすますと、それはクーラーに絡んだ蔦から聞こえてくる。
+</span><span class="kp">目星どうぞ。
+
+</span><span class="chiaki">染谷千秋 : 現状を正しく理解できないまま千冬と2人で眠る心地よさに身体を預けます。声が聞こえてきても目を開けません。
+</span><span class="chifuyu">染谷千冬 : 「……千秋、あれ、食べたい」
+</span><span class="chiaki">染谷千秋 : 「……あれって？」心地良い空間で千冬の声だけに耳を傾けます。
+</span><span class="chifuyu">染谷千冬 : 「壁に生えてる」
+</span><span class="chiaki">染谷千秋 : 「……？」
+目を薄らと開けて壁の方を見ます。
+
+</span><span class="kp">壁を見ると、クーラーに絡んだ蔦に、拳大の胎児と丸々太った蛹が実っていた。
+
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】現在体力まだ舞える/舞えない (1D100<=50) ＞ 72 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「あれ、何……」
+すぐに目を伏せて千冬に尋ねます。
+</span><span class="chifuyu">染谷千冬 : 「たべものだ」
+</span><span class="chiaki">染谷千秋 : 「……へえ」
+</span><span class="chiaki">染谷千秋 : （……食べ物……、胎児と蛹が？……。……まあ、千冬が言うならそうなんだろうな）
+のろのろと身体を起こして胎児と蛹を収穫（？）します（？）
+
+</span><span class="kp">それらは容易く千切ることができた。
+
+</span><span class="chiaki">染谷千秋 : 千冬の側に戻り、収穫（？）したものを抱えて座ります。
+「どうやって食うの、これ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+
+</span><span class="kp">千冬はどろりと口を開いた。
+
+</span><span class="chiaki">染谷千秋 : 食べやすい大きさにするために胎児の四肢を千切ります。
+その後千冬の口に差し出します。
+</span><span class="chifuyu">染谷千冬 : 「ありがとう」
+
+</span><span class="kp">千冬はもちゃり、もちゃりと頬張った。体が無いのに食べたものはどこへ向かうのか、行方は知れない。
+
+</span><span class="chifuyu">染谷千冬 : 「……千秋も、俺を食べろ」
+</span><span class="chiaki">染谷千秋 : 「……ん」
+溶けた千冬の頬にキスします。先程胎児を飲み込んだ場所に口付けをしてべろりと舐めます。
+</span><span class="chiaki">染谷千秋 : 「千冬食べたら、千冬なくなっちゃうだろ。嫌だ……。俺もさっきのがいい」
+
+</span><span class="kp">千冬は不思議と甘く感じた。麻痺した鼻に腐臭は気にならず、鈍った舌はその腐液を喉へと誘導する。唾液と混じり嚥下される千冬の体液。
+幸福を感じる。
+
+</span><span class="chifuyu">染谷千冬 : 「千秋のたべものは俺だ。……じゃあ、『あし』は？」
+
+</span><span class="kp">生首の千冬はそう言って、少し離れたところにある塊に視線を向ける。
+
+</span><span class="chiaki">染谷千秋 : 「……？」
+のろのろと視線を移し、その先にあるものを見ます。
+
+</span><span class="kp">生首の下にごろごろと転がる塊は、元はといえば千冬の体だったものだった。とても柔らかそうだ。
+
+</span><span class="chiaki">染谷千秋 : 塊を持って千冬の顔を見ます。
+「……これ？……千冬、たべられて痛くねえの」
+
+</span><span class="kp">千冬は頷いたのか、崩れかけた顔が波打つ。
+
+</span><span class="chifuyu">染谷千冬 : 「千秋に食べられたら嬉しい」
+</span><span class="chiaki">染谷千秋 : 「……そっか。じゃ、遠慮なく。いただきます」
+塊に食いつきます。
+
+</span><span class="kp">柔らかい肉を口に含む。糸を引く汁と筋繊維、脂肪があまくとけてほぐれた。
+ひとくち食べるごとに、千冬の記憶が、想いが、自分の意識と混じり溶けていく。
+ああ、千冬は、ああして刺された時とても幸福だったのだ。こうして食べられて、とても幸福なのだ。
+散っていった肉のひとつひとつに意識がある。それらは広がり続け、世界と一体化している。
+この世の真理をそこに見た気がした。
+</span><span class="kp">SAN回復　1d10
+
+</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 10
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 26 → 36
+
+</span><span class="kp">千冬を食べると、臍の緒を通じて抗いがたい眠気が訪れる。穏やかで生温かい空気に包まれ、意識を深く落としていく。
+
+</span><span class="chifuyu">染谷千冬 : 「千秋……、……」
+
+</span><span class="kp">SAN回復　1d10
+
+</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 7
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 36 → 43
+
+</span><span class="kp">・・・
+</span><span class="kp">【五日目】8/14
+</span><span class="kp">意識が朦朧としている。手足は動かず、力なくえずいた喉の奥からごぼりと何かが溢れ落ちてきた。それは小さく白い塊だった。骨、と頭の隅で認識した気がする。
+緩慢に身体を起こす。とうに崩れ落ちていた衣服がずぶ濡れの肩にひっかかっていた。
+外からは雨音がし、部屋は黒い水に浸っている。原形を留めない千冬の骨と肉、髪が水面に浮いている。
+</span><span class="kp">黒い水の中に半分浸って寝ていたようだ。腹から伸びたくだはまだそこにある。
+酷く衰弱しており、妙にねむい。気を抜くと意識を失ってしまいそうになる。昨日まであんなに幸せでおいしそうだった千冬は、今はただの腐った肉にしか見えない。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 4】正気を保てる/保てない (1D100<=64) ＞ 38 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「う゛、っ……」
+力が入らず身体を起こすことが出来ません。腐海に漂う異物を視界に収めながら、限りある力を使ってへその緒を掴みます。そのまま千切ろうとします。
+
+</span><span class="kp">ダイスを振ってください。75%で成功します。
+
+</span><span class="chiaki">染谷千秋 : ccb<=75 (1D100<=75) ＞ 59 ＞ 成功
+
+</span><span class="kp">へその緒を自らの手で引きちぎる。血が溢れ出し気が遠くなっていく。
+目が覚めると、そのくだはまだ自身の腹に繋がっていた。
+</span><span class="kp">SANC 1/1d6
+
+</span><span class="chiaki">染谷千秋 : 1d100<=43 【SAN値チェック】 (1D100<=43) ＞ 25 ＞ 成功
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 43 → 42
+</span><span class="chiaki">染谷千秋 : 「ッ……、おえ」
+昨日口に指を突っ込んで食べたものを吐き出します。
+へその緒をもう一度引きちぎります。
+</span><span class="chiaki">染谷千秋 : 自身に繋がる部分を押さえて血が溢れる前に止められないですか？
+
+</span><span class="kp">部屋にボトボトと胃液を垂らす。限界まで吐き出し胃を空にする。
+引きちぎれたくだを押さえて流れようとする血をせき止める。
+
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : 壁を支えにして身体を起こします。ベランダの窓を開けて水を外にだします。
+
+</span><span class="kp">戸を開けて部屋の排水をする。外は雨が降っている。
+蓮がどす黒く腐って、不法投棄された菓子の袋に混じり水面を汚している。腐って膨らんだ魚が、腹を上にして浮いていた。
+ベランダに置かれた室外機が、風化してそこかしこにヒビが入っている。とうに動かなくなり久しいことが見てとれる程度にはボロボロだった。
+
+</span><span class="chiaki">染谷千秋 : リビングに対して目星！
+
+</span><span class="kp">目星どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 71 ＞ 成功
+
+</span><span class="kp">窓から外を眺めると、黒雲が垂れ下がり雨が降っていた。
+天井からは雨水が滴り落ち、壁紙はぶよぶよに腐り所々剥がれている。浮いた隙間にはゴキブリが真黒な卵を産み付けており、既に何匹か半透明な幼虫が産まれて這いずり回っている。コンクリートに染みついている蛆の腐った汁を舐めているようだ。全て出し切ったはずなのに、また吐き気が強くなる。
+SANC 0/1
+
+</span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 18 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 96 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : 脱出の手がかりを探そうとしますが、身体から力が抜けてその場にずるずると座り込みます。
+</span><span class="chiaki">染谷千秋 : 「……っは、……」
+何度か起き上がろうとしますが力が入らず、苛立たしい気持ちから床を力なく叩きます。
+
+</span><span class="kp">その場に座り込んだ時、背後からどさ、と音がする。
+先ほどまでいたベランダに、人が立っている。
+それは幼子で、千冬だった。
+「おぇプ」と奇妙な声を出し、口の中から何かを吐き出す。
+幼児の足だった。千冬は何度もえづき、その度に目玉、舌、腸、心臓、指を吐いていく。
+千冬の涎と胃液に濡れた肉が膨れ上がり、こちらに襲い掛かってきた。爪が皮膚を裂き、目や口、性器から血が体内に侵入してくる。歯が肉を千切り咀嚼し、それらすべての苦痛が「心地いい」。
+千冬は泣きながら笑っていた。
+細い指が視界を潰し、意識が途切れる。
+</span><span class="kp">・・・
+</span><span class="kp">【六日目】8/15
+</span><span class="kp">目が覚める。まるい行き止まりの部屋にいる。うしろには長い廊下と見送ってくれた父の姿があり、周りには白く細長いたくさんのあなたがいる。
+とびらがひとつ、ひらいていた。
+そこはあたたかくやわらかい。
+</span><span class="kp">服はしっとり濡れていて、体には力がみなぎっている。周りにいるのはみなきょうだいでありライバルだ。父の元にはもう帰れない。
+</span><span class="kp">目星どうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 10 ＞ スペシャル
+
+</span><span class="kp">目の前には扉があり、その扉は薄くひらいている。その先から「おいで」とちいさな声が聞こえてくる。自分はこの扉の先に待つ誰かの元へ、だれよりも先にたどり着かなくてはならない。
+扉の先には、また長い廊下が続いている。
+</span><span class="kp">呼び声の導くままに、きょうだいたちと共に廊下を進む。それは協力などではない。れっきとした競争であり、だれよりも早くその先へ辿り着くというつよいきもちがある。そこへ辿り着かなければ、いのちがない。
+</span><span class="kp">気が遠くなるほど長い距離を走り、ようやく真っ赤な部屋にたどり着く。
+部屋は果てしないほど広く、あたたかくて心地がいい。あなたはとてもくたびれているが、その部屋は”まだ”自身のための部屋ではない。
+部屋にあるのは、毛足の長い真っ赤なじゅうたんと、ひとつのベッド。霞むほど遠い奥には、左右にふたつの扉が見える。
+
+</span><span class="chiaki">染谷千秋 : 兄弟たちはどうしてますか？全員ころします
+
+</span><span class="kp">一番前を走っている。振り返る余裕はあるだろうか。
+聞き耳をどうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 70 ＞ 成功
+
+</span><span class="kp">左の扉から、「おいで」とちいさな声が聞こえてくる。最後の力を振り絞り、先へ先へと走る。
+
+</span><span class="chiaki">染谷千秋 : 左の扉に向かいます。
+
+</span><span class="kp">左の扉を抜けて、気が遠くなるほど長い距離を走り、ようやくそれを見つけ出す。
+まるいたまご。自分を呼んでいたのは、このたまごだ。
+それに手を伸ばす。
+</span><span class="kp">じぶんは、たまごとひとつになり、じぶんとわたしは”わたし”になった。
+あんなに長かった廊下はやわらかくわたしを運び、赤い部屋までゆらゆらと戻ることとなる。
+途中には力尽きたきょうだいたちが倒れ伏しており、それらは既に溶け始めている。
+</span><span class="kp">赤い部屋のおおきなベッドで、”わたし”はまどろむ。
+”わたし”は”わたしたち”になり、2つ、4つ、8つ、16…と”わたしたち”は増えていく。
+</span><span class="kp">そうしていると、不意に部屋が大きく震えた。
+最初の扉が酷い勢いでぶち壊され、銀色の光るなにかがあなたへ迫ってくる。
+それはあなたをベッドから引きずり出し、手を千切り、足を千切り、
+そして最後に、
+</span><span class="kp">・・・
+</span><span class="kp">【七日目】8/16
+</span><span class="kp">ゆらゆらとゆらめいている。
+とおくに、おかあさんのこえがきこえる。
+ああ、うまれるんだ。
+
+おはよう、こんにちは。
+
+てをのばして、おおきく息をはく。
+じぶんのものではない声が、のどからきこえた。
+</span><span class="kp">・・・
+</span><span class="kp">【■日目】-/--
+</span><span class="kp">目を覚ます。
+息が荒い。背中がじっとりと汗で滲んでいる。
+隣には、顔の崩れていない、溶けていない、腹も喉も刺されていない綺麗な千冬が、自分を抱きしめながらすうと眠っていた。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】メンタル正常/正常じゃない (1D100<=80) ＞ 88 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=17*3 【INT × 3】戻ったことが分かる/分からない (1D100<=51) ＞ 89 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「っはぁ、はぁ、ッ、はぁっ、はぁ」
+荒い息を吐き出しながら目の前にいる人間の顔を凝視します。拘束されている状況から抜け出し、起こさないように腕の中から抜け出します。
+悪夢から覚めたことを認識できないまま、部屋の中を一通り見て回ります。
+</span><span class="chifuyu">染谷千冬 : 拘束してる状況で抜け出されたら気づきます！
+
+</span><span class="kp">千冬はダイスを振ってください。ファンブルじゃなければ気づきます。
+
+</span><span class="chifuyu">染谷千冬 : ccb<=95 (1D100<=95) ＞ 96 ＞ 致命的失敗
+
+</span><span class="kp">千冬の眠りは深く、腕の中の温もりがなくなったことにすぐに気づかなかった。
+千秋の一行動分後、千秋がいなくなったことに気づきます。
+
+</span><span class="chiaki">染谷千秋 : 寝室からリビングを見て回り、その後玄関のドアノブを捻ります。鍵がかかっていて開かないのにも関わらず、夢と同じで閉じ込められているものだと思います。
+</span><span class="chiaki">染谷千秋 : ベランダに出て外の様子を確認します。
+
+</span><span class="kp">ベランダの外には夜空が広がる。地平際が薄らと明るい。建物は綺麗な状態で、劣化していることも謎の液体に浸されていることもない。
+
+</span><span class="chiaki">染谷千秋 : （現実に繋がってる……？……、俺の記憶が確かなら、今日は8/16だ。……今日出れなかったら千冬の元に帰れないかもしれない。時間がない。急がねえと）
+</span><span class="chiaki">染谷千秋 : （後見てない所は……、下の階だ）
+</span><span class="chiaki">染谷千秋 : ベランダから下の階へ飛び降りようとします。
+</span><span class="chifuyu">染谷千冬 : 部屋を歩き戸を開く物音に気づいて目を覚まします。飛び降りようと手すりに手をかけた千秋に声をかけます。
+「千秋！？」
+ベッドから跳ね上がって千秋へ駆け寄り、腕を掴みます。
+</span><span class="chiaki">染谷千秋 : 「ッ……！」
+溶けた死体が形を取り戻したので焦ります。
+拘束されては身動きできなくなると思い、手を振り放ってすぐに飛び降ります。
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】千秋の状況を察せるか (1D100<=80) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span class="chifuyu">染谷千冬 : 腕をしっかりと掴んでいます！なぜなら不定の狂気中です！よろしくお願いします！
+
+</span><span class="kp">ヨシ！
+
+</span><span class="chiaki">染谷千秋 : STR対抗！STR対抗！STR対抗！STR対抗！
+
+</span><span class="kp">本来65%ですが、千冬は発狂中なので+20%とします。85%でどうぞ。
+
+</span><span class="chifuyu">染谷千冬 : ccb<=85 【STR対抗】 (1D100<=85) ＞ 58 ＞ 成功
+
+</span><span class="kp">千冬は暴れる千秋の腕をしっかりと掴み、飛び降りようとする千秋を引き止める。
+
+</span><span class="chifuyu">染谷千冬 : 「千秋、夢じゃない！　現実だ！　飛び降りたら死ぬ！　嫌だ……！」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】千冬の言葉を聞いて落ち着ける/落ち着けない (1D100<=80) ＞ 92 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=17*3 【INT × 3】現実に戻ってきたことが分かる/分からない (1D100<=51) ＞ 88 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : choice[吐く,吐かない] (choice[吐く,吐かない]) ＞ 吐く
+</span><span class="chiaki">染谷千秋 : 「離せ、ッ、離せよ！　……クソ、う゛ッ、えっ、」
+腕を掴まれて抵抗しますが、力で敵わず抜け出すことができません。
+引き戻された後、昨日の事を思い出し、その場に夕飯の残りを吐き出します。
+</span><span class="chiaki">染谷千秋 : CCB<=17*5 【INT × 5】戻ったことに気付けるかチャレンジ (1D100<=85) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span class="chifuyu">染谷千冬 : 「千秋……！？」その場に吐いたのを見て、千秋の精神的負担を察し衝撃を受けます。千秋の腕をかたく掴んだまま、一方の手で背中を擦って吐かせます。
+</span><span class="chiaki">染谷千秋 : 「っ、う、……はぁ、はぁっ、は、……っ、……？」
+吐いて少しだけ冷静さを取り戻します。その後吐瀉物に固形物が混じっていることに気付き、疑問に思います。
+</span><span class="chiaki">染谷千秋 : （何で中身があるんだ？……、現実って、俺を引き止めるための嘘じゃねーのか？）
+荒い息を吐き出しながら汚れた口を拭います。
+かたく掴まれた手を見た後に千冬と目を合わせます。
+</span><span class="chiaki">染谷千秋 : 「……ち、ふゆ」
+</span><span class="chifuyu">染谷千冬 : 千秋と目が合った後、服が汚れるのも厭わずに千秋を強く抱きしめます。
+「千秋、千秋……お願いだ、行かないでくれ、これは夢じゃないんだ、……千秋をいくらでも抱きしめるから、千秋も俺に触れて、抱きしめてくれ……それで、確かめてくれ、千秋……」
+</span><span class="chiaki">染谷千秋 : 「千冬……」
+千冬の身体を強く抱きしめ、その体温を感じます。
+首に顔を埋め、千冬の匂いをかぎます。
+不自然に力を入れていた身体から力を抜いて、心臓の音を聞きます。
+</span><span class="chiaki">染谷千秋 : 「……、なぁ。今日何日」
+</span><span class="chifuyu">染谷千冬 : 「今日、は、17日だ」
+</span><span class="chiaki">染谷千秋 : 夢の中では忘れていた記憶が思い出されます。
+（……そうだ。昨日千冬迎えに行って、週末だからって食材を買いためたんだ。……何で忘れてたんだ……）
+</span><span class="chiaki">染谷千秋 : （……さっきの夢。ただの悪夢じゃない。怪異だ。……何が原因がわかんねーけど、この様子じゃ千冬は巻き込まれてねーな。……良かった）
+</span><span class="chiaki">染谷千秋 : （……。俺達は1年で大体5回怪異に巻き込まれてる。そして、一度怪異に遭遇してからは最低でも2週間間隔が開く。……経験通りに行くなら、千冬は後2週間安全だ）
+千冬を抱きしめながら呼吸を落ち着かせます。
+</span><span class="chiaki">染谷千秋 : 「……嫌な夢を見た。この家に閉じ込められる夢、……多分怪異だ」
+抱きしめる力を緩め、千冬の顔を見つめます。
+</span><span class="chifuyu">染谷千冬 : 「……」
+顔を歪めて千秋をもっと強く抱きしめます。
+</span><span class="chiaki">染谷千秋 : 「千冬。さんきゅ。……助かった」
+千冬の背中に回した手を外します。千冬の顔に触れ、姿かたちを改めて確認します。
+怪異から抜け出せたことを実感します。
+</span><span class="chifuyu">染谷千冬 : 「千秋……」
+泣き出しそうな顔で、千秋の腰を抱える腕をもっと締めます。
+</span><span class="chiaki">染谷千秋 : 「びっくりさせたよな。……もう大丈夫だぜ」
+身体を預けながら千冬の背中をポンポンと叩きます。
+横目でじっと千冬の顔を見て、夢で見た化け物の姿を上書きしていきます。
+</span><span class="chifuyu">染谷千冬 : 「大丈夫じゃ……ない……！　もし、俺が間に合ってなかったら。もし、俺が気づいてなかったら、……千秋は……千秋は……」
+想像しただけで息が浅くなり、呼吸が乱れます。
+</span><span class="chifuyu">染谷千冬 : CCB<=11*2 【POW × 2】精神力に基づいた判断力 (1D100<=22) ＞ 31 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「千秋……」
+千秋の肩口にぐ、と顔を押しつけ、落ち着こうと口を噤みます。しばらくして、ぽつりと呟きます。
+</span><span class="chifuyu">染谷千冬 : 「……千秋を、繋いでいたい。……だめか？」
+</span><span class="chiaki">染谷千秋 : 千冬を落ち着かせようと背中を撫でていましたが、千冬の提案を受けて手を止めます。
+「……繋ぐって、何と？」
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 26 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「……ベッド、だろうか。トイレには行けるぐらい。……飛び降りるのは、できないぐらいに。俺が傍にいる時は外す。俺がいない時や、寝る時はつける」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】許容する/しない (1D100<=80) ＞ 28 ＞ 成功
+</span><span class="chiaki">染谷千秋 : choice[期限付き,無期限] (choice[期限付き,無期限]) ＞ 無期限
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 34 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】説得する/しない (1D100<=80) ＞ 19 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「千冬が望むんなら別にいいぜ。……けど、それのせいで千冬が同じ状況になっても助けにいけなくなるのは嫌だ。ベランダにも出れるようにはしてくれ」
+</span><span class="chiaki">染谷千秋 : 「……それより、飛び降り以外にも自殺する手段はいくらでもある。なら、俺たちを繋ぐ方が良くねえ？起きて何かしようとした時も気付けるだろ？」
+</span><span class="chifuyu">染谷千冬 : 「俺はそんなことしない、が……そうだな。互いがいる時は、俺たちを繋ぐほうが良い。ベランダには出れるぐらいの長さにはする。ただ……」
+</span><span class="chifuyu">染谷千冬 : （……確かに、他にも死ぬ方法はある。意味がないだろうか……いや、）
+</span><span class="chifuyu">染谷千冬 : 「……繋がれていることで、夢か現実か、分かりやすくなるかもしれない」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……直接的な解決じゃないな。……千秋、病院に行こう。今回のは怪異だったとしても……悪夢もよく見るんだろう。……こんなことがまた起こったら困る。対処するべきだ」
+
+</span><span class="kp">病院、と聞いて思い出す。
+ベランダから部屋の机に視線を向ける。そこには錠剤の入ったシートが置かれている。
+最近うまく寝付けず、人からこの薬を分けてもらった。副作用が悪夢と聞いていたが、普段からよく見ているため影響を気にしていなかった。しかし、その考えは甘かったようだ。こんな寝覚めを毎日経験するのであれば、それは不眠と大差ない。
+
+――そもそも。
+誰から、この薬をもらった？
+
+記憶に靄がかかっており、鮮明に思い出すことができない。何度も怪異に遭遇したため分かる。明らかに不自然だ。その睡眠薬が突然不気味なものに思える。
+</span><span class="kp">SANC 1/1d2
+
+</span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 77 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 42 → 40
+</span><span class="chiaki">染谷千秋 : （そうだ、あの薬……。飲んだら副作用が出るって聞いた、……けど、誰から貰った？そもそも俺は人に不眠の話をしたか？……何も思い出せねー。……けど、原因は恐らくあれだ）
+</span><span class="chiaki">染谷千秋 : 「……それだけど、心当たりがある。千冬、俺が昨日食後に飲んだ薬、覚えてるか」
+</span><span class="chifuyu">染谷千冬 : 「……ああ。もらったんだろ。眠れるように。……それのせいか？」
+</span><span class="chiaki">染谷千秋 : 「ああ。薬について全く覚えてないんだ。どういう経緯で貰うことになったのか、誰に貰ったのか……。そもそも不眠だって、周りに伝えた覚えがないんだぜ。不自然だろ。……あの薬について覚えてるのは、副作用が悪夢だってことだけ。……普段も見てるから、そん時は気にしてなかったけど」
+千冬に抱きしめられたまま決まり悪く言います。
+</span><span class="chiaki">染谷千秋 : 「……普段見る悪夢は今日程酷くないんだぜ。現実か悪夢かぐらいは判断できる。……けど今日見たのは、千冬の姿をした化け物にこの部屋に閉じ込められる夢だった。それが何日も続くんだ。今日抜け出せないと、千冬の元に戻れないと思った。……」
+</span><span class="chiaki">染谷千秋 : 「あれを飲まなければ、今日みたいなことは起こらないと思う。なあ、……病院行かなきゃ駄目？」
+</span><span class="chifuyu">染谷千冬 : 「だめだ。薬のせいで悪化したとしても……それまでも起きた時に、どっちか分からなくなる瞬間はあったんだろう。なかなか寝れないのも心配だ。一度診てもらったほうがいい」
+</span><span class="chiaki">染谷千秋 : 「……、分からなくなるのも一瞬だけだって。身体起こせば分かる。……それに、千冬が一緒にいてくれるんだろ」
+</span><span class="chiaki">染谷千秋 : 「寝れないのもそういう体質ってだけだ。困ってない。……なあ、千冬……」
+千冬の首元に擦り寄ります。
+</span><span class="chifuyu">染谷千冬 : KP！SAN値チェックさせてください！
+
+</span><span class="kp">0/1どうぞ！
+
+</span><span class="chifuyu">染谷千冬 : 1d100<=39 【SAN値チェック】 (1D100<=39) ＞ 32 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「……でも、今日は分からなかった！　それは薬じゃなくて、夢の内容のせいだろう。じゃあ、いつか同じことが起こるかもしれない。俺が一緒にいても……止められないかもしれない……」
+</span><span class="chiaki">染谷千秋 : choice[言う事聞く,ゴネる] (choice[言う事聞く,ゴネる]) ＞ 言う事聞く
+</span><span class="chiaki">染谷千秋 : 「……そのために繋ぐんだろ？……」
+首だけを曲げて千冬の方へ視線を投げます。行きたくない理由を重ねようとしますが、千冬の精神状態を思い出して口を噤みます。
+</span><span class="chiaki">染谷千秋 : 「……分かった。行ってみる」
+</span><span class="chifuyu">染谷千冬 : 「方法は他にもある。俺たちを繋いだからといって、解決にはならない。根本をどうにかできるなら、試したい……」
+</span><span class="chifuyu">染谷千冬 : 「……じゃあ、確認だ。俺も千秋も家にいる時は、俺と千秋が繋がっている。俺が仕事に行く時、千秋をベッドに繋ぐ。鍵は俺が持つ。俺が仕事から帰ってきたら、俺と千秋を繋ぐ。買い物は週末に二人で行くようにしよう。それか、俺が買って帰る。それで来週に病院を予約して、二人で行こう。……いいか？」
+</span><span class="chiaki">染谷千秋 : 1d100<=40 【SAN値チェック】千冬に言われたことを飲み込めるか (1D100<=40) ＞ 7 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】それでいい/悪い (1D100<=80) ＞ 89 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「……ちょっとタンマ。繋ぐって、ずっと？てっきり、俺が寝てる時だけだと思ってたんだけど」
+</span><span class="chifuyu">染谷千冬 : 「ああ。俺がいない時が心配だろう」
+</span><span class="chiaki">染谷千秋 : 「……」
+困惑しながら千冬を見ます。
+</span><span class="chiaki">染谷千秋 : 「俺が起きてる時は問題ねーだろ？　……千冬がいない間に寝る時と、夜寝る時につけるんじゃないんなら……悪いけど、他の手段がないかもう少し考えようぜ。バイト行かなきゃだし、……千冬のこと迎えに行けなくなるのは嫌だ」
+</span><span class="chifuyu">染谷千冬 : 1d100<=39 【SAN値チェック】頷く/駄々をこねる (1D100<=39) ＞ 10 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「……」
+千秋の心配が募りますが、不自由を強いていることを理解し、千秋の言葉を飲みこみます。
+「……じゃあ、寝る時と、俺がいない間に寝る時だけでいい」
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 22 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……納得してねー顔してる」
+千冬の顔をじっと見た後、頭を繰り返し撫でます。
+</span><span class="chiaki">染谷千秋 : 「迎えにさえいけんなら、日中繋がれんのは別にいいけどな……。そうだ、遠隔ロックがついたやつ探してみる？もしあんなら、迎えに行く前とバイト前だけ解除すれば千冬も安心だろ」
+</span><span class="chifuyu">染谷千冬 : 「……なるほど、そうか。そうしたい」
+</span><span class="chifuyu">染谷千冬 : 「別に、納得できなかったわけじゃない。ただ心配だっただけだ。俺がいない時に、何があるか分からない……それなら、ずっと繋いでいたほうが安心できると思った。でも、千秋を縛ることになるのも理解してる」
+</span><span class="chifuyu">染谷千冬 : 「……探してみる」
+PCを開いてそういった商品がないか調べます！
+</span><span class="chiaki">染谷千秋 : 「千冬、先に着替えな」
+引き止めて服を脱がせます！
+</span><span class="chifuyu">染谷千冬 : 「ん？　ああ……」
+気にしていませんでしたが、引き止められて着替えます。その後すぐに調べます。
+</span><span class="chiaki">染谷千秋 : その間に汚れた衣服を洗い流し、ベランダを掃除します。口を濯いで歯を磨きます。
+
+</span><span class="kp">遠隔でロックできるようなものがあるか、千冬は幸運どうぞ！
+
+</span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 65 ＞ 失敗
+
+</span><span class="kp">遠隔ロックできるようなものは見つけられませんでした。
+
+</span><span class="chifuyu">染谷千冬 : 「……」
+立ち上がります。千秋のところへ行き、後ろから抱きしめます。
+</span><span class="chifuyu">染谷千冬 : 「無かった。……千秋」
+</span><span class="chiaki">染谷千秋 : 「ん、そっか。……」
+顔を後ろに向け、後ろ手で千冬の頭をぽんぽんと撫でます。
+</span><span class="chiaki">染谷千秋 : choice[譲歩する,しない] (choice[譲歩する,しない]) ＞ 譲歩する
+</span><span class="chiaki">染谷千秋 : choice[期間は一週間,ニ週間,一ヶ月,千冬が満足するまで] (choice[期間は一週間,ニ週間,一ヶ月,千冬が満足するまで]) ＞ ニ週間
+</span><span class="chiaki">染谷千秋 : 「……なら、試しにニ週間、俺が起きてる間も繋いでいいぜ」
+身体を千冬の方へ向け、千冬の髪の毛で遊びながら言います。
+</span><span class="chifuyu">染谷千冬 : 「……いいのか？」声に嬉しさが滲み出ます。
+</span><span class="chiaki">染谷千秋 : 「ふ、ああ。……言っとくけど、ニ週間だけだぜ。俺も千冬のことが心配だから、それ以上は考えさせてくれ」
+</span><span class="chifuyu">染谷千冬 : 「わかった。……ありがとう、千秋」
+</span><span class="chiaki">染谷千秋 : 「いーよ。……千冬」
+ベッドの上にいき、布団を持ち上げます。自分の横を軽く叩きます。
+</span><span class="chifuyu">染谷千冬 : 「……寝るのか？」
+</span><span class="chiaki">染谷千秋 : ccb 眠気 80以上なら寝る (1D100) ＞ 1
+</span><span class="chiaki">染谷千秋 : 「寝ない。千冬が起きる時間になるまで抱きしめさせてよ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+引き出しを漁り、モルフェ島で買った手錠とハンカチを持ってきます。
+「千秋、これつけたい。買うまでの間……」
+</span><span class="chiaki">染谷千秋 : 「ん、わかった」
+ハンカチを取り、千冬の手に巻き付けます。その後自分の手にも巻き付け、その上から手錠をかけます。
+千冬の身体を抱きしめて、そのまま寝転がります。
+</span><span class="chiaki">染谷千秋 : 千冬の背中をポンポンと撫でます。
+「心配しなくても、どこにも行かないから安心しろよ。……しばらく千冬の顔見れなかったから、目に焼き付けときたいんだ」
+</span><span class="chifuyu">染谷千冬 : 「……わかった」
+キスした後、千秋を抱えます。そして目を閉じ、そう時間の経たないうちに眠りに落ちます。
+</span><span class="chiaki">染谷千秋 : 千冬を同じように抱きしめて、その顔をじっと観察します。千冬が深い眠りについたのを確認した後、千冬の体温や匂い、その存在を千冬が起きるまで堪能します。
+
+</span><span class="kp">千冬が眠るのを見届け、その存在を堪能する。
+――口の中に生臭い血の匂いがしたような気がした。
+
+あなたの眠りに、幸多からんことを。
+
+＊　＊　＊
+
+シナリオEND
+
+【生還報酬】
+
+・SAN回復　1d10
+・KPCを解体した　1d5
+・KPCを食べた　1d5
+・屍姦した　1d10
+
+【後遺症】
+
+・執着、あるいは執拗な生存確認
+KPCを解体し、かつ食べた　1d10ヶ月
+・1d100で10以下を出した場合、クトゥルフ神話技能を1%得られる。
+
+</span><span class="chiaki">染谷千秋 : 2d10+2d5 (2D10+2D5) ＞ 10[8,2]+8[3,5] ＞ 18
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 58
+</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 2
+</span><span class="chiaki">染谷千秋 : 1d100 (1D100) ＞ 5
+
+</span><span class="kp">千秋は目星の成長判定どうぞ！
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功
+</span><span class="chiaki">染谷千秋 : ;^;
+
+</span><span class="kp">この後、起きたあなたたちはすぐに拘束具を買いに行きます。そして千秋は二週間の間、ほぼ家に監禁された生活を送るでしょう。
+
+病院で診断を受けた千秋ですが、不眠や悪夢の原因は不明のまま、それほど強くない睡眠薬を処方されて終わります。
+
+約束の二週間後、ちょうど千冬の不定の狂気が完全に解けます。千秋の行動を制限したことを千冬は謝り、千秋が起きている間の拘束はもちろん、寝ている間の拘束についても続けるかどうか尋ねます。
+千秋は何と答えますか？
+
+</span><span class="chiaki">染谷千秋 : choice[寝ている間の拘束を続ける,続けない] (choice[寝ている間の拘束を続ける,続けない]) ＞ 寝ている間の拘束を続ける
+</span><span class="chiaki">染谷千秋 : 起きている間の拘束はやめて、何があるか分からないため寝ている間の拘束は続けようといいます！
+バイトの時は千冬だけにつけてもらいます。
+
+</span><span class="kp">バイトの時というのは、千冬が寝ている間バイトに行く時ですか？
+
+</span><span class="chiaki">染谷千秋 : とりあえずは、そうです！
+
+</span><span class="kp">ｱﾜﾜ……
+</span><span class="kp">それでは二週間後の8/31から、あなたたちの拘束は寝ている間のみとなります。
+</span>
 
 <style>\*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

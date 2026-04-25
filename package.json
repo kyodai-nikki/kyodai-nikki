@@ -1,18 +1,24 @@
 {
-  "name": "astro-practice",
+  "name": "kyodai-nikki",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "TRPG session log archive built with Astro",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "replace-br": "node scripts/replace-br.mjs"
   },
   "dependencies": {
-    "astro": "^5.16.11"
+    "astro": "^5.18.1",
+    "rehype-external-links": "^3.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.53.0",
     "eslint-plugin-astro": "^1.5.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "*"
   }
 }

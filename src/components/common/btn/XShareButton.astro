@@ -1,0 +1,50 @@
+---
+import { commonMsg } from "../../../msg/common";
+
+interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+---
+
+<a
+  class="share-button share-button--x"
+  href={href}
+  target="_blank"
+  rel="noopener"
+  aria-label={commonMsg.social.shareX}
+>
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z" />
+  </svg>
+</a>
+
+<style>
+  .share-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--share-btn-size);
+    height: var(--share-btn-size);
+    border-radius: 9999px;
+    background: #6c6c6c;
+    color: #ffffff;
+    transition:
+      transform var(--dur-fast) var(--ease-out),
+      background var(--dur-fast) var(--ease-out);
+  }
+
+  .share-button:hover {
+    transform: translateY(-1px);
+    background: #3f3f3f;
+    color: #ffffff;
+  }
+
+  .share-button svg {
+    width: var(--share-icon-size);
+    height: var(--share-icon-size);
+    fill: currentColor;
+    display: block;
+  }
+</style>

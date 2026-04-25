@@ -1,0 +1,43 @@
+﻿---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import EpisodesSeasonTabs from "../../../components/episodes/list/EpisodesSeasonTabs.astro";
+import EpisodesNavigator from "../../../components/episodes/list/EpisodesNavigator.astro";
+import {
+  allEpisodes,
+  seasons as getSeasons,
+  episodeUrlSlug,
+  type EpisodeEntry,
+} from "../../../lib/episodes";
+import { episodesPageMsg } from "../../../msg/episodes";
+import { navigation } from "../../../data/navigation";
+
+export async function getStaticPaths() {
+  return (await allEpisodes()).map(({ season, episode }) => ({
+    params: { season: season.slug, slug: episodeUrlSlug(episode) },
+    props: { episode, seasonNumber: season.number },
+  }));
+}
+
+interface Props {
+  episode: EpisodeEntry;
+  seasonNumber: 1 | 2 | 3 | 4;
+}
+
+const { episode, seasonNumber } = Astro.props as Props;
+const seasons = await getSeasons();
+const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
+---
+
+<BaseLayout
+  title={`${episode.title} | ${seasonInfo.label} | ${navigation.episodes.title}`}
+  description={episode.description.split("\n")[0] ?? episode.title}
+>
+  <PageHeading slot="page-heading" title={navigation.episodes.title} />
+  <EpisodesSeasonTabs slot="page-tabs" activeSeason={seasonNumber} />
+  <EpisodesNavigator
+    activeSeason={seasonNumber}
+    selected={episode}
+    activeSlug={episodeUrlSlug(episode)}
+  />
+</BaseLayout>

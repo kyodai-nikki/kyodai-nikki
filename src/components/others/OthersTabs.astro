@@ -1,0 +1,15 @@
+﻿---
+import Tabs from "../common/Tabs.astro";
+import type { OthersSectionSlug } from "../../data/othersSections";
+import { othersTabItems } from "../../lib/view/others";
+import { othersPageMsg } from "../../msg/others";
+
+interface Props {
+  currentSection: OthersSectionSlug;
+}
+
+const { currentSection } = Astro.props as Props;
+const items = othersTabItems(currentSection);
+---
+
+<Tabs items={items} ariaLabel={othersPageMsg.tabsAriaLabel} size="lg" />

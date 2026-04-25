@@ -1,0 +1,24 @@
+---
+// クライアント側でのリダイレクトページ。
+// meta refresh で即時に遷移し、JS 無効時や遷移前のフォールバックとしてリンクを表示する。
+import { commonMsg } from "../../msg/common";
+
+interface Props {
+  title: string;
+  redirectTo: string;
+}
+
+const { title, redirectTo } = Astro.props as Props;
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
+    <link rel="canonical" href={redirectTo} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <p><a href={redirectTo}>{commonMsg.redirectingMsg}</a></p>
+  </body>
+</html>

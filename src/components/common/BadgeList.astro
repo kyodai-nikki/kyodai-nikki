@@ -1,0 +1,25 @@
+---
+import Badge from "./Badge.astro";
+
+interface Props {
+  badges: string[];
+}
+
+const { badges } = Astro.props;
+
+if (badges.length === 0) return ;
+---
+
+<div class="badge-list">
+  {badges.map((badge) => (
+    <Badge label={badge} />
+  ))}
+</div>
+
+<style>
+  .badge-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+</style>

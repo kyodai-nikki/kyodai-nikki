@@ -1,5 +1,700 @@
 <!-- Optional epilogue log section. -->
 
-<span class="kp">▽<br><br>▼<br><br>▽<br><br>▼<br><br><br>――そこは天国か、地獄か。<br>ふたりは酷く残酷な世界で生きている。<br><br><br>▼　▼　▼<br><br></span><span class="chiaki">染谷千秋 : 朝、椅子の上で起きます。硬くなった身体を解しながら千冬の元へ行きます。何をしてますか？；；<br></span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 32 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 眠っています。<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 71 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 千冬の側にいき、頬に触れます。千冬が今日も生きていることを確認して安堵します。冷蔵庫の中身を確認し、数があまり減っていないことにやるせない思いを感じます。気を取り直して部屋を後にし、飲料を流し込みながら家事を済ませます。家事を終わらせた後もう一度千冬の顔を見てから、ドアの鍵が正常なことを確認して調査に戻ります。<br><br></span><span class="kp">あなたが調査しても、有力な手がかりは得られない。それでもその僅かな手がかりを、ひとつひとつ当たっていくしかないのだった。<br>あなたは集中して、時間が刻々と過ぎていく。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 50 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 80 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 85 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 手がかりをまとめ終えて次に調査する目処をつけてから一度作業を終えます。千冬の様子を見に行きます。<br><br></span><span class="kp">気がつけば数時間が経ち、昼過ぎになっていた。千冬は目を覚ましていて、あなたがいる部屋の扉をぼんやりと見ていた。<br><br></span><span class="chiaki">染谷千秋 : 「……千冬」<br></span><span class="chiaki">染谷千秋 : 「おはよう。起きてたんだな」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : 本には手つけてそうですか？<br><br></span><span class="kp">目星どうぞ。<br><br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 67 ＞ 成功<br><br></span><span class="kp">本が動いている。手に取ったのかもしれない。<br><br></span><span class="chiaki">染谷千秋 : 「……これ、読んでくれたんだな」<br>本を手に取りパラパラとめくります。<br></span><span class="chifuyu">染谷千冬 : 「……まだ途中だが、面白い」<br></span><span class="chiaki">染谷千秋 : 「そっか。……よかった」<br></span><span class="chiaki">染谷千秋 : 「……他の買ってこようか」<br></span><span class="chifuyu">染谷千冬 : 「いい」<br></span><span class="chiaki">染谷千秋 : 千冬の方を見ます。<br>「何で。……、暇だろ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……まだ途中だから」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】見て見ぬふり/突っかかる (1D100<=80) ＞ 52 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……分かった」<br></span><span class="chiaki">染谷千秋 : 「……また後で来る。何かあったら呼んで」<br></span><span class="chifuyu">染谷千冬 : 「……わかった」<br></span><span class="chiaki">染谷千秋 : 部屋を出て調査に戻ります。夕ご飯まで調査を続け、いつもと同じようにご飯を作り、血を混ぜ、千冬に食べさせ、千冬の身体を拭き、オムツを替えます。<br><br></span><span class="kp">いつものルーティンを繰り返せば、夜の九時になっている。<br><br></span><span class="chiaki">染谷千秋 : 千冬に拘束具をつけていきます。<br>「痛いとこねえ？」<br></span><span class="chifuyu">染谷千冬 : 「ない」<br></span><span class="chiaki">染谷千秋 : 「……なら、電気消す。……おやすみ」<br>拘束具をつけ終えて布団を被せます。<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「おやすみ」<br></span><span class="chiaki">染谷千秋 : 部屋を出て眠るまで調査を続けます！<br><br></span><span class="kp">あなたたちは繰り返す。<br>無味で乾ききった日々を。<br>今日も眠気の限界まで調査をして、千秋は椅子に掛けたまま眠りについた。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 70 ＞ 成功<br></span><span class="chiaki">染谷千秋 : choice 次の日はバイトがある ない (choice 次の日はバイトがある ない) ＞ ない<br></span><span class="chiaki">染谷千秋 : 起きてすぐに千冬の様子を見に行きます。<br></span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 91 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 目は覚めています。仰向けの状態で、天井を見ています。<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 70 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「千冬。……はよ」<br></span><span class="chifuyu">染谷千冬 : 「おはよう」<br></span><span class="chiaki">染谷千秋 : 「眠れねえの」<br>ベッドに腰掛けて千冬の頭を撫でます。<br></span><span class="chifuyu">染谷千冬 : 「ああ、……」<br></span><span class="chiaki">染谷千秋 : 「いつから」<br>布団をたぐり寄せて整えます。<br></span><span class="chifuyu">染谷千冬 : 「たぶん……二、三時間前」<br></span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 34 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「そっか。……眠気は？」<br></span><span class="chifuyu">染谷千冬 : 「あまり」<br></span><span class="chiaki">染谷千秋 : 「……そっか」<br>千冬の身体が変わって以降あまり眠れていないことを思い出します。以前の千冬と違う点をまた一つ突きつけられてあまりいい気分ではありません。<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】聞く　聞かない (1D100<=80) ＞ 18 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「何考えてた」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 73 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「……、何も」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 一度部屋を出ます。温かい飲み物を作り、寝室のベッドサイドに置きます。<br>「……飲んで。また来る」<br></span><span class="chifuyu">染谷千冬 : 「……ありがとう」<br>半分ほどまで飲み、一度置きます。<br></span><span class="chiaki">染谷千秋 : 首を横に振り、冷蔵庫の中身を確認します。<br>どうなってますか？<br><br></span><span class="kp">中身は変わっていません。手をつけていないようです。<br><br></span><span class="chiaki">染谷千秋 : 「……昨日、飲んでねーの？　中、変わってない」<br></span><span class="chifuyu">染谷千冬 : 「飲んでない」<br></span><span class="chiaki">染谷千秋 : 「……別のがいいか」<br></span><span class="chifuyu">染谷千冬 : 「いや。要らない」<br></span><span class="chiaki">染谷千秋 : 「……」<br>ふ、とため息をつきます。古いものをいくつか取り、新しいものと交換します。<br></span><span class="chiaki">染谷千秋 : 「……またな」<br>千冬の方を見ずに部屋を出ます。食事しながら調査に戻ります。<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 渡された飲み物を飲み干し、横になります。<br><br></span><span class="kp">調査を続ける。昼を過ぎた頃、千冬の様子を見に行きご飯を与える。調査に戻る。夜になり、またあなたは千冬の様子を見に行く。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】発狂継続　一瞬我に帰る (1D100<=80) ＞ 39 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 中々調査が進みません。明日は実地調査でもしようかと考えながら千冬の元へと向かいます。<br></span><span class="chiaki">染谷千秋 : 千冬は何をしていますか？<br><br></span><span class="kp">ベッドの上で膝を抱え、千秋のいる部屋のほうを見ていたようです。扉を開けたあなたと目が合います。<br><br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……、千冬」<br></span><span class="chifuyu">染谷千冬 : 「千秋」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 45 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「何してた」<br>千冬の隣に腰掛け、表情を伺います。<br></span><span class="chifuyu">染谷千冬 : 「……テレビを見たり、本を読んだりしていた」<br></span><span class="chiaki">染谷千秋 : 「今は」<br>千冬の身体に触れて、固まっている部分がないか確認します。<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 10 ＞ スペシャル<br></span><span class="chifuyu">染谷千冬 : 「ぼーっとしていた」<br></span><span class="chiaki">染谷千秋 : 「眠れねえ？」<br></span><span class="chifuyu">染谷千冬 : 「……寝ていてほしいか？」<br></span><span class="chiaki">染谷千秋 : きょと、と目を丸くして千冬の方を見ます。<br>「……いや」<br></span><span class="chiaki">染谷千秋 : 「……。……気になっただけ」<br>一瞬何か言いかけてやめます。冷蔵庫の中身を確認します。<br><br></span><span class="kp">中身は変わっていません。<br><br></span><span class="chiaki">染谷千秋 : 「夕飯まだだな。……作ってくる」<br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 71 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 千冬は自分が作る食事は飲み食いしますが、買い置きしてあるものにはほとんど手をつけないことに気付きます。人の血が入っていない食事は不味いのだと思います。<br></span><span class="chifuyu">染谷千冬 : 「……ありがとう」<br></span><span class="chiaki">染谷千秋 : 「……いや」<br>部屋を出て、いつものように千冬の食事を作ります。あまり食事しない千冬のために深く切り、普段よりも多く自分の血を混ぜます。作り終えたら手当てをして、部屋に戻ります。<br></span><span class="chiaki">染谷千秋 : 「千冬。食べな」<br></span><span class="chifuyu">染谷千冬 : 「いただきます」<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 64 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 71 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「……？」<br></span><span class="chifuyu">染谷千冬 : 「……美味しい」<br>その味に違和感を覚えますが、口には出しません。<br>ゆっくりと食べ進めます。<br></span><span class="chiaki">染谷千秋 : 「よかった」<br>食事を摂る千冬の頭を撫でます。千冬が食事を終えるのを見守ります。<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 食事の合間に、訥々と話します。<br>「……千秋、『ザ・バイオリニスト』という思考実験を知っているか」<br></span><span class="chiaki">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 61 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……自分の時間と、誰かの命。どっちかを選ぶやつだっけ」<br></span><span class="chifuyu">染谷千冬 : 「……そうだ。バイオリニストの信者に拉致されて、その人の治療を手伝わされる。自分の9ヶ月と引き換えに、その治療を手伝うか、バイオリニストが死んだとしても治療を拒否するか」<br></span><span class="chifuyu">染谷千冬 : 「……千秋だったら、どうする？」<br></span><span class="chiaki">染谷千秋 : 「……。バイオリニストを助ける」<br></span><span class="chifuyu">染谷千冬 : 「……もし俺が、拉致されて治療を手伝わされている人だったら。千秋はどうする？」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直 嘘 (1D100<=80) ＞ 69 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「バイオリニストを殺す」<br></span><span class="chifuyu">染谷千冬 : 「……そうか」<br></span><span class="chiaki">染谷千秋 : 「……千冬は？」<br></span><span class="chifuyu">染谷千冬 : 「……俺が、治療を手伝う人だったら、か？」<br></span><span class="chiaki">染谷千秋 : 「ああ」<br></span><span class="chifuyu">染谷千冬 : 「それは……バイオリニストを助ける」<br></span><span class="chiaki">染谷千秋 : 「何で？」<br></span><span class="chifuyu">染谷千冬 : 「バイオリニストが生きたくて、それを俺が輸血することによって助けられるなら、9ヶ月なら手伝う」<br></span><span class="chiaki">染谷千秋 : ふ、と笑います。<br>「……千冬らしいな」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】聞く 聞かない (1D100<=80) ＞ 22 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「なら、俺が拉致されてる側だったら？」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……バイオリニストを殺すだろう」<br></span><span class="chiaki">染谷千秋 : 「……何で」<br></span><span class="chifuyu">染谷千冬 : 「……何で？」<br></span><span class="chifuyu">染谷千冬 : 「じゃあ、千秋は何で殺すんだ？」<br></span><span class="chiaki">染谷千秋 : 「千冬が大事だから」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「俺も、そういうことだ。千秋が大事だから」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「そっか」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言う 言わない (1D100<=80) ＞ 46 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「けど、……そのバイオリニストが千冬なら、俺のことは助けなくていいぜ」<br></span><span class="chifuyu">染谷千冬 : 「！」<br></span><span class="chifuyu">染谷千冬 : 「なんで」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「千冬が大事だから」<br></span><span class="chifuyu">染谷千冬 : 「……嫌だ」<br>目を細めて、泣き出しそうな顔をしながら俯きます。<br></span><span class="chifuyu">染谷千冬 : 「……千秋、お願いがある。俺を、殺してくれないか」<br></span><span class="chiaki">染谷千秋 : 「は？」<br></span><span class="chifuyu">染谷千冬 : 「俺はこれ以上、千秋の重荷になりたくない」<br></span><span class="chiaki">染谷千秋 : KP！SANC！SANC！SANC！SANC！SANC！<br><br></span><span class="kp">え、ええと 減少量いくつがいいですか？<br><br></span><span class="chiaki">染谷千秋 : 1d10+1/1d40+11どうですか？<br><br></span><span class="kp">却下します。千冬が死にたがっていることによるSANcですか？<br><br></span><span class="chiaki">染谷千秋 : それに加えて「千冬を殺す」という言葉から、千冬が一度死んだ瞬間を思い出します！むりです！<br><br></span><span class="kp">なるほど SANc（1d3/1d6）どうぞ<br><br></span><span class="chiaki">染谷千秋 : 少なすぎる！こいつが千冬が死んで1d3/1d6で済む人間にみえますか？考え直してください<br><br></span><span class="kp">言葉で言われただけでしょうが！<br><br></span><span class="chiaki">染谷千秋 : 意義あり！千冬が死んだ瞬間を思い出す　ということはつまりフラッシュバック！人はフラッシュバックに耐えられるように出来てません！<br><br></span><span class="kp">ちょっと言われたぐらいで人が目の前で死んでる時と同量のSANcすな！認めません！<br><br></span><span class="chiaki">染谷千秋 : 染谷千秋ですよ？？！？！！？？！？それに今発狂中です？！？！？！？！？！<br><br></span><span class="kp">SANc（1d3/1d8）とします。これ以上は認めません！<br><br></span><span class="chiaki">染谷千秋 : ｲﾝ<br></span><span class="chiaki">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 87 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 1d8 (1D8) ＞ 2<br></span><span class="chiaki">[ 染谷千秋 ] SAN : 51 → 49<br></span><span class="chiaki">染谷千秋 : 「……重荷じゃない」<br></span><span class="chifuyu">染谷千冬 : 「重荷だ」<br></span><span class="chiaki">染谷千秋 : 「重荷じゃねーって……」<br></span><span class="chifuyu">染谷千冬 : 「……俺のせいで、千秋の負担が増えてる。ベッドで寝ないで、隣の部屋に籠って、俺の世話をして。……千秋はもう、俺を……、……。俺は、これ以上千秋を苦しめたくない」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言う　言わない (1D100<=80) ＞ 17 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】何言いかけてたか気になる　それどころじゃない (1D100<=85) ＞ 33 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……？俺が千冬を何？　……言っとくけど、俺が籠ってんのはやりたいことがあるからだ。ベッドで寝ないのもそれやりてーからだし、……、千冬とは関係ない。それに、千冬の世話なんて大したことねーよ。……俺が用意したのあんま手つけねーのに、……」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】千冬の言うこと信じる　疑い (1D100<=80) ＞ 9 ＞ スペシャル<br></span><span class="chiaki">染谷千秋 : 「……。千冬を苦しめてんのは俺だろ。こんな……、……」<br></span><span class="chifuyu">染谷千冬 : 「……それも全部、俺のせいだろう。……千秋にとって俺はもう、要らない。だから、殺してほしい。……最後のお願いだ。そうやって死ねたら、俺は嬉しい」<br></span><span class="chiaki">染谷千秋 : 「……？」<br>千冬の言葉を理解できません。したくありません。でも何だかこのままではいけないような気がして咄嗟に手を掴みます。<br>「要る。俺には千冬が必要だ」<br></span><span class="chifuyu">染谷千冬 : 首を横に振ります。<br></span><span class="chiaki">染谷千秋 : 「……千冬は何でそう思うんだ」<br></span><span class="chifuyu">染谷千冬 : 「何でって……」<br></span><span class="chifuyu">染谷千冬 : 「……あの日から、千秋は俺を閉じ込めた。部屋に籠るようになった。俺に触れなくなった。俺と一緒に、過ごさなくなった。……あの日に、何かあったんだろう。それできっと、あの日を境に何かが変わって……千秋はもう……俺を……好きじゃない」<br></span><span class="chiaki">染谷千秋 : 「……好きだよ。ずっと」<br>千冬の手を握ります。<br></span><span class="chiaki">染谷千秋 : 「変わらずに好きだ。……千冬のこと、今でもずっと愛してる」<br></span><span class="chiaki">染谷千秋 : 千冬を抱きしめて顔を覗き込みます。<br>「……ごめん」<br><br></span><span class="kp">千冬は苦しげに、そして寂しそうに微笑んでいます。<br><br></span><span class="chifuyu">染谷千冬 : 「謝る必要はない」<br></span><span class="chiaki">染谷千秋 : 「……千冬を傷つけた」<br></span><span class="chifuyu">染谷千冬 : 「俺は傷ついていない」<br></span><span class="chiaki">染谷千秋 : 「……なら、寂しくさせた」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……千秋が嫌になったなら、しかたない」<br></span><span class="chiaki">染谷千秋 : 「嫌じゃない。……好きだ」<br>千冬の頬に口付けします。<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 涙がつ、と頬を伝います。<br>「……千秋、殺してくれ」<br></span><span class="chiaki">染谷千秋 : 「嫌だ」<br></span><span class="chiaki">染谷千秋 : 「……嫌だ……」<br></span><span class="chiaki">染谷千秋 : 千冬の涙を拭います。首筋に顔を寄せて横に振ります。<br>「……千冬と生きたい。嫌だ……」<br></span><span class="chifuyu">染谷千冬 : 「……俺はきっと……千秋と一緒に、生きられないんだ」<br>目を閉じて、なんとか涙を堪えます。<br></span><span class="chiaki">染谷千秋 : 「……、俺が生きれる方法を探す」<br></span><span class="chifuyu">染谷千冬 : 「……探さなきゃ、見つからないんだな」<br>ふ、と笑います。<br></span><span class="chiaki">染谷千秋 : ぐ、と千冬を強く抱きしめます。<br>「……俺が絶対に見つける」<br></span><span class="chifuyu">染谷千冬 : 「千秋……やめよう。俺はもう、いい」<br></span><span class="chiaki">染谷千秋 : 「嫌だ！……、……千冬、ごめん。閉じ込めてごめん。ずっと千冬のこと放っててごめん」<br></span><span class="chiaki">染谷千秋 : 「千冬のこと追い詰めてごめん……」<br></span><span class="chifuyu">染谷千冬 : 「違う、俺はそれが嫌なんじゃない。追い詰められたわけでもない。……千秋が、俺を好きじゃなくなった。それだけだ」<br></span><span class="chifuyu">染谷千冬 : 「……殺さなくてもいい。本当は……なんとかして拘束を解いて、出て行くことも考えていた。でも、それだと千秋は俺を探すだろうと思った。そもそも、俺には何があったのかがわからないから……俺が死ぬことが、区切りとして一番だと思った。それでも、千秋……千秋が俺を殺したくないなら、……俺の拘束を解いてくれ。俺はこの家を出て行く。お互いに関わらず、別々に生きよう」<br></span><span class="chiaki">染谷千秋 : 「嫌だ……」<br></span><span class="chifuyu">染谷千冬 : 「……千秋」<br></span><span class="chifuyu">染谷千冬 : 千秋には触れず、首を振る千秋を静かに見つめます。<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「千冬は……それでいいのかよ」<br></span><span class="chifuyu">染谷千冬 : 「いい」<br></span><span class="chiaki">染谷千秋 : 「……俺が千冬を好きだとしても？」<br></span><span class="chifuyu">染谷千冬 : 「……ふ」<br></span><span class="chifuyu">染谷千冬 : 「前の千秋なら、もっと言い切っていた。態度にも出ていた。俺に聞くことも無かっただろう」<br></span><span class="chifuyu">染谷千冬 : 「……俺の願いは変わらない」<br></span><span class="chiaki">染谷千秋 : 「それは……、……」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 千冬から手を離します。<br>「俺が出てく。……ここ、千冬の名前で契約してるだろ」<br></span><span class="chifuyu">染谷千冬 : 「……それは、何とでもなるんじゃないか。気にしなくていい。俺が出る」<br></span><span class="chiaki">染谷千秋 : 「いや。俺が出る。……それが条件だ」<br></span><span class="chifuyu">染谷千冬 : 「……まあ、そうだな。千秋が出てもいいならそうする。契約をやめる手続きをしたら、俺もどこかに行く」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 手錠の方に伸ばした手を空で止めます。そのまま部屋から出ていき、キッチンに向かいます。<br></span><span class="chiaki">染谷千秋 : 「……」<br>包丁を取り出してじっと見つめます。しばらくした後、包丁を片手に部屋に戻ります。<br></span><span class="chiaki">染谷千秋 : 「俺たち、どうしてこうなっちゃったんだろうな」<br></span><span class="chiaki">染谷千秋 : 「俺は千冬のことが大好きで、千冬もそうだったはずなのに」<br></span><span class="chiaki">染谷千秋 : 「俺たちはただ、生きたかっただけだ。……そうだよな」<br></span><span class="chifuyu">染谷千冬 : 「……」<br>何も話しません。<br></span><span class="chiaki">染谷千秋 : 袖を捲くり、包丁を腕につきたてます。血が腕から溢れでて、重力に従って手の方へと伝います。千冬の口を掌で掴み、血を飲ませます。<br></span><span class="chiaki">染谷千秋 : 「ごめん、千冬」<br>そのまま、千冬の腹に包丁をつきたてます。<br></span><span class="chiaki">染谷千秋 : 「俺、どうすれば千冬を殺せるかも分からないんだ」<br></span><span class="chiaki">染谷千秋 : 「千冬に生きててほしかった。ただ、それだけだった」<br></span><span class="chiaki">染谷千秋 : 「……ごめん」<br>千冬の腹から包丁を抜きます。<br></span><span class="chifuyu">染谷千冬 : 「……！」<br>千秋の掌の下で、もがもがと口を動かします。<br><br></span><span class="kp">千秋は1d4+2+1d4どうぞ。<br><br></span><span class="chiaki">染谷千秋 : 1d4+2+1d4 (1D4+2+1D4) ＞ 2[2]+2+2[2] ＞ 6<br></span><span class="chifuyu">[ 染谷千冬 ] HP : 13 → 7<br><br></span><span class="kp">あなたが刺した包丁は千冬の腹を深く抉った。一見、体の組織は同じように見える。しかし、数秒経つとぼこりぼこり、と内側から何かが蠢いているのが分かる。どうやらじわじわと傷が塞がれているようだ。<br><br></span><span class="chifuyu">[ 染谷千冬 ] HP : 7 → 9<br></span><span class="chiaki">染谷千秋 : その傷を見て、息を吐きます。千冬の口に指を突っ込みながら続けます。<br>「千冬はあの研究所で一回死んでる」<br></span><span class="chiaki">染谷千秋 : 「千冬が攫われてしばらくして、俺の元に一匹の化物が来たんだ。人の形を真似ることができる化物で、俺に助けを求めてた。それで俺たちは研究所に向かったんだ」<br></span><span class="chiaki">染谷千秋 : 「……けど、俺たちが研究所についたときにはもう、……千冬は死んでた。……化物に食われたんだ。頭だけが残ってる状態だった。誰が見ても分かる。死んでるんだって」<br></span><span class="chiaki">染谷千秋 : 「呆然とする俺に化物は言った。千冬の頭部を取り込めば、助けれるかもしれないって。……生まれたばかりの自分と千冬なら、千冬の自我が勝つかもしれないって」<br></span><span class="chiaki">染谷千秋 : 「俺はそれに乗った。千冬の頭部をその化物に食わせた。……後は、千冬の知る通りだ。化物の言った通り、千冬の人格が勝ったんだ」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「意識してないだけで千冬はもう人じゃないんだ。千冬の身体は無意識でセーブしてるみたいだけどな」<br></span><span class="chiaki">染谷千秋 : 「この拘束、解けないように見えるだろ？　けど、本来その身体は、こんな拘束、すぐ壊せるはずなんだ」<br></span><span class="chiaki">染谷千秋 : 「それに千冬、帰ってきてからずっと眠り浅いだろ。きっとそれも、人じゃなくなったせいだ」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「千冬の身体が怪物だって自覚したら、千冬の人格が消えるかもしれないと思った」<br></span><span class="chiaki">染谷千秋 : 「人格が残っても、俺と千冬じゃもう身体の造りが違う。……人じゃないことを自覚した千冬の身体がどう変わっていくかも分からない」<br></span><span class="chiaki">染谷千秋 : 「……それで閉じ込めたんだ。怪我したら気付くかもしれない。外は何があるか分かんねーし、家もそうだ。千冬に気付かれる可能性を極力なくしたくて、監禁することにした。……結局、こうなっちゃったけどな」<br></span><span class="chiaki">染谷千秋 : 「部屋に籠もってたのと、ベッドに戻らなかったのは、やりたいことがあった。千冬を元に戻す手段がないか調べてたんだ。寝る時間も惜しかった。千冬が嫌になったとか、好きじゃなくなったとかじゃない」<br></span><span class="chiaki">染谷千秋 : 「……千冬を元に戻して、それで一緒に死にたかった。それが千冬を勝手に生き返らせた俺の、やるべきことだと思ったんだ」<br></span><span class="chiaki">染谷千秋 : 「……。正直、まだ千冬を元に戻す手段は見つけられてない。けど、進捗がゼロってわけでもないんだ。その身体の特性、亜種、上位種族、やれること苦手なこと、……魔術だって。次の調査の目処もある。……まだ、諦めたくない」<br></span><span class="chiaki">染谷千秋 : 「キスしなかったのは……何でだか俺にも分からない。あんま意識してなかった。……けど、後ろめたかったのかもしれない。俺のわがままでこうなったから」<br></span><span class="chiaki">染谷千秋 : 「……結局、俺は覚悟できてなかったのかもな。千冬と死ぬ覚悟が足りなかった」<br></span><span class="chiaki">染谷千秋 : 千冬の口に入れていた指を抜きさり、口付けします。舌で口内をかきまわしてから離します。口の周りについた血を舐めとります。<br>「あんま美味くねーな。その身体の持ち主は、人の食べ物よりそっちの方が美味いって言ってたぜ。……千冬には聞いたことなかったな」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「千冬のこと、今でも愛してる。ずっと好きだ。世界で一番大好きだ。千冬のためなら何でもできる。千冬と二人で生きていたい。千冬と死ぬまで一緒にいたい。千冬と死にたい」<br></span><span class="chiaki">染谷千秋 : 「その身体になっても、俺は千冬を千冬だと思ってる。千冬が千冬である限り、俺は千冬のことが好きだ。誰よりも千冬の幸せを願ってる。千冬が人のまま穏やかに生きて、笑って死ねる世界であればいいと思う」<br></span><span class="chiaki">染谷千秋 : 「……千冬が俺の言葉を信じられないならそれでいい。家を出たいっていうんなら止めない。関わりを絶ちたいならそれでもいい」<br></span><span class="chiaki">染谷千秋 : 「……けど、居場所だけは教えてくれ。元に戻す方法が分かったら連絡したいんだ」<br></span><span class="chiaki">染谷千秋 : 「……それでも千冬が死にたいっていうんなら、……死ねる方法を探す。だから……、お願いだ」<br>血の付いた千冬の唇を親指で拭います。<br></span><span class="chifuyu">染谷千冬 : 「……俺は、人間じゃなくなってたんだな……」<br></span><span class="chifuyu">染谷千冬 : 「千秋の言葉、信じられるか分からない。……むしろ、千秋はやっぱり俺のことが、好きじゃないと思う。俺が人間じゃないから、俺が一度死んだから、千秋は俺を俺だと思ってないんじゃないかって……だから、ため息をついて、俺と話さなくなって、触れなくなって、会わなくなったんだって……千秋がそう思ってなくても、無意識にそう感じてるんだって、そのほうが納得できる。……でも、」<br></span><span class="chifuyu">染谷千冬 : 「……でも、信じたいって、思ってしまうんだ。千秋が、好きだから……っ、……俺はずっとずっと、千秋が大好きだ。千秋が、俺を好きじゃなくても、俺は千秋がずっと好きだ。ずっと、触れたかった、キスしたかった……！」<br>言葉を詰まらせながら喋ります。涙がぼとりぼとりと溢れ落ちます。<br></span><span class="chifuyu">染谷千冬 : 「……わからない。千秋に気を使ってほしくない、無理をしてほしくない。そう思うと、俺が死ぬのが一番良いと思う。……でも、生きていたい……いや、俺はずっと、生きていると思っていたし、生きたいんだ。でも千秋が……生きたかったって言うなら、やっぱり俺は、千秋にとっては死んでるんだ。……なら、俺の存在は間違いだろう、きっと千秋は受け入れられないんだろうって思う……」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……自覚があまり無いからかもしれないが、千秋の話を聞いても、元の人間に戻りたいとは思わなかった。……俺はずっと、いつも通りなんだ。それより、千秋のほうが心配だ」<br></span><span class="chifuyu">染谷千冬 : 「千秋……本当に千秋にとって、俺は俺、……千秋の知る、染谷千冬……のままなのか？　本当に、同じなのか？」<br></span><span class="chiaki">染谷千秋 : 千冬の目から溢れる涙を掬いとり、何度も口付けをします。<br>「千冬は千冬だ。何も変わらない。俺の一年前に生まれて、一緒に生きてきた千冬だ。俺がずっと大事に思ってきた千冬だ。……そう思ってる」<br></span><span class="chiaki">染谷千秋 : 「……。あの時はそう思ってた。……、……けど、分かんなくなったんだ。これが俺の本心なのか、俺がそう思いたいだけなのか、……」<br></span><span class="chiaki">染谷千秋 : 「分かんねーよ……」<br>顔を伏せます。これ以上千冬を血で汚してしまわないように片手で抱きしめ、肩に顔を埋めます。<br></span><span class="chiaki">染谷千秋 : 「帰ってからずっと、俺を責める言葉が聞こえる。……、……あの時死ぬべきだった、お前の選択は間違いだ、人として生きたかった、人として死にたい、元の姿に戻りたい。千冬の声で聞こえる。幻聴だ。頭では分かってる。……千冬はそんなこと言ってない、そんなこと言わない」<br></span><span class="chiaki">染谷千秋 : 「じゃあ誰の言葉だ？……俺の頭が作り出してんだ。……、千冬のことが大事だ。どうなっても千冬は千冬だ、人じゃなくなったって何も変わらない。ずっとずっと愛してる。大好きだ。そう思ってる。……、……そう思うのに、そう思いてーのに、頭に浮かぶのは別の言葉なんだ。……、……どっちが俺の本心なのか、俺にも分かんねー……」<br></span><span class="chiaki">染谷千秋 : 「分かんねーよ！千冬が死んでるわけないだろ……！俺はずっと生きてると思ってる！千冬は千冬だ！……っ、……けど、このままでいいはずがない。人として死にたいって、うるさい。……分かんねえ」<br>千冬の身体を痛くなるほど抱きしめます。<br>「……はっきり言えなくてごめん。……けど、千冬が大切で、俺の家族で、愛してることだけは変わんない。信じてくれ、千冬……」<br></span><span class="chifuyu">染谷千冬 : 「……そう、か……」<br>恐る恐る、千秋の頭に手を伸ばします。優しく触れて、何度も撫でます。<br>「ごめん、千秋……気づけなくて。千秋も、悩んでたんだな。千秋が言いたくないから聞かない、じゃなくて……俺はもっと、千秋と話をする必要があったんだ。……ごめん」<br></span><span class="chifuyu">染谷千冬 : 「……時間が、必要だな。千秋が責められているように感じる時は、千秋は間違ってない、人に戻りたいとは思わない、って、何度でも言う。俺の言葉で。千秋がそれを、信じられるようになるまで」<br></span><span class="chifuyu">染谷千冬 : 「……俺がそう思ってるって、信じられるようになった時……責められているように感じなくなった時に、千秋が俺に対して少しでも、俺を俺だと思えないところがあれば、その時に俺は死のう。……刺された時、ちゃんと痛かった。何度も刺されたら、死ねると思う。……なんとなく。もしくは窒息とか……？」<br></span><span class="chifuyu">染谷千冬 : 「それか……『俺を人に戻して、一緒に死ぬ』、これが千秋が責められているように感じることとは関係なく、千秋の本心で思っていたことなら。死ぬべきだと思っていたのなら……今、俺が死ねる方法を探そう。人に戻る必要はないだろう。少し、寂しいが……俺と一緒に死んでくれ」<br></span><span class="chifuyu">染谷千冬 : 「……俺が、拐われたから。千秋に重たいものを背負わせてしまって、ごめん……」<br></span><span class="chifuyu">染谷千冬 : 「……千秋、どう思う？　俺は、人じゃないままでも生きていていいか？　それとも死ぬべきだろうか？」<br></span><span class="chifuyu">染谷千冬 : 「……それも分からないなら、時間をかけて答えを探そう。だから、急がなくていい。千秋……どうだ？」<br>頭を撫で続けながら、空いた片腕を千秋の背に回します。<br></span><span class="chiaki">染谷千秋 : 千冬の言葉を聞いて首を左右に振ります。<br>「千冬のせいじゃない。俺のせいだ……」<br></span><span class="chiaki">染谷千秋 : 「生きていいに決まってる。……そいつの提案に乗ったのは俺なんだ。千冬に死んでほしくない。……千冬に生きていてほしい」<br>千冬の目尻に口付けをします。<br></span><span class="chiaki">染谷千秋 : 「……けど、千冬は本当にいいのかよ。今は自覚できてないからいいかもしんねー。……それでも、これから何が起こるか分かんねーんだぞ」<br></span><span class="chiaki">染谷千秋 : 「……怪我しても病院に行けない。人に気付かれたら騒ぎになる可能性もある。寿命だって分からない。人と同じ生活をした結果、その身体に及ぼす影響も見えてない。分からねーことだらけだ」<br></span><span class="chiaki">染谷千秋 : 「……、いつか突然、千冬の自我がなくなるかもしれない。それでも、戻る必要がないって思うのか」<br></span><span class="chiaki">染谷千秋 : 「……、俺は嫌だ、……」<br></span><span class="chiaki">染谷千秋 : 「人の身体でも、そうじゃなくても関係ない。千冬が千冬でいれんなら、千冬が千冬として生きていけんなら、俺は嬉しい。けど、そうならない日が、……明日にでも来るかもしんねーんだ。……それでもいいのか」<br></span><span class="chifuyu">染谷千冬 : 「千秋のせいじゃない。絶対、違う。自分を責めるな。俺は千秋に感謝している」<br>力強く首を振ります。<br></span><span class="chifuyu">染谷千冬 : 「……俺は死んだんだろう。なら、今から人に戻ったって、同じだ。本当に人に戻ったのか？　いつまで体が持つのか？　自我が無くなることはないのか？　心配は尽きない。……俺が死んだ事実は、変わらないからだ。だから、完全に戻ることは無い。なら、俺の体がおかしくなったり、俺の自我が無くなったりしたら、それまでだ。むしろ、今がおまけみたいなもので……それ以上は望まない」<br></span><span class="chifuyu">染谷千冬 : 「……人に戻す方法、人を生き返らせる方法が簡単に見つかるわけがない。それを探す過程で、千秋が身を削ったり、危ない目に遭ったりするほうが、絶対に嫌だ。俺はそうまでして生きたくない。千秋を危険な目に遭わせたくない。だったら、俺は死んだほうがいい。……だから殺してくれと頼んだんだ」<br></span><span class="chifuyu">染谷千冬 : 「……怪我をしても病院に行けないと言うが、そもそも行く必要が無いんじゃないか？　今も……塞がってる。オトクだな」<br>刺された部分を見せます。<br></span><span class="chifuyu">染谷千冬 : 「……俺は、このままでいい。あの場所で死んでいたはずの俺に、機会を与えてくれてありがとう、千秋。だから、千秋さえよければ……千秋が俺を俺だと信じられなくなる時まで、千秋にとって俺が要らなくなる時まで……千秋と一緒に生きたい」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】受け入れる　やだ (1D100<=80) ＞ 33 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】今　時間をかけて (1D100<=80) ＞ 88 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「千冬が要らなくなる日なんて、……絶対に来ない。……千冬……」<br>千冬を抱きしめる腕に力を込めます。<br>千冬が明日いなくなるかもしれない恐怖と、今まで千冬との触れ合いを蔑ろにしてきた後ろめたさの間で気持ちがゆらぎます。<br></span><span class="chiaki">染谷千秋 : 「俺は、……、千冬に生きていてほしい。……ずっと。完全に戻れる手段が見つかるまで、探すのだって苦じゃない」<br></span><span class="chiaki">染谷千秋 : 「……けど、千冬がそういうんなら、……分かった」<br>千冬を抱きしめる腕から力を抜きます。<br></span><span class="chiaki">染谷千秋 : 身体を少し離して千冬の顔を見ます。額同士をあわせ、その目を見つめます。<br>「……千冬」<br></span><span class="chifuyu">染谷千冬 : 「……それは、千秋が身を削らない……つまり寝る間を惜しんで調べ物をしない、ちゃんと食べ物を摂る、危険なことをしない、という意味で合っているか」<br></span><span class="chiaki">染谷千秋 : choice そう 違う (choice そう 違う) ＞ そう<br></span><span class="chiaki">染谷千秋 : 「……。ああ、……」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……これからは、そうする」<br></span><span class="chifuyu">染谷千冬 : 「……よかった」<br>こっそり包丁に手を伸ばしていましたが、離します。<br></span><span class="chiaki">染谷千秋 : え！？<br></span><span class="chifuyu">染谷千冬 : え？<br></span><span class="chiaki">染谷千秋 : なに？！<br></span><span class="chiaki">染谷千秋 : 自殺はゆるしまへんで<br></span><span class="chifuyu">染谷千冬 : 離しました。今包丁は千冬の腹の横あたりに置かれたままだと思います。<br></span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 45 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……今何しようとしてた」<br></span><span class="chifuyu">染谷千冬 : 「千秋が頷かないなら死のうと思った」<br></span><span class="chiaki">染谷千秋 : 「……。ごめん」<br>眉を微かに寄せて、千冬に口付けします。<br></span><span class="chifuyu">染谷千冬 : 「謝るな」<br></span><span class="chiaki">染谷千秋 : 首を左右に振り、何度も口付けます。<br>「ごめんな、千冬。……好きだ、千冬が大好きだ。愛してる。ごめん」<br></span><span class="chifuyu">染谷千冬 : 「謝るなと言っているだろう」<br>千秋を両腕で抱きしめます。<br></span><span class="chiaki">染谷千秋 : 「……」<br>眉を寄せたまま目を伏せます。<br></span><span class="chiaki">染谷千秋 : 「前の千冬なら、……そう簡単に死のうとしなかった」<br></span><span class="chiaki">染谷千秋 : 「俺がそうさせたんだ。……ごめん」<br>千冬の後頭部に手を添えて、唇をあわせます。<br></span><span class="chifuyu">染谷千冬 : 「違う。千秋は関係ない。俺がもう死んでいて、俺よりも千秋が大事だからだ」<br></span><span class="chiaki">染谷千秋 : 「……、俺だって千冬が大事だ」<br>千冬を抱きしめ、布団に横になります。千冬の顔をじっと見つめます。<br></span><span class="chiaki">染谷千秋 : 「千冬の顔、……じっくり見るの、久々だ」<br>千冬の頬に触れます。形を一つ一つ確かめるように指先で輪郭をなぞります。<br></span><span class="chifuyu">染谷千冬 : 「……」<br>目を逸らします。<br>「……千秋、無理しなくていい」<br></span><span class="chiaki">染谷千秋 : 「……。……無理？」<br>悲しげに千冬を見つめます。<br></span><span class="chifuyu">染谷千冬 : 「……心の整理がついていないだろう。今、無理して俺に触れなくていい」<br></span><span class="chiaki">染谷千秋 : 「……そうだな。整理できてない」<br></span><span class="chiaki">染谷千秋 : 「……だからこそだ。一人で考えてるだけじゃだめだと思った。……頭ん中でごちゃごちゃ考えるより、千冬に向き合うべきだった」<br></span><span class="chiaki">染谷千秋 : 「千冬に触れて、千冬と話して、……千冬が千冬かどうかは、そこから考えればよかった」<br></span><span class="chiaki">染谷千秋 : 「……今、久々に頭ん中が静かなんだ。目の前に千冬がいて、千冬は千冬なんだって感じる」<br></span><span class="chiaki">染谷千秋 : 「千冬に触れたい。……なあ、ダメ？」<br>千冬の方へ身体を寄せて顔を近づけます。<br></span><span class="chifuyu">染谷千冬 : 「……、いい……」<br>顔を逸らしながらも、千秋のほうをちろりと見ます。<br></span><span class="chiaki">染谷千秋 : 千冬と目を合わせてふ、と笑います。<br>千冬の頬に口付けをして、身体を起こし、キスの雨を降らせます。<br>「千冬、好きだ。大好きだ。遠回りしてごめん。……でも、千冬と生きれることが何よりの幸せなんだ。愛してる。千冬、好きだ。千冬、」<br></span><span class="chifuyu">染谷千冬 : 抱きしめていた腕を解いて、やっぱり顔を逸らしています。<br>「……俺も大好きだ、千秋」<br></span><span class="chiaki">染谷千秋 : 「なあ、顔見たい」<br>千冬の手を握り、ベッドへ押さえつけます。上から覗き込む形で尋ねます。<br></span><span class="chifuyu">染谷千冬 : 「……」<br>千秋のほうを向き、まっすぐに見つめます。<br></span><span class="chiaki">染谷千秋 : 「やっとこっちみた」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : ちゅ、と音を立てて口付けをします。<br>「……声聞かせてくんねえの？」<br></span><span class="chifuyu">染谷千冬 : 「……俺は、千秋の気持ちが落ち着くまで、自分の気持ちは抑えたい」<br></span><span class="chifuyu">染谷千冬 : 「……そう思っているのに、久しぶりに千秋に触れられて、嬉しくて、……心臓がドキドキする。今にも口から飛び出そうだ。だから、何も言えない」<br></span><span class="chiaki">染谷千秋 : 「はは、かわいーの」<br></span><span class="chiaki">染谷千秋 : 「よかった。……勝手なことして、千冬に呆れられてんのかと思った」<br></span><span class="chifuyu">染谷千冬 : 「……？　俺が、こんなことで千秋に呆れるわけない」<br></span><span class="chiaki">染谷千秋 : 「でも、愛想つかしたろ？」<br></span><span class="chifuyu">染谷千冬 : 「……愛想がつきたことなんて一回も無いが。何を言っているんだ？」<br></span><span class="chiaki">染谷千秋 : 「へえ？ならどう思ってんの？」<br></span><span class="chifuyu">染谷千冬 : 「ずっと好きだ。大好きで、愛してる。その気持ちが変わったことはない。一回も」<br></span><span class="chiaki">染谷千秋 : 千冬の言葉を聞いて満足気に笑います。<br>「俺も千冬のことがずっと好きだ。世界で一番愛してる。千冬がいない人生なんて考えられない。大好きだ。……なあ、千冬の言葉もっと聞きたい」<br></span><span class="chifuyu">染谷千冬 : 「……その言葉は、今の俺に言わなくていい。やめてくれ。……期待してしまう。俺は千秋の気持ちを大事にしたい」<br></span><span class="chiaki">染谷千秋 : 「俺の本心だ。……目の前の千冬に言ってんだけど？」<br>ちゅ、と音を立ててもう一度千冬の唇にキスします。鼻先に口付けをして千冬の目を見ます。<br></span><span class="chifuyu">染谷千冬 : 「……っ」<br>涙目になり、鼻をずず、と鳴らします。<br>「違う……千秋は俺を、俺と思いたいだけかもしれないんだろう。まだ分からないから……だから……やめろ……」<br></span><span class="chiaki">染谷千秋 : 千冬の瞼に口付けをします。<br>「そうだな。……さっきまではそう思ってた。幻聴の方が俺の本心で、千冬を大切に感じる気持ちが現実逃避なんじゃないかって」<br></span><span class="chiaki">染谷千秋 : 「……けど、頭ん中静かになって、千冬に触れて、……それでも千冬を大事だって思うんだ」<br>千冬の頬に口付けをします。<br></span><span class="chiaki">染谷千秋 : 「俺のこと思って自分の気持ち押し殺そうとすんのも、兄らしく振る舞おうとすんのも、全部愛しい。千冬は千冬のままだ。俺の大事な家族だ」<br>鼻先に口付けします。<br></span><span class="chiaki">染谷千秋 : 「大好きだ。千冬。……正直、千冬がそのままでいいかは、まだ分かんない。元の身体の方が都合良いんじゃねーかって思う。けど、千冬を愛おしく感じる気持ちは本当だ。千冬を愛してる。……それじゃ、駄目？」<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 63 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「……駄目、じゃない……千秋がそう思ってくれるなら、俺は……、……本当に……？」<br></span><span class="chiaki">染谷千秋 : 「ああ。……触る？」<br>千冬の手を握り、自らの胸に持っていきます。<br></span><span class="chiaki">染谷千秋 : ドクドクと高鳴る心臓の音を聞かせます。<br>「ほら、……千冬にドキドキしてる」<br>千冬の耳に口付けします。<br></span><span class="chifuyu">染谷千冬 : 「……、千秋……！」<br></span><span class="chifuyu">染谷千冬 : 「千秋が好き、千秋が大好き、愛してる。……千秋に触れたい。千秋とキスがしたい。千秋がほしい。千秋と一緒ににいたい。一緒にご飯を食べたい。千秋と一緒に寝たい。千秋……千秋が好き……」<br>千秋の体に手を回して引き寄せ、力強く抱きしめます。<br></span><span class="chiaki">染谷千秋 : 千冬の言葉をひどく嬉しそうに聞いています。<br>「俺も千冬が好きだ。愛してる。……今までごめんな。今日から一緒に飯食おう。一緒の部屋で寝よう。俺も千冬に触れたい。千冬とセックスがしたい」<br>身体をぴったりとくっつけ、千冬の頭を撫でます。<br></span><span class="chifuyu">染谷千冬 : 「……ああ……千秋、ありがとう。大好き……」<br>ぴったり合わせた体を擦って、ようやく微笑みを浮かべます。<br></span><span class="chiaki">染谷千秋 : 「俺も大好き。ふ、……やっと笑った」<br>千冬の唇を撫でながら言います。<br></span><span class="chifuyu">染谷千冬 : 「……嬉しいんだ」<br></span><span class="chiaki">染谷千秋 : 「……」<br>微笑みながら千冬の頭を撫でます。<br></span><span class="chiaki">染谷千秋 : CCB<=80 【幸運】ウェットティッシュが近くにある　ない (1D100<=80) ＞ 37 ＞ 成功<br></span><span class="chiaki">染谷千秋 : ウェットティッシュを数枚取り、血だらけになってしまった千冬の口周りを拭きます。<br>「俺も嬉しい。……なあ千冬、したい」<br></span><span class="chifuyu">染谷千冬 : 「ん……俺も、したい」<br></span><span class="chiaki">染谷千秋 : 千冬に深く口付けしながら、服の上から千冬の存在をたしかめるように、身体の輪郭をなぞるように触れていきます。<br></span><span class="chifuyu">染谷千冬 : 「……っ、ふ……」<br>合わせた唇から息を漏らします。千秋の服の下に手を差し入れて、素肌にぺたりと手のひらを当てます。<br></span><span class="chiaki">染谷千秋 : かぷ、と千冬の頬を甘噛みしてから舐めます。<br>服の上からゆったりと千冬の胸を刺激し、同時にオムツの存在を思い出してくすりと笑います。<br></span><span class="chifuyu">染谷千冬 : 「……何に笑ったんだ？」<br></span><span class="chiaki">染谷千秋 : 「んー？いや、……不便かけたと思ってさ」<br>ズボンの上から下着のラインを指先でひっかきます。<br></span><span class="chifuyu">染谷千冬 : 「……本当だ」<br>む、と膨れています。<br></span><span class="chiaki">染谷千秋 : 「悪かったよ。……今外してやるから」<br>ちゅ、と額に口付けます。ズボンをずりさげてぺりぺり剥がします。<br></span><span class="chifuyu">染谷千冬 : 「……自分でやる。あと、シャワーも浴びてくる。拘束を解いてくれ」<br></span><span class="chiaki">染谷千秋 : 千冬の唇に口付けします。<br>「俺がやりたい。風呂もいい。……早く千冬が欲しい」<br>じ、と千冬を見ます。<br></span><span class="chifuyu">染谷千冬 : ふう、と息を吐きます。<br>「……わかった」<br></span><span class="chiaki">染谷千秋 : 「や？」<br>耳に息を吹きかけ、服の上から千冬の胸を揉みます。<br></span><span class="chifuyu">染谷千冬 : 「……っ、嫌じゃなくはない、けど、千秋がしたいなら、いい……」<br></span><span class="chiaki">染谷千秋 : かぷ、と耳を噛みます。服の上から乳頭の位置をカリカリと引っ掻きます。<br>「なんでやなの」<br></span><span class="chifuyu">染谷千冬 : 「……恥ずかしい、だろう……」<br></span><span class="chiaki">染谷千秋 : 「もう何度も見てんのに？」<br></span><span class="chifuyu">染谷千冬 : 「慣れるわけ……っ、ない、こんなところの世話を焼かれるのは、恥ずかしい」<br></span><span class="chiaki">染谷千秋 : 「千冬可愛い。……なら先に取ろうな。腰上げて」<br></span><span class="chifuyu">染谷千冬 : 「……」<br>言われた通りに腰を上げます。<br></span><span class="chiaki">染谷千秋 : オムツを取り、畳みます。近くにあるゴミ袋に捨てます。千冬の下半身を拭く前に、思いついたように匂いを嗅ぎます。<br>「蒸れてたからいつもより千冬の匂い濃いな」<br></span><span class="chifuyu">染谷千冬 : 「や……やめろ」<br>顔を更に紅潮させて、耐えられずに目を逸らします。<br>「千秋、シャワー浴びたい……」<br></span><span class="chiaki">染谷千秋 : 「終わったらな」<br>下半身をウェットティッシュで優しく拭きます。済んだものをゴミ袋に入れて、千冬の唇に一度軽いキスをします。<br>その後唇を深く合わせ、千冬の口内を味わいます。<br></span><span class="chifuyu">染谷千冬 : 「ん、んぅ……」<br>もじもじと体を捩った後、観念して千秋の脇腹に両手を添え、千秋と舌を交わします。<br></span><span class="chiaki">染谷千秋 : 「ん……」<br>千冬の目をじっと見ながら唇をあわせ続けます。この半年していなかった分を取り戻すように深く長いキスをします。<br></span><span class="chifuyu">染谷千冬 : 「……は、はぁ……千秋……んん……」<br>涎を口の端から零しながらも、千秋を求めます。<br></span><span class="chiaki">染谷千秋 : 千冬の両頬を抑え、親指の腹で労わるように頬を撫でながら口付けを続けます。<br>「千冬、好きだ、大好きだ」<br>口付けの最中、愛の言葉を囁き続けます。<br></span><span class="chifuyu">染谷千冬 : 「俺も……千秋、好き……」<br>気がつけばまた涙を流しながら、口づけの合間に答えます。<br></span><span class="chiaki">染谷千秋 : 親指で千冬の涙を拭います。何度も角度を替えて口付けを深くします。<br></span><span class="chifuyu">染谷千冬 : 「……は、……っ、ふ……」<br></span><span class="chiaki">染谷千秋 : 千冬の手に手を重ね、握ります。長い長い時間をかけて千冬を求めます。<br></span><span class="chifuyu">染谷千冬 : 弱々しく手を握り返します。<br></span><span class="chiaki">染谷千秋 : 手を離して千冬の身体を抱きしめます。横になり、後頭部を抑えて千冬の目を見ながら口付けをします。<br></span><span class="chifuyu">染谷千冬 : 目を閉じていましたが、千秋にずっと見られていることに気づいて、キスの間も見つめ返します。千秋の背に腕を回します。<br></span><span class="chiaki">染谷千秋 : 唇を離して千冬の顔をじっと見ます。<br></span><span class="chifuyu">染谷千冬 : 「……千秋？」<br></span><span class="chiaki">染谷千秋 : 「何？」<br></span><span class="chifuyu">染谷千冬 : 「ずっと見てるから」<br></span><span class="chiaki">染谷千秋 : 「見たくなった」<br>千冬の頬をすりすりと撫でます。<br></span><span class="chifuyu">染谷千冬 : 「そうか」<br></span><span class="chiaki">染谷千秋 : 千冬の手を握りながら見続けます。<br>「半年分取り戻したい」<br></span><span class="chifuyu">染谷千冬 : 「……そうか」<br></span><span class="chifuyu">染谷千冬 : 「……俺も、千秋をいっぱい見れて嬉しい」<br></span><span class="chiaki">染谷千秋 : 「そっか」<br>ふ、と息を吐いて笑います。<br>抱きしめたり、背中を撫でたり、さすったりします。<br></span><span class="chifuyu">染谷千冬 : 「……」<br>片手で千秋の背を擦ります。<br></span><span class="chiaki">染谷千秋 : 「千冬、好き」<br>千冬の腕を取り、甘えるように首筋に顔を埋めます。<br>千冬の頭を引き寄せて自分の首筋に近づけさせます。<br>ぽんぽんと頭を撫でながら口づけします。<br></span><span class="chifuyu">染谷千冬 : 「俺も好きだ」<br>変わらず背を撫で続けながら答えます。<br></span><span class="chiaki">染谷千秋 : 目を細めて微笑みます。千冬の唇を甘く噛みます。何度も何度も唇を繰り返し重ね、舌を合わせます。しばらくしてから顔を離してくすりと笑います。<br>「……こんだけキスすると、唇ふやけちゃいそうだな」<br></span><span class="chifuyu">染谷千冬 : 「……ふ。ふやけるまでしたい」<br></span><span class="chiaki">染谷千秋 : 「ふ、そーかよ。……」<br>変わらず口付けては離します。<br>「……千冬。もし千冬が俺の立場だったら、……どうしてた？」<br></span><span class="chifuyu">染谷千冬 : 「……どうしてたって、何がだ？」<br></span><span class="chiaki">染谷千秋 : 「研究所で同じ選択を迫られてたら。……どっち選んだ？」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……分からない、が……たぶん、俺なら……千秋と同じ選択は、選べなかった」<br></span><span class="chiaki">染谷千秋 : 「うん」<br>千冬の頭を撫でながら話を聞いています。<br></span><span class="chifuyu">染谷千冬 : 「……俺だったら、怖くてできなかった。……」<br></span><span class="chifuyu">染谷千冬 : （……たぶん、その後の千秋を、千秋だと信じられなかった。その時は、……いや、今も……俺は、本当に俺なのだろうか、……）<br></span><span class="chifuyu">染谷千冬 : 「……、それで、俺も死んだんだろうな」<br></span><span class="chiaki">染谷千秋 : 「怖いって、何が？」<br>千冬の腰を引き寄せて内緒話をするように尋ねます。<br></span><span class="chifuyu">染谷千冬 : 「……言葉にできないが、……たぶん、その状況を受け入れる勇気が無かった。それで怖がって、何もできない」<br></span><span class="chiaki">染谷千秋 : 「千冬が？……そっか」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「千冬さ、さっき……、俺にとって千冬が要らなくなる時まで生きたい、って言ったけど、それ関係なしに考えたらどうなの」<br></span><span class="chiaki">染谷千秋 : 「……千冬は生きたい？」<br></span><span class="chifuyu">染谷千冬 : （……）<br></span><span class="chifuyu">染谷千冬 : 「……千秋、早く、したい……」<br>千秋の腰に手を這わし、自分の体をすり、と寄せます。<br></span><span class="chiaki">染谷千秋 : 腰に這わされた手に指を絡ませます。その手を緩く握って静止させ、何も話さないまま千冬を見つめています。<br></span><span class="chifuyu">染谷千冬 : 「……」<br>何も話しません。千秋の瞳をじっと見ています。<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 87 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : choice 今すぐ あとで (choice 今すぐ あとで) ＞ あとで<br></span><span class="chiaki">染谷千秋 : 「……」<br>千冬に口づけします。足を絡ませ、千冬の腕を自らの首に回します。<br></span><span class="chiaki">染谷千秋 : ローションを取り出して掌で温めます。後孔の周囲に手を忍ばせ、口付けを続けながら中指で周辺を解します。<br></span><span class="chifuyu">染谷千冬 : 心臓をドキドキと高鳴らせながら、千秋の首に回した腕を狭めて、千秋を引き寄せ口づけます。<br></span><span class="chiaki">染谷千秋 : 千冬の身体中に口付けながら中を解していきます。十分に解した後、千冬の顔をじっと見つめます。<br>「千冬……」<br></span><span class="chifuyu">染谷千冬 : じ、と千秋を見つめています。<br></span><span class="chiaki">染谷千秋 : 「千冬、いい？」<br>千冬の額に額をあわせて尋ねます。<br></span><span class="chifuyu">染谷千冬 : 「ああ、千秋……」<br><br></span><span class="kp">千冬が僅かに首を上下させて頷く。<br>千冬の綻んだ顔を見るのはいつぶりだろうか。赤らんだ顔で、数えられないほどの口づけを繰り返す。<br>半年の期間を埋めるように、深く、長く、あなたたちは繋がり、互いを求め合った。<br><br>・・・<br><br></span><span class="chiaki">染谷千秋 : 千冬を抱きしめながら日が変わるまで他愛無い話をします。千冬が最近読んでいた本の話、バイト先で起こった笑い話、世間で話題になってるニュース、調査中によく出てくる謎の広告の話などを話します。<br></span><span class="chiaki">染谷千秋 : 千冬の温もりを感じながらしばらく過ごし、ふと思いついたような口ぶりでぽつりと言います。<br>「……な、死んじゃおっか」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「……心の整理がついたのか？」<br></span><span class="chiaki">染谷千秋 : 「ああ」<br></span><span class="chiaki">染谷千秋 : 「『千冬』がもういいって言うんなら、俺ももういいや」<br></span><span class="chifuyu">染谷千冬 : 「……、どういう、事だ？」<br></span><span class="chiaki">染谷千秋 : 「？そんままの意味だぜ」<br></span><span class="chifuyu">染谷千冬 : 「……？」<br></span><span class="chifuyu">染谷千冬 : 「俺がさっき、もういいと言ったのは……千秋がもう俺を好きじゃないなら、の話だ。……そういう事なのか？」<br></span><span class="chiaki">染谷千秋 : 「……？いや、好きだぜ」<br>頭にはてなを浮かべながら答えます。<br></span><span class="chifuyu">染谷千冬 : 「……？」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……さっき、俺の問いに答えなかっただろ。生きたくないって意味じゃねーの？」<br></span><span class="chifuyu">染谷千冬 : 「……違う。……答えたくなかったから、答えなかった」<br></span><span class="chiaki">染谷千秋 : 「……」<br>きょとんとした顔で千冬のことを見てます。<br></span><span class="chiaki">染谷千秋 : 「俺の考えはさっきと変わんない」<br></span><span class="chiaki">染谷千秋 : 「千冬が千冬である限り、俺にとって『千冬』は千冬だ。そんな『千冬』と生きたい」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……正直、『千冬』が本当に千冬なのか、そうじゃないのか。俺には判断つかない。……考えても仕方ねーことだと思ってる。神でもなきゃ、実際の所は分かんねーだろうし」<br></span><span class="chiaki">染谷千秋 : 「けど俺は、『千冬』を千冬だと思う。俺の大事な家族だ。『千冬』のことが大切だ。『千冬』と生きたい」<br></span><span class="chiaki">染谷千秋 : 「……仮にさ。『千冬』が千冬じゃなかったとして、……姿形が千冬で、考えることも感じることも千冬とおんなじなら、俺は大事にしたいと思うぜ」<br></span><span class="chiaki">染谷千秋 : 「だから、『千冬』がもう生きたくないんなら良いと思った。俺の死に際の代わりに、『千冬』の死に際が欲しかった」<br>目の前の千冬に向かって言った後、伺うように千冬の顔を見ます。<br></span><span class="chiaki">染谷千秋 : 「俺は気持ちはずっと変わんないぜ。……なあ、千冬が答えたくないのは、俺の気持ちを大事にしたいから？」<br></span><span class="chifuyu">染谷千冬 : ふ、と笑います。<br>「ああ、そうだ。千秋ならそう言うだろう――今の俺を大事に思ってくれるんだろうと思った。だから言えなかった。千秋の気持ちを大事にしたいから」<br></span><span class="chifuyu">染谷千冬 : 「……今千秋は俺を信じてくれているが、これから先もそうだとは限らないと思う。俺が生きたい、と答えたら、千秋が俺を信じられなくなりそうな時、俺が要らなくなる時の、無駄な枷になるかもしれない。俺が死にたい、と答えたら、千秋が一緒に生きたいと思っていた時に、今生きている千秋の思考を、俺の気持ちで遮ってしまう。それに、千秋が俺を生き返らせてくれたのに、それを無下にするようなことを言えない」<br></span><span class="chifuyu">染谷千冬 : 「俺の生きたいも死にたいも、関係ない。一度死んだから。死んだ上で、千秋の重荷になりたくないなら。……いや、俺の生きたい時は、千秋が一緒に生きたいと思ってくれている時。俺の死にたい時は、千秋が俺を俺だと思えなくなった時、俺が要らなくなった時だ。俺の命は千秋が握っている。千秋が今、そうやって考えていても、これから変わるかもしれない。だから俺は何も言わない。千秋の気持ちが全てだ」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言われて悲しくない/悲しい (1D100<=80) ＞ 98 ＞ 致命的失敗<br></span><span class="chiaki">染谷千秋 : choice うち よそ (choice うち よそ) ＞ うち<br></span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】心に留めておく/無理 (1D100<=80) ＞ 1 ＞ 決定的成功/スペシャル<br></span><span class="chiaki">染谷千秋 : （千冬が要らなくなることなんてねーのに……）<br></span><span class="chiaki">染谷千秋 : （……けど、今の俺じゃ信じてもらえないのも無理ねーか）<br></span><span class="chiaki">染谷千秋 : 「……なら、千冬の気が変わった時も教えてくれよ。俺だって千冬の気持ちを大事にしたい」<br></span><span class="chifuyu">染谷千冬 : 「……そうだな。変わることは無いと思うが、そうなったら言う」<br></span><span class="chiaki">染谷千秋 : 「ああ」<br><br></span><span class="kp">千秋と千冬は頷いて抱きしめ合い、再び体温を分け合った。それは千冬が生きていた時と、何一つ変わりない。<br><br>千秋はこれからも、千冬を人に戻すための方法を探す。ただ、前のように千冬と言葉を交わし、触れ合う時間を大切にするようになった。生活時間を無理やり削って調べるようなことは、もう二度としないだろう。<br><br>まだわだかまりは残っているかもしれない。しかしそれも、時間が解決するはずだ。なぜなら今までも、時間を重ねて気持ちを伝え、互いを理解してきたのだから。<br><br>――一人の人間と、一匹の神話生物。<br>彼らがこれからどう生きるのか。彼らはどんな答えを導くのか。それは誰も知らない。<br><br>Epilogue End：地獄極楽はこの世にあり<br></span>
+<span class="kp">▽
+
+▼
+
+▽
+
+▼
+
+
+――そこは天国か、地獄か。
+ふたりは酷く残酷な世界で生きている。
+
+
+▼　▼　▼
+
+</span><span class="chiaki">染谷千秋 : 朝、椅子の上で起きます。硬くなった身体を解しながら千冬の元へ行きます。何をしてますか？；；
+</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 32 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 眠っています。
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 71 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 千冬の側にいき、頬に触れます。千冬が今日も生きていることを確認して安堵します。冷蔵庫の中身を確認し、数があまり減っていないことにやるせない思いを感じます。気を取り直して部屋を後にし、飲料を流し込みながら家事を済ませます。家事を終わらせた後もう一度千冬の顔を見てから、ドアの鍵が正常なことを確認して調査に戻ります。
+
+</span><span class="kp">あなたが調査しても、有力な手がかりは得られない。それでもその僅かな手がかりを、ひとつひとつ当たっていくしかないのだった。
+あなたは集中して、時間が刻々と過ぎていく。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 50 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 80 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】集中 (1D100<=80) ＞ 85 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 手がかりをまとめ終えて次に調査する目処をつけてから一度作業を終えます。千冬の様子を見に行きます。
+
+</span><span class="kp">気がつけば数時間が経ち、昼過ぎになっていた。千冬は目を覚ましていて、あなたがいる部屋の扉をぼんやりと見ていた。
+
+</span><span class="chiaki">染谷千秋 : 「……千冬」
+</span><span class="chiaki">染谷千秋 : 「おはよう。起きてたんだな」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : 本には手つけてそうですか？
+
+</span><span class="kp">目星どうぞ。
+
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 67 ＞ 成功
+
+</span><span class="kp">本が動いている。手に取ったのかもしれない。
+
+</span><span class="chiaki">染谷千秋 : 「……これ、読んでくれたんだな」
+本を手に取りパラパラとめくります。
+</span><span class="chifuyu">染谷千冬 : 「……まだ途中だが、面白い」
+</span><span class="chiaki">染谷千秋 : 「そっか。……よかった」
+</span><span class="chiaki">染谷千秋 : 「……他の買ってこようか」
+</span><span class="chifuyu">染谷千冬 : 「いい」
+</span><span class="chiaki">染谷千秋 : 千冬の方を見ます。
+「何で。……、暇だろ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……まだ途中だから」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】見て見ぬふり/突っかかる (1D100<=80) ＞ 52 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……分かった」
+</span><span class="chiaki">染谷千秋 : 「……また後で来る。何かあったら呼んで」
+</span><span class="chifuyu">染谷千冬 : 「……わかった」
+</span><span class="chiaki">染谷千秋 : 部屋を出て調査に戻ります。夕ご飯まで調査を続け、いつもと同じようにご飯を作り、血を混ぜ、千冬に食べさせ、千冬の身体を拭き、オムツを替えます。
+
+</span><span class="kp">いつものルーティンを繰り返せば、夜の九時になっている。
+
+</span><span class="chiaki">染谷千秋 : 千冬に拘束具をつけていきます。
+「痛いとこねえ？」
+</span><span class="chifuyu">染谷千冬 : 「ない」
+</span><span class="chiaki">染谷千秋 : 「……なら、電気消す。……おやすみ」
+拘束具をつけ終えて布団を被せます。
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「おやすみ」
+</span><span class="chiaki">染谷千秋 : 部屋を出て眠るまで調査を続けます！
+
+</span><span class="kp">あなたたちは繰り返す。
+無味で乾ききった日々を。
+今日も眠気の限界まで調査をして、千秋は椅子に掛けたまま眠りについた。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 70 ＞ 成功
+</span><span class="chiaki">染谷千秋 : choice 次の日はバイトがある ない (choice 次の日はバイトがある ない) ＞ ない
+</span><span class="chiaki">染谷千秋 : 起きてすぐに千冬の様子を見に行きます。
+</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 91 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 目は覚めています。仰向けの状態で、天井を見ています。
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 70 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「千冬。……はよ」
+</span><span class="chifuyu">染谷千冬 : 「おはよう」
+</span><span class="chiaki">染谷千秋 : 「眠れねえの」
+ベッドに腰掛けて千冬の頭を撫でます。
+</span><span class="chifuyu">染谷千冬 : 「ああ、……」
+</span><span class="chiaki">染谷千秋 : 「いつから」
+布団をたぐり寄せて整えます。
+</span><span class="chifuyu">染谷千冬 : 「たぶん……二、三時間前」
+</span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 34 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「そっか。……眠気は？」
+</span><span class="chifuyu">染谷千冬 : 「あまり」
+</span><span class="chiaki">染谷千秋 : 「……そっか」
+千冬の身体が変わって以降あまり眠れていないことを思い出します。以前の千冬と違う点をまた一つ突きつけられてあまりいい気分ではありません。
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】聞く　聞かない (1D100<=80) ＞ 18 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「何考えてた」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 73 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「……、何も」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 一度部屋を出ます。温かい飲み物を作り、寝室のベッドサイドに置きます。
+「……飲んで。また来る」
+</span><span class="chifuyu">染谷千冬 : 「……ありがとう」
+半分ほどまで飲み、一度置きます。
+</span><span class="chiaki">染谷千秋 : 首を横に振り、冷蔵庫の中身を確認します。
+どうなってますか？
+
+</span><span class="kp">中身は変わっていません。手をつけていないようです。
+
+</span><span class="chiaki">染谷千秋 : 「……昨日、飲んでねーの？　中、変わってない」
+</span><span class="chifuyu">染谷千冬 : 「飲んでない」
+</span><span class="chiaki">染谷千秋 : 「……別のがいいか」
+</span><span class="chifuyu">染谷千冬 : 「いや。要らない」
+</span><span class="chiaki">染谷千秋 : 「……」
+ふ、とため息をつきます。古いものをいくつか取り、新しいものと交換します。
+</span><span class="chiaki">染谷千秋 : 「……またな」
+千冬の方を見ずに部屋を出ます。食事しながら調査に戻ります。
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 渡された飲み物を飲み干し、横になります。
+
+</span><span class="kp">調査を続ける。昼を過ぎた頃、千冬の様子を見に行きご飯を与える。調査に戻る。夜になり、またあなたは千冬の様子を見に行く。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】発狂継続　一瞬我に帰る (1D100<=80) ＞ 39 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 中々調査が進みません。明日は実地調査でもしようかと考えながら千冬の元へと向かいます。
+</span><span class="chiaki">染谷千秋 : 千冬は何をしていますか？
+
+</span><span class="kp">ベッドの上で膝を抱え、千秋のいる部屋のほうを見ていたようです。扉を開けたあなたと目が合います。
+
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……、千冬」
+</span><span class="chifuyu">染谷千冬 : 「千秋」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 45 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「何してた」
+千冬の隣に腰掛け、表情を伺います。
+</span><span class="chifuyu">染谷千冬 : 「……テレビを見たり、本を読んだりしていた」
+</span><span class="chiaki">染谷千秋 : 「今は」
+千冬の身体に触れて、固まっている部分がないか確認します。
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 10 ＞ スペシャル
+</span><span class="chifuyu">染谷千冬 : 「ぼーっとしていた」
+</span><span class="chiaki">染谷千秋 : 「眠れねえ？」
+</span><span class="chifuyu">染谷千冬 : 「……寝ていてほしいか？」
+</span><span class="chiaki">染谷千秋 : きょと、と目を丸くして千冬の方を見ます。
+「……いや」
+</span><span class="chiaki">染谷千秋 : 「……。……気になっただけ」
+一瞬何か言いかけてやめます。冷蔵庫の中身を確認します。
+
+</span><span class="kp">中身は変わっていません。
+
+</span><span class="chiaki">染谷千秋 : 「夕飯まだだな。……作ってくる」
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 71 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 千冬は自分が作る食事は飲み食いしますが、買い置きしてあるものにはほとんど手をつけないことに気付きます。人の血が入っていない食事は不味いのだと思います。
+</span><span class="chifuyu">染谷千冬 : 「……ありがとう」
+</span><span class="chiaki">染谷千秋 : 「……いや」
+部屋を出て、いつものように千冬の食事を作ります。あまり食事しない千冬のために深く切り、普段よりも多く自分の血を混ぜます。作り終えたら手当てをして、部屋に戻ります。
+</span><span class="chiaki">染谷千秋 : 「千冬。食べな」
+</span><span class="chifuyu">染谷千冬 : 「いただきます」
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 64 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】Fのみ (1D100<=55) ＞ 71 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「……？」
+</span><span class="chifuyu">染谷千冬 : 「……美味しい」
+その味に違和感を覚えますが、口には出しません。
+ゆっくりと食べ進めます。
+</span><span class="chiaki">染谷千秋 : 「よかった」
+食事を摂る千冬の頭を撫でます。千冬が食事を終えるのを見守ります。
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 食事の合間に、訥々と話します。
+「……千秋、『ザ・バイオリニスト』という思考実験を知っているか」
+</span><span class="chiaki">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 61 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……自分の時間と、誰かの命。どっちかを選ぶやつだっけ」
+</span><span class="chifuyu">染谷千冬 : 「……そうだ。バイオリニストの信者に拉致されて、その人の治療を手伝わされる。自分の9ヶ月と引き換えに、その治療を手伝うか、バイオリニストが死んだとしても治療を拒否するか」
+</span><span class="chifuyu">染谷千冬 : 「……千秋だったら、どうする？」
+</span><span class="chiaki">染谷千秋 : 「……。バイオリニストを助ける」
+</span><span class="chifuyu">染谷千冬 : 「……もし俺が、拉致されて治療を手伝わされている人だったら。千秋はどうする？」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直 嘘 (1D100<=80) ＞ 69 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「バイオリニストを殺す」
+</span><span class="chifuyu">染谷千冬 : 「……そうか」
+</span><span class="chiaki">染谷千秋 : 「……千冬は？」
+</span><span class="chifuyu">染谷千冬 : 「……俺が、治療を手伝う人だったら、か？」
+</span><span class="chiaki">染谷千秋 : 「ああ」
+</span><span class="chifuyu">染谷千冬 : 「それは……バイオリニストを助ける」
+</span><span class="chiaki">染谷千秋 : 「何で？」
+</span><span class="chifuyu">染谷千冬 : 「バイオリニストが生きたくて、それを俺が輸血することによって助けられるなら、9ヶ月なら手伝う」
+</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+「……千冬らしいな」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】聞く 聞かない (1D100<=80) ＞ 22 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「なら、俺が拉致されてる側だったら？」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……バイオリニストを殺すだろう」
+</span><span class="chiaki">染谷千秋 : 「……何で」
+</span><span class="chifuyu">染谷千冬 : 「……何で？」
+</span><span class="chifuyu">染谷千冬 : 「じゃあ、千秋は何で殺すんだ？」
+</span><span class="chiaki">染谷千秋 : 「千冬が大事だから」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「俺も、そういうことだ。千秋が大事だから」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「そっか」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言う 言わない (1D100<=80) ＞ 46 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「けど、……そのバイオリニストが千冬なら、俺のことは助けなくていいぜ」
+</span><span class="chifuyu">染谷千冬 : 「！」
+</span><span class="chifuyu">染谷千冬 : 「なんで」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「千冬が大事だから」
+</span><span class="chifuyu">染谷千冬 : 「……嫌だ」
+目を細めて、泣き出しそうな顔をしながら俯きます。
+</span><span class="chifuyu">染谷千冬 : 「……千秋、お願いがある。俺を、殺してくれないか」
+</span><span class="chiaki">染谷千秋 : 「は？」
+</span><span class="chifuyu">染谷千冬 : 「俺はこれ以上、千秋の重荷になりたくない」
+</span><span class="chiaki">染谷千秋 : KP！SANC！SANC！SANC！SANC！SANC！
+
+</span><span class="kp">え、ええと 減少量いくつがいいですか？
+
+</span><span class="chiaki">染谷千秋 : 1d10+1/1d40+11どうですか？
+
+</span><span class="kp">却下します。千冬が死にたがっていることによるSANcですか？
+
+</span><span class="chiaki">染谷千秋 : それに加えて「千冬を殺す」という言葉から、千冬が一度死んだ瞬間を思い出します！むりです！
+
+</span><span class="kp">なるほど SANc（1d3/1d6）どうぞ
+
+</span><span class="chiaki">染谷千秋 : 少なすぎる！こいつが千冬が死んで1d3/1d6で済む人間にみえますか？考え直してください
+
+</span><span class="kp">言葉で言われただけでしょうが！
+
+</span><span class="chiaki">染谷千秋 : 意義あり！千冬が死んだ瞬間を思い出す　ということはつまりフラッシュバック！人はフラッシュバックに耐えられるように出来てません！
+
+</span><span class="kp">ちょっと言われたぐらいで人が目の前で死んでる時と同量のSANcすな！認めません！
+
+</span><span class="chiaki">染谷千秋 : 染谷千秋ですよ？？！？！！？？！？それに今発狂中です？！？！？！？！？！
+
+</span><span class="kp">SANc（1d3/1d8）とします。これ以上は認めません！
+
+</span><span class="chiaki">染谷千秋 : ｲﾝ
+</span><span class="chiaki">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 87 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 1d8 (1D8) ＞ 2
+</span><span class="chiaki">[ 染谷千秋 ] SAN : 51 → 49
+</span><span class="chiaki">染谷千秋 : 「……重荷じゃない」
+</span><span class="chifuyu">染谷千冬 : 「重荷だ」
+</span><span class="chiaki">染谷千秋 : 「重荷じゃねーって……」
+</span><span class="chifuyu">染谷千冬 : 「……俺のせいで、千秋の負担が増えてる。ベッドで寝ないで、隣の部屋に籠って、俺の世話をして。……千秋はもう、俺を……、……。俺は、これ以上千秋を苦しめたくない」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言う　言わない (1D100<=80) ＞ 17 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】何言いかけてたか気になる　それどころじゃない (1D100<=85) ＞ 33 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……？俺が千冬を何？　……言っとくけど、俺が籠ってんのはやりたいことがあるからだ。ベッドで寝ないのもそれやりてーからだし、……、千冬とは関係ない。それに、千冬の世話なんて大したことねーよ。……俺が用意したのあんま手つけねーのに、……」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】千冬の言うこと信じる　疑い (1D100<=80) ＞ 9 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : 「……。千冬を苦しめてんのは俺だろ。こんな……、……」
+</span><span class="chifuyu">染谷千冬 : 「……それも全部、俺のせいだろう。……千秋にとって俺はもう、要らない。だから、殺してほしい。……最後のお願いだ。そうやって死ねたら、俺は嬉しい」
+</span><span class="chiaki">染谷千秋 : 「……？」
+千冬の言葉を理解できません。したくありません。でも何だかこのままではいけないような気がして咄嗟に手を掴みます。
+「要る。俺には千冬が必要だ」
+</span><span class="chifuyu">染谷千冬 : 首を横に振ります。
+</span><span class="chiaki">染谷千秋 : 「……千冬は何でそう思うんだ」
+</span><span class="chifuyu">染谷千冬 : 「何でって……」
+</span><span class="chifuyu">染谷千冬 : 「……あの日から、千秋は俺を閉じ込めた。部屋に籠るようになった。俺に触れなくなった。俺と一緒に、過ごさなくなった。……あの日に、何かあったんだろう。それできっと、あの日を境に何かが変わって……千秋はもう……俺を……好きじゃない」
+</span><span class="chiaki">染谷千秋 : 「……好きだよ。ずっと」
+千冬の手を握ります。
+</span><span class="chiaki">染谷千秋 : 「変わらずに好きだ。……千冬のこと、今でもずっと愛してる」
+</span><span class="chiaki">染谷千秋 : 千冬を抱きしめて顔を覗き込みます。
+「……ごめん」
+
+</span><span class="kp">千冬は苦しげに、そして寂しそうに微笑んでいます。
+
+</span><span class="chifuyu">染谷千冬 : 「謝る必要はない」
+</span><span class="chiaki">染谷千秋 : 「……千冬を傷つけた」
+</span><span class="chifuyu">染谷千冬 : 「俺は傷ついていない」
+</span><span class="chiaki">染谷千秋 : 「……なら、寂しくさせた」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……千秋が嫌になったなら、しかたない」
+</span><span class="chiaki">染谷千秋 : 「嫌じゃない。……好きだ」
+千冬の頬に口付けします。
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 涙がつ、と頬を伝います。
+「……千秋、殺してくれ」
+</span><span class="chiaki">染谷千秋 : 「嫌だ」
+</span><span class="chiaki">染谷千秋 : 「……嫌だ……」
+</span><span class="chiaki">染谷千秋 : 千冬の涙を拭います。首筋に顔を寄せて横に振ります。
+「……千冬と生きたい。嫌だ……」
+</span><span class="chifuyu">染谷千冬 : 「……俺はきっと……千秋と一緒に、生きられないんだ」
+目を閉じて、なんとか涙を堪えます。
+</span><span class="chiaki">染谷千秋 : 「……、俺が生きれる方法を探す」
+</span><span class="chifuyu">染谷千冬 : 「……探さなきゃ、見つからないんだな」
+ふ、と笑います。
+</span><span class="chiaki">染谷千秋 : ぐ、と千冬を強く抱きしめます。
+「……俺が絶対に見つける」
+</span><span class="chifuyu">染谷千冬 : 「千秋……やめよう。俺はもう、いい」
+</span><span class="chiaki">染谷千秋 : 「嫌だ！……、……千冬、ごめん。閉じ込めてごめん。ずっと千冬のこと放っててごめん」
+</span><span class="chiaki">染谷千秋 : 「千冬のこと追い詰めてごめん……」
+</span><span class="chifuyu">染谷千冬 : 「違う、俺はそれが嫌なんじゃない。追い詰められたわけでもない。……千秋が、俺を好きじゃなくなった。それだけだ」
+</span><span class="chifuyu">染谷千冬 : 「……殺さなくてもいい。本当は……なんとかして拘束を解いて、出て行くことも考えていた。でも、それだと千秋は俺を探すだろうと思った。そもそも、俺には何があったのかがわからないから……俺が死ぬことが、区切りとして一番だと思った。それでも、千秋……千秋が俺を殺したくないなら、……俺の拘束を解いてくれ。俺はこの家を出て行く。お互いに関わらず、別々に生きよう」
+</span><span class="chiaki">染谷千秋 : 「嫌だ……」
+</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span class="chifuyu">染谷千冬 : 千秋には触れず、首を振る千秋を静かに見つめます。
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「千冬は……それでいいのかよ」
+</span><span class="chifuyu">染谷千冬 : 「いい」
+</span><span class="chiaki">染谷千秋 : 「……俺が千冬を好きだとしても？」
+</span><span class="chifuyu">染谷千冬 : 「……ふ」
+</span><span class="chifuyu">染谷千冬 : 「前の千秋なら、もっと言い切っていた。態度にも出ていた。俺に聞くことも無かっただろう」
+</span><span class="chifuyu">染谷千冬 : 「……俺の願いは変わらない」
+</span><span class="chiaki">染谷千秋 : 「それは……、……」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 千冬から手を離します。
+「俺が出てく。……ここ、千冬の名前で契約してるだろ」
+</span><span class="chifuyu">染谷千冬 : 「……それは、何とでもなるんじゃないか。気にしなくていい。俺が出る」
+</span><span class="chiaki">染谷千秋 : 「いや。俺が出る。……それが条件だ」
+</span><span class="chifuyu">染谷千冬 : 「……まあ、そうだな。千秋が出てもいいならそうする。契約をやめる手続きをしたら、俺もどこかに行く」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 手錠の方に伸ばした手を空で止めます。そのまま部屋から出ていき、キッチンに向かいます。
+</span><span class="chiaki">染谷千秋 : 「……」
+包丁を取り出してじっと見つめます。しばらくした後、包丁を片手に部屋に戻ります。
+</span><span class="chiaki">染谷千秋 : 「俺たち、どうしてこうなっちゃったんだろうな」
+</span><span class="chiaki">染谷千秋 : 「俺は千冬のことが大好きで、千冬もそうだったはずなのに」
+</span><span class="chiaki">染谷千秋 : 「俺たちはただ、生きたかっただけだ。……そうだよな」
+</span><span class="chifuyu">染谷千冬 : 「……」
+何も話しません。
+</span><span class="chiaki">染谷千秋 : 袖を捲くり、包丁を腕につきたてます。血が腕から溢れでて、重力に従って手の方へと伝います。千冬の口を掌で掴み、血を飲ませます。
+</span><span class="chiaki">染谷千秋 : 「ごめん、千冬」
+そのまま、千冬の腹に包丁をつきたてます。
+</span><span class="chiaki">染谷千秋 : 「俺、どうすれば千冬を殺せるかも分からないんだ」
+</span><span class="chiaki">染谷千秋 : 「千冬に生きててほしかった。ただ、それだけだった」
+</span><span class="chiaki">染谷千秋 : 「……ごめん」
+千冬の腹から包丁を抜きます。
+</span><span class="chifuyu">染谷千冬 : 「……！」
+千秋の掌の下で、もがもがと口を動かします。
+
+</span><span class="kp">千秋は1d4+2+1d4どうぞ。
+
+</span><span class="chiaki">染谷千秋 : 1d4+2+1d4 (1D4+2+1D4) ＞ 2[2]+2+2[2] ＞ 6
+</span><span class="chifuyu">[ 染谷千冬 ] HP : 13 → 7
+
+</span><span class="kp">あなたが刺した包丁は千冬の腹を深く抉った。一見、体の組織は同じように見える。しかし、数秒経つとぼこりぼこり、と内側から何かが蠢いているのが分かる。どうやらじわじわと傷が塞がれているようだ。
+
+</span><span class="chifuyu">[ 染谷千冬 ] HP : 7 → 9
+</span><span class="chiaki">染谷千秋 : その傷を見て、息を吐きます。千冬の口に指を突っ込みながら続けます。
+「千冬はあの研究所で一回死んでる」
+</span><span class="chiaki">染谷千秋 : 「千冬が攫われてしばらくして、俺の元に一匹の化物が来たんだ。人の形を真似ることができる化物で、俺に助けを求めてた。それで俺たちは研究所に向かったんだ」
+</span><span class="chiaki">染谷千秋 : 「……けど、俺たちが研究所についたときにはもう、……千冬は死んでた。……化物に食われたんだ。頭だけが残ってる状態だった。誰が見ても分かる。死んでるんだって」
+</span><span class="chiaki">染谷千秋 : 「呆然とする俺に化物は言った。千冬の頭部を取り込めば、助けれるかもしれないって。……生まれたばかりの自分と千冬なら、千冬の自我が勝つかもしれないって」
+</span><span class="chiaki">染谷千秋 : 「俺はそれに乗った。千冬の頭部をその化物に食わせた。……後は、千冬の知る通りだ。化物の言った通り、千冬の人格が勝ったんだ」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「意識してないだけで千冬はもう人じゃないんだ。千冬の身体は無意識でセーブしてるみたいだけどな」
+</span><span class="chiaki">染谷千秋 : 「この拘束、解けないように見えるだろ？　けど、本来その身体は、こんな拘束、すぐ壊せるはずなんだ」
+</span><span class="chiaki">染谷千秋 : 「それに千冬、帰ってきてからずっと眠り浅いだろ。きっとそれも、人じゃなくなったせいだ」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「千冬の身体が怪物だって自覚したら、千冬の人格が消えるかもしれないと思った」
+</span><span class="chiaki">染谷千秋 : 「人格が残っても、俺と千冬じゃもう身体の造りが違う。……人じゃないことを自覚した千冬の身体がどう変わっていくかも分からない」
+</span><span class="chiaki">染谷千秋 : 「……それで閉じ込めたんだ。怪我したら気付くかもしれない。外は何があるか分かんねーし、家もそうだ。千冬に気付かれる可能性を極力なくしたくて、監禁することにした。……結局、こうなっちゃったけどな」
+</span><span class="chiaki">染谷千秋 : 「部屋に籠もってたのと、ベッドに戻らなかったのは、やりたいことがあった。千冬を元に戻す手段がないか調べてたんだ。寝る時間も惜しかった。千冬が嫌になったとか、好きじゃなくなったとかじゃない」
+</span><span class="chiaki">染谷千秋 : 「……千冬を元に戻して、それで一緒に死にたかった。それが千冬を勝手に生き返らせた俺の、やるべきことだと思ったんだ」
+</span><span class="chiaki">染谷千秋 : 「……。正直、まだ千冬を元に戻す手段は見つけられてない。けど、進捗がゼロってわけでもないんだ。その身体の特性、亜種、上位種族、やれること苦手なこと、……魔術だって。次の調査の目処もある。……まだ、諦めたくない」
+</span><span class="chiaki">染谷千秋 : 「キスしなかったのは……何でだか俺にも分からない。あんま意識してなかった。……けど、後ろめたかったのかもしれない。俺のわがままでこうなったから」
+</span><span class="chiaki">染谷千秋 : 「……結局、俺は覚悟できてなかったのかもな。千冬と死ぬ覚悟が足りなかった」
+</span><span class="chiaki">染谷千秋 : 千冬の口に入れていた指を抜きさり、口付けします。舌で口内をかきまわしてから離します。口の周りについた血を舐めとります。
+「あんま美味くねーな。その身体の持ち主は、人の食べ物よりそっちの方が美味いって言ってたぜ。……千冬には聞いたことなかったな」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「千冬のこと、今でも愛してる。ずっと好きだ。世界で一番大好きだ。千冬のためなら何でもできる。千冬と二人で生きていたい。千冬と死ぬまで一緒にいたい。千冬と死にたい」
+</span><span class="chiaki">染谷千秋 : 「その身体になっても、俺は千冬を千冬だと思ってる。千冬が千冬である限り、俺は千冬のことが好きだ。誰よりも千冬の幸せを願ってる。千冬が人のまま穏やかに生きて、笑って死ねる世界であればいいと思う」
+</span><span class="chiaki">染谷千秋 : 「……千冬が俺の言葉を信じられないならそれでいい。家を出たいっていうんなら止めない。関わりを絶ちたいならそれでもいい」
+</span><span class="chiaki">染谷千秋 : 「……けど、居場所だけは教えてくれ。元に戻す方法が分かったら連絡したいんだ」
+</span><span class="chiaki">染谷千秋 : 「……それでも千冬が死にたいっていうんなら、……死ねる方法を探す。だから……、お願いだ」
+血の付いた千冬の唇を親指で拭います。
+</span><span class="chifuyu">染谷千冬 : 「……俺は、人間じゃなくなってたんだな……」
+</span><span class="chifuyu">染谷千冬 : 「千秋の言葉、信じられるか分からない。……むしろ、千秋はやっぱり俺のことが、好きじゃないと思う。俺が人間じゃないから、俺が一度死んだから、千秋は俺を俺だと思ってないんじゃないかって……だから、ため息をついて、俺と話さなくなって、触れなくなって、会わなくなったんだって……千秋がそう思ってなくても、無意識にそう感じてるんだって、そのほうが納得できる。……でも、」
+</span><span class="chifuyu">染谷千冬 : 「……でも、信じたいって、思ってしまうんだ。千秋が、好きだから……っ、……俺はずっとずっと、千秋が大好きだ。千秋が、俺を好きじゃなくても、俺は千秋がずっと好きだ。ずっと、触れたかった、キスしたかった……！」
+言葉を詰まらせながら喋ります。涙がぼとりぼとりと溢れ落ちます。
+</span><span class="chifuyu">染谷千冬 : 「……わからない。千秋に気を使ってほしくない、無理をしてほしくない。そう思うと、俺が死ぬのが一番良いと思う。……でも、生きていたい……いや、俺はずっと、生きていると思っていたし、生きたいんだ。でも千秋が……生きたかったって言うなら、やっぱり俺は、千秋にとっては死んでるんだ。……なら、俺の存在は間違いだろう、きっと千秋は受け入れられないんだろうって思う……」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……自覚があまり無いからかもしれないが、千秋の話を聞いても、元の人間に戻りたいとは思わなかった。……俺はずっと、いつも通りなんだ。それより、千秋のほうが心配だ」
+</span><span class="chifuyu">染谷千冬 : 「千秋……本当に千秋にとって、俺は俺、……千秋の知る、染谷千冬……のままなのか？　本当に、同じなのか？」
+</span><span class="chiaki">染谷千秋 : 千冬の目から溢れる涙を掬いとり、何度も口付けをします。
+「千冬は千冬だ。何も変わらない。俺の一年前に生まれて、一緒に生きてきた千冬だ。俺がずっと大事に思ってきた千冬だ。……そう思ってる」
+</span><span class="chiaki">染谷千秋 : 「……。あの時はそう思ってた。……、……けど、分かんなくなったんだ。これが俺の本心なのか、俺がそう思いたいだけなのか、……」
+</span><span class="chiaki">染谷千秋 : 「分かんねーよ……」
+顔を伏せます。これ以上千冬を血で汚してしまわないように片手で抱きしめ、肩に顔を埋めます。
+</span><span class="chiaki">染谷千秋 : 「帰ってからずっと、俺を責める言葉が聞こえる。……、……あの時死ぬべきだった、お前の選択は間違いだ、人として生きたかった、人として死にたい、元の姿に戻りたい。千冬の声で聞こえる。幻聴だ。頭では分かってる。……千冬はそんなこと言ってない、そんなこと言わない」
+</span><span class="chiaki">染谷千秋 : 「じゃあ誰の言葉だ？……俺の頭が作り出してんだ。……、千冬のことが大事だ。どうなっても千冬は千冬だ、人じゃなくなったって何も変わらない。ずっとずっと愛してる。大好きだ。そう思ってる。……、……そう思うのに、そう思いてーのに、頭に浮かぶのは別の言葉なんだ。……、……どっちが俺の本心なのか、俺にも分かんねー……」
+</span><span class="chiaki">染谷千秋 : 「分かんねーよ！千冬が死んでるわけないだろ……！俺はずっと生きてると思ってる！千冬は千冬だ！……っ、……けど、このままでいいはずがない。人として死にたいって、うるさい。……分かんねえ」
+千冬の身体を痛くなるほど抱きしめます。
+「……はっきり言えなくてごめん。……けど、千冬が大切で、俺の家族で、愛してることだけは変わんない。信じてくれ、千冬……」
+</span><span class="chifuyu">染谷千冬 : 「……そう、か……」
+恐る恐る、千秋の頭に手を伸ばします。優しく触れて、何度も撫でます。
+「ごめん、千秋……気づけなくて。千秋も、悩んでたんだな。千秋が言いたくないから聞かない、じゃなくて……俺はもっと、千秋と話をする必要があったんだ。……ごめん」
+</span><span class="chifuyu">染谷千冬 : 「……時間が、必要だな。千秋が責められているように感じる時は、千秋は間違ってない、人に戻りたいとは思わない、って、何度でも言う。俺の言葉で。千秋がそれを、信じられるようになるまで」
+</span><span class="chifuyu">染谷千冬 : 「……俺がそう思ってるって、信じられるようになった時……責められているように感じなくなった時に、千秋が俺に対して少しでも、俺を俺だと思えないところがあれば、その時に俺は死のう。……刺された時、ちゃんと痛かった。何度も刺されたら、死ねると思う。……なんとなく。もしくは窒息とか……？」
+</span><span class="chifuyu">染谷千冬 : 「それか……『俺を人に戻して、一緒に死ぬ』、これが千秋が責められているように感じることとは関係なく、千秋の本心で思っていたことなら。死ぬべきだと思っていたのなら……今、俺が死ねる方法を探そう。人に戻る必要はないだろう。少し、寂しいが……俺と一緒に死んでくれ」
+</span><span class="chifuyu">染谷千冬 : 「……俺が、拐われたから。千秋に重たいものを背負わせてしまって、ごめん……」
+</span><span class="chifuyu">染谷千冬 : 「……千秋、どう思う？　俺は、人じゃないままでも生きていていいか？　それとも死ぬべきだろうか？」
+</span><span class="chifuyu">染谷千冬 : 「……それも分からないなら、時間をかけて答えを探そう。だから、急がなくていい。千秋……どうだ？」
+頭を撫で続けながら、空いた片腕を千秋の背に回します。
+</span><span class="chiaki">染谷千秋 : 千冬の言葉を聞いて首を左右に振ります。
+「千冬のせいじゃない。俺のせいだ……」
+</span><span class="chiaki">染谷千秋 : 「生きていいに決まってる。……そいつの提案に乗ったのは俺なんだ。千冬に死んでほしくない。……千冬に生きていてほしい」
+千冬の目尻に口付けをします。
+</span><span class="chiaki">染谷千秋 : 「……けど、千冬は本当にいいのかよ。今は自覚できてないからいいかもしんねー。……それでも、これから何が起こるか分かんねーんだぞ」
+</span><span class="chiaki">染谷千秋 : 「……怪我しても病院に行けない。人に気付かれたら騒ぎになる可能性もある。寿命だって分からない。人と同じ生活をした結果、その身体に及ぼす影響も見えてない。分からねーことだらけだ」
+</span><span class="chiaki">染谷千秋 : 「……、いつか突然、千冬の自我がなくなるかもしれない。それでも、戻る必要がないって思うのか」
+</span><span class="chiaki">染谷千秋 : 「……、俺は嫌だ、……」
+</span><span class="chiaki">染谷千秋 : 「人の身体でも、そうじゃなくても関係ない。千冬が千冬でいれんなら、千冬が千冬として生きていけんなら、俺は嬉しい。けど、そうならない日が、……明日にでも来るかもしんねーんだ。……それでもいいのか」
+</span><span class="chifuyu">染谷千冬 : 「千秋のせいじゃない。絶対、違う。自分を責めるな。俺は千秋に感謝している」
+力強く首を振ります。
+</span><span class="chifuyu">染谷千冬 : 「……俺は死んだんだろう。なら、今から人に戻ったって、同じだ。本当に人に戻ったのか？　いつまで体が持つのか？　自我が無くなることはないのか？　心配は尽きない。……俺が死んだ事実は、変わらないからだ。だから、完全に戻ることは無い。なら、俺の体がおかしくなったり、俺の自我が無くなったりしたら、それまでだ。むしろ、今がおまけみたいなもので……それ以上は望まない」
+</span><span class="chifuyu">染谷千冬 : 「……人に戻す方法、人を生き返らせる方法が簡単に見つかるわけがない。それを探す過程で、千秋が身を削ったり、危ない目に遭ったりするほうが、絶対に嫌だ。俺はそうまでして生きたくない。千秋を危険な目に遭わせたくない。だったら、俺は死んだほうがいい。……だから殺してくれと頼んだんだ」
+</span><span class="chifuyu">染谷千冬 : 「……怪我をしても病院に行けないと言うが、そもそも行く必要が無いんじゃないか？　今も……塞がってる。オトクだな」
+刺された部分を見せます。
+</span><span class="chifuyu">染谷千冬 : 「……俺は、このままでいい。あの場所で死んでいたはずの俺に、機会を与えてくれてありがとう、千秋。だから、千秋さえよければ……千秋が俺を俺だと信じられなくなる時まで、千秋にとって俺が要らなくなる時まで……千秋と一緒に生きたい」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】受け入れる　やだ (1D100<=80) ＞ 33 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】今　時間をかけて (1D100<=80) ＞ 88 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「千冬が要らなくなる日なんて、……絶対に来ない。……千冬……」
+千冬を抱きしめる腕に力を込めます。
+千冬が明日いなくなるかもしれない恐怖と、今まで千冬との触れ合いを蔑ろにしてきた後ろめたさの間で気持ちがゆらぎます。
+</span><span class="chiaki">染谷千秋 : 「俺は、……、千冬に生きていてほしい。……ずっと。完全に戻れる手段が見つかるまで、探すのだって苦じゃない」
+</span><span class="chiaki">染谷千秋 : 「……けど、千冬がそういうんなら、……分かった」
+千冬を抱きしめる腕から力を抜きます。
+</span><span class="chiaki">染谷千秋 : 身体を少し離して千冬の顔を見ます。額同士をあわせ、その目を見つめます。
+「……千冬」
+</span><span class="chifuyu">染谷千冬 : 「……それは、千秋が身を削らない……つまり寝る間を惜しんで調べ物をしない、ちゃんと食べ物を摂る、危険なことをしない、という意味で合っているか」
+</span><span class="chiaki">染谷千秋 : choice そう 違う (choice そう 違う) ＞ そう
+</span><span class="chiaki">染谷千秋 : 「……。ああ、……」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……これからは、そうする」
+</span><span class="chifuyu">染谷千冬 : 「……よかった」
+こっそり包丁に手を伸ばしていましたが、離します。
+</span><span class="chiaki">染谷千秋 : え！？
+</span><span class="chifuyu">染谷千冬 : え？
+</span><span class="chiaki">染谷千秋 : なに？！
+</span><span class="chiaki">染谷千秋 : 自殺はゆるしまへんで
+</span><span class="chifuyu">染谷千冬 : 離しました。今包丁は千冬の腹の横あたりに置かれたままだと思います。
+</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 45 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……今何しようとしてた」
+</span><span class="chifuyu">染谷千冬 : 「千秋が頷かないなら死のうと思った」
+</span><span class="chiaki">染谷千秋 : 「……。ごめん」
+眉を微かに寄せて、千冬に口付けします。
+</span><span class="chifuyu">染谷千冬 : 「謝るな」
+</span><span class="chiaki">染谷千秋 : 首を左右に振り、何度も口付けます。
+「ごめんな、千冬。……好きだ、千冬が大好きだ。愛してる。ごめん」
+</span><span class="chifuyu">染谷千冬 : 「謝るなと言っているだろう」
+千秋を両腕で抱きしめます。
+</span><span class="chiaki">染谷千秋 : 「……」
+眉を寄せたまま目を伏せます。
+</span><span class="chiaki">染谷千秋 : 「前の千冬なら、……そう簡単に死のうとしなかった」
+</span><span class="chiaki">染谷千秋 : 「俺がそうさせたんだ。……ごめん」
+千冬の後頭部に手を添えて、唇をあわせます。
+</span><span class="chifuyu">染谷千冬 : 「違う。千秋は関係ない。俺がもう死んでいて、俺よりも千秋が大事だからだ」
+</span><span class="chiaki">染谷千秋 : 「……、俺だって千冬が大事だ」
+千冬を抱きしめ、布団に横になります。千冬の顔をじっと見つめます。
+</span><span class="chiaki">染谷千秋 : 「千冬の顔、……じっくり見るの、久々だ」
+千冬の頬に触れます。形を一つ一つ確かめるように指先で輪郭をなぞります。
+</span><span class="chifuyu">染谷千冬 : 「……」
+目を逸らします。
+「……千秋、無理しなくていい」
+</span><span class="chiaki">染谷千秋 : 「……。……無理？」
+悲しげに千冬を見つめます。
+</span><span class="chifuyu">染谷千冬 : 「……心の整理がついていないだろう。今、無理して俺に触れなくていい」
+</span><span class="chiaki">染谷千秋 : 「……そうだな。整理できてない」
+</span><span class="chiaki">染谷千秋 : 「……だからこそだ。一人で考えてるだけじゃだめだと思った。……頭ん中でごちゃごちゃ考えるより、千冬に向き合うべきだった」
+</span><span class="chiaki">染谷千秋 : 「千冬に触れて、千冬と話して、……千冬が千冬かどうかは、そこから考えればよかった」
+</span><span class="chiaki">染谷千秋 : 「……今、久々に頭ん中が静かなんだ。目の前に千冬がいて、千冬は千冬なんだって感じる」
+</span><span class="chiaki">染谷千秋 : 「千冬に触れたい。……なあ、ダメ？」
+千冬の方へ身体を寄せて顔を近づけます。
+</span><span class="chifuyu">染谷千冬 : 「……、いい……」
+顔を逸らしながらも、千秋のほうをちろりと見ます。
+</span><span class="chiaki">染谷千秋 : 千冬と目を合わせてふ、と笑います。
+千冬の頬に口付けをして、身体を起こし、キスの雨を降らせます。
+「千冬、好きだ。大好きだ。遠回りしてごめん。……でも、千冬と生きれることが何よりの幸せなんだ。愛してる。千冬、好きだ。千冬、」
+</span><span class="chifuyu">染谷千冬 : 抱きしめていた腕を解いて、やっぱり顔を逸らしています。
+「……俺も大好きだ、千秋」
+</span><span class="chiaki">染谷千秋 : 「なあ、顔見たい」
+千冬の手を握り、ベッドへ押さえつけます。上から覗き込む形で尋ねます。
+</span><span class="chifuyu">染谷千冬 : 「……」
+千秋のほうを向き、まっすぐに見つめます。
+</span><span class="chiaki">染谷千秋 : 「やっとこっちみた」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : ちゅ、と音を立てて口付けをします。
+「……声聞かせてくんねえの？」
+</span><span class="chifuyu">染谷千冬 : 「……俺は、千秋の気持ちが落ち着くまで、自分の気持ちは抑えたい」
+</span><span class="chifuyu">染谷千冬 : 「……そう思っているのに、久しぶりに千秋に触れられて、嬉しくて、……心臓がドキドキする。今にも口から飛び出そうだ。だから、何も言えない」
+</span><span class="chiaki">染谷千秋 : 「はは、かわいーの」
+</span><span class="chiaki">染谷千秋 : 「よかった。……勝手なことして、千冬に呆れられてんのかと思った」
+</span><span class="chifuyu">染谷千冬 : 「……？　俺が、こんなことで千秋に呆れるわけない」
+</span><span class="chiaki">染谷千秋 : 「でも、愛想つかしたろ？」
+</span><span class="chifuyu">染谷千冬 : 「……愛想がつきたことなんて一回も無いが。何を言っているんだ？」
+</span><span class="chiaki">染谷千秋 : 「へえ？ならどう思ってんの？」
+</span><span class="chifuyu">染谷千冬 : 「ずっと好きだ。大好きで、愛してる。その気持ちが変わったことはない。一回も」
+</span><span class="chiaki">染谷千秋 : 千冬の言葉を聞いて満足気に笑います。
+「俺も千冬のことがずっと好きだ。世界で一番愛してる。千冬がいない人生なんて考えられない。大好きだ。……なあ、千冬の言葉もっと聞きたい」
+</span><span class="chifuyu">染谷千冬 : 「……その言葉は、今の俺に言わなくていい。やめてくれ。……期待してしまう。俺は千秋の気持ちを大事にしたい」
+</span><span class="chiaki">染谷千秋 : 「俺の本心だ。……目の前の千冬に言ってんだけど？」
+ちゅ、と音を立ててもう一度千冬の唇にキスします。鼻先に口付けをして千冬の目を見ます。
+</span><span class="chifuyu">染谷千冬 : 「……っ」
+涙目になり、鼻をずず、と鳴らします。
+「違う……千秋は俺を、俺と思いたいだけかもしれないんだろう。まだ分からないから……だから……やめろ……」
+</span><span class="chiaki">染谷千秋 : 千冬の瞼に口付けをします。
+「そうだな。……さっきまではそう思ってた。幻聴の方が俺の本心で、千冬を大切に感じる気持ちが現実逃避なんじゃないかって」
+</span><span class="chiaki">染谷千秋 : 「……けど、頭ん中静かになって、千冬に触れて、……それでも千冬を大事だって思うんだ」
+千冬の頬に口付けをします。
+</span><span class="chiaki">染谷千秋 : 「俺のこと思って自分の気持ち押し殺そうとすんのも、兄らしく振る舞おうとすんのも、全部愛しい。千冬は千冬のままだ。俺の大事な家族だ」
+鼻先に口付けします。
+</span><span class="chiaki">染谷千秋 : 「大好きだ。千冬。……正直、千冬がそのままでいいかは、まだ分かんない。元の身体の方が都合良いんじゃねーかって思う。けど、千冬を愛おしく感じる気持ちは本当だ。千冬を愛してる。……それじゃ、駄目？」
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 63 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「……駄目、じゃない……千秋がそう思ってくれるなら、俺は……、……本当に……？」
+</span><span class="chiaki">染谷千秋 : 「ああ。……触る？」
+千冬の手を握り、自らの胸に持っていきます。
+</span><span class="chiaki">染谷千秋 : ドクドクと高鳴る心臓の音を聞かせます。
+「ほら、……千冬にドキドキしてる」
+千冬の耳に口付けします。
+</span><span class="chifuyu">染谷千冬 : 「……、千秋……！」
+</span><span class="chifuyu">染谷千冬 : 「千秋が好き、千秋が大好き、愛してる。……千秋に触れたい。千秋とキスがしたい。千秋がほしい。千秋と一緒ににいたい。一緒にご飯を食べたい。千秋と一緒に寝たい。千秋……千秋が好き……」
+千秋の体に手を回して引き寄せ、力強く抱きしめます。
+</span><span class="chiaki">染谷千秋 : 千冬の言葉をひどく嬉しそうに聞いています。
+「俺も千冬が好きだ。愛してる。……今までごめんな。今日から一緒に飯食おう。一緒の部屋で寝よう。俺も千冬に触れたい。千冬とセックスがしたい」
+身体をぴったりとくっつけ、千冬の頭を撫でます。
+</span><span class="chifuyu">染谷千冬 : 「……ああ……千秋、ありがとう。大好き……」
+ぴったり合わせた体を擦って、ようやく微笑みを浮かべます。
+</span><span class="chiaki">染谷千秋 : 「俺も大好き。ふ、……やっと笑った」
+千冬の唇を撫でながら言います。
+</span><span class="chifuyu">染谷千冬 : 「……嬉しいんだ」
+</span><span class="chiaki">染谷千秋 : 「……」
+微笑みながら千冬の頭を撫でます。
+</span><span class="chiaki">染谷千秋 : CCB<=80 【幸運】ウェットティッシュが近くにある　ない (1D100<=80) ＞ 37 ＞ 成功
+</span><span class="chiaki">染谷千秋 : ウェットティッシュを数枚取り、血だらけになってしまった千冬の口周りを拭きます。
+「俺も嬉しい。……なあ千冬、したい」
+</span><span class="chifuyu">染谷千冬 : 「ん……俺も、したい」
+</span><span class="chiaki">染谷千秋 : 千冬に深く口付けしながら、服の上から千冬の存在をたしかめるように、身体の輪郭をなぞるように触れていきます。
+</span><span class="chifuyu">染谷千冬 : 「……っ、ふ……」
+合わせた唇から息を漏らします。千秋の服の下に手を差し入れて、素肌にぺたりと手のひらを当てます。
+</span><span class="chiaki">染谷千秋 : かぷ、と千冬の頬を甘噛みしてから舐めます。
+服の上からゆったりと千冬の胸を刺激し、同時にオムツの存在を思い出してくすりと笑います。
+</span><span class="chifuyu">染谷千冬 : 「……何に笑ったんだ？」
+</span><span class="chiaki">染谷千秋 : 「んー？いや、……不便かけたと思ってさ」
+ズボンの上から下着のラインを指先でひっかきます。
+</span><span class="chifuyu">染谷千冬 : 「……本当だ」
+む、と膨れています。
+</span><span class="chiaki">染谷千秋 : 「悪かったよ。……今外してやるから」
+ちゅ、と額に口付けます。ズボンをずりさげてぺりぺり剥がします。
+</span><span class="chifuyu">染谷千冬 : 「……自分でやる。あと、シャワーも浴びてくる。拘束を解いてくれ」
+</span><span class="chiaki">染谷千秋 : 千冬の唇に口付けします。
+「俺がやりたい。風呂もいい。……早く千冬が欲しい」
+じ、と千冬を見ます。
+</span><span class="chifuyu">染谷千冬 : ふう、と息を吐きます。
+「……わかった」
+</span><span class="chiaki">染谷千秋 : 「や？」
+耳に息を吹きかけ、服の上から千冬の胸を揉みます。
+</span><span class="chifuyu">染谷千冬 : 「……っ、嫌じゃなくはない、けど、千秋がしたいなら、いい……」
+</span><span class="chiaki">染谷千秋 : かぷ、と耳を噛みます。服の上から乳頭の位置をカリカリと引っ掻きます。
+「なんでやなの」
+</span><span class="chifuyu">染谷千冬 : 「……恥ずかしい、だろう……」
+</span><span class="chiaki">染谷千秋 : 「もう何度も見てんのに？」
+</span><span class="chifuyu">染谷千冬 : 「慣れるわけ……っ、ない、こんなところの世話を焼かれるのは、恥ずかしい」
+</span><span class="chiaki">染谷千秋 : 「千冬可愛い。……なら先に取ろうな。腰上げて」
+</span><span class="chifuyu">染谷千冬 : 「……」
+言われた通りに腰を上げます。
+</span><span class="chiaki">染谷千秋 : オムツを取り、畳みます。近くにあるゴミ袋に捨てます。千冬の下半身を拭く前に、思いついたように匂いを嗅ぎます。
+「蒸れてたからいつもより千冬の匂い濃いな」
+</span><span class="chifuyu">染谷千冬 : 「や……やめろ」
+顔を更に紅潮させて、耐えられずに目を逸らします。
+「千秋、シャワー浴びたい……」
+</span><span class="chiaki">染谷千秋 : 「終わったらな」
+下半身をウェットティッシュで優しく拭きます。済んだものをゴミ袋に入れて、千冬の唇に一度軽いキスをします。
+その後唇を深く合わせ、千冬の口内を味わいます。
+</span><span class="chifuyu">染谷千冬 : 「ん、んぅ……」
+もじもじと体を捩った後、観念して千秋の脇腹に両手を添え、千秋と舌を交わします。
+</span><span class="chiaki">染谷千秋 : 「ん……」
+千冬の目をじっと見ながら唇をあわせ続けます。この半年していなかった分を取り戻すように深く長いキスをします。
+</span><span class="chifuyu">染谷千冬 : 「……は、はぁ……千秋……んん……」
+涎を口の端から零しながらも、千秋を求めます。
+</span><span class="chiaki">染谷千秋 : 千冬の両頬を抑え、親指の腹で労わるように頬を撫でながら口付けを続けます。
+「千冬、好きだ、大好きだ」
+口付けの最中、愛の言葉を囁き続けます。
+</span><span class="chifuyu">染谷千冬 : 「俺も……千秋、好き……」
+気がつけばまた涙を流しながら、口づけの合間に答えます。
+</span><span class="chiaki">染谷千秋 : 親指で千冬の涙を拭います。何度も角度を替えて口付けを深くします。
+</span><span class="chifuyu">染谷千冬 : 「……は、……っ、ふ……」
+</span><span class="chiaki">染谷千秋 : 千冬の手に手を重ね、握ります。長い長い時間をかけて千冬を求めます。
+</span><span class="chifuyu">染谷千冬 : 弱々しく手を握り返します。
+</span><span class="chiaki">染谷千秋 : 手を離して千冬の身体を抱きしめます。横になり、後頭部を抑えて千冬の目を見ながら口付けをします。
+</span><span class="chifuyu">染谷千冬 : 目を閉じていましたが、千秋にずっと見られていることに気づいて、キスの間も見つめ返します。千秋の背に腕を回します。
+</span><span class="chiaki">染谷千秋 : 唇を離して千冬の顔をじっと見ます。
+</span><span class="chifuyu">染谷千冬 : 「……千秋？」
+</span><span class="chiaki">染谷千秋 : 「何？」
+</span><span class="chifuyu">染谷千冬 : 「ずっと見てるから」
+</span><span class="chiaki">染谷千秋 : 「見たくなった」
+千冬の頬をすりすりと撫でます。
+</span><span class="chifuyu">染谷千冬 : 「そうか」
+</span><span class="chiaki">染谷千秋 : 千冬の手を握りながら見続けます。
+「半年分取り戻したい」
+</span><span class="chifuyu">染谷千冬 : 「……そうか」
+</span><span class="chifuyu">染谷千冬 : 「……俺も、千秋をいっぱい見れて嬉しい」
+</span><span class="chiaki">染谷千秋 : 「そっか」
+ふ、と息を吐いて笑います。
+抱きしめたり、背中を撫でたり、さすったりします。
+</span><span class="chifuyu">染谷千冬 : 「……」
+片手で千秋の背を擦ります。
+</span><span class="chiaki">染谷千秋 : 「千冬、好き」
+千冬の腕を取り、甘えるように首筋に顔を埋めます。
+千冬の頭を引き寄せて自分の首筋に近づけさせます。
+ぽんぽんと頭を撫でながら口づけします。
+</span><span class="chifuyu">染谷千冬 : 「俺も好きだ」
+変わらず背を撫で続けながら答えます。
+</span><span class="chiaki">染谷千秋 : 目を細めて微笑みます。千冬の唇を甘く噛みます。何度も何度も唇を繰り返し重ね、舌を合わせます。しばらくしてから顔を離してくすりと笑います。
+「……こんだけキスすると、唇ふやけちゃいそうだな」
+</span><span class="chifuyu">染谷千冬 : 「……ふ。ふやけるまでしたい」
+</span><span class="chiaki">染谷千秋 : 「ふ、そーかよ。……」
+変わらず口付けては離します。
+「……千冬。もし千冬が俺の立場だったら、……どうしてた？」
+</span><span class="chifuyu">染谷千冬 : 「……どうしてたって、何がだ？」
+</span><span class="chiaki">染谷千秋 : 「研究所で同じ選択を迫られてたら。……どっち選んだ？」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……分からない、が……たぶん、俺なら……千秋と同じ選択は、選べなかった」
+</span><span class="chiaki">染谷千秋 : 「うん」
+千冬の頭を撫でながら話を聞いています。
+</span><span class="chifuyu">染谷千冬 : 「……俺だったら、怖くてできなかった。……」
+</span><span class="chifuyu">染谷千冬 : （……たぶん、その後の千秋を、千秋だと信じられなかった。その時は、……いや、今も……俺は、本当に俺なのだろうか、……）
+</span><span class="chifuyu">染谷千冬 : 「……、それで、俺も死んだんだろうな」
+</span><span class="chiaki">染谷千秋 : 「怖いって、何が？」
+千冬の腰を引き寄せて内緒話をするように尋ねます。
+</span><span class="chifuyu">染谷千冬 : 「……言葉にできないが、……たぶん、その状況を受け入れる勇気が無かった。それで怖がって、何もできない」
+</span><span class="chiaki">染谷千秋 : 「千冬が？……そっか」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「千冬さ、さっき……、俺にとって千冬が要らなくなる時まで生きたい、って言ったけど、それ関係なしに考えたらどうなの」
+</span><span class="chiaki">染谷千秋 : 「……千冬は生きたい？」
+</span><span class="chifuyu">染谷千冬 : （……）
+</span><span class="chifuyu">染谷千冬 : 「……千秋、早く、したい……」
+千秋の腰に手を這わし、自分の体をすり、と寄せます。
+</span><span class="chiaki">染谷千秋 : 腰に這わされた手に指を絡ませます。その手を緩く握って静止させ、何も話さないまま千冬を見つめています。
+</span><span class="chifuyu">染谷千冬 : 「……」
+何も話しません。千秋の瞳をじっと見ています。
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 87 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : choice 今すぐ あとで (choice 今すぐ あとで) ＞ あとで
+</span><span class="chiaki">染谷千秋 : 「……」
+千冬に口づけします。足を絡ませ、千冬の腕を自らの首に回します。
+</span><span class="chiaki">染谷千秋 : ローションを取り出して掌で温めます。後孔の周囲に手を忍ばせ、口付けを続けながら中指で周辺を解します。
+</span><span class="chifuyu">染谷千冬 : 心臓をドキドキと高鳴らせながら、千秋の首に回した腕を狭めて、千秋を引き寄せ口づけます。
+</span><span class="chiaki">染谷千秋 : 千冬の身体中に口付けながら中を解していきます。十分に解した後、千冬の顔をじっと見つめます。
+「千冬……」
+</span><span class="chifuyu">染谷千冬 : じ、と千秋を見つめています。
+</span><span class="chiaki">染谷千秋 : 「千冬、いい？」
+千冬の額に額をあわせて尋ねます。
+</span><span class="chifuyu">染谷千冬 : 「ああ、千秋……」
+
+</span><span class="kp">千冬が僅かに首を上下させて頷く。
+千冬の綻んだ顔を見るのはいつぶりだろうか。赤らんだ顔で、数えられないほどの口づけを繰り返す。
+半年の期間を埋めるように、深く、長く、あなたたちは繋がり、互いを求め合った。
+
+・・・
+
+</span><span class="chiaki">染谷千秋 : 千冬を抱きしめながら日が変わるまで他愛無い話をします。千冬が最近読んでいた本の話、バイト先で起こった笑い話、世間で話題になってるニュース、調査中によく出てくる謎の広告の話などを話します。
+</span><span class="chiaki">染谷千秋 : 千冬の温もりを感じながらしばらく過ごし、ふと思いついたような口ぶりでぽつりと言います。
+「……な、死んじゃおっか」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「……心の整理がついたのか？」
+</span><span class="chiaki">染谷千秋 : 「ああ」
+</span><span class="chiaki">染谷千秋 : 「『千冬』がもういいって言うんなら、俺ももういいや」
+</span><span class="chifuyu">染谷千冬 : 「……、どういう、事だ？」
+</span><span class="chiaki">染谷千秋 : 「？そんままの意味だぜ」
+</span><span class="chifuyu">染谷千冬 : 「……？」
+</span><span class="chifuyu">染谷千冬 : 「俺がさっき、もういいと言ったのは……千秋がもう俺を好きじゃないなら、の話だ。……そういう事なのか？」
+</span><span class="chiaki">染谷千秋 : 「……？いや、好きだぜ」
+頭にはてなを浮かべながら答えます。
+</span><span class="chifuyu">染谷千冬 : 「……？」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……さっき、俺の問いに答えなかっただろ。生きたくないって意味じゃねーの？」
+</span><span class="chifuyu">染谷千冬 : 「……違う。……答えたくなかったから、答えなかった」
+</span><span class="chiaki">染谷千秋 : 「……」
+きょとんとした顔で千冬のことを見てます。
+</span><span class="chiaki">染谷千秋 : 「俺の考えはさっきと変わんない」
+</span><span class="chiaki">染谷千秋 : 「千冬が千冬である限り、俺にとって『千冬』は千冬だ。そんな『千冬』と生きたい」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……正直、『千冬』が本当に千冬なのか、そうじゃないのか。俺には判断つかない。……考えても仕方ねーことだと思ってる。神でもなきゃ、実際の所は分かんねーだろうし」
+</span><span class="chiaki">染谷千秋 : 「けど俺は、『千冬』を千冬だと思う。俺の大事な家族だ。『千冬』のことが大切だ。『千冬』と生きたい」
+</span><span class="chiaki">染谷千秋 : 「……仮にさ。『千冬』が千冬じゃなかったとして、……姿形が千冬で、考えることも感じることも千冬とおんなじなら、俺は大事にしたいと思うぜ」
+</span><span class="chiaki">染谷千秋 : 「だから、『千冬』がもう生きたくないんなら良いと思った。俺の死に際の代わりに、『千冬』の死に際が欲しかった」
+目の前の千冬に向かって言った後、伺うように千冬の顔を見ます。
+</span><span class="chiaki">染谷千秋 : 「俺は気持ちはずっと変わんないぜ。……なあ、千冬が答えたくないのは、俺の気持ちを大事にしたいから？」
+</span><span class="chifuyu">染谷千冬 : ふ、と笑います。
+「ああ、そうだ。千秋ならそう言うだろう――今の俺を大事に思ってくれるんだろうと思った。だから言えなかった。千秋の気持ちを大事にしたいから」
+</span><span class="chifuyu">染谷千冬 : 「……今千秋は俺を信じてくれているが、これから先もそうだとは限らないと思う。俺が生きたい、と答えたら、千秋が俺を信じられなくなりそうな時、俺が要らなくなる時の、無駄な枷になるかもしれない。俺が死にたい、と答えたら、千秋が一緒に生きたいと思っていた時に、今生きている千秋の思考を、俺の気持ちで遮ってしまう。それに、千秋が俺を生き返らせてくれたのに、それを無下にするようなことを言えない」
+</span><span class="chifuyu">染谷千冬 : 「俺の生きたいも死にたいも、関係ない。一度死んだから。死んだ上で、千秋の重荷になりたくないなら。……いや、俺の生きたい時は、千秋が一緒に生きたいと思ってくれている時。俺の死にたい時は、千秋が俺を俺だと思えなくなった時、俺が要らなくなった時だ。俺の命は千秋が握っている。千秋が今、そうやって考えていても、これから変わるかもしれない。だから俺は何も言わない。千秋の気持ちが全てだ」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言われて悲しくない/悲しい (1D100<=80) ＞ 98 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : choice うち よそ (choice うち よそ) ＞ うち
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】心に留めておく/無理 (1D100<=80) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : （千冬が要らなくなることなんてねーのに……）
+</span><span class="chiaki">染谷千秋 : （……けど、今の俺じゃ信じてもらえないのも無理ねーか）
+</span><span class="chiaki">染谷千秋 : 「……なら、千冬の気が変わった時も教えてくれよ。俺だって千冬の気持ちを大事にしたい」
+</span><span class="chifuyu">染谷千冬 : 「……そうだな。変わることは無いと思うが、そうなったら言う」
+</span><span class="chiaki">染谷千秋 : 「ああ」
+
+</span><span class="kp">千秋と千冬は頷いて抱きしめ合い、再び体温を分け合った。それは千冬が生きていた時と、何一つ変わりない。
+
+千秋はこれからも、千冬を人に戻すための方法を探す。ただ、前のように千冬と言葉を交わし、触れ合う時間を大切にするようになった。生活時間を無理やり削って調べるようなことは、もう二度としないだろう。
+
+まだわだかまりは残っているかもしれない。しかしそれも、時間が解決するはずだ。なぜなら今までも、時間を重ねて気持ちを伝え、互いを理解してきたのだから。
+
+――一人の人間と、一匹の神話生物。
+彼らがこれからどう生きるのか。彼らはどんな答えを導くのか。それは誰も知らない。
+
+Epilogue End：地獄極楽はこの世にあり
+</span>
 
 <style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.purple{color:#ac67c3}.yellow{color:#816d32}.gray{color:#6a6a6a}.senri{color:#e91e63}.chika{color:#bc64a4}</style>

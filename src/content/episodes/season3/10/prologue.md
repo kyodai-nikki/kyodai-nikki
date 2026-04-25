@@ -1,5 +1,591 @@
 <!-- Optional prologue log section. -->
 
-<span class="kp">梅雨も終わった七月の初め、千秋と千冬は、家で穏やかな時間を過ごしていた。<br>今日は特に予定も無い。朝起きて、相手の体に触れその熱を確かめる。しばらく肌を擦っていた後、名残惜しく離れ、足首の拘束具を外す。二人は顔を洗い、千冬がダイニングチェアに腰掛ける。千冬はテレビから流れる音を聴きながら、キッチンに立つ千秋の背をぼんやりと眺めている。<br>これはいつもの、染谷家の休日朝の光景だ。<br></span><span class="kp">朝食を食べ終え、二人並んでソファに座る。互いに寄りかかってだらだらとしていると、千冬のスマホが震えた。<br><br></span><span class="chiaki">染谷千秋 : 「連絡来るの珍しいな。誰？」<br><br></span><span class="kp">千冬はスマホに手を伸ばす。通知を確認すると、驚いたように目を見開く。<br><br></span><span class="chifuyu">染谷千冬 : 「千秋。アキが来る」<br></span><span class="chiaki">染谷千秋 : 「は？」<br></span><span class="chifuyu">染谷千冬 : 「アキが来る」<br></span><span class="chiaki">染谷千秋 : 「……アキ？大学ん時の”友達”の？」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : 「まだ連絡取ってたんだな。いつ来るんだ？」<br></span><span class="chifuyu">染谷千冬 : 「たぶん、今から」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 7 ＞ スペシャル<br></span><span class="chiaki">染谷千秋 : 「随分急だな？」<br><br></span><span class="kp">その言葉の後、ピンポン、とチャイムが鳴る。<br><br></span><span class="chiaki">染谷千秋 : 「……早いな。何の用なの？」<br>と千冬に尋ねながらチャイムに出ます。<br></span><span class="chifuyu">染谷千冬 : 「お土産を渡したいらしい」<br>千秋と共に玄関に向かいます。<br></span><span class="chiaki">染谷千秋 : （千冬、住所いつの間に教えたんだ）<br></span><span class="chiaki">染谷千秋 : 「ふーん」<br>先　に　出　ま　す。<br></span><span class="chiaki">染谷千秋 : 「アキ君、久々～」<br>千冬より先に出ます。壁に両手を置いて家に入らせないようにします。<br><br></span><span class="kp">千秋がドアを開けると、目の前には千秋も見覚えがある人物が立っていた。<br><br></span><span class="aki">深山彰人 : 「千冬くん！」<br><br></span><span class="kp">身体を潜らせて中に入ろうとしたアキだったが、千秋に防がれて動きを止める。<br><br></span><span class="chiaki">染谷千秋 : 「無視かよ～？酷くね？」<br>にっこり笑って決して通らせません。<br></span><span class="aki">深山彰人 : 「……千秋くんも、久しぶり～」<br></span><span class="aki">深山彰人 : 「ね、千秋くん。そこどいて？」<br></span><span class="chiaki">染谷千秋 : 「どいてって邪魔ってことかよ？ひでー言い草。まーいいけどさ」<br></span><span class="chiaki">染谷千秋 : 「お土産持ってきてくれたんだろ？千冬から話は聞いたぜ。ありがとな～」「アキ君の名前出たのが数年ぶりだったからさあ、海外にでも行ってたのかと思ったわ」<br></span><span class="chiaki">染谷千秋 : 「俺には一切連絡くれなかったの何でだよ。つめてーやつ～」<br></span><span class="aki">深山彰人 : 「そんなこと言ってないよ。思い込み激しいタイプなんだ？　繊細なんだね、傷つけちゃってごめんね」<br></span><span class="aki">深山彰人 : 「お土産持ってきたんだけど、ここで渡すには量多いからさ。中に入れてくれないかな？　それに、いくら千秋くんのほうがちっちゃいとはいえ、千冬くんが全然見えなくて。俺、千冬くんの顔が見たいな」「君は数年聞いてなかったかもしれないけど、俺はその間千冬くんと会話してたよ。知らなかったんだ～」<br></span><span class="aki">深山彰人 : 「そもそも俺、千秋くんの連絡先知らないもんね～。俺は千冬くんの同期だし。寂しかった？　ライン教えようか？」<br></span><span class="chiaki">染谷千秋 : 「俺が繊細に見えちゃうか～。アキ君そういうとこあるよな！鈍いってーの？」<br></span><span class="chiaki">染谷千秋 : 「あ〜散らかってるから入れらんねーわ～。<br>千冬も忘れてたみたいでさあ、いつもなら来客があったら俺に教えてくれるんだけどな。ここで大丈夫だぜ～。千冬に運んでもらうし」<br></span><span class="chiaki">染谷千秋 : 『会話してた』という言葉を聞いて笑います。<br>「ふっ……ｗ会話？ああ、知らなかったわ」<br>にこにこ笑いながら千冬に聞こえないようぼそりと呟きます。<br>「勘違いもここまで来ると滑稽だな」<br></span><span class="chiaki">染谷千秋 : 「一回千冬がいる時に言ったんだけどな～。ごめんごめんw俺が覚えるからID教えてくれよ？」<br></span><span class="chifuyu">染谷千冬 : 「ああ、千秋。忘れてたわけじゃない。急だったんだ。……アキ、せっかくだし上がるか？　準備ができてなくて、申し訳ないが。話もあるだろう」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 55 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「へえ、そっか。先に言えよな～」<br></span><span class="chiaki">染谷千秋 : 「千冬、ちょっといいか？」<br>千冬を引きずって部屋に行きます。<br></span><span class="chifuyu">染谷千冬 : 「え」<br>引きずられていきます。<br></span><span class="chiaki">染谷千秋 : 千冬を壁に押し付けます。<br>「なあ……なんであいつがここ知ってんの」<br></span><span class="chifuyu">染谷千冬 : 「ラインで教えた」<br></span><span class="chiaki">染谷千秋 : 「……ふーん？」<br></span><span class="chiaki">染谷千秋 : 「なら、あれの言ってたことは本当って訳？数年間会話してるって話」<br></span><span class="chifuyu">染谷千冬 : 「ああ。専門の頃から、連絡は続いてるな」<br></span><span class="chiaki">染谷千秋 : 「へぇ～……。そりゃ知らなかった」<br></span><span class="chiaki">染谷千秋 : 「随分仲良いみたいだな？」<br></span><span class="chifuyu">染谷千冬 : 「さっき、千秋の言葉を聞いて思った。確かに友達だ。仲が良いのかもしれない」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 86 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「へぇ」笑顔が引きつります。<br></span><span class="chiaki">染谷千秋 : 「……あれのこと好きなの？」<br></span><span class="chifuyu">染谷千冬 : （好き、か……）<br></span><span class="chifuyu">染谷千冬 : 「……ああ」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】我慢/離れろっていう (1D100<=80) ＞ 26 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「そっか。千冬の友達なら大事にしないとな～？」<br></span><span class="chiaki">染谷千秋 : 「千冬、少しここにいて」<br></span><span class="chiaki">染谷千秋 : 一度千冬の元を離れます。部屋に入り、普段自分が使ってる香水を手に取り戻ってきます。その後千冬にかけます。<br></span><span class="chiaki">染谷千秋 : 「魔除け完了～。じゃ、戻ろうぜ」<br></span><span class="chifuyu">染谷千冬 : 「魔除け……？」<br></span><span class="chifuyu">染谷千冬 : 「……前にも遊びに来たことはあっただろう。千秋にとっては友達じゃないのか？」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直に言う/水面下でアキに嫌がらせをする (1D100<=80) ＞ 89 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「……そうだな？友達～ふれんず～ははは～」<br>あれと友達なわけねーけどな、と心の中で悪態をつきます。<br></span><span class="chifuyu">染谷千冬 : 「そうか」<br></span><span class="chifuyu">染谷千冬 : 「……待たせるのも悪いな」<br>玄関に戻り、扉を開けます。<br></span><span class="chiaki">染谷千秋 : 「待たせたな。入れよ」<br></span><span class="aki">深山彰人 : 「入れてくれるの？　千冬くんありがとう。やっぱり優しいね。突然来ちゃったのに」<br><br></span><span class="kp">にこやかに笑う深山は千冬の手に触れながら、家の中へと入る。<br><br></span><span class="chiaki">染谷千秋 : その手をはたきます。<br></span><span class="chiaki">染谷千秋 : よろしくお願いします。<br></span><span class="chiaki">染谷千秋 : 「まず手洗えよ～。近頃コロナ流行ってるだろ？」<br></span><span class="chiaki">染谷千秋 : 深山の背中を押して洗面所に押し込み、ドサクサに紛れてふくらはぎを蹴ります。<br></span><span class="chiaki">染谷千秋 : 「荷物は運んでおくからな～。念入りにあらえよ。雑菌あるかもしれねえし」<br></span><span class="chiaki">染谷千秋 : 大きな音を立てて洗面所の扉を占めます。荷物を運びお茶を入れます。<br></span><span class="chiaki">染谷千秋 : 来客用の食器を取り出します。いつも使っているコップとそれにそれぞれお茶を入れ、深山の分に下剤を仕込みます。<br></span><span class="aki">深山彰人 : 「……っ痛、……このやろ……」<br><br></span><span class="kp">千秋をぎろりと睨んだ深山は、手を洗って洗面所から出てくる。きびきびと来客の準備をする千秋を見て、することもなくぼーっと立っていた千冬が深山を迎える。<br><br></span><span class="chifuyu">染谷千冬 : 「こっちだ」<br></span><span class="aki">深山彰人 : 「千冬くん！　ねえ、千冬くんがいなくて寂しかったよ。話したいことも聞きたいこともいっぱいあるんだ」<br>右手を千冬の腰に回して、左手で千冬の手を取ります。<br>「ごめんね、手に触れたの嫌だった？　千冬くんも洗う？」<br></span><span class="chifuyu">染谷千冬 : （……近いな。そういえば、こんなだったな）<br>「気にしなくていい」<br></span><span class="aki">深山彰人 : 「ほんと？」<br><br></span><span class="kp">深山は千冬に案内される。そしてダイニングテーブルを三人で囲んだ。<br><br></span><span class="chiaki">染谷千秋 : 「ちけーよ」<br>真顔で二人を引き離し千冬と深山の間に座ります。<br></span><span class="chiaki">染谷千秋 : 「ほら、話そうぜ？」<br>千冬の足に自分の足を絡めながら、深山が何かしないかさりげなく見ます。なんかあったら即座に止めます。<br></span><span class="aki">深山彰人 : 「……俺も千冬くんに触れたいんだけどな～？」<br></span><span class="aki">深山彰人 : 「元気にしてた？　気がついたら引っ越していてびっくりしたよ。どうして九州に？」<br>千冬のほうを覗き込みながら言います。<br></span><span class="chiaki">染谷千秋 : 「アキ距離感バグってんな～。パーソナルスペースって言葉知ってるか～？」<br>千冬を自分の方に抱き寄せながら、テーブルの下でその手をそっと握ります。その後、人差し指を使って千冬の掌に何か文字を書きます。<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 75 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 指で手のひらに文字が書かれていることに気づきます。何と書いてますか？<br></span><span class="chiaki">染谷千秋 : 『ち・ふ・ゆ・す・き』と書いています。<br></span><span class="aki">深山彰人 : 「そうかな？　でも千冬くんは気にしなくていいって言ってるよ。千秋くんがとやかく言うことじゃないよね？　……っていうか、君まだお兄ちゃんにべったりなんだ。いつまでも子どもみたいで可愛いね。兄離れしたほうがいいんじゃない？」<br></span><span class="chifuyu">染谷千冬 : 二人のほうをじっと見ながら、片手を好きにさせています。<br></span><span class="chiaki">染谷千秋 : 「だってさ、千冬。俺兄離れした方がいい？」<br>可哀想な弟を演じながらで千冬の顔を覗き込み、その目をじっと見つめます。<br></span><span class="chifuyu">染谷千冬 : 「……俺は、しなくていいと思うが、……」<br></span><span class="chifuyu">染谷千冬 : 「……アキは、なんでそう思うんだ？」<br></span><span class="aki">深山彰人 : 「なんで、って……そんなにべったりだったら、千冬くんがいないと何もできなくなっちゃうかも。それって心配だよね。……千冬くん、甘やかしすぎてない？　大丈夫……？」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : 「べったりだと何も出来なくなる？ふ、そこに因果関係なくね〜？」<br></span><span class="chiaki">染谷千秋 : 「俺は千冬がいるから何でもやろうと思えんだけど〜？」<br>更に千冬を抱き寄せてべったべたにくっ付きます。<br></span><span class="chifuyu">染谷千冬 : （……千秋もすごく引っ付いてくる。前もこうだったか？）<br></span><span class="aki">深山彰人 : 「……ほら、そういうところでしょ？　千冬くんに寄りかかってばっかりで、一人になったら何もできないってこと。駄々をこねるのも子どもみたいだね～」<br></span><span class="chiaki">染谷千秋 : 「それこそ"ただの"友達のアキがとやかく言うことじゃねーだろ？人に自分の理想押し付けんなよな〜？唯一の友達までなくすぞ〜」と半笑いで言いながら千冬に触れ続けます。<br></span><span class="chiaki">染谷千秋 : 「千冬、喉乾いてねえ？お茶飲みな」千冬にお茶を飲ませます。その後自分もお茶を飲みます。<br></span><span class="chiaki">染谷千秋 : 「ま、アキがそう思ってんのは分かったよ。覚えておくな〜。話変わるけどさあ、お土産何買ってきてくれたの？」<br></span><span class="chifuyu">染谷千冬 : 「ああ、用意ありがとう」<br>お茶を飲みます。<br></span><span class="aki">深山彰人 : 二人に続いてお茶に口をつけます。<br></span><span class="aki">深山彰人 : 「……まあ、勝手に思っていればいいよ。そう、俺今、各地でライブやってて、その関係でこっちに滞在してるんだけど……お店見てたら千冬くんが好きそうだなってつい考えちゃって、千冬くんにあげたら喜んでくれるかなって……そしたら、いっぱい増えちゃった。見て見て」<br>横の大きな紙袋をがさごそと漁ります。<br></span><span class="aki">深山彰人 : 「まずは東京！　きっと東京も久しぶりじゃない？　ごまたまごとね、あと……これ！　肉球フィナンシェ！　これ東京駅でしか買えないんだよ。パッケージも可愛いよね。でも、フィナンシェはもっと可愛いんだ」<br><br></span><span class="kp">そう言って深山はスマホで実物の画像を見せる。<br><br></span><span class="chifuyu">染谷千冬 : 「……可愛いな」<br></span><span class="chiaki">染谷千秋 : アキの話が始まった途端にスマホを取り出し、操作しはじめます。千冬にバレないよう写真を撮りながら時間を潰します。<br><br></span><span class="kp">千冬の僅かな微笑みを見て、深山もふわりと口角を緩める。紫がかった黒髪に服も黒い彼は、一見威圧的、もしくは陰気に見えるかもしれないが、千冬に笑いかける時は、最初に抱く印象が嘘のように柔らかだ。<br><br></span><span class="aki">深山彰人 : 「ふふ、千冬くんなら好きかなって思った……！　じゃあ、動物シリーズを先に見せるね。これは名古屋のお土産！　ぴよりんサブレと、かえるまんじゅうだよ。……ほら、これ。このかえるまんじゅう、すごく可愛くない？　俺なんだかこのフォルムがめちゃくちゃ好きで……千冬くんはどう……？」<br></span><span class="chifuyu">染谷千冬 : 「……ふ、可愛い」<br></span><span class="aki">深山彰人 : 「……喜んで貰えて嬉しいな。動物シリーズはこれでおしまい。次は大阪で……たこパティエって知ってる？　俺は初めて食べたんだけどね、パイ生地とたこ焼きの味の組み合わせにびっくりするよ。でも美味しかった」<br></span><span class="aki">深山彰人 : 「……最後に宮城のお土産。萩の月と、喜久福っていう和菓子。喜久福はちょっと期間が短いから注意なんだけど、美味しかったからどうしても食べてほしくて。冷凍してて」<br></span><span class="chifuyu">染谷千冬 : 「わかった」<br>箱を手に取ってまじまじと見、冷凍しに立ち上がります。<br></span><span class="aki">深山彰人 : 「千冬くんってさ、洋菓子も和菓子も似合うよね。どっちが好き……？」<br></span><span class="chifuyu">染谷千冬 : 「どっちも好きだ」<br></span><span class="aki">深山彰人 : 「そっか。……ふふ、千冬くんらしいな」<br>千冬が座った後、席を立ちます。<br></span><span class="aki">深山彰人 : そして千冬の横にかがみ、手を取って自分の手のひらと合わせます。<br>「ね、千冬くん、今日空いてる？　一緒にお出かけしない……？　せっかくだし、千冬くんと遊びたい。ここのおすすめの場所教えてくれないかな……？」<br></span><span class="chiaki">染谷千秋 : なんと、千秋は千冬が座った後抱きしめて手のひらを握っているので握れません！<br></span><span class="chiaki">染谷千秋 : ざんね～ん！<br></span><span class="aki">深山彰人 : 草<br></span><span class="aki">深山彰人 : 後ろから千冬の頭を撫でた後、肩に手を置きながら耳打ちします^^<br></span><span class="chiaki">染谷千秋 : 耳打ちしようとしたらその顔を手のひらでおさえつけま～す！ｗ<br></span><span class="chiaki">染谷千秋 : 「だから近いって～学習しろよ」<br></span><span class="aki">深山彰人 : 「……それこそ、君がとやかく言うことじゃないよね？」<br></span><span class="chiaki">染谷千秋 : 「千冬は家族以外に触られんの苦手なんだよ。一緒にいて気付かねえの？べたべた気持ち悪いな～人のこと言えなくねえ？」<br></span><span class="chifuyu">染谷千冬 : 「……え」<br></span><span class="aki">深山彰人 : 「俺、そんなふうに千冬くんに言われたことないけどな。弟と友だちじゃ立場が違うでしょ？　……ね、千冬くん。本当に嫌……？」<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 24 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : （別に、触られるのは苦手でもないし、千秋とそんな話をしたこともない。でもそう言ったのは……そうか、千秋が嫌なのか。……もしかして、妬いてる？　でも、アキはただの友だちで……）<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】千秋優先/嘘をつけない (1D100<=55) ＞ 54 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「……得意ではない」<br></span><span class="aki">深山彰人 : 「……そっか。俺、もしかして千冬くんに無理させてたのかな……。ごめんね、俺のクセなんだけど、千冬くんが嫌なら気をつけるね……。だから、友だちでいてくれる……？」<br></span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】強い/申し訳ない (1D100<=55) ＞ 39 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="aki">深山彰人 : 「ありがとう！　……で、話が逸れちゃった。それで、これからお出かけはどうかな……？」<br></span><span class="chifuyu">染谷千冬 : 「ああ、構わない。……千秋、」<br>千秋をちらりと見ます。<br></span><span class="chiaki">染谷千秋 : 「ん」<br>千冬に抱きついたままでいます。言外の問いには答えません。<br></span><span class="chifuyu">染谷千冬 : 「……千秋も行くか？」<br></span><span class="aki">深山彰人 : （……誘わなくていいのに）<br></span><span class="chiaki">染谷千秋 : 「……俺はいーや。千冬行ってきていいぜ」<br>千冬の目をじ、と見た後に離れます。少しだけ呼吸を早めます。<br></span><span class="chiaki">染谷千秋 : 「今日微妙に体調悪くてさ〜。少しずつだるくなってる気がすんだ。俺のことは気にしないで行ってきていいぜ」<br></span><span class="aki">深山彰人 : （……こいつ、絶対嘘だろ！）<br></span><span class="chifuyu">染谷千冬 : 「……え。千秋、大丈夫か？」<br></span><span class="chiaki">染谷千秋 : 「ああ……、大丈夫〜」千冬の方に寄りかかりながら言います。<br></span><span class="chifuyu">染谷千冬 : （……そうか、いつもよりくっつき虫なのも、体調が悪くて心細いからか）<br></span><span class="chifuyu">染谷千冬 : 「アキ、ごめん。千秋が心配だから、今日はやめる」<br></span><span class="aki">深山彰人 : 「……大丈夫～？　……風邪でもなさそうだし、千冬くんが残るほどじゃない気もするけどな。千冬くん、本当に優しいね」<br></span><span class="aki">深山彰人 : 「……千冬くん、じゃあ来週の土曜日はどう……？　来週なら、千秋くんの体調も良くなってるでしょ？」<br></span><span class="chifuyu">染谷千冬 : 「ああ、それなら良い」<br></span><span class="chiaki">染谷千秋 : 「千冬、俺のこと気にしないでいいぜ？」<br>ぺたぺたと触りながら言います。<br></span><span class="chifuyu">染谷千冬 : 「いや、気にする」<br></span><span class="chiaki">染谷千秋 : 目を細めて更に抱き寄せます。<br>「ごめんな～」<br></span><span class="chiaki">染谷千秋 : 「アキも悪いな」<br></span><span class="chiaki">染谷千秋 : 「ここにいる期間も短いのにさ。……ライブいつまでなの？」<br></span><span class="aki">深山彰人 : 「明日。でも、終わってからもしばらくこっちに滞在する。だから気にしなくて良いよ～」<br></span><span class="aki">深山彰人 : 「本当はライブにも来てほしかったんだけどな。……千冬くん、チケットだけ渡しとくね。無理だったら全然良いからさ」<br><br></span><span class="kp">そう言って深山は千冬に、チケットを2枚手渡した。<br><br></span><span class="chifuyu">染谷千冬 : 「ああ、千秋の体調が良くなったら。ありがとう」<br></span><span class="aki">深山彰人 : 「じゃあ、体調悪いみたいだし？　俺はそろそろ戻るね。……お出かけとっても楽しみだな。じゃあ千冬くん、また来週ね……？」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br>千秋の腕を解いて玄関まで見送り、また千秋のところに戻ります。<br></span><span class="chifuyu">染谷千冬 : 「千秋、本当に大丈夫か？　ベッドに移動しよう」<br></span><span class="chiaki">染谷千秋 : 「そこまでじゃねーって」<br></span><span class="chiaki">染谷千秋 : 「千冬が一緒にいてくれたらすぐ治る」<br>千冬にひっつきながら脳内で塩を撒きます。<br></span><span class="chifuyu">染谷千冬 : 「冗談を言ってる場合じゃない。ちゃんと休め」<br>千秋を抱えて立ち、ベッドまで歩きます。<br></span><span class="chifuyu">染谷千冬 : 「ご飯も俺が作る。拗らせないように、寝て回復すると良い」<br></span><span class="chiaki">染谷千秋 : 「ふ、……心配してくれてありがとな？」<br></span><span class="chiaki">染谷千秋 : 「けど冗談じゃないぜ？千冬がいてくれりゃ治るよ」<br>ベッドに寝かされた後、千冬の腕を引っ張り抱きしめます。<br>アキに触られてたところに触れます。<br></span><span class="chiaki">染谷千秋 : （体調悪いのはアキがいたからだしな～）<br></span><span class="chifuyu">染谷千冬 : 「……そうだな、俺も隣にいる」<br>千秋を抱きしめて添い寝します。<br></span><span class="chiaki">染谷千秋 : 「やっと二人きりだな♥」<br>千冬の腰を引き寄せて口付けします<br></span><span class="chifuyu">染谷千冬 : 「そうだな」<br></span><span class="chiaki">染谷千秋 : 「なあ、昼何食べたい？」<br></span><span class="chifuyu">染谷千冬 : 「……？　千秋は？　食欲は問題ないか？」<br></span><span class="chiaki">染谷千秋 : 「俺はいーや。……千冬の作りたい」<br></span><span class="chifuyu">染谷千冬 : 「……体調の良くない人にさせるわけがない。自分のは自分で用意する。いいから休め」<br></span><span class="chiaki">染谷千秋 : 「そんな悪くねえって。俺の顔色いつも通りだろ？千冬～」<br></span><span class="chifuyu">染谷千冬 : 「いつも通りには見えるが、良くないんだろう。だめだ、大人しくしろ」<br></span><span class="chiaki">染谷千秋 : 「動ける。な～お願い」<br>千冬の方にすり寄って顔を覗き込みます。<br></span><span class="chifuyu">染谷千冬 : 「だめだ」<br></span><span class="chiaki">染谷千秋 : 「どーしても？」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 94 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「下準備もしてあるし10分あれば終わるぜ？」<br></span><span class="chifuyu">染谷千冬 : 「だめだ。動くな」<br></span><span class="chiaki">染谷千秋 : 千冬の目をじっとみて懇願します。<br></span><span class="chifuyu">染谷千冬 : 答えません。<br></span><span class="chiaki">染谷千秋 : 頬にすり寄って甘えて言外に懇願続けます。<br></span><span class="chifuyu">染谷千冬 : 頭を撫でますが答えません。<br></span><span class="chiaki">染谷千秋 : 目を細めて千冬の喉元にキスをします。首筋に舌を這わせます。<br></span><span class="chifuyu">染谷千冬 : 「……千秋、大人しくしろ」<br></span><span class="chiaki">染谷千秋 : 「少しだけ。千冬がほしい」<br>腰に手を回して背筋を撫でます。<br></span><span class="chifuyu">染谷千冬 : 「……ん」<br></span><span class="chiaki">染谷千秋 : 唇を合わせ、千冬の目を見て微笑みます。服の中に手を忍ばせて、脇腹にそっと触れます。<br></span><span class="chifuyu">染谷千冬 : 「……こら」<br>千秋の手に指を絡めて止めます。心配そうに見つめます。<br>「……どう体調が悪いんだ？」<br></span><span class="chiaki">染谷千秋 : 「んー胸がむかむかする」<br>にこにこと笑いながら告げます。<br></span><span class="chiaki">染谷千秋 : 「……だめ？少しだけ」<br>手をぎゅっと握ります。<br></span><span class="chifuyu">染谷千冬 : 「……だめだ。寝ろ」<br></span><span class="chiaki">染谷千秋 : 「……千冬」<br>反対の手でへそをかりりと引っかきます。<br></span><span class="chifuyu">染谷千冬 : 「……離れるぞ」<br></span><span class="chiaki">染谷千秋 : 「あ、待てって」千冬の身体を抱き寄せます。<br></span><span class="chifuyu">染谷千冬 : 「……大人しくしてるか？」<br></span><span class="chiaki">染谷千秋 : 「んん……」<br>答えずに擦り寄ります。<br></span><span class="chifuyu">染谷千冬 : 「……大人しく寝ないなら、俺はベッドから出る」<br></span><span class="chiaki">染谷千秋 : 「可愛い弟を置いていくのかよ～？」<br></span><span class="chifuyu">染谷千冬 : 「可愛い弟が言うことを聞いてくれないからな」<br></span><span class="chiaki">染谷千秋 : 「寂しいんだけど？」<br></span><span class="chifuyu">染谷千冬 : 「しっかり休んでくれるか？」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 40 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「ちぇ、わかったよ。……千冬が側にいてくれんなら」<br></span><span class="chifuyu">染谷千冬 : 「なら良い」<br>よく眠れるように背中をトントンと叩きます。<br></span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 19 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「これ、前もやってたな。子供扱いしてる」<br>千冬の頬に口付けします。<br></span><span class="chiaki">染谷千秋 : ccb 眠気 (1D100) ＞ 13<br></span><span class="chiaki">染谷千秋 : 「なあ、明日ライブいくの？」<br></span><span class="chifuyu">染谷千冬 : 「……これやった時、すぐに眠ったことがあっただろう。眠りやすいかと思った。千秋にはたくさん寝てほしい」<br></span><span class="chifuyu">染谷千冬 : 「千秋の体調が回復したら、行きたいな」<br></span><span class="chiaki">染谷千秋 : ふ、と笑います。<br>「ありがとな。落ち着く」<br></span><span class="chiaki">染谷千秋 : 「行きてえの？」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 23 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……ふぅん。なんで？」<br>少し不貞腐れた様子で聞きます。<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 23 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 千秋の様子に少し戸惑いながら、答えます。<br>「……友だちだから。友だちの活躍は見たい」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……。千冬にとってアキはどんぐらい大切な友達なの」<br></span><span class="chifuyu">染谷千冬 : 「どれくらい？」<br></span><span class="chiaki">染谷千秋 : じ、と見ます。<br></span><span class="chifuyu">染谷千冬 : 「……例えば？」<br></span><span class="chiaki">染谷千秋 : 「ただの友達～とか、連絡来なくても寂しくない～とか、切れても構わない～とかさ」<br></span><span class="chiaki">染谷千秋 : （……これからも付き合いを続けたいと思ってる、とかな）<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 53 ＞ 成功<br></span><span class="chifuyu">染谷千冬 : 「……妬いてるな」<br></span><span class="chifuyu">染谷千冬 : 「大事な友だちだ。……嫌か？」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直に言う/言わない (1D100<=80) ＞ 48 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 千冬の言葉に目を細めて笑います。<br></span><span class="chiaki">染谷千秋 : 「なんて答えてほしい？」<br></span><span class="chifuyu">染谷千冬 : 「千秋の本心が聞きたい」<br></span><span class="chiaki">染谷千秋 : 「嫌だって言ったら？」<br></span><span class="chifuyu">染谷千冬 : 「どうして嫌なんだ？」<br></span><span class="chiaki">染谷千秋 : 「あいつ、千冬のこと狙ってるだろ」<br>片眉をあげて答えます。<br></span><span class="chiaki">染谷千秋 : 「……ベタベタ触ろうとしてさあ。気に食わねー」<br>アキが触った肩に触れます。<br></span><span class="chifuyu">染谷千冬 : 「……そんなことないと思うが」<br></span><span class="chifuyu">染谷千冬 : 「確かに距離は近いが、そういうやつなんだろう」<br></span><span class="chiaki">染谷千秋 : ジト目になります。<br>「本気かよ？」<br></span><span class="chiaki">染谷千秋 : 「俺にはあんなことしねーだろ？」<br></span><span class="chifuyu">染谷千冬 : 「……俺の同期だから、千秋には少し遠慮があるとか……」<br></span><span class="chiaki">染谷千秋 : 「じゃあその同期とやらは千冬以外にいんのかよ？」<br></span><span class="chifuyu">染谷千冬 : 「……いなかった気がする」<br></span><span class="chifuyu">染谷千冬 : 「アキも、そこまで人付き合いが広くなかった」<br></span><span class="chiaki">染谷千秋 : 「千冬が特別ってことだな？」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : 「……」<br></span><span class="chiaki">染谷千秋 : 「なあ、千冬は俺とアキが仲良くしてたら嬉しい？」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : 「そーかよ。……なら、仲良くしねーとな」<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 85 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「……千秋が一番大事だ。妬かなくていい。仲良くしてくれたらきっと、アキも喜ぶ」<br></span><span class="chiaki">染谷千秋 : 「どうかな～」<br></span><span class="chiaki">染谷千秋 : 「ま、分かったよ」<br></span><span class="chifuyu">染谷千冬 : 微笑んで、千秋の背を叩くのを再開します。<br></span><span class="chiaki">染谷千秋 : ccb 眠気 (1D100) ＞ 18<br></span><span class="chiaki">染谷千秋 : choice アキのライブに行く 行かない (choice アキのライブに行く 行かない) ＞ 行かない<br></span><span class="chiaki">染谷千秋 : 「なあ、アキとの話聞かせてくれよ」<br></span><span class="chiaki">染谷千秋 : 「俺の知らない話。あるんだろ？」<br></span><span class="chifuyu">染谷千冬 : 「そんなに無いと思う。卒業するまでは知ってるだろう。卒業してからは、ラインが送られてくる」<br>トーク画面を開いて、千秋に渡します。<br><br></span><span class="kp">画面を見ると、深山が千冬に対して最近の出来事、出かけた場所などの日常を報告している。千冬はそれに対して、三日ほど経って一言返したり、返事していなかったりだ。基本的に一往復のみだが、時々会話が続いている。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】これから嫉妬しないように善処する/無理！ (1D100<=80) ＞ 20 ＞ 成功<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】これぐらいの内容なら許容する/正直嫉妬する (1D100<=80) ＞ 18 ＞ 成功<br></span><span class="chiaki">染谷千秋 : とても仲がいいとまでは言えないLINEを見てふ、と笑みをこぼします。<br>「楽しそうだな」<br></span><span class="chifuyu">染谷千冬 : 「ああ、そうだな。楽しい」<br></span><span class="chiaki">染谷千秋 : 千冬の頭を撫でます。<br>「千冬が楽しいなら俺も嬉しい」<br></span><span class="chifuyu">染谷千冬 : 「そうか。良かった」<br></span><span class="chiaki">染谷千秋 : 千冬の額に口付けて、目元に触れます。<br>「……なあ、やっぱ触りたいんだけど」<br></span><span class="chifuyu">染谷千冬 : 「大人しくしろ」<br></span><span class="chiaki">染谷千秋 : 「体調悪いのは嘘だったって言っても？」<br>身体を起こし、千冬に覆い被さります。<br></span><span class="chifuyu">染谷千冬 : 「……嘘、だったのか？」<br></span><span class="chiaki">染谷千秋 : 「ごめんな。嫉妬して嘘ついた。今日明日の外出なくなればいいと思ってさ」<br></span><span class="chifuyu">染谷千冬 : 「……そう、か」<br></span><span class="chifuyu">染谷千冬 : 「千秋が元気で良かった」<br>腰に腕を回して引き寄せ、頭を撫でます。<br></span><span class="chifuyu">染谷千冬 : （……でも、アキには少し悪いことをしたな）<br></span><span class="chiaki">染谷千秋 : ふ、と笑って口付けをします。服の中に手を忍ばせ、身体をゆっくりと撫でます。<br></span><span class="chifuyu">染谷千冬 : 「う……、千秋……」<br>千秋に触れられた場所に感覚を集中させます。<br></span><span class="chifuyu">染谷千冬 : 「……出かけたらだめか？」<br></span><span class="chiaki">染谷千秋 : 「……行きたいんだろ？いーよ」<br>頬に口付けて、首筋に吸い付きます。そのまま強く吸い、痕をつけます。<br></span><span class="chifuyu">染谷千冬 : 「ありがとう。……来週もいいか？」<br></span><span class="chiaki">染谷千秋 : ふ、と笑います。<br>「ああ、千冬の好きにしていいぜ。嫉妬しないって言ったら嘘になるけどさ、それで千冬の行動縛りたくねーし、……」<br>千冬の頭を撫でながら言います。<br></span><span class="chifuyu">染谷千冬 : 「……ありがとう。いい子だな」<br>頭を撫で返します。<br></span><span class="chiaki">染谷千秋 : 「はは、そう？……外出の回数増えたら抑えらんなくなるかもだぜ？」<br>もう一度首に痕をつけます。肩にゆっくりと噛みつきながら、千冬の身体中をさわさわと撫でます。<br></span><span class="chifuyu">染谷千冬 : 「……抑えられなくなったら？」<br></span><span class="chiaki">染谷千秋 : 「千冬を閉じ込める」<br></span><span class="chiaki">染谷千秋 : 「なーんてな、冗談」<br>胸に触れ、乳首の周辺を指の腹で触ります。<br></span><span class="chifuyu">染谷千冬 : 「それは、困るな……、ふ」<br>体を捩って、目を細めながら千秋を見つめます。<br></span><span class="chiaki">染谷千秋 : 「だから程々にしてくれよ？出かける時は今みたいに俺に教えて」<br>唇を何度も合わせ、いつものように千冬の身体に触れ始めます。<br>千冬の身体を拓き、抱く途中、首筋に大量の痕をつけたり肩口を噛んだりします。服の上から見えるような位置にもつけます。<br></span><span class="chifuyu">染谷千冬 : 千秋の後頭部を手のひらで包み、ふわふわと撫でつけます。<br>「分かった、……っ」<br>千秋に噛みつかれて、息をごくりと飲みます。ぎゅう、と抱きしめる力が強くなります。自分にたくさん痕を残す千秋に愛おしい感情が湧き、ずっと頭を撫で続けます。<br><br></span><span class="kp">初夏の眩しい日差しが射し込む部屋で、二人は触れ合い、体を重ね合わせる。こうして朝から事に及ぶのも、二人にとってはそう珍しいことではないだろう。果てた千冬の体には、千秋が残したたくさんの痕が、赤々と残っている。<br></span><span class="kp">二人は笑いあって、穏やかな日常を取り戻す。突然の来訪者がいたことが嘘のようだ。それでも、千冬の持つチケットが、深山との約束を思い出させる。<br>・・・<br></span><span class="kp">翌日、二人は深山の言うライブに向かった。千冬が深山に「今日行く」とメッセージを送ると、すぐに既読がつき「来てくれるの！？ありがとう、千冬くんのために歌うね♡」と返信が来る。<br></span><span class="kp">会場は福岡のそれなりに大きなホールだった。<br>深山はインターネット上で活動している歌手らしい。名義は「アキ」で、歌がメインながら、時々作曲や演奏も行っているようだ。ライブに訪れているのは若い女性が多いが、一部には男性も混じっている。<br></span><span class="kp">チケットの席は最前列だった。ライブが始まると、甲高い声と紫色のペンライトで会場が埋められる。ペンライトは持っていないため振ることはできない。千冬はじっと深山を見て、ライブに夢中になっているようだ。千秋にとっては、たいそうつまらないだろう。深山が、千冬のほうを見た気がする。千冬は、深山と目が合った気がする。そんな瞬間が何度かあった。<br></span><span class="kp">ライブは一時間ほどで終わる。深山から控え室に来るかと連絡があったが、二人はそのまま帰るだろう。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】上辺の言葉でもアキを称える感想を捻り出す/気に食わないので感想を言わない (1D100<=80) ＞ 92 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 「……ライブどうだった？」<br></span><span class="chifuyu">染谷千冬 : 「ライブには行ったことがなかったが、楽しいな。良かった」<br></span><span class="chiaki">染谷千秋 : 微笑みながら千冬の手を握ります。<br>「そっか。千冬が楽しめたんならよかった。確かに新鮮だったな」<br></span><span class="chiaki">染谷千秋 : 「普段あんま聞かねーけど、偶には悪くないかもな。別のライブにも行ってみる？」<br></span><span class="chifuyu">染谷千冬 : 「そうだな、行ってみたい」<br></span><span class="chiaki">染谷千秋 : 手の甲を指の腹で撫でながら目を細めます。<br>「どんなライブが良い？」<br></span><span class="chifuyu">染谷千冬 : 「……分からない」<br></span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 91 ＞ 失敗<br></span><span class="chifuyu">染谷千冬 : 「……アキに聞いてみる。それに、アキのライブももっとちゃんと見たい。ペンライトも無かったし、知らない曲が多かった。準備ができていたら、もっと楽しめるんだろうな」<br></span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 5 - 1（本日一回失敗した分）】 (1D100<=64) ＞ 15 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「アキに？……べつにアキじゃなくてもいいだろ～？思いつかねーならフェス行こうぜ」<br></span><span class="chiaki">染谷千秋 : 「色んなバンド出るしさ。そっちなら千冬も楽しめるだろ」<br></span><span class="chifuyu">染谷千冬 : 「俺は詳しくないから、聞いてみようかと思った。そうなのか？　行ってみたい」<br></span><span class="chiaki">染谷千秋 : 「あんまアキと会話すんなよな。……妬ける」<br>少しだけ口を尖らせながら千冬を引き寄せます。<br></span><span class="chiaki">染谷千秋 : 「バ先にバンドマンいるから俺が聞く。フェスなら気に入ったバンド見つかるかもだしさあ、ペンライトはそっからでも遅くねーと思うぜ？」<br></span><span class="chifuyu">染谷千冬 : 「……ふ、分かった」<br></span><span class="chiaki">染谷千秋 : 頬をすりすりと撫でて、物陰に隠れて口付けします。<br>「はは、決まり～」<br><br></span><span class="kp">そんなふうに話しながら、あなたたちは家に帰る。<br>部屋で一息つくなり、千冬が千秋に押し倒されたのは言うまでもないだろう。千冬の体には、昨日の痕が服で隠しきれずに覗く。さすがに距離があり、これは深山の目には入らなかったかもしれない。<br></span><span class="kp">・・・<br>そして、次の週の土曜日。深山は約束通り、再びあなたたちの家を訪れた。来客を示すインターホンが鳴る。<br><br></span><span class="chiaki">染谷千秋 : 今日も千冬に香水をかけ、自分の服を着せます。<br>千冬と並んで出ます。<br>「よー久しぶり」<br></span><span class="chifuyu">染谷千冬 : 「おはよう」<br><br></span><span class="kp">千秋は先週土曜に、自分が着ていた服を千冬に着せた。<br>千秋と千冬は背丈はさほど変わらないが、体型には少し差がある。千秋の服を着ると、千冬のいつものゆとりあるサイズ感の印象はない。<br>そして、昨夜の事はとても激しかった。千秋は意図的に体中に所有痕を残した。この時期の服装では見えてしまう痕もあるだろう。さすがに千冬も気にして、化粧品を買い特に目立つものを隠した。<br><br></span><span class="aki">深山彰人 : 「おはよ、久しぶり。今日をずっと楽しみにしてたよ。しかも、千冬くんの車に乗せてもらえるなんて。……一緒にお出かけできて嬉しいな」<br><br></span><span class="kp">千冬の家で一度集合し、その後車で目的地に向かうことになっていた。千冬は「構わない」と答えて、玄関から出る。<br><br></span><span class="chiaki">染谷千秋 : 助　手　席　に　乗　り　ま　す<br>千　冬　に　話　し　か　け　つ　つ　ナ　ビ　ゲ　ー　ト　し　ま　す<br>時　々　千　冬　に　触　れ　ま　す<br>ア　キ　に　は　十　回　に　一　回　話　し　か　け　ま　す<br><br></span><span class="kp">おもろすぎ<br><br></span><span class="aki">深山彰人 : 助手席に座ろうとした千秋の肩を掴みます。<br>「……ね、そこは普通俺なんじゃない？　後ろに行ってくれないかな？」<br></span><span class="chiaki">染谷千秋 : 「背の高いアキ君には窮屈だろ？後ろ空いてるからさあ、使っていいぜ？小さい俺が乗ってやるよ」<br></span><span class="chiaki">染谷千秋 : 「俺はこの席で『いつも』千冬と出かけてるからさあ、はは、遠慮すんなよ～」<br>アキを殴らずに（！）後部座席の方へ押します。その後助手席に乗ります。<br></span><span class="aki">深山彰人 : 抵　抗　し　ま　す<br>「窮屈じゃないよ。いつも助手席なら、たまには後ろに乗ってみたらいいんじゃない？　……こういう時、客人が助手席に乗るものなんだよ。千秋くんはマナーに疎いみたいだから分からないかな？　まだ子どもみたいだもんね、社会勉強になって良かったね」<br></span><span class="chiaki">染谷千秋 : 「あー上座とか気にするタイプ？随分心狭いんだな～？車の上座は時と場合によって変わるんだよ。覚えときな～？」<br></span><span class="chiaki">染谷千秋 : 「それに、俺たち友達だろ～？いちいち細かいこと気にすんなよ。ゆったりした場所使えって」<br>助　手　席　に　乗　り　ま　す<br></span><span class="aki">深山彰人 : 「時と場合によって変わるから自家用車の上座は助手席だよね？　知らなかった～？　……上座とかを気にしてるわけじゃなくて、俺は後ろで一人座るより千冬くんの隣に座りたいの。……分かってんだろ。どけよ」ぼそりと呟きます。<br>腕　掴　ん　で　離　し　ま　せ　ん<br></span><span class="chiaki">染谷千秋 : 「いっ……てぇ……、離せよ！」<br>大きな声で言って顔を歪めて手を振り払う仕草をします。<br></span><span class="chiaki">染谷千秋 : 「聞こえねえな？」<br>目を細めてアキを見ながらボソリと呟き、その足を思い切り踏みつけ助手席に倒れ込みます。<br></span><span class="aki">深山彰人 : STR対抗！STR対抗！<br></span><span class="chiaki">染谷千秋 : なんぼや？<br></span><span class="chiaki">染谷千秋 : 足の痛み補正いれてください！踵を使って爪先死ぬ気で踏みつけました！<br></span><span class="aki">深山彰人 : たけえブーツだから効きませ～～んむしろ痛みで強く握ってやろうか<br></span><span class="chiaki">染谷千秋 : じゃあ脛蹴ります^^MA込行けますたいよろ^^<br></span><span class="aki">深山彰人 : MA乗るほど強く蹴ったら千冬くんにばれるけどいいのかな？^^<br></span><span class="chiaki">染谷千秋 : お前が強く握ったからだろ？^^せいぜい痛みで悶えるんだな<br></span><span class="aki">深山彰人 : 手繋いでるだけじゃん^^<br></span><span class="chiaki">染谷千秋 : 千冬にはどう見えてるかな^^<br></span><span class="aki">深山彰人 : RESB(9-12) (1d100<=35) ＞ 71 ＞ 失敗<br></span><span class="chiaki">染谷千秋 : 倒れ込みながら顔を歪めて笑い、中指を立てます。<br><br></span><span class="kp">深山は足を踏みつけられ思わず手を離した。その隙に千秋が助手席に乗り込む。<br><br></span><span class="chiaki">染谷千秋 : 倒れ込むですが～！？？！<br></span><span class="chiaki">染谷千秋 : あーーーアキに強く握られて腕いてぇわー！<br><br></span><span class="kp">倒れ込む。<br><br></span><span class="chiaki">染谷千秋 : ヨシ！<br></span><span class="aki">深山彰人 : 「……千冬くん！　俺助手席に乗りたいんだけどだめ！？」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】追撃しない/追撃する (1D100<=80) ＞ 15 ＞ スペシャル<br></span><span class="chiaki">染谷千秋 : 「アキ強く握り過ぎな。千冬～、千冬の隣は俺がいい～」<br>腕をさすりながら千冬に抱きつきます。<br></span><span class="chifuyu">染谷千冬 : 「……じゃんけんしたらどうだ」<br></span><span class="chiaki">染谷千秋 : 「嫌だ。千冬が決めてよ」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chifuyu">染谷千冬 : 「じゃあ、二人とも後ろ」<br></span><span class="aki">深山彰人 : 「……」<br></span><span class="chiaki">染谷千秋 : ふ、と笑います。<br>「なら千冬が後ろ乗りな。俺が運転する」<br></span><span class="chiaki">染谷千秋 : 「そんでアキは助手席に座る。……それでいいよな？」<br></span><span class="chifuyu">染谷千冬 : 「……俺が言った場所だ。俺が運転でいい」<br></span><span class="chiaki">染谷千秋 : 千冬の頭を撫でます。<br>「いーから。疲れてるだろ？俺がやるよ。助手席に座ろうとしたのも、千冬のサポートしようと思ってたからだし」<br></span><span class="chiaki">染谷千秋 : 「ほら、後ろ行きな」<br>千冬の首をするりと撫でて後ろに行かせます。<br></span><span class="chifuyu">染谷千冬 : 「……分かった」<br>後ろに行きます。<br></span><span class="chiaki">染谷千秋 : 「助手席に乗れてよかったな。ちゃんとサポートしてくれよ？」<br>運転席に乗り、アキに向かってにっこりと笑います。<br></span><span class="aki">深山彰人 : 「ああ、ごめん！　助手席というより、千冬くんの隣に乗りたかったんだ。なんたって、千冬くんと積もる話があるからさ。それじゃあ後ろに乗るね！　運転ありがとう、後ろからサポートするよ！」<br>そのまま後部座席の扉を開け乗り込みます！<br></span><span class="chiaki">染谷千秋 : 「千冬～、アキが話聞いてねえみたいだけど～」<br></span><span class="chiaki">染谷千秋 : 「3人でこのまま後部座席で話そうか？俺はそれでもいいけど～？千冬とはいつでも出かけれるしな」<br></span><span class="chifuyu">染谷千冬 : 「……もう、このままでいいんじゃないか。帰りに交代しよう」<br></span><span class="chiaki">染谷千秋 : 「……千冬はそうしたいわけ？」<br></span><span class="chifuyu">染谷千冬 : 「……」<br></span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……、そーかよ」<br>運転席に戻り、車を発進させます。<br></span><span class="aki">深山彰人 : 「……わがまま言ってごめんね、千冬くん。でもさ、数年振りだよ？　もっと千冬くんの話聞きたいし、俺の話もしたいから……」<br></span><span class="chifuyu">染谷千冬 : 「……そうだな」<br>千秋の言葉が引っかかりながら、答えます。<br></span><span class="aki">深山彰人 : 「……そういえば、先週はライブに来てくれてありがとうね。千冬くん、……と千秋くんがいるの見えたよ。おかげではりきっちゃった。……どう？　楽しめた……？」<br></span><span class="chifuyu">染谷千冬 : 「ああ、楽しかった」<br></span><span class="aki">深山彰人 : 「ほんと！？　ねえ、どう思ったか聞かせて」<br></span><span class="chifuyu">染谷千冬 : 「……会場の熱が凄かった。皆が曲に合わせてライトを振って、それが一緒で、ステージが光でキラキラしていて、アキが中心で歌っているのは……不思議な感覚だった」<br></span><span class="chiaki">染谷千秋 : 静かに運転してます。<br><br></span><span class="kp">千秋は会話に参加しなかった。二人は話を続ける。ライブの話からお互いの近況、仕事の話、越してきた理由――千冬は時々言葉を濁したが、目的地に着くまで話は尽きなかった。<br></span><span class="kp">・・・<br></span><span class="kp">そして三人は門司港を訪れた。門司港レトロと呼ばれるその観光地に、千秋と千冬は以前も来たことがある。明治頃の建築が残ったその街並みは、名前の通りレトロで趣のある風景だ。<br>この場所を挙げたのは千冬だった。深山が旅行先の写真をよく送ってくることから、美しい建物が並ぶこの場所を思いついたらしい。<br></span><span class="kp">駅構内に立ち入ると、駅員が古めかしい制服を着て業務をしている。深山と千冬が記念に写真を撮る。<br>着いた時にはちょうどお昼時だった。辺りを散策して適当な店に入り、門司港の名物、焼きカレーを食べる。千秋と千冬は前に訪れた時にも食べたものだ。<br>海沿いを歩いて、海峡ミュージアムに入り展示物を眺める。展示館、物産館、記念館、商船……と辺りの名所を見て回った。<br>千秋は千冬と深山の会話を優先していたが、時々話に加わる。<br>ブルーウィングもじという跳ね橋の写真を撮ったその後、フェリーに乗り下関の唐戸市場に向かい、ぶらぶらと買い出しをする。門司港に戻って今度は海峡プラザをふらついていたら、再び外に出た時には日が落ちようとしていた。<br><br></span><span class="chifuyu">染谷千冬 : 「そういえば、このあたりから少し近いところに、ナイトアクアリウムがあるらしい。行ってみたい。……いいか？」<br><br></span><span class="kp">二人を向いて言った千冬に、深山が答える。<br><br></span><span class="aki">深山彰人 : 「楽しそう！　行きたい」<br></span><span class="chiaki">染谷千秋 : 「おー。行こうぜ」<br><br></span><span class="kp">その言葉を聞いて、千冬は頷く。<br><br></span><span class="chifuyu">染谷千冬 : 「じゃあ、二人とも後ろに乗れ」<br></span><span class="chiaki">染谷千秋 : 「千冬がな〜。俺が運転する」<br></span><span class="chifuyu">染谷千冬 : 「いや、俺だ。そういう約束だった」<br></span><span class="chiaki">染谷千秋 : 「さっき交代しようって言ったのは帰りだろ。ほら、乗りな〜」<br></span><span class="chifuyu">染谷千冬 : 「帰り道みたいなものだ。いい。乗れ」<br></span><span class="chiaki">染谷千秋 : 「厳密には違うだろ〜？まだ行きだ」<br>アキの方をチラリと見ます。<br></span><span class="chiaki">染谷千秋 : 「アキはどう思う？」<br></span><span class="aki">深山彰人 : 「……俺？」<br></span><span class="aki">深山彰人 : （……こいつ、先週も今朝もやたら煩かったのに、急に大人しくなったよな。何か企んでる？）<br></span><span class="aki">深山彰人 : 「……まあ、千冬くんとはいっぱい喋ったからね。最初にわがままを言ったのは俺だし、千冬くんの言葉を尊重するよ」<br></span><span class="aki">深山彰人 : 「……それに、千秋くんと会話できるのも嬉しいよー」<br></span><span class="chiaki">染谷千秋 : 「ふーん？」<br></span><span class="chiaki">染谷千秋 : 「……ま、いーや。なら次は交代な」後部座席に乗ります。<br></span><span class="chifuyu">染谷千冬 : 「いや、必要ない」<br>運転席に乗ります。<br></span><span class="chiaki">染谷千秋 : 「交代って話だったろ？帰りは俺が運転する」<br>アキの話は聞かずに窓から景色を眺めます。<br></span><span class="chifuyu">染谷千冬 : 「違う」<br></span><span class="chiaki">染谷千秋 : 「何が違うんだよ？」<br></span><span class="chiaki">染谷千秋 : 「せっかくの機会だろ。遠慮すんな〜」<br></span><span class="chifuyu">染谷千冬 : 「……違う」<br></span><span class="chiaki">染谷千秋 : 「……？」<br></span><span class="aki">深山彰人 : 「……千冬くん困ってるでしょ？　大した問題じゃないし、千冬くんの希望通りでいいじゃん」<br></span><span class="chiaki">染谷千秋 : 「駄目だ。ずっと運転してたら疲れるだろ」<br></span><span class="chifuyu">染谷千冬 : 「大した距離じゃない。すぐに着く」<br></span><span class="chiaki">染谷千秋 : 「なら尚更俺でもいいだろ。……千冬」<br></span><span class="chifuyu">染谷千冬 : 「……嫌だ」<br><br></span><span class="kp">車を走らせながら、二人は言い合う。<br><br></span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】これ以上雰囲気壊したくないので引き下がる/理由を聞く (1D100<=80) ＞ 18 ＞ 成功<br></span><span class="chiaki">染谷千秋 : 「……。分かったよ。じゃあ疲れたら交代な」<br></span><span class="chifuyu">染谷千冬 : 「ああ」<br></span><span class="chiaki">染谷千秋 : 窓の外を見ながら、アキと不仲に見えない程度に話題を振ります。<br><br></span><span class="kp">辺りは背の高いビルが少ない、少し田舎に染まった景色へ変わっていく。30分もしないうちに、車をパーキングに駐車し、ナイトアクアリウムを訪れた。<br></span>
+<span class="kp">梅雨も終わった七月の初め、千秋と千冬は、家で穏やかな時間を過ごしていた。
+今日は特に予定も無い。朝起きて、相手の体に触れその熱を確かめる。しばらく肌を擦っていた後、名残惜しく離れ、足首の拘束具を外す。二人は顔を洗い、千冬がダイニングチェアに腰掛ける。千冬はテレビから流れる音を聴きながら、キッチンに立つ千秋の背をぼんやりと眺めている。
+これはいつもの、染谷家の休日朝の光景だ。
+</span><span class="kp">朝食を食べ終え、二人並んでソファに座る。互いに寄りかかってだらだらとしていると、千冬のスマホが震えた。
+
+</span><span class="chiaki">染谷千秋 : 「連絡来るの珍しいな。誰？」
+
+</span><span class="kp">千冬はスマホに手を伸ばす。通知を確認すると、驚いたように目を見開く。
+
+</span><span class="chifuyu">染谷千冬 : 「千秋。アキが来る」
+</span><span class="chiaki">染谷千秋 : 「は？」
+</span><span class="chifuyu">染谷千冬 : 「アキが来る」
+</span><span class="chiaki">染谷千秋 : 「……アキ？大学ん時の”友達”の？」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : 「まだ連絡取ってたんだな。いつ来るんだ？」
+</span><span class="chifuyu">染谷千冬 : 「たぶん、今から」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 7 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : 「随分急だな？」
+
+</span><span class="kp">その言葉の後、ピンポン、とチャイムが鳴る。
+
+</span><span class="chiaki">染谷千秋 : 「……早いな。何の用なの？」
+と千冬に尋ねながらチャイムに出ます。
+</span><span class="chifuyu">染谷千冬 : 「お土産を渡したいらしい」
+千秋と共に玄関に向かいます。
+</span><span class="chiaki">染谷千秋 : （千冬、住所いつの間に教えたんだ）
+</span><span class="chiaki">染谷千秋 : 「ふーん」
+先　に　出　ま　す。
+</span><span class="chiaki">染谷千秋 : 「アキ君、久々～」
+千冬より先に出ます。壁に両手を置いて家に入らせないようにします。
+
+</span><span class="kp">千秋がドアを開けると、目の前には千秋も見覚えがある人物が立っていた。
+
+</span><span class="aki">深山彰人 : 「千冬くん！」
+
+</span><span class="kp">身体を潜らせて中に入ろうとしたアキだったが、千秋に防がれて動きを止める。
+
+</span><span class="chiaki">染谷千秋 : 「無視かよ～？酷くね？」
+にっこり笑って決して通らせません。
+</span><span class="aki">深山彰人 : 「……千秋くんも、久しぶり～」
+</span><span class="aki">深山彰人 : 「ね、千秋くん。そこどいて？」
+</span><span class="chiaki">染谷千秋 : 「どいてって邪魔ってことかよ？ひでー言い草。まーいいけどさ」
+</span><span class="chiaki">染谷千秋 : 「お土産持ってきてくれたんだろ？千冬から話は聞いたぜ。ありがとな～」「アキ君の名前出たのが数年ぶりだったからさあ、海外にでも行ってたのかと思ったわ」
+</span><span class="chiaki">染谷千秋 : 「俺には一切連絡くれなかったの何でだよ。つめてーやつ～」
+</span><span class="aki">深山彰人 : 「そんなこと言ってないよ。思い込み激しいタイプなんだ？　繊細なんだね、傷つけちゃってごめんね」
+</span><span class="aki">深山彰人 : 「お土産持ってきたんだけど、ここで渡すには量多いからさ。中に入れてくれないかな？　それに、いくら千秋くんのほうがちっちゃいとはいえ、千冬くんが全然見えなくて。俺、千冬くんの顔が見たいな」「君は数年聞いてなかったかもしれないけど、俺はその間千冬くんと会話してたよ。知らなかったんだ～」
+</span><span class="aki">深山彰人 : 「そもそも俺、千秋くんの連絡先知らないもんね～。俺は千冬くんの同期だし。寂しかった？　ライン教えようか？」
+</span><span class="chiaki">染谷千秋 : 「俺が繊細に見えちゃうか～。アキ君そういうとこあるよな！鈍いってーの？」
+</span><span class="chiaki">染谷千秋 : 「あ〜散らかってるから入れらんねーわ～。
+千冬も忘れてたみたいでさあ、いつもなら来客があったら俺に教えてくれるんだけどな。ここで大丈夫だぜ～。千冬に運んでもらうし」
+</span><span class="chiaki">染谷千秋 : 『会話してた』という言葉を聞いて笑います。
+「ふっ……ｗ会話？ああ、知らなかったわ」
+にこにこ笑いながら千冬に聞こえないようぼそりと呟きます。
+「勘違いもここまで来ると滑稽だな」
+</span><span class="chiaki">染谷千秋 : 「一回千冬がいる時に言ったんだけどな～。ごめんごめんw俺が覚えるからID教えてくれよ？」
+</span><span class="chifuyu">染谷千冬 : 「ああ、千秋。忘れてたわけじゃない。急だったんだ。……アキ、せっかくだし上がるか？　準備ができてなくて、申し訳ないが。話もあるだろう」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 55 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「へえ、そっか。先に言えよな～」
+</span><span class="chiaki">染谷千秋 : 「千冬、ちょっといいか？」
+千冬を引きずって部屋に行きます。
+</span><span class="chifuyu">染谷千冬 : 「え」
+引きずられていきます。
+</span><span class="chiaki">染谷千秋 : 千冬を壁に押し付けます。
+「なあ……なんであいつがここ知ってんの」
+</span><span class="chifuyu">染谷千冬 : 「ラインで教えた」
+</span><span class="chiaki">染谷千秋 : 「……ふーん？」
+</span><span class="chiaki">染谷千秋 : 「なら、あれの言ってたことは本当って訳？数年間会話してるって話」
+</span><span class="chifuyu">染谷千冬 : 「ああ。専門の頃から、連絡は続いてるな」
+</span><span class="chiaki">染谷千秋 : 「へぇ～……。そりゃ知らなかった」
+</span><span class="chiaki">染谷千秋 : 「随分仲良いみたいだな？」
+</span><span class="chifuyu">染谷千冬 : 「さっき、千秋の言葉を聞いて思った。確かに友達だ。仲が良いのかもしれない」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 86 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「へぇ」笑顔が引きつります。
+</span><span class="chiaki">染谷千秋 : 「……あれのこと好きなの？」
+</span><span class="chifuyu">染谷千冬 : （好き、か……）
+</span><span class="chifuyu">染谷千冬 : 「……ああ」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】我慢/離れろっていう (1D100<=80) ＞ 26 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「そっか。千冬の友達なら大事にしないとな～？」
+</span><span class="chiaki">染谷千秋 : 「千冬、少しここにいて」
+</span><span class="chiaki">染谷千秋 : 一度千冬の元を離れます。部屋に入り、普段自分が使ってる香水を手に取り戻ってきます。その後千冬にかけます。
+</span><span class="chiaki">染谷千秋 : 「魔除け完了～。じゃ、戻ろうぜ」
+</span><span class="chifuyu">染谷千冬 : 「魔除け……？」
+</span><span class="chifuyu">染谷千冬 : 「……前にも遊びに来たことはあっただろう。千秋にとっては友達じゃないのか？」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直に言う/水面下でアキに嫌がらせをする (1D100<=80) ＞ 89 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「……そうだな？友達～ふれんず～ははは～」
+あれと友達なわけねーけどな、と心の中で悪態をつきます。
+</span><span class="chifuyu">染谷千冬 : 「そうか」
+</span><span class="chifuyu">染谷千冬 : 「……待たせるのも悪いな」
+玄関に戻り、扉を開けます。
+</span><span class="chiaki">染谷千秋 : 「待たせたな。入れよ」
+</span><span class="aki">深山彰人 : 「入れてくれるの？　千冬くんありがとう。やっぱり優しいね。突然来ちゃったのに」
+
+</span><span class="kp">にこやかに笑う深山は千冬の手に触れながら、家の中へと入る。
+
+</span><span class="chiaki">染谷千秋 : その手をはたきます。
+</span><span class="chiaki">染谷千秋 : よろしくお願いします。
+</span><span class="chiaki">染谷千秋 : 「まず手洗えよ～。近頃コロナ流行ってるだろ？」
+</span><span class="chiaki">染谷千秋 : 深山の背中を押して洗面所に押し込み、ドサクサに紛れてふくらはぎを蹴ります。
+</span><span class="chiaki">染谷千秋 : 「荷物は運んでおくからな～。念入りにあらえよ。雑菌あるかもしれねえし」
+</span><span class="chiaki">染谷千秋 : 大きな音を立てて洗面所の扉を占めます。荷物を運びお茶を入れます。
+</span><span class="chiaki">染谷千秋 : 来客用の食器を取り出します。いつも使っているコップとそれにそれぞれお茶を入れ、深山の分に下剤を仕込みます。
+</span><span class="aki">深山彰人 : 「……っ痛、……このやろ……」
+
+</span><span class="kp">千秋をぎろりと睨んだ深山は、手を洗って洗面所から出てくる。きびきびと来客の準備をする千秋を見て、することもなくぼーっと立っていた千冬が深山を迎える。
+
+</span><span class="chifuyu">染谷千冬 : 「こっちだ」
+</span><span class="aki">深山彰人 : 「千冬くん！　ねえ、千冬くんがいなくて寂しかったよ。話したいことも聞きたいこともいっぱいあるんだ」
+右手を千冬の腰に回して、左手で千冬の手を取ります。
+「ごめんね、手に触れたの嫌だった？　千冬くんも洗う？」
+</span><span class="chifuyu">染谷千冬 : （……近いな。そういえば、こんなだったな）
+「気にしなくていい」
+</span><span class="aki">深山彰人 : 「ほんと？」
+
+</span><span class="kp">深山は千冬に案内される。そしてダイニングテーブルを三人で囲んだ。
+
+</span><span class="chiaki">染谷千秋 : 「ちけーよ」
+真顔で二人を引き離し千冬と深山の間に座ります。
+</span><span class="chiaki">染谷千秋 : 「ほら、話そうぜ？」
+千冬の足に自分の足を絡めながら、深山が何かしないかさりげなく見ます。なんかあったら即座に止めます。
+</span><span class="aki">深山彰人 : 「……俺も千冬くんに触れたいんだけどな～？」
+</span><span class="aki">深山彰人 : 「元気にしてた？　気がついたら引っ越していてびっくりしたよ。どうして九州に？」
+千冬のほうを覗き込みながら言います。
+</span><span class="chiaki">染谷千秋 : 「アキ距離感バグってんな～。パーソナルスペースって言葉知ってるか～？」
+千冬を自分の方に抱き寄せながら、テーブルの下でその手をそっと握ります。その後、人差し指を使って千冬の掌に何か文字を書きます。
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 75 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 指で手のひらに文字が書かれていることに気づきます。何と書いてますか？
+</span><span class="chiaki">染谷千秋 : 『ち・ふ・ゆ・す・き』と書いています。
+</span><span class="aki">深山彰人 : 「そうかな？　でも千冬くんは気にしなくていいって言ってるよ。千秋くんがとやかく言うことじゃないよね？　……っていうか、君まだお兄ちゃんにべったりなんだ。いつまでも子どもみたいで可愛いね。兄離れしたほうがいいんじゃない？」
+</span><span class="chifuyu">染谷千冬 : 二人のほうをじっと見ながら、片手を好きにさせています。
+</span><span class="chiaki">染谷千秋 : 「だってさ、千冬。俺兄離れした方がいい？」
+可哀想な弟を演じながらで千冬の顔を覗き込み、その目をじっと見つめます。
+</span><span class="chifuyu">染谷千冬 : 「……俺は、しなくていいと思うが、……」
+</span><span class="chifuyu">染谷千冬 : 「……アキは、なんでそう思うんだ？」
+</span><span class="aki">深山彰人 : 「なんで、って……そんなにべったりだったら、千冬くんがいないと何もできなくなっちゃうかも。それって心配だよね。……千冬くん、甘やかしすぎてない？　大丈夫……？」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : 「べったりだと何も出来なくなる？ふ、そこに因果関係なくね〜？」
+</span><span class="chiaki">染谷千秋 : 「俺は千冬がいるから何でもやろうと思えんだけど〜？」
+更に千冬を抱き寄せてべったべたにくっ付きます。
+</span><span class="chifuyu">染谷千冬 : （……千秋もすごく引っ付いてくる。前もこうだったか？）
+</span><span class="aki">深山彰人 : 「……ほら、そういうところでしょ？　千冬くんに寄りかかってばっかりで、一人になったら何もできないってこと。駄々をこねるのも子どもみたいだね～」
+</span><span class="chiaki">染谷千秋 : 「それこそ"ただの"友達のアキがとやかく言うことじゃねーだろ？人に自分の理想押し付けんなよな〜？唯一の友達までなくすぞ〜」と半笑いで言いながら千冬に触れ続けます。
+</span><span class="chiaki">染谷千秋 : 「千冬、喉乾いてねえ？お茶飲みな」千冬にお茶を飲ませます。その後自分もお茶を飲みます。
+</span><span class="chiaki">染谷千秋 : 「ま、アキがそう思ってんのは分かったよ。覚えておくな〜。話変わるけどさあ、お土産何買ってきてくれたの？」
+</span><span class="chifuyu">染谷千冬 : 「ああ、用意ありがとう」
+お茶を飲みます。
+</span><span class="aki">深山彰人 : 二人に続いてお茶に口をつけます。
+</span><span class="aki">深山彰人 : 「……まあ、勝手に思っていればいいよ。そう、俺今、各地でライブやってて、その関係でこっちに滞在してるんだけど……お店見てたら千冬くんが好きそうだなってつい考えちゃって、千冬くんにあげたら喜んでくれるかなって……そしたら、いっぱい増えちゃった。見て見て」
+横の大きな紙袋をがさごそと漁ります。
+</span><span class="aki">深山彰人 : 「まずは東京！　きっと東京も久しぶりじゃない？　ごまたまごとね、あと……これ！　肉球フィナンシェ！　これ東京駅でしか買えないんだよ。パッケージも可愛いよね。でも、フィナンシェはもっと可愛いんだ」
+
+</span><span class="kp">そう言って深山はスマホで実物の画像を見せる。
+
+</span><span class="chifuyu">染谷千冬 : 「……可愛いな」
+</span><span class="chiaki">染谷千秋 : アキの話が始まった途端にスマホを取り出し、操作しはじめます。千冬にバレないよう写真を撮りながら時間を潰します。
+
+</span><span class="kp">千冬の僅かな微笑みを見て、深山もふわりと口角を緩める。紫がかった黒髪に服も黒い彼は、一見威圧的、もしくは陰気に見えるかもしれないが、千冬に笑いかける時は、最初に抱く印象が嘘のように柔らかだ。
+
+</span><span class="aki">深山彰人 : 「ふふ、千冬くんなら好きかなって思った……！　じゃあ、動物シリーズを先に見せるね。これは名古屋のお土産！　ぴよりんサブレと、かえるまんじゅうだよ。……ほら、これ。このかえるまんじゅう、すごく可愛くない？　俺なんだかこのフォルムがめちゃくちゃ好きで……千冬くんはどう……？」
+</span><span class="chifuyu">染谷千冬 : 「……ふ、可愛い」
+</span><span class="aki">深山彰人 : 「……喜んで貰えて嬉しいな。動物シリーズはこれでおしまい。次は大阪で……たこパティエって知ってる？　俺は初めて食べたんだけどね、パイ生地とたこ焼きの味の組み合わせにびっくりするよ。でも美味しかった」
+</span><span class="aki">深山彰人 : 「……最後に宮城のお土産。萩の月と、喜久福っていう和菓子。喜久福はちょっと期間が短いから注意なんだけど、美味しかったからどうしても食べてほしくて。冷凍してて」
+</span><span class="chifuyu">染谷千冬 : 「わかった」
+箱を手に取ってまじまじと見、冷凍しに立ち上がります。
+</span><span class="aki">深山彰人 : 「千冬くんってさ、洋菓子も和菓子も似合うよね。どっちが好き……？」
+</span><span class="chifuyu">染谷千冬 : 「どっちも好きだ」
+</span><span class="aki">深山彰人 : 「そっか。……ふふ、千冬くんらしいな」
+千冬が座った後、席を立ちます。
+</span><span class="aki">深山彰人 : そして千冬の横にかがみ、手を取って自分の手のひらと合わせます。
+「ね、千冬くん、今日空いてる？　一緒にお出かけしない……？　せっかくだし、千冬くんと遊びたい。ここのおすすめの場所教えてくれないかな……？」
+</span><span class="chiaki">染谷千秋 : なんと、千秋は千冬が座った後抱きしめて手のひらを握っているので握れません！
+</span><span class="chiaki">染谷千秋 : ざんね～ん！
+</span><span class="aki">深山彰人 : 草
+</span><span class="aki">深山彰人 : 後ろから千冬の頭を撫でた後、肩に手を置きながら耳打ちします^^
+</span><span class="chiaki">染谷千秋 : 耳打ちしようとしたらその顔を手のひらでおさえつけま～す！ｗ
+</span><span class="chiaki">染谷千秋 : 「だから近いって～学習しろよ」
+</span><span class="aki">深山彰人 : 「……それこそ、君がとやかく言うことじゃないよね？」
+</span><span class="chiaki">染谷千秋 : 「千冬は家族以外に触られんの苦手なんだよ。一緒にいて気付かねえの？べたべた気持ち悪いな～人のこと言えなくねえ？」
+</span><span class="chifuyu">染谷千冬 : 「……え」
+</span><span class="aki">深山彰人 : 「俺、そんなふうに千冬くんに言われたことないけどな。弟と友だちじゃ立場が違うでしょ？　……ね、千冬くん。本当に嫌……？」
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 24 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : （別に、触られるのは苦手でもないし、千秋とそんな話をしたこともない。でもそう言ったのは……そうか、千秋が嫌なのか。……もしかして、妬いてる？　でも、アキはただの友だちで……）
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】千秋優先/嘘をつけない (1D100<=55) ＞ 54 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「……得意ではない」
+</span><span class="aki">深山彰人 : 「……そっか。俺、もしかして千冬くんに無理させてたのかな……。ごめんね、俺のクセなんだけど、千冬くんが嫌なら気をつけるね……。だから、友だちでいてくれる……？」
+</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】強い/申し訳ない (1D100<=55) ＞ 39 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="aki">深山彰人 : 「ありがとう！　……で、話が逸れちゃった。それで、これからお出かけはどうかな……？」
+</span><span class="chifuyu">染谷千冬 : 「ああ、構わない。……千秋、」
+千秋をちらりと見ます。
+</span><span class="chiaki">染谷千秋 : 「ん」
+千冬に抱きついたままでいます。言外の問いには答えません。
+</span><span class="chifuyu">染谷千冬 : 「……千秋も行くか？」
+</span><span class="aki">深山彰人 : （……誘わなくていいのに）
+</span><span class="chiaki">染谷千秋 : 「……俺はいーや。千冬行ってきていいぜ」
+千冬の目をじ、と見た後に離れます。少しだけ呼吸を早めます。
+</span><span class="chiaki">染谷千秋 : 「今日微妙に体調悪くてさ〜。少しずつだるくなってる気がすんだ。俺のことは気にしないで行ってきていいぜ」
+</span><span class="aki">深山彰人 : （……こいつ、絶対嘘だろ！）
+</span><span class="chifuyu">染谷千冬 : 「……え。千秋、大丈夫か？」
+</span><span class="chiaki">染谷千秋 : 「ああ……、大丈夫〜」千冬の方に寄りかかりながら言います。
+</span><span class="chifuyu">染谷千冬 : （……そうか、いつもよりくっつき虫なのも、体調が悪くて心細いからか）
+</span><span class="chifuyu">染谷千冬 : 「アキ、ごめん。千秋が心配だから、今日はやめる」
+</span><span class="aki">深山彰人 : 「……大丈夫～？　……風邪でもなさそうだし、千冬くんが残るほどじゃない気もするけどな。千冬くん、本当に優しいね」
+</span><span class="aki">深山彰人 : 「……千冬くん、じゃあ来週の土曜日はどう……？　来週なら、千秋くんの体調も良くなってるでしょ？」
+</span><span class="chifuyu">染谷千冬 : 「ああ、それなら良い」
+</span><span class="chiaki">染谷千秋 : 「千冬、俺のこと気にしないでいいぜ？」
+ぺたぺたと触りながら言います。
+</span><span class="chifuyu">染谷千冬 : 「いや、気にする」
+</span><span class="chiaki">染谷千秋 : 目を細めて更に抱き寄せます。
+「ごめんな～」
+</span><span class="chiaki">染谷千秋 : 「アキも悪いな」
+</span><span class="chiaki">染谷千秋 : 「ここにいる期間も短いのにさ。……ライブいつまでなの？」
+</span><span class="aki">深山彰人 : 「明日。でも、終わってからもしばらくこっちに滞在する。だから気にしなくて良いよ～」
+</span><span class="aki">深山彰人 : 「本当はライブにも来てほしかったんだけどな。……千冬くん、チケットだけ渡しとくね。無理だったら全然良いからさ」
+
+</span><span class="kp">そう言って深山は千冬に、チケットを2枚手渡した。
+
+</span><span class="chifuyu">染谷千冬 : 「ああ、千秋の体調が良くなったら。ありがとう」
+</span><span class="aki">深山彰人 : 「じゃあ、体調悪いみたいだし？　俺はそろそろ戻るね。……お出かけとっても楽しみだな。じゃあ千冬くん、また来週ね……？」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+千秋の腕を解いて玄関まで見送り、また千秋のところに戻ります。
+</span><span class="chifuyu">染谷千冬 : 「千秋、本当に大丈夫か？　ベッドに移動しよう」
+</span><span class="chiaki">染谷千秋 : 「そこまでじゃねーって」
+</span><span class="chiaki">染谷千秋 : 「千冬が一緒にいてくれたらすぐ治る」
+千冬にひっつきながら脳内で塩を撒きます。
+</span><span class="chifuyu">染谷千冬 : 「冗談を言ってる場合じゃない。ちゃんと休め」
+千秋を抱えて立ち、ベッドまで歩きます。
+</span><span class="chifuyu">染谷千冬 : 「ご飯も俺が作る。拗らせないように、寝て回復すると良い」
+</span><span class="chiaki">染谷千秋 : 「ふ、……心配してくれてありがとな？」
+</span><span class="chiaki">染谷千秋 : 「けど冗談じゃないぜ？千冬がいてくれりゃ治るよ」
+ベッドに寝かされた後、千冬の腕を引っ張り抱きしめます。
+アキに触られてたところに触れます。
+</span><span class="chiaki">染谷千秋 : （体調悪いのはアキがいたからだしな～）
+</span><span class="chifuyu">染谷千冬 : 「……そうだな、俺も隣にいる」
+千秋を抱きしめて添い寝します。
+</span><span class="chiaki">染谷千秋 : 「やっと二人きりだな♥」
+千冬の腰を引き寄せて口付けします
+</span><span class="chifuyu">染谷千冬 : 「そうだな」
+</span><span class="chiaki">染谷千秋 : 「なあ、昼何食べたい？」
+</span><span class="chifuyu">染谷千冬 : 「……？　千秋は？　食欲は問題ないか？」
+</span><span class="chiaki">染谷千秋 : 「俺はいーや。……千冬の作りたい」
+</span><span class="chifuyu">染谷千冬 : 「……体調の良くない人にさせるわけがない。自分のは自分で用意する。いいから休め」
+</span><span class="chiaki">染谷千秋 : 「そんな悪くねえって。俺の顔色いつも通りだろ？千冬～」
+</span><span class="chifuyu">染谷千冬 : 「いつも通りには見えるが、良くないんだろう。だめだ、大人しくしろ」
+</span><span class="chiaki">染谷千秋 : 「動ける。な～お願い」
+千冬の方にすり寄って顔を覗き込みます。
+</span><span class="chifuyu">染谷千冬 : 「だめだ」
+</span><span class="chiaki">染谷千秋 : 「どーしても？」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 94 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「下準備もしてあるし10分あれば終わるぜ？」
+</span><span class="chifuyu">染谷千冬 : 「だめだ。動くな」
+</span><span class="chiaki">染谷千秋 : 千冬の目をじっとみて懇願します。
+</span><span class="chifuyu">染谷千冬 : 答えません。
+</span><span class="chiaki">染谷千秋 : 頬にすり寄って甘えて言外に懇願続けます。
+</span><span class="chifuyu">染谷千冬 : 頭を撫でますが答えません。
+</span><span class="chiaki">染谷千秋 : 目を細めて千冬の喉元にキスをします。首筋に舌を這わせます。
+</span><span class="chifuyu">染谷千冬 : 「……千秋、大人しくしろ」
+</span><span class="chiaki">染谷千秋 : 「少しだけ。千冬がほしい」
+腰に手を回して背筋を撫でます。
+</span><span class="chifuyu">染谷千冬 : 「……ん」
+</span><span class="chiaki">染谷千秋 : 唇を合わせ、千冬の目を見て微笑みます。服の中に手を忍ばせて、脇腹にそっと触れます。
+</span><span class="chifuyu">染谷千冬 : 「……こら」
+千秋の手に指を絡めて止めます。心配そうに見つめます。
+「……どう体調が悪いんだ？」
+</span><span class="chiaki">染谷千秋 : 「んー胸がむかむかする」
+にこにこと笑いながら告げます。
+</span><span class="chiaki">染谷千秋 : 「……だめ？少しだけ」
+手をぎゅっと握ります。
+</span><span class="chifuyu">染谷千冬 : 「……だめだ。寝ろ」
+</span><span class="chiaki">染谷千秋 : 「……千冬」
+反対の手でへそをかりりと引っかきます。
+</span><span class="chifuyu">染谷千冬 : 「……離れるぞ」
+</span><span class="chiaki">染谷千秋 : 「あ、待てって」千冬の身体を抱き寄せます。
+</span><span class="chifuyu">染谷千冬 : 「……大人しくしてるか？」
+</span><span class="chiaki">染谷千秋 : 「んん……」
+答えずに擦り寄ります。
+</span><span class="chifuyu">染谷千冬 : 「……大人しく寝ないなら、俺はベッドから出る」
+</span><span class="chiaki">染谷千秋 : 「可愛い弟を置いていくのかよ～？」
+</span><span class="chifuyu">染谷千冬 : 「可愛い弟が言うことを聞いてくれないからな」
+</span><span class="chiaki">染谷千秋 : 「寂しいんだけど？」
+</span><span class="chifuyu">染谷千冬 : 「しっかり休んでくれるか？」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 40 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「ちぇ、わかったよ。……千冬が側にいてくれんなら」
+</span><span class="chifuyu">染谷千冬 : 「なら良い」
+よく眠れるように背中をトントンと叩きます。
+</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 19 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「これ、前もやってたな。子供扱いしてる」
+千冬の頬に口付けします。
+</span><span class="chiaki">染谷千秋 : ccb 眠気 (1D100) ＞ 13
+</span><span class="chiaki">染谷千秋 : 「なあ、明日ライブいくの？」
+</span><span class="chifuyu">染谷千冬 : 「……これやった時、すぐに眠ったことがあっただろう。眠りやすいかと思った。千秋にはたくさん寝てほしい」
+</span><span class="chifuyu">染谷千冬 : 「千秋の体調が回復したら、行きたいな」
+</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+「ありがとな。落ち着く」
+</span><span class="chiaki">染谷千秋 : 「行きてえの？」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 23 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……ふぅん。なんで？」
+少し不貞腐れた様子で聞きます。
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 23 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 千秋の様子に少し戸惑いながら、答えます。
+「……友だちだから。友だちの活躍は見たい」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……。千冬にとってアキはどんぐらい大切な友達なの」
+</span><span class="chifuyu">染谷千冬 : 「どれくらい？」
+</span><span class="chiaki">染谷千秋 : じ、と見ます。
+</span><span class="chifuyu">染谷千冬 : 「……例えば？」
+</span><span class="chiaki">染谷千秋 : 「ただの友達～とか、連絡来なくても寂しくない～とか、切れても構わない～とかさ」
+</span><span class="chiaki">染谷千秋 : （……これからも付き合いを続けたいと思ってる、とかな）
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 53 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : 「……妬いてるな」
+</span><span class="chifuyu">染谷千冬 : 「大事な友だちだ。……嫌か？」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正直に言う/言わない (1D100<=80) ＞ 48 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 千冬の言葉に目を細めて笑います。
+</span><span class="chiaki">染谷千秋 : 「なんて答えてほしい？」
+</span><span class="chifuyu">染谷千冬 : 「千秋の本心が聞きたい」
+</span><span class="chiaki">染谷千秋 : 「嫌だって言ったら？」
+</span><span class="chifuyu">染谷千冬 : 「どうして嫌なんだ？」
+</span><span class="chiaki">染谷千秋 : 「あいつ、千冬のこと狙ってるだろ」
+片眉をあげて答えます。
+</span><span class="chiaki">染谷千秋 : 「……ベタベタ触ろうとしてさあ。気に食わねー」
+アキが触った肩に触れます。
+</span><span class="chifuyu">染谷千冬 : 「……そんなことないと思うが」
+</span><span class="chifuyu">染谷千冬 : 「確かに距離は近いが、そういうやつなんだろう」
+</span><span class="chiaki">染谷千秋 : ジト目になります。
+「本気かよ？」
+</span><span class="chiaki">染谷千秋 : 「俺にはあんなことしねーだろ？」
+</span><span class="chifuyu">染谷千冬 : 「……俺の同期だから、千秋には少し遠慮があるとか……」
+</span><span class="chiaki">染谷千秋 : 「じゃあその同期とやらは千冬以外にいんのかよ？」
+</span><span class="chifuyu">染谷千冬 : 「……いなかった気がする」
+</span><span class="chifuyu">染谷千冬 : 「アキも、そこまで人付き合いが広くなかった」
+</span><span class="chiaki">染谷千秋 : 「千冬が特別ってことだな？」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : 「……」
+</span><span class="chiaki">染谷千秋 : 「なあ、千冬は俺とアキが仲良くしてたら嬉しい？」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : 「そーかよ。……なら、仲良くしねーとな」
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 85 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「……千秋が一番大事だ。妬かなくていい。仲良くしてくれたらきっと、アキも喜ぶ」
+</span><span class="chiaki">染谷千秋 : 「どうかな～」
+</span><span class="chiaki">染谷千秋 : 「ま、分かったよ」
+</span><span class="chifuyu">染谷千冬 : 微笑んで、千秋の背を叩くのを再開します。
+</span><span class="chiaki">染谷千秋 : ccb 眠気 (1D100) ＞ 18
+</span><span class="chiaki">染谷千秋 : choice アキのライブに行く 行かない (choice アキのライブに行く 行かない) ＞ 行かない
+</span><span class="chiaki">染谷千秋 : 「なあ、アキとの話聞かせてくれよ」
+</span><span class="chiaki">染谷千秋 : 「俺の知らない話。あるんだろ？」
+</span><span class="chifuyu">染谷千冬 : 「そんなに無いと思う。卒業するまでは知ってるだろう。卒業してからは、ラインが送られてくる」
+トーク画面を開いて、千秋に渡します。
+
+</span><span class="kp">画面を見ると、深山が千冬に対して最近の出来事、出かけた場所などの日常を報告している。千冬はそれに対して、三日ほど経って一言返したり、返事していなかったりだ。基本的に一往復のみだが、時々会話が続いている。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】これから嫉妬しないように善処する/無理！ (1D100<=80) ＞ 20 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】これぐらいの内容なら許容する/正直嫉妬する (1D100<=80) ＞ 18 ＞ 成功
+</span><span class="chiaki">染谷千秋 : とても仲がいいとまでは言えないLINEを見てふ、と笑みをこぼします。
+「楽しそうだな」
+</span><span class="chifuyu">染谷千冬 : 「ああ、そうだな。楽しい」
+</span><span class="chiaki">染谷千秋 : 千冬の頭を撫でます。
+「千冬が楽しいなら俺も嬉しい」
+</span><span class="chifuyu">染谷千冬 : 「そうか。良かった」
+</span><span class="chiaki">染谷千秋 : 千冬の額に口付けて、目元に触れます。
+「……なあ、やっぱ触りたいんだけど」
+</span><span class="chifuyu">染谷千冬 : 「大人しくしろ」
+</span><span class="chiaki">染谷千秋 : 「体調悪いのは嘘だったって言っても？」
+身体を起こし、千冬に覆い被さります。
+</span><span class="chifuyu">染谷千冬 : 「……嘘、だったのか？」
+</span><span class="chiaki">染谷千秋 : 「ごめんな。嫉妬して嘘ついた。今日明日の外出なくなればいいと思ってさ」
+</span><span class="chifuyu">染谷千冬 : 「……そう、か」
+</span><span class="chifuyu">染谷千冬 : 「千秋が元気で良かった」
+腰に腕を回して引き寄せ、頭を撫でます。
+</span><span class="chifuyu">染谷千冬 : （……でも、アキには少し悪いことをしたな）
+</span><span class="chiaki">染谷千秋 : ふ、と笑って口付けをします。服の中に手を忍ばせ、身体をゆっくりと撫でます。
+</span><span class="chifuyu">染谷千冬 : 「う……、千秋……」
+千秋に触れられた場所に感覚を集中させます。
+</span><span class="chifuyu">染谷千冬 : 「……出かけたらだめか？」
+</span><span class="chiaki">染谷千秋 : 「……行きたいんだろ？いーよ」
+頬に口付けて、首筋に吸い付きます。そのまま強く吸い、痕をつけます。
+</span><span class="chifuyu">染谷千冬 : 「ありがとう。……来週もいいか？」
+</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+「ああ、千冬の好きにしていいぜ。嫉妬しないって言ったら嘘になるけどさ、それで千冬の行動縛りたくねーし、……」
+千冬の頭を撫でながら言います。
+</span><span class="chifuyu">染谷千冬 : 「……ありがとう。いい子だな」
+頭を撫で返します。
+</span><span class="chiaki">染谷千秋 : 「はは、そう？……外出の回数増えたら抑えらんなくなるかもだぜ？」
+もう一度首に痕をつけます。肩にゆっくりと噛みつきながら、千冬の身体中をさわさわと撫でます。
+</span><span class="chifuyu">染谷千冬 : 「……抑えられなくなったら？」
+</span><span class="chiaki">染谷千秋 : 「千冬を閉じ込める」
+</span><span class="chiaki">染谷千秋 : 「なーんてな、冗談」
+胸に触れ、乳首の周辺を指の腹で触ります。
+</span><span class="chifuyu">染谷千冬 : 「それは、困るな……、ふ」
+体を捩って、目を細めながら千秋を見つめます。
+</span><span class="chiaki">染谷千秋 : 「だから程々にしてくれよ？出かける時は今みたいに俺に教えて」
+唇を何度も合わせ、いつものように千冬の身体に触れ始めます。
+千冬の身体を拓き、抱く途中、首筋に大量の痕をつけたり肩口を噛んだりします。服の上から見えるような位置にもつけます。
+</span><span class="chifuyu">染谷千冬 : 千秋の後頭部を手のひらで包み、ふわふわと撫でつけます。
+「分かった、……っ」
+千秋に噛みつかれて、息をごくりと飲みます。ぎゅう、と抱きしめる力が強くなります。自分にたくさん痕を残す千秋に愛おしい感情が湧き、ずっと頭を撫で続けます。
+
+</span><span class="kp">初夏の眩しい日差しが射し込む部屋で、二人は触れ合い、体を重ね合わせる。こうして朝から事に及ぶのも、二人にとってはそう珍しいことではないだろう。果てた千冬の体には、千秋が残したたくさんの痕が、赤々と残っている。
+</span><span class="kp">二人は笑いあって、穏やかな日常を取り戻す。突然の来訪者がいたことが嘘のようだ。それでも、千冬の持つチケットが、深山との約束を思い出させる。
+・・・
+</span><span class="kp">翌日、二人は深山の言うライブに向かった。千冬が深山に「今日行く」とメッセージを送ると、すぐに既読がつき「来てくれるの！？ありがとう、千冬くんのために歌うね♡」と返信が来る。
+</span><span class="kp">会場は福岡のそれなりに大きなホールだった。
+深山はインターネット上で活動している歌手らしい。名義は「アキ」で、歌がメインながら、時々作曲や演奏も行っているようだ。ライブに訪れているのは若い女性が多いが、一部には男性も混じっている。
+</span><span class="kp">チケットの席は最前列だった。ライブが始まると、甲高い声と紫色のペンライトで会場が埋められる。ペンライトは持っていないため振ることはできない。千冬はじっと深山を見て、ライブに夢中になっているようだ。千秋にとっては、たいそうつまらないだろう。深山が、千冬のほうを見た気がする。千冬は、深山と目が合った気がする。そんな瞬間が何度かあった。
+</span><span class="kp">ライブは一時間ほどで終わる。深山から控え室に来るかと連絡があったが、二人はそのまま帰るだろう。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】上辺の言葉でもアキを称える感想を捻り出す/気に食わないので感想を言わない (1D100<=80) ＞ 92 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 「……ライブどうだった？」
+</span><span class="chifuyu">染谷千冬 : 「ライブには行ったことがなかったが、楽しいな。良かった」
+</span><span class="chiaki">染谷千秋 : 微笑みながら千冬の手を握ります。
+「そっか。千冬が楽しめたんならよかった。確かに新鮮だったな」
+</span><span class="chiaki">染谷千秋 : 「普段あんま聞かねーけど、偶には悪くないかもな。別のライブにも行ってみる？」
+</span><span class="chifuyu">染谷千冬 : 「そうだな、行ってみたい」
+</span><span class="chiaki">染谷千秋 : 手の甲を指の腹で撫でながら目を細めます。
+「どんなライブが良い？」
+</span><span class="chifuyu">染谷千冬 : 「……分からない」
+</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 91 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : 「……アキに聞いてみる。それに、アキのライブももっとちゃんと見たい。ペンライトも無かったし、知らない曲が多かった。準備ができていたら、もっと楽しめるんだろうな」
+</span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 5 - 1（本日一回失敗した分）】 (1D100<=64) ＞ 15 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「アキに？……べつにアキじゃなくてもいいだろ～？思いつかねーならフェス行こうぜ」
+</span><span class="chiaki">染谷千秋 : 「色んなバンド出るしさ。そっちなら千冬も楽しめるだろ」
+</span><span class="chifuyu">染谷千冬 : 「俺は詳しくないから、聞いてみようかと思った。そうなのか？　行ってみたい」
+</span><span class="chiaki">染谷千秋 : 「あんまアキと会話すんなよな。……妬ける」
+少しだけ口を尖らせながら千冬を引き寄せます。
+</span><span class="chiaki">染谷千秋 : 「バ先にバンドマンいるから俺が聞く。フェスなら気に入ったバンド見つかるかもだしさあ、ペンライトはそっからでも遅くねーと思うぜ？」
+</span><span class="chifuyu">染谷千冬 : 「……ふ、分かった」
+</span><span class="chiaki">染谷千秋 : 頬をすりすりと撫でて、物陰に隠れて口付けします。
+「はは、決まり～」
+
+</span><span class="kp">そんなふうに話しながら、あなたたちは家に帰る。
+部屋で一息つくなり、千冬が千秋に押し倒されたのは言うまでもないだろう。千冬の体には、昨日の痕が服で隠しきれずに覗く。さすがに距離があり、これは深山の目には入らなかったかもしれない。
+</span><span class="kp">・・・
+そして、次の週の土曜日。深山は約束通り、再びあなたたちの家を訪れた。来客を示すインターホンが鳴る。
+
+</span><span class="chiaki">染谷千秋 : 今日も千冬に香水をかけ、自分の服を着せます。
+千冬と並んで出ます。
+「よー久しぶり」
+</span><span class="chifuyu">染谷千冬 : 「おはよう」
+
+</span><span class="kp">千秋は先週土曜に、自分が着ていた服を千冬に着せた。
+千秋と千冬は背丈はさほど変わらないが、体型には少し差がある。千秋の服を着ると、千冬のいつものゆとりあるサイズ感の印象はない。
+そして、昨夜の事はとても激しかった。千秋は意図的に体中に所有痕を残した。この時期の服装では見えてしまう痕もあるだろう。さすがに千冬も気にして、化粧品を買い特に目立つものを隠した。
+
+</span><span class="aki">深山彰人 : 「おはよ、久しぶり。今日をずっと楽しみにしてたよ。しかも、千冬くんの車に乗せてもらえるなんて。……一緒にお出かけできて嬉しいな」
+
+</span><span class="kp">千冬の家で一度集合し、その後車で目的地に向かうことになっていた。千冬は「構わない」と答えて、玄関から出る。
+
+</span><span class="chiaki">染谷千秋 : 助　手　席　に　乗　り　ま　す
+千　冬　に　話　し　か　け　つ　つ　ナ　ビ　ゲ　ー　ト　し　ま　す
+時　々　千　冬　に　触　れ　ま　す
+ア　キ　に　は　十　回　に　一　回　話　し　か　け　ま　す
+
+</span><span class="kp">おもろすぎ
+
+</span><span class="aki">深山彰人 : 助手席に座ろうとした千秋の肩を掴みます。
+「……ね、そこは普通俺なんじゃない？　後ろに行ってくれないかな？」
+</span><span class="chiaki">染谷千秋 : 「背の高いアキ君には窮屈だろ？後ろ空いてるからさあ、使っていいぜ？小さい俺が乗ってやるよ」
+</span><span class="chiaki">染谷千秋 : 「俺はこの席で『いつも』千冬と出かけてるからさあ、はは、遠慮すんなよ～」
+アキを殴らずに（！）後部座席の方へ押します。その後助手席に乗ります。
+</span><span class="aki">深山彰人 : 抵　抗　し　ま　す
+「窮屈じゃないよ。いつも助手席なら、たまには後ろに乗ってみたらいいんじゃない？　……こういう時、客人が助手席に乗るものなんだよ。千秋くんはマナーに疎いみたいだから分からないかな？　まだ子どもみたいだもんね、社会勉強になって良かったね」
+</span><span class="chiaki">染谷千秋 : 「あー上座とか気にするタイプ？随分心狭いんだな～？車の上座は時と場合によって変わるんだよ。覚えときな～？」
+</span><span class="chiaki">染谷千秋 : 「それに、俺たち友達だろ～？いちいち細かいこと気にすんなよ。ゆったりした場所使えって」
+助　手　席　に　乗　り　ま　す
+</span><span class="aki">深山彰人 : 「時と場合によって変わるから自家用車の上座は助手席だよね？　知らなかった～？　……上座とかを気にしてるわけじゃなくて、俺は後ろで一人座るより千冬くんの隣に座りたいの。……分かってんだろ。どけよ」ぼそりと呟きます。
+腕　掴　ん　で　離　し　ま　せ　ん
+</span><span class="chiaki">染谷千秋 : 「いっ……てぇ……、離せよ！」
+大きな声で言って顔を歪めて手を振り払う仕草をします。
+</span><span class="chiaki">染谷千秋 : 「聞こえねえな？」
+目を細めてアキを見ながらボソリと呟き、その足を思い切り踏みつけ助手席に倒れ込みます。
+</span><span class="aki">深山彰人 : STR対抗！STR対抗！
+</span><span class="chiaki">染谷千秋 : なんぼや？
+</span><span class="chiaki">染谷千秋 : 足の痛み補正いれてください！踵を使って爪先死ぬ気で踏みつけました！
+</span><span class="aki">深山彰人 : たけえブーツだから効きませ～～んむしろ痛みで強く握ってやろうか
+</span><span class="chiaki">染谷千秋 : じゃあ脛蹴ります^^MA込行けますたいよろ^^
+</span><span class="aki">深山彰人 : MA乗るほど強く蹴ったら千冬くんにばれるけどいいのかな？^^
+</span><span class="chiaki">染谷千秋 : お前が強く握ったからだろ？^^せいぜい痛みで悶えるんだな
+</span><span class="aki">深山彰人 : 手繋いでるだけじゃん^^
+</span><span class="chiaki">染谷千秋 : 千冬にはどう見えてるかな^^
+</span><span class="aki">深山彰人 : RESB(9-12) (1d100<=35) ＞ 71 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : 倒れ込みながら顔を歪めて笑い、中指を立てます。
+
+</span><span class="kp">深山は足を踏みつけられ思わず手を離した。その隙に千秋が助手席に乗り込む。
+
+</span><span class="chiaki">染谷千秋 : 倒れ込むですが～！？？！
+</span><span class="chiaki">染谷千秋 : あーーーアキに強く握られて腕いてぇわー！
+
+</span><span class="kp">倒れ込む。
+
+</span><span class="chiaki">染谷千秋 : ヨシ！
+</span><span class="aki">深山彰人 : 「……千冬くん！　俺助手席に乗りたいんだけどだめ！？」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】追撃しない/追撃する (1D100<=80) ＞ 15 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : 「アキ強く握り過ぎな。千冬～、千冬の隣は俺がいい～」
+腕をさすりながら千冬に抱きつきます。
+</span><span class="chifuyu">染谷千冬 : 「……じゃんけんしたらどうだ」
+</span><span class="chiaki">染谷千秋 : 「嫌だ。千冬が決めてよ」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chifuyu">染谷千冬 : 「じゃあ、二人とも後ろ」
+</span><span class="aki">深山彰人 : 「……」
+</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+「なら千冬が後ろ乗りな。俺が運転する」
+</span><span class="chiaki">染谷千秋 : 「そんでアキは助手席に座る。……それでいいよな？」
+</span><span class="chifuyu">染谷千冬 : 「……俺が言った場所だ。俺が運転でいい」
+</span><span class="chiaki">染谷千秋 : 千冬の頭を撫でます。
+「いーから。疲れてるだろ？俺がやるよ。助手席に座ろうとしたのも、千冬のサポートしようと思ってたからだし」
+</span><span class="chiaki">染谷千秋 : 「ほら、後ろ行きな」
+千冬の首をするりと撫でて後ろに行かせます。
+</span><span class="chifuyu">染谷千冬 : 「……分かった」
+後ろに行きます。
+</span><span class="chiaki">染谷千秋 : 「助手席に乗れてよかったな。ちゃんとサポートしてくれよ？」
+運転席に乗り、アキに向かってにっこりと笑います。
+</span><span class="aki">深山彰人 : 「ああ、ごめん！　助手席というより、千冬くんの隣に乗りたかったんだ。なんたって、千冬くんと積もる話があるからさ。それじゃあ後ろに乗るね！　運転ありがとう、後ろからサポートするよ！」
+そのまま後部座席の扉を開け乗り込みます！
+</span><span class="chiaki">染谷千秋 : 「千冬～、アキが話聞いてねえみたいだけど～」
+</span><span class="chiaki">染谷千秋 : 「3人でこのまま後部座席で話そうか？俺はそれでもいいけど～？千冬とはいつでも出かけれるしな」
+</span><span class="chifuyu">染谷千冬 : 「……もう、このままでいいんじゃないか。帰りに交代しよう」
+</span><span class="chiaki">染谷千秋 : 「……千冬はそうしたいわけ？」
+</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……、そーかよ」
+運転席に戻り、車を発進させます。
+</span><span class="aki">深山彰人 : 「……わがまま言ってごめんね、千冬くん。でもさ、数年振りだよ？　もっと千冬くんの話聞きたいし、俺の話もしたいから……」
+</span><span class="chifuyu">染谷千冬 : 「……そうだな」
+千秋の言葉が引っかかりながら、答えます。
+</span><span class="aki">深山彰人 : 「……そういえば、先週はライブに来てくれてありがとうね。千冬くん、……と千秋くんがいるの見えたよ。おかげではりきっちゃった。……どう？　楽しめた……？」
+</span><span class="chifuyu">染谷千冬 : 「ああ、楽しかった」
+</span><span class="aki">深山彰人 : 「ほんと！？　ねえ、どう思ったか聞かせて」
+</span><span class="chifuyu">染谷千冬 : 「……会場の熱が凄かった。皆が曲に合わせてライトを振って、それが一緒で、ステージが光でキラキラしていて、アキが中心で歌っているのは……不思議な感覚だった」
+</span><span class="chiaki">染谷千秋 : 静かに運転してます。
+
+</span><span class="kp">千秋は会話に参加しなかった。二人は話を続ける。ライブの話からお互いの近況、仕事の話、越してきた理由――千冬は時々言葉を濁したが、目的地に着くまで話は尽きなかった。
+</span><span class="kp">・・・
+</span><span class="kp">そして三人は門司港を訪れた。門司港レトロと呼ばれるその観光地に、千秋と千冬は以前も来たことがある。明治頃の建築が残ったその街並みは、名前の通りレトロで趣のある風景だ。
+この場所を挙げたのは千冬だった。深山が旅行先の写真をよく送ってくることから、美しい建物が並ぶこの場所を思いついたらしい。
+</span><span class="kp">駅構内に立ち入ると、駅員が古めかしい制服を着て業務をしている。深山と千冬が記念に写真を撮る。
+着いた時にはちょうどお昼時だった。辺りを散策して適当な店に入り、門司港の名物、焼きカレーを食べる。千秋と千冬は前に訪れた時にも食べたものだ。
+海沿いを歩いて、海峡ミュージアムに入り展示物を眺める。展示館、物産館、記念館、商船……と辺りの名所を見て回った。
+千秋は千冬と深山の会話を優先していたが、時々話に加わる。
+ブルーウィングもじという跳ね橋の写真を撮ったその後、フェリーに乗り下関の唐戸市場に向かい、ぶらぶらと買い出しをする。門司港に戻って今度は海峡プラザをふらついていたら、再び外に出た時には日が落ちようとしていた。
+
+</span><span class="chifuyu">染谷千冬 : 「そういえば、このあたりから少し近いところに、ナイトアクアリウムがあるらしい。行ってみたい。……いいか？」
+
+</span><span class="kp">二人を向いて言った千冬に、深山が答える。
+
+</span><span class="aki">深山彰人 : 「楽しそう！　行きたい」
+</span><span class="chiaki">染谷千秋 : 「おー。行こうぜ」
+
+</span><span class="kp">その言葉を聞いて、千冬は頷く。
+
+</span><span class="chifuyu">染谷千冬 : 「じゃあ、二人とも後ろに乗れ」
+</span><span class="chiaki">染谷千秋 : 「千冬がな〜。俺が運転する」
+</span><span class="chifuyu">染谷千冬 : 「いや、俺だ。そういう約束だった」
+</span><span class="chiaki">染谷千秋 : 「さっき交代しようって言ったのは帰りだろ。ほら、乗りな〜」
+</span><span class="chifuyu">染谷千冬 : 「帰り道みたいなものだ。いい。乗れ」
+</span><span class="chiaki">染谷千秋 : 「厳密には違うだろ〜？まだ行きだ」
+アキの方をチラリと見ます。
+</span><span class="chiaki">染谷千秋 : 「アキはどう思う？」
+</span><span class="aki">深山彰人 : 「……俺？」
+</span><span class="aki">深山彰人 : （……こいつ、先週も今朝もやたら煩かったのに、急に大人しくなったよな。何か企んでる？）
+</span><span class="aki">深山彰人 : 「……まあ、千冬くんとはいっぱい喋ったからね。最初にわがままを言ったのは俺だし、千冬くんの言葉を尊重するよ」
+</span><span class="aki">深山彰人 : 「……それに、千秋くんと会話できるのも嬉しいよー」
+</span><span class="chiaki">染谷千秋 : 「ふーん？」
+</span><span class="chiaki">染谷千秋 : 「……ま、いーや。なら次は交代な」後部座席に乗ります。
+</span><span class="chifuyu">染谷千冬 : 「いや、必要ない」
+運転席に乗ります。
+</span><span class="chiaki">染谷千秋 : 「交代って話だったろ？帰りは俺が運転する」
+アキの話は聞かずに窓から景色を眺めます。
+</span><span class="chifuyu">染谷千冬 : 「違う」
+</span><span class="chiaki">染谷千秋 : 「何が違うんだよ？」
+</span><span class="chiaki">染谷千秋 : 「せっかくの機会だろ。遠慮すんな〜」
+</span><span class="chifuyu">染谷千冬 : 「……違う」
+</span><span class="chiaki">染谷千秋 : 「……？」
+</span><span class="aki">深山彰人 : 「……千冬くん困ってるでしょ？　大した問題じゃないし、千冬くんの希望通りでいいじゃん」
+</span><span class="chiaki">染谷千秋 : 「駄目だ。ずっと運転してたら疲れるだろ」
+</span><span class="chifuyu">染谷千冬 : 「大した距離じゃない。すぐに着く」
+</span><span class="chiaki">染谷千秋 : 「なら尚更俺でもいいだろ。……千冬」
+</span><span class="chifuyu">染谷千冬 : 「……嫌だ」
+
+</span><span class="kp">車を走らせながら、二人は言い合う。
+
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】これ以上雰囲気壊したくないので引き下がる/理由を聞く (1D100<=80) ＞ 18 ＞ 成功
+</span><span class="chiaki">染谷千秋 : 「……。分かったよ。じゃあ疲れたら交代な」
+</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span class="chiaki">染谷千秋 : 窓の外を見ながら、アキと不仲に見えない程度に話題を振ります。
+
+</span><span class="kp">辺りは背の高いビルが少ない、少し田舎に染まった景色へ変わっていく。30分もしないうちに、車をパーキングに駐車し、ナイトアクアリウムを訪れた。
+</span>
 
 <style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.aki{color:#673ab7}</style>
