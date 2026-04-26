@@ -1,0 +1,6 @@
+---
+order: 2
+id: "TkM1iUDaG7U"
+title: "傘に臨界のおまけ"
+platform: "youtube"
+---

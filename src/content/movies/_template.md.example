@@ -1,0 +1,9 @@
+---
+# Copy this file to `NN-slug.md`.
+# Example: `06-new-movie.md`
+
+order: 6
+id: "YouTubeVideoId"
+title: "動画タイトル"
+platform: "youtube"
+---

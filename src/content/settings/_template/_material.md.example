@@ -1,0 +1,13 @@
+---
+kind: "material"
+order: 1
+title: "資料タイトル"
+documentUrls: "https://drive.google.com/file/d/sample/view"
+details: []
+# 以下のような形でラベルと説明文を追加できます。
+details:
+  - label: "カテゴリ"
+    value: "設定資料"
+  - label: "形式"
+    value: "Google Drive"
+---

@@ -1,0 +1,22 @@
+---
+season: 1
+session:
+  type: normal
+  rating:
+    isR18: false
+    isR18G: false
+  storyDate: "2026.01.01"
+  timelineCast: ""
+  cast: ["染谷千秋", "染谷千冬"]
+scenario:
+  title: "Episode title"
+  description: |-
+    Episode description.
+  author: ""
+  distributionName: ""
+  distributionUrl: ""
+  adaptedScenarioUrl: ""
+custom:
+  showSmallTitle: false
+  isCompactDescription: false
+---
