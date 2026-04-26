@@ -22,6 +22,14 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* Modal が開いている間のスクロールロック。
+   Modal.astro が body[data-modal-locked] と --scrollbar-width を付与する。
+   スタイル指定は CSS 側に集約することで、JS は状態遷移のみを扱う。 */
+body[data-modal-locked] {
+  overflow: hidden;
+  padding-right: var(--scrollbar-width, 0);
+}
+
 main {
   background:
     radial-gradient(circle at 1px 1px, rgba(17, 17, 17, 0.16) 1px, transparent 0) 0 0 / 28px 28px,

@@ -28,7 +28,7 @@ const slideImages = enableSlideshow
       {slideImages.map((src, i) => (
         <div
           class="home__slide"
-          style={`background-image: url('${src}');`}
+          style={{ backgroundImage: `url("${src}")` }}
           data-index={i}
         />
       ))}

@@ -40,7 +40,7 @@ const displayedImages = await displayedGalleryImages();
               type="button"
               aria-label={commonMsg.actions.open(modalTitle)}
               data-modal-open={modalId}
-              style={`--delay:${index * 30}ms;`}
+              style={{ "--delay": `${index * 30}ms` }}
             >
               <img
                 src={gallerySrc(entry)}

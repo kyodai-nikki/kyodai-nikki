@@ -83,30 +83,16 @@ const {
     visibility: hidden;
   }
 
+  /* ShareButton の CSS 変数 API を使ってカスタマイズする
+     （:global で内部要素を直接いじらないことで疎結合を維持） */
   .episode-log__footer :global(.episode-log__share-buttons) {
     --share-btn-size: 36px;
     --share-icon-size: 17px;
     --share-line-icon-size: 28px;
-
-    display: inline-flex;
-    align-items: center;
-    gap: 18px;
-  }
-
-  .episode-log__footer :global(.episode-log__share-buttons .share-button) {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: #6f6f6f;
-  }
-
-  .episode-log__footer :global(.episode-log__share-buttons .share-button:hover) {
-    background: #2f2f2f;
-    transform: none;
-  }
-
-  .episode-log__footer :global(.episode-log__share-buttons .share-button svg) {
-    display: block;
+    --share-buttons-gap: 18px;
+    --share-btn-bg: #6f6f6f;
+    --share-btn-hover-bg: #2f2f2f;
+    --share-btn-hover-transform: none;
   }
 
   @media (max-width: 720px) {

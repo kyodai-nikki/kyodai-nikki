@@ -27,6 +27,68 @@ const { renderedSections } = Astro.props;
 </article>
 
 <style>
+  /* ---------------------------------------------------------------------
+   * Astro 側マークアップ（episode-log__*）
+   * ------------------------------------------------------------------- */
+  .episode-log__body {
+    display: grid;
+    gap: 40px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: #1f1f1f;
+    font-size: 1.02rem;
+    line-height: 1.86;
+    font-family: var(--font-family-log-body);
+  }
+
+  .episode-log__content-section {
+    scroll-margin-top: calc(
+      var(--h-header-top) + var(--h-header-nav) + var(--s-5) + var(--s-4)
+    );
+  }
+
+  .episode-log__content-head {
+    margin-bottom: 14px;
+  }
+
+  .episode-log__content-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    font-family: var(--font-family-log-heading);
+    font-size: clamp(1.55rem, 2.5vw, 2rem);
+    font-weight: var(--fw-bold);
+  }
+
+  .episode-log__content-head h3::before {
+    content: "▼";
+    font-size: 0.95em;
+    line-height: 1;
+  }
+
+  /* Markdown 内の段落・リスト（render() 結果のため :global が必要） */
+  .episode-log__content-section :global(p) {
+    margin-bottom: 0.75em;
+    font-family: var(--font-family-log-body);
+    white-space: pre-line;
+  }
+
+  .episode-log__content-section :global(ul) {
+    margin: 0;
+    padding-left: 1.25em;
+    font-family: var(--font-family-log-body);
+  }
+
+  .episode-log__content-section :global(li + li) {
+    margin-top: 0.35em;
+  }
+
+  /* ---------------------------------------------------------------------
+   * Markdown 本文（.prose / .log）の基底
+   * ------------------------------------------------------------------- */
   .log {
     margin-inline: auto;
     line-height: var(--lh-loose);
@@ -192,62 +254,5 @@ const { renderedSections } = Astro.props;
     .line { grid-template-columns: 1fr; gap: var(--s-1); }
     .line::before { text-align: left; }
     .session-pager { grid-template-columns: 1fr; }
-  }
-</style>
-
-<style>
-  .episode-log__body {
-    display: grid;
-    gap: 40px;
-    padding: 0;
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    color: #1f1f1f;
-    font-size: 1.02rem;
-    line-height: 1.86;
-    font-family: var(--font-family-log-body);
-  }
-
-  .episode-log__content-section {
-    scroll-margin-top: calc(
-      var(--h-header-top) + var(--h-header-nav) + var(--s-5) + var(--s-4)
-    );
-  }
-
-  .episode-log__content-head {
-    margin-bottom: 14px;
-  }
-
-  .episode-log__content-head h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-    font-family: var(--font-family-log-heading);
-    font-size: clamp(1.55rem, 2.5vw, 2rem);
-    font-weight: var(--fw-bold);
-  }
-
-  .episode-log__content-head h3::before {
-    content: "▼";
-    font-size: 0.95em;
-    line-height: 1;
-  }
-
-  .episode-log__content-section :global(p) {
-    margin-bottom: 0.75em;
-    font-family: var(--font-family-log-body);
-    white-space: pre-line;
-  }
-
-  .episode-log__content-section :global(ul) {
-    margin: 0;
-    padding-left: 1.25em;
-    font-family: var(--font-family-log-body);
-  }
-
-  .episode-log__content-section :global(li + li) {
-    margin-top: 0.35em;
   }
 </style>

@@ -11,7 +11,7 @@ const items = await newsListItems();
   <PageHeading slot="page-heading" title={navigation.news.title} />
 
   {items.length === 0 ? (
-    <p style="color: var(--c-fg-muted); text-align: center;">{newsPageMsg.empty}</p>
+    <p class="news-empty">{newsPageMsg.empty}</p>
   ) : (
     <ul class="news-list">
       {items.map(({ entry: item, external, href, text }) => {
@@ -48,6 +48,11 @@ const items = await newsListItems();
 </BaseLayout>
 
 <style>
+  .news-empty {
+    color: var(--c-fg-muted);
+    text-align: center;
+  }
+
   .news-list {
     list-style: none;
     padding: 0;

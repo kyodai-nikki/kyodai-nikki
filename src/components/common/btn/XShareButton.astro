@@ -27,18 +27,18 @@ const { href } = Astro.props;
     justify-content: center;
     width: var(--share-btn-size);
     height: var(--share-btn-size);
-    border-radius: 9999px;
-    background: #6c6c6c;
-    color: #ffffff;
+    border-radius: var(--share-btn-radius, 9999px);
+    background: var(--share-btn-bg, #6c6c6c);
+    color: var(--share-btn-color, #ffffff);
     transition:
       transform var(--dur-fast) var(--ease-out),
       background var(--dur-fast) var(--ease-out);
   }
 
   .share-button:hover {
-    transform: translateY(-1px);
-    background: #3f3f3f;
-    color: #ffffff;
+    transform: var(--share-btn-hover-transform, translateY(-1px));
+    background: var(--share-btn-hover-bg, #3f3f3f);
+    color: var(--share-btn-hover-color, #ffffff);
   }
 
   .share-button svg {

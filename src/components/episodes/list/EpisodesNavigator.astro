@@ -73,7 +73,7 @@ const logHref = current
           <a
             class={itemClass(e)}
             href={withBase(episodeHref(activeSeasonInfo.slug, e))}
-            style={`--ep-bg: url('${episodeListImage(activeSeasonInfo.slug, e)}'), url('${dummyEpisodeList}');`}
+            style={{ "--ep-bg": `url("${episodeListImage(activeSeasonInfo.slug, e)}"), url("${dummyEpisodeList}")` }}
           >
             <span class="ep-item__no">{episodeListNumberLabel(e)}</span>
             <span class="ep-item__title">{e.title}</span>
@@ -90,7 +90,7 @@ const logHref = current
           class="ep-detail__image"
           src={episodeThumbnailImage(activeSeasonInfo.slug, current)}
           alt={episodesPageMsg.thumbnailAlt(current.title)}
-          onerror={`this.src='${dummyThumbnail}'`}
+          data-fallback-src={dummyThumbnail}
         />
       </div>
 
@@ -392,6 +392,26 @@ const logHref = current
     const detail = document.querySelector("#ep-detail");
     if (detail instanceof HTMLElement && window.matchMedia("(max-width: 880px)").matches) {
       detail.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    // サムネイル画像の読み込み失敗時に fallback 画像へ差し替える
+    // （onerror インライン属性の置き換え。CSP 強化時の前提も整える）
+    const detailImage = document.querySelector(".ep-detail__image");
+    if (detailImage instanceof HTMLImageElement) {
+      const fallback = detailImage.dataset.fallbackSrc;
+      if (fallback) {
+        const applyFallback = () => {
+          if (detailImage.src !== fallback) {
+            detailImage.src = fallback;
+          }
+        };
+        if (detailImage.complete && detailImage.naturalWidth === 0) {
+          // ハンドラ登録より先に error が発火し終えていた場合のフォロー
+          applyFallback();
+        } else {
+          detailImage.addEventListener("error", applyFallback, { once: true });
+        }
+      }
     }
   };
 

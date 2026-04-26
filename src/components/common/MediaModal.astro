@@ -82,7 +82,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 ---
 
 <Modal id={id} ariaLabel={`${title} details`} panelClass={panelClass}>
-  <div class="media-modal" style={`--media-modal-image-max: ${imageMaxWidth};`}>
+  <div class="media-modal" style={{ "--media-modal-image-max": imageMaxWidth }}>
     <div class="media-modal__media">
       {images.map((image, index) => {
         const alt = index === 0 ? image.alt : `${image.alt} ${index + 1}`;

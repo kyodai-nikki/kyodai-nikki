@@ -12,7 +12,7 @@ const characters = await orderedCharacters();
 
   <ul class="chars-grid">
     {characters.map((c, i) => (
-      <li class="chars-card" style={`--i: ${i};`}>
+      <li class="chars-card" style={{ "--i": i }}>
         <a href={characterHref(c)} aria-label={c.data.name}>
           <div class="chars-card__img-wrap">
             <img
