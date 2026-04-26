@@ -1,0 +1,212 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import Button from "../../../components/common/btn/Button.astro";
+import PageHeading from "../../../components/common/PageHeading.astro";
+import OthersTabs from "../../../components/others/OthersTabs.astro";
+import MediaModal from "../../../components/common/MediaModal.astro";
+import {
+  orderedSettingsCharacters,
+  orderedSettingsMaterials,
+  settingsMaterialThumbnailSrc,
+  settingsCharacterSlug,
+  type OthersSettingsCharacterEntry,
+} from "../../../lib/others";
+import { getSettingsCharacterStaticPaths } from "../../../lib/routes/others";
+import {
+  settingsCharacterHref,
+  settingsMaterialImages,
+} from "../../../lib/view/others";
+import { commonMsg } from "../../../msg/common";
+import { othersPageMsg } from "../../../msg/others";
+import { navigation } from "../../../data/navigation";
+
+export const getStaticPaths = getSettingsCharacterStaticPaths;
+
+const { character, characterSlug } = Astro.props as {
+  character: OthersSettingsCharacterEntry;
+  characterSlug: string;
+};
+const settingsCharacters = await orderedSettingsCharacters();
+const materials = await orderedSettingsMaterials(characterSlug);
+---
+
+<BaseLayout
+  title={`${navigation.others.title} | ${character.data.name}`}
+  description={othersPageMsg.description}
+  pageSectionClass="others"
+>
+  <PageHeading slot="page-heading" title={navigation.others.title} />
+  <OthersTabs slot="page-tabs" currentSection="settings" />
+
+  <div class="others-settings">
+    <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
+      {settingsCharacters.map((item) => (
+        <Button
+          class="others-settings__nav-button"
+          href={settingsCharacterHref(settingsCharacterSlug(item))}
+          type={settingsCharacterSlug(item) === characterSlug ? "black" : "white"}
+          size="m"
+          aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
+        >
+          {item.data.name}
+        </Button>
+      ))}
+    </nav>
+
+    <div class="others-settings__content">
+      <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.data.name)}>
+        {materials.map((item, index) => {
+          const modalId = `others-settings-${characterSlug}-${index}`;
+          return (
+            <button
+              class="others-settings__card"
+              type="button"
+              aria-label={commonMsg.actions.open(item.data.title)}
+              data-modal-open={modalId}
+            >
+              <div class="others-settings__card-image-wrap">
+                <img
+                  class="others-settings__card-image"
+                  src={settingsMaterialThumbnailSrc(item)}
+                  alt={item.data.title}
+                  loading="lazy"
+                  width="640"
+                  height="480"
+                />
+              </div>
+              <p class="others-settings__card-title">{item.data.title}</p>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+  {materials.map((item, index) => {
+    return (
+      <MediaModal
+        id={`others-settings-${characterSlug}-${index}`}
+        title={item.data.title}
+        images={settingsMaterialImages(item)}
+        imageHrefAriaLabel={item.data.title}
+        hint={othersPageMsg.detailHint}
+        details={item.data.details}
+        detailsAriaLabel={othersPageMsg.detailsHeading}
+        panelClass="others-settings-modal-panel"
+      />
+    );
+  })}
+</BaseLayout>
+
+<style>
+  .others {
+    padding-top: 20px;
+  }
+
+  .others-settings {
+    display: grid;
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 28px;
+    max-width: 1220px;
+    margin: 0 auto;
+    min-height: 620px;
+  }
+
+  .others-settings__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 4px;
+  }
+
+  .others-settings__content {
+    border-left: 1px solid rgba(17, 17, 17, 0.18);
+    padding-left: 28px;
+  }
+
+  .others-settings__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px 26px;
+    align-content: start;
+  }
+
+  .others-settings__card {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .others-settings__card-image-wrap {
+    width: 100%;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+    overflow: hidden;
+    background: #fff;
+  }
+
+  .others-settings__card-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    display: block;
+    object-fit: cover;
+    background: #fff;
+  }
+
+  .others-settings__card-title {
+    margin: 0;
+    text-align: center;
+    font-family: var(--f-serif);
+    font-size: 1.125rem;
+    line-height: 1.45;
+    color: var(--c-fg);
+  }
+
+  @media (max-width: 1080px) {
+    .others-settings__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 760px) {
+    .others-settings {
+      grid-template-columns: 1fr;
+      gap: 24px;
+      min-height: auto;
+    }
+
+    .others-settings__nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    :global(.others-settings__nav-button) {
+      --button-min-width: 148px;
+    }
+
+    .others-settings__content {
+      border-left: 0;
+      border-top: 1px solid rgba(17, 17, 17, 0.18);
+      padding-left: 0;
+      padding-top: 24px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .others-settings__grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .others-settings__card-title {
+      font-size: 1rem;
+    }
+  }
+</style>

@@ -1,0 +1,8 @@
+---
+# Copy this file to `NN-slug.md`.
+# Example: `05-new-item.md`
+
+title: "商品名"
+url: "https://example.booth.pm/items/new-item"
+description: "商品の説明を入れます。"
+---

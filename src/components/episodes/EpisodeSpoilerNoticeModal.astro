@@ -1,0 +1,255 @@
+---
+import Modal from "../common/Modal.astro";
+import Button from "../common/btn/Button.astro";
+import SpoilerNoticeBody from "../../content/episodes-spoiler-notice.md";
+import { commonMsg } from "../../msg/common";
+
+interface Props {
+  topHref: string;
+}
+
+const { topHref } = Astro.props as Props;
+const modalId = "episode-spoiler-notice";
+const storageKey = "kyodai-nikki:episodes-spoiler-notice:v1";
+const spoilerNoticeMsg = commonMsg.spoilerNotice;
+---
+
+<Modal
+  id={modalId}
+  ariaLabel="Episodes spoiler notice"
+  panelClass="episode-spoiler-notice__panel"
+  showCloseButton={false}
+  dismissible={false}
+>
+  <section
+    class="episode-spoiler-notice"
+    data-episode-spoiler-notice
+    data-storage-key={storageKey}
+    data-top-href={topHref}
+  >
+    <div class="episode-spoiler-notice__body">
+      <h2 class="episode-spoiler-notice__title">{spoilerNoticeMsg.title}</h2>
+      <div class="episode-spoiler-notice__copy">
+        <SpoilerNoticeBody />
+      </div>
+    </div>
+
+    <div class="episode-spoiler-notice__actions">
+      <Button
+        class="episode-spoiler-notice__button"
+        type="white"
+        size="l"
+        data-episode-spoiler-back
+      >
+        {spoilerNoticeMsg.back}
+      </Button>
+      <Button
+        class="episode-spoiler-notice__button"
+        type="black"
+        size="l"
+        data-episode-spoiler-accept
+      >
+        {spoilerNoticeMsg.proceed}
+      </Button>
+    </div>
+  </section>
+</Modal>
+
+<script>
+  if (!window.__kyodaiEpisodeSpoilerNoticeInitialized) {
+    window.__kyodaiEpisodeSpoilerNoticeInitialized = true;
+
+    const modalId = "episode-spoiler-notice";
+    const rootSelector = "[data-episode-spoiler-notice]";
+
+    const getRoot = () => document.querySelector(rootSelector);
+
+    const getStorageKey = () => {
+      const root = getRoot();
+      return root instanceof HTMLElement ? root.dataset.storageKey ?? "" : "";
+    };
+
+    const getTopHref = () => {
+      const root = getRoot();
+      return root instanceof HTMLElement ? root.dataset.topHref ?? "/" : "/";
+    };
+
+    const hasAccepted = () => {
+      const key = getStorageKey();
+      if (!key) return false;
+
+      try {
+        return window.localStorage.getItem(key) === "1";
+      } catch {
+        return false;
+      }
+    };
+
+    const saveAccepted = () => {
+      const key = getStorageKey();
+      if (!key) return;
+
+      try {
+        window.localStorage.setItem(key, "1");
+      } catch {
+        // localStorage unavailable: current session only
+      }
+    };
+
+    const restoreBodyScroll = () => {
+      window.__kyodaiModal?.restoreBodyScroll?.();
+    };
+
+    const openNotice = () => {
+      const root = getRoot();
+      if (!(root instanceof HTMLElement)) return;
+      if (hasAccepted()) return;
+
+      window.__kyodaiModal?.open?.(modalId);
+    };
+
+    const closeNotice = () => {
+      window.__kyodaiModal?.close?.(modalId);
+    };
+
+    document.addEventListener("click", (event) => {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const acceptButton = target.closest("[data-episode-spoiler-accept]");
+      if (acceptButton instanceof HTMLElement) {
+        saveAccepted();
+        closeNotice();
+        return;
+      }
+
+      const backButton = target.closest("[data-episode-spoiler-back]");
+      if (backButton instanceof HTMLElement) {
+        restoreBodyScroll();
+        window.location.assign(getTopHref());
+      }
+    });
+
+    // 外側クリック = 戻るボタンと同じ動作（topHref にリダイレクト）
+    const initBackdropRedirect = () => {
+      const dialog = document.querySelector(`[data-modal-id="${modalId}"]`);
+      if (!(dialog instanceof HTMLDialogElement)) return;
+      if (dialog.dataset.noticeBackdropInit === "true") return;
+      dialog.dataset.noticeBackdropInit = "true";
+
+      dialog.addEventListener("click", (event) => {
+        if (event.target !== dialog || !dialog.open) return;
+
+        const bounds = dialog.getBoundingClientRect();
+        const isBackdropClick =
+          event.clientX < bounds.left ||
+          event.clientX > bounds.right ||
+          event.clientY < bounds.top ||
+          event.clientY > bounds.bottom;
+
+        if (isBackdropClick) {
+          restoreBodyScroll();
+          window.location.assign(getTopHref());
+        }
+      });
+    };
+
+    document.addEventListener("astro:before-preparation", restoreBodyScroll);
+    document.addEventListener("astro:page-load", () => {
+      openNotice();
+      initBackdropRedirect();
+    });
+    openNotice();
+    initBackdropRedirect();
+  }
+</script>
+
+<style>
+  :global([data-modal-id="episode-spoiler-notice"]) {
+    width: min(920px, calc(100vw - 48px));
+    border-radius: 16px;
+    border-color: var(--c-border-spoiler);
+    background: var(--c-modal-spoiler-bg);
+  }
+
+  :global([data-modal-id="episode-spoiler-notice"]::backdrop) {
+    background: var(--c-modal-spoiler-backdrop);
+  }
+
+  .episode-spoiler-notice__panel {
+    padding: 0;
+  }
+
+  .episode-spoiler-notice {
+    display: grid;
+    gap: var(--s-6);
+    padding: clamp(28px, 5vw, 52px) clamp(24px, 7vw, 72px);
+  }
+
+  .episode-spoiler-notice__body {
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    text-align: center;
+  }
+
+  .episode-spoiler-notice__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: 20px;
+    letter-spacing: 0.16em;
+    color: var(--c-fg);
+  }
+
+  .episode-spoiler-notice__copy {
+    display: grid;
+    gap: var(--s-5);
+  }
+
+  .episode-spoiler-notice__copy :global(p) {
+    max-width: 34em;
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: 18px;
+    line-height: 1.4;
+    color: var(--c-fg-body);
+    white-space: pre-line;
+  }
+
+  .episode-spoiler-notice__actions {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: var(--s-5);
+  }
+
+  .episode-spoiler-notice__actions :global(.ui-button) {
+    min-width: 160px;
+  }
+
+  @media (max-width: 720px) {
+    :global([data-modal-id="episode-spoiler-notice"]) {
+      width: min(100vw - 24px, 920px);
+    }
+
+    .episode-spoiler-notice {
+      gap: var(--s-5);
+      padding: 28px 18px 22px;
+    }
+
+    .episode-spoiler-notice__body,
+    .episode-spoiler-notice__copy {
+      gap: var(--s-4);
+    }
+
+    .episode-spoiler-notice__actions {
+      gap: var(--s-3);
+    }
+
+    .episode-spoiler-notice__actions :global(.ui-button) {
+      flex: 1 1 140px;
+      min-width: 0;
+    }
+  }
+</style>

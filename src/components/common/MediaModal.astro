@@ -1,0 +1,316 @@
+---
+import Button from "./btn/Button.astro";
+import Modal from "./Modal.astro";
+import { commonMsg } from "../../msg/common";
+
+export interface MediaModalImage {
+  /** 原寸（jpg/png/svg）の URL。<picture> の最終フォールバックに使う */
+  src: string;
+  alt: string;
+  href?: string;
+  /**
+   * モーダル表示で使う WebP の URL。指定があれば <picture><source> として優先される。
+   * 1x/2x の 2 解像度がある場合は srcset 形式で渡す。
+   */
+  webpSrcset?: string;
+}
+
+export interface MediaModalDetail {
+  label: string;
+  value: string;
+}
+
+export interface MediaModalAction {
+  label: string;
+  href?: string;
+  ariaLabel?: string;
+}
+
+type MediaModalButtonSize = "ss" | "s" | "m" | "l" | "xl";
+
+interface Props {
+  /** Modal id (data-modal-open のターゲット) */
+  id: string;
+  /** ヘッダ的に表示するタイトル */
+  title: string;
+  /** 表示する画像（複数可） */
+  images: MediaModalImage[];
+  /** 画像をクリックしたときの遷移先（Google Drive 等の外部リンク） */
+  imageHref?: string;
+  /** imageHref を持つ画像リンクの aria-label */
+  imageHrefAriaLabel?: string;
+  /** 画像領域の最大幅（CSS値）。デフォルト 720px */
+  imageMaxWidth?: string;
+  /** タイトル直下の説明文 */
+  description?: string;
+  /** description より小さめの補足文（Settings 用） */
+  hint?: string;
+  /** クレジット表示の名前 */
+  creditName?: string;
+  /** クレジットURL */
+  creditUrl?: string;
+  /** Twitter (X) ID。@ は付けても付けなくてもよい */
+  twitterId?: string;
+  /** dt/dd で並べる詳細情報 */
+  details?: MediaModalDetail[];
+  /** details の aria-label */
+  detailsAriaLabel?: string;
+  /** 閉じるボタンの前に並べる任意のアクション */
+  actions?: MediaModalAction[];
+  actionButtonSize?: MediaModalButtonSize;
+  /** 閉じるボタンのラベル。デフォルト commonMsg.actions.back */
+  closeLabel?: string;
+  /** dialog の panel に追加する class */
+  panelClass?: string;
+}
+
+const {
+  id,
+  title,
+  images,
+  imageHref,
+  imageHrefAriaLabel,
+  imageMaxWidth = "720px",
+  description,
+  hint,
+  creditName,
+  creditUrl,
+  twitterId,
+  details = [],
+  detailsAriaLabel,
+  actions = [],
+  actionButtonSize = "ss",
+  closeLabel = commonMsg.actions.back,
+  panelClass = "",
+} = Astro.props;
+
+const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
+---
+
+<Modal id={id} ariaLabel={`${title} details`} panelClass={panelClass}>
+  <div class="media-modal" style={{ "--media-modal-image-max": imageMaxWidth }}>
+    <div class="media-modal__media">
+      {images.map((image, index) => {
+        const alt = index === 0 ? image.alt : `${image.alt} ${index + 1}`;
+        const href = image.href ?? imageHref;
+        const ariaLabel = imageHrefAriaLabel ?? `${title} を開く`;
+        // WebP 候補がある場合は <picture> で WebP を優先、原寸をフォールバックに。
+        // モーダルは閉じている間 <dialog> が display:none で実フェッチを抑止できるが、
+        // それでも一旦 src が解決されるブラウザがあるため、ここでは loading="lazy" を採用する。
+        const figure = image.webpSrcset ? (
+          <picture>
+            <source type="image/webp" srcset={image.webpSrcset} />
+            <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+          </picture>
+        ) : (
+          <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+        );
+
+        return href ? (
+          <a
+            class="media-modal__media-link"
+            href={href}
+            target="_blank"
+            rel="noopener"
+            aria-label={images.length > 1 ? `${ariaLabel} ${index + 1}` : ariaLabel}
+          >
+            {figure}
+          </a>
+        ) : figure;
+      })}
+    </div>
+
+    <div class="media-modal__copy">
+      <p class="media-modal__title">{title}</p>
+
+      {description && <p class="media-modal__description">{description}</p>}
+      {hint && <p class="media-modal__hint">{hint}</p>}
+      {creditName && <p class="media-modal__credit">{creditName}{commonMsg.dear}</p>}
+      {creditUrl && (
+        <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
+          {creditUrl}
+        </a>
+      )}
+      {normalizedTwitterId && (
+        <a
+          class="media-modal__link"
+          href={`https://x.com/${normalizedTwitterId}`}
+          target="_blank"
+          rel="noopener"
+        >
+          (TwitterID: @{normalizedTwitterId})
+        </a>
+      )}
+
+      {details.length > 0 && (
+        <dl class="media-modal__details" aria-label={detailsAriaLabel}>
+          {details.map((detail) => (
+            <div>
+              <dt>{detail.label}</dt>
+              <dd>{detail.value}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+
+      <div class="media-modal__actions">
+        {actions.map((action) =>
+          action.href ? (
+            <Button
+              class="media-modal__action"
+              href={action.href}
+              type="white"
+              size={actionButtonSize}
+              target="_blank"
+              rel="noopener"
+              aria-label={action.ariaLabel}
+            >
+              {action.label}
+            </Button>
+          ) : (
+            <Button
+              class="media-modal__action"
+              type="white"
+              size={actionButtonSize}
+              aria-label={action.ariaLabel}
+            >
+              {action.label}
+            </Button>
+          )
+        )}
+        <Button
+          class="media-modal__action"
+          type="white"
+          size={actionButtonSize}
+          data-modal-close
+        >
+          {closeLabel}
+        </Button>
+      </div>
+    </div>
+  </div>
+</Modal>
+
+<style>
+  .media-modal {
+    --media-modal-image-wide-max: min(100%, max(var(--media-modal-image-max), 760px));
+    --media-modal-image-tall-max: min(70dvh, 820px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .media-modal__media {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .media-modal__media-link {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+  }
+
+  /* <picture> をレイアウト上「素通り」させ、内部の <img> を直接 flex の子として
+     扱わせる。これがないと picture がデフォルトの inline 要素として
+     横長画像のときに左寄せされてしまう。 */
+  .media-modal__media picture {
+    display: contents;
+  }
+
+  .media-modal__media img {
+    width: auto;
+    max-width: var(--media-modal-image-wide-max);
+    max-height: var(--media-modal-image-tall-max);
+    height: auto;
+    object-fit: contain;
+    background: var(--c-image-backdrop);
+    display: block;
+  }
+
+  .media-modal__copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: var(--c-modal-caption-fg);
+  }
+
+  .media-modal__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: clamp(1.375rem, 2vw, 1.75rem);
+    color: var(--c-fg);
+  }
+
+  .media-modal__description,
+  .media-modal__credit {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .media-modal__description {
+    line-height: 1.8;
+  }
+
+  .media-modal__hint {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+
+  .media-modal__link {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .media-modal__details {
+    display: grid;
+    gap: 8px;
+    margin: 6px 0 0;
+  }
+
+  .media-modal__details > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+  }
+
+  .media-modal__details dt {
+    color: var(--c-fg);
+  }
+
+  .media-modal__details dd {
+    margin: 0;
+  }
+
+  .media-modal__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 12px;
+  }
+
+  @media (max-width: 720px) {
+    .media-modal {
+      --media-modal-image-tall-max: min(58dvh, 640px);
+    }
+
+    .media-modal__media {
+      width: 100%;
+    }
+
+    .media-modal__media img {
+      max-width: 100%;
+    }
+  }
+</style>

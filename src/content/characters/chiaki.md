@@ -1,0 +1,32 @@
+---
+order: 1
+name: "染谷千秋"
+nameKana: "そめや ちあき"
+quote: |-
+  「好きだよ。
+  千冬のためなら何でもできる。
+  …これが俺の本音〜」
+description: |-
+  染谷千冬の弟。高校三年。
+  一見温厚そうだが、千冬以外のものに興味がないだけ。
+  怒ると容赦がない。自分の目的のためには手段を選ばない非情な性格。
+  普段は猫を被っている。人・物に限らず観察する癖がある。
+  兄に敵対する人間を潰すうちに裏番長になっていた。
+age: "17歳"
+gender: "男"
+height: "175cm"
+weight: "56.5kg"
+birthday: "11月14日"
+externalLinks:
+  [
+    { label: "いあキャラ（最新）", url: "https://iachara.com/view/13563689" },
+    {
+      label: "いあキャラ（通信大学時代）",
+      url: "https://iachara.com/view/5597389",
+    },
+    {
+      label: "いあキャラ（なんてね「」通過時）",
+      url: "https://iachara.com/view/5357167",
+    },
+  ]
+---

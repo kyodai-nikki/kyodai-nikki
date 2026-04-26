@@ -1,0 +1,20 @@
+---
+kind: "page"
+
+# 内部リンク用テンプレート
+# お知らせからサイト内URLに遷移させたい際に利用してください。
+# 
+# テンプレートファイルをコピーし、ファイル名を「YYYYMMDD-slug.md」に変更してください。更新日はファイル名から自動的に算出されます。
+#   Example: `20260501-n.md`
+# pageに指定できる種類は以下です。
+#   gallery
+#   goods
+#   characters
+#   news
+#   movies
+#   introduction
+#   others
+
+text: "を公開しました！"
+page: "gallery"
+---

@@ -1,0 +1,137 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import WhiteCard from "../../components/common/WhiteCard.astro";
+import { formatNewsDate, newsDate, newsListItems } from "../../lib/view/news";
+import { newsPageMsg } from "../../msg/news";
+import { navigation } from "../../data/navigation";
+
+const items = await newsListItems();
+---
+<BaseLayout title={navigation.news.title} description={newsPageMsg.description}>
+  <PageHeading slot="page-heading" title={navigation.news.title} />
+
+  {items.length === 0 ? (
+    <p class="news-empty">{newsPageMsg.empty}</p>
+  ) : (
+    <ul class="news-list">
+      {items.map(({ entry: item, external, href, text }) => {
+        const inner = (
+          <>
+            <time class="news-date" datetime={newsDate(item)}>
+              {formatNewsDate(item)}
+            </time>
+            <span class="news-sep" aria-hidden="true">|</span>
+            <span class="news-text">
+              {text}{external ? newsPageMsg.externalSuffix : ""}
+            </span>
+          </>
+        );
+        return (
+          <WhiteCard
+            as="li"
+            class:list={["news-item", { "news-item--no-link": !href }]}
+          >
+            {href ? (
+              <a
+                class="news-link"
+                href={href}
+                target={external ? "_blank" : undefined}
+                rel={external ? "noopener" : undefined}
+              >
+                {inner}
+              </a>
+            ) : (
+              <div class="news-link">{inner}</div>
+            )}
+          </WhiteCard>
+        );
+      })}
+    </ul>
+  )}
+</BaseLayout>
+
+<style>
+  .news-empty {
+    color: var(--c-fg-muted);
+    text-align: center;
+  }
+
+  .news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 960px;
+    display: grid;
+    gap: var(--s-5);
+  }
+
+  /* WhiteCard のデフォルト padding を上書き（padding は news-link 側で管理） */
+  .news-list :global(.news-item) {
+    padding: 0;
+    transition: border-color var(--dur-fast) var(--ease-out),
+                background var(--dur-fast) var(--ease-out);
+  }
+  .news-list :global(.news-item:not(.news-item--no-link):hover) {
+    border-color: var(--c-fg);
+  }
+  .news-list :global(.news-item--no-link) {
+    cursor: default;
+  }
+
+  .news-link {
+    display: grid;
+    grid-template-columns: 120px auto 1fr;
+    align-items: baseline;
+    gap: var(--s-4);
+    padding: var(--s-5) var(--s-6);
+    color: var(--c-fg);
+    text-decoration: none;
+  }
+
+  .news-date {
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .news-sep {
+    color: var(--c-fg-subtle);
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    user-select: none;
+  }
+
+  .news-text {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+  }
+  a.news-link .news-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: currentColor;
+  }
+  a.news-link:hover .news-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: currentColor;
+  }
+
+  @media (max-width: 640px) {
+    .news-link {
+      grid-template-columns: 1fr;
+      gap: var(--s-2);
+      padding: var(--s-4) var(--s-5);
+    }
+    .news-sep { display: none; }
+    .news-date { text-align: left; }
+  }
+</style>

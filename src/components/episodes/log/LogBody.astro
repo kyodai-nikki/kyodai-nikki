@@ -1,0 +1,258 @@
+---
+interface RenderedSection {
+  section: {
+    key: string;
+    label: string;
+    anchor: string;
+  };
+  Content: any;
+}
+
+interface Props {
+  renderedSections: RenderedSection[];
+}
+
+const { renderedSections } = Astro.props;
+---
+
+<article class="log prose episode-log__body">
+  {renderedSections.map(({ section, Content }) => (
+    <section class="episode-log__content-section" id={section.anchor}>
+      <div class="episode-log__content-head">
+        <h3>{section.label}</h3>
+      </div>
+      <Content />
+    </section>
+  ))}
+</article>
+
+<style>
+  /* ---------------------------------------------------------------------
+   * Astro 側マークアップ（episode-log__*）
+   * ------------------------------------------------------------------- */
+  .episode-log__body {
+    display: grid;
+    gap: 40px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: var(--c-log-fg);
+    font-size: 1.02rem;
+    line-height: 1.86;
+    font-family: var(--font-family-log-body);
+  }
+
+  .episode-log__content-section {
+    scroll-margin-top: calc(
+      var(--h-header-top) + var(--h-header-nav) + var(--s-5) + var(--s-4)
+    );
+  }
+
+  .episode-log__content-head {
+    margin-bottom: 14px;
+  }
+
+  .episode-log__content-head h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    font-family: var(--font-family-log-heading);
+    font-size: clamp(1.55rem, 2.5vw, 2rem);
+    font-weight: var(--fw-bold);
+  }
+
+  .episode-log__content-head h3::before {
+    content: "▼";
+    font-size: 0.95em;
+    line-height: 1;
+  }
+
+  /* Markdown 内の段落・リスト（render() 結果のため :global が必要） */
+  .episode-log__content-section :global(p) {
+    margin-bottom: 0.75em;
+    font-family: var(--font-family-log-body);
+    white-space: pre-line;
+  }
+
+  .episode-log__content-section :global(ul) {
+    margin: 0;
+    padding-left: 1.25em;
+    font-family: var(--font-family-log-body);
+  }
+
+  .episode-log__content-section :global(li + li) {
+    margin-top: 0.35em;
+  }
+
+  /* ---------------------------------------------------------------------
+   * Markdown 本文（.prose / .log）の基底
+   * ------------------------------------------------------------------- */
+  .log {
+    margin-inline: auto;
+    line-height: var(--lh-loose);
+    font-size: var(--fs-lg);
+    color: var(--c-fg-body);
+  }
+
+  .log :where(h2, h3) {
+    margin-top: var(--s-8);
+    color: var(--c-fg);
+  }
+  .log :where(h2):first-child { margin-top: 0; }
+
+  .log blockquote {
+    border-left: 2px solid var(--c-fg);
+    margin: var(--s-5) 0;
+    padding: var(--s-2) var(--s-5);
+    color: var(--c-fg-body);
+    font-style: italic;
+  }
+
+  .log hr {
+    border: 0;
+    border-top: 1px solid var(--c-border);
+    margin: var(--s-7) 0;
+  }
+
+  /* 以下は Markdown 内のクラスのため、コンポーネント化後に有効になる */
+  .scene {
+    margin: var(--s-7) 0;
+    padding: var(--s-5) 0 var(--s-4);
+    border-top: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .scene::before {
+    content: "◆ " attr(data-time) " ／ " attr(data-place);
+    display: block;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    margin-bottom: var(--s-4);
+  }
+
+  .narr {
+    color: var(--c-fg-body);
+    line-height: var(--lh-loose);
+  }
+
+  .line {
+    display: grid;
+    grid-template-columns: 8rem 1fr;
+    gap: var(--s-4);
+    margin: var(--s-3) 0;
+    align-items: baseline;
+  }
+  .line::before {
+    content: attr(data-speaker);
+    font-family: var(--f-serif);
+    font-weight: var(--fw-bold);
+    color: var(--c-fg);
+    text-align: right;
+    font-size: var(--fs-base);
+    line-height: var(--lh-loose);
+    letter-spacing: var(--ls-wide);
+  }
+  .line--gm::before {
+    color: var(--c-fg-muted);
+    font-style: italic;
+    font-weight: var(--fw-regular);
+  }
+
+  .roll {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    gap: var(--s-3);
+    align-items: center;
+    padding: var(--s-2) var(--s-4);
+    margin: var(--s-3) 0;
+    background: var(--c-roll-bg);
+    border: 1px solid color-mix(in srgb, var(--c-roll) 30%, transparent);
+    border-radius: var(--r-sm);
+    font-family: var(--f-mono);
+    font-size: var(--fs-sm);
+    color: var(--c-roll);
+  }
+  .roll::before {
+    content: "🎲 " attr(data-pc) " / " attr(data-check);
+    font-family: var(--f-sans);
+    color: var(--c-fg-muted);
+    font-size: var(--fs-xs);
+    letter-spacing: var(--ls-wide);
+  }
+  .roll--fail {
+    background: var(--c-fail-bg);
+    color: var(--c-fail);
+    border-color: color-mix(in srgb, var(--c-fail) 30%, transparent);
+  }
+
+  .session-meta {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: var(--s-5);
+    row-gap: var(--s-2);
+    padding: var(--s-5) 0;
+    margin-bottom: var(--s-7);
+    border-top: 1px solid var(--c-border);
+    border-bottom: 1px solid var(--c-border);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-body);
+  }
+  .session-meta dt {
+    color: var(--c-fg-muted);
+    font-family: var(--f-sans);
+    font-weight: var(--fw-regular);
+    letter-spacing: var(--ls-wide);
+    font-size: var(--fs-xs);
+    text-transform: uppercase;
+  }
+  .session-meta dd { margin: 0; }
+
+  .session-pager {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-4);
+    margin-top: var(--s-8);
+    padding-top: var(--s-5);
+    border-top: 1px solid var(--c-border);
+  }
+  .session-pager a {
+    display: block;
+    padding: var(--s-4);
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    text-decoration: none;
+    color: inherit;
+    background: transparent;
+    transition: border-color var(--dur-fast) var(--ease-out),
+                background var(--dur-fast) var(--ease-out);
+  }
+  .session-pager a:hover {
+    border-color: var(--c-fg);
+    background: var(--c-bg-muted);
+  }
+  .session-pager__label {
+    display: block;
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wider);
+    text-transform: uppercase;
+    margin-bottom: var(--s-1);
+  }
+  .session-pager__title {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+  }
+  .session-pager a:nth-child(2) { text-align: right; }
+
+  @media (max-width: 640px) {
+    .log { font-size: var(--fs-base); }
+    .line { grid-template-columns: 1fr; gap: var(--s-1); }
+    .line::before { text-align: left; }
+    .session-pager { grid-template-columns: 1fr; }
+  }
+</style>

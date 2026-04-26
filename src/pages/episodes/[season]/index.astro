@@ -1,0 +1,25 @@
+---
+import Redirect from "../../../components/common/Redirect.astro";
+import { seasons as getSeasons, firstEpisodeOfSeason, episodeHref } from "../../../lib/episodes";
+import { episodeSeasonStaticPaths } from "../../../lib/routes/episodes";
+import { navigation } from "../../../data/navigation";
+
+export async function getStaticPaths() {
+  return await episodeSeasonStaticPaths();
+}
+
+interface Props {
+  seasonNumber: 1 | 2 | 3 | 4;
+}
+
+const { seasonNumber } = Astro.props as Props;
+const seasons = await getSeasons();
+const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
+const initial = await firstEpisodeOfSeason(seasonNumber);
+const redirectTo = initial ? episodeHref(seasonInfo.slug, initial) : "/episodes";
+---
+
+<Redirect
+  title={`${seasonInfo.label} | ${navigation.episodes.title}`}
+  redirectTo={redirectTo}
+/>

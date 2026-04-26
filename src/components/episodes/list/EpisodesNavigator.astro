@@ -1,0 +1,420 @@
+---
+import {
+  episodesBySeason,
+  seasons as getSeasons,
+  episodeHref,
+  episodeUrlSlug,
+  episodeListImage,
+  episodeThumbnailImage,
+  episodeListDummyImage,
+  episodeThumbnailDummyImage,
+  type EpisodeEntry,
+} from "../../../lib/episodes";
+import {
+  episodeLogHref,
+  episodeListNumberLabel,
+  episodeOverviewLabel,
+} from "../../../lib/episodes/view";
+import { withBase } from "../../../lib/urls";
+import { getCollection } from "astro:content";
+import { hasAnyEpisodeLog } from "../../../lib/episodes/logs";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/episodes";
+import Badge from "../../common/Badge.astro";
+
+type EpisodeMeta = EpisodeEntry & {
+  badge?: string;
+};
+
+interface Props {
+  activeSeason: 1 | 2 | 3 | 4;
+  selected?: EpisodeEntry;
+  activeSlug?: string;
+}
+
+const { activeSeason, selected, activeSlug } = Astro.props as Props;
+const dummyEpisodeList = episodeListDummyImage();
+const dummyThumbnail = episodeThumbnailDummyImage();
+
+const seasons = await getSeasons();
+const activeSeasonInfo = seasons.find((s) => s.number === activeSeason)!;
+const list = await episodesBySeason(activeSeason);
+const logEntries = await getCollection("episodeLogs");
+
+const current: EpisodeMeta | undefined =
+  (selected as EpisodeMeta | undefined) ??
+  (list.find((e) => episodeUrlSlug(e) === activeSlug) as EpisodeMeta | undefined) ??
+  (list[0] as EpisodeMeta | undefined);
+
+const itemClass = (e: EpisodeEntry) => {
+  const cls = ["ep-item"];
+  if (e.type !== "normal") cls.push("ep-item--alt");
+  if (e.smallText) cls.push("ep-item--sm");
+  if (current?.overallNumber === e.overallNumber) cls.push("ep-item--selected");
+  return cls.join(" ");
+};
+
+const detailClass = current?.type !== "normal" ? "ep-detail ep-detail--alt" : "ep-detail";
+const badgeVariant = current?.type !== "normal" ? "alt" : "default" as const;
+
+const logHref = current
+  && hasAnyEpisodeLog(activeSeasonInfo.slug, episodeUrlSlug(current), logEntries)
+  ? withBase(episodeLogHref(activeSeasonInfo.slug, current))
+  : undefined;
+---
+
+<div class="ep-layout">
+  <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
+    {list.length === 0 ? (
+      <li class="ep-empty">{episodesPageMsg.noEpisodesYet}</li>
+    ) : (
+      list.map((e) => (
+        <li>
+          <a
+            class={itemClass(e)}
+            href={withBase(episodeHref(activeSeasonInfo.slug, e))}
+            style={{ "--ep-bg": `url("${episodeListImage(activeSeasonInfo.slug, e)}"), url("${dummyEpisodeList}")` }}
+          >
+            <span class="ep-item__no">{episodeListNumberLabel(e)}</span>
+            <span class="ep-item__title">{e.title}</span>
+          </a>
+        </li>
+      ))
+    )}
+  </ol>
+
+  {current ? (
+    <article id="ep-detail" class={detailClass} aria-live="polite">
+      <div class="ep-detail__image-wrap">
+        <img
+          class="ep-detail__image"
+          src={episodeThumbnailImage(activeSeasonInfo.slug, current)}
+          alt={episodesPageMsg.thumbnailAlt(current.title)}
+          data-fallback-src={dummyThumbnail}
+        />
+      </div>
+
+      <h2 class="ep-detail__title">
+        <span>{current.title}</span>
+        <span class="ep-detail__subtitle">
+          {episodeOverviewLabel(current)}
+        </span>
+      </h2>
+
+      <p class="ep-detail__body">{current.description}</p>
+
+      <div class="ep-detail__foot">
+        <div>
+          {current.badge && <Badge label={current.badge} variant={badgeVariant} />}
+          {current.isR18 && <Badge label={commonMsg.badge.r18} variant={badgeVariant} />}
+          {current.isR18G && <Badge label={commonMsg.badge.r18g} variant={badgeVariant} />}
+        </div>
+        {logHref && (
+          <a class="ep-detail__read" href={logHref}>
+            {commonMsg.actions.read}
+          </a>
+        )}
+      </div>
+    </article>
+  ) : (
+    <article class="ep-detail ep-detail--empty">
+      <p>{episodesPageMsg.episodeSelectionEmpty}</p>
+    </article>
+  )}
+</div>
+
+<style>
+  .ep-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    gap: clamp(var(--s-4), 3vw, var(--s-6));
+    align-items: start;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .ep-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 640px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-3);
+  }
+  .ep-list::-webkit-scrollbar {
+    display: none;
+  }
+  .ep-empty {
+    padding: var(--s-5);
+    color: var(--c-fg-muted);
+    text-align: center;
+  }
+
+  .ep-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    align-items: center;
+    gap: var(--s-3);
+    min-height: 88px;
+    padding: var(--s-3) var(--s-4);
+    background-color: var(--c-bg-elev);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
+      ),
+      var(--ep-bg, none);
+    background-size: cover, cover;
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    border: 1px solid var(--c-border);
+    color: var(--c-fg);
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color var(--dur-base) var(--ease-out),
+      color var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out);
+  }
+  .ep-item:hover {
+    border-color: var(--c-border-strong);
+  }
+  .ep-item__no {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+  }
+  .ep-item__title {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .ep-item--sm .ep-item__title {
+    font-size: var(--fs-sm);
+  }
+
+  .ep-item--selected:not(.ep-item--alt) {
+    background-color: var(--c-bg-dark);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-dark) 37%,
+        var(--c-ep-item-grad-mid-dark) 100%,
+        var(--c-ep-item-grad-end-dark) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
+  }
+
+  .ep-item--alt {
+    background-color: var(--c-bg-darker);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-darker) 37%,
+        var(--c-ep-item-grad-mid-darker) 100%,
+        var(--c-ep-item-grad-end-darker) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-darker);
+  }
+  .ep-item--alt.ep-item--selected {
+    background-color: var(--c-bg-elev);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg);
+    border-color: var(--c-fg);
+  }
+
+  .ep-detail {
+    border: 1px solid var(--c-border);
+    background: var(--c-bg-elev);
+    color: var(--c-fg);
+    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    min-height: 640px;
+  }
+
+  .ep-detail--alt {
+    background: var(--c-bg-dark);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
+  }
+  .ep-detail--alt .ep-detail__image {
+    filter: grayscale(1);
+  }
+  .ep-detail--alt .ep-detail__title,
+  .ep-detail--alt .ep-detail__subtitle {
+    color: var(--c-fg-on-dark);
+    opacity: 1;
+  }
+
+  .ep-detail--alt .ep-detail__read {
+    border-color: var(--c-fg-on-dark);
+    color: var(--c-fg-on-dark);
+  }
+  .ep-detail--alt .ep-detail__read:hover {
+    background: var(--c-fg-on-dark);
+    color: var(--c-bg-dark);
+  }
+
+  .ep-detail--empty {
+    align-items: center;
+    justify-content: center;
+    color: var(--c-fg-muted);
+  }
+
+  .ep-detail__image-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--c-bg-muted);
+    overflow: hidden;
+  }
+  .ep-detail__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ep-detail__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    display: flex;
+    align-items: baseline;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+  .ep-detail__subtitle {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    color: inherit;
+    opacity: 0.75;
+    letter-spacing: var(--ls-wide);
+  }
+
+  .ep-detail__body {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    line-height: 1.9;
+    white-space: pre-wrap;
+  }
+
+  .ep-detail__foot {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+  .ep-detail__foot > div {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+  }
+  .ep-detail__read {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: var(--s-2) var(--s-5);
+    border: 1px solid var(--c-fg);
+    color: var(--c-fg);
+    background: transparent;
+    text-decoration: none;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    letter-spacing: var(--ls-wide);
+    transition: background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+  .ep-detail__read:hover {
+    background: var(--c-fg);
+    color: var(--c-fg-on-dark);
+  }
+
+  @media (max-width: 880px) {
+    .ep-layout {
+      grid-template-columns: 1fr;
+    }
+    .ep-list {
+      max-height: 360px;
+    }
+    .ep-detail {
+      min-height: auto;
+    }
+  }
+</style>
+
+<script>
+  const initEpisodesNavigator = () => {
+    // リスト内の選択中エピソードが見えるようにリストをスクロール
+    const list = document.querySelector(".ep-list");
+    if (list instanceof HTMLElement) {
+      const selected = list.querySelector(".ep-item--selected");
+      if (selected instanceof HTMLElement) {
+        const li = selected.closest("li");
+        if (li instanceof HTMLElement) {
+          list.scrollTop = li.offsetTop - list.offsetTop;
+        }
+      }
+    }
+
+    // モバイルではリストの下に詳細が表示されるのでページをスクロール
+    const detail = document.querySelector("#ep-detail");
+    if (detail instanceof HTMLElement && window.matchMedia("(max-width: 880px)").matches) {
+      detail.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
+    // サムネイル画像の読み込み失敗時に fallback 画像へ差し替える
+    // （onerror インライン属性の置き換え。CSP 強化時の前提も整える）
+    const detailImage = document.querySelector(".ep-detail__image");
+    if (detailImage instanceof HTMLImageElement) {
+      const fallback = detailImage.dataset.fallbackSrc;
+      if (fallback) {
+        const applyFallback = () => {
+          if (detailImage.src !== fallback) {
+            detailImage.src = fallback;
+          }
+        };
+        if (detailImage.complete && detailImage.naturalWidth === 0) {
+          // ハンドラ登録より先に error が発火し終えていた場合のフォロー
+          applyFallback();
+        } else {
+          detailImage.addEventListener("error", applyFallback, { once: true });
+        }
+      }
+    }
+  };
+
+  // ClientRouter 対応: ページ遷移のたびに実行
+  document.addEventListener("astro:page-load", initEpisodesNavigator);
+</script>

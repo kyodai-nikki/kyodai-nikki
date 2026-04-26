@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import WhiteCard from "../../components/common/WhiteCard.astro";
+import { introductionPageMsg } from "../../msg/introduction";
+import { navigation } from "../../data/navigation";
+import Content from "../../content/introduction.md";
+---
+<BaseLayout
+  title={navigation.introduction.title}
+  description={introductionPageMsg.description}
+>
+  <PageHeading slot="page-heading" title={navigation.introduction.title} />
+
+  <WhiteCard class="intro-box">
+    <Content />
+  </WhiteCard>
+</BaseLayout>
+
+<style>
+  .intro-box {
+    max-width: 880px;
+    margin: 0 auto;
+    font-family: var(--f-serif);
+    color: var(--c-fg-body);
+    line-height: var(--lh-loose);
+    font-size: var(--fs-base);
+  }
+
+  .intro-box :global(p) {
+    margin: 0 0 1.6em;
+    white-space: pre-wrap;
+  }
+  .intro-box :global(p:last-child) {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 640px) {
+    .intro-box { font-size: var(--fs-sm); }
+  }
+</style>

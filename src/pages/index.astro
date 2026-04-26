@@ -1,11 +1,156 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import { resolve } from "node:path";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { imageAllSrcs } from "../lib/image-utils";
+import { withBase } from "../lib/urls";
+import { commonMsg } from "../msg/common";
+import { homePageMsg } from "../msg/home";
+import { siteConfig, homeConfig } from "../config";
+import Tagline from "../content/home.md";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const site = siteConfig;
+const enableSlideshow = homeConfig.enableSlideshow;
+const slideImages = enableSlideshow
+  ? imageAllSrcs(resolve(process.cwd(), "public/images/home"), "/images/home")
+  : [withBase("/images/home/home.png")];
 ---
+<BaseLayout
+  title={homePageMsg.title}
+  description={homePageMsg.description}
+  bodyClass="is-home"
+>
+  <section class="home" aria-label={homePageMsg.homeAriaLabel}>
+    <div
+      class="home__image"
+      role="img"
+      aria-label={homePageMsg.homeFallbackImageLabel}
+    >
+      {slideImages.map((src, i) => (
+        <div
+          class="home__slide"
+          data-index={i}
+        >
+          <img src={src} alt="" />
+        </div>
+      ))}
+    </div>
+    <div class="home__overlay">
+      <div class="home__copyline">ﾂｩ{site.copyStartYear}-{new Date().getFullYear()} {site.name}{commonMsg.footer.madeByTeam}</div>
+      <div class="home__share">
+        {commonMsg.footer.shareLabel}
+        <span aria-hidden="true">{commonMsg.symbol.dot}</span>
+      </div>
+      <div class="home__tagline"><Tagline /></div>
+    </div>
+  </section>
+</BaseLayout>
 
-<Layout>
-	<Welcome />
-</Layout>
+<style>
+  .home {
+    position: relative;
+    width: 100%;
+    background: #eef1f4;
+  }
+
+  .home__image {
+    display: grid;
+    width: 100%;
+  }
+
+  .home__slide {
+    grid-area: 1 / 1;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1.2s ease-in-out;
+  }
+
+  .home__slide.is-visible {
+    opacity: 1;
+  }
+
+  .home__slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .home__overlay {
+    position: absolute;
+    inset: 0;
+    max-width: var(--w-wide);
+    margin-inline: auto;
+    padding: var(--s-7) var(--s-6);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto 1fr;
+    column-gap: var(--s-5);
+    row-gap: var(--s-2);
+  }
+
+  .home__copyline {
+    grid-column: 2;
+    grid-row: 1;
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: right;
+  }
+
+  .home__share {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    text-align: right;
+  }
+
+  .home__tagline {
+    grid-column: 2;
+    grid-row: 3;
+    justify-self: end;
+    text-align: left;
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    color: var(--c-fg);
+    line-height: 1.8;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+  }
+  .home__tagline :global(p) {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+
+  @media (max-width: 640px) {
+    .home__overlay {
+      padding: var(--s-5) var(--s-4);
+      grid-template-columns: 1fr;
+    }
+
+    .home__copyline,
+    .home__share,
+    .home__tagline {
+      grid-column: 1;
+      text-align: left;
+      justify-self: start;
+    }
+  }
+</style>
+
+<script>
+  const slides = document.querySelectorAll<HTMLElement>(".home__slide");
+  if (slides.length > 1) {
+    let current = 0;
+    slides[0].classList.add("is-visible");
+
+    setInterval(() => {
+      slides[current].classList.remove("is-visible");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("is-visible");
+    }, 5000);
+  } else {
+    slides[0]?.classList.add("is-visible");
+  }
+</script>

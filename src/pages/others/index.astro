@@ -1,0 +1,45 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import { defaultOthersPath } from "../../data/othersSections";
+import { withBase } from "../../lib/urls";
+import { othersPageMsg } from "../../msg/others";
+import { navigation } from "../../data/navigation";
+
+const target = withBase(defaultOthersPath());
+---
+
+<BaseLayout
+  title={navigation.others.title}
+  description={othersPageMsg.description}
+  pageContainerClass="container--narrow others-redirect"
+>
+  <PageHeading slot="page-heading" title={navigation.others.title} />
+  <div>
+    <p>{othersPageMsg.redirecting}</p>
+    <p>
+      <a href={target}>{othersPageMsg.redirectLink}</a>
+    </p>
+  </div>
+
+  <script is:inline define:vars={{ target }}>
+    window.location.replace(target);
+  </script>
+</BaseLayout>
+
+<style>
+  .others-redirect {
+    text-align: center;
+  }
+
+  .others-redirect p {
+    margin: 12px 0 0;
+    color: var(--c-fg-muted);
+  }
+
+  .others-redirect a {
+    color: var(--c-fg);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+</style>

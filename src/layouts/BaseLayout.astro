@@ -1,0 +1,113 @@
+---
+import { ClientRouter } from "astro:transitions";
+import Header from "../components/common/Header.astro";
+import Footer from "../components/common/Footer.astro";
+import BackToTop from "../components/common/BackToTop.astro";
+import EpisodeSpoilerNotice from "../components/episodes/EpisodeSpoilerNoticeModal.astro";
+import { commonMsg } from "../msg/common";
+import { siteConfig } from "../config";
+import { withBase } from "../lib/urls";
+
+import "../../styles/variables.css";
+import "../../styles/globals.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  bodyClass?: string;
+  pageSectionClass?: string;
+  pageContainerClass?: string;
+}
+
+const {
+  title,
+  description = commonMsg.site.defaultDescription,
+  ogImage = "/images/logo.svg",
+  bodyClass = "",
+  pageSectionClass = "",
+  pageContainerClass = "",
+} = Astro.props;
+
+const siteName = siteConfig.name;
+const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
+const episodesPath = withBase("/episodes");
+const showEpisodeSpoilerNotice =
+  Astro.url.pathname === episodesPath || Astro.url.pathname.startsWith(`${episodesPath}/`);
+const hasPageTabs = Astro.slots.has("page-tabs");
+const hasPageShell =
+  Astro.slots.has("page-heading")
+  || hasPageTabs
+  || pageSectionClass.length > 0
+  || pageContainerClass.length > 0;
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <ClientRouter />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical.href} />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(ogImage, canonical).href} />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body class={bodyClass}>
+    <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
+    <Header />
+    <main id="main" data-page-shell>
+      {showEpisodeSpoilerNotice && <EpisodeSpoilerNotice topHref={withBase("/")} />}
+      {hasPageShell ? (
+        <section class:list={["section", pageSectionClass]}>
+          <div class:list={["container", pageContainerClass]}>
+            <slot name="page-heading" />
+            {hasPageTabs && (
+              <div class="page-shell__tabs">
+                <slot name="page-tabs" />
+              </div>
+            )}
+            <slot />
+          </div>
+        </section>
+      ) : (
+        <slot />
+      )}
+    </main>
+    <Footer shareUrl={canonical.href} shareTitle={fullTitle} />
+    <BackToTop />
+
+    <script>
+      const btn = document.querySelector(".nav-toggle");
+      const nav = document.querySelector(".site-nav");
+
+      btn?.addEventListener("click", () => {
+        const open = nav?.dataset.open === "true";
+        if (nav) nav.dataset.open = (!open).toString();
+        btn.setAttribute("aria-expanded", (!open).toString());
+      });
+
+      const toTop = document.querySelector(".back-to-top");
+      if (toTop instanceof HTMLAnchorElement) {
+        const updateToTop = () => {
+          toTop.dataset.visible = (window.scrollY > 400).toString();
+        };
+
+        updateToTop();
+        window.addEventListener("scroll", updateToTop, { passive: true });
+        toTop.addEventListener("click", (event) => {
+          event.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      }
+    </script>
+  </body>
+</html>
