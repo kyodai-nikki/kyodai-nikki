@@ -22,7 +22,7 @@ const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const projectRoot = join(__dirname, "..");
 const galleryRoot = join(projectRoot, "public/images/gallery");
 
-const SOURCE_EXTENSIONS = new Set(imageConfig.sourceExtensions);
+const SOURCE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg"]);
 const THUMBNAIL_BASENAME = "thumbnail";
 
 const VARIANTS = [
