@@ -1,0 +1,14 @@
+﻿---
+import Tabs from "../../common/Tabs.astro";
+import { episodeSeasonTabItems } from "../../../lib/episodes/view";
+
+interface Props {
+  activeSeason?: 1 | 2 | 3 | 4;
+  current?: "season" | "timeline";
+}
+
+const { activeSeason, current = "season" } = Astro.props as Props;
+const items = await episodeSeasonTabItems(current, activeSeason);
+---
+
+<Tabs items={items} ariaLabel="Season navigation" size="md" />

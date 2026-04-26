@@ -1,0 +1,116 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import { characterHref, characterPortraitSrc, orderedCharacters } from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
+import { navigation } from "../../data/navigation";
+
+const characters = await orderedCharacters();
+---
+<BaseLayout title={navigation.characters.title} description={charactersPageMsg.description}>
+  <PageHeading slot="page-heading" title={navigation.characters.title} />
+
+  <ul class="chars-grid">
+    {characters.map((c, i) => (
+      <li class="chars-card" style={{ "--i": i }}>
+        <a href={characterHref(c)} aria-label={c.data.name}>
+          <div class="chars-card__img-wrap">
+            <img
+              src={characterPortraitSrc(c)}
+              alt={c.data.name}
+              loading="lazy"
+              class="chars-card__img"
+            />
+          </div>
+        </a>
+      </li>
+    ))}
+  </ul>
+</BaseLayout>
+
+<style>
+  .chars-grid {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(12px, 2vw, 20px);
+  }
+
+  .chars-card {
+    flex: 0 0 150px;
+    width: 150px;
+    opacity: 0;
+    transform: translateY(32px);
+    animation: chars-rise 700ms var(--ease-out) both;
+    animation-delay: calc(var(--i, 0) * 220ms + 120ms);
+  }
+
+  .chars-card a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .chars-card__img-wrap {
+    position: relative;
+    width: 150px;
+    height: 600px;
+    overflow: hidden;
+    border-radius: var(--r-sm);
+    border: 1px solid var(--c-fg);
+    background:
+      repeating-linear-gradient(
+        135deg,
+        #d7d7d7 0 2px,
+        #ebebeb 2px 8px
+      );
+    transition: transform var(--dur-base) var(--ease-out),
+                filter var(--dur-base) var(--ease-out);
+  }
+
+  .chars-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(1);
+    transition: filter var(--dur-base) var(--ease-out);
+  }
+
+  .chars-card a:hover .chars-card__img-wrap,
+  .chars-card a:focus-visible .chars-card__img-wrap {
+    transform: translateY(-4px);
+  }
+  .chars-card a:hover .chars-card__img,
+  .chars-card a:focus-visible .chars-card__img {
+    filter: grayscale(0);
+  }
+  @keyframes chars-rise {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chars-card {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .chars-card {
+      flex-basis: 150px;
+    }
+  }
+</style>

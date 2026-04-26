@@ -1,0 +1,178 @@
+﻿---
+import type { EpisodeScenarioInfo } from "../../../lib/episodes/logs";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/episodes";
+import BadgeList from "../../common/BadgeList.astro";
+
+interface Props {
+  title: string;
+  episodeNumberLabel: string;
+  badges: string[];
+  scenario?: EpisodeScenarioInfo;
+  showSmallTitle?: boolean;
+}
+
+const { title, episodeNumberLabel, badges, scenario, showSmallTitle = false } = Astro.props;
+const castLabel = scenario?.cast?.length ? scenario.cast.join(commonMsg.symbol.dot) : undefined;
+const writerLabel = scenario?.author;
+const sourceLabel = scenario?.distributionName;
+---
+
+<header class="episode-log__panel-head">
+  <div class="episode-log__title-row">
+    <div class="episode-log__title-group">
+      <h2 class:list={["episode-log__title", { "episode-log__title--small": showSmallTitle }]}>{title}</h2>
+      <p class="episode-log__episode-no">{episodeNumberLabel}</p>
+    </div>
+    <BadgeList badges={badges} />
+  </div>
+
+  <dl class="episode-log__meta-lines">
+    {(scenario?.storyDate || castLabel) && (
+      <div class="episode-log__meta-line episode-log__meta-line--date">
+        {scenario?.storyDate && (
+          <div class="episode-log__meta-inline">
+            <dt>Date :</dt>
+            <dd>{scenario.storyDate}</dd>
+          </div>
+        )}
+        {castLabel && <dd class="episode-log__meta-free">{castLabel}</dd>}
+      </div>
+    )}
+
+    {(writerLabel || sourceLabel || scenario?.adaptedScenarioUrl) && (
+      <div class="episode-log__meta-line episode-log__meta-line--author">
+        {writerLabel && (
+          <div class="episode-log__meta-inline">
+            <dt>{episodesPageMsg.logInfo.scenarioAuthor}</dt>
+            <dd>{writerLabel}{commonMsg.dear}</dd>
+          </div>
+        )}
+        {sourceLabel && (
+          <div class="episode-log__meta-inline">
+            <dt>{episodesPageMsg.logInfo.scenarioDistribution}</dt>
+            <dd>
+              {scenario?.distributionUrl ? (
+                <a href={scenario.distributionUrl} target="_blank" rel="noopener">
+                  {sourceLabel}
+                </a>
+              ) : (
+                sourceLabel
+              )}
+            </dd>
+          </div>
+        )}
+        {scenario?.adaptedScenarioUrl && (
+          <div class="episode-log__meta-inline">
+            <dt>{episodesPageMsg.logInfo.adaptedScenario}</dt>
+            <dd>
+              <a href={scenario.adaptedScenarioUrl} target="_blank" rel="noopener">
+                {episodesPageMsg.logInfo.adaptedScenarioLink}
+              </a>
+            </dd>
+          </div>
+        )}
+      </div>
+    )}
+  </dl>
+</header>
+
+<style>
+  .episode-log__panel-head {
+    margin-bottom: 30px;
+  }
+
+  .episode-log__title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--c-log-divider-strong);
+  }
+
+  .episode-log__title-group {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .episode-log__title {
+    margin: 0;
+    font-family: var(--font-family-log-heading);
+    font-size: 32px;
+    font-weight: var(--fw-regular);
+    line-height: 1.15;
+  }
+
+  .episode-log__title--small {
+    font-size: 28px;
+  }
+
+  .episode-log__episode-no {
+    margin: 0;
+    font-family: var(--font-family-log-heading);
+    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    color: var(--c-log-meta-fg);
+  }
+
+  .episode-log__meta-lines {
+    margin: 0;
+    display: grid;
+    gap: 0;
+  }
+
+  .episode-log__meta-line {
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--c-log-divider-strong);
+    font-family: var(--font-family-log-body);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .episode-log__meta-inline {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .episode-log__meta-line dt,
+  .episode-log__meta-line dd,
+  .episode-log__meta-free {
+    margin: 0;
+    color: var(--c-fg);
+  }
+
+  .episode-log__meta-line a {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  @media (max-width: 720px) {
+    .episode-log__title-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .episode-log__title-group {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .episode-log__badge-list {
+      justify-content: flex-start;
+    }
+
+    .episode-log__meta-line {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  }
+</style>

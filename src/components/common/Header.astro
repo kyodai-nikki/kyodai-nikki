@@ -1,0 +1,225 @@
+---
+import { commonMsg } from "../../msg/common";
+import { siteConfig } from "../../config";
+import { withBase } from "../../lib/urls";
+import { headerNavItems } from "../../lib/view/navigation";
+
+const site = siteConfig;
+const path = Astro.url.pathname;
+const items = headerNavItems(path);
+---
+<header class="site-header">
+  <div class="container site-header__top">
+    <a class="site-brand" href={withBase("/")}>
+      {site.name}
+      <span class="site-brand__tag">{site.nameEn}</span>
+    </a>
+
+    <div class="site-social">
+      {site.social.twitter && (
+        <a href={site.social.twitter} target="_blank" rel="noopener" aria-label={commonMsg.social.officialX}>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z"/>
+          </svg>
+        </a>
+      )}
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label={commonMsg.menu.open}
+      >
+        Menu
+      </button>
+    </div>
+  </div>
+
+  <div class="site-header__nav">
+    <nav id="site-nav" class="site-nav container" aria-label={commonMsg.menu.navigation}>
+      {items.map((item) => (
+        <a
+          href={item.href}
+          aria-current={item.current ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--c-header-bg);
+    border-bottom: 1px solid var(--c-border);
+  }
+
+  .site-header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-5);
+    height: var(--h-header-top);
+    background: var(--c-header-bg);
+  }
+
+  .site-brand {
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--s-3);
+    font-family: var(--font-family-navigation);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--c-fg);
+    text-decoration: none;
+    letter-spacing: var(--ls-normal);
+  }
+
+  .site-brand__tag {
+    font-family: var(--f-sans);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    font-weight: var(--fw-regular);
+    letter-spacing: var(--ls-wider);
+  }
+
+  .site-social {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-3);
+  }
+
+  .site-social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    color: var(--c-fg);
+    border-radius: var(--r-full);
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .site-social a:hover {
+    color: var(--c-fg-muted);
+  }
+
+  .site-social svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+  }
+
+  .site-header__nav {
+    position: relative;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    min-height: var(--h-header-nav);
+    border-top: 1px solid var(--c-border);
+    background: var(--c-header-nav-bg);
+    backdrop-filter: saturate(1.2) blur(8px);
+    -webkit-backdrop-filter: saturate(1.2) blur(8px);
+  }
+
+  .site-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--s-7);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: var(--s-2) 0;
+  }
+
+  .site-nav a {
+    display: inline-block;
+    color: var(--c-nav-link);
+    text-decoration: none;
+    font-family: var(--font-family-navigation);
+    font-size: 20px;
+    font-weight: var(--fw-regular);
+    letter-spacing: 0;
+    padding: var(--s-2) 0;
+    position: relative;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .site-nav a:hover {
+    color: var(--c-site-cyan);
+  }
+
+  .site-nav a[aria-current="page"] {
+    color: var(--c-site-pink);
+  }
+
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-sm);
+    padding: var(--s-2) var(--s-3);
+    cursor: pointer;
+    font: inherit;
+    color: var(--c-fg);
+  }
+
+  @media (max-width: 1024px) {
+    .site-nav {
+      gap: var(--s-5);
+    }
+
+    .site-nav a {
+      font-size: var(--fs-xs);
+    }
+  }
+
+  @media (max-width: 860px) {
+    .site-header__top {
+      height: 60px;
+    }
+
+    .site-header__nav {
+      min-height: 0;
+    }
+
+    .site-nav {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      align-items: stretch;
+      padding: var(--s-3) var(--s-5);
+      background: var(--c-bg-elev);
+      border-top: 1px solid var(--c-border);
+      border-bottom: 1px solid var(--c-border);
+      gap: 0;
+      z-index: 9;
+    }
+
+    .site-nav[data-open="true"] {
+      display: flex;
+    }
+
+    .site-nav a {
+      padding: var(--s-3) 0;
+      border-bottom: 1px solid var(--c-border);
+      font-size: var(--fs-sm);
+      text-align: left;
+    }
+
+    .site-nav a:last-child {
+      border-bottom: 0;
+    }
+
+    .nav-toggle {
+      display: inline-flex;
+    }
+  }
+</style>

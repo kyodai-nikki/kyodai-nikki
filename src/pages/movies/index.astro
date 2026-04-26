@@ -1,0 +1,119 @@
+﻿---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHeading from "../../components/common/PageHeading.astro";
+import { movieEmbedUrl, orderedMovies } from "../../lib/movies";
+import { moviesPageMsg } from "../../msg/movies";
+import { navigation } from "../../data/navigation";
+
+const orderedVideos = await orderedMovies();
+---
+<BaseLayout
+  title={navigation.movies.title}
+  description={moviesPageMsg.description}
+  pageSectionClass="movies"
+>
+  <PageHeading slot="page-heading" title={navigation.movies.title} />
+
+  {orderedVideos.length === 0 ? (
+    <p class="movies__empty">
+      {moviesPageMsg.empty}
+    </p>
+  ) : (
+    <div class="movies-grid">
+      {orderedVideos.map((video) => (
+        <article class="movie-card">
+          <div class="movie-card__frame">
+            <iframe
+              src={movieEmbedUrl(video)}
+              title={video.data.title}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h2 class="movie-card__title">{video.data.title}</h2>
+        </article>
+      ))}
+    </div>
+  )}
+</BaseLayout>
+
+<style>
+  .movies {
+    padding-top: 20px;
+  }
+
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: center;
+    gap: 56px 22px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .movie-card__frame {
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #ffffff;
+    border: 1px solid rgba(17, 17, 17, 0.72);
+  }
+
+  .movie-card__frame iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+
+  .movie-card__title {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+    text-align: center;
+    font-family: var(--f-serif);
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: var(--fw-regular);
+    color: var(--c-fg);
+  }
+
+  .movies__empty {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: var(--s-6);
+    text-align: center;
+    color: var(--c-fg-muted);
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid var(--c-border);
+  }
+
+  @media (max-width: 960px) {
+    .movies-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 640px;
+      gap: 42px 18px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .movies-grid {
+      grid-template-columns: 1fr;
+      max-width: 300px;
+      gap: 32px;
+    }
+
+    .movie-card__title {
+      font-size: 17px;
+    }
+  }
+</style>

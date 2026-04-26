@@ -1,0 +1,68 @@
+---
+interface Props {
+  as?: string;
+  centered?: boolean;
+  translucent?: boolean;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const { as: Tag = "div", centered = false, translucent = false, class: className, ...rest } = Astro.props;
+---
+<Tag class:list={[
+  "white-card",
+  { "white-card--centered": centered },
+  { "white-card--translucent": translucent },
+  className,
+]} {...rest}>
+  <slot />
+</Tag>
+
+<style>
+  @keyframes white-card-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .white-card {
+    background: #ffffff;
+    border: 1px solid var(--c-border);
+    border-radius: var(--r-md);
+    padding: clamp(var(--s-6), 5vw, var(--s-8)) clamp(var(--s-5), 6vw, var(--s-9));
+    animation: white-card-slide-in 1700ms var(--ease-out) both;
+    animation-delay: 160ms;
+    will-change: opacity, transform;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .white-card { animation: none; }
+  }
+
+  .white-card--translucent {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: rgba(17, 17, 17, 0.5);
+    border-radius: 0;
+  }
+
+  .white-card--centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 28px;
+    min-height: 250px;
+  }
+
+  @media (max-width: 640px) {
+    .white-card--centered {
+      gap: 20px;
+    }
+  }
+</style>

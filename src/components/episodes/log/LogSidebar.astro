@@ -1,0 +1,68 @@
+---
+import Button from "../../common/btn/Button.astro";
+import type { EpisodeLogSection } from "../../../lib/episodes/logs";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/episodes";
+
+interface Props {
+  overviewHref: string;
+  showNextButton: boolean;
+  nextHref?: string;
+  showPreviousButton: boolean;
+  previousHref?: string;
+  sections: EpisodeLogSection[];
+}
+
+const {
+  overviewHref,
+  showNextButton,
+  nextHref,
+  showPreviousButton,
+  previousHref,
+  sections,
+} = Astro.props;
+---
+
+<aside class="episode-log__sidebar" aria-label={episodesPageMsg.logNavigation}>
+  <Button class="episode-log__button" href={overviewHref} type="black" size="s">
+    {commonMsg.actions.backToOverview}
+  </Button>
+  {showNextButton && nextHref && (
+    <Button class="episode-log__button" href={nextHref} type="white" size="s">
+      {commonMsg.actions.nextEpisode}
+    </Button>
+  )}
+  {showPreviousButton && previousHref && (
+    <Button class="episode-log__button" href={previousHref} type="white" size="s">
+      {commonMsg.actions.previousEpisode}
+    </Button>
+  )}
+  {sections.map((section) => (
+    <Button class="episode-log__button" href={`#${section.anchor}`} type="white" size="s">
+      {section.label}
+    </Button>
+  ))}
+</aside>
+
+<style>
+  .episode-log__sidebar {
+    position: sticky;
+    top: calc(var(--h-header-top) + var(--h-header-nav) + var(--s-5));
+    display: grid;
+    gap: 16px;
+  }
+
+  @media (max-width: 960px) {
+    .episode-log__sidebar {
+      position: static;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 720px) {
+    .episode-log__sidebar {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+  }
+</style>

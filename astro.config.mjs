@@ -1,7 +1,20 @@
 // @ts-check
 import { defineConfig } from "astro/config";
+import rehypeExternalLinks from "rehype-external-links";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://kyodai-nikki.github.io/kyodai",
+  site: "https://kyodai-nikki.com",
+  markdown: {
+    syntaxHighlight: false,
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        { target: "_blank", rel: ["noopener", "noreferrer"] },
+      ],
+    ],
+  },
+  trailingSlash: "ignore",
+  build: {
+    format: "directory",
+  },
 });
