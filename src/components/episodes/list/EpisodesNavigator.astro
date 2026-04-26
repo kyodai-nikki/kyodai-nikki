@@ -163,13 +163,13 @@ const logHref = current
     gap: var(--s-3);
     min-height: 88px;
     padding: var(--s-3) var(--s-4);
-    background-color: #ffffff;
+    background-color: var(--c-bg-elev);
     background-image:
       linear-gradient(
         90deg,
-        rgb(255, 255, 255) 37%,
-        rgba(245, 242, 237, 0.54) 100%,
-        rgba(234, 227, 215, 0) 100%
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
       ),
       var(--ep-bg, none);
     background-size: cover, cover;
@@ -208,40 +208,40 @@ const logHref = current
   }
 
   .ep-item--selected:not(.ep-item--alt) {
-    background-color: #1a1a1a;
+    background-color: var(--c-bg-dark);
     background-image:
       linear-gradient(
         90deg,
-        rgb(26, 26, 26) 37%,
-        rgba(26, 26, 26, 0.54) 100%,
-        rgba(26, 26, 26, 0) 100%
+        var(--c-bg-dark) 37%,
+        var(--c-ep-item-grad-mid-dark) 100%,
+        var(--c-ep-item-grad-end-dark) 100%
       ),
       var(--ep-bg, none);
-    color: #ffffff;
-    border-color: #1a1a1a;
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
   }
 
   .ep-item--alt {
-    background-color: #2a2a2a;
+    background-color: var(--c-bg-darker);
     background-image:
       linear-gradient(
         90deg,
-        rgb(42, 42, 42) 37%,
-        rgba(42, 42, 42, 0.54) 100%,
-        rgba(42, 42, 42, 0) 100%
+        var(--c-bg-darker) 37%,
+        var(--c-ep-item-grad-mid-darker) 100%,
+        var(--c-ep-item-grad-end-darker) 100%
       ),
       var(--ep-bg, none);
-    color: #ffffff;
-    border-color: #2a2a2a;
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-darker);
   }
   .ep-item--alt.ep-item--selected {
-    background-color: #ffffff;
+    background-color: var(--c-bg-elev);
     background-image:
       linear-gradient(
         90deg,
-        rgb(255, 255, 255) 37%,
-        rgba(245, 242, 237, 0.54) 100%,
-        rgba(234, 227, 215, 0) 100%
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
       ),
       var(--ep-bg, none);
     color: var(--c-fg);
@@ -250,7 +250,7 @@ const logHref = current
 
   .ep-detail {
     border: 1px solid var(--c-border);
-    background: #ffffff;
+    background: var(--c-bg-elev);
     color: var(--c-fg);
     padding: clamp(var(--s-4), 3vw, var(--s-6));
     display: flex;
@@ -260,26 +260,26 @@ const logHref = current
   }
 
   .ep-detail--alt {
-    background: #1a1a1a;
-    color: #ffffff;
-    border-color: #1a1a1a;
+    background: var(--c-bg-dark);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
   }
   .ep-detail--alt .ep-detail__image {
     filter: grayscale(1);
   }
   .ep-detail--alt .ep-detail__title,
   .ep-detail--alt .ep-detail__subtitle {
-    color: #ffffff;
+    color: var(--c-fg-on-dark);
     opacity: 1;
   }
 
   .ep-detail--alt .ep-detail__read {
-    border-color: #ffffff;
-    color: #ffffff;
+    border-color: var(--c-fg-on-dark);
+    color: var(--c-fg-on-dark);
   }
   .ep-detail--alt .ep-detail__read:hover {
-    background: #ffffff;
-    color: #1a1a1a;
+    background: var(--c-fg-on-dark);
+    color: var(--c-bg-dark);
   }
 
   .ep-detail--empty {
@@ -291,7 +291,7 @@ const logHref = current
   .ep-detail__image-wrap {
     width: 100%;
     aspect-ratio: 16 / 9;
-    background: #f5f5f5;
+    background: var(--c-bg-muted);
     overflow: hidden;
   }
   .ep-detail__image {
@@ -358,7 +358,7 @@ const logHref = current
   }
   .ep-detail__read:hover {
     background: var(--c-fg);
-    color: #ffffff;
+    color: var(--c-fg-on-dark);
   }
 
   @media (max-width: 880px) {

@@ -15,3 +15,11 @@ export const contactConfig = {
   team: "兄弟日記制作チーム",
   email: "kyodai-nikki@googlegroups.com",
 } as const;
+
+export const imageConfig = {
+  sourceExtensions: [".png", ".jpg", ".jpeg"],
+} as const;
+
+export const path = {
+  contentBase: "./src/content",
+} as const;

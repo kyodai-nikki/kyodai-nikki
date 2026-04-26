@@ -1,8 +1,9 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
+import { path } from "./config";
 
 const news = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/news" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/news` }),
   schema: z.discriminatedUnion("kind", [
     z.object({
       kind: z.literal("episode"),
@@ -32,7 +33,7 @@ const news = defineCollection({
 });
 
 const episodeLogs = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/episodes" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/episodes` }),
   schema: z.object({
     season: z
       .union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)])
@@ -74,7 +75,10 @@ const episodeLogs = defineCollection({
 });
 
 const episodeSeasons = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/episode-seasons" }),
+  loader: glob({
+    pattern: "**/*.md",
+    base: `${path.contentBase}/episode-seasons`,
+  }),
   schema: z.object({
     number: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
     label: z.string(),
@@ -84,7 +88,7 @@ const episodeSeasons = defineCollection({
 });
 
 const characters = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/characters" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/characters` }),
   schema: z.object({
     order: z.number().int().positive(),
     name: z.string(),
@@ -96,12 +100,20 @@ const characters = defineCollection({
     height: z.string(),
     weight: z.string(),
     birthday: z.string(),
-    externalLink: z.string().optional().default(""),
+    externalLinks: z
+      .array(
+        z.object({
+          label: z.string().optional().default(""),
+          url: z.string().url(),
+        }),
+      )
+      .optional()
+      .default([]),
   }),
 });
 
 const gallery = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/gallery" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/gallery` }),
   schema: z.object({
     order: z.number().int().positive(),
     alt: z.string(),
@@ -115,7 +127,7 @@ const gallery = defineCollection({
 });
 
 const goods = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/goods" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/goods` }),
   schema: z.object({
     title: z.string(),
     url: z.string().optional(),
@@ -124,7 +136,7 @@ const goods = defineCollection({
 });
 
 const movies = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/movies" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/movies` }),
   schema: z.object({
     order: z.number().int().positive(),
     id: z.string(),
@@ -134,7 +146,7 @@ const movies = defineCollection({
 });
 
 const othersFanArt = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/fanart" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/fanart` }),
   schema: z.object({
     title: z.string(),
     url: z.string(),
@@ -142,7 +154,7 @@ const othersFanArt = defineCollection({
 });
 
 const othersSettings = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/settings" }),
+  loader: glob({ pattern: "**/*.md", base: `${path.contentBase}/settings` }),
   schema: z.discriminatedUnion("kind", [
     z.object({
       kind: z.literal("character"),

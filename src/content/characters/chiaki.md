@@ -17,5 +17,16 @@ gender: "男"
 height: "175cm"
 weight: "56.5kg"
 birthday: "11月14日"
-externalLink: "https://iachara.com/view/5597389"
+externalLinks:
+  [
+    { label: "いあキャラ（最新）", url: "https://iachara.com/view/13563689" },
+    {
+      label: "いあキャラ（通信大学時代）",
+      url: "https://iachara.com/view/5597389",
+    },
+    {
+      label: "いあキャラ（なんてね「」通過時）",
+      url: "https://iachara.com/view/5357167",
+    },
+  ]
 ---

@@ -16,5 +16,6 @@ gender: "男"
 height: "177cm"
 weight: "65kg"
 birthday: "12月13日"
-externalLink: "https://iachara.com/view/5394952"
+externalLinks:
+  [{ label: "いあきゃら", url: "https://iachara.com/view/5394952" }]
 ---

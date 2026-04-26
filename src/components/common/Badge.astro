@@ -22,12 +22,12 @@ const { label, variant = "default" } = Astro.props;
   }
 
   .badge--default {
-    background: #333;
-    color: #ffffff;
+    background: var(--c-badge-bg);
+    color: var(--c-badge-fg);
   }
 
   .badge--alt {
-    background: #ffffff;
-    color: #1a1a1a;
+    background: var(--c-badge-alt-bg);
+    color: var(--c-badge-alt-fg);
   }
 </style>

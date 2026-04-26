@@ -3,6 +3,7 @@ export const commonMsg = {
     dot: "・",
     previousEpisodeArrow: "‹",
     nextEpisodeArrow: "›",
+    externalStatusIcon: "▼",
   },
   badge: {
     r18: "R-18",
@@ -27,7 +28,6 @@ export const commonMsg = {
     shareLine: "LINEで共有",
   },
   footer: {
-    madeByTeam: "制作チーム",
     shareLabel: "Share :",
   },
   actions: {

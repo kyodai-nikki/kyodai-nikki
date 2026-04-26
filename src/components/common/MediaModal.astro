@@ -4,9 +4,15 @@ import Modal from "./Modal.astro";
 import { commonMsg } from "../../msg/common";
 
 export interface MediaModalImage {
+  /** 原寸（jpg/png/svg）の URL。<picture> の最終フォールバックに使う */
   src: string;
   alt: string;
   href?: string;
+  /**
+   * モーダル表示で使う WebP の URL。指定があれば <picture><source> として優先される。
+   * 1x/2x の 2 解像度がある場合は srcset 形式で渡す。
+   */
+  webpSrcset?: string;
 }
 
 export interface MediaModalDetail {
@@ -88,6 +94,18 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
         const alt = index === 0 ? image.alt : `${image.alt} ${index + 1}`;
         const href = image.href ?? imageHref;
         const ariaLabel = imageHrefAriaLabel ?? `${title} を開く`;
+        // WebP 候補がある場合は <picture> で WebP を優先、原寸をフォールバックに。
+        // モーダルは閉じている間 <dialog> が display:none で実フェッチを抑止できるが、
+        // それでも一旦 src が解決されるブラウザがあるため、ここでは loading="lazy" を採用する。
+        const figure = image.webpSrcset ? (
+          <picture>
+            <source type="image/webp" srcset={image.webpSrcset} />
+            <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+          </picture>
+        ) : (
+          <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+        );
+
         return href ? (
           <a
             class="media-modal__media-link"
@@ -96,11 +114,9 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
             rel="noopener"
             aria-label={images.length > 1 ? `${ariaLabel} ${index + 1}` : ariaLabel}
           >
-            <img src={image.src} alt={alt} loading="eager" />
+            {figure}
           </a>
-        ) : (
-          <img src={image.src} alt={alt} loading="eager" />
-        );
+        ) : figure;
       })}
     </div>
 
@@ -197,7 +213,14 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
   .media-modal__media-link {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: fit-content;
+  }
+
+  /* <picture> をレイアウト上「素通り」させ、内部の <img> を直接 flex の子として
+     扱わせる。これがないと picture がデフォルトの inline 要素として
+     横長画像のときに左寄せされてしまう。 */
+  .media-modal__media picture {
+    display: contents;
   }
 
   .media-modal__media img {
@@ -206,7 +229,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     max-height: var(--media-modal-image-tall-max);
     height: auto;
     object-fit: contain;
-    background: #fff;
+    background: var(--c-image-backdrop);
     display: block;
   }
 
@@ -216,7 +239,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     align-items: center;
     gap: 10px;
     text-align: center;
-    color: #5b5b5b;
+    color: var(--c-modal-caption-fg);
   }
 
   .media-modal__title {

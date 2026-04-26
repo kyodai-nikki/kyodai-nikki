@@ -5,10 +5,12 @@
   "description": "TRPG session log archive built with Astro",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "npm run optimize-gallery",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "replace-br": "node scripts/replace-br.mjs"
+    "replace-br": "node scripts/replace-br.mjs",
+    "optimize-gallery": "node scripts/optimize-gallery.mjs"
   },
   "dependencies": {
     "astro": "^5.18.1",
@@ -16,7 +18,8 @@
   },
   "devDependencies": {
     "@typescript-eslint/parser": "^8.53.0",
-    "eslint-plugin-astro": "^1.5.0"
+    "eslint-plugin-astro": "^1.5.0",
+    "sharp": "^0.33.5"
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "*"

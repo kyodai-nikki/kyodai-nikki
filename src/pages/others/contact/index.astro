@@ -1,7 +1,8 @@
-﻿---
+---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
+import WhiteCard from "../../../components/common/WhiteCard.astro";
 import { othersPageMsg } from "../../../msg/others";
 import { navigation } from "../../../data/navigation";
 import { contactConfig } from "../../../config";
@@ -15,14 +16,14 @@ const contact = contactConfig;
   <OthersTabs slot="page-tabs" currentSection="contact" />
   <section class="others">
     <div class="others-contact">
-      <div class="others-contact__card">
+      <WhiteCard centered translucent>
         <p class="others-contact__team">{contact.team}</p>
         <div class="others-contact__body"><ContactBody /></div>
         <p class="others-contact__mail">
           mail:
           <a href={`mailto:${contact.email}`}>{contact.email}</a>
         </p>
-      </div>
+      </WhiteCard>
     </div>
   </section>
 </BaseLayout>
@@ -36,19 +37,6 @@ const contact = contactConfig;
     max-width: 1080px;
     min-height: 560px;
     margin: 0 auto;
-  }
-
-  .others-contact__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 28px;
-    min-height: 250px;
-    padding: 48px 24px;
-    border: 1px solid rgba(17, 17, 17, 0.5);
-    background: rgba(255, 255, 255, 0.8);
-    text-align: center;
   }
 
   .others-contact__team,
@@ -87,7 +75,6 @@ const contact = contactConfig;
     }
 
     .others-contact__card {
-      gap: 20px;
       padding: 36px 20px;
     }
   }

@@ -55,7 +55,7 @@ const items = headerNavItems(path);
     position: sticky;
     top: 0;
     z-index: 10;
-    background: #ffffff;
+    background: var(--c-header-bg);
     border-bottom: 1px solid var(--c-border);
   }
 
@@ -65,7 +65,7 @@ const items = headerNavItems(path);
     justify-content: space-between;
     gap: var(--s-5);
     height: var(--h-header-top);
-    background: #ffffff;
+    background: var(--c-header-bg);
   }
 
   .site-brand {
@@ -122,7 +122,7 @@ const items = headerNavItems(path);
     justify-content: center;
     min-height: var(--h-header-nav);
     border-top: 1px solid var(--c-border);
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--c-header-nav-bg);
     backdrop-filter: saturate(1.2) blur(8px);
     -webkit-backdrop-filter: saturate(1.2) blur(8px);
   }
@@ -138,7 +138,7 @@ const items = headerNavItems(path);
 
   .site-nav a {
     display: inline-block;
-    color: #5f5f5f;
+    color: var(--c-nav-link);
     text-decoration: none;
     font-family: var(--font-family-navigation);
     font-size: 20px;

@@ -11,5 +11,5 @@ gender: "男"
 height: "183cm"
 weight: "57kg"
 birthday: "—"
-externalLink: ""
+externalLinks: []
 ---

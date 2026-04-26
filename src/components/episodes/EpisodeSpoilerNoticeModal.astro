@@ -168,12 +168,12 @@ const spoilerNoticeMsg = commonMsg.spoilerNotice;
   :global([data-modal-id="episode-spoiler-notice"]) {
     width: min(920px, calc(100vw - 48px));
     border-radius: 16px;
-    border-color: rgba(17, 17, 17, 0.16);
-    background: rgba(255, 255, 255, 0.98);
+    border-color: var(--c-border-spoiler);
+    background: var(--c-modal-spoiler-bg);
   }
 
   :global([data-modal-id="episode-spoiler-notice"]::backdrop) {
-    background: rgba(0, 0, 0, 0.32);
+    background: var(--c-modal-spoiler-backdrop);
   }
 
   .episode-spoiler-notice__panel {

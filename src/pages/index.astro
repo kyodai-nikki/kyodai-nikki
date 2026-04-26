@@ -1,4 +1,4 @@
-﻿---
+---
 import { resolve } from "node:path";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { imageAllSrcs } from "../lib/image-utils";
@@ -28,9 +28,10 @@ const slideImages = enableSlideshow
       {slideImages.map((src, i) => (
         <div
           class="home__slide"
-          style={{ backgroundImage: `url("${src}")` }}
           data-index={i}
-        />
+        >
+          <img src={src} alt="" />
+        </div>
       ))}
     </div>
     <div class="home__overlay">
@@ -48,22 +49,17 @@ const slideImages = enableSlideshow
   .home {
     position: relative;
     width: 100%;
-    min-height: min(92vh, 900px);
-    overflow: hidden;
     background: #eef1f4;
   }
 
   .home__image {
-    position: absolute;
-    inset: 0;
+    display: grid;
+    width: 100%;
   }
 
   .home__slide {
-    position: absolute;
-    inset: 0;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    grid-area: 1 / 1;
+    width: 100%;
     opacity: 0;
     transition: opacity 1.2s ease-in-out;
   }
@@ -72,12 +68,18 @@ const slideImages = enableSlideshow
     opacity: 1;
   }
 
+  .home__slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   .home__overlay {
-    position: relative;
+    position: absolute;
+    inset: 0;
     max-width: var(--w-wide);
     margin-inline: auto;
     padding: var(--s-7) var(--s-6);
-    min-height: inherit;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto 1fr;
@@ -122,10 +124,6 @@ const slideImages = enableSlideshow
   }
 
   @media (max-width: 640px) {
-    .home {
-      min-height: min(70vh, 640px);
-    }
-
     .home__overlay {
       padding: var(--s-5) var(--s-4);
       grid-template-columns: 1fr;

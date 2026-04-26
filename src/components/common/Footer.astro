@@ -1,7 +1,7 @@
 ---
 import ShareButtons from "./btn/ShareButtons.astro";
 import { commonMsg } from "../../msg/common";
-import { siteConfig } from "../../config";
+import { siteConfig, contactConfig } from "../../config";
 
 interface Props {
   shareUrl: string;
@@ -17,7 +17,7 @@ const year = new Date().getFullYear();
     <div class="site-footer__brand">{site.name}</div>
 
     <div class="site-footer__copyright">
-      ©{site.copyStartYear}-{year} {site.name}{commonMsg.footer.madeByTeam}
+      ©{site.copyStartYear}-{year} {site.name}{contactConfig.team} {commonMsg.footer.copyrightSuffix}
     </div>
 
     <div class="site-footer__share">
@@ -31,7 +31,7 @@ const year = new Date().getFullYear();
   .site-footer {
     padding-block: 32px 20px;
     border-top: 1px solid var(--c-border);
-    background: #ffffff;
+    background: var(--c-footer-bg);
     text-align: center;
   }
 
@@ -54,7 +54,7 @@ const year = new Date().getFullYear();
     font-family: var(--f-serif);
     font-size: 14px;
     line-height: 1.5;
-    color: #6a6a6a;
+    color: var(--c-footer-copyright);
   }
 
   .site-footer__share {
@@ -64,7 +64,7 @@ const year = new Date().getFullYear();
     font-family: var(--f-serif);
     font-size: 14px;
     line-height: 1.5;
-    color: #4d4d4d;
+    color: var(--c-footer-share);
   }
 
   .site-footer__share-buttons {

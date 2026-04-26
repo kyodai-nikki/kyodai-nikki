@@ -28,8 +28,8 @@ const { href } = Astro.props;
     width: var(--share-btn-size);
     height: var(--share-btn-size);
     border-radius: var(--share-btn-radius, 9999px);
-    background: var(--share-btn-bg, #6c6c6c);
-    color: var(--share-btn-color, #ffffff);
+    background: var(--share-btn-bg, var(--c-share-btn-bg-default));
+    color: var(--share-btn-color, var(--c-fg-on-dark));
     transition:
       transform var(--dur-fast) var(--ease-out),
       background var(--dur-fast) var(--ease-out);
@@ -37,8 +37,8 @@ const { href } = Astro.props;
 
   .share-button:hover {
     transform: var(--share-btn-hover-transform, translateY(-1px));
-    background: var(--share-btn-hover-bg, #3f3f3f);
-    color: var(--share-btn-hover-color, #ffffff);
+    background: var(--share-btn-hover-bg, var(--c-share-btn-bg-default-hover));
+    color: var(--share-btn-hover-color, var(--c-fg-on-dark));
   }
 
   .share-button svg {

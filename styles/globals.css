@@ -32,8 +32,8 @@ body[data-modal-locked] {
 
 main {
   background:
-    radial-gradient(circle at 1px 1px, rgba(17, 17, 17, 0.16) 1px, transparent 0) 0 0 / 28px 28px,
-    linear-gradient(180deg, #ffffff 0%, #fbfbfb 100%);
+    radial-gradient(circle at 1px 1px, var(--c-page-shell-dot) 1px, transparent 0) 0 0 / 28px 28px,
+    linear-gradient(180deg, var(--c-page-shell-grad-top) 0%, var(--c-page-shell-grad-bottom) 100%);
   view-transition-name: page-shell;
 }
 

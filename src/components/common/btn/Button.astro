@@ -39,12 +39,12 @@ const classes = ["ui-button", `ui-button--${type}`, `ui-button--${size}`, classP
     --button-min-width: auto;
     --button-padding-block: 14px;
     --button-padding-inline: 18px;
-    --button-border-color: rgba(17, 17, 17, 0.72);
-    --button-bg: #ffffff;
+    --button-border-color: var(--c-border-card);
+    --button-bg: var(--c-bg-elev);
     --button-color: var(--c-fg);
-    --button-hover-bg: #232323;
-    --button-hover-border-color: #232323;
-    --button-hover-color: #ffffff;
+    --button-hover-bg: var(--c-bg-darkest-hover);
+    --button-hover-border-color: var(--c-bg-darkest-hover);
+    --button-hover-color: var(--c-fg-on-dark);
     --button-font-family: var(--font-family-navigation);
     --button-font-size: 1.125rem;
     --button-line-height: 1.2;
@@ -92,21 +92,21 @@ const classes = ["ui-button", `ui-button--${type}`, `ui-button--${size}`, classP
   }
 
   .ui-button--white {
-    --button-border-color: rgba(17, 17, 17, 0.72);
-    --button-bg: #ffffff;
+    --button-border-color: var(--c-border-card);
+    --button-bg: var(--c-bg-elev);
     --button-color: var(--c-fg);
-    --button-hover-bg: #232323;
-    --button-hover-border-color: #232323;
-    --button-hover-color: #ffffff;
+    --button-hover-bg: var(--c-bg-darkest-hover);
+    --button-hover-border-color: var(--c-bg-darkest-hover);
+    --button-hover-color: var(--c-fg-on-dark);
   }
 
   .ui-button--black {
-    --button-border-color: #2f2f2f;
-    --button-bg: #2f2f2f;
-    --button-color: #ffffff;
-    --button-hover-bg: #232323;
-    --button-hover-border-color: #232323;
-    --button-hover-color: #ffffff;
+    --button-border-color: var(--c-bg-darkest);
+    --button-bg: var(--c-bg-darkest);
+    --button-color: var(--c-fg-on-dark);
+    --button-hover-bg: var(--c-bg-darkest-hover);
+    --button-hover-border-color: var(--c-bg-darkest-hover);
+    --button-hover-color: var(--c-fg-on-dark);
   }
 
   .ui-button--ss {

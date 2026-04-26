@@ -198,17 +198,17 @@ const {
     width: min(900px, calc(100vw - 40px));
     max-height: calc(100dvh - 40px);
     padding: 0;
-    border: 1px solid rgba(17, 17, 17, 0.75);
-    background: #fff;
+    border: 1px solid var(--c-border-modal);
+    background: var(--c-modal-bg);
     overflow: hidden;
-    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.22);
+    box-shadow: var(--sh-modal);
     opacity: 0;
     transform: translateY(56px);
     will-change: transform, opacity;
   }
 
   .modal::backdrop {
-    background: rgba(0, 0, 0, 0.24);
+    background: var(--c-modal-backdrop);
   }
 
   .modal[open] {
@@ -254,21 +254,21 @@ const {
 
   @keyframes modal-backdrop-in {
     from {
-      background: rgba(0, 0, 0, 0);
+      background: transparent;
     }
 
     to {
-      background: rgba(0, 0, 0, 0.24);
+      background: var(--c-modal-backdrop);
     }
   }
 
   @keyframes modal-backdrop-out {
     from {
-      background: rgba(0, 0, 0, 0.24);
+      background: var(--c-modal-backdrop);
     }
 
     to {
-      background: rgba(0, 0, 0, 0);
+      background: transparent;
     }
   }
 

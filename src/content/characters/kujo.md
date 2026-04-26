@@ -11,5 +11,5 @@ gender: "女"
 height: "—"
 weight: "—"
 birthday: "—"
-externalLink: ""
+externalLinks: []
 ---

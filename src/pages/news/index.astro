@@ -1,6 +1,7 @@
-﻿---
+---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
+import WhiteCard from "../../components/common/WhiteCard.astro";
 import { formatNewsDate, newsDate, newsListItems } from "../../lib/view/news";
 import { newsPageMsg } from "../../msg/news";
 import { navigation } from "../../data/navigation";
@@ -27,7 +28,10 @@ const items = await newsListItems();
           </>
         );
         return (
-          <li class:list={["news-item", { "news-item--no-link": !href }]}>
+          <WhiteCard
+            as="li"
+            class:list={["news-item", { "news-item--no-link": !href }]}
+          >
             {href ? (
               <a
                 class="news-link"
@@ -40,7 +44,7 @@ const items = await newsListItems();
             ) : (
               <div class="news-link">{inner}</div>
             )}
-          </li>
+          </WhiteCard>
         );
       })}
     </ul>
@@ -62,15 +66,18 @@ const items = await newsListItems();
     gap: var(--s-5);
   }
 
-  .news-item {
-    border: 1px solid var(--c-border);
-    border-radius: var(--r-md);
-    background: #ffffff;
+  /* WhiteCard のデフォルト padding を上書き（padding は news-link 側で管理） */
+  .news-list :global(.news-item) {
+    padding: 0;
     transition: border-color var(--dur-fast) var(--ease-out),
                 background var(--dur-fast) var(--ease-out);
   }
-  .news-item:not(.news-item--no-link):hover { border-color: var(--c-fg); }
-  .news-item--no-link { cursor: default; }
+  .news-list :global(.news-item:not(.news-item--no-link):hover) {
+    border-color: var(--c-fg);
+  }
+  .news-list :global(.news-item--no-link) {
+    cursor: default;
+  }
 
   .news-link {
     display: grid;

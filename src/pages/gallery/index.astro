@@ -2,7 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import MediaModal from "../../components/common/MediaModal.astro";
-import { displayedGalleryImages, gallerySrc } from "../../lib/gallery";
+import { displayedGalleryImages, galleryPicture, gallerySrc } from "../../lib/gallery";
 import {
   galleryDetailImages,
   galleryModalDescription,
@@ -33,6 +33,8 @@ const displayedImages = await displayedGalleryImages();
           const img = entry.data;
           const modalId = `gallery-modal-${index}`;
           const modalTitle = galleryModalTitle(entry);
+          const picture = galleryPicture(entry);
+          const fallbackSrc = picture?.fallback ?? gallerySrc(entry);
 
           return (
             <button
@@ -42,13 +44,19 @@ const displayedImages = await displayedGalleryImages();
               data-modal-open={modalId}
               style={{ "--delay": `${index * 30}ms` }}
             >
-              <img
-                src={gallerySrc(entry)}
-                alt={img.alt}
-                loading="lazy"
-                width="640"
-                height="480"
-              />
+              <picture>
+                {picture?.webp && (
+                  <source type="image/webp" srcset={picture.webp} />
+                )}
+                <img
+                  src={fallbackSrc}
+                  alt={img.alt}
+                  loading="lazy"
+                  decoding="async"
+                  width="640"
+                  height="376"
+                />
+              </picture>
             </button>
           );
         })}
@@ -59,7 +67,18 @@ const displayedImages = await displayedGalleryImages();
         const modalId = `gallery-modal-${index}`;
         const modalTitle = galleryModalTitle(entry);
         const modalDescription = galleryModalDescription(entry);
-        const detailSrcs = galleryDetailImages(entry);
+        // 詳細画像は WebP（medium / large）があれば srcset で 1x/2x を割り当てる。
+        // モーダルが開いた瞬間の転送量を抑え、原寸 PNG/JPG への直接フェッチを避ける。
+        const detailSrcs = galleryDetailImages(entry).map((image) => {
+          const srcsetParts: string[] = [];
+          if (image.mediumWebp) srcsetParts.push(`${image.mediumWebp} 1x`);
+          if (image.largeWebp) srcsetParts.push(`${image.largeWebp} 2x`);
+          return {
+            src: image.src,
+            alt: image.alt,
+            webpSrcset: srcsetParts.length > 0 ? srcsetParts.join(", ") : undefined,
+          };
+        });
 
         return (
           <MediaModal

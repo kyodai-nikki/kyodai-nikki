@@ -7,7 +7,7 @@ export type CharacterEntry = CollectionEntry<"characters">;
 
 // キャラクター詳細ページへのリンクを返す。
 export const characterHref = (character: CharacterEntry): string =>
-  withBase(`/characters/${character.id}/`);
+  withBase(`/characters/${character.id}`);
 
 // キャラクターポートレート画像のパスを base path つきで返す。
 export const characterPortraitSrc = (character: CharacterEntry): string =>

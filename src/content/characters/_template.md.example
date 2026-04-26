@@ -13,10 +13,21 @@ quote: |-
 description: |-
   紹介文を入れます。
   改行もそのまま反映されます。
+# 年齢
 age: "?"
+# 性別
 gender: "?"
+# 身長
 height: "?"
+# 体重
 weight: "?"
+# 誕生日
 birthday: "?"
-externalLink: ""
+# 外部リンク
+externalLinks: [
+    {
+      label: "",
+      url: "",
+    },
+  ]
 ---

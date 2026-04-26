@@ -88,7 +88,7 @@ const sourceLabel = scenario?.distributionName;
     justify-content: space-between;
     gap: 16px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid var(--c-log-divider-strong);
   }
 
   .episode-log__title-group {
@@ -114,7 +114,7 @@ const sourceLabel = scenario?.distributionName;
     margin: 0;
     font-family: var(--font-family-log-heading);
     font-size: clamp(1.15rem, 2vw, 1.45rem);
-    color: #202020;
+    color: var(--c-log-meta-fg);
   }
 
   .episode-log__meta-lines {
@@ -128,7 +128,7 @@ const sourceLabel = scenario?.distributionName;
     align-items: baseline;
     gap: 30px;
     padding: 6px 0;
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid var(--c-log-divider-strong);
     font-family: var(--font-family-log-body);
     font-size: 1rem;
     line-height: 1.5;
@@ -145,7 +145,7 @@ const sourceLabel = scenario?.distributionName;
   .episode-log__meta-line dd,
   .episode-log__meta-free {
     margin: 0;
-    color: #111111;
+    color: var(--c-fg);
   }
 
   .episode-log__meta-line a {
