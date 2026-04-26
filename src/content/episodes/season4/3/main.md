@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2026.01.23"
-  timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
+  timelineCast: "千秋22歳（通信大学4年） 千冬23歳（-）"
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "夜になんか攫われてたまるか"
@@ -466,9 +466,7 @@ SANチェック1/1d3
 </span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 59 ＞ 成功
 
 </span><span class="kp">成功⇒テーブルの上に一枚のカードが置かれている。
-『1.相手の好きなところは？
-2.相手の嫌なところは？
-3.相手のことをどう思っている？』
+『1.相手の好きなところは？2.相手の嫌なところは？3.相手のことをどう思っている？』
 と綺麗な文字で書かれている。
 
 </span><span class="chiaki">染谷千秋 : カードの裏も見るよ～
@@ -726,7 +724,7 @@ SANチェック1/1d3
 
 </span><span class="kp">「か、変わらず苦しまれているご様子でした」
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 2 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">(　ﾟдﾟ)！
 
@@ -803,9 +801,7 @@ SANチェック1/1d3
 </span><span class="kp">浜辺にガラスの小瓶が落ちていることに気付く。海から流れ着いたのだろうか。中には一枚の紙が入っている。
 </span><span class="kp">小瓶の中に入っていた紙を見ると、中には綺麗な文字でメッセージが書いてある。
 
-『1.相手との一番の思い出を教えて
-2.相手に伝えたいことはある？
-3.相手のことを信頼している？』
+『1.相手との一番の思い出を教えて2.相手に伝えたいことはある？3.相手のことを信頼している？』
 
 紙にはそれだけ書いてあった。
 
@@ -853,9 +849,7 @@ SANチェック1/1d3
 </span><span class="chifuyu">染谷千冬 : 「……ボトルメールか。おしゃれだな」
 </span><span class="chiaki">染谷千秋 : 「な。手紙になんて書いてあったと思う？」
 </span><span class="chifuyu">染谷千冬 : 「分からない……何て書いてたんだ」
-</span><span class="chiaki">染谷千秋 : 「『1.相手との一番の思い出を教えて
-2.相手に伝えたいことはある？
-3.相手のことを信頼している？』
+</span><span class="chiaki">染谷千秋 : 「『1.相手との一番の思い出を教えて2.相手に伝えたいことはある？3.相手のことを信頼している？』
 だってさ」
 </span><span class="chifuyu">染谷千冬 : 「そうか。前に見たものと似ているな」
 </span><span class="chifuyu">染谷千冬 : 「……千秋はどうだ」
@@ -974,7 +968,7 @@ SANチェック1/1d3
 
 </span><span class="chiaki">染谷千秋 : うう；；；
 </span><span class="chiaki">染谷千秋 : 1d3+2 (1D3+2) ＞ 3[3]+2 ＞ 5
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span class="chiaki">染谷千秋 : 傷口抑えてこの場から逃げ、……逃げるのか？
 </span><span class="chiaki">染谷千秋 : 逃げます　血を止めないと
 </span><span class="chiaki">染谷千秋 : 「大丈夫か、じゃないだろ。千冬が、……クソ！」
@@ -1714,7 +1708,7 @@ AF:タロットカード
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 42 → 55
 </span><span class="chiaki">染谷千秋 : ◤ 成長
 千秋 6c
-目星*2
+目星\*2
 千冬 1f
 コンピュータ
 </span><span class="chiaki">染谷千秋 : CCB<=87 【目星】 (1D100<=87) ＞ 33 ＞ 成功
@@ -1761,7 +1755,7 @@ AF:タロットカード
 </span><span class="chifuyu">染谷千冬 : STR、CON、DEXの成長判定をします
 </span><span class="chifuyu">染谷千冬 : ccb<=(18-14)*5 【STR成長】 (1D100<=20) ＞ 29 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : ccb<=(18-12)*5 【CON成長】 (1D100<=30) ＞ 91 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : ccb<=(18-9)*2 【DEX成長】 (1D100<=18) ＞ 22 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : ccb<=(18-9)\*2 【DEX成長】 (1D100<=18) ＞ 22 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 頑張ろう
 </span><span class="chiaki">染谷千秋 : かわいいね
 </span><span class="chifuyu">染谷千冬 : (´・ω・｀)

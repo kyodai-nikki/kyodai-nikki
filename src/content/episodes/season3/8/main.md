@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2027.11.14"
-  timelineCast: "千秋 (24歳・-) 千冬 (24歳・-)"
+  timelineCast: "千秋24歳（-） 千冬24歳（-）"
   cast: ["染谷千冬"]
 scenario:
   title: "やさしい世界と呼吸法"
@@ -173,9 +173,9 @@ custom:
 これが千秋の匂いだと、貴方は認識する。
 そうだ、この匂いはいつも千秋からしている。 その匂いが、部屋一体に満たされているのだ。 その匂いに貴方はふわりと、くらりと、
 </span><span class="kp">──────────ああ、吐き気がする。
-</span><span class="kp">CON*1を振ってください。
+</span><span class="kp">CON\*1を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*1 【CON × 1】 (1D100<=12) ＞ 41 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*1 【CON × 1】 (1D100<=12) ＞ 41 ＞ 失敗
 
 </span><span class="kp">思わず嘔吐くと、胃の中のそれは躊躇いもなく床へとぶちまけられる。 頭がガンガンと警鐘を鳴らすような感覚だ。 食道を灼くその感覚が痛い。 消化しきれなかった昨日の食事が床へと叩きつけられる。
 何故、千秋の匂いを知覚した瞬間に吐き気を感じたのか、貴方には到底理解できなかった。（SANC 1/1d3+1）
@@ -315,7 +315,7 @@ custom:
 
 </span><span class="chifuyu">染谷千冬 : （……思い出せない……）
 </span><span class="chifuyu">染谷千冬 : choice この千秋を信じたいと思う 疑うべき、もしくは間違っていると思う (choice この千秋を信じたいと思う 疑うべき、もしくは間違っていると思う) ＞ この千秋を信じたいと思う
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】絶対に信じたい、何かから目を背けたい/でもやっぱり、だめなんじゃないか (1D100<=55) ＞ 84 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】絶対に信じたい、何かから目を背けたい/でもやっぱり、だめなんじゃないか (1D100<=55) ＞ 84 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : （……違う、千秋だ。信じたい、千秋と一緒に過ごす毎日が幸せなんだ、でも、でも……どこか、変だ……）
 </span><span class="chifuyu">染谷千冬 : （……思い出せなくて、いいのか？　本当に……？）
 </span><span class="chifuyu">染谷千冬 : （……）
@@ -355,7 +355,7 @@ custom:
 
 </span><span class="kp">はい。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 61 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 61 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : （……思い出すのは、怖い）
 元の場所にポストカードを戻します。
 </span><span class="chifuyu">染谷千冬 : （そうだ、着替え）
@@ -404,7 +404,7 @@ custom:
 
 </span><span class="chifuyu">染谷千冬 : 「……今作った、のか？」
 </span><span class="chiaki">染谷千秋 : 「ああ」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 66 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 66 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : （こんな短時間で作れるわけが……）
 </span><span class="chifuyu">染谷千冬 : （……でも、千秋には聞けないな……）
 </span><span class="chifuyu">染谷千冬 : 「ありがとう」
@@ -418,7 +418,7 @@ custom:
 
 </span><span class="kp">口に入れた料理は冷めきっている。できたてのはずだが、何故だろうか。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】解釈 (1D100<=55) ＞ 74 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】解釈 (1D100<=55) ＞ 74 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : （……やっぱり、冷めてる。おかしい。だって、湯気も立っているのに）
 </span><span class="chifuyu">染谷千冬 : （……味覚の問題じゃない。何、い……嫌だ）
 </span><span class="chifuyu">染谷千冬 : 顔を青くしてその場から立ち上がります。
@@ -434,9 +434,9 @@ custom:
 
 </span><span class="kp">あなたはその異常を受け入れることができなかった。無理やり目を閉じ、起きたばかりの身体を横たえる。
 千秋はそんなあなたを抱きしめて、寝て起きてつらかったら病院に行こう、と優しく頭を撫でる。
-</span><span class="kp">眠れるかCON*5をどうぞ。失敗した場合のみ、眠れることとします。
+</span><span class="kp">眠れるかCON\*5をどうぞ。失敗した場合のみ、眠れることとします。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 43 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 43 ＞ 成功
 
 </span><span class="kp">貴方の身体はまだ睡眠を欲していないようだ。どうも上手く眠ることができない。
 千秋はあなたが眠りに付きやすいように、背中を一定のリズムで叩く。
@@ -449,9 +449,9 @@ custom:
 </span><span class="chifuyu">染谷千冬 : （……千秋は温かい。良かった……）
 身を起こして千秋に被さり、上から何度もキスを落とします。腕と手のひらを重ね、千秋の熱を感じます。
 
-</span><span class="kp">CON*5をどうぞ。
+</span><span class="kp">CON\*5をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 50 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 50 ＞ 成功
 
 </span><span class="kp">千秋はあなたの口付けを受けて嬉しそうに微笑む。
 あなたの手を握り返し、あなたを抱きしめ、あなたと熱を交換する。
@@ -467,9 +467,9 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「味覚が？……、ん……」
 
 </span><span class="kp">千秋はあなたの後頭部を手で押さえ、優しく口付ける。あなたの服を脱がして、素肌を舐めて、全身にキスをして、愛撫を施す。
-</span><span class="kp">CON*1をどうぞ。
+</span><span class="kp">CON\*1をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*1 【CON × 1】 (1D100<=12) ＞ 87 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*1 【CON × 1】 (1D100<=12) ＞ 87 ＞ 失敗
 
 </span><span class="kp">千秋の身体から甘い香りがする。くらくらとあなたの脳を揺らすのは、先程も嗅いだ千秋のにおいだ。
 千秋の匂いを嗅いで、あなたは、
@@ -737,9 +737,9 @@ custom:
 
 </span><span class="kp">貴方は再び階段をのぼる。 息のつまる感覚は、もはや無視できず、酸素が薄くなっていく感覚に目の前がちかちかと明滅する。 息ができない。
 酸欠で頭がガンガンと痛む。
-<CON*5>
+<CON\*5>
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 14 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 14 ＞ 成功
 
 </span><span class="kp">よろけそうになるその体を何とか律して、貴方は階段を踏みしめる。やっとの思いで階段をのぼる。 だらだらと汗を流し、視界をぐらつかせ、嘔吐きつつも呼吸を整える。
 </span><span class="kp">階段のうえの扉を開く。 目の前に広がる空間は、先程見てきた光景がまるで夢だったのではないかと錯覚するほどであった。 それこそ、先ほどの奇妙な光景を見た直後であったせいで、この光景こそが奇妙であると思ってしまうほどに。

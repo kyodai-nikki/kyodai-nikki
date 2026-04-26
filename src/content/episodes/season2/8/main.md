@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2023.11.26"
-  timelineCast: "千秋 (20歳・通信大学2年) 千冬 (20歳・建築士1年)"
+  timelineCast: "千秋20歳（通信大学2年） 千冬20歳（建築士1年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "愛猫の上手な鳴かせ方"
@@ -137,9 +137,9 @@ SANc1/1d2
 </span><span class="chiaki">染谷千秋 : 「腹へった」猫化により気まぐれになっています。続けて何かを答えようとしましたがやめて、リビングに向かいます。
 </span><span class="chifuyu">染谷千冬 : 「そうか。千秋は座っていろ」いつもと調子が違うことを気にしながら、キッチンに向かいます。目玉焼きトーストを用意します。
 
-</span><span class="kp">DEX*5を振ってください。成功すれば美味しい料理が作れます。
+</span><span class="kp">DEX\*5を振ってください。成功すれば美味しい料理が作れます。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 30 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 30 ＞ 成功
 
 </span><span class="kp">また、今千秋は気まぐれになっています。味の好みがきちんと合致するかの判定が必要です。
 ふたりとも1d50を振ってください。数値が近ければ近いほど千秋にとって美味しい料理となります。
@@ -219,9 +219,9 @@ SANc1/1d2
 手の甲を支えて持ち自分の口に近づけ、キスをします。
 「……気持ちいいか？」
 
-</span><span class="kp">dex*3を振ってください。
+</span><span class="kp">dex\*3を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=9*3 【DEX × 3】 (1D100<=27) ＞ 69 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*3 【DEX × 3】 (1D100<=27) ＞ 69 ＞ 失敗
 
 </span><span class="kp">1d50+50を振ってください。80以上が出れば気持ちがいいことにします。
 
@@ -232,9 +232,9 @@ SANc1/1d2
 千秋の頭を撫でた後、横髪を耳にかけ、耳のふちや耳たぶを指でなぞります。そして思い出したように頭上の獣耳の背を撫でます。
 「……ここは？」
 
-</span><span class="kp">dex*3を振ってください。
+</span><span class="kp">dex\*3を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=9*3 【DEX × 3】 (1D100<=27) ＞ 57 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*3 【DEX × 3】 (1D100<=27) ＞ 57 ＞ 失敗
 
 </span><span class="kp">1d80を振ってください。80以上出たら気持ちがいい箇所になります。
 

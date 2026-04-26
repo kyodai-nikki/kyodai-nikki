@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: true
   storyDate: "2025.05.02"
-  timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
+  timelineCast: "千秋21歳（通信大学4年） 千冬22歳（建築士3年）"
   cast: ["染谷千秋"]
 scenario:
   title: "縁々獄々"
@@ -149,7 +149,6 @@ custom:
 
 </span><span class="kp">二人は物産展を見て回り、地方の名産物をいくつか購入して帰宅する。穏やかな時間を過ごし、あなたたちは眠りにつく。
 
-
 </span><span class="kp">⽪膚に伝わる冷たい感覚に、⾃然と意識が覚醒していく。
 次第に⼰の体が硬い⽯畳の上に横たわっているのが分かった。
 何度か瞬きをして、⽬を覚ます。
@@ -283,7 +282,6 @@ custom:
 
 </span><span class="kp">そうして落ちていく意識の中で、誰かの⾔葉が聞こえた。
 
-
 </span><span class="kp">――暗がりから再び意識が覚醒する。
 幾らか瞬きをすると天井からぶら下がる薄明かりが⽬に⼊った。
 どのくらい気を失っていたのだろうかと⾝体を起こそうとして気がつく。
@@ -400,7 +398,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 82 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 32 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 32 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……ッ」
 黙って殴られますが、胸を殴られた時に息を詰めます。
 
@@ -438,7 +436,6 @@ custom:
 </span><span class="kp">男性 : 「それじゃあ、私はやることがあるので失礼しますね」
 
 </span><span class="kp">しばらくすると、彼は扉を開けて出ていった。無慈悲にも扉は閉じられ、この場所には⾝動きが取れないあなた⼀⼈が再び残された。
-
 
 </span><span class="kp">ギ、と扉が軋む⾳がしてハッとする。放置されてからまた幾時間化が過ぎており、あまりの何もなさに夢の世界へ誘われようとしていたところだった。
 </span><span class="kp">またあいつか、今度はなんだ、と思いつつ扉の⽅へと視線を投げる。
@@ -480,7 +477,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「……斧なんて出してどうしたんだよ。はは、拘束されてる部位切り落とすとか言うつもりか？」
 </span><span class="chifuyu">染谷千冬 : にっこりと微笑みます。
 「……重いな。上手く扱えるかな……」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……」
 </span><span class="chiaki">染谷千秋 : （本物の千冬じゃなかったら終わりだな。……まあどうすることもできねーか）
 </span><span class="chiaki">染谷千秋 : 「……優しくしてくれよ？」
@@ -495,7 +492,7 @@ custom:
 
 </span><span class="kp">その問いにあなたが何か答える前に、右腕に何かが振り下ろされた。と、同時に激しい痛みと熱が同時に襲い掛かってくる。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 54 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 54 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「う、～～～～ぃ゛、ッ！！」
 目の前の千冬が千冬かどうか疑いつつも、本物の千冬が洗脳された線も捨て切れません。男に千冬の存在が気付かれないよう、なるべく声をあげずに耐えます。
 </span><span class="chifuyu">染谷千冬 : 「……あれ、これだけじゃ流⽯に駄⽬か……もう⼀回」
@@ -525,16 +522,16 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「お、前ッ……、やっぱ、千冬じゃねー……、な……」
 </span><span class="chifuyu">染谷千冬 : 「いやあ、⽴派なものですね、貴⽅の右腕。取れちゃいましたけど」
 
-</span><span class="kp">POW*5どうぞ。
+</span><span class="kp">POW\*5どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功
 
 </span><span class="kp">プラプラと切り離されたそれで遊びながら、あなたに⾔葉をなげかけてくる。しばらくそうしていた彼だったが、やがて飽きが来たのかポイとそれを投げ捨てた。
 
 </span><span class="chifuyu">染谷千冬 : 「もう⼀⽅もやります？　やってもいいですよ。その次は脚ですけど」
 </span><span class="chiaki">染谷千秋 : 「ッは……死ね」
 </span><span class="chifuyu">染谷千冬 : 「……うん、次、脚に⾏きましょう。どちらがいいとかあります？」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】黙って拷問に耐える/暴言を吐く (1D100<=80) ＞ 95 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】黙って拷問に耐える/暴言を吐く (1D100<=80) ＞ 95 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「お前」
 </span><span class="chifuyu">染谷千冬 : 「ナハハ！　馬鹿なことは言わないでください～！」
 </span><span class="chiaki">染谷千秋 : 「ッ千冬の顔で気色悪いこと言ってんじゃねーよ。死ね」
@@ -551,7 +548,7 @@ custom:
 </span><span class="kp">その⾔葉と同時に、今度は下半⾝に激痛が⾛る。
 まただ。つい先程右腕でそれを味わったばかりだと⾔うのに今度は。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 12 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 12 ＞ スペシャル
 </span><span class="chiaki">染谷千秋 : 「────────ッ！」
 </span><span class="chifuyu">染谷千冬 : 「ム、こちらの⽅がかたい気が……？　気のせいかも」
 </span><span class="chifuyu">染谷千冬 : 「……そういえば脚は？　この脚ではどれほどの事を成してきましたか？」
@@ -567,22 +564,22 @@ custom:
 
 </span><span class="chifuyu">染谷千冬 : 「取れましたよ、あし。重そうだからこれは持ち上げたくないかな。すみませんが⾒せてあげられませんね」
 </span><span class="chifuyu">染谷千冬 : 「もったいないですね～。これでもう歩けなくなってしまいました。もう⼀本残ってますけど、やります？」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】黙る/暴言 (1D100<=80) ＞ 54 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】黙る/暴言 (1D100<=80) ＞ 54 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「ッはぁ、……」
 答えません。
 
-</span><span class="kp">POW*4どうぞ！
+</span><span class="kp">POW\*4どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 4】 (1D100<=64) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*4 【POW × 4】 (1D100<=64) ＞ 3 ＞ 決定的成功/スペシャル
 </span><span class="chifuyu">染谷千冬 : 「はぁ、楽しいですね。普通に⽣きてれば⼈の解体なんてしないから……。それじゃ、次はどうしましょうかね」
 </span><span class="chifuyu">染谷千冬 : 「あ！　⽬、⾏きましょう。眼科検診だと思ってくださいね」
 
 </span><span class="kp">彼は楽し気にあなたの⽬に触れる。そしてそのまま瞼を上下に開かせると、何のためらいもなくもう⽚⽅の指を突っ込んだ。
 </span><span class="kp">嫌でも分かる。素⼿で眼球を抉り出そうとしているのだということが。
 あなたが痛みに声を上げようと、⾝を捩らせて抵抗しようとお構いなしに彼は指を進めていく。そして彼が⼀層⼒を籠めたのと同時に、先程までとは⽐べ物にならないほどの痛みがあなたを襲う。SANc（1d3/1d8）
-POW*3をどうぞ。
+POW\*3をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 26 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 26 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 1d100<=61 【正気度ロール】 (1D100<=63) ＞ 67 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 1d8 (1D8) ＞ 8
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 63 → 56
@@ -604,12 +601,12 @@ POW*3をどうぞ。
 </span><span class="chifuyu">染谷千冬 : 「ハハ、そうですか！　切り落とすのもけっこう力が要って大変なんですけどね。しかたないなあ～」
 
 </span><span class="kp">そう言って彼はあなたの言葉の通り、左腕、左脚の切断を始める。骨に邪魔をされて上手く肉を断てず、断面を抉られる。数分経って、ようやく完全に切り離された。ドクドクと血が零れている。
-</span><span class="kp">POW*3を2回どうぞ。
+</span><span class="kp">POW\*3を2回どうぞ。
 
 </span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 61 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 10 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「目はもう⼀⽅はやめておきましょうね～。何も⾒えなくなるのは怖いでしょうから。……あ、そういえば目、見せてませんでしたね。見ます？　綺麗な目ですよ。ちょっと傷ついちゃったかもしれないですけど」
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 11 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 11 ＞ スペシャル
 </span><span class="chiaki">染谷千秋 : 「……」
 答えません。
 </span><span class="chifuyu">染谷千冬 : 「ほらあ、これですよ～」
@@ -626,9 +623,9 @@ POW*3をどうぞ。
 
 </span><span class="chifuyu">染谷千冬 : 「ふふ。異常なしですね、とても綺麗な⼝内でしたよ。気持ち良かったですか？　先程まではずっと痛かったですもんね」
 
-</span><span class="kp">POW*2をどうぞ。
+</span><span class="kp">POW\*2をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 42 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 42 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 唾を吐き捨てます。
 </span><span class="chifuyu">染谷千冬 : 「……ふう。流⽯に少し疲れますね。次は⼒をなるべく使わないものにしましょうか」
 
@@ -657,9 +654,9 @@ POW*3をどうぞ。
 </span><span class="chiaki">染谷千秋 : 1d3+1 (1D3+1) ＞ 1[1]+1 ＞ 2
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 56 → 55
 
-</span><span class="kp">POW*1どうぞ！
+</span><span class="kp">POW\*1どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*1 【POW × 1】 (1D100<=16) ＞ 56 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*1 【POW × 1】 (1D100<=16) ＞ 56 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 「あは、それじゃあ失礼します」
 
 </span><span class="kp">あなたの様⼦を全く気にすることなく、彼は⼿を動かす。そして、
@@ -696,7 +693,6 @@ POW*3をどうぞ。
 </span><span class="kp">満⾝創痍のあなたを⾒下ろした彼は何かを唱える。次第にあなたの意識には霧がかかって、そしていつのまにか深い暗闇に落ちていった。
 </span><span class="kp">真っ暗闇にこんなに安⼼するのは初めてかもしれない。そんなことをうっすらとかんがえながら、あなたは完全に意識を⼿放した。
 
-
 </span><span class="kp">――⽬覚ましの⾳で⽬が覚める。
 重たい瞼を開ければ、そこは⾒慣れた⾃室であり、隣に千冬が眠っている。
 なんだか嫌な夢を⾒たような気がする。とても痛くて気持ちが悪くて……⾃分の尊厳が無に等しく扱われるような、嫌な夢を。
@@ -705,10 +701,9 @@ POW*3をどうぞ。
 </span><span class="kp">……ともかく、あなたはまた変わらない⽇々を過ごすことになるだろう。寝て起きて、また明⽇が来る。おかしな現象に巻き込まれたり、世界が滅びかけることもあるかもしれないが、それでもあなたはあなたの⽇常をこれからも過ごしていく。
 </span><span class="kp">結ばれる縁は選べない。理不尽はいつでもあなたの隣に存在する。
 
+POW\*1を振ってください。
 
-POW*1を振ってください。
-
-</span><span class="chiaki">染谷千秋 : CCB<=16*1 【POW × 1】 (1D100<=16) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*1 【POW × 1】 (1D100<=16) ＞ 2 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">成功（クリティカル）したため、後遺症はありません。
 クトゥルフ神話技能を男に盗まれたため、2ポイント減らしてください。

@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2026.03.17"
-  timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
+  timelineCast: "千秋22歳（通信大学4年） 千冬23歳（-）"
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "蓄堰"
@@ -196,14 +196,14 @@ custom:
 千秋は、その鋭敏な嗅覚が、鮮明にその臭いを感じ取る。鼻の粘膜にまでその臭いがこびり付いているようだ。
 ＜SAN　1/1d2＞
 
-また、千秋は＜CON*5＞もどうぞ！
+また、千秋は＜CON\*5＞もどうぞ！
 
 </span><span class="chifuyu">染谷千冬 : 1d100<=83 【正気度ロール】 (1D100<=83) ＞ 95 ＞ 失敗
 </span><span class="chifuyu">[ 染谷千冬 ] SAN : 83 → 82
 </span><span class="chiaki">染谷千秋 : 1d100<=52 【正気度ロール】 (1D100<=52) ＞ 53 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 2
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 52 → 50
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 61 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 61 ＞ 失敗
 
 </span><span class="kp">耐え難い臭いに顔を顰める。生命活動として仕方なく幾度かの呼吸をしたあとに、その感覚は唐突にきた。
 胃が蹴り上げられるようにして、一瞬にして胃の中にあったものがせり上がる感覚。
@@ -230,7 +230,7 @@ custom:
 兎にも角にも人が食べていい味ではないことだけはわかる。しかもそれが舌が痺れるほどに濃い味に感じるのは、この異様な感覚のせいなのだろうか。
 それでも器具のせいで吐き出すことも出来ない。
 飲み込む他選択肢がないのだろう。だが、こんなものを噛めばこの味がより一層口内に充満するだろう。そうなったことを考えただけでも、吐き気がする。
-</span><span class="kp">＜POW*5＞をどうぞ！
+</span><span class="kp">＜POW\*5＞をどうぞ！
 
 </span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 8 ＞ スペシャル
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 65 ＞ 成功
@@ -239,7 +239,7 @@ custom:
 飲み込んだことを確認してか、器具は固定を解除し離れていく。
 それでも、胃の奥からあの味と臭いが上がってくるようだった。
 舌にあの味が酷く残っている感覚はすぐには消えてくれない。鋭敏な味覚が微かなそれを感じ取ってしまっている。
-</span><span class="kp">＜CON*5＞どうぞ！
+</span><span class="kp">＜CON\*5＞どうぞ！
 
 </span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 41 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 46 ＞ 成功
@@ -495,7 +495,7 @@ custom:
 
 以下にバングルを外すための機器の特徴と、使い方のメモ書きがされている。
 </span><span class="kp">クリティカルなのもあって、ついでに情報を足しました。
-</span><span class="kp">探索者は機械室でのバングルの外し方を＜INT*5＞で覚えられる。
+</span><span class="kp">探索者は機械室でのバングルの外し方を＜INT\*5＞で覚えられる。
 失敗した場合、＜集中＞に成功することで何度でも再挑戦できる。
 
 </span><span class="chiaki">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 77 ＞ 成功
@@ -796,7 +796,7 @@ custom:
 </span><span class="kp">千冬、1d5でアイデアとかどうですか
 
 </span><span class="chifuyu">染谷千冬 : 1d5 (1D5) ＞ 1
-</span><span class="chifuyu">染谷千冬 : CCB<=16*1 【INT × 1】 (1D100<=16) ＞ 11 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=16\*1 【INT × 1】 (1D100<=16) ＞ 11 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「……鍵、ここにないだろうか」
 </span><span class="chiaki">染谷千秋 : 「探してみよっか」
 
@@ -859,7 +859,7 @@ custom:
 </span><span class="chiaki">[ 染谷千秋 ] 感覚P : 0 → 1
 </span><span class="chifuyu">[ 染谷千冬 ] 感覚P : 2 → 3
 
-</span><span class="kp">▶＜CON*8＞どうぞ！
+</span><span class="kp">▶＜CON\*8＞どうぞ！
 
 </span><span class="chifuyu">染谷千冬 : CCB<=12*8 【CON × 8】 (1D100<=96) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span class="chiaki">染谷千秋 : CCB<=11*8 【CON × 8】 (1D100<=88) ＞ 14 ＞ スペシャル
@@ -883,9 +883,9 @@ custom:
 </span><span class="kp">千秋はそれ以上気になるほどの味ではないと感じた。
 
 千冬はより濃くその味が分かってしまった。人が食べていいような味ではない。
-▶＜CON*8＞
+▶＜CON\*8＞
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*8 【CON × 8】 (1D100<=96) ＞ 57 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*8 【CON × 8】 (1D100<=96) ＞ 57 ＞ 成功
 
 </span><span class="kp">ただ、吐き気は容易く我慢できる程度だ。
 
@@ -932,9 +932,9 @@ custom:
 
 </span><span class="kp">抵抗されると思っていなかったのか、それだけの体力も気力も残っていないと思われていたのか。
 その腕を振り払って、あるいはその隙をついて。千冬が逃げ出す。だが、千秋は上手くいかず手間取っているのがすぐに分かる。
-</span><span class="kp">▶成功した方＜DEX*3＞※感覚鈍化中なため*5ではなく*3　※＜集中＞使用不可
+</span><span class="kp">▶成功した方＜DEX*3＞※感覚鈍化中なため*5ではなく\*3　※＜集中＞使用不可
 
-</span><span class="chifuyu">染谷千冬 : CCB<=9*3 【DEX × 3】 (1D100<=27) ＞ 27 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*3 【DEX × 3】 (1D100<=27) ＞ 27 ＞ 成功
 
 </span><span class="kp">千秋の腕を掴み、虫の合間を縫うようにして助け出し、この場から逃げ出した。
 
@@ -982,7 +982,7 @@ custom:
 </span><span class="kp">★鍵を使って開ける場合、＜DEX*5＞
 ★鍵を使わず、強硬手段を取る場合＜STR*5＞or＜戦闘技能＞
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 43 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 43 ＞ 成功
 
 </span><span class="kp">冷静に鍵穴に鍵を差し込み、回す。がちゃりと鍵は開き、扉は難なく開いた。
 

@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.12.13"
-  timelineCast: "千秋 (20歳・通信大学2年) 千冬 (21歳・建築士1年)"
+  timelineCast: "千秋20歳（通信大学2年） 千冬21歳（建築士1年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "またたくシティライト"
@@ -213,7 +213,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「俺にとって、千秋は千秋だ。……まだ信用はできない。でも、信じたい。だから千秋を拒否するようなことしたくなかった。無かったことにしたくなかった」
 </span><span class="chiaki2">染谷千秋 : 「……、……。千冬…… 」しばらく千冬を見つめていましたが、そのうちふっと笑います。
 「さっきは悪かった。久々に千冬に会えて嬉しかったんだ。……なぁ、触っていい？」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】気持ちが固い/絆される (1D100<=55) ＞ 59 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】気持ちが固い/絆される (1D100<=55) ＞ 59 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : （俺は、この千秋は本当のことを言っていると思う。……信じきるのは危険だからしない、でも信じたい。本当なら、きっと千秋はとても苦しんだ。今まで頑張った千秋に、ありがとうと言いたい）
 </span><span class="chifuyu">染谷千冬 : 「千秋が怒らないぐらいなら」
 </span><span class="chiaki2">染谷千秋 : 「じゃ、駄目だな」肩をすくめて千冬に近づきます。
@@ -396,7 +396,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「仕事を辞めろ」
 </span><span class="kono">河野 : 「……突然なんだ。君は、一体……」
 </span><span class="kono">河野 : 「……いや、君が誰かはどうでもいい。もういい。疲れた。疲れた……」
-</span><span class="chiaki2">染谷千秋 : sCCB<=11*5 【CON × 5】一通り探索を終えてからの現在体力。失敗したら鎮痛剤を飲むため席を外す。 (1D100<=55) ＞ 77 ＞ 失敗
+</span><span class="chiaki2">染谷千秋 : sCCB<=11\*5 【CON × 5】一通り探索を終えてからの現在体力。失敗したら鎮痛剤を飲むため席を外す。 (1D100<=55) ＞ 77 ＞ 失敗
 
 </span><span class="kp">男は相変わらずぶつぶつと呟いている。
 千秋はゆったりした動作で男に近づき、拘束を強めた。そして傍にあった荷物を取ると、あなたに向かって言う。
@@ -424,7 +424,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「拘束されている。放っておけばいい」
 </span><span class="chiaki2">染谷千秋 : 「……わかった」そう言ってタープを直します。
 </span><span class="chiaki2">染谷千秋 : sCCB<=80 【幸運】千冬にバレずに薬飲めるか (1D100<=80) ＞ 65 ＞ 成功
-</span><span class="chiaki2">染谷千秋 : sCCB<=13*5 【DEX × 5】飲んだ後、薬の包装材を鞄戻す速度。成功なら見つからない。 (1D100<=65) ＞ 74 ＞ 失敗
+</span><span class="chiaki2">染谷千秋 : sCCB<=13\*5 【DEX × 5】飲んだ後、薬の包装材を鞄戻す速度。成功なら見つからない。 (1D100<=65) ＞ 74 ＞ 失敗
 
 </span><span class="kp">千秋がタープを直し終えて立ち上がる。あなたは千秋が何か怪しい行動をしないよう見張っているだろう。目星をどうぞ。
 
@@ -433,7 +433,7 @@ custom:
 </span><span class="kp">千秋が何か荷物に仕舞うのが見えた。
 
 </span><span class="chifuyu">染谷千冬 : 荷物を奪います！
-</span><span class="chiaki2">染谷千秋 : sCCB<=11*5 【CON × 5】反応する体力があるか (1D100<=55) ＞ 16 ＞ 成功
+</span><span class="chiaki2">染谷千秋 : sCCB<=11\*5 【CON × 5】反応する体力があるか (1D100<=55) ＞ 16 ＞ 成功
 
 </span><span class="kp">STR対抗をどうぞ！11と14の対抗です。
 
@@ -560,7 +560,7 @@ custom:
 </span><span class="kp">そうして河野は会社へと向かっていった。
 
 </span><span class="chifuyu">染谷千冬 : 揉めているところへ近づきます。
-</span><span class="chiaki2">染谷千秋 : sCCB<=11*5 【CON × 5】残り体力。千冬の前を歩く余力があるか。 (1D100<=55) ＞ 90 ＞ 失敗
+</span><span class="chiaki2">染谷千秋 : sCCB<=11\*5 【CON × 5】残り体力。千冬の前を歩く余力があるか。 (1D100<=55) ＞ 90 ＞ 失敗
 </span><span class="chiaki2">染谷千秋 : 千冬の後に続きます。
 
 </span><span class="kp">あなた達が近付くと、捕まっていた女性が高い声をあげる。
@@ -598,7 +598,7 @@ custom:
 </span><span class="chiaki2">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 20 ＞ 成功
 </span><span class="keibi1">警備員A : CCB<=26 【回避】 (1D100<=26) ＞ 91 ＞ 失敗
 </span><span class="chiaki2">染谷千秋 : 2d6+1d4 【キックダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 9[6,3]+3[3] ＞ 12
-</span><span class="keibi1">警備員A : CCB<=13*5 【CON × 5】 (1D100<=65) ＞ 87 ＞ 失敗
+</span><span class="keibi1">警備員A : CCB<=13\*5 【CON × 5】 (1D100<=65) ＞ 87 ＞ 失敗
 
 </span><span class="kp">警備員は気絶しました。
 </span><span class="kp">一人の警備員が倒れたのを見て、もう一人の警備員も向かってきます。
@@ -615,7 +615,7 @@ custom:
 </span><span class="chiaki2">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 15 ＞ スペシャル
 </span><span class="keibi2">警備員B : CCB<=26 【回避】 (1D100<=26) ＞ 45 ＞ 失敗
 </span><span class="chiaki2">染谷千秋 : 2d6+1d4 【キックダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 2[1,1]+2[2] ＞ 4
-</span><span class="keibi2">警備員B : CCB<=13*5 【CON × 5】 (1D100<=65) ＞ 26 ＞ 成功
+</span><span class="keibi2">警備員B : CCB<=13\*5 【CON × 5】 (1D100<=65) ＞ 26 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : これからノックアウト攻撃します！
 
 </span><span class="kp">承知！
@@ -668,7 +668,7 @@ custom:
 ・勝利条件：車（4マス目）まで逃げ切る。
 ・先に到達したものが居た場合、1Rを使って車を移動させることで勝利条件のマス目を少なく出来る。
 これから初期位置を決めます。DEX*5を2回振ってください。
-</span><span class="kp">DEX*5を振ってください。
+</span><span class="kp">DEX\*5を振ってください。
 
 </span><span class="mitsukawa">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 20 ＞ 成功
 </span><span class="kono">河野 : CCB<=12*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
@@ -734,7 +734,7 @@ custom:
 </span><span class="kp">千秋は35%で振ってください。
 
 </span><span class="chiaki2">染谷千秋 : ccb<=35 【千冬を止めれるか】 (1D100<=35) ＞ 74 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=9*2 【DEX × 2】思わず手を伸ばします (1D100<=18) ＞ 54 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*2 【DEX × 2】思わず手を伸ばします (1D100<=18) ＞ 54 ＞ 失敗
 </span><span class="ryoken">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 69 ＞ 失敗
 </span><span class="kp">[ KP ] ラウンド : 3 → 4
 
@@ -749,7 +749,7 @@ custom:
 </span><span class="kono">河野 : CCB<=12*4 【DEX × 4】 (1D100<=48) ＞ 64 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : choice[千秋,河野] 距離が近いほう (choice[千秋,河野]) ＞ 河野
 </span><span class="chifuyu">[ 染谷千冬 ] マス : 2 → 1
-</span><span class="chifuyu">染谷千冬 : CCB<=9*4 【DEX × 4】 (1D100<=36) ＞ 41 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 41 ＞ 失敗
 </span><span class="ryoken">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 92 ＞ 失敗
 </span><span class="kp">[ KP ] ラウンド : 4 → 5
 
@@ -763,7 +763,7 @@ custom:
 </span><span class="kono">河野 : CCB<=12*4 【DEX × 4】 (1D100<=60) ＞ 6 ＞ スペシャル
 </span><span class="kono">[ 河野 ] マス : 1 → 2
 </span><span class="chifuyu">[ 染谷千冬 ] マス : 1 → 2
-</span><span class="chifuyu">染谷千冬 : CCB<=9*2 【DEX × 2】河野に連れられながら、千秋にも手を伸ばします (1D100<=18) ＞ 99 ＞ 致命的失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*2 【DEX × 2】河野に連れられながら、千秋にも手を伸ばします (1D100<=18) ＞ 99 ＞ 致命的失敗
 
 </span><span class="kp">あなたは傷だらけの身体で千秋に手を伸ばしますが、腕に力が入らず既のところで掴みそこねてしまいます。
 あなたに手を伸ばした千秋が、その拍子に転びます。このままでは、車の外にいるティンダロスの猟犬は千秋を食い殺してしまう可能性が高いでしょう。
@@ -812,7 +812,7 @@ SAN値を1d3引いてください。
 </span><span class="mitsukawa">三津川 : 2d6 (2D6) ＞ 11[5,6] ＞ 11
 
 </span><span class="kp">10+1d110 【1ラウンドの秒数】 (10+1D110) ＞ 10+40[40] ＞ 50
-</span><span class="kp">あなたの身体は11*50秒……、約10分かけて、HPを7回復します。
+</span><span class="kp">あなたの身体は11\*50秒……、約10分かけて、HPを7回復します。
 千秋はMPを11、SANを1引いてください。
 
 </span><span class="chiaki2">[ 染谷千秋 ] MP : 16 → 5
@@ -904,9 +904,9 @@ SAN値を1d3引いてください。
 </span><span class="chifuyu">染谷千冬 : 「治ったから痛くない。千秋、この人たちは悪くない。……たぶん」
 </span><span class="chiaki">染谷千秋（現在） : 千冬を自分の方に引き寄せながら、警戒するように同乗者達を観察します。
 
-</span><span class="kp">千秋（現在）はINT*1を振ってください。
+</span><span class="kp">千秋（現在）はINT\*1を振ってください。
 
-</span><span class="chiaki">染谷千秋（現在） : CCB<=17*1 【INT × 1】 (1D100<=17) ＞ 23 ＞ 失敗
+</span><span class="chiaki">染谷千秋（現在） : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 23 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 「三津川さん、この後どうしたらいい」話を切って三津川さんに聞きます。
 </span><span class="mitsukawa">三津川 : 「そうね、葵君が言ってた『原因を潰す』よう動くのがいいのかしら。……皆、あっち見て」
 
@@ -978,9 +978,9 @@ PCたちの車は1Rに3まで速度を上げることができる。速度を3�
 </span><span class="kp">[ KP ] 相対速度差分 : 2 → 1
 </span><span class="ryoken">ティンダロスの猟犬 : ccb<=12*5 【DEX*5】 (1D100<=60) ＞ 94 ＞ 失敗
 
-</span><span class="kp">千秋はINT*1を振ってください。
+</span><span class="kp">千秋はINT\*1を振ってください。
 
-</span><span class="chiaki">染谷千秋（現在） : CCB<=17*1 【INT × 1】 (1D100<=17) ＞ 63 ＞ 失敗
+</span><span class="chiaki">染谷千秋（現在） : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 63 ＞ 失敗
 </span><span class="kp">[ KP ] ラウンド : 1 → 2
 </span><span class="car">車 : ccb<=30 【運転+10%】 (1D100<=30) ＞ 5 ＞ 決定的成功/スペシャル
 
@@ -1106,7 +1106,9 @@ PCたちの車は1Rに3まで速度を上げることができる。速度を3�
 クトゥルフ神話TRPG
 「またたくシティライト」
 END4「瞬く一夜」
-----------------------------
+
+---
+
 これにてシナリオクリアです！お疲れ様でした！
 
 ◆ 生還報酬

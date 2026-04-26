@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2022.03.12"
-  timelineCast: "千秋 (16歳・高校生) 千冬 (18歳・専門学校)"
+  timelineCast: "千秋18歳（専門1年） 千冬19歳（専門2年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "探索者に猫耳生えるだけ"
@@ -87,9 +87,9 @@ custom:
 ですが何故だか「匂いを上書きしなければ」という欲求はとどまることを知りません。
 このままでは無限にスリスリしてしまうことでしょう。
 
-──欲求に勝てるかどうか、POW*5をお願いします。
+──欲求に勝てるかどうか、POW\*5をお願いします。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 39 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 39 ＞ 成功
 
 </span><span class="kp">欲求に勝てました。自由に行動することができます。
 どうしますか？
@@ -156,9 +156,9 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「よくないだろ。……公園に行ってた。多分、それに関係してる」
 
 </span><span class="kp">そうして千秋の話を聞こうとしますが、彼を見ていると何故だか「匂いを上書きしなければ」と思います。それは先程ベッドで感じたものと同じものです。
-POW*5で欲求に勝てるかどうぞ！
+POW\*5で欲求に勝てるかどうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 95 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 95 ＞ 失敗
 
 </span><span class="kp">「匂いを上書きしなければ」という考えであなたの頭はいっぱいになります。
 
@@ -166,9 +166,9 @@ POW*5で欲求に勝てるかどうぞ！
 </span><span class="chiaki">染谷千秋 : 「んー、……どうした？」千冬を抱きしめて頭を撫でます。
 </span><span class="chifuyu">染谷千冬 : 「……なんか、変だ……」
 
-</span><span class="kp">あなたは匂いを上書きすることで頭がいっぱいです。続けてPOW*5で欲求に勝てるかお願いします。
+</span><span class="kp">あなたは匂いを上書きすることで頭がいっぱいです。続けてPOW\*5で欲求に勝てるかお願いします。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 57 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 57 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「ん……、それの影響かな」千冬が落ち着くまで待つつもりで色んなところに触ります。
 
 </span><span class="kp">欲求に勝てませんでした。まだ頭がいっぱいです。
@@ -177,10 +177,10 @@ POW*5で欲求に勝てるかどうぞ！
 </span><span class="chiaki">染谷千秋 : 扉を閉めて玄関口に座ります。
 </span><span class="chiaki">染谷千秋 : 「……これどんな感じするの？」千冬の様子みつつしっぽに触れます。
 
-</span><span class="kp">POW*5に成功するまで続きます。がんばってください。
+</span><span class="kp">POW\*5に成功するまで続きます。がんばってください。
 
 </span><span class="chifuyu">染谷千冬 : 「こそばゆい」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「へぇ……」まだしっぽに触ってます。
 </span><span class="chifuyu">染谷千冬 : 「……落ち着いてきた。もういい」
 
@@ -189,9 +189,9 @@ POW*5で欲求に勝てるかどうぞ！
 </span><span class="chifuyu">染谷千冬 : CCB<=55 【知識】 (1D100<=55) ＞ 63 ＞ 失敗
 
 </span><span class="kp">そうしてあなたはひとしきり千秋にスリスリして落ち着……いたように思いましたが、なにやら千秋からとてつもなくいい匂いがします。何故でしょうか。
-POW*5を振ってください。
+POW\*5を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 60 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 60 ＞ 失敗
 
 </span><span class="kp">千秋に無性に甘えたくなります。
 
@@ -264,9 +264,9 @@ POW*5を振ってください。
 
 </span><span class="chiaki">染谷千秋 : 「おい」止めます。
 
-</span><span class="kp">DEX*5に成功したら止まります。
+</span><span class="kp">DEX\*5に成功したら止まります。
 
-</span><span class="chiaki">染谷千秋 : CCB<=65 【DEX * 5】 (1D100<=65) ＞ 49 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=65 【DEX \* 5】 (1D100<=65) ＞ 49 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「……！」
 
 </span><span class="kp">千秋が少女を止めると、少女はあなたを睨みつけます。

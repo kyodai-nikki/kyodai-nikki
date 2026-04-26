@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2022.01.22"
-  timelineCast: "千秋 (15歳・高校生) 千冬 (18歳・専門学校)"
+  timelineCast: "千秋18歳（高校3年） 千冬19歳（専門1年）"
   cast: ["染谷千冬"]
 scenario:
   title: "奇想翻弄"

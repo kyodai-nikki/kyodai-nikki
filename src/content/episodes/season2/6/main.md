@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.08.01"
-  timelineCast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)"
+  timelineCast: "千秋19歳（通信大学2年） 千冬20歳（建築士1年）"
   cast: ["染谷千秋"]
 scenario:
   title: "貴方の顔も知らない"
@@ -182,7 +182,7 @@ custom:
 </span><span class="purple">千秋？ : CCB<=75 【キック】 (1D100<=75) ＞ 25 ＞ 成功
 </span><span class="chiaki">染谷千秋 : CCB<=83 【回避】 (1D100<=83) ＞ 93 ＞ 失敗
 </span><span class="purple">千秋？ : 2d6+0 【ダメージ判定】 (2D6+0) ＞ 7[5,2]+0 ＞ 7
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 71 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 71 ＞ 失敗
 </span><span class="chiaki">[ 染谷千秋 ] HP : 12 → 5
 </span><span class="chiaki">染谷千秋 : 「ッ……！」
 </span><span class="chiaki">染谷千秋 : 己が強すぎる
@@ -259,7 +259,7 @@ End【貴方の顔も知らない】
 </span><span class="chifuyu">染谷千冬 : EDU12→15
 </span><span class="chifuyu">染谷千冬 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 41 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : ccb<=(18-10)*5 【STR成長】 (1D100<=40) ＞ 21 ＞ 成功
-</span><span class="chiaki">染谷千秋 : ccb<=(18-10)*5 【CON成長】 (1D100<=40) ＞ 68 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : ccb<=(18-10)\*5 【CON成長】 (1D100<=40) ＞ 68 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 1d3+1 【EDU成長判定（高校卒業時+転学）】 (1D3+1) ＞ 1[1]+1 ＞ 2
 </span><span class="chiaki">染谷千秋 : 1d6+1d4 【ダメージ判定】 (1D6+1D4) ＞ 1[1]+1[1] ＞ 2
 </span><span class="chiaki">染谷千秋 : 2d6+1d4 【ダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 3[2,1]+4[4] ＞ 7

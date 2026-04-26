@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: true
   storyDate: "2024.08.10"
-  timelineCast: "千秋 (20歳・通信大学3年) 千冬 (21歳・建築士2年)"
+  timelineCast: "千秋20歳（通信大学3年） 千冬21歳（建築士2年）"
   cast: ["染谷千秋"]
 scenario:
   title: "Seven-Night, Monochrome Summer"
@@ -143,11 +143,11 @@ custom:
 </span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 83 ＞ 成功
 
 </span><span class="kp">なぜかそこにあるはずのない、ナタとノコギリを見つける。
-</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 55 ＞ 成功
+</span><span class="kp">sccb<=80 【千秋 POW\*5】 (1D100<=80) ＞ 55 ＞ 成功
 
 </span><span class="chiaki">染谷千秋 : （……凶器？なんでここにあんだ？）二つの凶器を良く見てみます。
 
-</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 19 ＞ 成功
+</span><span class="kp">sccb<=80 【千秋 POW\*5】 (1D100<=80) ＞ 19 ＞ 成功
 </span><span class="kp">使用された形跡はない。刃先も鋭く、よく切れそうだ。
 
 </span><span class="chiaki">染谷千秋 : （どっちも新品だ。何か切る時はこれを使おう。……にしても、ナタとノコギリか。こんな状況だと、死体を切り分けろって意味に聞こえるな）
@@ -158,7 +158,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 13 ＞ スペシャル
 
 </span><span class="kp">何も置いていないが、シンク下の収納スペースを確認すると、フライパンと鍋、箸など一通り調理器具が置いてある。ふたつある包丁入れのうち、ひとつだけにしか包丁は収まっていない。ガス、水道は通っている様子だ。
-</span><span class="kp">sccb<=80 【千秋 POW*5】 (1D100<=80) ＞ 57 ＞ 成功
+</span><span class="kp">sccb<=80 【千秋 POW\*5】 (1D100<=80) ＞ 57 ＞ 成功
 
 </span><span class="chiaki">染谷千秋 : （包丁の出処はここだな。ガスも水道も通ってる）
 </span><span class="chiaki">染谷千秋 : 冷蔵庫を調べます！
@@ -270,9 +270,9 @@ custom:
 
 </span><span class="chiaki">染谷千秋 : はい
 
-</span><span class="kp">STR*5どうぞ！
+</span><span class="kp">STR\*5どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 69 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【STR × 5】 (1D100<=55) ＞ 69 ＞ 失敗
 
 </span><span class="kp">下の階に降りようとして、手すりを掴みながら身をベランダの外側に出す。そして足を外して降りようとした時――汗で手が滑ったのか、それとも何かに引っ張られたのか――あなたの体は空に投げ出され、そして地面に叩きつけられた。
 ごぱんという何かが爆ぜる音が聞こえ、意識が一瞬途切れる。
@@ -385,9 +385,9 @@ custom:
 </span><span class="chiaki">染谷千秋 : （……。特別気になる場所はないな。脱出への手がかりは見つからなかった。……気になるのは時計ぐらいだけど、一回分解したら戻せそうにない。……長時間閉じ込められる可能性もある。時間感覚が分かるものは残しておきたい）
 </span><span class="chiaki">染谷千秋 : （……この部屋に閉じ込められてるな。部屋から出ようとすると悪寒がする。外に繋がる道で確認してないのは下の階ぐらいか。……望みは薄いけど、何度か挑戦してみるか）ベランダから下の階に飛び降ります。
 
-</span><span class="kp">STR*5どうぞ！
+</span><span class="kp">STR\*5どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 56 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【STR × 5】 (1D100<=55) ＞ 56 ＞ 失敗
 
 </span><span class="kp">掴みづらい手すりに舌打ちをする。なんとかぶら下がって、飛び移ろうとした瞬間に、再び手が滑る。片手で手すりを掴み直すが、急には自身の重さを支えきれず、あなたの体は中に浮いた。
 
@@ -401,9 +401,9 @@ SANC 1/1d3
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 46 → 43
 </span><span class="chiaki">染谷千秋 : 舌打ちしてもう一度ベランダに出ます。もう一回！
 
-</span><span class="kp">STR*5どうぞ！
+</span><span class="kp">STR\*5どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 18 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【STR × 5】 (1D100<=55) ＞ 18 ＞ 成功
 
 </span><span class="kp">跳躍どうぞ！
 
@@ -557,7 +557,7 @@ SANC 1/1d3
 </span><span class="kp">再び時計を見ると12時になっていた。日時計に記録をする。
 
 </span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】死体の匂いに慣れてない/もう慣れた (1D100<=75) ＞ 58 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】死体の匂い耐えれるか (1D100<=80) ＞ 79 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】死体の匂い耐えれるか (1D100<=80) ＞ 79 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 15度間隔で日時計に目安線を引いておきます。
 （また1時間後に記録しよう）
 </span><span class="chiaki">染谷千秋 : 部屋に戻り、死体がいる方の部屋の窓を開けます。
@@ -636,7 +636,7 @@ SAN回復1d2どうぞ。
 </span><span class="kp">――千冬の、声がする。
 
 </span><span class="chifuyu">染谷千冬 : 「起きろ」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】勢いない/ある (1D100<=80) ＞ 51 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】勢いない/ある (1D100<=80) ＞ 51 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 身体を起こして声のする方向を見ます。
 
 </span><span class="kp">起き上がって声の方向を見ようとすると、べちゃりと手の下から音がした。それを認識した途端、麻痺していた五感が戻っていく。
@@ -716,9 +716,9 @@ HP全回復。
 </span><span class="chiaki">染谷千秋 : （……けど、得体のしれないもん食いたくねーしな）
 水を大量に飲みます。その後ベランダから下階へ飛び降りチャレンジします。
 
-</span><span class="kp">STR*5どうぞ！
+</span><span class="kp">STR\*5どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=11*5 【STR × 5】 (1D100<=55) ＞ 59 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=11\*5 【STR × 5】 (1D100<=55) ＞ 59 ＞ 失敗
 
 </span><span class="kp">頭痛や吐き気、体の震えこそないが、ろくに食べておらず、力が入らない。自身の体重を支えることすら難しく、あなたは地に落ちた。
 気付くと、元の部屋に戻っていた。
@@ -737,9 +737,9 @@ SAN-1
 
 </span><span class="chiaki">染谷千秋 : 時計を戻します。
 
-</span><span class="kp">DEX*5どうぞ。
+</span><span class="kp">DEX\*5どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功
 
 </span><span class="kp">メモに残した甲斐あって、元に戻すことができた。
 
@@ -763,7 +763,7 @@ SAN-1
 
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢餓感を感じない/感じる (1D100<=80) ＞ 96 ＞ 致命的失敗
 </span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】飢えを耐えれる体力がある/ない (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】飢えを耐えれる/耐えれない (1D100<=80) ＞ 7 ＞ スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】飢えを耐えれる/耐えれない (1D100<=80) ＞ 7 ＞ スペシャル
 </span><span class="chiaki">染谷千秋 : 知らず知らずのうちに手を握りしめます。唾を飲み込み、千冬と名乗るそいつに視線をやります。今は何をしていますか？
 
 </span><span class="kp">千冬を見ると、崩れかけた顔ながらも、戸惑いながらこちらを見つめているのだろうと分かる。
@@ -930,7 +930,7 @@ SAN0/1
 腹を見ると、赤いくだが臍の横から布団に伸びている。くだは部屋を回れる程度には長い。触るとちいさく脈打っている。
 
 </span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】正気を保てる/保てない (1D100<=80) ＞ 100 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】正気を保てる/保てない (1D100<=80) ＞ 100 ＞ 致命的失敗
 </span><span class="chiaki">染谷千秋 : 寝転がったまま、目に映る光景をぼんやりと眺めます。
 </span><span class="chiaki">染谷千秋 : 「……」
 そのまま暖かな気持ちで繋がったへその緒の方へ視線をやります。へその緒にそっと触れてみます。
@@ -990,7 +990,7 @@ SAN0/1
 
 </span><span class="kp">壁を見ると、クーラーに絡んだ蔦に、拳大の胎児と丸々太った蛹が実っていた。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】現在体力まだ舞える/舞えない (1D100<=50) ＞ 72 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】現在体力まだ舞える/舞えない (1D100<=50) ＞ 72 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「あれ、何……」
 すぐに目を伏せて千冬に尋ねます。
 </span><span class="chifuyu">染谷千冬 : 「たべものだ」
@@ -1065,7 +1065,7 @@ SAN0/1
 </span><span class="kp">黒い水の中に半分浸って寝ていたようだ。腹から伸びたくだはまだそこにある。
 酷く衰弱しており、妙にねむい。気を抜くと意識を失ってしまいそうになる。昨日まであんなに幸せでおいしそうだった千冬は、今はただの腐った肉にしか見えない。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 4】正気を保てる/保てない (1D100<=64) ＞ 38 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*4 【POW × 4】正気を保てる/保てない (1D100<=64) ＞ 38 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「う゛、っ……」
 力が入らず身体を起こすことが出来ません。腐海に漂う異物を視界に収めながら、限りある力を使ってへその緒を掴みます。そのまま千切ろうとします。
 
@@ -1087,7 +1087,7 @@ SAN0/1
 </span><span class="kp">部屋にボトボトと胃液を垂らす。限界まで吐き出し胃を空にする。
 引きちぎれたくだを押さえて流れようとする血をせき止める。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span class="chiaki">染谷千秋 : 壁を支えにして身体を起こします。ベランダの窓を開けて水を外にだします。
 
 </span><span class="kp">戸を開けて部屋の排水をする。外は雨が降っている。
@@ -1105,7 +1105,7 @@ SAN0/1
 SANC 0/1
 
 </span><span class="chiaki">染谷千秋 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 18 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 96 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 96 ＞ 致命的失敗
 </span><span class="chiaki">染谷千秋 : 脱出の手がかりを探そうとしますが、身体から力が抜けてその場にずるずると座り込みます。
 </span><span class="chiaki">染谷千秋 : 「……っは、……」
 何度か起き上がろうとしますが力が入らず、苛立たしい気持ちから床を力なく叩きます。
@@ -1314,7 +1314,7 @@ SANC 0/1
 </span><span class="chifuyu">染谷千冬 : 「方法は他にもある。俺たちを繋いだからといって、解決にはならない。根本をどうにかできるなら、試したい……」
 </span><span class="chifuyu">染谷千冬 : 「……じゃあ、確認だ。俺も千秋も家にいる時は、俺と千秋が繋がっている。俺が仕事に行く時、千秋をベッドに繋ぐ。鍵は俺が持つ。俺が仕事から帰ってきたら、俺と千秋を繋ぐ。買い物は週末に二人で行くようにしよう。それか、俺が買って帰る。それで来週に病院を予約して、二人で行こう。……いいか？」
 </span><span class="chiaki">染谷千秋 : 1d100<=40 【SAN値チェック】千冬に言われたことを飲み込めるか (1D100<=40) ＞ 7 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】それでいい/悪い (1D100<=80) ＞ 89 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】それでいい/悪い (1D100<=80) ＞ 89 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「……ちょっとタンマ。繋ぐって、ずっと？てっきり、俺が寝てる時だけだと思ってたんだけど」
 </span><span class="chifuyu">染谷千冬 : 「ああ。俺がいない時が心配だろう」
 </span><span class="chiaki">染谷千秋 : 「……」

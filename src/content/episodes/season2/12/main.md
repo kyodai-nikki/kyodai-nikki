@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2024.03.17"
-  timelineCast: "千秋 (20歳・通信大学2年) 千冬 (21歳・建築士1年)"
+  timelineCast: "千秋20歳（通信大学2年） 千冬21歳（建築士1年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "命泥棒"
@@ -751,7 +751,8 @@ SANC1/1d3どうぞ。
 クトゥルフ神話TRPG
 「命泥棒」
 END1 「復讐は成された」
----------
+
+---
 
 ◇ 報酬
 復讐を完遂させることができた　2d8

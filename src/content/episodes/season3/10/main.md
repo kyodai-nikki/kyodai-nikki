@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2025.07.05"
-  timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
+  timelineCast: "千秋21歳（通信大学4年） 千冬22歳（建築士3年）"
   cast: ["染谷千秋", "染谷千冬", "？？"]
 scenario:
   title: "ナイトアクアリウムの怪"
@@ -324,7 +324,7 @@ custom:
 </span><span class="aki">深山彰人 : ccb 好感度 高いほうが高い (1D100) ＞ 49
 </span><span class="aki">深山彰人 : 「……う。まあ、ありがとう……」
 指を絡め返します。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 44 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 44 ＞ 成功
 </span><span class="chiaki">染谷千秋 : （…………？）
 何故指を絡め返されたか理解できませんが適当に返事を返します。
 「お～」
@@ -420,7 +420,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「触んなくていいの？」
 千冬に向かって言います。
 </span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】まず脱出/聞く (1D100<=80) ＞ 36 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】まず脱出/聞く (1D100<=80) ＞ 36 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「ん、わかった」
 プレートを見ます。
 
@@ -459,7 +459,7 @@ custom:
 「俺も行く」
 </span><span class="chiaki">染谷千秋 : 「さっきの手記見たろ？化物いるかもしんねーし、先に見るのは一人の方がいいと思うぜ。慣れてるし俺が見る。見たらすぐ戻るから千冬はここにいてよ」
 </span><span class="chifuyu">染谷千冬 : 「ここに留まっても仕方ない。慣れとかじゃない。行くしかないなら、一緒に行ったほうが安心だ」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 58 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 58 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「一瞬見るだけだって。中の様子先に分かった方がいいだろ。すぐ戻るよ」
 </span><span class="chifuyu">染谷千冬 : 「……」
 </span><span class="chifuyu">染谷千冬 : 「手を繋いでくれ」
@@ -564,7 +564,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「慣れてる」
 </span><span class="chiaki">染谷千秋 : 「実際に見たわけじゃない」
 </span><span class="chifuyu">染谷千冬 : 「違う」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】のむ/ヤ！ (1D100<=80) ＞ 50 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】のむ/ヤ！ (1D100<=80) ＞ 50 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……言い合ってもしかたねーな。わかった。後ろからついてこいよ」
 音の出処を探します。
 

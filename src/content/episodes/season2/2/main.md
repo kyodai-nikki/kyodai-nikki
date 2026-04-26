@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.03.04"
-  timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"
+  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "世界の終わりを君と見たい"
@@ -216,7 +216,7 @@ custom:
 
 </span><span class="kp">あなた達は手をつないでお化け屋敷へと向かった。
 洋館モチーフのお化け屋敷だ。入口では二体のゾンビが待ち構えている。やけに精巧な作りをしており、思わずゾッとしてしまうだろう。
-</span><span class="kp">POW*4を振ってください！
+</span><span class="kp">POW\*4を振ってください！
 
 </span><span class="chiaki">染谷千秋 : CCB<=16*4 【POW × 4】 (1D100<=64) ＞ 9 ＞ スペシャル
 </span><span class="chifuyu">染谷千冬 : CCB<=11*4 【POW × 4】 (1D100<=44) ＞ 16 ＞ 成功
@@ -242,7 +242,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「……」手を引っ張られて行きます。
 
 </span><span class="kp">パンフレットによると、人気№1のアトラクションのようだ。全体的に緩やかなコースとなっているが、一か所だけほぼ直角の角度で落差が作られている。
-</span><span class="kp">POW*5をどうぞ！
+</span><span class="kp">POW\*5をどうぞ！
 
 </span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 67 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 43 ＞ 成功
@@ -266,7 +266,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「俺もジェットコースターを楽しみたい。次はわかる」
 </span><span class="chiaki">染谷千秋 : 「ふ、……そーかよ」
 
-</span><span class="kp">POW*5をどうぞ！
+</span><span class="kp">POW\*5をどうぞ！
 
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 12 ＞ スペシャル
 </span><span class="chifuyu">染谷千冬 : 走行中、千秋の顔を見ます。
@@ -284,7 +284,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「へぇ、いいのかよ？」
 </span><span class="chifuyu">染谷千冬 : 「次は……できる。克服してやる」
 
-</span><span class="kp">あなた達はまたジェットコースターに乗り込みます。POW*5をどうぞ！
+</span><span class="kp">あなた達はまたジェットコースターに乗り込みます。POW\*5をどうぞ！
 
 </span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 42 ＞ 成功
@@ -370,7 +370,7 @@ custom:
 </span><span class="kp">あなた達は連れたって鏡迷宮へとやってくる。
 そこには鏡で出来た壁が迷路を作っていた。
 あちこちに行き止まりがあり、簡単に出口へ向かうことは出来なさそうだ。
-</span><span class="kp">INT*5を振ってください。
+</span><span class="kp">INT\*5を振ってください。
 
 </span><span class="chiaki">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 27 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : CCB<=16*5 【INT × 5】 (1D100<=80) ＞ 90 ＞ 失敗
@@ -433,7 +433,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「ああ」引っ張られて行きます。
 
 </span><span class="kp">あなた達は続けてダンシングレボリューションの前にやってきたお馴染みのゲームだ。あなたたちの知っている曲が多数収録されている。
-ダンスorDEX*5を振ってください。
+ダンスorDEX\*5を振ってください。
 
 </span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 76 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 57 ＞ 失敗
@@ -607,7 +607,8 @@ custom:
 初めて見たヤツだった。植物だったから燃やしたらどうにかなった。
 今日も見つからなかった。
 
--------
+---
+
 </span><span class="kp">【千秋の日記②】
 〇月×日
 あの日、側にいるべきだったんだ。
@@ -640,7 +641,8 @@ custom:
 
 （しばらく謝罪や自責の念を綴った日記が続く。）
 
--------
+---
+
 </span><span class="kp">【千秋の日記③】
 ×月×日（80年後の日付）
 デパートから出たら80年経ってた。
@@ -658,7 +660,8 @@ custom:
 死のうと思っても、身体が動かない。
 なんで
 
--------
+---
+
 </span><span class="kp">【千秋の日記④】
 〇月〇日
 並行世界に飛ばされた。思い出した。あの千冬がいる世界みたいだった。
@@ -669,7 +672,8 @@ custom:
 
 （しばらくこれまでと変わりない内容の日記が続く）
 
--------
+---
+
 </span><span class="kp">【千秋の日記⑤】
 △月〇日
 今度は意識だけが別世界に飛ばされた。
@@ -685,7 +689,8 @@ custom:
 
 千冬と話がしたい。
 
--------
+---
+
 </span><span class="kp">【千秋の日記⑥】
 △月×日
 何度も試したのに、どうやっても自殺できない。
@@ -705,7 +710,8 @@ custom:
 
 千冬にあいたい
 
--------
+---
+
 </span><span class="kp">【千秋の日記⑦】
 ×月×日
 死んだ。やっと死ねた。

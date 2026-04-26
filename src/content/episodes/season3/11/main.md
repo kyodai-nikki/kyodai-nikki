@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2025.09.01"
-  timelineCast: "千秋 (21歳・通信大学4年) 千冬 (22歳・建築士3年)"
+  timelineCast: "千秋21歳（通信大学4年） 千冬22歳（建築士3年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "ラストオーダーはキミがいい"
@@ -66,7 +66,7 @@ custom:
 </span><span class="kp">三須歌地域にあるホテルブロンクス三須歌は全６０階建ての超高層ホテルだ。
 あなたは23時半頃にホテル前に到着し、千秋が出てくるのを待つだろう。だが、0時を越えても千秋が出てくる気配はない。
 
-</span><span class="chiaki">染谷千秋 : sCCB<=11*5 【CON × 5】酔い判定 ギリ連絡できる程度/沈没 (1D100<=55) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : sCCB<=11\*5 【CON × 5】酔い判定 ギリ連絡できる程度/沈没 (1D100<=55) ＞ 3 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">しばらく待つと、千秋からメッセージが送られてくる。
 「今どこ」
@@ -200,7 +200,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「……すみません。……千秋、掴めるか」
 手をもう一度広げます。
 </span><span class="chiaki">染谷千秋 : 「んん……」
-</span><span class="chiaki">染谷千秋 : CCB<=16*1 【POW × 1】理性 (1D100<=16) ＞ 23 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*1 【POW × 1】理性 (1D100<=16) ＞ 23 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「……ちふゆ」
 広げた千冬を引き寄せて口付けようとします。
 </span><span class="chifuyu">染谷千冬 : （……だめだな）
@@ -244,7 +244,7 @@ custom:
 </span><span class="kp">男はイライラした様子で舌打ちをする。
 
 </span><span class="chiaki">染谷千秋 : choice 千冬に鳴らされたのだと思う 自分に鳴らされたのだと思う (choice 千冬に鳴らされたのだと思う 自分に鳴らされたのだと思う) ＞ 自分に鳴らされたのだと思う
-</span><span class="chiaki">染谷千秋 : CCB<=16*1 【POW × 1】身体の自由がきく きかない (1D100<=16) ＞ 58 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*1 【POW × 1】身体の自由がきく きかない (1D100<=16) ＞ 58 ＞ 失敗
 
 </span><span class="kp">千秋はぼんやりしている様子だったが、落ちた鍵を拾うために地に足をつこうとする。あなたは重量を感じることだろう。
 
@@ -256,7 +256,7 @@ custom:
 </span><span class="kp">あなたはルームキーを拾うためにしゃがんだ。ルームキーを見ると「5025」「5205」と書かれている。
 「5205 号室」のルームキーを眼鏡の男に差し出すと、男は舌打ちをしてルームキーを受け取り、５２階で降りていく。
 
-</span><span class="chiaki">染谷千秋 : CCB<=17*2 【INT × 2】おぼえてるかな～ (1D100<=34) ＞ 12 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=17\*2 【INT × 2】おぼえてるかな～ (1D100<=34) ＞ 12 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……」舌打ちし返します。
 
 </span><span class="kp">そのとき、去っていく眼鏡の男の、首元にあるソレが目に入る。
@@ -271,7 +271,7 @@ custom:
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 59 → 57
 </span><span class="chifuyu">染谷千冬 : 「千秋」
 手を広げます。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】少しだけ頭冷える むり (1D100<=80) ＞ 54 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】少しだけ頭冷える むり (1D100<=80) ＞ 54 ＞ 成功
 </span><span class="chiaki">[ 染谷千秋 ] 能力補正 : 60 → 50
 </span><span class="chiaki">染谷千秋 : 「……ちふゆ。いまのみたか」
 話かけながら千冬の腕に捕まります。
@@ -283,7 +283,7 @@ custom:
 </span><span class="kp">千秋はあなたからルームキーを取ると、それを使って開けようとする。しかし、最初ルームキーを差し込むとビッと警告音が鳴った。
 酔った千秋がルームキーの差し込む方向を間違えて突っ込んでいるのがわかるだろう。確かに差し込む方向の矢印は描かれているが、上下が分かりづらいデザインとなっているため、差し込む方向を間違えるのも無理はない。
 
-</span><span class="chiaki">染谷千秋 : CCB<=17*2 【INT × 2】気付く 気付かない (1D100<=34) ＞ 48 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=17\*2 【INT × 2】気付く 気付かない (1D100<=34) ＞ 48 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「……？」
 </span><span class="chifuyu">染谷千冬 : 「……大人しくしていろ」
 千秋の手からルームキーを取り、正しく差し込みます。
@@ -320,7 +320,7 @@ custom:
 
 </span><span class="kp">……ハ、と息を吸い込んだ瞬間、ふと意識が戻ってくる。心臓の鼓動が速い。背中にじんわりと汗をかいており、若干の気持ち悪さを感じる。
 
-</span><span class="chiaki">染谷千秋 : CCB<=11*2 【CON × 2】 (1D100<=22) ＞ 81 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=11\*2 【CON × 2】 (1D100<=22) ＞ 81 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「……悪い、吐く……」
 
 </span><span class="kp">そう言いながら千秋は起き上がり、部屋にあるユニットバス式のトイレにふらふらと歩いていく。
@@ -351,9 +351,9 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「……」
 </span><span class="chiaki">染谷千秋 : 「なんにせよ、千冬がきてくれてたすかった。……さんきゅ」
 
-</span><span class="kp">千秋はPOW*5に補正値を追加した値を振ってください。
+</span><span class="kp">千秋はPOW\*5に補正値を追加した値を振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5+25 【POW × 5+25】C：気付かない　S：痛くないが違和感　Fa：痛い　Fu：激痛 (1D100<=105) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5+25 【POW × 5+25】C：気付かない　S：痛くないが違和感　Fa：痛い　Fu：激痛 (1D100<=105) ＞ 1 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">ファーw
 千冬は聞き耳を振ってください。
@@ -397,7 +397,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「……千冬、外の様子見よう」舌打ちして身体を起こします。
 </span><span class="chifuyu">染谷千冬 : 「……ああ」
 千秋の前に立ち、扉を開きます。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】むっ/ヤ！ (1D100<=80) ＞ 29 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】むっ/ヤ！ (1D100<=80) ＞ 29 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……千冬」
 前に出る千冬を止めながら一緒に出ます。
 
@@ -464,7 +464,7 @@ custom:
 
 </span><span class="kp">男のショックロールです。
 
-</span><span class="">元メガネの男 : ccb<=10*5 【ショックロール】 (1D100<=50) ＞ 52 ＞ 失敗
+</span><span class="">元メガネの男 : ccb<=10\*5 【ショックロール】 (1D100<=50) ＞ 52 ＞ 失敗
 
 </span><span class="kp">男は気絶しました。
 
@@ -491,7 +491,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 「……そのあとちゃんと動けただろ」
 目を背けます。
 </span><span class="chifuyu">染谷千冬 : 「無理しようとしてるわけじゃない。自分の身を弁えろ」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】言うとおりだ/むっ (1D100<=80) ＞ 70 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】言うとおりだ/むっ (1D100<=80) ＞ 70 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「……千冬の言う通りだな。悪かった」
 </span><span class="chifuyu">染谷千冬 : 「わかったならいい。……像だが、男が電話で――」
 
@@ -791,7 +791,7 @@ custom:
 「千秋、背中を貸してくれ」
 </span><span class="chiaki">染谷千秋 : シャツを脱いで上半身裸になり、千冬に背中を差し出します。
 「夢だって分かってても、千冬が傷つくのは気分悪いな」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 17 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 17 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「そうか」
 背中の目の中心に血を垂らします。
 </span><span class="chifuyu">染谷千冬 : （……これでいいのか）
@@ -896,7 +896,7 @@ custom:
 
 </span><span class="chiaki">染谷千秋 : 「気引いた方がよさそうだな？」
 </span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 30 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 30 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「……頼む」
 </span><span class="chiaki">染谷千秋 : 蠢いてる千冬の頭を撫で、水へ飛び込みます。
 「ああ」
@@ -906,14 +906,14 @@ custom:
 </span><span class="chiaki">[ 染谷千秋 ] 能力補正 : 15 → 0
 
 </span><span class="kp">また、千秋は不完全な従者のため水中で長く息も続きません。
-5階ごとに水泳技能+15（従者としての追加技能）を振り、それ以上潜る場合はCON*10を振ってください。9→8→と減らしてください。
+5階ごとに水泳技能+15（従者としての追加技能）を振り、それ以上潜る場合はCON\*10を振ってください。9→8→と減らしてください。
 
 </span><span class="chiaki">染谷千秋 : 「じゃあ、千冬。あとでな」
 潜る！
 </span><span class="chiaki">染谷千秋 : ccb<=25+15 【水泳+15】 (1D100<=40) ＞ 82 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 一緒に潜ります。
 
-</span><span class="kp">千秋はすぐにでも息が続かなくなるでしょう。CON*10振ってください。
+</span><span class="kp">千秋はすぐにでも息が続かなくなるでしょう。CON\*10振ってください。
 
 </span><span class="chiaki">染谷千秋 : CCB<=11*10 【CON × 10】 (1D100<=110) ＞ 34 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : CCB<=95 【水泳】 (1D100<=95) ＞ 22 ＞ 成功
@@ -929,7 +929,7 @@ custom:
 
 </span><span class="chiaki">染谷千秋 : ccb<=25+15 【水泳+15】 (1D100<=40) ＞ 88 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : CCB<=95 【水泳】 (1D100<=95) ＞ 25 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=11*8 【CON × 8】 (1D100<=88) ＞ 25 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=11\*8 【CON × 8】 (1D100<=88) ＞ 25 ＞ 成功
 
 </span><span class="kp">千秋はやはり水流に流される。
 千冬は9階まで辿り着く。水底が近くなるにつれて、辺りを漂う家具が多くなっていく。椅子や机、食器の類が不安定にゆらゆらと揺らめきあなたの行方を阻むだろう。水泳-20を2回どうぞ。
@@ -1018,9 +1018,9 @@ custom:
 </span><span class="">ユグ : schoice 噛みつき 絡みつき (choice 噛みつき 絡みつき) ＞ 絡みつき
 </span><span class="">ユグ : sccb<=50 【絡みつき】 (1D100<=50) ＞ 43 ＞ 成功
 
-</span><span class="kp">ユグはあなたに絡みついてきます。《CON*5》の溺れロールを振ってください。また、今ラウンドで《水泳-20》に成功で脱出に成功します。
+</span><span class="kp">ユグはあなたに絡みついてきます。《CON\*5》の溺れロールを振ってください。また、今ラウンドで《水泳-20》に成功で脱出に成功します。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 78 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 78 ＞ 失敗
 
 </span><span class="kp">あなたは突然の衝撃に息がつまります。溺れダメージ1d6を振ってください。
 
@@ -1029,7 +1029,7 @@ custom:
 
 </span><span class="kp">ショックロールをどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 5 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">あなたは強靭な意志で意識をつなぎとめます。クリティカル報酬として今ラウンドで水泳の補正はなしとします。水泳を振ってください。
 
@@ -1070,7 +1070,7 @@ custom:
 </span><span class="chifuyu">染谷千冬 : 「……ぐ、ごほっ、……はっ、はぁ、……ち、ちあき……」
 千秋の声を聞いて、ゆっくりと目を開きます。視界に千秋が映り、首をそちらに傾げます。
 </span><span class="chifuyu">染谷千冬 : 「……ち、千秋！」腕をついて慌てて身を起こします。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 21 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 21 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「千冬……！よかった、　ッ……、傷ついてるだろ。一旦ここを離れよう」
 千冬の意識が戻り安堵します。その後千冬とケースをかかえ、スカイラウンジまで移動します。
 
@@ -1095,7 +1095,7 @@ custom:
 暗く淀んだ水が溶け出すミルクに染められ、辺りが白に染まる中、ホテルそのものがぐらりと傾いていく。
 傾き吸い込まれていく先は吹き抜けのガラス張りの天井。凄まじい水圧に、吹き抜けの天井が大きな音をたてて割れる。
 急に変わる水の流れに翻弄される身体が、ミルク色の濁流に飲まれていく……。
-</span><span class="kp">CON*5どうぞ。
+</span><span class="kp">CON\*5どうぞ。
 
 </span><span class="chiaki">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 32 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 69 ＞ 失敗
@@ -1229,7 +1229,7 @@ custom:
 
 </span><span class="chifuyu">染谷千冬 : 「違います。……」
 全て言おうとすると千秋が代わりに飲んだことに気づき、申し訳なく思うのではないかと懸念し、黙ります。
-</span><span class="chifuyu">染谷千冬 : CCB<=16*5 【INT × 5】 (1D100<=80) ＞ 53 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 53 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「知らない人からのお酒は、気をつけてください」
 </span><span class="">舞 : 「あは、心配してくれてありがとうございます！舞、気を付けまーす！」
 
@@ -1266,7 +1266,7 @@ custom:
 </span><span class="chiaki">染谷千秋 : 千冬の腰を引き寄せて太腿に手を滑らせます。
 </span><span class="chifuyu">染谷千冬 : 「……」
 少し悩んだあとデコピンし、腕を解いて運転席へ戻ります。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 47 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 47 ＞ 成功
 </span><span class="chiaki">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 83 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : デコピンされた場所を押さえてぼんやりします。
 </span><span class="chifuyu">染谷千冬 : 車を発進させます。

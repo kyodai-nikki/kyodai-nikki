@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.02.04"
-  timelineCast: "千秋 (19歳・専門1年) 千冬 (20歳・専門2年)"
+  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "52Hzの救難信号"
@@ -117,9 +117,9 @@ custom:
 </span><span class="chiaki">[ 染谷千秋 ] SAN : 65 → 63
 </span><span class="chifuyu">[ 染谷千冬 ] SAN : 42 → 41
 
-</span><span class="kp">窒息ロールです。CON*5を振ってください。
+</span><span class="kp">窒息ロールです。CON\*5を振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 46 ＞ 成功
 
 </span><span class="kp">千秋はHPを-1d3してください。

@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2025.11.28"
-  timelineCast: "千秋 (22歳・通信大学4年) 千冬 (22歳・-)"
+  timelineCast: "千秋22歳（通信大学4年） 千冬22歳（-）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "深海より"
@@ -339,7 +339,7 @@ custom:
 </span><span class="kp">(　ﾟдﾟ)
 
 </span><span class="chiaki">染谷千秋 : ;;;( ﾟдﾟ);;;
-</span><span class="chifuyu">染谷千冬 : CCB<=16*5 【INT × 5】 (1D100<=80) ＞ 82 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 82 ＞ 失敗
 </span><span class="kp">[ KP ] 千秋ミス : 0 → 2
 </span><span class="kp">[ KP ] 千冬ミス : 1 → 2
 
@@ -347,12 +347,12 @@ custom:
 </span><span class="kp">――あなたたちの行く先に塀が立ち塞がっているのが見える。どうやら行き止まりのようだ。しかし、怪物たちが追ってきているため、後ろに引き返すことはできない。……このままでは追いつかれてしまう。
 </span><span class="kp">【登攀】または【跳躍】または【STR×5】をどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=12*5 【STR × 5】 (1D100<=60) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=12\*5 【STR × 5】 (1D100<=60) ＞ 3 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">(　ﾟдﾟ)
 
 </span><span class="chiaki">染谷千秋 : 出目どないなっとんねん
-</span><span class="chifuyu">染谷千冬 : CCB<=14*5 【STR × 5】 (1D100<=70) ＞ 30 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=14\*5 【STR × 5】 (1D100<=70) ＞ 30 ＞ 成功
 
 </span><span class="kp">二人は全速力で走る勢いのままに跳び上がった。手が塀の上部を掴む。腕の力で体を持ち上げ、軽い身のこなしで塀の向こう側へ華麗に飛び降りた。
 </span><span class="kp">――塀の向こうで怪物たちが叫んでいる声が聞こえる。魚に近いあの体では、塀を越えることはできないようだった。自分たちの姿を捉えられていない今なら、どこかに身を隠すことができるかもしれない。
@@ -597,7 +597,7 @@ custom:
 </span><span class="kp">では【隠す】または【隠れる】または【回避】または【DEX×5】をどうぞ！
 
 </span><span class="chiaki">染谷千秋 : CCB<=83 【回避】 (1D100<=83) ＞ 55 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 26 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 26 ＞ 成功
 
 </span><span class="kp">耳を澄ませて慎重に動く。怪物たちが居住区で生活をしていることを確認した。あなたたちはなんとか見つからずに移動することができた。
 </span><span class="kp">そして安全を確認した三人は、神殿へと向かうだろう。

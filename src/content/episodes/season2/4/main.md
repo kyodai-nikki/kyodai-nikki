@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.06.11"
-  timelineCast: "千秋 (19歳・通信大学2年) 千冬 (20歳・建築士1年)"
+  timelineCast: "千秋19歳（通信大学2年） 千冬20歳（建築士1年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "ブルー・スターズ・セパレート"
@@ -359,9 +359,9 @@ custom:
 
 </span><span class="chifuyu">染谷千冬 : 「！！」反射的に足をかけます。
 
-</span><span class="kp">STR*5をどうぞ！
+</span><span class="kp">STR\*5をどうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=14*5 【STR × 5】 (1D100<=70) ＞ 35 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=14\*5 【STR × 5】 (1D100<=70) ＞ 35 ＞ 成功
 
 </span><span class="kp">あなたの足に引っかかり、ひったくり犯は盛大に転ぶ。そうしてひったくり犯を確保すると、おばあさんが声をかけてくる。
 どうやらひったくりにあった張本人のようで、大事そうに鞄を抱え直していた。

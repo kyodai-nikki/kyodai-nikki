@@ -6,7 +6,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2026.01.16"
-  timelineCast: "千秋 (22歳・通信大学4年) 千冬 (23歳・-)"
+  timelineCast: "千秋22歳（通信大学4年） 千冬23歳（-）"
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "双離の果実"
@@ -285,7 +285,7 @@ CoCシナリオ『双離の果実』
 ちゅ、と音を立てて口付けます。
 </span><span class="chiaki">染谷千秋 : 「次は飯か。材料は～っと」
 冷蔵庫の中身を確認します。
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 24 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 24 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「いつもと違う」
 自分からも口づけます。千秋の後をついていきます。
 </span><span class="chiaki">染谷千秋 : 「な、柔らけー」
@@ -316,12 +316,12 @@ CoCシナリオ『双離の果実』
 </span><span class="kp">林檎のコンポート作り！
 
 ①林檎ひとつの皮と芯を取り除き、8等分に切る。
-→≪DEX*5≫または＜料理系技能＞
+→≪DEX\*5≫または＜料理系技能＞
 
 ②鍋に切った林檎、砂糖、レモン汁、水を入れ、弱火にかけ、林檎が透き通るくらいまでコトコト煮れば完成。
-→≪DEX*5≫または＜料理系技能＞
+→≪DEX\*5≫または＜料理系技能＞
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 95 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 95 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : おい
 
 </span><span class="kp">まあ待て
@@ -422,14 +422,14 @@ CoCシナリオ『双離の果実』
 </span><span class="kp">そうサマエルが伝えると同時に、映像は『ステップ講座』に切り替わる。
 しっとりしたクラシック音楽が流れる中、探索者たちはステップを覚えてワルツを踊らなければならない。
 </span><span class="kp">■ふたりでワルツを
-①先ずステップを覚えられるかどうか、ふたりとも≪INT*4≫ロール。
+①先ずステップを覚えられるかどうか、ふたりとも≪INT\*4≫ロール。
 その成功の数で、踊る際の成功値が変動。
 
 ②ワルツを踊ろう。
 ∟①の成功者数…
 2名の場合≪DEX*6≫
 …1名の場合≪DEX*4≫
-…どちらも失敗≪DEX*3≫
+…どちらも失敗≪DEX\*3≫
 
 </span><span class="chifuyu">染谷千冬 : CCB<=16*4 【INT × 4】 (1D100<=64) ＞ 29 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「千秋、覚えたか」
@@ -442,7 +442,7 @@ CoCシナリオ『双離の果実』
 </span><span class="kp">千秋はINT×4をもう一度どうぞ！
 
 </span><span class="chiaki">染谷千秋 : 「こう？」
-</span><span class="chiaki">染谷千秋 : CCB<=17*4 【INT × 4】 (1D100<=68) ＞ 97 ＞ 致命的失敗
+</span><span class="chiaki">染谷千秋 : CCB<=17\*4 【INT × 4】 (1D100<=68) ＞ 97 ＞ 致命的失敗
 
 </span><span class="kp">千冬が可愛くてなんも頭に入らん(適当)
 </span><span class="kp">好きに解釈してください
@@ -529,7 +529,7 @@ CoCシナリオ『双離の果実』
 
 </span><span class="kp">いつも通り敏感です(？)
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 45 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 45 ＞ 成功
 </span><span class="chiaki">染谷千秋 : ﾔｯﾀｰ!
 </span><span class="chifuyu">染谷千冬 : 「……っ！」
 </span><span class="chifuyu">染谷千冬 : 「……！」
@@ -802,7 +802,7 @@ CoCシナリオ『双離の果実』
 </span><span class="kp">『どちらか1人、椅子にお座りください。両腕は肘置きに置き、背中は背凭れにあずけてください。鍵が解放されます』
 
 </span><span class="chifuyu">染谷千冬 : 「……千秋。俺が座る」
-</span><span class="chiaki">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 73 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 73 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「……何で？」
 </span><span class="chifuyu">染谷千冬 : 「指令は『逃げる鍵を回収してください』だ。このゲージに体毛や抜け殻があることから、何かの生物が鍵を持っているのかもしれない。身のこなしが軽いのも、腕が立つのも千秋だ」
 </span><span class="chiaki">染谷千秋 : 「……そーだな」ぶーたれます。
@@ -843,7 +843,7 @@ CoCシナリオ『双離の果実』
 
 ・鍵の捕獲を試みる探索者
 ①『白鼠』の影はどうにか追えている。
-≪DEX*5≫ロールで捕獲を試みることが可能。
+≪DEX\*5≫ロールで捕獲を試みることが可能。
 </span><span class="kp">千秋に逃げたネズミの数として1d3+2を振ってもらおうかな！
 
 </span><span class="chiaki">染谷千秋 : 1d3+2 (1D3+2) ＞ 3[3]+2 ＞ 5
@@ -856,9 +856,9 @@ CoCシナリオ『双離の果実』
 </span><span class="chifuyu">染谷千冬 : 1d6 (1D6) ＞ 1
 </span><span class="chifuyu">[ 染谷千冬 ] HP : 8 → 7
 
-</span><span class="kp">千秋は白鼠を捕まえようとする。≪DEX*5≫どうぞ！
+</span><span class="kp">千秋は白鼠を捕まえようとする。≪DEX\*5≫どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 28 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 28 ＞ 成功
 </span><span class="kp">[ KP ] 白鼠 : 0 → 1
 </span><span class="chifuyu">染谷千冬 : RESB(12-16) (1d100<=30) ＞ 29 ＞ 成功
 
@@ -866,9 +866,9 @@ CoCシナリオ『双離の果実』
 
 </span><span class="chifuyu">染谷千冬 : CCB<=78-10 【目星-10】 (1D100<=68) ＞ 51 ＞ 成功
 
-</span><span class="kp">千秋は≪DEX*5≫+20どうぞ！
+</span><span class="kp">千秋は≪DEX\*5≫+20どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5+20 【DEX × 5+20】 (1D100<=85) ＞ 61 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5+20 【DEX × 5+20】 (1D100<=85) ＞ 61 ＞ 成功
 </span><span class="kp">[ KP ] 白鼠 : 1 → 2
 </span><span class="chifuyu">染谷千冬 : RESB(12-16) (1d100<=30) ＞ 54 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 1d6 (1D6) ＞ 6
@@ -876,9 +876,9 @@ CoCシナリオ『双離の果実』
 
 </span><span class="kp">辛うじて続いていた呼吸も心拍も、ゆっくりと、ゆっくりと止まっていくのを感じながら千冬の意識は暗転する。
 
-千冬は気絶しました！千秋は≪DEX*5≫どうぞ！
+千冬は気絶しました！千秋は≪DEX\*5≫どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 72 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 72 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : 「クソッ」
 </span><span class="chifuyu">染谷千冬 : RESB(12-16) (1d100<=30) ＞ 19 ＞ 成功
 
@@ -886,7 +886,7 @@ CoCシナリオ『双離の果実』
 </span><span class="kp">choice 気絶したまま 起きる (choice 気絶したまま 起きる) ＞ 気絶したまま
 </span><span class="kp">体内で毒に抵抗しているものの、気絶したままということで目星はなしです。千秋はロール！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 32 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 32 ＞ 成功
 </span><span class="kp">[ KP ] 白鼠 : 2 → 3
 </span><span class="chifuyu">染谷千冬 : RESB(12-16) (1d100<=30) ＞ 14 ＞ 成功
 
@@ -896,9 +896,9 @@ CoCシナリオ『双離の果実』
 
 </span><span class="chifuyu">染谷千冬 : CCB<=78-10 【目星-10】 (1D100<=68) ＞ 46 ＞ 成功
 
-</span><span class="kp">千秋は≪DEX*5≫+20どうぞ！
+</span><span class="kp">千秋は≪DEX\*5≫+20どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5+20 【DEX × 5+20】 (1D100<=85) ＞ 94 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5+20 【DEX × 5+20】 (1D100<=85) ＞ 94 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : ころしてくれ
 </span><span class="chifuyu">染谷千冬 : RESB(12-16) (1d100<=30) ＞ 6 ＞ スペシャル
 
@@ -907,9 +907,9 @@ CoCシナリオ『双離の果実』
 </span><span class="chifuyu">染谷千冬 : CCB<=78-10 【目星-10】 (1D100<=68) ＞ 12 ＞ スペシャル
 </span><span class="chifuyu">染谷千冬 : 「千秋、……そっちだ……っ」
 
-</span><span class="kp">千秋は≪DEX*5≫+20どうぞ！
+</span><span class="kp">千秋は≪DEX\*5≫+20どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5+20 【DEX × 5+20】 (1D100<=85) ＞ 86 ＞ 失敗
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5+20 【DEX × 5+20】 (1D100<=85) ＞ 86 ＞ 失敗
 </span><span class="chiaki">染谷千秋 : ハァ、ハァ、……敗北者……！？
 
 </span><span class="kp">出目どうしたんやほんま
@@ -920,15 +920,15 @@ CoCシナリオ『双離の果実』
 
 </span><span class="kp">完全に心拍も呼吸も止まっている。千冬の身体は氷の様に冷たい。
 
-千秋は≪DEX*5≫どうぞ！
+千秋は≪DEX\*5≫どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 19 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 19 ＞ 成功
 </span><span class="kp">[ KP ] 白鼠 : 3 → 4
 </span><span class="chiaki">染谷千秋 : いやすぎ
 
-</span><span class="kp">≪DEX*5≫どうぞ！
+</span><span class="kp">≪DEX\*5≫どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 44 ＞ 成功
 </span><span class="kp">[ KP ] 白鼠 : 4 → 5
 </span><span class="chiaki">染谷千秋 : ダストシュートにネズミ捨てるぞ
 
@@ -1206,7 +1206,7 @@ CoCシナリオ『双離の果実』
 </span><span class="chifuyu">染谷千冬 : 「……判断つかない。……円筒のスイッチが優先だろうか」
 </span><span class="chiaki">染谷千秋 : 「だよな。見てみようか」
 </span><span class="chiaki">染谷千秋 : 「じゃ、千冬は下がってて」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 81 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 81 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 「……」
 </span><span class="chifuyu">染谷千冬 : 「じゃんけんにしないか」
 </span><span class="chiaki">染谷千秋 : 「さっきは俺が譲ったろ」
@@ -1398,7 +1398,7 @@ CoCシナリオ『双離の果実』
 </span><span class="chiaki">染谷千秋 : 千冬の下腹部に手を押してぐっと当てます。
 「女の千冬もかわいーけど、俺はやっぱ男の千冬が好きだぜ。生まれてからずっと一緒に過ごしてセックスしてきたのは男の千冬だ。……それに、千冬の身体ここに残していくのも癪だしな」
 </span><span class="chifuyu">染谷千冬 : 1d100 どれぐらい感じるか 大きい方が高い (1D100) ＞ 82
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】声 (1D100<=55) ＞ 37 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】声 (1D100<=55) ＞ 37 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「……！」
 </span><span class="chifuyu">染谷千冬 : （……お腹が熱くて痺れる……）
 </span><span class="chifuyu">染谷千冬 : 「わ……わかった。……よかった」
@@ -1438,7 +1438,7 @@ CoCシナリオ『双離の果実』
 起こした場合、『バケモノ』は餌を捕食する。
 </span><span class="kp">≪DEX*5≫か≪POW*5≫、どちらかを選んで、1回目のロールどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
 
 </span><span class="kp">(　ﾟдﾟ)
 

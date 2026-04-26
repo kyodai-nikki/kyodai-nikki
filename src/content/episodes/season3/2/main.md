@@ -6,7 +6,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2024.11.22"
-  timelineCast: "千秋 (21歳・通信大学3年) 千冬 (21歳・建築士2年)"
+  timelineCast: "千秋21歳（通信大学3年） 千冬21歳（建築士2年）"
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "奪取脱出ストラグル"
@@ -62,7 +62,7 @@ custom:
 「……俺も一緒に行きたい」
 </span><span class="chiaki">染谷千秋 : 「けど、休日のホムセンなんて混むだろ。万が一のこともあるし、家に居たほうがいいと思うぜ」
 </span><span class="chifuyu">染谷千冬 : 「家が知られている。一人になるほうが良くないと思う。それに、千秋と一緒にいたい」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】命泥棒を乗り越えてる/ない (1D100<=80) ＞ 25 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】命泥棒を乗り越えてる/ない (1D100<=80) ＞ 25 ＞ 成功
 </span><span class="chiaki">染谷千秋 : 「分かったよ。……少しでもおかしな事があったら言えよ？」
 </span><span class="chifuyu">染谷千冬 : 「千秋もだ」
 </span><span class="chiaki">染谷千秋 : 「ああ」
@@ -104,9 +104,9 @@ custom:
 「カレー……いや、寒くなってきたし、シチューもいい。一度、荷物を車に置きに行こう」
 </span><span class="chiaki">染谷千秋 : 「はは、千冬のシチュー楽しみ。……そうだな」
 
-</span><span class="kp">千秋はDEX*5-10振ってください。
+</span><span class="kp">千秋はDEX\*5-10振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=13*5-10 【DEX × 5 - 10】 (1D100<=55) ＞ 17 ＞ 成功
+</span><span class="chiaki">染谷千秋 : CCB<=13\*5-10 【DEX × 5 - 10】 (1D100<=55) ＞ 17 ＞ 成功
 
 </span><span class="kp">そんな話をしながら歩き出すと、ある男が突然、千秋目掛けて走ってきた。
 千秋は驚く間もなく、身を交わし、男との衝突を免れた。
@@ -238,7 +238,7 @@ SANC0/1
 
 </span><span class="kp">あなた達は白い四角い部屋にいた。窓はなく、前と後ろに１つずつ『茶色い扉』がある。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】覚悟/やれやれ/F:超疲労 (1D100<=55) ＞ 39 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】覚悟/やれやれ/F:超疲労 (1D100<=55) ＞ 39 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「……倒れる前、『僕は君を置いていくことはできない』『悲しませるわけにはいかない』と聞こえた」
 </span><span class="chifuyu">染谷千冬 : （全く、迷惑な話だ。でも、ようやく動きがあった。……意識が戻ったらこの空間にいたのは、怪異のせいか、あるいは魔術師……の力か？　……ここで片をつけてやる）
 </span><span class="chifuyu">染谷千冬 : （千秋には……巻き込んでごめん、じゃないな）
@@ -443,11 +443,11 @@ SANC 1/1d2
 </span><span class="chiaki">染谷千秋 : 「千冬、逃げよう！」
 
 </span><span class="kp">ここからは化け物との逃走or戦闘フェーズになります。
-戦闘をする場合は技能の宣言を、逃走する場合はdex*5に成功する必要があります。
+戦闘をする場合は技能の宣言を、逃走する場合はdex\*5に成功する必要があります。
 
 </span><span class="chifuyu">染谷千冬 : （……状況を確認するために、一度逃げたほうがいいか……逃げられるのか？）
 </span><span class="chifuyu">染谷千冬 : 逃走を試みます！
-</span><span class="chifuyu">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 11 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 11 ＞ 成功
 
 </span><span class="kp">あなた達は無事化け物から逃げることが出来ました。
 聞き耳をどうぞ。
@@ -857,12 +857,12 @@ SANC 1/1d2
 
 </span><span class="kp">化け物はそれでも尚あなたに近づいてくる。どうしますか？
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】警戒する/しない (1D100<=55) ＞ 46 ＞ 成功
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*5 【POW × 5】警戒する/しない (1D100<=55) ＞ 46 ＞ 成功
 </span><span class="chifuyu">染谷千冬 : 「こら、千秋。言うことを聞け」
 
 </span><span class="kp">化け物はあなたの言葉に立ち止まるが、しばらくするとあなたに近づいてくる。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*2 【POW × 2】警戒する/しない (1D100<=22) ＞ 92 ＞ 失敗
+</span><span class="chifuyu">染谷千冬 : CCB<=11\*2 【POW × 2】警戒する/しない (1D100<=22) ＞ 92 ＞ 失敗
 </span><span class="chifuyu">染谷千冬 : 「……？」
 千秋に自分から近寄ります。
 
