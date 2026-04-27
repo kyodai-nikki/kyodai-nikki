@@ -8,7 +8,7 @@ import {
   galleryModalDescription,
   galleryModalTitle,
 } from "../../lib/view/gallery";
-import { commonMsg } from "../../msg/common";
+import { common } from "../../msg/common";
 import { galleryPageMsg } from "../../msg/gallery";
 import { navigation } from "../../data/navigation";
 
@@ -40,7 +40,7 @@ const displayedImages = await displayedGalleryImages();
             <button
               class="gallery-card"
               type="button"
-              aria-label={commonMsg.actions.open(modalTitle)}
+              aria-label={common.actions.open(modalTitle)}
               data-modal-open={modalId}
               style={{ "--delay": `${index * 30}ms` }}
             >

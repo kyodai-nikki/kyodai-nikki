@@ -1,0 +1,56 @@
+---
+import type { CharacterEntry } from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
+
+interface Props {
+  character: CharacterEntry;
+}
+
+const { character } = Astro.props;
+---
+
+<dl class="character-stats">
+  <div><dt>{charactersPageMsg.stats.age}</dt><dd>{character.data.age}</dd></div>
+  <div><dt>{charactersPageMsg.stats.gender}</dt><dd>{character.data.gender}</dd></div>
+  <div><dt>{charactersPageMsg.stats.height}</dt><dd>{character.data.height}</dd></div>
+  <div><dt>{charactersPageMsg.stats.weight}</dt><dd>{character.data.weight}</dd></div>
+  <div class="character-stats__birthday">
+    <dt>{charactersPageMsg.stats.birthday}</dt><dd>{character.data.birthday}</dd>
+  </div>
+</dl>
+
+<style>
+  .character-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-2) var(--s-5);
+    margin: 0;
+    padding-bottom: var(--s-4);
+    border-bottom: 1px solid var(--c-fg);
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-body);
+  }
+
+  .character-stats > div {
+    display: flex;
+    gap: var(--s-2);
+  }
+
+  .character-stats__birthday {
+    grid-column: 1 / -1;
+  }
+
+  .character-stats dt {
+    color: var(--c-fg-body);
+    font-weight: var(--fw-regular);
+  }
+
+  .character-stats dt::after {
+    content: ":";
+  }
+
+  .character-stats dd {
+    margin: 0;
+  }
+</style>

@@ -1,16 +1,19 @@
-﻿---
+---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
+import CharacterTabs from "../../components/characters/CharacterTabs.astro";
+import CharacterPortrait from "../../components/characters/CharacterPortrait.astro";
+import CharacterQuote from "../../components/characters/CharacterQuote.astro";
+import CharacterInfoHeader from "../../components/characters/CharacterInfoHeader.astro";
+import CharacterStats from "../../components/characters/CharacterStats.astro";
+import CharacterExternalLinks from "../../components/characters/CharacterExternalLinks.astro";
 import {
-  characterHref,
-  characterStandingSrc,
   orderedCharacters,
   type CharacterEntry,
 } from "../../lib/characters";
 import { getCharacterStaticPaths } from "../../lib/routes/characters";
 import { charactersPageMsg } from "../../msg/characters";
 import { navigation } from "../../data/navigation";
-import { commonMsg } from "../../msg/common";
 
 export const getStaticPaths = getCharacterStaticPaths;
 
@@ -22,111 +25,31 @@ const characters = await orderedCharacters();
   description={charactersPageMsg.detailDescription(character.data.name, character.data.nameKana)}
 >
   <PageHeading slot="page-heading" title={navigation.characters.title} />
-  <nav slot="page-tabs" class="chars-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
-    {characters.map((c) => (
-      <a
-        href={characterHref(c)}
-        aria-current={c.id === character.id ? "page" : undefined}
-      >
-        {c.data.name}
-      </a>
-    ))}
-  </nav>
+  <CharacterTabs slot="page-tabs" characters={characters} currentId={character.id} />
 
   <article class="char-detail">
     <div class="char-detail__inner">
-      <div class="char-portrait">
-        {character.data.quote && (
-          <div class="char-quote" aria-label={charactersPageMsg.quoteAriaLabel}>
-            {character.data.quote}
-          </div>
-        )}
-        <img
-          src={characterStandingSrc(character)}
-          alt={charactersPageMsg.standingAlt(character.data.name)}
-          loading="eager"
-        />
-      </div>
+      {character.data.quote && (
+        <CharacterQuote quote={character.data.quote} class="char-detail__quote" />
+      )}
+      <CharacterPortrait character={character} class="char-detail__portrait" />
 
       <div class="char-info">
-        <header class="char-info__header">
-          <h2 class="char-info__name">{character.data.name}</h2>
-          <span class="char-info__name-kana">{character.data.nameKana}</span>
-        </header>
+        <CharacterInfoHeader name={character.data.name} nameKana={character.data.nameKana} />
 
-          <p class="char-info__description">
-            {character.data.description}
-          </p>
+        <p class="char-info__description">
+          {character.data.description}
+        </p>
 
-          <dl class="char-stats">
-            <div><dt>{charactersPageMsg.stats.age}</dt><dd>{character.data.age}</dd></div>
-            <div><dt>{charactersPageMsg.stats.gender}</dt><dd>{character.data.gender}</dd></div>
-            <div><dt>{charactersPageMsg.stats.height}</dt><dd>{character.data.height}</dd></div>
-            <div><dt>{charactersPageMsg.stats.weight}</dt><dd>{character.data.weight}</dd></div>
-            <div class="char-stats__birthday"><dt>{charactersPageMsg.stats.birthday}</dt><dd>{character.data.birthday}</dd></div>
-          </dl>
+        <CharacterStats character={character} />
 
-          <dl class="char-info__external">
-            <p class="char-info__external-header">
-              {commonMsg.symbol.externalStatusIcon} {charactersPageMsg.externalStatusLink }
-            </p>
-            <div class="char-info__external-box">
-              {character.data.externalLinks.map((link, index) => (
-                <a href={link.url} target="_blank" rel="noopener">
-                  {commonMsg.symbol.dot} {link.label || charactersPageMsg.externalStatusLink}
-                </a>
-              ))}
-            </div>
-          </dl>
+        <CharacterExternalLinks links={character.data.externalLinks} />
       </div>
     </div>
   </article>
 </BaseLayout>
 
 <style>
-  .chars-tabs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
-    margin-bottom: var(--m-l30);
-  }
-  .chars-tabs a {
-    font-family: var(--font-family-navigation);
-    font-size: var(--fs-base);
-    color: var(--c-fg);
-    text-decoration: none;
-    letter-spacing: var(--ls-wide);
-    padding: var(--s-2) 0;
-    position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-
-  .chars-tabs a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: -3px;
-    height: 2px;
-    background: var(--c-site-cyan);
-    transition: left var(--dur-base) var(--ease-out),
-                right var(--dur-base) var(--ease-out);
-    pointer-events: none;
-  }
-  .chars-tabs a:hover::after,
-  .chars-tabs a:focus-visible::after {
-    left: 0;
-    right: 0;
-  }
-
-  .chars-tabs a[aria-current="page"]::after {
-    left: 0;
-    right: 0;
-    background: var(--c-site-pink);
-    transition: none;
-  }
-
   .char-detail {
     max-width: 1040px;
     margin: 0 auto;
@@ -139,54 +62,16 @@ const characters = await orderedCharacters();
 
   .char-detail__inner {
     display: grid;
-    grid-template-columns: minmax(220px, 320px) auto 1fr;
+    grid-template-columns: auto minmax(220px, 320px) 1fr;
     gap: clamp(var(--s-4), 3vw, var(--s-6));
     align-items: start;
   }
 
-  .char-portrait {
-    grid-column: 1;
-    align-self: stretch;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    min-height: 480px;
-  }
-  .char-portrait img {
-    max-height: 560px;
-    width: auto;
-    object-fit: contain;
-    display: block;
-    animation: portrait-slide-in 1800ms cubic-bezier(0.16, 0.78, 0.24, 1) both;
-    animation-delay: 150ms;
-    will-change: opacity, transform;
-  }
-
-  @keyframes portrait-slide-in {
-    from {
-      opacity: 0;
-      transform: translateX(-36px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  .char-quote {
-    grid-column: 2;
-    writing-mode: vertical-rl;
-    -webkit-writing-mode: vertical-rl;
-    font-family: var(--f-serif);
-    font-size: var(--fs-base);
-    line-height: 1.5;
-    color: var(--c-fg);
-    letter-spacing: 0.08em;
-    white-space: pre-wrap;
-    align-self: end;
-    max-height: 460px;
-    font-size: 24px;
-  }
+  /* 各グリッドアイテムの位置はページ側で決める。
+     CharacterPortrait / CharacterQuote の見た目自体はコンポーネント内に閉じる。
+     並び順: 台詞 → 立ち絵 → 情報 */
+  .char-detail__quote { grid-column: 1; }
+  .char-detail__portrait { grid-column: 2; }
 
   .char-info {
     grid-column: 3;
@@ -195,29 +80,6 @@ const characters = await orderedCharacters();
     flex-direction: column;
     gap: var(--s-4);
     min-width: 0;
-  }
-
-  .char-info__header {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    gap: var(--s-4);
-    padding-bottom: var(--s-3);
-    border-bottom: 1px solid var(--c-fg);
-  }
-  .char-info__name {
-    font-family: var(--f-serif);
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: var(--fw-bold);
-    margin: 0;
-    letter-spacing: 0.04em;
-  }
-  .char-info__name-kana {
-    font-family: var(--f-serif);
-    font-size: var(--fs-xs);
-    color: var(--c-fg-muted);
-    letter-spacing: var(--ls-wide);
-    white-space: nowrap;
   }
 
   .char-info__description {
@@ -231,84 +93,12 @@ const characters = await orderedCharacters();
     white-space: pre-wrap;
   }
 
-  .char-stats {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--s-2) var(--s-5);
-    margin: 0;
-    padding-bottom: var(--s-4);
-    border-bottom: 1px solid var(--c-fg);
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    color: var(--c-fg-body);
-  }
-  .char-stats > div {
-    display: flex;
-    gap: var(--s-2);
-  }
-  .char-stats__birthday { grid-column: 1 / -1; }
-  .char-stats dt {
-    color: var(--c-fg-body);
-    font-weight: var(--fw-regular);
-  }
-  .char-stats dt::after { content: ":"; }
-  .char-stats dd { margin: 0; }
-
-  .char-info__external {
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    color: var(--c-fg-body);
-  }
-
-  .char-info__external-header {
-    margin: 0;
-    margin-bottom: 5px;
-    font-weight: 700;
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    color: var(--c-fg);
-  }
-
-  .char-info__external-box {
-    display: grid;
-  }
-
-  .char-info__external-box a {
-    width: fit-content;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-    text-underline-offset: 3px;
-    color: var(--c-fg);
-  }
-
-  .char-info__external-box a:hover {
-    opacity: 0.8;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .char-portrait img { animation: none; }
-  }
-
   @media (max-width: 880px) {
     .char-detail__inner {
       grid-template-columns: 1fr;
     }
-    .char-portrait {
-      grid-column: 1;
-      min-height: auto;
-      justify-content: center;
-    }
-    .char-portrait img {
-      max-height: 420px;
-    }
-    .char-quote {
-      grid-column: 1;
-      writing-mode: horizontal-tb;
-      -webkit-writing-mode: horizontal-tb;
-      max-height: none;
-      font-size: var(--fs-base);
-      align-self: auto;
-    }
+    .char-detail__portrait,
+    .char-detail__quote,
     .char-info {
       grid-column: 1;
     }
@@ -318,13 +108,5 @@ const characters = await orderedCharacters();
     .char-detail {
       padding: 0 var(--s-3);
     }
-    .char-portrait img {
-      max-height: 320px;
-    }
-    .char-info__header {
-      flex-direction: column;
-      gap: var(--s-1);
-    }
   }
 </style>
-

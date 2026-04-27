@@ -1,0 +1,8 @@
+#!/bin/sh
+# コミット前に <br> タグを改行に置換する
+
+echo "▶ replace-br を実行中..."
+npm run replace-br
+
+# 置換で変更されたファイルを自動でステージングに追加
+git add src/content/episodes

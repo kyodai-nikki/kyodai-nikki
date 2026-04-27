@@ -3,7 +3,7 @@ import { resolve } from "node:path";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { imageAllSrcs } from "../lib/image-utils";
 import { withBase } from "../lib/urls";
-import { commonMsg } from "../msg/common";
+import { common } from "../msg/common";
 import { homePageMsg } from "../msg/home";
 import { siteConfig, homeConfig } from "../config";
 import Tagline from "../content/home.md";
@@ -35,11 +35,7 @@ const slideImages = enableSlideshow
       ))}
     </div>
     <div class="home__overlay">
-      <div class="home__copyline">ﾂｩ{site.copyStartYear}-{new Date().getFullYear()} {site.name}{commonMsg.footer.madeByTeam}</div>
-      <div class="home__share">
-        {commonMsg.footer.shareLabel}
-        <span aria-hidden="true">{commonMsg.symbol.dot}</span>
-      </div>
+      <img src={withBase(site.logoPath)} alt={site.name} class="site-brand__logo" />
       <div class="home__tagline"><Tagline /></div>
     </div>
   </section>
@@ -87,29 +83,17 @@ const slideImages = enableSlideshow
     row-gap: var(--s-2);
   }
 
-  .home__copyline {
+  .home__overlay img {
     grid-column: 2;
     grid-row: 1;
-    font-family: var(--f-sans);
-    font-size: var(--fs-xs);
-    color: var(--c-fg-muted);
-    letter-spacing: var(--ls-wide);
-    text-align: right;
-  }
-
-  .home__share {
-    grid-column: 2;
-    grid-row: 2;
-    font-family: var(--f-sans);
-    font-size: var(--fs-xs);
-    color: var(--c-fg-muted);
-    letter-spacing: var(--ls-wide);
-    text-align: right;
+    position: relative;
+    width: 450px;
+    height: auto;
   }
 
   .home__tagline {
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 2;
     justify-self: end;
     text-align: left;
     font-family: var(--f-serif);

@@ -1,7 +1,7 @@
 ---
 import Button from "./btn/Button.astro";
 import Modal from "./Modal.astro";
-import { commonMsg } from "../../msg/common";
+import { common } from "../../msg/common";
 
 export interface MediaModalImage {
   /** 原寸（jpg/png/svg）の URL。<picture> の最終フォールバックに使う */
@@ -58,7 +58,7 @@ interface Props {
   /** 閉じるボタンの前に並べる任意のアクション */
   actions?: MediaModalAction[];
   actionButtonSize?: MediaModalButtonSize;
-  /** 閉じるボタンのラベル。デフォルト commonMsg.actions.back */
+  /** 閉じるボタンのラベル。デフォルト common.actions.back */
   closeLabel?: string;
   /** dialog の panel に追加する class */
   panelClass?: string;
@@ -80,7 +80,7 @@ const {
   detailsAriaLabel,
   actions = [],
   actionButtonSize = "ss",
-  closeLabel = commonMsg.actions.back,
+  closeLabel = common.actions.back,
   panelClass = "",
 } = Astro.props;
 
@@ -97,13 +97,20 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
         // WebP 候補がある場合は <picture> で WebP を優先、原寸をフォールバックに。
         // モーダルは閉じている間 <dialog> が display:none で実フェッチを抑止できるが、
         // それでも一旦 src が解決されるブラウザがあるため、ここでは loading="lazy" を採用する。
-        const figure = image.webpSrcset ? (
+        const imgEl = image.webpSrcset ? (
           <picture>
             <source type="image/webp" srcset={image.webpSrcset} />
             <img src={image.src} alt={alt} loading="lazy" decoding="async" />
           </picture>
         ) : (
           <img src={image.src} alt={alt} loading="lazy" decoding="async" />
+        );
+
+        const figure = (
+          <div class="media-modal__img-wrap">
+            <div class="media-modal__loader" aria-hidden="true"></div>
+            {imgEl}
+          </div>
         );
 
         return href ? (
@@ -125,7 +132,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 
       {description && <p class="media-modal__description">{description}</p>}
       {hint && <p class="media-modal__hint">{hint}</p>}
-      {creditName && <p class="media-modal__credit">{creditName}{commonMsg.dear}</p>}
+      {creditName && <p class="media-modal__credit">{creditName}{common.dear}</p>}
       {creditUrl && (
         <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
           {creditUrl}
@@ -223,13 +230,65 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     display: contents;
   }
 
+  /* ローディングラッパー */
+  .media-modal__img-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    max-width: 100%;
+  }
+
+  .media-modal__loader {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--c-image-backdrop);
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+
+  .media-modal__loader::after {
+    content: "";
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 3px solid rgba(120, 120, 120, 0.2);
+    border-top-color: rgba(80, 80, 80, 0.7);
+    animation: media-modal-spin 0.75s linear infinite;
+  }
+
+  @keyframes media-modal-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .media-modal__img-wrap.is-loaded .media-modal__loader {
+    opacity: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .media-modal__loader::after { animation: none; }
+  }
+
+  /* 画像は読み込み完了までは非表示 */
+  .media-modal__img-wrap img {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+
+  .media-modal__img-wrap.is-loaded img {
+    opacity: 1;
+  }
+
   .media-modal__media img {
     width: auto;
     max-width: var(--media-modal-image-wide-max);
     max-height: var(--media-modal-image-tall-max);
     height: auto;
     object-fit: contain;
-    background: var(--c-image-backdrop);
     display: block;
   }
 
@@ -309,8 +368,36 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
       width: 100%;
     }
 
+    .media-modal__img-wrap {
+      width: 100%;
+      min-height: 160px;
+    }
+
     .media-modal__media img {
       max-width: 100%;
     }
   }
 </style>
+
+<script>
+  function initMediaLoaders() {
+    document.querySelectorAll<HTMLElement>(".media-modal__img-wrap").forEach((wrap) => {
+      const img = wrap.querySelector("img");
+      if (!img) return;
+
+      const markLoaded = () => wrap.classList.add("is-loaded");
+
+      // すでに読み込み済み（キャッシュ等）の場合は即座に表示
+      if (img.complete && img.naturalWidth > 0) {
+        markLoaded();
+        return;
+      }
+
+      img.addEventListener("load", markLoaded, { once: true });
+      img.addEventListener("error", markLoaded, { once: true }); // エラー時もスピナーを消す
+    });
+  }
+
+  initMediaLoaders();
+  document.addEventListener("astro:page-load", initMediaLoaders);
+</script>

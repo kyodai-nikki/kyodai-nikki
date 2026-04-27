@@ -27,7 +27,7 @@ import {
 } from "../../../../lib/episodes/logs";
 import { episodesPageMsg } from "../../../../msg/episodes";
 import { navigation } from "../../../../data/navigation";
-import { commonMsg } from "../../../../msg/common";
+import { common } from "../../../../msg/common";
 
 export async function getStaticPaths() {
   const logEntries = await getCollection("episodeLogs");
@@ -151,8 +151,8 @@ const pageDescription =
 
 const episodeNumberLabel = episodeLogHeadingLabel(episode, episodesPageMsg.deletedEpisodeTag);
 const badges = [
-  episode.isR18G ? commonMsg.badge.r18g : undefined,
-  episode.isR18 ? commonMsg.badge.r18 : undefined,
+  episode.isR18G ? common.badge.r18g : undefined,
+  episode.isR18 ? common.badge.r18 : undefined,
 ].filter(Boolean) as string[];
 ---
 
@@ -208,7 +208,7 @@ const badges = [
     position: relative;
     display: grid;
     grid-template-columns: 172px minmax(0, 1fr);
-    gap: 20px;
+    gap: 40px;
     align-items: start;
   }
 
@@ -217,7 +217,7 @@ const badges = [
     position: absolute;
     top: 0;
     bottom: 0;
-    left: calc(172px + 10px);
+    left: calc(172px + 20px);
     width: 1px;
     background: var(--c-log-vertical-divider);
     opacity: 0.55;

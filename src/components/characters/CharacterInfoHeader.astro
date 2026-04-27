@@ -1,0 +1,47 @@
+---
+interface Props {
+  name: string;
+  nameKana: string;
+}
+
+const { name, nameKana } = Astro.props;
+---
+
+<header class="character-info-header">
+  <h2 class="character-info-header__name">{name}</h2>
+  <span class="character-info-header__name-kana">{nameKana}</span>
+</header>
+
+<style>
+  .character-info-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--s-4);
+    padding-bottom: var(--s-3);
+    border-bottom: 1px solid var(--c-fg);
+  }
+
+  .character-info-header__name {
+    font-family: var(--f-serif);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: var(--fw-bold);
+    margin: 0;
+    letter-spacing: 0.04em;
+  }
+
+  .character-info-header__name-kana {
+    font-family: var(--f-serif);
+    font-size: var(--fs-xs);
+    color: var(--c-fg-muted);
+    letter-spacing: var(--ls-wide);
+    white-space: nowrap;
+  }
+
+  @media (max-width: 480px) {
+    .character-info-header {
+      flex-direction: column;
+      gap: var(--s-1);
+    }
+  }
+</style>

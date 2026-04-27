@@ -4,7 +4,7 @@ import Header from "../components/common/Header.astro";
 import Footer from "../components/common/Footer.astro";
 import BackToTop from "../components/common/BackToTop.astro";
 import EpisodeSpoilerNotice from "../components/episodes/EpisodeSpoilerNoticeModal.astro";
-import { commonMsg } from "../msg/common";
+import { common } from "../msg/common";
 import { siteConfig } from "../config";
 import { withBase } from "../lib/urls";
 
@@ -22,8 +22,8 @@ interface Props {
 
 const {
   title,
-  description = commonMsg.site.defaultDescription,
-  ogImage = "/images/logo.svg",
+  description = common.site.defaultDescription,
+  ogImage = "/logo.png",
   bodyClass = "",
   pageSectionClass = "",
   pageContainerClass = "",
@@ -62,7 +62,7 @@ const hasPageShell =
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body class={bodyClass}>
-    <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
+    <a href="#main" class="visually-hidden">{common.accessibility.skipToMain}</a>
     <Header />
     <main id="main" data-page-shell>
       {showEpisodeSpoilerNotice && <EpisodeSpoilerNotice topHref={withBase("/")} />}

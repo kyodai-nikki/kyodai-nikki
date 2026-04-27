@@ -1,7 +1,7 @@
 ---
 import Button from "../../common/btn/Button.astro";
 import type { EpisodeLogSection } from "../../../lib/episodes/logs";
-import { commonMsg } from "../../../msg/common";
+import { common } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 
 interface Props {
@@ -25,16 +25,16 @@ const {
 
 <aside class="episode-log__sidebar" aria-label={episodesPageMsg.logNavigation}>
   <Button class="episode-log__button" href={overviewHref} type="black" size="s">
-    {commonMsg.actions.backToOverview}
+    {common.actions.backToOverview}
   </Button>
   {showNextButton && nextHref && (
     <Button class="episode-log__button" href={nextHref} type="white" size="s">
-      {commonMsg.actions.nextEpisode}
+      {common.actions.nextEpisode}
     </Button>
   )}
   {showPreviousButton && previousHref && (
     <Button class="episode-log__button" href={previousHref} type="white" size="s">
-      {commonMsg.actions.previousEpisode}
+      {common.actions.previousEpisode}
     </Button>
   )}
   {sections.map((section) => (

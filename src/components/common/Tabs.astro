@@ -50,7 +50,6 @@ const { items, ariaLabel, size = "md" } = Astro.props;
     right: 50%;
     bottom: -2px;
     height: 2px;
-    background: var(--c-site-cyan);
     transition:
       left var(--dur-base) var(--ease-out),
       right var(--dur-base) var(--ease-out);
@@ -61,25 +60,26 @@ const { items, ariaLabel, size = "md" } = Astro.props;
   .tab-nav a:focus-visible::after {
     left: 0;
     right: 0;
+    border: 2px solid var(--c-site-cyan);
   }
 
   .tab-nav a[aria-current="page"]::after {
     left: 0;
     right: 0;
-    background: var(--c-site-pink);
+    border: 2px solid var(--c-site-pink);
     transition: none;
   }
 
   /* ---- size: md（Episodes 系） */
   .tab-nav--md {
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
+    gap: clamp(var(--s-5), 5vw, var(--s-6));
     padding-bottom: var(--s-3);
   }
 
   .tab-nav--md a {
-    font-size: var(--fs-base);
+    font-weight: 600;
+    font-size: var(--fs-xl);
     letter-spacing: var(--ls-wide);
-    padding: var(--s-2) 0;
   }
 
   .tab-nav--md a::after {

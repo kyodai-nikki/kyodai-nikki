@@ -1,0 +1,45 @@
+---
+import { IconName } from "./icon/IconName";
+import XIcon from "./icon/XIcon.astro";
+import ChevronUpIcon from "./icon/ChevronUpIcon.astro";
+import KeyboardArrowLeftIcon from "./icon/KeyboardArrowLeftIcon.astro";
+import KeyboardArrowRightIcon from "./icon/KeyboardArrowRightIcon.astro";
+
+export { IconName };
+
+// IconName と各 Icon コンポーネントのマッピング。
+// `satisfies Record<IconName, ...>` で全ての IconName が網羅されていることを
+// 型レベルで保証する（IconName を追加した時、ここへの追記漏れがコンパイルエラーになる）。
+const ICONS = {
+  [IconName.X]: XIcon,
+  [IconName.ChevronUp]: ChevronUpIcon,
+  [IconName.KeyboardArrowLeft]: KeyboardArrowLeftIcon,
+  [IconName.KeyboardArrowRight]: KeyboardArrowRightIcon,
+} as const satisfies Record<IconName, typeof XIcon>;
+
+interface Props {
+  name: IconName;
+  size?: number | string;
+  class?: string;
+  "aria-hidden"?: boolean | "true" | "false";
+  "aria-label"?: string;
+}
+
+const {
+  name,
+  size = 24,
+  class: className,
+  "aria-hidden": ariaHidden = true,
+  "aria-label": ariaLabel,
+} = Astro.props;
+
+const sizeVal = typeof size === "number" ? `${size}px` : size;
+const IconComponent = ICONS[name];
+---
+
+<IconComponent
+  size={sizeVal}
+  class={className}
+  aria-hidden={ariaHidden}
+  aria-label={ariaLabel}
+/>
