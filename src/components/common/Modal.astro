@@ -1,5 +1,5 @@
 ---
-import { commonMsg } from "../../msg/common";
+import { common } from "../../msg/common";
 
 interface Props {
   id: string;
@@ -27,7 +27,7 @@ const {
 >
   <div class:list={["modal__panel", panelClass]}>
     {showCloseButton && (
-      <button class="modal__close" type="button" aria-label={commonMsg.actions.close} data-modal-close>
+      <button class="modal__close" type="button" aria-label={common.actions.close} data-modal-close>
         &times;
       </button>
     )}

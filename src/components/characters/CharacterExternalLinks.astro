@@ -1,0 +1,59 @@
+---
+import { charactersPageMsg } from "../../msg/characters";
+import { common } from "../../msg/common";
+
+interface Props {
+  links: ReadonlyArray<{ label: string; url: string }>;
+}
+
+const { links } = Astro.props;
+---
+
+{links.length > 0 && (
+  <dl class="character-external-links">
+    <p class="character-external-links__header">
+      {common.symbol.externalStatusIcon} {charactersPageMsg.externalStatusLink}
+    </p>
+    <div class="character-external-links__box">
+      {links.map((link) => (
+        <a href={link.url} target="_blank" rel="noopener">
+          {common.symbol.dot} {link.label || charactersPageMsg.externalStatusLink}
+        </a>
+      ))}
+    </div>
+  </dl>
+)}
+
+<style>
+  .character-external-links {
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg-body);
+    margin: 0;
+  }
+
+  .character-external-links__header {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    color: var(--c-fg);
+  }
+
+  .character-external-links__box {
+    display: grid;
+  }
+
+  .character-external-links__box a {
+    width: fit-content;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    color: var(--c-fg);
+  }
+
+  .character-external-links__box a:hover {
+    opacity: 0.8;
+  }
+</style>

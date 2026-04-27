@@ -1,0 +1,74 @@
+---
+import { characterStandingSrc, type CharacterEntry } from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
+
+interface Props {
+  character: CharacterEntry;
+  /** ページ側のレイアウト用クラス（グリッド配置などを外から付けたい場合）*/
+  class?: string;
+}
+
+const { character, class: className } = Astro.props;
+---
+
+<div class:list={["character-portrait", className]}>
+  <img
+    class="character-portrait__image"
+    src={characterStandingSrc(character)}
+    alt={charactersPageMsg.standingAlt(character.data.name)}
+    loading="eager"
+  />
+</div>
+
+<style>
+  .character-portrait {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 480px;
+  }
+
+  .character-portrait__image {
+    max-height: 560px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    animation: portrait-slide-in 1800ms cubic-bezier(0.16, 0.78, 0.24, 1) both;
+    animation-delay: 150ms;
+    will-change: opacity, transform;
+  }
+
+  @keyframes portrait-slide-in {
+    from {
+      opacity: 0;
+      transform: translateX(-36px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .character-portrait__image {
+      animation: none;
+    }
+  }
+
+  @media (max-width: 880px) {
+    .character-portrait {
+      min-height: auto;
+      justify-content: center;
+    }
+    .character-portrait__image {
+      max-height: 420px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .character-portrait__image {
+      max-height: 320px;
+    }
+  }
+</style>

@@ -16,7 +16,7 @@ import {
   settingsCharacterHref,
   settingsMaterialImages,
 } from "../../../lib/view/others";
-import { commonMsg } from "../../../msg/common";
+import { common } from "../../../msg/common";
 import { othersPageMsg } from "../../../msg/others";
 import { navigation } from "../../../data/navigation";
 
@@ -61,7 +61,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
             <button
               class="others-settings__card"
               type="button"
-              aria-label={commonMsg.actions.open(item.data.title)}
+              aria-label={common.actions.open(item.data.title)}
               data-modal-open={modalId}
             >
               <div class="others-settings__card-image-wrap">

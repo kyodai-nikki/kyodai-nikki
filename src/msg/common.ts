@@ -1,8 +1,7 @@
-export const commonMsg = {
+export const common = {
   symbol: {
+    copyLight: "©",
     dot: "・",
-    previousEpisodeArrow: "‹",
-    nextEpisodeArrow: "›",
     externalStatusIcon: "▼",
   },
   badge: {

@@ -1,0 +1,70 @@
+---
+import { characterHref, type CharacterEntry } from "../../lib/characters";
+import { charactersPageMsg } from "../../msg/characters";
+
+interface Props {
+  characters: CharacterEntry[];
+  currentId: string;
+}
+
+const { characters, currentId } = Astro.props;
+---
+
+<nav class="character-tabs" aria-label={charactersPageMsg.tabsAriaLabel}>
+  {characters.map((c) => (
+    <a
+      href={characterHref(c)}
+      aria-current={c.id === currentId ? "page" : undefined}
+    >
+      {c.data.name}
+    </a>
+  ))}
+</nav>
+
+<style>
+  .character-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: clamp(var(--s-5), 5vw, var(--s-8));
+    margin-bottom: var(--m-l30);
+  }
+
+  .character-tabs a {
+    font-family: var(--font-family-navigation);
+    font-size: var(--fs-xl);
+    color: var(--c-fg);
+    text-decoration: none;
+    letter-spacing: var(--ls-wide);
+    padding: var(--s-2) 0;
+    position: relative;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .character-tabs a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -3px;
+    height: 2px;
+    background: var(--c-site-cyan);
+    transition:
+      left var(--dur-base) var(--ease-out),
+      right var(--dur-base) var(--ease-out);
+    pointer-events: none;
+  }
+
+  .character-tabs a:hover::after,
+  .character-tabs a:focus-visible::after {
+    left: 0;
+    right: 0;
+  }
+
+  .character-tabs a[aria-current="page"]::after {
+    left: 0;
+    right: 0;
+    background: var(--c-site-pink);
+    transition: none;
+  }
+</style>

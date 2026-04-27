@@ -1,7 +1,7 @@
 ﻿---
 import ShareButtons from "../../common/btn/ShareButtons.astro";
+import Icon, { IconName } from "../../common/Icon.astro";
 import { episodesPageMsg } from "../../../msg/episodes";
-import { commonMsg } from "../../../msg/common";
 
 interface Props {
   showPreviousButton: boolean;
@@ -26,7 +26,7 @@ const {
   <div class="episode-log__footer-nav">
     {showPreviousButton && previousHref ? (
       <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
-        {commonMsg.symbol.previousEpisodeArrow}
+        <Icon name={IconName.KeyboardArrowLeft} size={28} />
       </a>
     ) : (
       <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
@@ -40,7 +40,7 @@ const {
 
     {showNextButton && nextHref ? (
       <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
-        {commonMsg.symbol.nextEpisodeArrow}
+        <Icon name={IconName.KeyboardArrowRight} size={28} />
       </a>
     ) : (
       <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
@@ -86,7 +86,7 @@ const {
   /* ShareButton の CSS 変数 API を使ってカスタマイズする
      （:global で内部要素を直接いじらないことで疎結合を維持） */
   .episode-log__footer :global(.episode-log__share-buttons) {
-    --share-btn-size: 36px;
+    --share-btn-size: 30px;
     --share-icon-size: 17px;
     --share-line-icon-size: 28px;
     --share-buttons-gap: 18px;

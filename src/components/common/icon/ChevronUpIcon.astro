@@ -1,0 +1,27 @@
+---
+import type { IconProps } from "./IconProps";
+
+type Props = IconProps;
+
+const {
+  size = "24px",
+  class: className,
+  "aria-hidden": ariaHidden = true,
+  "aria-label": ariaLabel,
+} = Astro.props;
+---
+<svg
+  viewBox="0 0 24 24"
+  width={size}
+  height={size}
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.9"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class:list={[className]}
+  aria-hidden={ariaHidden}
+  aria-label={ariaLabel}
+>
+  <polyline points="5 15 12 8 19 15" />
+</svg>

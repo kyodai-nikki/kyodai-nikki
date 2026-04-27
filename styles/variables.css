@@ -56,6 +56,7 @@
   --c-footer-bg: #ffffff;
   --c-footer-copyright: #6a6a6a;
   --c-footer-share: #4d4d4d;
+  --c-share-btn-bg: #000000;
 
   /* BackToTop ボタン ----------------------------------- */
   --c-back-to-top-bg: rgba(206, 206, 206, 0.96);
@@ -75,7 +76,7 @@
   --c-log-arrow-fg-hover: var(--c-bg-pure-black);
   --c-log-meta-fg: #202020;             /* メタ情報テキスト */
   --c-log-divider-strong: #2d2d2d;      /* シナリオ情報・パネルの濃罫線 */
-  --c-log-vertical-divider: #9a9a9a;    /* レイアウトの縦罫線 */
+  --c-log-vertical-divider: #000000;    /* レイアウトの縦罫線 */
   --c-log-panel-bg: rgba(255, 255, 255, 0.98);
 
   /* タイムライン -------------------------------------- */

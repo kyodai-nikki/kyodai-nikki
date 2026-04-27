@@ -1,11 +1,13 @@
 ---
-import { commonMsg } from "../../../msg/common";
+import { common } from "../../../msg/common";
+import Icon, { IconName } from "../Icon.astro";
 
 interface Props {
   href: string;
+  iconSize?: number | string;
 }
 
-const { href } = Astro.props;
+const { href, iconSize } = Astro.props;
 ---
 
 <a
@@ -13,11 +15,9 @@ const { href } = Astro.props;
   href={href}
   target="_blank"
   rel="noopener"
-  aria-label={commonMsg.social.shareX}
+  aria-label={common.social.shareX}
 >
-  <svg viewBox="0 0 24 24" aria-hidden="true">
-    <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z" />
-  </svg>
+  <Icon name={IconName.X} size={iconSize} class="share-button__icon" />
 </a>
 
 <style>
@@ -27,24 +27,22 @@ const { href } = Astro.props;
     justify-content: center;
     width: var(--share-btn-size);
     height: var(--share-btn-size);
-    border-radius: var(--share-btn-radius, 9999px);
-    background: var(--share-btn-bg, var(--c-share-btn-bg-default));
-    color: var(--share-btn-color, var(--c-fg-on-dark));
-    transition:
-      transform var(--dur-fast) var(--ease-out),
-      background var(--dur-fast) var(--ease-out);
+    border-radius: var(--share-btn-radius, 25%);
+    overflow: hidden;
+    background: var(--c-share-btn-bg);
+    color: var(--share-btn-color, #ffffff);
+    transition: transform var(--dur-fast) var(--ease-out),
+                opacity var(--dur-fast) var(--ease-out);
   }
 
   .share-button:hover {
     transform: var(--share-btn-hover-transform, translateY(-1px));
-    background: var(--share-btn-hover-bg, var(--c-share-btn-bg-default-hover));
-    color: var(--share-btn-hover-color, var(--c-fg-on-dark));
+    opacity: 0.8;
   }
 
-  .share-button svg {
-    width: var(--share-icon-size);
-    height: var(--share-icon-size);
-    fill: currentColor;
+  .share-button :global(svg) {
+    width: var(--share-icon-size, 12px);
+    height: var(--share-icon-size, 12px);
     display: block;
   }
 </style>

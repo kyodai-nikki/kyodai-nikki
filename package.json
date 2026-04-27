@@ -4,12 +4,14 @@
   "version": "0.1.0",
   "description": "TRPG session log archive built with Astro",
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
     "dev": "astro dev",
-    "prebuild": "npm run optimize-gallery",
+    "prebuild": "npm run replace-br && npm run optimize-gallery",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
     "replace-br": "node scripts/replace-br.mjs",
+    "replace-br:dry": "node scripts/replace-br.mjs --dry-run",
     "optimize-gallery": "node scripts/optimize-gallery.mjs"
   },
   "dependencies": {

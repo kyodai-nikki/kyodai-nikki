@@ -1,0 +1,40 @@
+---
+import { charactersPageMsg } from "../../msg/characters";
+
+interface Props {
+  quote: string;
+  /** ページ側のレイアウト用クラス（グリッド配置などを外から付けたい場合）*/
+  class?: string;
+}
+
+const { quote, class: className } = Astro.props;
+---
+
+<div class:list={["character-quote", className]} aria-label={charactersPageMsg.quoteAriaLabel}>
+  {quote}
+</div>
+
+<style>
+  .character-quote {
+    writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    font-family: var(--f-serif);
+    line-height: 1.5;
+    color: var(--c-fg);
+    letter-spacing: 0.08em;
+    white-space: pre-wrap;
+    align-self: end;
+    max-height: 460px;
+    font-size: 24px;
+  }
+
+  @media (max-width: 880px) {
+    .character-quote {
+      writing-mode: horizontal-tb;
+      -webkit-writing-mode: horizontal-tb;
+      max-height: none;
+      font-size: var(--fs-base);
+      align-self: auto;
+    }
+  }
+</style>

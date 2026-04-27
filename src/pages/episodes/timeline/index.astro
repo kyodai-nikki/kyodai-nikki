@@ -10,7 +10,7 @@ import {
 } from "../../../lib/episodes";
 import { timelineEpisodeNumberLabel } from "../../../lib/episodes/view";
 import { withBase } from "../../../lib/urls";
-import { commonMsg } from "../../../msg/common";
+import { common } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import { navigation } from "../../../data/navigation";
 
@@ -42,7 +42,7 @@ const grouped = await groupedEpisodesTimeline();
             </header>
 
             {items.length === 0 ? (
-              <p class="tl-season__empty">{commonMsg.noEpisodes}</p>
+              <p class="tl-season__empty">{common.noEpisodes}</p>
             ) : (
               <ol class="tl-rows">
                 {items.map((e) => {
@@ -122,7 +122,7 @@ const grouped = await groupedEpisodesTimeline();
     display: flex;
     flex-direction: column;
     gap: clamp(var(--s-6), 4vw, var(--s-8));
-    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    padding: clamp(var(--s-4), 3vw, var(--s-5));
     border: 1px solid rgba(32, 32, 32, 0.7);
     background: rgba(255, 255, 255, 0.82);
   }

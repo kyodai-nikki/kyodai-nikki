@@ -2,7 +2,7 @@
 import Modal from "../common/Modal.astro";
 import Button from "../common/btn/Button.astro";
 import SpoilerNoticeBody from "../../content/episodes-spoiler-notice.md";
-import { commonMsg } from "../../msg/common";
+import { common } from "../../msg/common";
 
 interface Props {
   topHref: string;
@@ -11,7 +11,7 @@ interface Props {
 const { topHref } = Astro.props as Props;
 const modalId = "episode-spoiler-notice";
 const storageKey = "kyodai-nikki:episodes-spoiler-notice:v1";
-const spoilerNoticeMsg = commonMsg.spoilerNotice;
+const spoilerNoticeMsg = common.spoilerNotice;
 ---
 
 <Modal

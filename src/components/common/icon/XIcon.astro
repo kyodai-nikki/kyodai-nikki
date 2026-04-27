@@ -1,0 +1,23 @@
+---
+import type { IconProps } from "./IconProps";
+
+type Props = IconProps;
+
+const {
+  size = "24px",
+  class: className,
+  "aria-hidden": ariaHidden = true,
+  "aria-label": ariaLabel,
+} = Astro.props;
+---
+<svg
+  viewBox="0 0 24 24"
+  width={size}
+  height={size}
+  fill="currentColor"
+  class:list={[className]}
+  aria-hidden={ariaHidden}
+  aria-label={ariaLabel}
+>
+  <path d="M18.244 2H21.5l-7.51 8.58L23 22h-6.828l-5.34-6.98L4.8 22H1.54l8.03-9.175L1 2h6.914l4.83 6.384L18.244 2Zm-2.394 18h1.89L7.24 4h-2.02l10.63 16Z" />
+</svg>

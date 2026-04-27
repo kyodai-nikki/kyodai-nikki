@@ -18,7 +18,7 @@ import {
 import { withBase } from "../../../lib/urls";
 import { getCollection } from "astro:content";
 import { hasAnyEpisodeLog } from "../../../lib/episodes/logs";
-import { commonMsg } from "../../../msg/common";
+import { common } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import Badge from "../../common/Badge.astro";
 
@@ -106,12 +106,12 @@ const logHref = current
       <div class="ep-detail__foot">
         <div>
           {current.badge && <Badge label={current.badge} variant={badgeVariant} />}
-          {current.isR18 && <Badge label={commonMsg.badge.r18} variant={badgeVariant} />}
-          {current.isR18G && <Badge label={commonMsg.badge.r18g} variant={badgeVariant} />}
+          {current.isR18 && <Badge label={common.badge.r18} variant={badgeVariant} />}
+          {current.isR18G && <Badge label={common.badge.r18g} variant={badgeVariant} />}
         </div>
         {logHref && (
           <a class="ep-detail__read" href={logHref}>
-            {commonMsg.actions.read}
+            {common.actions.read}
           </a>
         )}
       </div>

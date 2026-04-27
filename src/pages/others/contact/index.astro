@@ -5,10 +5,9 @@ import OthersTabs from "../../../components/others/OthersTabs.astro";
 import WhiteCard from "../../../components/common/WhiteCard.astro";
 import { othersPageMsg } from "../../../msg/others";
 import { navigation } from "../../../data/navigation";
-import { contactConfig } from "../../../config";
+import { siteConfig } from "../../../config";
 import ContactBody from "../../../content/contact.md";
 
-const contact = contactConfig;
 ---
 
 <BaseLayout title={`${navigation.others.title} | お問い合わせ`} description={othersPageMsg.description}>
@@ -17,11 +16,11 @@ const contact = contactConfig;
   <section class="others">
     <div class="others-contact">
       <WhiteCard centered translucent>
-        <p class="others-contact__team">{contact.team}</p>
+        <p class="others-contact__team">{siteConfig.teamName}</p>
         <div class="others-contact__body"><ContactBody /></div>
         <p class="others-contact__mail">
           mail:
-          <a href={`mailto:${contact.email}`}>{contact.email}</a>
+          <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>
         </p>
       </WhiteCard>
     </div>
