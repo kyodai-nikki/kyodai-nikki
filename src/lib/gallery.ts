@@ -2,7 +2,6 @@ import { resolve } from "node:path";
 
 import { getCollection, type CollectionEntry } from "astro:content";
 
-import { sortByOrderDesc } from "./common";
 import {
   imageThumbnailPicture,
   imageThumbnailSrc,
@@ -11,8 +10,13 @@ import {
 
 export type GalleryEntry = CollectionEntry<"gallery">;
 
+const sortByNumericIdDesc = <T extends { id: string }>(entries: readonly T[]): T[] =>
+  entries
+    .slice()
+    .sort((a, b) => b.id.localeCompare(a.id, undefined, { numeric: true }));
+
 export const displayedGalleryImages = async (): Promise<GalleryEntry[]> =>
-  sortByOrderDesc(await getCollection("gallery"));
+  sortByNumericIdDesc(await getCollection("gallery"));
 
 const galleryDir = (entry: GalleryEntry): string =>
   resolve(process.cwd(), "public/images/gallery", entry.id);

@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import { sortByOrder, sortByOverallNumber } from "../common";
+import { sortByOverallNumber } from "../common";
 import { withBase } from "../urls";
 import type { EpisodeScenarioInfo } from "./logs";
 
@@ -57,6 +57,18 @@ const episodeSlugFromId = (id: string) => id.split("/").at(-2) ?? "";
 // episodeLogs の entry id からシーズン slug を取り出す。
 const seasonSlugFromId = (id: string) => id.split("/").at(-3) ?? "";
 
+const seasonNumberFromId = (
+  id: string,
+  seasonNumberMap: ReadonlyMap<string, number>,
+): number => {
+  const seasonSlug = seasonSlugFromId(id);
+  const seasonNumber = seasonNumberMap.get(seasonSlug);
+  if (!seasonNumber) {
+    throw new Error(`Unknown episode season slug "${seasonSlug}" in ${id}`);
+  }
+  return seasonNumber;
+};
+
 // episodeLogs の entry id からエピソード番号（数値）を取り出す。
 const episodeNumberFromId = (id: string) =>
   parseInt(id.split("/").at(-2) ?? "0", 10);
@@ -82,7 +94,6 @@ const buildEpisodeLabel = (
 // main ログにエピソード一覧用の必須メタ情報があるか検証する。
 const assertEpisodeMain = (entry: EpisodeLogEntry) => {
   const missing = [
-    entry.data.season ? undefined : "season",
     entry.data.scenario?.title ? undefined : "scenario.title",
     entry.data.scenario?.description ? undefined : "scenario.description",
   ].filter(Boolean);
@@ -107,7 +118,8 @@ const validateLogEntryNames = (entries: EpisodeLogEntry[]) => {
 };
 
 // シーズン定義を表示順に並び替える。
-const sortSeasons = (entries: EpisodeSeasonEntry[]) => sortByOrder(entries);
+const sortSeasons = (entries: EpisodeSeasonEntry[]) =>
+  entries.slice().sort((a, b) => a.data.number - b.data.number);
 
 // content collection からシーズン別エピソード一覧を組み立ててキャッシュする。
 const loadEpisodes = async (): Promise<Season[]> => {
@@ -130,6 +142,9 @@ const loadEpisodes = async (): Promise<Season[]> => {
     const seasonOrderMap = new Map(
       seasonEntries.map((s, i) => [s.data.slug, i]),
     );
+    const seasonNumberMap = new Map(
+      seasonEntries.map((s) => [s.data.slug, s.data.number]),
+    );
 
     // シーズン順・エピソード番号順にソートして overallNumber を連番で割り当て
     const sortedMainEntries = mainEntries.slice().sort((a, b) => {
@@ -145,7 +160,11 @@ const loadEpisodes = async (): Promise<Season[]> => {
     let seasonAllCounter = 0;
     return seasonEntries.map<Season>((seasonEntry) => {
       const episodes = sortedMainEntries
-        .filter((entry) => entry.data.season === seasonEntry.data.number)
+        .filter(
+          (entry) =>
+            seasonNumberFromId(entry.id, seasonNumberMap) ===
+            seasonEntry.data.number,
+        )
         .map<EpisodeEntry>((entry) => {
           const data = entry.data;
           const session = data.session;

@@ -97,4 +97,144 @@ kyodai-nikki/
 
 ## 公開パスの調整
 
-`astro.co
+公開先のパスは `astro.config.mjs` で調整します。
+
+独自ドメインなど、ドメイン直下で公開する場合は `base` を指定しません。
+
+```js
+export default defineConfig({
+  site: "https://kyodai-nikki.com",
+});
+```
+
+GitHub Pages の project site のように `/kyodai/` 配下で公開する場合は、`base` を有効にします。
+
+```js
+export default defineConfig({
+  site: "https://kyodai-nikki.github.io",
+  base: "/kyodai",
+});
+```
+
+## 環境構築
+
+友達と一緒に触るときの初回セットアップ手順です。
+
+### 必要なもの
+
+- Git
+- Node.js 20 LTS 以上を推奨
+- npm
+
+Node.js を入れると npm も一緒に入ります。バージョン確認は次のコマンドでできます。
+
+```bash
+node -v
+npm -v
+```
+
+### 初回セットアップ
+
+リポジトリを取得します。
+
+```bash
+git clone <repository-url>
+cd kyodai-nikki
+```
+
+依存パッケージを入れます。`package-lock.json` に合わせるため、共同作業では `npm ci` 推奨です。
+
+```bash
+npm ci
+```
+
+`npm ci` によって `prepare` script も実行され、`.githooks` が Git hook として設定されます。
+
+### 開発サーバー
+
+ローカルで確認する場合は dev server を起動します。
+
+```bash
+npm run dev
+```
+
+起動後、ブラウザで次を開きます。
+
+```text
+http://localhost:4321/
+```
+
+`astro.config.mjs` で `base: "/kyodai"` を有効にしている場合は、次の URL で確認します。
+
+```text
+http://localhost:4321/kyodai/
+```
+
+### ビルド確認
+
+公開前や大きめの変更後は build を確認します。
+
+```bash
+npm run build
+```
+
+`npm run build` の前には `prebuild` が自動で走ります。
+
+```text
+npm run replace-br
+npm run optimize-gallery
+```
+
+つまり、episode ログ内の `<br>` 置換と gallery 画像の WebP 生成は build 時に自動実行されます。
+
+### プレビュー
+
+build 後の `dist/` をローカルで確認する場合は preview を使います。
+
+```bash
+npm run preview
+```
+
+### コンテンツ編集
+
+表示データは主に `src/content/` 配下の Markdown で管理します。
+
+- episode: `src/content/episodes/season*/N/`
+- gallery: `src/content/gallery/N.md`
+- movies: `src/content/movies/N.md`
+- goods: `src/content/goods/N.md`
+
+連番の整理は dry-run で確認してから実行します。
+
+```bash
+npm run renumber-content:dry -- --type movies
+npm run renumber-content -- --type movies
+```
+
+`renumber-content` の詳細は `scripts/README.md` を参照してください。
+
+### Windows で npm が止まる場合
+
+PowerShell で `npm.ps1` の実行が止まる場合は、次のどちらかで対応できます。
+
+```powershell
+npm.cmd run dev
+npm.cmd run build
+```
+
+または、CurrentUser の実行ポリシーを変更します。
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+### よく使うコマンド
+
+| command | 内容 |
+| --- | --- |
+| `npm ci` | 依存パッケージを lockfile 通りにインストール |
+| `npm run dev` | 開発サーバーを起動 |
+| `npm run build` | 静的サイトを生成 |
+| `npm run preview` | build 後のサイトを確認 |
+| `npm run replace-br:dry` | episode ログの `<br>` 置換予定を確認 |
+| `npm run renumber-content:dry -- --type <type>` | 連番リネーム予定を確認 |

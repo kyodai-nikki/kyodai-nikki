@@ -38,7 +38,6 @@ const episodeLogs = defineCollection({
     base: `${siteConfig.contentBase}/episodes`,
   }),
   schema: z.object({
-    season: z.number().int().positive().optional(),
     session: z
       .object({
         type: z
@@ -84,7 +83,6 @@ const episodeSeasons = defineCollection({
     number: z.number().int().positive(),
     label: z.string(),
     slug: z.string().min(1),
-    order: z.number().int().positive(),
   }),
 });
 
@@ -122,7 +120,6 @@ const gallery = defineCollection({
     base: `${siteConfig.contentBase}/gallery`,
   }),
   schema: z.object({
-    order: z.number().int().positive(),
     alt: z.string(),
     title: z.string().optional(),
     description: z.string().optional(),
@@ -148,7 +145,6 @@ const movies = defineCollection({
     base: `${siteConfig.contentBase}/movies`,
   }),
   schema: z.object({
-    order: z.number().int().positive(),
     id: z.string(),
     title: z.string(),
     platform: z.literal("youtube").optional().default("youtube"),
