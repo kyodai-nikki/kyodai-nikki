@@ -19,17 +19,18 @@ export const getStaticPaths = getCharacterStaticPaths;
 
 const { character } = Astro.props as { character: CharacterEntry };
 const characters = await orderedCharacters();
+const hasQuote = Boolean(character.data.quote);
 ---
 <BaseLayout
-  title={charactersPageMsg.detailPageTitle(character.data.name)}
-  description={charactersPageMsg.detailDescription(character.data.name, character.data.nameKana)}
+  title={charactersPageMsg.meta.detailTitle(character.data.name)}
+  description={charactersPageMsg.meta.detailDescription(character.data.name, character.data.nameKana)}
 >
   <PageHeading slot="page-heading" title={navigation.characters.title} />
   <CharacterTabs slot="page-tabs" characters={characters} currentId={character.id} />
 
-  <article class="char-detail">
+  <article class:list={["char-detail", !hasQuote && "char-detail--no-quote"]}>
     <div class="char-detail__inner">
-      {character.data.quote && (
+      {hasQuote && (
         <CharacterQuote quote={character.data.quote} class="char-detail__quote" />
       )}
       <CharacterPortrait character={character} class="char-detail__portrait" />
@@ -73,6 +74,21 @@ const characters = await orderedCharacters();
   .char-detail__quote { grid-column: 1; }
   .char-detail__portrait { grid-column: 2; }
 
+  .char-detail--no-quote .char-detail__inner {
+    grid-template-columns: minmax(220px, 320px) minmax(0, 550px);
+    justify-content: center;
+    gap: clamp(var(--s-5), 5vw, var(--s-8));
+  }
+
+  .char-detail--no-quote .char-detail__portrait {
+    grid-column: 1;
+  }
+
+  .char-detail--no-quote .char-info {
+    grid-column: 2;
+    padding-top: clamp(var(--s-6), 6vw, var(--s-8));
+  }
+
   .char-info {
     grid-column: 3;
     padding: clamp(var(--s-4), 3vw, var(--s-6)) 0;
@@ -99,8 +115,14 @@ const characters = await orderedCharacters();
     }
     .char-detail__portrait,
     .char-detail__quote,
-    .char-info {
+    .char-info,
+    .char-detail--no-quote .char-detail__portrait,
+    .char-detail--no-quote .char-info {
       grid-column: 1;
+    }
+
+    .char-detail--no-quote .char-info {
+      padding-top: 0;
     }
   }
 

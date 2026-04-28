@@ -31,7 +31,7 @@ export const episodeOverviewLabel = (
 ): string => {
   switch (entry.type) {
     case "another":
-      return episodesPageMsg.alternateTag;
+      return episodesPageMsg.labels.alternateTag;
     case "normal":
       return `Episode${entry.episodeLabel}`;
     case "deleted":
@@ -41,7 +41,7 @@ export const episodeOverviewLabel = (
 
 export const episodeLogHeadingLabel = (
   entry: Pick<EpisodeEntry, "overallNumber" | "seasonAllNumber" | "type">,
-  deletedLabel: string = episodesPageMsg.deletedEpisodeTag,
+  deletedLabel: string = episodesPageMsg.labels.deletedEpisodeTag,
 ): string => {
   if (entry.type === "deleted") return deletedLabel;
   if (entry.type === "another") return `Episode${deletedLabel}`;
@@ -167,7 +167,7 @@ export const episodeSeasonTabItems = async (
       })),
     )),
     {
-      label: episodesPageMsg.seasonTimelineLabel,
+      label: episodesPageMsg.labels.seasonTimeline,
       href: withBase("/episodes/timeline"),
       active: current === "timeline",
     },

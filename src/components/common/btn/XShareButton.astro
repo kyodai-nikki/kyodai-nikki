@@ -1,5 +1,5 @@
 ---
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import Icon, { IconName } from "../Icon.astro";
 
 interface Props {
@@ -15,7 +15,7 @@ const { href, iconSize } = Astro.props;
   href={href}
   target="_blank"
   rel="noopener"
-  aria-label={common.social.shareX}
+  aria-label={commonMsg.social.shareX}
 >
   <Icon name={IconName.X} size={iconSize} class="share-button__icon" />
 </a>

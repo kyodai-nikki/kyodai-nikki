@@ -1,6 +1,6 @@
 import { resolve } from "node:path";
 
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 import { goodsImage, type GoodsEntry } from "../goods";
 import { imageListSrcs } from "../image-utils";
 
@@ -25,5 +25,5 @@ export const goodsDetailImages = (entry: GoodsEntry): GoodsDetailImage[] => {
 
 export const goodsActions = (entry: GoodsEntry): GoodsAction[] =>
   entry.data.url
-    ? [{ label: common.actions.salePage, href: entry.data.url }]
+    ? [{ label: commonMsg.actions.salePage, href: entry.data.url }]
     : [];

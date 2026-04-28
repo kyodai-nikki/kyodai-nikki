@@ -4,7 +4,7 @@ import PageHeading from "../../components/common/PageHeading.astro";
 import GoodsMediaModal from "../../components/goods/GoodsMediaModal.astro";
 import { goodsImage, orderedGoods } from "../../lib/goods";
 import { goodsActions, goodsDetailImages } from "../../lib/view/goods";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 import { goodsPageMsg } from "../../msg/goods";
 import { navigation } from "../../data/navigation";
 
@@ -12,18 +12,18 @@ const goods = await orderedGoods();
 ---
 <BaseLayout
   title={navigation.goods.title}
-  description={goodsPageMsg.description}
+  description={goodsPageMsg.meta.description}
   pageSectionClass="goods"
 >
   <PageHeading slot="page-heading" title={navigation.goods.title} />
 
   {goods.length === 0 ? (
     <p class="goods__empty">
-      {goodsPageMsg.empty}
+      {goodsPageMsg.empty.list}
     </p>
   ) : (
     <>
-      <div class="goods-grid" aria-label={goodsPageMsg.listAriaLabel}>
+      <div class="goods-grid" aria-label={goodsPageMsg.aria.list}>
         {goods.map((entry, index) => {
           const item = entry.data;
           const modalId = `goods-modal-${index}`;
@@ -31,7 +31,7 @@ const goods = await orderedGoods();
             <button
               class="goods-card"
               type="button"
-              aria-label={common.actions.open(item.title)}
+              aria-label={commonMsg.actions.open(item.title)}
               data-modal-open={modalId}
             >
               <div class="goods-card__image-wrap">

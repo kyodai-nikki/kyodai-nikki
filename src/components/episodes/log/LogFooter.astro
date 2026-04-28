@@ -25,7 +25,7 @@ const {
 <footer class="episode-log__footer">
   <div class="episode-log__footer-nav">
     {showPreviousButton && previousHref ? (
-      <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.previousEpisodeMove}>
+      <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.aria.previousEpisodeMove}>
         <Icon name={IconName.KeyboardArrowLeft} size={28} />
       </a>
     ) : (
@@ -35,11 +35,11 @@ const {
     <ShareButtons
       url={shareUrl}
       title={shareTitle}
-      className="episode-log__share-buttons"
+      variant="log"
     />
 
     {showNextButton && nextHref ? (
-      <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.nextEpisodeMove}>
+      <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.aria.nextEpisodeMove}>
         <Icon name={IconName.KeyboardArrowRight} size={28} />
       </a>
     ) : (
@@ -81,17 +81,6 @@ const {
 
   .episode-log__arrow--spacer {
     visibility: hidden;
-  }
-
-  /* ShareButton の CSS 変数 API を使ってカスタマイズする
-     （:global で内部要素を直接いじらないことで疎結合を維持） */
-  .episode-log__footer :global(.episode-log__share-buttons) {
-    --share-btn-size: 30px;
-    --share-line-icon-size: 28px;
-    --share-buttons-gap: 18px;
-    --share-btn-bg: var(--c-share-btn-bg-on-log);
-    --share-btn-hover-bg: var(--c-share-btn-bg-on-log-hover);
-    --share-btn-hover-transform: none;
   }
 
   @media (--bp-tablet) {

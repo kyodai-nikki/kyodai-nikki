@@ -9,14 +9,14 @@ const orderedVideos = await orderedMovies();
 ---
 <BaseLayout
   title={navigation.movies.title}
-  description={moviesPageMsg.description}
+  description={moviesPageMsg.meta.description}
   pageSectionClass="movies"
 >
   <PageHeading slot="page-heading" title={navigation.movies.title} />
 
   {orderedVideos.length === 0 ? (
     <p class="movies__empty">
-      {moviesPageMsg.empty}
+      {moviesPageMsg.empty.list}
     </p>
   ) : (
     <div class="movies-grid">

@@ -25,9 +25,7 @@ weight: "?"
 birthday: "?"
 # 外部リンク
 externalLinks: [
-    {
-      label: "",
-      url: "",
-    },
+    # 指定する場合は下の「#」を削除してください
+    # { label: "", url: "" },
   ]
 ---

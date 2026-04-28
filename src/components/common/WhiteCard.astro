@@ -3,16 +3,28 @@ interface Props {
   as?: string;
   centered?: boolean;
   translucent?: boolean;
+  padding?: "default" | "none";
+  interactive?: boolean;
   class?: string;
   [key: string]: unknown;
 }
 
-const { as: Tag = "div", centered = false, translucent = false, class: className, ...rest } = Astro.props;
+const {
+  as: Tag = "div",
+  centered = false,
+  translucent = false,
+  padding = "default",
+  interactive = false,
+  class: className,
+  ...rest
+} = Astro.props;
 ---
 <Tag class:list={[
   "white-card",
   { "white-card--centered": centered },
   { "white-card--translucent": translucent },
+  { "white-card--padding-none": padding === "none" },
+  { "white-card--interactive": interactive },
   className,
 ]} {...rest}>
   <slot />
@@ -38,6 +50,19 @@ const { as: Tag = "div", centered = false, translucent = false, class: className
     animation: white-card-slide-in 1700ms var(--ease-out) both;
     animation-delay: 160ms;
     will-change: opacity, transform;
+  }
+
+  .white-card--padding-none {
+    padding: 0;
+  }
+
+  .white-card--interactive {
+    transition: border-color var(--dur-fast) var(--ease-out),
+                background var(--dur-fast) var(--ease-out);
+  }
+
+  .white-card--interactive:hover {
+    border-color: var(--c-fg);
   }
 
   @media (prefers-reduced-motion: reduce) {

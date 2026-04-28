@@ -8,11 +8,11 @@ import { navigation } from "../../data/navigation";
 
 const items = await newsListItems();
 ---
-<BaseLayout title={navigation.news.title} description={newsPageMsg.description}>
+<BaseLayout title={navigation.news.title} description={newsPageMsg.meta.description}>
   <PageHeading slot="page-heading" title={navigation.news.title} />
 
   {items.length === 0 ? (
-    <p class="news-empty">{newsPageMsg.empty}</p>
+    <p class="news-empty">{newsPageMsg.empty.list}</p>
   ) : (
     <ul class="news-list">
       {items.map(({ entry: item, external, href, text }) => {
@@ -23,13 +23,15 @@ const items = await newsListItems();
             </time>
             <span class="news-sep" aria-hidden="true">|</span>
             <span class="news-text">
-              {text}{external ? newsPageMsg.externalSuffix : ""}
+              {text}{external ? newsPageMsg.labels.externalSuffix : ""}
             </span>
           </>
         );
         return (
           <WhiteCard
             as="li"
+            padding="none"
+            interactive={Boolean(href)}
             class:list={["news-item", { "news-item--no-link": !href }]}
           >
             {href ? (
@@ -64,19 +66,6 @@ const items = await newsListItems();
     max-width: 960px;
     display: grid;
     gap: var(--s-5);
-  }
-
-  /* WhiteCard のデフォルト padding を上書き（padding は news-link 側で管理） */
-  .news-list :global(.news-item) {
-    padding: 0;
-    transition: border-color var(--dur-fast) var(--ease-out),
-                background var(--dur-fast) var(--ease-out);
-  }
-  .news-list :global(.news-item:not(.news-item--no-link):hover) {
-    border-color: var(--c-fg);
-  }
-  .news-list :global(.news-item--no-link) {
-    cursor: default;
   }
 
   .news-link {

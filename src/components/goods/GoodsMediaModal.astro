@@ -8,7 +8,7 @@ import MediaModal, {
   type MediaModalImage,
   type MediaModalAction,
 } from "../common/MediaModal.astro";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 
 interface Props {
   id: string;
@@ -29,6 +29,6 @@ const { id, title, description, images, actions } = Astro.props;
   imageMaxWidth="530px"
   actions={actions}
   actionButtonSize="l"
-  closeLabel={common.actions.close}
+  closeLabel={commonMsg.actions.close}
   panelClass="goods-modal-panel"
 />

@@ -1,6 +1,6 @@
 ---
 import { charactersPageMsg } from "../../msg/characters";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 
 interface Props {
   links: ReadonlyArray<{ label: string; url: string }>;
@@ -12,12 +12,12 @@ const { links } = Astro.props;
 {links.length > 0 && (
   <dl class="character-external-links">
     <p class="character-external-links__header">
-      {common.symbol.externalStatusIcon} {charactersPageMsg.externalStatusLink}
+      {commonMsg.symbols.externalMarker} {charactersPageMsg.labels.externalStatusLink}
     </p>
     <div class="character-external-links__box">
       {links.map((link) => (
         <a href={link.url} target="_blank" rel="noopener">
-          {common.symbol.dot} {link.label || charactersPageMsg.externalStatusLink}
+          {commonMsg.symbols.separatorDot} {link.label || charactersPageMsg.labels.externalStatusLink}
         </a>
       ))}
     </div>

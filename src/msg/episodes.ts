@@ -1,22 +1,31 @@
 export const episodesPageMsg = {
-  timelinePageTitle: "Timeline | Episodes",
-  timelineDescription: "兄弟日記 全エピソードのタイムライン。",
-  timelineSeasonNav: "シーズン切替",
-  timelineJumpNav: "シーズンへジャンプ",
-  alternateTag: "Another Episode",
-  deletedEpisodeTag: "――",
-  seasonTimelineLabel: "timeline",
-  episodeSelectionEmpty: "エピソードを選択してください。",
-  noEpisodesYet: "No episodes yet.",
-  logSuffix: "のログ",
-  logNavigation: "ログナビゲーション",
-  previousEpisodeMove: "前の話へ移動",
-  nextEpisodeMove: "次の話へ移動",
-  thumbnailAlt: (title: string) => `${title} main visual`,
-  logInfo: {
-    scenarioAuthor: "シナリオ制作者 :",
-    scenarioDistribution: "シナリオ頒布先 :",
-    adaptedScenario: "改変シナリオ :",
-    adaptedScenarioLink: "URL",
+  meta: {
+    timelineTitle: "Timeline | Episodes",
+    timelineDescription: "兄弟日記 全エピソードのタイムライン。",
+  },
+  aria: {
+    timelineJumpNav: "シーズンへジャンプ",
+    logNavigation: "ログナビゲーション",
+    previousEpisodeMove: "前の話へ移動",
+    nextEpisodeMove: "次の話へ移動",
+  },
+  labels: {
+    alternateTag: "Another Episode",
+    deletedEpisodeTag: "――",
+    seasonTimeline: "timeline",
+    logSuffix: "のログ",
+  },
+  empty: {
+    episodeSelection: "エピソードを選択してください。",
+    noEpisodesYet: "No episodes yet.",
+  },
+  alt: {
+    thumbnail: (title: string) => `${title} main visual`,
+  },
+  scenario: {
+    author: "シナリオ制作者 :",
+    distribution: "シナリオ頒布先 :",
+    adapted: "改変シナリオ :",
+    adaptedLink: "URL",
   },
 } as const;

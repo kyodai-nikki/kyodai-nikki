@@ -9,23 +9,23 @@ import {
   timelineEpisodeHref,
 } from "../../../lib/episodes";
 import { timelineEpisodeNumberLabel } from "../../../lib/episodes/view";
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import { navigation } from "../../../data/navigation";
 
 const seasons = await getSeasons();
 const grouped = await groupedEpisodesTimeline();
 ---
-<BaseLayout title={episodesPageMsg.timelinePageTitle} description={episodesPageMsg.timelineDescription}>
+<BaseLayout title={episodesPageMsg.meta.timelineTitle} description={episodesPageMsg.meta.timelineDescription}>
   <PageHeading slot="page-heading" title={navigation.episodes.title} />
   <EpisodesSeasonTabs slot="page-tabs" current="timeline" />
 
     <div class="tl-layout">
-      <aside class="tl-side" aria-label={episodesPageMsg.timelineJumpNav}>
+      <aside class="tl-side" aria-label={episodesPageMsg.aria.timelineJumpNav}>
         <ol class="tl-side__list">
           {seasons.map((s) => (
             <li>
-              <Button class="tl-side__btn" href={`#${s.slug}`} type="white" size="xl">
+              <Button href={`#${s.slug}`} type="white" size="xl" fullWidth hover="subtle">
                 {s.label}
               </Button>
             </li>
@@ -41,7 +41,7 @@ const grouped = await groupedEpisodesTimeline();
             </header>
 
             {items.length === 0 ? (
-              <p class="tl-season__empty">{common.noEpisodes}</p>
+              <p class="tl-season__empty">{commonMsg.empty.episodes}</p>
             ) : (
               <ol class="tl-rows">
                 {items.map((e) => {
@@ -108,15 +108,6 @@ const grouped = await groupedEpisodesTimeline();
     flex-direction: column;
     gap: var(--s-3);
   }
-  :global(.tl-side__btn) {
-    --button-hover-bg: var(--c-bg-muted);
-    --button-hover-border-color: var(--c-border-strong);
-    --button-hover-color: var(--c-fg);
-    --button-hover-transform: translateY(-1px);
-
-    width: 100%;
-  }
-
   .tl-main {
     display: flex;
     flex-direction: column;

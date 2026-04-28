@@ -15,7 +15,7 @@ const { character, class: className } = Astro.props;
   <img
     class="character-portrait__image"
     src={characterStandingSrc(character)}
-    alt={charactersPageMsg.standingAlt(character.data.name)}
+    alt={charactersPageMsg.alt.standing(character.data.name)}
     loading="eager"
   />
 </div>
