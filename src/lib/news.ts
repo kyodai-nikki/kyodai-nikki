@@ -39,14 +39,19 @@ const isExternalUrl = (url: string): boolean =>
   /^(https?:)?\/\//.test(url) || url.startsWith("mailto:");
 
 // ニュース種別に応じてリンク先 URL を解決する（リンクなしの場合は undefined）。
+// 戻り値は外部 URL ならそのまま、内部リンクなら base path 込みのパス。
 export const resolveNewsUrl = async (item: NewsEntry): Promise<string | undefined> => {
   switch (item.data.kind) {
     case "episode":
+      // episodeHrefByNumber は base path 込みで返す
       return await episodeHrefByNumber(item.data.season, item.data.episodeUrlSlug);
     case "page":
-      return pagePaths[item.data.page];
+      // 固定の内部パス → base path を補う
+      return withBase(pagePaths[item.data.page]);
     case "custom":
-      return item.data.url;
+      // 任意 URL。外部ならそのまま、内部相対パスなら base path を補う
+      if (item.data.url === undefined) return undefined;
+      return isExternalUrl(item.data.url) ? item.data.url : withBase(item.data.url);
   }
 };
 
@@ -63,12 +68,9 @@ export const resolveNewsText = async (item: NewsEntry): Promise<string> => {
   return `Episode${number}：${episode.title}を追加しました！`;
 };
 
-// ニュースの href を外部/内部リンクに応じて整える（リンクなしの場合は undefined）。
-export const newsHref = async (item: NewsEntry): Promise<string | undefined> => {
-  const resolved = await resolveNewsUrl(item);
-  if (resolved === undefined) return undefined;
-  return isExternalUrl(resolved) ? resolved : withBase(resolved);
-};
+// ニュースの href を返す（resolveNewsUrl が既に外部/内部に応じた最終形を返す）。
+export const newsHref = async (item: NewsEntry): Promise<string | undefined> =>
+  await resolveNewsUrl(item);
 
 // ニュースリンクが外部リンクとして扱われるか判定する。
 export const isExternalNews = async (item: NewsEntry): Promise<boolean> => {

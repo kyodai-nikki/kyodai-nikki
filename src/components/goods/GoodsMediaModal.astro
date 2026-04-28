@@ -1,0 +1,34 @@
+---
+/**
+ * グッズページ専用の MediaModal ラッパー。
+ * 用途固定の prop（imageMaxWidth, actionButtonSize, closeLabel, panelClass）を
+ * 内部で固定し、呼び出し側は商品ごとに変わる値だけを渡せばよい。
+ */
+import MediaModal, {
+  type MediaModalImage,
+  type MediaModalAction,
+} from "../common/MediaModal.astro";
+import { common } from "../../msg/common";
+
+interface Props {
+  id: string;
+  title: string;
+  description?: string;
+  images: MediaModalImage[];
+  actions: MediaModalAction[];
+}
+
+const { id, title, description, images, actions } = Astro.props;
+---
+
+<MediaModal
+  id={id}
+  title={title}
+  description={description}
+  images={images}
+  imageMaxWidth="530px"
+  actions={actions}
+  actionButtonSize="l"
+  closeLabel={common.actions.close}
+  panelClass="goods-modal-panel"
+/>

@@ -10,13 +10,13 @@ import {
   allEpisodes,
   episodeHref,
   episodeUrlSlug,
-  episodesBySeason,
   seasons as getSeasons,
   type EpisodeEntry,
+  type SeasonInfo,
 } from "../../../../lib/episodes";
 import {
   episodeLogHeadingLabel,
-  episodeLogHref,
+  resolveLogNavigation,
 } from "../../../../lib/episodes/view";
 import {
   episodeLogContentId,
@@ -50,7 +50,7 @@ export async function getStaticPaths() {
 
 interface Props {
   episode: EpisodeEntry;
-  seasonNumber: 1 | 2 | 3 | 4;
+  seasonNumber: SeasonInfo["number"];
 }
 
 const { episode, seasonNumber } = Astro.props as Props;
@@ -93,57 +93,8 @@ const renderedSections = await Promise.all(
 const scenario = episode.scenario;
 const overviewHref = episodeHref(seasonInfo.slug, episode);
 
-const seasonEpisodes = await episodesBySeason(seasonNumber);
-const logEntriesBySeason = seasonEpisodes.filter((item) =>
-  hasAnyEpisodeLog(seasonInfo.slug, episodeUrlSlug(item), logEntries),
-);
-const currentIndex = logEntriesBySeason.findIndex(
-  (item) => item.overallNumber === episode.overallNumber,
-);
-const previousEpisode =
-  currentIndex > 0 ? logEntriesBySeason[currentIndex - 1] : undefined;
-const nextEpisode =
-  currentIndex >= 0 && currentIndex < logEntriesBySeason.length - 1
-    ? logEntriesBySeason[currentIndex + 1]
-    : undefined;
-
-const previousSeasonInfo =
-  seasonNumber > 1 ? seasons.find((s) => s.number === (seasonNumber - 1)) : undefined;
-const nextSeasonInfo =
-  seasonNumber < 4 ? seasons.find((s) => s.number === (seasonNumber + 1)) : undefined;
-
-const previousSeasonEpisodes = previousSeasonInfo
-  ? await episodesBySeason(previousSeasonInfo.number)
-  : [];
-const previousSeasonLastEpisode = previousSeasonEpisodes.at(-1);
-const previousSeasonLastLogEpisode =
-  previousSeasonInfo && previousSeasonLastEpisode &&
-  hasAnyEpisodeLog(previousSeasonInfo.slug, episodeUrlSlug(previousSeasonLastEpisode), logEntries)
-    ? previousSeasonLastEpisode
-    : undefined;
-
-const nextSeasonEpisodes = nextSeasonInfo
-  ? await episodesBySeason(nextSeasonInfo.number)
-  : [];
-const nextSeasonFirstEpisode = nextSeasonEpisodes[0];
-const nextSeasonFirstLogEpisode =
-  nextSeasonInfo && nextSeasonFirstEpisode &&
-  hasAnyEpisodeLog(nextSeasonInfo.slug, episodeUrlSlug(nextSeasonFirstEpisode), logEntries)
-    ? nextSeasonFirstEpisode
-    : undefined;
-
-const previousHref = previousEpisode
-  ? episodeLogHref(seasonInfo.slug, previousEpisode)
-  : previousSeasonInfo && previousSeasonLastLogEpisode
-    ? episodeLogHref(previousSeasonInfo.slug, previousSeasonLastLogEpisode)
-    : undefined;
-const nextHref = nextEpisode
-  ? episodeLogHref(seasonInfo.slug, nextEpisode)
-  : nextSeasonInfo && nextSeasonFirstLogEpisode
-    ? episodeLogHref(nextSeasonInfo.slug, nextSeasonFirstLogEpisode)
-    : undefined;
-const showPreviousButton = Boolean(previousHref);
-const showNextButton = Boolean(nextHref);
+const { previousHref, nextHref, showPreviousButton, showNextButton } =
+  await resolveLogNavigation(seasonInfo, episode, logEntries);
 
 const mainSection = sectionEntries.main;
 const pageDescription =
@@ -235,7 +186,7 @@ const badges = [
     padding: 26px 30px 30px;
   }
 
-  @media (max-width: 960px) {
+  @media (--bp-tablet) {
     .episode-log__layout {
       grid-template-columns: 1fr;
     }
@@ -243,9 +194,7 @@ const badges = [
     .episode-log__layout::before {
       display: none;
     }
-  }
 
-  @media (max-width: 720px) {
     .episode-log__panel {
       padding: 18px 18px 22px;
     }

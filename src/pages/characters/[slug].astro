@@ -93,7 +93,7 @@ const characters = await orderedCharacters();
     white-space: pre-wrap;
   }
 
-  @media (max-width: 880px) {
+  @media (--bp-tablet) {
     .char-detail__inner {
       grid-template-columns: 1fr;
     }
@@ -104,7 +104,7 @@ const characters = await orderedCharacters();
     }
   }
 
-  @media (max-width: 480px) {
+  @media (--bp-mobile) {
     .char-detail {
       padding: 0 var(--s-3);
     }

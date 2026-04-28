@@ -38,7 +38,7 @@ const { name, nameKana } = Astro.props;
     white-space: nowrap;
   }
 
-  @media (max-width: 480px) {
+  @media (--bp-mobile) {
     .character-info-header {
       flex-direction: column;
       gap: var(--s-1);

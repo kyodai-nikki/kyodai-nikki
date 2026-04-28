@@ -125,7 +125,7 @@ const items = await newsListItems();
     text-decoration-color: currentColor;
   }
 
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .news-link {
       grid-template-columns: 1fr;
       gap: var(--s-2);

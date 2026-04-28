@@ -3,7 +3,7 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import Button from "../../../components/common/btn/Button.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
-import MediaModal from "../../../components/common/MediaModal.astro";
+import SettingsMaterialModal from "../../../components/others/settings/SettingsMaterialModal.astro";
 import {
   orderedSettingsCharacters,
   orderedSettingsMaterials,
@@ -84,15 +84,11 @@ const materials = await orderedSettingsMaterials(characterSlug);
 
   {materials.map((item, index) => {
     return (
-      <MediaModal
+      <SettingsMaterialModal
         id={`others-settings-${characterSlug}-${index}`}
         title={item.data.title}
         images={settingsMaterialImages(item)}
-        imageHrefAriaLabel={item.data.title}
-        hint={othersPageMsg.detailHint}
         details={item.data.details}
-        detailsAriaLabel={othersPageMsg.detailsHeading}
-        panelClass="others-settings-modal-panel"
       />
     );
   })}
@@ -168,13 +164,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
     color: var(--c-fg);
   }
 
-  @media (max-width: 1080px) {
-    .others-settings__grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 760px) {
+  @media (--bp-tablet) {
     .others-settings {
       grid-template-columns: 1fr;
       gap: 24px;
@@ -197,9 +187,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
       padding-left: 0;
       padding-top: 24px;
     }
-  }
 
-  @media (max-width: 640px) {
     .others-settings__grid {
       grid-template-columns: 1fr;
       gap: 20px;

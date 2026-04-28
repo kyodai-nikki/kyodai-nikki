@@ -228,7 +228,7 @@ const spoilerNoticeMsg = common.spoilerNotice;
     min-width: 160px;
   }
 
-  @media (max-width: 720px) {
+  @media (--bp-tablet) {
     :global([data-modal-id="episode-spoiler-notice"]) {
       width: min(100vw - 24px, 920px);
     }

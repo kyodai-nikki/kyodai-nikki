@@ -1,7 +1,7 @@
 ﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import MediaModal from "../../components/common/MediaModal.astro";
+import GalleryMediaModal from "../../components/gallery/GalleryMediaModal.astro";
 import { displayedGalleryImages, galleryPicture, gallerySrc } from "../../lib/gallery";
 import {
   galleryDetailImages,
@@ -81,17 +81,15 @@ const displayedImages = await displayedGalleryImages();
         });
 
         return (
-          <MediaModal
+          <GalleryMediaModal
             id={modalId}
             title={modalTitle}
             description={modalDescription}
             images={detailSrcs}
-            imageMaxWidth="420px"
             creditName={img.creditName}
             creditUrl={img.creditUrl}
             twitterId={img.twitterId}
             closeLabel={img.buttonLabel}
-            panelClass="gallery-modal-panel"
           />
         );
       })}
@@ -160,13 +158,7 @@ const displayedImages = await displayedGalleryImages();
     }
   }
 
-  @media (max-width: 960px) {
-    .gallery-grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-
-  @media (max-width: 720px) {
+  @media (--bp-tablet) {
     .gallery {
       padding-bottom: 56px;
     }
@@ -177,7 +169,7 @@ const displayedImages = await displayedGalleryImages();
     }
   }
 
-  @media (max-width: 480px) {
+  @media (--bp-mobile) {
     .gallery-grid {
       grid-template-columns: 1fr;
     }

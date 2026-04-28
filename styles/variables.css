@@ -6,6 +6,21 @@
    - アクセントカラーは置かず、濃淡とフォントで階層を作る
    ========================================================= */
 
+/* =========================================================
+   ブレークポイント（postcss-custom-media で展開される）
+   ---------------------------------------------------------
+   実体定義は `postcss.config.mjs` にあり、CSS 内では以下の名前で参照する。
+   CSS の @media は var() を受け付けないため、PostCSS で展開する方式を採用。
+
+   --bp-mobile : ～480px       スマートフォン
+   --bp-tablet : ～768px       iPad 含むタブレット以下（モバイルもこの範囲）
+   PC          : 769px～       メディアクエリ不要、デフォルトのスタイル
+
+   使い方:
+     @media (--bp-mobile) { ... }  // モバイル専用の上書き
+     @media (--bp-tablet) { ... }  // タブレット以下（モバイルも含む）の上書き
+   ========================================================= */
+
 :root {
   /* Colors ------------------------------------------------ */
   /* 基調：純白 + 濃墨。線や meta はごく薄いグレーで締める */
@@ -38,15 +53,15 @@
 
   /* 反転（ダーク）背景・テキスト ----------------------- */
   /* 同じ色値でも本文色（--c-fg-body）と意味が違うものは別変数として持つ */
-  --c-bg-dark: #1a1a1a;            /* 反転サーフェス（選択中エピソード等） */
-  --c-bg-darker: #2a2a2a;          /* 反転サーフェス（alt エピソード）*/
-  --c-bg-darker-hover: #2b2b2b;    /* 上記 alt の hover */
-  --c-bg-darkest: #2f2f2f;         /* 反転サーフェス（グッズカード地・ボタン black 地） */
-  --c-bg-darkest-hover: #232323;   /* 反転サーフェスの強 hover */
-  --c-bg-near-black: #1f1f1f;      /* 純黒に近い文字色（ログ本文・アロー） */
-  --c-bg-pure-black: #000000;      /* ピュア黒（ログアロー hover） */
+  --c-bg-dark: #2b2b2b; /* 反転サーフェス（選択中エピソード等） */
+  --c-bg-darker: #2a2a2a; /* 反転サーフェス（alt エピソード）*/
+  --c-bg-darker-hover: #2b2b2b; /* 上記 alt の hover */
+  --c-bg-darkest: #2f2f2f; /* 反転サーフェス（グッズカード地・ボタン black 地） */
+  --c-bg-darkest-hover: #232323; /* 反転サーフェスの強 hover */
+  --c-bg-near-black: #1f1f1f; /* 純黒に近い文字色（ログ本文・アロー） */
+  --c-bg-pure-black: #000000; /* ピュア黒（ログアロー hover） */
 
-  --c-fg-on-dark: #ffffff;         /* ダーク反転背景上のテキスト */
+  --c-fg-on-dark: #ffffff; /* ダーク反転背景上のテキスト */
   --c-fg-on-dark-soft: rgba(255, 255, 255, 0.92); /* 同上、やや弱め */
 
   /* ヘッダ / ナビ / フッタ ---------------------------- */
@@ -71,12 +86,12 @@
   --c-modal-caption-fg: #5b5b5b;
 
   /* ログ詳細 ------------------------------------------ */
-  --c-log-fg: var(--c-bg-near-black);   /* ログ本文テキスト */
+  --c-log-fg: var(--c-bg-near-black); /* ログ本文テキスト */
   --c-log-arrow-fg: var(--c-bg-near-black); /* フッターアロー */
   --c-log-arrow-fg-hover: var(--c-bg-pure-black);
-  --c-log-meta-fg: #202020;             /* メタ情報テキスト */
-  --c-log-divider-strong: #2d2d2d;      /* シナリオ情報・パネルの濃罫線 */
-  --c-log-vertical-divider: #000000;    /* レイアウトの縦罫線 */
+  --c-log-meta-fg: #202020; /* メタ情報テキスト */
+  --c-log-divider-strong: #2d2d2d; /* シナリオ情報・パネルの濃罫線 */
+  --c-log-vertical-divider: #000000; /* レイアウトの縦罫線 */
   --c-log-panel-bg: rgba(255, 255, 255, 0.98);
 
   /* タイムライン -------------------------------------- */
@@ -85,8 +100,8 @@
   --c-timeline-dot: #cccccc;
   --c-timeline-date-fg: #7e7e7e;
   --c-timeline-cast-fg: #8a8a8a;
-  --c-timeline-card-bg: #343434;        /* alt カード地 */
-  --c-timeline-card-bg-hover: #2b2b2b;  /* alt カード hover */
+  --c-timeline-card-bg: #343434; /* alt カード地 */
+  --c-timeline-card-bg-hover: #2b2b2b; /* alt カード hover */
   --c-timeline-card-border-strong: rgba(32, 32, 32, 0.9);
   --c-timeline-main-bg: rgba(255, 255, 255, 0.82);
 
@@ -108,7 +123,7 @@
   --c-badge-bg: #333333;
   --c-badge-fg: #ffffff;
   --c-badge-alt-bg: #ffffff;
-  --c-badge-alt-fg: #1a1a1a;            /* --c-bg-dark と同値だが意味別 */
+  --c-badge-alt-fg: #ff6565; /* --c-bg-dark と同値だが意味別 */
 
   /* キャラクター画像プレースホルダ（縞模様） ----------- */
   --c-placeholder-stripe-dark: #d7d7d7;
@@ -122,10 +137,10 @@
   --c-surface-translucent: rgba(255, 255, 255, 0.8);
 
   /* カード・モーダル罫線 ------------------------------- */
-  --c-border-card: rgba(17, 17, 17, 0.72);   /* グッズ・ギャラリー等 */
-  --c-border-modal: rgba(17, 17, 17, 0.75);  /* モーダル枠 */
-  --c-border-faint: rgba(17, 17, 17, 0.18);  /* settings の細罫線 */
-  --c-border-medium: rgba(17, 17, 17, 0.5);  /* contact カード */
+  --c-border-card: rgba(17, 17, 17, 0.72); /* グッズ・ギャラリー等 */
+  --c-border-modal: rgba(17, 17, 17, 0.75); /* モーダル枠 */
+  --c-border-faint: rgba(17, 17, 17, 0.18); /* settings の細罫線 */
+  --c-border-medium: rgba(17, 17, 17, 0.5); /* contact カード */
   --c-border-spoiler: rgba(17, 17, 17, 0.16);
 
   /* ページシェル背景（main の繊細なドットパターン） ---- */
@@ -210,9 +225,9 @@
   --sh-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
   --sh-md: 0 4px 16px rgba(0, 0, 0, 0.06);
   --sh-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
-  --sh-card-hover: 0 18px 28px rgba(0, 0, 0, 0.14);    /* gallery card hover */
-  --sh-timeline-card: 0 8px 18px rgba(0, 0, 0, 0.08);  /* timeline card hover */
-  --sh-modal: 0 30px 80px rgba(0, 0, 0, 0.22);         /* モーダル外周 */
+  --sh-card-hover: 0 18px 28px rgba(0, 0, 0, 0.14); /* gallery card hover */
+  --sh-timeline-card: 0 8px 18px rgba(0, 0, 0, 0.08); /* timeline card hover */
+  --sh-modal: 0 30px 80px rgba(0, 0, 0, 0.22); /* モーダル外周 */
 
   /* Layout widths --------------------------------------- */
   --w-content: 68ch; /* 本文・ログ本体（読み物向け幅） */

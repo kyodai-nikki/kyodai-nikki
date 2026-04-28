@@ -23,7 +23,7 @@ interface Props {
 const {
   title,
   description = common.site.defaultDescription,
-  ogImage = "/logo.png",
+  ogImage = withBase("/logo.png"),
   bodyClass = "",
   pageSectionClass = "",
   pageContainerClass = "",
@@ -94,20 +94,6 @@ const hasPageShell =
         if (nav) nav.dataset.open = (!open).toString();
         btn.setAttribute("aria-expanded", (!open).toString());
       });
-
-      const toTop = document.querySelector(".back-to-top");
-      if (toTop instanceof HTMLAnchorElement) {
-        const updateToTop = () => {
-          toTop.dataset.visible = (window.scrollY > 400).toString();
-        };
-
-        updateToTop();
-        window.addEventListener("scroll", updateToTop, { passive: true });
-        toTop.addEventListener("click", (event) => {
-          event.preventDefault();
-          window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-      }
     </script>
   </body>
 </html>

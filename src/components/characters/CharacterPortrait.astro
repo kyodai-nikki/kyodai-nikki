@@ -56,7 +56,7 @@ const { character, class: className } = Astro.props;
     }
   }
 
-  @media (max-width: 880px) {
+  @media (--bp-tablet) {
     .character-portrait {
       min-height: auto;
       justify-content: center;
@@ -66,7 +66,7 @@ const { character, class: className } = Astro.props;
     }
   }
 
-  @media (max-width: 480px) {
+  @media (--bp-mobile) {
     .character-portrait__image {
       max-height: 320px;
     }

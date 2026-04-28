@@ -23,7 +23,7 @@ const { title, eyebrow, centered = true } = Astro.props;
     line-height: 1.2;
   }
 
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .page-heading__title {
       font-size: 36px;
     }

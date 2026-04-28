@@ -1,0 +1,33 @@
+---
+/**
+ * 設定資料ページ専用の MediaModal ラッパー。
+ * panelClass / hint / detailsAriaLabel など固定値はすべて内部で持ち、
+ * imageHrefAriaLabel は title と等しいので自動で揃える。
+ * 呼び出し側は資料ごとに変わる値だけを渡せばよい。
+ */
+import MediaModal, {
+  type MediaModalImage,
+  type MediaModalDetail,
+} from "../../common/MediaModal.astro";
+import { othersPageMsg } from "../../../msg/others";
+
+interface Props {
+  id: string;
+  title: string;
+  images: MediaModalImage[];
+  details?: MediaModalDetail[];
+}
+
+const { id, title, images, details } = Astro.props;
+---
+
+<MediaModal
+  id={id}
+  title={title}
+  images={images}
+  imageHrefAriaLabel={title}
+  hint={othersPageMsg.detailHint}
+  details={details}
+  detailsAriaLabel={othersPageMsg.detailsHeading}
+  panelClass="others-settings-modal-panel"
+/>

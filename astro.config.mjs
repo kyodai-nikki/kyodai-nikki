@@ -4,7 +4,7 @@ import rehypeExternalLinks from "rehype-external-links";
 
 export default defineConfig({
   site: "https://kyodai-nikki.github.io",
-  base: "/kyodai",
+  // base: "/kyodai",
   // site: "https://kyodai-nikki.com",
   markdown: {
     syntaxHighlight: false,

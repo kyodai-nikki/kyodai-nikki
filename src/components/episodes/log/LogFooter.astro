@@ -87,7 +87,6 @@ const {
      （:global で内部要素を直接いじらないことで疎結合を維持） */
   .episode-log__footer :global(.episode-log__share-buttons) {
     --share-btn-size: 30px;
-    --share-icon-size: 17px;
     --share-line-icon-size: 28px;
     --share-buttons-gap: 18px;
     --share-btn-bg: var(--c-share-btn-bg-on-log);
@@ -95,7 +94,7 @@ const {
     --share-btn-hover-transform: none;
   }
 
-  @media (max-width: 720px) {
+  @media (--bp-tablet) {
     .episode-log__footer-nav {
       gap: 22px;
     }
