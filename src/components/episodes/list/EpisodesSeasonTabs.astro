@@ -1,9 +1,10 @@
 ﻿---
 import Tabs from "../../common/Tabs.astro";
 import { episodeSeasonTabItems } from "../../../lib/episodes/view";
+import type { SeasonInfo } from "../../../lib/episodes";
 
 interface Props {
-  activeSeason?: 1 | 2 | 3 | 4;
+  activeSeason?: SeasonInfo["number"];
   current?: "season" | "timeline";
 }
 

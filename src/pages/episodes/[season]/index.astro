@@ -1,7 +1,13 @@
 ---
 import Redirect from "../../../components/common/Redirect.astro";
-import { seasons as getSeasons, firstEpisodeOfSeason, episodeHref } from "../../../lib/episodes";
+import {
+  seasons as getSeasons,
+  firstEpisodeOfSeason,
+  episodeHref,
+  type SeasonInfo,
+} from "../../../lib/episodes";
 import { episodeSeasonStaticPaths } from "../../../lib/routes/episodes";
+import { withBase } from "../../../lib/urls";
 import { navigation } from "../../../data/navigation";
 
 export async function getStaticPaths() {
@@ -9,14 +15,14 @@ export async function getStaticPaths() {
 }
 
 interface Props {
-  seasonNumber: 1 | 2 | 3 | 4;
+  seasonNumber: SeasonInfo["number"];
 }
 
 const { seasonNumber } = Astro.props as Props;
 const seasons = await getSeasons();
 const seasonInfo = seasons.find((s) => s.number === seasonNumber)!;
 const initial = await firstEpisodeOfSeason(seasonNumber);
-const redirectTo = initial ? episodeHref(seasonInfo.slug, initial) : "/episodes";
+const redirectTo = initial ? episodeHref(seasonInfo.slug, initial) : withBase("/episodes");
 ---
 
 <Redirect

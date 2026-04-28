@@ -45,7 +45,7 @@ import Icon, { IconName } from "./Icon.astro";
     height: 28px;
   }
 
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .back-to-top {
       right: 20px;
       bottom: 20px;
@@ -59,3 +59,35 @@ import Icon, { IconName } from "./Icon.astro";
     }
   }
 </style>
+
+<script>
+  import { siteConfig } from "../../config";
+  let scrollListenerBound = false;
+
+  const updateBackToTop = () => {
+    const toTop = document.querySelector(".back-to-top");
+    if (toTop instanceof HTMLAnchorElement) {
+      toTop.dataset.visible = (window.scrollY > siteConfig.showThresholdBackToTop).toString();
+    }
+  };
+
+  const initBackToTop = () => {
+    const toTop = document.querySelector(".back-to-top");
+    if (!(toTop instanceof HTMLAnchorElement)) return;
+
+    updateBackToTop();
+
+    // window はページ遷移しても破棄されないため、scroll リスナーは1度だけバインドする
+    if (!scrollListenerBound) {
+      window.addEventListener("scroll", updateBackToTop, { passive: true });
+      scrollListenerBound = true;
+    }
+
+    toTop.addEventListener("click", (event) => {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  };
+
+  document.addEventListener("astro:page-load", initBackToTop);
+</script>

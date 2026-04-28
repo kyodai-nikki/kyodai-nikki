@@ -36,6 +36,7 @@ const { items, ariaLabel, size = "md" } = Astro.props;
   }
 
   .tab-nav a {
+    font-weight: 600;
     position: relative;
     color: var(--c-fg);
     font-family: var(--font-family-navigation);
@@ -77,7 +78,6 @@ const { items, ariaLabel, size = "md" } = Astro.props;
   }
 
   .tab-nav--md a {
-    font-weight: 600;
     font-size: var(--fs-xl);
     letter-spacing: var(--ls-wide);
   }
@@ -98,7 +98,7 @@ const { items, ariaLabel, size = "md" } = Astro.props;
     padding: 6px 0;
   }
 
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .tab-nav--lg {
       gap: 20px 28px;
     }

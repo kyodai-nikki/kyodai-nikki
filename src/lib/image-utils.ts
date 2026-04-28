@@ -1,6 +1,8 @@
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
+import sharp from "sharp";
+
 import { withBase } from "./urls";
 
 const IMAGE_EXTENSIONS = new Set(["svg", "png", "jpg", "jpeg", "webp"]);
@@ -54,6 +56,37 @@ export const imageThumbnailSrc = (dir: string, urlBase: string): string | undefi
     .filter((f) => !isThumbnail(f))
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))[0];
   return first ? withBase(`${urlBase}/${first}`) : undefined;
+};
+
+/**
+ * 指定ディレクトリ内の画像群のうち、最も高い画像の高さ（ピクセル）を返す。
+ * スライドショー等で「画像の自然な高さに合わせた表示領域」を決めるのに使う。
+ * 派生バリアント（thumbnail / medium / large）は除外する。
+ * 画像が存在しない、または全て読み込めなかった場合は undefined を返す。
+ */
+export const imageMaxHeight = async (dir: string): Promise<number | undefined> => {
+  if (!existsSync(dir)) return undefined;
+  let files: string[];
+  try {
+    files = readdirSync(dir)
+      .filter(isImageFile)
+      .filter((f) => !isOptimizedVariant(f));
+  } catch {
+    return undefined;
+  }
+  if (files.length === 0) return undefined;
+  const heights = await Promise.all(
+    files.map(async (file) => {
+      try {
+        const meta = await sharp(join(dir, file)).metadata();
+        return meta.height ?? 0;
+      } catch {
+        return 0;
+      }
+    }),
+  );
+  const max = Math.max(...heights);
+  return max > 0 ? max : undefined;
 };
 
 // ディレクトリ内の全画像を数値昇順で返す（thumbnail フィルタなし）。

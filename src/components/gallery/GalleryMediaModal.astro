@@ -1,0 +1,45 @@
+---
+/**
+ * ギャラリーページ専用の MediaModal ラッパー。
+ * 用途固定の prop（imageMaxWidth, panelClass）を内部で固定し、
+ * 呼び出し側はクレジット情報など画像ごとに変わる値だけを渡せばよい。
+ */
+import MediaModal, {
+  type MediaModalImage,
+} from "../common/MediaModal.astro";
+
+interface Props {
+  id: string;
+  title: string;
+  description?: string;
+  images: MediaModalImage[];
+  creditName?: string;
+  creditUrl?: string;
+  twitterId?: string;
+  closeLabel?: string;
+}
+
+const {
+  id,
+  title,
+  description,
+  images,
+  creditName,
+  creditUrl,
+  twitterId,
+  closeLabel,
+} = Astro.props;
+---
+
+<MediaModal
+  id={id}
+  title={title}
+  description={description}
+  images={images}
+  imageMaxWidth="420px"
+  creditName={creditName}
+  creditUrl={creditUrl}
+  twitterId={twitterId}
+  closeLabel={closeLabel}
+  panelClass="gallery-modal-panel"
+/>

@@ -1,10 +1,11 @@
 ---
 import Redirect from "../../components/common/Redirect.astro";
 import { firstEpisodeOfSeason, episodeHref } from "../../lib/episodes";
+import { withBase } from "../../lib/urls";
 import { navigation } from "../../data/navigation";
 
 const initial = await firstEpisodeOfSeason(1);
-const redirectTo = initial ? episodeHref("season1", initial) : "/episodes/timeline";
+const redirectTo = initial ? episodeHref("season1", initial) : withBase("/episodes/timeline");
 ---
 
 <Redirect title={navigation.episodes.title} redirectTo={redirectTo} />

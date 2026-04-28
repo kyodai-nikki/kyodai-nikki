@@ -1,7 +1,7 @@
 ﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
-import MediaModal from "../../components/common/MediaModal.astro";
+import GoodsMediaModal from "../../components/goods/GoodsMediaModal.astro";
 import { goodsImage, orderedGoods } from "../../lib/goods";
 import { goodsActions, goodsDetailImages } from "../../lib/view/goods";
 import { common } from "../../msg/common";
@@ -55,16 +55,12 @@ const goods = await orderedGoods();
         const detailImgs = goodsDetailImages(entry);
         const actions = goodsActions(entry);
         return (
-          <MediaModal
+          <GoodsMediaModal
             id={`goods-modal-${index}`}
             title={item.title}
             description={item.description}
             images={detailImgs}
-            imageMaxWidth="530px"
             actions={actions}
-            actionButtonSize="l"
-            closeLabel={common.actions.close}
-            panelClass="goods-modal-panel"
           />
         );
       })}
@@ -132,14 +128,7 @@ const goods = await orderedGoods();
     border: 1px solid var(--c-border);
   }
 
-  @media (max-width: 900px) {
-    .goods-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      max-width: 560px;
-    }
-  }
-
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .goods-grid {
       grid-template-columns: 1fr;
       max-width: 320px;

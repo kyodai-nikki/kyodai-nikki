@@ -97,15 +97,7 @@ const orderedVideos = await orderedMovies();
     border: 1px solid var(--c-border);
   }
 
-  @media (max-width: 960px) {
-    .movies-grid {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      max-width: 640px;
-      gap: 42px 18px;
-    }
-  }
-
-  @media (max-width: 640px) {
+  @media (--bp-tablet) {
     .movies-grid {
       grid-template-columns: 1fr;
       max-width: 300px;

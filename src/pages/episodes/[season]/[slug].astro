@@ -8,6 +8,7 @@ import {
   seasons as getSeasons,
   episodeUrlSlug,
   type EpisodeEntry,
+  type SeasonInfo,
 } from "../../../lib/episodes";
 import { episodesPageMsg } from "../../../msg/episodes";
 import { navigation } from "../../../data/navigation";
@@ -21,7 +22,7 @@ export async function getStaticPaths() {
 
 interface Props {
   episode: EpisodeEntry;
-  seasonNumber: 1 | 2 | 3 | 4;
+  seasonNumber: SeasonInfo["number"];
 }
 
 const { episode, seasonNumber } = Astro.props as Props;

@@ -20,7 +20,7 @@ export interface EpisodeEntry {
 }
 
 export interface SeasonInfo {
-  number: 1 | 2 | 3 | 4;
+  number: number;
   label: string;
   slug: string;
 }
@@ -30,7 +30,7 @@ export interface Season extends SeasonInfo {
 }
 
 export interface TimelineEntry extends EpisodeEntry {
-  season: 1 | 2 | 3 | 4;
+  season: number;
   seasonSlug: string;
   seasonLabel: string;
 }
@@ -67,7 +67,8 @@ const isNonNormalEpisode = (type: EpisodeType): boolean => type !== "normal";
 
 const episodeSeasonNumberLabel = (
   episode: Pick<EpisodeEntry, "seasonAllNumber" | "overallNumber">,
-): string => String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0");
+): string =>
+  String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0");
 
 const buildEpisodeLabel = (
   type: EpisodeType,
@@ -196,10 +197,7 @@ export const episodeUrlSlug = (e: EpisodeEntry): string =>
   String(e.seasonEpisodeNumber ?? e.overallNumber);
 
 // エピソード一覧カード用の画像のパスを返す。
-export const episodeListImage = (
-  seasonSlug: string,
-  e: EpisodeEntry,
-): string =>
+export const episodeListImage = (seasonSlug: string, e: EpisodeEntry): string =>
   withBase(`${IMG_BASE}/${seasonSlug}/${episodeUrlSlug(e)}/episode-list.png`);
 
 // エピソード概要パネル用のサムネイル画像のパスを返す。
@@ -270,11 +268,11 @@ export const allEpisodes = async (): Promise<
     s.episodes.map((e) => ({ season: s, episode: e })),
   );
 
-// エピソード詳細ページへのパスを返す。
+// エピソード詳細ページへのパスを返す（base path 込み）。
 export const episodeHref = (seasonSlug: string, e: EpisodeEntry): string =>
-  `/episodes/${seasonSlug}/${episodeUrlSlug(e)}`;
+  withBase(`/episodes/${seasonSlug}/${episodeUrlSlug(e)}`);
 
-// シーズン番号とエピソード番号から詳細ページへのパスを返す。
+// シーズン番号とエピソード番号から詳細ページへのパスを返す（base path 込み）。
 export const episodeHrefByNumber = async (
   seasonNumber: SeasonInfo["number"],
   episodeNumber: number,
@@ -283,7 +281,7 @@ export const episodeHrefByNumber = async (
   if (!season) {
     throw new Error(`Unknown season number: ${seasonNumber}`);
   }
-  return `/episodes/${season.slug}/${episodeNumber}`;
+  return withBase(`/episodes/${season.slug}/${episodeNumber}`);
 };
 
 // タイムライン項目からエピソード詳細ページへのパスを返す。

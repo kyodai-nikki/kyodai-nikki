@@ -8,12 +8,8 @@ export const siteConfig = {
   logoPath: "/logo.png",
   teamName: "兄弟日記制作チーム",
   email: "kyodai-nikki@googlegroups.com",
-} as const;
-
-export const homeConfig = {
   enableSlideshow: false,
-} as const;
-
-export const path = {
+  slideshowTimeout: 5000,
+  showThresholdBackToTop: 100,
   contentBase: "./src/content",
 } as const;

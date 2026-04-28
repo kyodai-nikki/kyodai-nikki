@@ -19,7 +19,9 @@ export const galleryModalTitle = (entry: GalleryEntry): string =>
 export const galleryModalDescription = (entry: GalleryEntry): string =>
   entry.data.description ?? "";
 
-export const galleryDetailImages = (entry: GalleryEntry): GalleryDetailImage[] => {
+export const galleryDetailImages = (
+  entry: GalleryEntry,
+): GalleryDetailImage[] => {
   const dir = resolve(process.cwd(), "public/images/gallery", entry.id);
   const sources = imageListDetail(dir, `/images/gallery/${entry.id}`);
 
