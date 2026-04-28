@@ -1,5 +1,5 @@
 ---
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 import { siteConfig } from "../../config";
 import { withBase } from "../../lib/urls";
 import { headerNavItems } from "../../lib/view/navigation";
@@ -25,7 +25,7 @@ const items = headerNavItems(path);
         type="button"
         aria-expanded="false"
         aria-controls="site-nav"
-        aria-label={common.menu.open}
+        aria-label={commonMsg.menu.open}
       >
         Menu
       </button>
@@ -33,7 +33,7 @@ const items = headerNavItems(path);
   </div>
 
   <div class="site-header__nav">
-    <nav id="site-nav" class="site-nav container" aria-label={common.menu.navigation}>
+    <nav id="site-nav" class="site-nav container" aria-label={commonMsg.menu.navigation}>
       {items.map((item) => (
         <a
           href={item.href}

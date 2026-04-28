@@ -1,5 +1,5 @@
 ---
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import { withBase } from "../../../lib/urls";
 
 interface Props {
@@ -14,7 +14,7 @@ const { href } = Astro.props;
   href={href}
   target="_blank"
   rel="noopener"
-  aria-label={common.social.shareLine}
+  aria-label={commonMsg.social.shareLine}
 >
   <img src={withBase("/images/icons/line.png")} alt="" aria-hidden="true" />
 </a>

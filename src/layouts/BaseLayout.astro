@@ -4,7 +4,7 @@ import Header from "../components/common/Header.astro";
 import Footer from "../components/common/Footer.astro";
 import BackToTop from "../components/common/BackToTop.astro";
 import EpisodeSpoilerNotice from "../components/episodes/EpisodeSpoilerNoticeModal.astro";
-import { common } from "../msg/common";
+import { commonMsg } from "../msg/common";
 import { siteConfig } from "../config";
 import { withBase } from "../lib/urls";
 
@@ -22,7 +22,7 @@ interface Props {
 
 const {
   title,
-  description = common.site.defaultDescription,
+  description = commonMsg.site.defaultDescription,
   ogImage = withBase("/logo.png"),
   bodyClass = "",
   pageSectionClass = "",
@@ -33,6 +33,7 @@ const siteName = siteConfig.name;
 const fullTitle = title === siteName ? title : `${title} | ${siteName}`;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? "http://localhost");
 const episodesPath = withBase("/episodes");
+const pageShellBgImage = `url("${withBase("/images/bg.png")}")`;
 const showEpisodeSpoilerNotice =
   Astro.url.pathname === episodesPath || Astro.url.pathname.startsWith(`${episodesPath}/`);
 const hasPageTabs = Astro.slots.has("page-tabs");
@@ -62,9 +63,9 @@ const hasPageShell =
     <meta name="twitter:card" content="summary_large_image" />
   </head>
   <body class={bodyClass}>
-    <a href="#main" class="visually-hidden">{common.accessibility.skipToMain}</a>
+    <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
     <Header />
-    <main id="main" data-page-shell>
+    <main id="main" data-page-shell style={`--page-shell-bg-image: ${pageShellBgImage};`}>
       {showEpisodeSpoilerNotice && <EpisodeSpoilerNotice topHref={withBase("/")} />}
       {hasPageShell ? (
         <section class:list={["section", pageSectionClass]}>

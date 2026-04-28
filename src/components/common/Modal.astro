@@ -1,9 +1,11 @@
 ---
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 
 interface Props {
   id: string;
   ariaLabel: string;
+  variant?: "default" | "spoiler";
+  panelPadding?: "default" | "none";
   panelClass?: string;
   showCloseButton?: boolean;
   dismissible?: boolean;
@@ -12,6 +14,8 @@ interface Props {
 const {
   id,
   ariaLabel,
+  variant = "default",
+  panelPadding = "default",
   panelClass = "",
   showCloseButton = true,
   dismissible = true,
@@ -19,15 +23,15 @@ const {
 ---
 
 <dialog
-  class="modal"
+  class:list={["modal", `modal--${variant}`]}
   data-modal-root
   data-modal-id={id}
   data-modal-dismissible={dismissible ? "true" : "false"}
   aria-label={ariaLabel}
 >
-  <div class:list={["modal__panel", panelClass]}>
+  <div class:list={["modal__panel", panelPadding === "none" && "modal__panel--padding-none", panelClass]}>
     {showCloseButton && (
-      <button class="modal__close" type="button" aria-label={common.actions.close} data-modal-close>
+      <button class="modal__close" type="button" aria-label={commonMsg.actions.close} data-modal-close>
         &times;
       </button>
     )}
@@ -195,11 +199,12 @@ const {
 
 <style>
   .modal {
-    width: min(900px, calc(100vw - 40px));
+    width: var(--modal-width, min(900px, calc(100vw - 40px)));
     max-height: calc(100dvh - 40px);
     padding: 0;
-    border: 1px solid var(--c-border-modal);
-    background: var(--c-modal-bg);
+    border: 1px solid var(--modal-border-color, var(--c-border-modal));
+    border-radius: var(--modal-border-radius, 0);
+    background: var(--modal-bg, var(--c-modal-bg));
     overflow: hidden;
     box-shadow: var(--sh-modal);
     opacity: 0;
@@ -208,7 +213,16 @@ const {
   }
 
   .modal::backdrop {
-    background: var(--c-modal-backdrop);
+    background: var(--modal-backdrop-bg, var(--c-modal-backdrop));
+  }
+
+  .modal--spoiler {
+    --modal-width: min(920px, calc(100vw - 48px));
+    --modal-tablet-width: min(100vw - 24px, 920px);
+    --modal-border-radius: 16px;
+    --modal-border-color: var(--c-border-spoiler);
+    --modal-bg: var(--c-modal-spoiler-bg);
+    --modal-backdrop-bg: var(--c-modal-spoiler-backdrop);
   }
 
   .modal[open] {
@@ -235,6 +249,10 @@ const {
     padding: 56px 0 48px;
   }
 
+  .modal__panel--padding-none {
+    padding: 0;
+  }
+
   .modal__content {
     min-height: 0;
     overflow: auto;
@@ -258,7 +276,7 @@ const {
     }
 
     to {
-      background: var(--c-modal-backdrop);
+      background: var(--modal-backdrop-bg, var(--c-modal-backdrop));
     }
   }
 
@@ -298,7 +316,7 @@ const {
 
   @media (--bp-tablet) {
     .modal {
-      width: min(100vw - 20px, 680px);
+      width: var(--modal-tablet-width, min(100vw - 20px, 680px));
     }
 
     .modal__panel {

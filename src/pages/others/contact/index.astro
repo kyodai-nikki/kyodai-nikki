@@ -10,7 +10,7 @@ import ContactBody from "../../../content/contact.md";
 
 ---
 
-<BaseLayout title={`${navigation.others.title} | お問い合わせ`} description={othersPageMsg.description}>
+<BaseLayout title={`${navigation.others.title} | お問い合わせ`} description={othersPageMsg.meta.description}>
   <PageHeading slot="page-heading" title={navigation.others.title} />
   <OthersTabs slot="page-tabs" currentSection="contact" />
   <section class="others">
@@ -71,10 +71,6 @@ import ContactBody from "../../../content/contact.md";
   @media (--bp-tablet) {
     .others-contact {
       min-height: auto;
-    }
-
-    .others-contact__card {
-      padding: 36px 20px;
     }
   }
 </style>

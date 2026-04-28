@@ -1,15 +1,13 @@
-export const common = {
-  symbol: {
-    copyLight: "©",
-    dot: "・",
-    externalStatusIcon: "▼",
+export const commonMsg = {
+  symbols: {
+    copyright: "©",
+    separatorDot: "・",
+    externalMarker: "▼",
   },
-  badge: {
+  badges: {
     r18: "R-18",
     r18g: "R-18G",
   },
-  redirectingMsg: "移動中…",
-  dear: "様",
   site: {
     defaultDescription: "TRPG セッションログのアーカイブ。",
   },
@@ -22,7 +20,6 @@ export const common = {
     navigation: "サイトナビゲーション",
   },
   social: {
-    officialX: "公式 X (Twitter)",
     shareX: "Xで共有",
     shareLine: "LINEで共有",
   },
@@ -39,10 +36,22 @@ export const common = {
     nextEpisode: "次の話",
     previousEpisode: "前の話",
   },
-  noEpisodes: "まだエピソードがありません。",
-  spoilerNotice: {
-    title: "注意",
-    back: "戻る",
-    proceed: "進む",
+  empty: {
+    episodes: "まだエピソードがありません。",
+  },
+  honorifics: {
+    polite: "様",
+  },
+  redirect: {
+    loading: "移動中…",
+  },
+  notices: {
+    spoiler: {
+      title: "注意",
+      actions: {
+        back: "戻る",
+        proceed: "進む",
+      },
+    },
   },
 } as const;

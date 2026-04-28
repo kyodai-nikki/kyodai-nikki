@@ -1,6 +1,6 @@
 ﻿---
 import type { EpisodeScenarioInfo } from "../../../lib/episodes/logs";
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import BadgeList from "../../common/BadgeList.astro";
 
@@ -13,7 +13,7 @@ interface Props {
 }
 
 const { title, episodeNumberLabel, badges, scenario, showSmallTitle = false } = Astro.props;
-const castLabel = scenario?.cast?.length ? scenario.cast.join(common.symbol.dot) : undefined;
+const castLabel = scenario?.cast?.length ? scenario.cast.join(commonMsg.symbols.separatorDot) : undefined;
 const writerLabel = scenario?.author;
 const sourceLabel = scenario?.distributionName;
 ---
@@ -44,13 +44,13 @@ const sourceLabel = scenario?.distributionName;
       <div class="episode-log__meta-line episode-log__meta-line--author">
         {writerLabel && (
           <div class="episode-log__meta-inline">
-            <dt>{episodesPageMsg.logInfo.scenarioAuthor}</dt>
-            <dd>{writerLabel}{common.dear}</dd>
+            <dt>{episodesPageMsg.scenario.author}</dt>
+            <dd>{writerLabel}{commonMsg.honorifics.polite}</dd>
           </div>
         )}
         {sourceLabel && (
           <div class="episode-log__meta-inline">
-            <dt>{episodesPageMsg.logInfo.scenarioDistribution}</dt>
+            <dt>{episodesPageMsg.scenario.distribution}</dt>
             <dd>
               {scenario?.distributionUrl ? (
                 <a href={scenario.distributionUrl} target="_blank" rel="noopener">
@@ -64,10 +64,10 @@ const sourceLabel = scenario?.distributionName;
         )}
         {scenario?.adaptedScenarioUrl && (
           <div class="episode-log__meta-inline">
-            <dt>{episodesPageMsg.logInfo.adaptedScenario}</dt>
+            <dt>{episodesPageMsg.scenario.adapted}</dt>
             <dd>
               <a href={scenario.adaptedScenarioUrl} target="_blank" rel="noopener">
-                {episodesPageMsg.logInfo.adaptedScenarioLink}
+                {episodesPageMsg.scenario.adaptedLink}
               </a>
             </dd>
           </div>
@@ -164,10 +164,6 @@ const sourceLabel = scenario?.distributionName;
       flex-direction: column;
       align-items: flex-start;
       gap: 8px;
-    }
-
-    .episode-log__badge-list {
-      justify-content: flex-start;
     }
 
     .episode-log__meta-line {

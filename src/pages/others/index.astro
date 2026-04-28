@@ -11,14 +11,14 @@ const target = withBase(defaultOthersPath());
 
 <BaseLayout
   title={navigation.others.title}
-  description={othersPageMsg.description}
+  description={othersPageMsg.meta.description}
   pageContainerClass="container--narrow others-redirect"
 >
   <PageHeading slot="page-heading" title={navigation.others.title} />
   <div>
-    <p>{othersPageMsg.redirecting}</p>
+    <p>{othersPageMsg.redirect.loading}</p>
     <p>
-      <a href={target}>{othersPageMsg.redirectLink}</a>
+      <a href={target}>{othersPageMsg.redirect.fallbackLink}</a>
     </p>
   </div>
 

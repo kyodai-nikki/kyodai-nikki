@@ -1,7 +1,7 @@
 ---
 import ShareButtons from "./btn/ShareButtons.astro";
 import { withBase } from "../../lib/urls";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 import { siteConfig } from "../../config";
 
 interface Props {
@@ -20,11 +20,11 @@ const year = new Date().getFullYear();
     </div>
 
     <div class="site-footer__copyright">
-      {common.symbol.copyLight}{site.copyStartYear}-{year} {siteConfig.teamName}
+      {commonMsg.symbols.copyright}{site.copyStartYear}-{year} {siteConfig.teamName}
     </div>
 
     <div class="site-footer__share">
-      <span>{common.footer.shareLabel}</span>
+      <span>{commonMsg.footer.shareLabel}</span>
       <ShareButtons url={shareUrl} title={shareTitle} />
     </div>
   </div>

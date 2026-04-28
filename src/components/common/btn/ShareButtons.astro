@@ -6,14 +6,15 @@ import { shareLinks } from "../../../lib/view/share";
 interface Props {
   url: string;
   title: string;
+  variant?: "default" | "log";
   className?: string;
 }
 
-const { url, title, className = "" } = Astro.props;
+const { url, title, variant = "default", className = "" } = Astro.props;
 const { xHref, lineHref } = shareLinks(url, title);
 ---
 
-<div class:list={["share-buttons", className]}>
+<div class:list={["share-buttons", `share-buttons--${variant}`, className]}>
   <XShareButton href={xHref} />
   <LineShareButton href={lineHref} />
 </div>
@@ -26,5 +27,14 @@ const { xHref, lineHref } = shareLinks(url, title);
     display: inline-flex;
     align-items: center;
     gap: var(--share-buttons-gap, 10px);
+  }
+
+  .share-buttons--log {
+    --share-btn-size: 30px;
+    --share-line-icon-size: 28px;
+    --share-buttons-gap: 18px;
+    --share-btn-bg: var(--c-share-btn-bg-on-log);
+    --share-btn-hover-bg: var(--c-share-btn-bg-on-log-hover);
+    --share-btn-hover-transform: none;
   }
 </style>

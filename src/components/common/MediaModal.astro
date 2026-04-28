@@ -1,7 +1,7 @@
 ---
 import Button from "./btn/Button.astro";
 import Modal from "./Modal.astro";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 
 export interface MediaModalImage {
   /** 原寸（jpg/png/svg）の URL。<picture> の最終フォールバックに使う */
@@ -58,7 +58,7 @@ interface Props {
   /** 閉じるボタンの前に並べる任意のアクション */
   actions?: MediaModalAction[];
   actionButtonSize?: MediaModalButtonSize;
-  /** 閉じるボタンのラベル。デフォルト common.actions.back */
+  /** 閉じるボタンのラベル。デフォルト commonMsg.actions.back */
   closeLabel?: string;
   /** dialog の panel に追加する class */
   panelClass?: string;
@@ -80,7 +80,7 @@ const {
   detailsAriaLabel,
   actions = [],
   actionButtonSize = "ss",
-  closeLabel = common.actions.back,
+  closeLabel = commonMsg.actions.back,
   panelClass = "",
 } = Astro.props;
 
@@ -132,7 +132,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 
       {description && <p class="media-modal__description">{description}</p>}
       {hint && <p class="media-modal__hint">{hint}</p>}
-      {creditName && <p class="media-modal__credit">{creditName}{common.dear}</p>}
+      {creditName && <p class="media-modal__credit">{creditName}{commonMsg.honorifics.polite}</p>}
       {creditUrl && (
         <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
           {creditUrl}

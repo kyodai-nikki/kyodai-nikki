@@ -10,7 +10,7 @@ interface Props {
 const { quote, class: className } = Astro.props;
 ---
 
-<div class:list={["character-quote", className]} aria-label={charactersPageMsg.quoteAriaLabel}>
+<div class:list={["character-quote", className]} aria-label={charactersPageMsg.aria.quote}>
   {quote}
 </div>
 

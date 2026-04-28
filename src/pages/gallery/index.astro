@@ -8,7 +8,7 @@ import {
   galleryModalDescription,
   galleryModalTitle,
 } from "../../lib/view/gallery";
-import { common } from "../../msg/common";
+import { commonMsg } from "../../msg/common";
 import { galleryPageMsg } from "../../msg/gallery";
 import { navigation } from "../../data/navigation";
 
@@ -16,7 +16,7 @@ const displayedImages = await displayedGalleryImages();
 ---
 <BaseLayout
   title={navigation.gallery.title}
-  description={galleryPageMsg.description}
+  description={galleryPageMsg.meta.description}
   bodyClass="gallery-page"
   pageSectionClass="gallery"
 >
@@ -24,11 +24,11 @@ const displayedImages = await displayedGalleryImages();
 
   {displayedImages.length === 0 ? (
     <p class="gallery__empty">
-      {galleryPageMsg.empty}
+      {galleryPageMsg.empty.list}
     </p>
   ) : (
     <>
-      <div class="gallery-grid" aria-label={galleryPageMsg.listAriaLabel}>
+      <div class="gallery-grid" aria-label={galleryPageMsg.aria.list}>
         {displayedImages.map((entry, index) => {
           const img = entry.data;
           const modalId = `gallery-modal-${index}`;
@@ -40,7 +40,7 @@ const displayedImages = await displayedGalleryImages();
             <button
               class="gallery-card"
               type="button"
-              aria-label={common.actions.open(modalTitle)}
+              aria-label={commonMsg.actions.open(modalTitle)}
               data-modal-open={modalId}
               style={{ "--delay": `${index * 30}ms` }}
             >

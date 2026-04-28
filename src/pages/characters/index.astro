@@ -7,7 +7,7 @@ import { navigation } from "../../data/navigation";
 
 const characters = await orderedCharacters();
 ---
-<BaseLayout title={navigation.characters.title} description={charactersPageMsg.description}>
+<BaseLayout title={navigation.characters.title} description={charactersPageMsg.meta.description}>
   <PageHeading slot="page-heading" title={navigation.characters.title} />
 
   <ul class="chars-grid">

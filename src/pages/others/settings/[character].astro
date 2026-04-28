@@ -16,7 +16,7 @@ import {
   settingsCharacterHref,
   settingsMaterialImages,
 } from "../../../lib/view/others";
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import { othersPageMsg } from "../../../msg/others";
 import { navigation } from "../../../data/navigation";
 
@@ -32,20 +32,21 @@ const materials = await orderedSettingsMaterials(characterSlug);
 
 <BaseLayout
   title={`${navigation.others.title} | ${character.data.name}`}
-  description={othersPageMsg.description}
+  description={othersPageMsg.meta.description}
   pageSectionClass="others"
 >
   <PageHeading slot="page-heading" title={navigation.others.title} />
   <OthersTabs slot="page-tabs" currentSection="settings" />
 
   <div class="others-settings">
-    <nav class="others-settings__nav" aria-label={othersPageMsg.settingsCharactersAriaLabel}>
+    <nav class="others-settings__nav" aria-label={othersPageMsg.aria.settingsCharacters}>
       {settingsCharacters.map((item) => (
         <Button
           class="others-settings__nav-button"
           href={settingsCharacterHref(settingsCharacterSlug(item))}
           type={settingsCharacterSlug(item) === characterSlug ? "black" : "white"}
           size="m"
+          minWidth="148px"
           aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
         >
           {item.data.name}
@@ -54,14 +55,14 @@ const materials = await orderedSettingsMaterials(characterSlug);
     </nav>
 
     <div class="others-settings__content">
-      <div class="others-settings__grid" aria-label={othersPageMsg.materialsAriaLabel(character.data.name)}>
+      <div class="others-settings__grid" aria-label={othersPageMsg.aria.materials(character.data.name)}>
         {materials.map((item, index) => {
           const modalId = `others-settings-${characterSlug}-${index}`;
           return (
             <button
               class="others-settings__card"
               type="button"
-              aria-label={common.actions.open(item.data.title)}
+              aria-label={commonMsg.actions.open(item.data.title)}
               data-modal-open={modalId}
             >
               <div class="others-settings__card-image-wrap">
@@ -175,10 +176,6 @@ const materials = await orderedSettingsMaterials(characterSlug);
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: center;
-    }
-
-    :global(.others-settings__nav-button) {
-      --button-min-width: 148px;
     }
 
     .others-settings__content {

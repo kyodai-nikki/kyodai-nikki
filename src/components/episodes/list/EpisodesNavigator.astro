@@ -18,7 +18,7 @@ import {
 } from "../../../lib/episodes/view";
 import { getCollection } from "astro:content";
 import { hasAnyEpisodeLog } from "../../../lib/episodes/logs";
-import { common } from "../../../msg/common";
+import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import Badge from "../../common/Badge.astro";
 
@@ -66,7 +66,7 @@ const logHref = current
 <div class="ep-layout">
   <ol class="ep-list" aria-label={`${activeSeasonInfo.label} episodes`}>
     {list.length === 0 ? (
-      <li class="ep-empty">{episodesPageMsg.noEpisodesYet}</li>
+      <li class="ep-empty">{episodesPageMsg.empty.noEpisodesYet}</li>
     ) : (
       list.map((e) => (
         <li>
@@ -89,7 +89,7 @@ const logHref = current
         <img
           class="ep-detail__image"
           src={episodeThumbnailImage(activeSeasonInfo.slug, current)}
-          alt={episodesPageMsg.thumbnailAlt(current.title)}
+          alt={episodesPageMsg.alt.thumbnail(current.title)}
           data-fallback-src={dummyThumbnail}
         />
       </div>
@@ -106,19 +106,19 @@ const logHref = current
       <div class="ep-detail__foot">
         <div>
           {current.badge && <Badge label={current.badge} variant={badgeVariant} />}
-          {current.isR18 && <Badge label={common.badge.r18} variant={badgeVariant} />}
-          {current.isR18G && <Badge label={common.badge.r18g} variant={badgeVariant} />}
+          {current.isR18 && <Badge label={commonMsg.badges.r18} variant={badgeVariant} />}
+          {current.isR18G && <Badge label={commonMsg.badges.r18g} variant={badgeVariant} />}
         </div>
         {logHref && (
           <a class="ep-detail__read" href={logHref}>
-            {common.actions.read}
+            {commonMsg.actions.read}
           </a>
         )}
       </div>
     </article>
   ) : (
     <article class="ep-detail ep-detail--empty">
-      <p>{episodesPageMsg.episodeSelectionEmpty}</p>
+      <p>{episodesPageMsg.empty.episodeSelection}</p>
     </article>
   )}
 </div>

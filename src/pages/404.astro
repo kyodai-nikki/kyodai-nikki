@@ -4,13 +4,13 @@ import PageHeading from "../components/common/PageHeading.astro";
 import { withBase } from "../lib/urls";
 import { notFoundPageMsg } from "../msg/notFound";
 ---
-<BaseLayout title={notFoundPageMsg.title} pageContainerClass="container--narrow">
-  <PageHeading slot="page-heading" title={notFoundPageMsg.heading} eyebrow="404" />
+<BaseLayout title={notFoundPageMsg.meta.title} pageContainerClass="container--narrow">
+  <PageHeading slot="page-heading" title={notFoundPageMsg.headings.main} eyebrow="404" />
   <div class="notfound">
     <p class="notfound__description">
-      {notFoundPageMsg.description}
+      {notFoundPageMsg.body.description}
     </p>
-    <p><a href={withBase("/")}>{notFoundPageMsg.redirectToTop}</a></p>
+    <p><a href={withBase("/")}>{notFoundPageMsg.links.top}</a></p>
   </div>
 </BaseLayout>
 

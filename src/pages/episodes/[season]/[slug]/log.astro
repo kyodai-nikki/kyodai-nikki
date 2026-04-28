@@ -27,7 +27,7 @@ import {
 } from "../../../../lib/episodes/logs";
 import { episodesPageMsg } from "../../../../msg/episodes";
 import { navigation } from "../../../../data/navigation";
-import { common } from "../../../../msg/common";
+import { commonMsg } from "../../../../msg/common";
 
 export async function getStaticPaths() {
   const logEntries = await getCollection("episodeLogs");
@@ -100,10 +100,10 @@ const mainSection = sectionEntries.main;
 const pageDescription =
   mainSection?.data.scenario?.description ?? episode.description.split("\n")[0] ?? episode.title;
 
-const episodeNumberLabel = episodeLogHeadingLabel(episode, episodesPageMsg.deletedEpisodeTag);
+const episodeNumberLabel = episodeLogHeadingLabel(episode, episodesPageMsg.labels.deletedEpisodeTag);
 const badges = [
-  episode.isR18G ? common.badge.r18g : undefined,
-  episode.isR18 ? common.badge.r18 : undefined,
+  episode.isR18G ? commonMsg.badges.r18g : undefined,
+  episode.isR18 ? commonMsg.badges.r18 : undefined,
 ].filter(Boolean) as string[];
 ---
 
@@ -143,7 +143,7 @@ const badges = [
             showNextButton={showNextButton}
             nextHref={nextHref}
             shareUrl={Astro.url.href}
-            shareTitle={`${episode.title} ${episodesPageMsg.logSuffix}`}
+            shareTitle={`${episode.title} ${episodesPageMsg.labels.logSuffix}`}
           />
         </section>
       </div>

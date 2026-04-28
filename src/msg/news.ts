@@ -1,5 +1,11 @@
 export const newsPageMsg = {
-  description: "兄弟日記のお知らせ一覧。",
-  empty: "お知らせはありません。",
-  externalSuffix: " ↗",
+  meta: {
+    description: "兄弟日記のお知らせ一覧。",
+  },
+  empty: {
+    list: "お知らせはありません。",
+  },
+  labels: {
+    externalSuffix: " ↗",
+  },
 } as const;
