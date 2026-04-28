@@ -1,5 +1,4 @@
 ---
-season: 1
 session:
   type: another
   rating:
