@@ -35,6 +35,7 @@
 
   --c-border: #e5e5e5; /* デフォルト罫線（ごく薄い） */
   --c-border-strong: #cfcfcf; /* hover やフォーカス時 */
+  --c-border-black: #000000;
 
   /* アクセントは設けず、本文色を使い回す（兄弟日記のモノクロ感を優先） */
   --c-accent: #111111;
@@ -64,9 +65,15 @@
   --c-fg-on-dark: #ffffff; /* ダーク反転背景上のテキスト */
   --c-fg-on-dark-soft: rgba(255, 255, 255, 0.92); /* 同上、やや弱め */
 
+  /* News ------------------------------------------------ */
+  --c-news-border: #333333;
+  --c-news-date-fg: #666666;
+  --c-news-text-fg: #333333;
+
   /* ヘッダ / ナビ / フッタ ---------------------------- */
   --c-header-bg: #ffffff;
   --c-header-nav-bg: rgba(255, 255, 255, 0.8); /* ぼかし半透明バー */
+  --c-header-menu-icon: #333333;
   --c-nav-link: #5f5f5f;
   --c-footer-bg: #ffffff;
   --c-footer-copyright: #6a6a6a;
@@ -118,6 +125,9 @@
   --c-share-btn-bg-default-hover: #3f3f3f;
   --c-share-btn-bg-on-log: #6f6f6f;
   --c-share-btn-bg-on-log-hover: #2f2f2f;
+
+  /* ヘッダーナビ -------------------------------------- */
+  --c-site-menu-backdrop: rgba(17, 17, 17, 0.24);
 
   /* Badge --------------------------------------------- */
   --c-badge-bg: #333333;
@@ -239,6 +249,7 @@
   --sh-card-hover: 0 18px 28px rgba(0, 0, 0, 0.14); /* gallery card hover */
   --sh-timeline-card: 0 8px 18px rgba(0, 0, 0, 0.08); /* timeline card hover */
   --sh-modal: 0 30px 80px rgba(0, 0, 0, 0.22); /* モーダル外周 */
+  --sh-site-menu: -10px 2px 10px rgba(51, 51, 51, 0.1);
 
   /* Layout widths --------------------------------------- */
   --w-content: 68ch; /* 本文・ログ本体（読み物向け幅） */

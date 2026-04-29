@@ -3,6 +3,7 @@ import { commonMsg } from "../../msg/common";
 import { siteConfig } from "../../config";
 import { withBase } from "../../lib/urls";
 import { headerNavItems } from "../../lib/view/navigation";
+import Icon, { IconName } from "./Icon.astro";
 import XShareButton from "./btn/XShareButton.astro";
 
 const site = siteConfig;
@@ -30,9 +31,12 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
         data-label-open={commonMsg.menu.open}
         data-label-close={commonMsg.actions.close}
       >
-        <span class="nav-toggle__line" aria-hidden="true"></span>
-        <span class="nav-toggle__line" aria-hidden="true"></span>
-        <span class="nav-toggle__line" aria-hidden="true"></span>
+        <span class="nav-toggle__icon nav-toggle__icon--open" aria-hidden="true">
+          <Icon name={IconName.Menu} size="100%" class="nav-toggle__svg" />
+        </span>
+        <span class="nav-toggle__icon nav-toggle__icon--close" aria-hidden="true">
+          <Icon name={IconName.Close} size="100%" class="nav-toggle__svg" />
+        </span>
       </button>
     </div>
   </div>
@@ -63,7 +67,6 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     right: 0;
     z-index: 1000;
     background: var(--c-header-bg);
-    border-bottom: 1px solid var(--c-border);
   }
 
   .site-header__top {
@@ -111,6 +114,7 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     justify-content: center;
     min-height: var(--h-header-nav);
     background: var(--c-header-nav-bg);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
     backdrop-filter: saturate(1.2) blur(8px);
     -webkit-backdrop-filter: saturate(1.2) blur(8px);
   }
@@ -158,30 +162,40 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     z-index: 1003;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 6px;
   }
 
-  .nav-toggle__line {
-    display: block;
-    width: 24px;
-    height: 1px;
-    background: currentColor;
+  .nav-toggle__icon {
+    position: absolute;
+    inset: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    margin: auto;
+    line-height: 0;
     transition:
-      transform var(--dur-base) var(--ease-out),
-      opacity var(--dur-base) var(--ease-out);
+      opacity var(--dur-base) var(--ease-out),
+      transform var(--dur-base) var(--ease-out);
   }
 
-  .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
+  :global(.nav-toggle__svg) {
+    display: block;
   }
 
-  .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(2) {
+  .nav-toggle__icon--close {
     opacity: 0;
+    transform: rotate(-90deg) scale(0.85);
   }
 
-  .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+  .nav-toggle[aria-expanded="true"] .nav-toggle__icon--open {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.85);
+  }
+
+  .nav-toggle[aria-expanded="true"] .nav-toggle__icon--close {
+    opacity: 1;
+    transform: rotate(0) scale(1);
   }
 
   @media (--bp-laptop) {
@@ -193,14 +207,33 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       overflow: hidden;
     }
 
+    .site-header::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 150px;
+      background: var(--c-site-menu-backdrop);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--dur-base) var(--ease-out);
+      z-index: 1003;
+    }
+
+    :global(body[data-nav-open]) .site-header::before {
+      opacity: 1;
+    }
+
     .site-header {
-      border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+      border-bottom: 0;
     }
 
     .site-header__top {
       height: 150px;
       padding-inline: var(--s-6);
       position: relative;
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
     }
 
     .site-brand__logo {
@@ -228,7 +261,8 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       background: transparent;
       backdrop-filter: none;
       -webkit-backdrop-filter: none;
-      z-index: 1002;
+      z-index: auto;
+      box-shadow: none;
     }
 
     .site-nav {
@@ -253,13 +287,14 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       background-size: auto 100dvh;
       background-repeat: no-repeat;
       border: 0;
+      box-shadow: var(--sh-site-menu);
       opacity: 0;
       pointer-events: none;
       transform: translateX(100%);
       transition:
         opacity var(--dur-base) var(--ease-out),
         transform var(--dur-base) var(--ease-out);
-      z-index: 1002;
+      z-index: 1004;
     }
 
     .site-nav[data-open="true"] {
@@ -287,23 +322,16 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
 
     .nav-toggle {
       display: inline-flex;
+      color: var(--c-header-menu-icon);
       width: 56px;
       height: 56px;
       padding: 12px;
-      gap: 8px;
+      z-index: 1005;
     }
 
-    .nav-toggle__line {
+    .nav-toggle__icon {
       width: 32px;
-      height: 2px;
-    }
-
-    .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(1) {
-      transform: translateY(10px) rotate(45deg);
-    }
-
-    .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(3) {
-      transform: translateY(-10px) rotate(-45deg);
+      height: 32px;
     }
   }
 
@@ -313,6 +341,10 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     }
 
     .site-header__top {
+      height: 75px;
+    }
+
+    .site-header::before {
       height: 75px;
     }
 
@@ -336,20 +368,11 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       width: 44px;
       height: 44px;
       padding: 10px;
-      gap: 6px;
     }
 
-    .nav-toggle__line {
-      width: 24px;
-      height: 1px;
-    }
-
-    .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(1) {
-      transform: translateY(7px) rotate(45deg);
-    }
-
-    .nav-toggle[aria-expanded="true"] .nav-toggle__line:nth-child(3) {
-      transform: translateY(-7px) rotate(-45deg);
+    .nav-toggle__icon {
+      width: 28px;
+      height: 28px;
     }
   }
 

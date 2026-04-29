@@ -1,5 +1,9 @@
 # CSS
 
+## AGENTS.md / CLAUDE.md の同期
+
+`AGENTS.md` または `CLAUDE.md` のいずれかを編集する場合、プロジェクト共通の方針は両方のファイルに同じ内容を反映すること。
+
 ## シェアボタンのスタイル責務について
 
 シェアボタン（X・LINEなど）のホバーエフェクトや色・サイズに関するスタイルは、ボタンを使用する親コンポーネント側ではなく、各シェアボタンコンポーネント（XShareButton.astro・LineShareButton.astro など）の内部に定義すること。
@@ -19,6 +23,12 @@
 ## 共通パーツの切り出し
 
 複数箇所で使われる、または使われる可能性のある UI 要素は積極的にコンポーネントとして切り出すこと。
+
+## アイコンの扱い
+
+アイコンを追加する場合は、原則として `src/components/common/icon/` 配下に単体の Astro コンポーネントを作成し、`src/components/common/icon/IconName.ts` と `src/components/common/Icon.astro` のマッピングに登録すること。
+利用側では SVG path を直接埋め込まず、`Icon.astro` を経由して表示する。
+単純な SVG アイコンを数点使うだけの場合は、外部 UI ライブラリや React 連携を追加せず、既存の Icon コンポーネント構成に寄せること。
 
 ## ファイルの配置
 
