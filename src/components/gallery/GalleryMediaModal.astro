@@ -7,6 +7,7 @@
 import MediaModal, {
   type MediaModalImage,
 } from "../common/MediaModal.astro";
+import { commonMsg } from "../../msg/common";
 
 interface Props {
   id: string;
@@ -16,7 +17,6 @@ interface Props {
   creditName?: string;
   creditUrl?: string;
   twitterId?: string;
-  closeLabel?: string;
 }
 
 const {
@@ -27,7 +27,6 @@ const {
   creditName,
   creditUrl,
   twitterId,
-  closeLabel,
 } = Astro.props;
 ---
 
@@ -40,6 +39,6 @@ const {
   creditName={creditName}
   creditUrl={creditUrl}
   twitterId={twitterId}
-  closeLabel={closeLabel}
+  closeLabel={commonMsg.actions.close}
   panelClass="gallery-modal-panel"
 />

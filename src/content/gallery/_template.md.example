@@ -9,5 +9,4 @@ creditName: "作者"
 # 外部URL 空だとエラーになるため注意
 creditUrl: ""
 twitterId: "XアカウントId"
-buttonLabel: "戻る"
 ---
