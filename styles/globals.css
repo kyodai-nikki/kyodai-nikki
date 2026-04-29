@@ -227,6 +227,12 @@ code {
   border-radius: var(--r-sm);
 }
 
+@media (--bp-laptop) {
+  .section {
+    padding: 30px 0;
+  }
+}
+
 @media (max-width: 640px) {
   :root {
     --fs-3xl: 1.875rem;
@@ -235,5 +241,11 @@ code {
 
   .container {
     padding-inline: var(--s-5);
+  }
+}
+
+@media (--bp-mobile) {
+  .container {
+    padding-inline: 15px;
   }
 }

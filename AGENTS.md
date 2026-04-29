@@ -9,6 +9,7 @@ Project handoff notes for future Codex sessions.
 - Shared display text and labels should live under `src/msg/`.
 - Public asset URLs and internal links should work with a configured base path. Use `withBase()` for final `href` and `src` values.
 - Avoid hard-coded CSS URLs like `url("/...")` when the site may be deployed under a base path. If CSS needs a URL, prefer passing a `withBase()` value from Astro into a CSS custom property.
+- When editing either `AGENTS.md` or `CLAUDE.md`, keep shared project conventions in sync by adding the same policy to both files.
 
 ## Layout And CSS
 
@@ -18,6 +19,13 @@ Project handoff notes for future Codex sessions.
 - Parent components should not directly override child component internals. Use a `class` prop, local wrapper class, or CSS custom property when customization is needed.
 - Follow the existing responsive breakpoints: `@media (--bp-tablet)` and `@media (--bp-mobile)`.
 - The visual direction is mostly monochrome. Prefer line work, spacing, and typography over heavy shadows or strong color blocks.
+
+## Icons
+
+- Add icons as single-purpose Astro components under `src/components/common/icon/`.
+- Register new icons in `src/components/common/icon/IconName.ts` and the mapping in `src/components/common/Icon.astro`.
+- Use `Icon.astro` from call sites instead of embedding SVG paths directly in page or feature components.
+- Do not add React integration or external UI libraries for a small number of simple SVG icons. Prefer the existing Icon component structure.
 
 ## Page Background
 

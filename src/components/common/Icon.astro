@@ -2,6 +2,8 @@
 import { IconName } from "./icon/IconName";
 import XIcon from "./icon/XIcon.astro";
 import ChevronUpIcon from "./icon/ChevronUpIcon.astro";
+import MenuIcon from "./icon/MenuIcon.astro";
+import CloseIcon from "./icon/CloseIcon.astro";
 import KeyboardArrowLeftIcon from "./icon/KeyboardArrowLeftIcon.astro";
 import KeyboardArrowRightIcon from "./icon/KeyboardArrowRightIcon.astro";
 
@@ -13,6 +15,8 @@ export { IconName };
 const ICONS = {
   [IconName.X]: XIcon,
   [IconName.ChevronUp]: ChevronUpIcon,
+  [IconName.Menu]: MenuIcon,
+  [IconName.Close]: CloseIcon,
   [IconName.KeyboardArrowLeft]: KeyboardArrowLeftIcon,
   [IconName.KeyboardArrowRight]: KeyboardArrowRightIcon,
 } as const satisfies Record<IconName, typeof XIcon>;
