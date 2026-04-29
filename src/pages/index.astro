@@ -7,19 +7,22 @@ import { homePageMsg } from "../msg/home";
 import { siteConfig } from "../config";
 import Tagline from "../content/home.md";
 
+// Slideshow is intentionally off for now. Match the hero area to home.png's
+// original height while keeping the slideshow path ready for future use.
+const HOME_IMAGE_URL = "/images/home/home.png";
+const HOME_IMAGE_URL_BASE = "/images/home";
+const HOME_IMAGE_HEIGHT_PX = 2000;
 const slideshowDir = resolve(process.cwd(), "public/images/home");
-const slideImages = siteConfig.enableSlideshow
-  ? imageAllSrcs(slideshowDir, "/images/home")
-  : [withBase("/images/home/home.png")];
-
-// スライド表示領域の高さは「最も高い画像」の80%に揃える。
-// 画像サイズが取得できなかった場合のフォールバックとして 800px を使う。
-const HOME_HEIGHT_RATIO = 0.8;
-const HOME_HEIGHT_FALLBACK_PX = 800;
-const maxImageHeight = await imageMaxHeight(slideshowDir);
-const slideHeightPx = maxImageHeight
-  ? Math.round(maxImageHeight * HOME_HEIGHT_RATIO)
-  : HOME_HEIGHT_FALLBACK_PX;
+const slideshowImages = siteConfig.enableSlideshow
+  ? imageAllSrcs(slideshowDir, HOME_IMAGE_URL_BASE)
+  : [];
+const slideImages = slideshowImages.length > 0
+  ? slideshowImages
+  : [withBase(HOME_IMAGE_URL)];
+const maxImageHeight = siteConfig.enableSlideshow
+  ? await imageMaxHeight(slideshowDir)
+  : HOME_IMAGE_HEIGHT_PX;
+const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
 ---
 <BaseLayout
   title={homePageMsg.meta.title}
@@ -38,7 +41,7 @@ const slideHeightPx = maxImageHeight
     >
       {slideImages.map((src, i) => (
         <div
-          class="home__slide"
+          class:list={["home__slide", i === 0 && "is-visible"]}
           data-index={i}
         >
           <img src={src} alt="" />
@@ -62,8 +65,6 @@ const slideHeightPx = maxImageHeight
   .home__image {
     display: grid;
     width: 100%;
-    /* --home-image-height はビルド時に「最も高い画像 × 80%」を index.astro が注入する。
-       画像が読めなかった等のフォールバック値として 800px を使う */
     height: var(--home-image-height, 800px);
     overflow: hidden;
   }
@@ -91,14 +92,15 @@ const slideHeightPx = maxImageHeight
   .home__overlay {
     position: absolute;
     inset: 0;
-    max-width: var(--w-wide);
+    width: 100%;
+    max-width: none;
     margin-inline: auto;
-    padding: var(--s-6) 0;
+    padding: var(--s-6) 100px;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto 1fr;
     column-gap: var(--s-5);
-    row-gap: var(--s-2);
+    row-gap: var(--m-l30);
   }
 
   .home__overlay img {
@@ -116,10 +118,12 @@ const slideHeightPx = maxImageHeight
     text-align: left;
     font-family: var(--f-serif);
     font-size: var(--fs-base);
+    font-weight: 700;
     color: var(--c-fg);
     line-height: 1.8;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    text-shadow: var(--sh-home-tagline);
   }
+
   .home__tagline :global(p) {
     font-size: 32px;
     margin: 0;
@@ -127,15 +131,48 @@ const slideHeightPx = maxImageHeight
   }
 
   @media (--bp-tablet) {
+    .home__image {
+      height: calc(100svh - var(--h-header-tablet) - var(--h-home-tablet-peek));
+    }
+
     .home__overlay {
-      padding: var(--s-5) var(--s-4);
-      grid-template-columns: 1fr;
+      padding: var(--s-5) var(--s-4) var(--s-8);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      gap: var(--m-l30);
+    }
+
+    .home__overlay img {
+      width: min(var(--w-home-logo-tablet), 100%);
+      height: var(--h-home-logo-tablet);
+      object-fit: contain;
     }
 
     .home__tagline {
-      grid-column: 1;
-      text-align: left;
-      justify-self: start;
+      text-align: center;
+      text-shadow: var(--sh-home-tagline-strong);
+    }
+
+    .home__tagline :global(p) {
+      font-size: var(--fs-home-tagline-tablet);
+    }
+  }
+
+  @media (--bp-mobile) {
+    .home__image {
+      height: calc(100svh - var(--h-header-tablet) - var(--h-home-mobile-peek));
+    }
+
+    .home__overlay img {
+      width: min(var(--w-home-logo-mobile), 100%);
+      height: var(--h-home-logo-mobile);
+      object-fit: contain;
+    }
+
+    .home__tagline :global(p) {
+      font-size: var(--fs-home-tagline-mobile);
     }
   }
 </style>
@@ -143,8 +180,6 @@ const slideHeightPx = maxImageHeight
 <script>
   import { siteConfig } from "../config";
 
-  // ClientRouter 対応のため、ページ遷移をまたいで保持される
-  // インターバルを毎回クリアしてから再初期化する
   let slideshowTimer: number | undefined;
 
   const initHomeSlideshow = () => {
@@ -154,21 +189,19 @@ const slideHeightPx = maxImageHeight
     }
 
     const slides = document.querySelectorAll<HTMLElement>(".home__slide");
-    if (slides.length === 0) return;
+    if (slides.length <= 1) return;
 
-    slides.forEach((slide) => slide.classList.remove("is-visible"));
-    slides[0].classList.add("is-visible");
+    slides.forEach((slide, index) => {
+      slide.classList.toggle("is-visible", index === 0);
+    });
 
-    if (slides.length > 1) {
-      let current = 0;
-      slideshowTimer = window.setInterval(() => {
-        slides[current].classList.remove("is-visible");
-        current = (current + 1) % slides.length;
-        slides[current].classList.add("is-visible");
-      }, siteConfig.slideshowTimeout);
-    }
+    let current = 0;
+    slideshowTimer = window.setInterval(() => {
+      slides[current].classList.remove("is-visible");
+      current = (current + 1) % slides.length;
+      slides[current].classList.add("is-visible");
+    }, siteConfig.slideshowTimeout);
   };
 
-  // ClientRouter 対応: ページ遷移のたびに実行
   document.addEventListener("astro:page-load", initHomeSlideshow);
 </script>

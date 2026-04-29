@@ -375,8 +375,8 @@ const logHref = current
 </style>
 
 <script>
-  // ブレークポイントは postcss.config.mjs を単一ソースとして共有（CSS と JS の二重管理を防ぐ）
-  import { breakpoints } from "../../../../postcss.config.mjs";
+  // ブレークポイントは CSS と JS で共有する
+  import { breakpoints } from "../../../lib/breakpoints.mjs";
 
   const initEpisodesNavigator = () => {
     // リスト内の選択中エピソードが見えるようにリストをスクロール

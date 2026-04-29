@@ -132,6 +132,17 @@
   /* ホーム画面 ---------------------------------------- */
   --c-home-bg: #eef1f4;
   --c-home-tagline-shadow: rgba(255, 255, 255, 0.6);
+  --c-home-tagline-shadow-strong: #ffffff;
+  --sh-home-tagline: 0 1px 0 var(--c-home-tagline-shadow);
+  --sh-home-tagline-strong: 0 0 10px var(--c-home-tagline-shadow-strong);
+  --h-home-tablet-peek: 80px;
+  --h-home-mobile-peek: 140px;
+  --w-home-logo-tablet: 450px;
+  --h-home-logo-tablet: 200px;
+  --w-home-logo-mobile: 185px;
+  --h-home-logo-mobile: 120px;
+  --fs-home-tagline-tablet: 32px;
+  --fs-home-tagline-mobile: 14px;
 
   /* 半透明サーフェス（empty / 半透明カード） ---------- */
   --c-surface-translucent: rgba(255, 255, 255, 0.8);
@@ -236,8 +247,9 @@
   --w-full: 100%;
 
   /* Header / UI 寸法 ----------------------------------- */
-  --h-header-top: 72px;
-  --h-header-nav: 56px;
+  --h-header-top: 90px;
+  --h-header-nav: 60px;
+  --h-header-tablet: 75px;
 
   /* Motion ---------------------------------------------- */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
