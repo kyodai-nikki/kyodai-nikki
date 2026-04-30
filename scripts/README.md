@@ -103,8 +103,9 @@ node scripts/renumber-content.mjs --type episodes
 | type | 対象 |
 | --- | --- |
 | `episodes` | `src/content/episodes/season*/N` と `public/images/episodes/season*/N` |
-| `gallery` | `src/content/gallery/N.md` と `public/images/gallery/N` |
-| `goods` | `src/content/goods/N.md` と `public/images/goods/N` |
+| `settings` | `src/content/settings/<slug>/N*.md` と `public/images/settings/<slug>/N*` |
+| `gallery` | `src/content/gallery/N*.md` と `public/images/gallery/N*` |
+| `goods` | `src/content/goods/N*.md` と `public/images/goods/N*` |
 | `movies` | `src/content/movies/N.md` |
 | `all` | 上記すべて |
 
@@ -118,10 +119,12 @@ node scripts/renumber-content.mjs --type gallery,movies --dry-run
 
 - `_template.md.example` のような `_` で始まるファイルは対象外です。
 - 数字で始まるファイル名・ディレクトリ名を対象にします。
+- `settings` は `index.md` ではなく、数字で始まる資料 Markdown だけを対象にします。
 - `4test.md` や `4test` のような仮名も対象です。
+- `6.md` を `2tmp.md` に変えてから実行すると、自然順で読み取ったあと `1.md`, `2.md`, `3.md` のように戻します。対応する画像ディレクトリも `2tmp` にしておけば同じ番号へリネームされます。
 - 既存の並びを自然順で読み取り、`1` から連番にします。
 - リネームは一度テンポラリ名に退避してから戻すため、`1 -> 2` のような衝突を避けられます。
-- `gallery` / `movies` の表示順はファイル名から自動算出するため、frontmatter の `order` は使いません。
+- `settings` / `gallery` / `movies` の表示順はファイル名から自動算出します。
 
 ### 例
 

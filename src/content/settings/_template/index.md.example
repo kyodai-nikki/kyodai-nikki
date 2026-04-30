@@ -1,7 +1,6 @@
 ---
 # ファイル名を「index.md」に変更してください
 
-kind: "character"
 order: 3
 name: "キャラクター名"
 ---
