@@ -47,6 +47,7 @@ const items = headerNavItems(path);
 
 <style>
   :global(body) {
+    --site-header-offset: calc(var(--h-header-top) + var(--h-header-nav));
     padding-top: calc(var(--h-header-top) + var(--h-header-nav));
   }
 
@@ -111,6 +112,7 @@ const items = headerNavItems(path);
 
   @media (--bp-laptop) {
     :global(body) {
+      --site-header-offset: 150px;
       padding-top: 150px;
     }
 
@@ -158,6 +160,7 @@ const items = headerNavItems(path);
 
   @media (--bp-tablet) {
     :global(body) {
+      --site-header-offset: 75px;
       padding-top: 75px;
     }
 

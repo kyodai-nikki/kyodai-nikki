@@ -32,7 +32,6 @@ const {
     const slug = settingsCharacterSlug(item);
     return (
       <a
-        class="settings-character-sticky-nav__link"
         href={settingsCharacterHref(slug)}
         aria-current={slug === currentSlug ? "page" : undefined}
       >

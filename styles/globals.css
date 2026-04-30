@@ -9,6 +9,11 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --site-header-offset: 0px;
+  --site-footer-offset: 0px;
+}
+
 body {
   margin: 0;
   min-height: 100dvh;
@@ -229,6 +234,10 @@ code {
 }
 
 @media (--bp-laptop) {
+  main {
+    min-height: calc(100dvh - var(--site-header-offset) - var(--site-footer-offset));
+  }
+
   .section {
     padding: 30px 0;
   }

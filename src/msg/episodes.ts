@@ -14,6 +14,7 @@ export const episodesPageMsg = {
     alternateTag: "Another Episode",
     deletedEpisodeTag: "――",
     episodeList: "エピソード一覧",
+    seasonList: "season",
     seasonTimeline: "timeline",
     logSuffix: "のログ",
   },

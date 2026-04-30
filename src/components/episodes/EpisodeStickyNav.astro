@@ -46,9 +46,6 @@ const { items, class: className = "" } = Astro.props as Props;
       display: grid;
       gap: 4px;
       color: var(--c-fg);
-      text-decoration: none;
-      font-family: var(--font-family-navigation);
-      line-height: var(--lh-normal);
     }
 
     .episode-sticky-nav__number {
@@ -58,12 +55,6 @@ const { items, class: className = "" } = Astro.props as Props;
     .episode-sticky-nav__title {
       padding-left: 20px;
       font-size: 16px;
-    }
-
-    .episode-sticky-nav__link[aria-current="page"] .episode-sticky-nav__title {
-      text-decoration: underline;
-      text-underline-offset: 4px;
-      text-decoration-thickness: 1px;
     }
   }
 </style>
