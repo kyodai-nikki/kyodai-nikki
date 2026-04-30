@@ -14,5 +14,8 @@ export const othersPageMsg = {
   settings: {
     detailHint: "画像をクリックするとGoogle Driveを開きます。",
     detailsHeading: "詳細",
+    charactersHeading: "キャラクター一覧",
+    openCharacters: "キャラクター一覧を開く",
+    closeCharacters: "キャラクター一覧を閉じる",
   },
 } as const;

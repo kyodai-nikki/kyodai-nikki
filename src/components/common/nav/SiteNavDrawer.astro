@@ -1,0 +1,162 @@
+---
+import type { HeaderNavItem } from "../../../lib/view/navigation";
+import NavDrawer from "./NavDrawer.astro";
+
+interface Props {
+  id: string;
+  ariaLabel: string;
+  openLabel: string;
+  closeLabel: string;
+  items: HeaderNavItem[];
+  twitterHref?: string;
+  class?: string;
+}
+
+const {
+  id,
+  ariaLabel,
+  openLabel,
+  closeLabel,
+  items,
+  twitterHref,
+  class: className = "",
+} = Astro.props as Props;
+---
+
+<div class:list={["site-nav-shell", "container", className]}>
+  <NavDrawer
+    class="site-nav"
+    id={id}
+    ariaLabel={ariaLabel}
+    openLabel={openLabel}
+    closeLabel={closeLabel}
+    activation="laptop"
+  >
+    <div class="site-nav__list">
+      {items.map((item) => (
+        <a
+          class="site-nav__link"
+          href={item.href}
+          aria-current={item.current ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))}
+      {twitterHref && (
+        <a class="site-nav__social-link" href={twitterHref} target="_blank" rel="noopener">
+          Twitter
+        </a>
+      )}
+    </div>
+  </NavDrawer>
+</div>
+
+<style>
+  .site-nav-shell {
+    padding: 0;
+  }
+
+  .site-nav__list {
+    display: flex;
+    align-items: center;
+    gap: var(--s-7);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .site-nav__link,
+  .site-nav__social-link {
+    display: inline-block;
+    color: var(--c-nav-link);
+    text-decoration: none;
+    font-family: var(--font-family-navigation);
+    font-size: 24px;
+    font-weight: var(--fw-regular);
+    letter-spacing: 0;
+    padding: var(--s-2) 0;
+    position: relative;
+    transition: color var(--dur-fast) var(--ease-out);
+  }
+
+  .site-nav__link:hover,
+  .site-nav__social-link:hover {
+    color: var(--c-site-cyan);
+  }
+
+  .site-nav__link[aria-current="page"],
+  .site-nav__social-link[aria-current="page"] {
+    color: var(--c-site-pink);
+  }
+
+  .site-nav__social-link {
+    display: none;
+  }
+
+  @media (--bp-laptop) {
+    .site-nav-shell {
+      --nav-drawer-width: 68%;
+      --nav-drawer-panel-padding: 132px var(--s-7) 56px;
+      --nav-drawer-panel-z: var(--z-nav-drawer-panel);
+      --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
+      max-width: none;
+      padding: 0;
+    }
+
+    .site-nav__list {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 30px;
+    }
+
+    .site-nav__link,
+    .site-nav__social-link {
+      width: min(100%, 340px);
+      padding: 0;
+      border-bottom: 0;
+      color: var(--c-fg);
+      font-size: 34px;
+      font-weight: var(--fw-bold);
+      line-height: 1.45;
+      letter-spacing: var(--ls-wider);
+      text-align: center;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+    }
+
+    .site-nav__social-link {
+      display: inline-block;
+    }
+  }
+
+  @media (--bp-tablet) {
+    .site-nav-shell {
+      --nav-drawer-width: 60%;
+      --nav-drawer-panel-padding: 151px var(--s-7) 56px;
+    }
+
+    .site-nav__list {
+      gap: 25px;
+    }
+
+    .site-nav__link,
+    .site-nav__social-link {
+      width: min(100%, 280px);
+      font-size: 22px;
+    }
+  }
+
+  @media (--bp-mobile) {
+    .site-nav-shell {
+      --nav-drawer-panel-padding: 147px var(--s-7) 56px;
+    }
+
+    .site-nav__list {
+      gap: var(--s-5);
+    }
+
+    .site-nav__link,
+    .site-nav__social-link {
+      font-size: 21px;
+    }
+  }
+</style>

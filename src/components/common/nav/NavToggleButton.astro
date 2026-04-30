@@ -1,0 +1,73 @@
+---
+import { IconName } from "../Icon.astro";
+import NavToggleIcon from "./NavToggleIcon.astro";
+
+interface Props {
+  controls: string;
+  labelOpen: string;
+  labelClose: string;
+  iconOpen?: IconName;
+  iconClose?: IconName;
+  class?: string;
+}
+
+const {
+  controls,
+  labelOpen,
+  labelClose,
+  iconOpen = IconName.Menu,
+  iconClose = IconName.Close,
+  class: className,
+} = Astro.props;
+---
+
+<button
+  class:list={["nav-toggle", className]}
+  type="button"
+  aria-expanded="false"
+  aria-controls={controls}
+  aria-label={labelOpen}
+  data-label-open={labelOpen}
+  data-label-close={labelClose}
+>
+  <NavToggleIcon iconOpen={iconOpen} iconClose={iconClose} />
+</button>
+
+<style>
+  .nav-toggle {
+    display: none;
+    background: transparent;
+    border: 0;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--c-fg);
+    position: relative;
+    z-index: var(--z-header-control);
+    align-items: center;
+    justify-content: center;
+    --nav-toggle-icon-size: 28px;
+  }
+
+  @media (--bp-laptop) {
+    .nav-toggle {
+      display: inline-flex;
+      color: var(--c-header-menu-icon);
+      width: 56px;
+      height: 56px;
+      padding: 12px;
+      z-index: var(--z-header-control);
+      --nav-toggle-icon-size: 32px;
+    }
+  }
+
+  @media (--bp-tablet) {
+    .nav-toggle {
+      width: 44px;
+      height: 44px;
+      padding: 10px;
+      --nav-toggle-icon-size: 28px;
+    }
+  }
+</style>

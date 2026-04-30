@@ -109,8 +109,38 @@ const characters = await orderedCharacters();
   }
 
   @media (--bp-tablet) {
+    .chars-grid {
+      gap: 20px;
+    }
+
     .chars-card {
       flex-basis: 150px;
+    }
+
+    .chars-card__img {
+      filter: none;
+    }
+  }
+
+  @media (--bp-mobile) {
+    .chars-grid {
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: var(--s-2);
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .chars-card {
+      flex-basis: 95px;
+      width: 95px;
+      height: 370px;
+    }
+
+    .chars-card__img-wrap {
+      width: 95px;
+      height: 370px;
     }
   }
 </style>

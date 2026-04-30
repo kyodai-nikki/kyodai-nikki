@@ -1,0 +1,56 @@
+---
+import Icon, { IconName } from "../Icon.astro";
+
+interface Props {
+  iconOpen?: IconName;
+  iconClose?: IconName;
+}
+
+const {
+  iconOpen = IconName.Menu,
+  iconClose = IconName.Close,
+} = Astro.props;
+---
+
+<span class="nav-toggle-icon nav-toggle-icon--open" aria-hidden="true">
+  <Icon name={iconOpen} size="100%" class="nav-toggle-icon__svg" />
+</span>
+<span class="nav-toggle-icon nav-toggle-icon--close" aria-hidden="true">
+  <Icon name={iconClose} size="100%" class="nav-toggle-icon__svg" />
+</span>
+
+<style>
+  .nav-toggle-icon {
+    position: absolute;
+    inset: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--nav-toggle-icon-size, 28px);
+    height: var(--nav-toggle-icon-size, 28px);
+    margin: auto;
+    line-height: 0;
+    transition:
+      opacity var(--dur-base) var(--ease-out),
+      transform var(--dur-base) var(--ease-out);
+  }
+
+  :global(.nav-toggle-icon__svg) {
+    display: block;
+  }
+
+  .nav-toggle-icon--close {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.85);
+  }
+
+  :global(.nav-toggle[aria-expanded="true"]) .nav-toggle-icon--open {
+    opacity: 0;
+    transform: rotate(90deg) scale(0.85);
+  }
+
+  :global(.nav-toggle[aria-expanded="true"]) .nav-toggle-icon--close {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
+</style>

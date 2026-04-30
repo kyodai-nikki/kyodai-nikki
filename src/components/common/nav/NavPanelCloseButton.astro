@@ -1,0 +1,43 @@
+---
+import Icon, { IconName } from "../Icon.astro";
+
+interface Props {
+  label: string;
+  class?: string;
+  dataAttribute?: string;
+}
+
+const {
+  label,
+  class: className = "",
+  dataAttribute,
+} = Astro.props as Props;
+
+const attrs = dataAttribute ? { [dataAttribute]: true } : {};
+---
+
+<button
+  class:list={["nav-panel-close", className]}
+  type="button"
+  aria-label={label}
+  {...attrs}
+>
+  <Icon name={IconName.Close} size="100%" />
+</button>
+
+<style>
+  .nav-panel-close {
+    appearance: none;
+    position: absolute;
+    top: 20px;
+    right: 18px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--c-header-menu-icon);
+    line-height: 0;
+    cursor: pointer;
+  }
+</style>

@@ -1,0 +1,311 @@
+---
+import NavPanelCloseButton from "./NavPanelCloseButton.astro";
+import { withBase } from "../../../lib/urls";
+
+interface Props {
+  id: string;
+  ariaLabel: string;
+  openLabel: string;
+  closeLabel: string;
+  activation?: "laptop" | "tablet";
+  heading?: string;
+  class?: string;
+}
+
+const {
+  id,
+  ariaLabel,
+  openLabel,
+  closeLabel,
+  activation = "tablet",
+  heading,
+  class: className = "",
+} = Astro.props as Props;
+const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
+---
+
+<div
+  class:list={["nav-drawer", `nav-drawer--${activation}`, className]}
+  data-nav-drawer={id}
+  data-nav-drawer-activation={activation}
+  data-label-open={openLabel}
+  data-label-close={closeLabel}
+  style={`--nav-drawer-panel-bg-image: ${panelBgImage};`}
+>
+  <slot name="trigger" />
+
+  <div class="nav-drawer__backdrop" data-nav-drawer-backdrop aria-hidden="true"></div>
+
+  <aside class="nav-drawer__panel" id={id} aria-label={ariaLabel}>
+    <NavPanelCloseButton label={closeLabel} dataAttribute="data-nav-drawer-close" />
+
+    {heading && <p class="nav-drawer__heading">{heading}</p>}
+
+    <nav class="nav-drawer__nav" aria-label={ariaLabel}>
+      <slot />
+    </nav>
+  </aside>
+</div>
+
+<style>
+  :global(body[data-nav-drawer-open]) {
+    overflow: hidden;
+  }
+
+  :global(body[data-page-nav-drawer-open] main[data-page-shell]) {
+    position: relative;
+    z-index: var(--z-nav-drawer-page-shell);
+  }
+
+  :global(body[data-page-nav-drawer-open] .site-header),
+  :global(body[data-page-nav-drawer-open] .site-footer) {
+    z-index: var(--z-page-base);
+  }
+
+  .nav-drawer__backdrop,
+  .nav-drawer :global(.nav-panel-close) {
+    display: none;
+  }
+
+  .nav-drawer__heading {
+    margin: 0 0 18px;
+    font-family: var(--font-family-navigation);
+    font-size: 18px;
+    line-height: var(--lh-normal);
+    color: var(--c-fg);
+    text-align: center;
+  }
+
+  .nav-drawer__nav {
+    font-family: var(--font-family-navigation);
+    line-height: var(--lh-normal);
+    color: var(--c-fg);
+  }
+
+  @media (--bp-laptop) {
+    .nav-drawer--laptop {
+      --nav-drawer-width: 68%;
+      --nav-drawer-panel-padding: 132px var(--s-7) 56px;
+      --nav-drawer-panel-bg-color: rgba(255, 255, 255, 0.94);
+      --nav-drawer-panel-z: var(--z-nav-drawer-panel);
+      --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
+      --nav-drawer-close-z: 1;
+    }
+
+    .nav-drawer--laptop .nav-drawer__backdrop,
+    .nav-drawer--laptop :global(.nav-panel-close) {
+      display: block;
+    }
+
+    .nav-drawer--laptop .nav-drawer__backdrop {
+      position: fixed;
+      inset: 0;
+      background: var(--c-site-menu-backdrop);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--dur-base) var(--ease-out);
+      z-index: var(--nav-drawer-backdrop-z);
+    }
+
+    .nav-drawer--laptop[data-open="true"] .nav-drawer__backdrop {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .nav-drawer--laptop .nav-drawer__panel {
+      position: fixed;
+      inset: 0 0 0 auto;
+      width: var(--nav-drawer-width);
+      max-width: none;
+      height: 100dvh;
+      padding: var(--nav-drawer-panel-padding);
+      overflow-y: auto;
+      background-color: var(--nav-drawer-panel-bg-color);
+      background-image: var(--nav-drawer-panel-bg-image);
+      background-position: center top;
+      background-size: auto 100dvh;
+      background-repeat: no-repeat;
+      box-shadow: var(--sh-site-menu);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(100%);
+      transition:
+        opacity var(--dur-base) var(--ease-out),
+        transform var(--dur-base) var(--ease-out);
+      z-index: var(--nav-drawer-panel-z);
+    }
+
+    .nav-drawer--laptop[data-open="true"] .nav-drawer__panel {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+
+    .nav-drawer--laptop :global(.nav-panel-close) {
+      z-index: var(--nav-drawer-close-z);
+    }
+  }
+
+  @media (--bp-tablet) {
+    .nav-drawer--tablet {
+      --nav-drawer-width: min(330px, calc(100vw - 75px));
+      --nav-drawer-mobile-width: min(300px, calc(100vw - 75px));
+      --nav-drawer-panel-padding: 88px 26px 32px;
+      --nav-drawer-panel-bg-color: rgba(255, 255, 255, 0.94);
+      --nav-drawer-panel-z: var(--z-nav-drawer-panel);
+      --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
+      --nav-drawer-close-z: 1;
+    }
+
+    .nav-drawer--tablet .nav-drawer__backdrop,
+    .nav-drawer--tablet :global(.nav-panel-close) {
+      display: block;
+    }
+
+    .nav-drawer--tablet .nav-drawer__heading {
+      margin-bottom: 50px;
+      font-size: 24px;
+      font-weight: var(--fw-bold);
+    }
+
+    .nav-drawer--tablet .nav-drawer__backdrop {
+      position: fixed;
+      inset: 0;
+      background: var(--c-site-menu-backdrop);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--dur-base) var(--ease-out);
+      z-index: var(--nav-drawer-backdrop-z);
+    }
+
+    .nav-drawer--tablet[data-open="true"] .nav-drawer__backdrop {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .nav-drawer--tablet .nav-drawer__panel {
+      position: fixed;
+      inset: 0 0 0 auto;
+      width: var(--nav-drawer-width);
+      max-width: none;
+      height: 100dvh;
+      padding: var(--nav-drawer-panel-padding);
+      overflow-y: auto;
+      background-color: var(--nav-drawer-panel-bg-color);
+      background-image: var(--nav-drawer-panel-bg-image);
+      background-position: center top;
+      background-size: auto 100dvh;
+      background-repeat: no-repeat;
+      box-shadow: var(--sh-site-menu);
+      opacity: 0;
+      pointer-events: none;
+      transform: translateX(100%);
+      transition:
+        opacity var(--dur-base) var(--ease-out),
+        transform var(--dur-base) var(--ease-out);
+      z-index: var(--nav-drawer-panel-z);
+    }
+
+    .nav-drawer--tablet[data-open="true"] .nav-drawer__panel {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateX(0);
+    }
+
+    .nav-drawer--tablet :global(.nav-panel-close) {
+      z-index: var(--nav-drawer-close-z);
+    }
+  }
+
+  @media (--bp-mobile) {
+    .nav-drawer--tablet {
+      --nav-drawer-width: var(--nav-drawer-mobile-width);
+    }
+  }
+</style>
+
+<script>
+  const setupNavDrawers = () => {
+    const drawers = document.querySelectorAll<HTMLElement>("[data-nav-drawer]");
+
+    const isActive = (drawer: HTMLElement) => {
+      const activation = drawer.dataset.navDrawerActivation;
+      const maxWidth = activation === "laptop" ? 1024 : 768;
+      return window.matchMedia(`(max-width: ${maxWidth}px)`).matches;
+    };
+
+    const updateBodyLock = () => {
+      const openDrawers = Array.from(drawers).filter((drawer) => drawer.dataset.open === "true");
+      const hasOpenDrawer = openDrawers.length > 0;
+      const hasOpenPageDrawer = openDrawers.some((drawer) => drawer.closest("main[data-page-shell]"));
+
+      document.body.toggleAttribute("data-nav-drawer-open", hasOpenDrawer);
+      document.body.toggleAttribute("data-page-nav-drawer-open", hasOpenPageDrawer);
+    };
+
+    drawers.forEach((drawer) => {
+      if (drawer.dataset.initialized === "true") return;
+
+      const id = drawer.dataset.navDrawer;
+      if (!id) return;
+
+      const trigger = document.querySelector<HTMLButtonElement>(`[aria-controls="${id}"]`);
+      const close = drawer.querySelector<HTMLButtonElement>("[data-nav-drawer-close]");
+      const panel = drawer.querySelector<HTMLElement>(".nav-drawer__panel");
+      const backdrop = drawer.querySelector<HTMLElement>("[data-nav-drawer-backdrop]");
+      if (!trigger || !close || !panel || !backdrop) return;
+
+      drawer.dataset.initialized = "true";
+      const labelOpen = drawer.dataset.labelOpen ?? trigger.getAttribute("aria-label") ?? "";
+      const labelClose = drawer.dataset.labelClose ?? close.getAttribute("aria-label") ?? labelOpen;
+
+      const setOpen = (open: boolean) => {
+        const shouldUseDrawer = isActive(drawer);
+        const nextOpen = open && shouldUseDrawer;
+
+        drawer.dataset.open = nextOpen.toString();
+        trigger.setAttribute("aria-expanded", nextOpen.toString());
+        trigger.setAttribute("aria-label", nextOpen ? labelClose : labelOpen);
+        panel.setAttribute("aria-hidden", nextOpen ? "false" : shouldUseDrawer.toString());
+        panel.toggleAttribute("inert", shouldUseDrawer && !nextOpen);
+        updateBodyLock();
+      };
+
+      setOpen(false);
+
+      trigger.addEventListener("click", () => {
+        setOpen(drawer.dataset.open !== "true");
+      });
+
+      close.addEventListener("click", () => {
+        setOpen(false);
+        trigger.focus();
+      });
+
+      panel.addEventListener("click", (event) => {
+        if (event.target instanceof HTMLAnchorElement) setOpen(false);
+      });
+
+      backdrop.addEventListener("click", () => {
+        setOpen(false);
+      });
+
+      document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") setOpen(false);
+      });
+
+      document.addEventListener("pointerdown", (event) => {
+        if (drawer.dataset.open !== "true" || !(event.target instanceof Node)) return;
+        if (drawer.contains(event.target) || trigger.contains(event.target)) return;
+        setOpen(false);
+      });
+
+      window.addEventListener("resize", () => {
+        setOpen(false);
+      });
+    });
+  };
+
+  setupNavDrawers();
+  document.addEventListener("astro:page-load", setupNavDrawers);
+</script>

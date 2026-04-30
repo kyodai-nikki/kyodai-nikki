@@ -1,0 +1,145 @@
+---
+import NavDrawer from "./NavDrawer.astro";
+
+interface Props {
+  id: string;
+  ariaLabel: string;
+  openLabel: string;
+  closeLabel: string;
+  heading?: string;
+  drawerWidth?: string;
+  drawerMobileWidth?: string;
+  listAlign?: string;
+  listGap?: string;
+  class?: string;
+}
+
+const {
+  id,
+  ariaLabel,
+  openLabel,
+  closeLabel,
+  heading,
+  drawerWidth,
+  drawerMobileWidth,
+  listAlign,
+  listGap,
+  class: className = "",
+} = Astro.props as Props;
+
+const stickyNoteStyle = [
+  drawerWidth && `--nav-drawer-width: ${drawerWidth}`,
+  drawerMobileWidth && `--nav-drawer-mobile-width: ${drawerMobileWidth}`,
+  listAlign && `--sticky-note-nav-list-align: ${listAlign}`,
+  listGap && `--sticky-note-nav-list-gap: ${listGap}`,
+].filter(Boolean).join("; ");
+---
+
+<div class:list={["sticky-note-nav-shell", className]} style={stickyNoteStyle || undefined}>
+  <NavDrawer
+    class="sticky-note-nav"
+    id={id}
+    ariaLabel={ariaLabel}
+    openLabel={openLabel}
+    closeLabel={closeLabel}
+    heading={heading}
+    activation="tablet"
+  >
+    <button
+      class="sticky-note-nav__tab"
+      slot="trigger"
+      type="button"
+      aria-label={openLabel}
+      aria-expanded="false"
+      aria-controls={id}
+    >
+      <span class="visually-hidden">{openLabel}</span>
+      <span class="sticky-note-nav__tab-color" aria-hidden="true"></span>
+      <span class="sticky-note-nav__tab-sheet sticky-note-nav__tab-sheet--thin" aria-hidden="true"></span>
+    </button>
+
+    <div class="sticky-note-nav__list">
+      <slot />
+    </div>
+  </NavDrawer>
+</div>
+
+<style>
+  .sticky-note-nav-shell {
+    display: none;
+  }
+
+  @media (--bp-tablet) {
+    .sticky-note-nav-shell {
+      --nav-drawer-width: min(330px, calc(100vw - 75px));
+      --nav-drawer-mobile-width: min(300px, calc(100vw - 75px));
+      --nav-drawer-panel-padding: 88px 26px 32px;
+      --nav-drawer-panel-z: var(--z-nav-drawer-panel);
+      --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
+      --sticky-note-nav-list-align: center;
+      --sticky-note-nav-list-gap: 50px;
+      --sticky-note-nav-tab-color-width: 50px;
+      --sticky-note-nav-tab-thin-width: 10px;
+      --sticky-note-nav-tab-overlap: -20px;
+      --sticky-note-nav-tab-hidden-tail: 2px;
+      --sticky-note-nav-tab-width: 40px;
+      --sticky-note-nav-tab-height: 50px;
+      --sticky-note-nav-tab-top: calc(var(--h-header-tablet) + 22px);
+      --sticky-note-nav-tab-right: calc(-1 * var(--sticky-note-nav-tab-hidden-tail));
+
+      display: block;
+      position: relative;
+    }
+
+    .sticky-note-nav__tab {
+      appearance: none;
+      position: fixed;
+      top: var(--sticky-note-nav-tab-top);
+      right: var(--sticky-note-nav-tab-right);
+      display: flex;
+      align-items: stretch;
+      width: var(--sticky-note-nav-tab-width);
+      height: var(--sticky-note-nav-tab-height);
+      padding: 0;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      transition: right var(--dur-base) var(--ease-out);
+      z-index: var(--z-nav-drawer-trigger);
+    }
+
+    .sticky-note-nav__tab[aria-expanded="true"] {
+      right: calc(var(--nav-drawer-width) - var(--sticky-note-nav-tab-hidden-tail));
+      z-index: var(--z-nav-drawer-trigger-open);
+    }
+
+    .sticky-note-nav__tab-color {
+      flex: none;
+      width: var(--sticky-note-nav-tab-color-width);
+      max-width: calc(100% - var(--sticky-note-nav-tab-overlap));
+      margin-right: var(--sticky-note-nav-tab-overlap);
+      border-radius: 12px 0 0 12px;
+      background: rgba(0, 188, 212, 0.8);
+    }
+
+    .sticky-note-nav__tab-sheet {
+      flex: none;
+      height: var(--sticky-note-nav-tab-height);
+      background: var(--c-bg);
+      z-index: 1;
+    }
+
+    .sticky-note-nav__tab-sheet--thin {
+      width: var(--sticky-note-nav-tab-thin-width);
+      opacity: 0.9;
+    }
+
+    .sticky-note-nav__list {
+      display: flex;
+      flex-direction: column;
+      align-items: var(--sticky-note-nav-list-align);
+      gap: var(--sticky-note-nav-list-gap);
+      font-size: 20px;
+    }
+  }
+</style>

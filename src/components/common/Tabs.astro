@@ -21,26 +21,40 @@ const { items, ariaLabel, size = "md" } = Astro.props;
 ---
 
 <nav class:list={["tab-nav", `tab-nav--${size}`]} aria-label={ariaLabel}>
-  {items.map((item) => (
-    <a href={item.href} aria-current={item.active ? "page" : undefined}>
-      {item.label}
-    </a>
-  ))}
+  <div class="tab-nav__list">
+    {items.map((item) => (
+      <a href={item.href} aria-current={item.active ? "page" : undefined}>
+        {item.label}
+      </a>
+    ))}
+  </div>
 </nav>
 
 <style>
   .tab-nav {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tab-nav__list {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    gap: 60px;
+    min-width: 100%;
+    width: max-content;
   }
 
   .tab-nav a {
+    flex: 0 0 auto;
     font-weight: 600;
     position: relative;
     color: var(--c-fg);
     font-family: var(--font-family-navigation);
     text-decoration: none;
+    white-space: nowrap;
     transition: color var(--dur-fast) var(--ease-out);
   }
 
@@ -59,26 +73,25 @@ const { items, ariaLabel, size = "md" } = Astro.props;
 
   .tab-nav a:hover::after,
   .tab-nav a:focus-visible::after {
-    left: 0;
-    right: 0;
+    left: -4px;
+    right: -4px;
     border: 2px solid var(--c-site-cyan);
   }
 
   .tab-nav a[aria-current="page"]::after {
-    left: 0;
-    right: 0;
+    left: -4px;
+    right: -4px;
     border: 2px solid var(--c-site-pink);
     transition: none;
   }
 
   /* ---- size: md（Episodes 系） */
   .tab-nav--md {
-    gap: clamp(var(--s-5), 5vw, var(--s-6));
     padding-bottom: var(--s-3);
   }
 
   .tab-nav--md a {
-    font-size: var(--fs-xl);
+    font-size: 24px;
     letter-spacing: var(--ls-wide);
   }
 
@@ -88,23 +101,29 @@ const { items, ariaLabel, size = "md" } = Astro.props;
 
   /* ---- size: lg（Others 系） */
   .tab-nav--lg {
-    gap: clamp(28px, 4vw, 56px);
     margin: 20px 0 0;
     padding-bottom: 8px;
   }
 
   .tab-nav--lg a {
-    font-size: clamp(1.25rem, 2vw, 1.5rem);
+    font-size: 24px;
     padding: 6px 0;
   }
 
   @media (--bp-tablet) {
-    .tab-nav--lg {
-      gap: 20px 28px;
+    .tab-nav__list {
+      gap: 50px;
     }
 
+    .tab-nav--md a,
     .tab-nav--lg a {
-      font-size: 1.125rem;
+      font-size: 18px;
+    }
+  }
+
+  @media (--bp-mobile) {
+    .tab-nav__list {
+      gap: 30px;
     }
   }
 </style>

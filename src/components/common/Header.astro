@@ -3,15 +3,16 @@ import { commonMsg } from "../../msg/common";
 import { siteConfig } from "../../config";
 import { withBase } from "../../lib/urls";
 import { headerNavItems } from "../../lib/view/navigation";
-import Icon, { IconName } from "./Icon.astro";
+import { IconName } from "./Icon.astro";
+import NavToggleButton from "./nav/NavToggleButton.astro";
+import SiteNavDrawer from "./nav/SiteNavDrawer.astro";
 import XShareButton from "./btn/XShareButton.astro";
 
 const site = siteConfig;
 const path = Astro.url.pathname;
 const items = headerNavItems(path);
-const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
 ---
-<header class="site-header" style={`--site-menu-bg-image: ${menuBgImage};`}>
+<header class="site-header">
   <div class="container site-header__top">
     <a class="site-brand" href={withBase("/")}>
       <img src={withBase(site.logoPath)} alt={site.name} class="site-brand__logo" />
@@ -22,36 +23,25 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
         <XShareButton href={site.social.twitter} />
       )}
 
-      <button
-        class="nav-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="site-nav"
-        aria-label={commonMsg.menu.open}
-        data-label-open={commonMsg.menu.open}
-        data-label-close={commonMsg.actions.close}
-      >
-        <span class="nav-toggle__icon nav-toggle__icon--open" aria-hidden="true">
-          <Icon name={IconName.Menu} size="100%" class="nav-toggle__svg" />
-        </span>
-        <span class="nav-toggle__icon nav-toggle__icon--close" aria-hidden="true">
-          <Icon name={IconName.Close} size="100%" class="nav-toggle__svg" />
-        </span>
-      </button>
+      <NavToggleButton
+        controls="site-nav"
+        labelOpen={commonMsg.menu.open}
+        labelClose={commonMsg.actions.close}
+        iconOpen={IconName.Menu}
+        iconClose={IconName.Menu}
+      />
     </div>
   </div>
 
   <div class="site-header__nav">
-    <nav id="site-nav" class="site-nav container" aria-label={commonMsg.menu.navigation}>
-      {items.map((item) => (
-        <a
-          href={item.href}
-          aria-current={item.current ? "page" : undefined}
-        >
-          {item.label}
-        </a>
-      ))}
-    </nav>
+    <SiteNavDrawer
+      id="site-nav"
+      ariaLabel={commonMsg.menu.navigation}
+      openLabel={commonMsg.menu.open}
+      closeLabel={commonMsg.actions.close}
+      items={items}
+      twitterHref={site.social.twitter}
+    />
   </div>
 </header>
 
@@ -65,7 +55,7 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: var(--z-header);
     background: var(--c-header-bg);
   }
 
@@ -119,110 +109,9 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     -webkit-backdrop-filter: saturate(1.2) blur(8px);
   }
 
-  .site-nav {
-    display: flex;
-    align-items: center;
-    gap: var(--s-7);
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-  }
-
-  .site-nav a {
-    display: inline-block;
-    color: var(--c-nav-link);
-    text-decoration: none;
-    font-family: var(--font-family-navigation);
-    font-size: 24px;
-    font-weight: var(--fw-regular);
-    letter-spacing: 0;
-    padding: var(--s-2) 0;
-    position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-
-  .site-nav a:hover {
-    color: var(--c-site-cyan);
-  }
-
-  .site-nav a[aria-current="page"] {
-    color: var(--c-site-pink);
-  }
-
-  .nav-toggle {
-    display: none;
-    background: transparent;
-    border: 0;
-    width: 44px;
-    height: 44px;
-    padding: 10px;
-    cursor: pointer;
-    color: var(--c-fg);
-    position: relative;
-    z-index: 1003;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .nav-toggle__icon {
-    position: absolute;
-    inset: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
-    margin: auto;
-    line-height: 0;
-    transition:
-      opacity var(--dur-base) var(--ease-out),
-      transform var(--dur-base) var(--ease-out);
-  }
-
-  :global(.nav-toggle__svg) {
-    display: block;
-  }
-
-  .nav-toggle__icon--close {
-    opacity: 0;
-    transform: rotate(-90deg) scale(0.85);
-  }
-
-  .nav-toggle[aria-expanded="true"] .nav-toggle__icon--open {
-    opacity: 0;
-    transform: rotate(90deg) scale(0.85);
-  }
-
-  .nav-toggle[aria-expanded="true"] .nav-toggle__icon--close {
-    opacity: 1;
-    transform: rotate(0) scale(1);
-  }
-
   @media (--bp-laptop) {
     :global(body) {
       padding-top: 150px;
-    }
-
-    :global(body[data-nav-open]) {
-      overflow: hidden;
-    }
-
-    .site-header::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      height: 150px;
-      background: var(--c-site-menu-backdrop);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity var(--dur-base) var(--ease-out);
-      z-index: 1003;
-    }
-
-    :global(body[data-nav-open]) .site-header::before {
-      opacity: 1;
     }
 
     .site-header {
@@ -265,74 +154,6 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       box-shadow: none;
     }
 
-    .site-nav {
-      display: flex;
-      position: fixed;
-      top: 0;
-      left: auto;
-      right: 0;
-      bottom: 0;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      gap: 30px;
-      width: 68%;
-      max-width: none;
-      height: 100dvh;
-      padding: 132px var(--s-7) 56px;
-      overflow-y: auto;
-      background-color: rgba(255, 255, 255, 0.94);
-      background-image: var(--site-menu-bg-image);
-      background-position: center top;
-      background-size: auto 100dvh;
-      background-repeat: no-repeat;
-      border: 0;
-      box-shadow: var(--sh-site-menu);
-      opacity: 0;
-      pointer-events: none;
-      transform: translateX(100%);
-      transition:
-        opacity var(--dur-base) var(--ease-out),
-        transform var(--dur-base) var(--ease-out);
-      z-index: 1004;
-    }
-
-    .site-nav[data-open="true"] {
-      opacity: 1;
-      pointer-events: auto;
-      transform: translateX(0);
-    }
-
-    .site-nav a {
-      width: min(100%, 340px);
-      padding: 0;
-      border-bottom: 0;
-      color: var(--c-fg);
-      font-size: 34px;
-      font-weight: var(--fw-bold);
-      line-height: 1.45;
-      letter-spacing: var(--ls-wider);
-      text-align: center;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
-    }
-
-    .site-nav a:last-child {
-      border-bottom: 0;
-    }
-
-    .nav-toggle {
-      display: inline-flex;
-      color: var(--c-header-menu-icon);
-      width: 56px;
-      height: 56px;
-      padding: 12px;
-      z-index: 1005;
-    }
-
-    .nav-toggle__icon {
-      width: 32px;
-      height: 32px;
-    }
   }
 
   @media (--bp-tablet) {
@@ -344,36 +165,11 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       height: 75px;
     }
 
-    .site-header::before {
-      height: 75px;
-    }
-
     .site-brand__logo {
       width: 200px;
       height: 40px;
     }
 
-    .site-nav {
-      padding-top: 151px;
-      gap: 25px;
-      width: 60%;
-    }
-
-    .site-nav a {
-      width: min(100%, 280px);
-      font-size: 22px;
-    }
-
-    .nav-toggle {
-      width: 44px;
-      height: 44px;
-      padding: 10px;
-    }
-
-    .nav-toggle__icon {
-      width: 28px;
-      height: 28px;
-    }
   }
 
   @media (--bp-mobile) {
@@ -381,18 +177,9 @@ const menuBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       padding-right: var(--s-4);
     }
 
-    .site-nav {
-      gap: var(--s-5);
-      padding-top: 147px;
-    }
-
     .site-brand__logo {
       width: 180px;
       height: 35px;
-    }
-
-    .site-nav a {
-      font-size: 21px;
     }
   }
 </style>
