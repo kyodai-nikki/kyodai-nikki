@@ -10,35 +10,38 @@ TRPG セッションログのアーカイブ。Astro v5 + Content Collections �
 
 ```text
 kyodai-nikki/
-├── astro.config.mjs              # Astro 設定（site / trailingSlash / markdown など）
+├── astro.config.mjs              # Astro 設定（site / base / trailingSlash / markdown など）
 ├── package.json
+├── postcss.config.mjs            # custom media などの PostCSS 設定
 ├── tsconfig.json
 ├── public/                        # そのまま配信される静的ファイル
 │   ├── favicon.svg
+│   ├── logo.png
 │   └── images/
+│       ├── README.md              # 画像配置・参照ルール
 │       ├── characters/            # キャラクター画像
 │       ├── episodes/              # エピソード画像（episode-list.png / thumbnail.png）
+│       ├── fanart/                # fan art 関連画像
 │       ├── gallery/               # ギャラリー画像
 │       ├── goods/                 # 物販画像
 │       ├── home/                  # トップ画像
-│       └── others/                # Others 用画像
+│       ├── icons/                 # SNS など外部由来の画像アイコン
+│       └── settings/              # 設定資料画像
+├── scripts/                       # 運用補助スクリプト
+│   └── README.md
 ├── styles/                        # 素のCSS。BaseLayout 経由で全ページにimport
+│   ├── README.md
 │   ├── variables.css              # デザイントークン（色・タイポ・余白）
-│   ├── globals.css                # reset・基本タイポ・utility
-│   └── components/
-│       ├── header.css
-│       ├── footer.css
-│       ├── tabs.css
-│       └── session-log.css        # TRPGログ本文の装飾
+│   └── globals.css                # reset・基本タイポ・utility
 ├── src/
-│   ├── assets/                    # Astro image 最適化対象（使うときに配置）
+│   ├── README.md                  # src 配下の役割と編集先の目安
 │   ├── content.config.ts          # Content Collection スキーマ定義
 │   ├── content/                   # サイト表示データ（編集対象）
 │   │   ├── README.md              # content 編集ガイド
-│   │   ├── common/                # サイト名・SNS URL など共通設定
-│   │   ├── home/                  # トップページ
+│   │   ├── home.md                # トップページ
+│   │   ├── introduction.md        # あらすじ
+│   │   ├── contact.md             # 問い合わせ
 │   │   ├── news/                  # お知らせ
-│   │   ├── introduction/          # あらすじ
 │   │   ├── characters/            # キャラクター
 │   │   ├── episode-seasons/       # シーズン定義
 │   │   ├── episodes/              # エピソード基本情報 + ログ本文
@@ -51,17 +54,27 @@ kyodai-nikki/
 │   │   ├── gallery/               # ギャラリー
 │   │   ├── movies/                # 動画
 │   │   ├── goods/                 # 物販
-│   │   └── others/                # Others タブ・設定資料・fan art
+│   │   ├── settings/              # Others 設定資料
+│   │   └── fanart/                # fan art リンク
 │   ├── components/
+│   │   ├── README.md
 │   │   ├── common/                # Header / Footer / Tabs / Modal など
+│   │   ├── characters/            # キャラクター表示
 │   │   ├── episodes/              # エピソード一覧・ログ表示
-│   │   └── others/                # Others タブ
+│   │   ├── gallery/               # ギャラリー表示
+│   │   ├── goods/                 # 物販表示
+│   │   └── others/                # Others タブ・設定資料
+│   ├── data/                      # ナビゲーションなどの固定データ
+│   │   └── README.md
 │   ├── layouts/
 │   │   └── BaseLayout.astro       # HTML骨格、全CSSのimport、OGP
 │   ├── lib/
+│   │   ├── README.md
 │   │   └── episodes/              # エピソード content の読み込み helper
 │   ├── msg/                       # 表示文言
+│   │   └── README.md
 │   └── pages/
+│       ├── README.md
 │       ├── index.astro            # トップページ
 │       ├── 404.astro
 │       ├── news/
@@ -88,6 +101,21 @@ kyodai-nikki/
 ## コンテンツ編集
 
 現在のサイトデータは `src/content/` 配下の Markdown で管理しています。News、Characters、Episodes、Gallery、Goods などの追加・編集方法は `src/content/README.md` を参照してください。
+
+## ディレクトリ別 README
+
+迷ったときに近い場所から読めるよう、主要ディレクトリに短い README を置いています。
+
+| README | 内容 |
+| --- | --- |
+| `src/README.md` | `src` 配下の役割と編集先の目安 |
+| `src/components/README.md` | コンポーネントの分け方、CSS、アイコン追加手順 |
+| `src/data/README.md` | ナビゲーションや Others タブなどの固定データ |
+| `src/lib/README.md` | Content 取得、URL、表示用データ整形 |
+| `src/msg/README.md` | 表示文言とラベルの置き場所 |
+| `src/pages/README.md` | Astro ルーティングとページ責務 |
+| `styles/README.md` | 共有 CSS、変数、背景画像ルール |
+| `public/images/README.md` | 画像ディレクトリと参照ルール |
 
 ## デザイントークンの差し替え
 
