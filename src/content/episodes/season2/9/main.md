@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: true
   storyDate: "2024.03.31"
-  timelineCast: "千秋20歳（通信大学2年） 千冬21歳（建築士1年）"
+  timelineCast: ["千秋20歳（通信大学2年）", "千冬21歳（建築士1年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "幻界θバッドトリップ"

@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.01.21"
-  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
+  timelineCast: ["千秋19歳（専門1年）", "千冬20歳（専門2年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "灯路帰譚"

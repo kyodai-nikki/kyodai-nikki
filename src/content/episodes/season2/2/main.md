@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.03.04"
-  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
+  timelineCast: ["千秋19歳（専門1年）", "千冬20歳（専門2年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "世界の終わりを君と見たい"

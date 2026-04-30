@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2025.11.28"
-  timelineCast: "千秋22歳（通信大学4年） 千冬22歳（-）"
+  timelineCast: ["千秋22歳（通信大学4年）", "千冬22歳（-）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "深海より"

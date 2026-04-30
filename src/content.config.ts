@@ -51,7 +51,7 @@ const episodeLogs = defineCollection({
           })
           .optional(),
         storyDate: z.string().optional(),
-        timelineCast: z.string().optional(),
+        timelineCast: z.array(z.string()).optional(),
         cast: z.array(z.string()).optional(),
       })
       .optional(),

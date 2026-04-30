@@ -25,6 +25,6 @@
 
 エピソード追加時は `episodes/{season}/{episode}/main.md` を作ります。`main.md` は必須で、frontmatter に一覧・詳細・タイムライン用の情報を書き、本文にはログ本編を書けます。
 `season` は `season1` のような文字列ではなく数値で指定します。エピソード情報は `session` / `scenario` / `custom` に分けて管理します。
-`session.type` は `normal` / `another` / `deleted` の3種類です。`session.storyDate` は作中日付、`session.timelineCast` はタイムライン表示用の文字列、`session.cast` はログ表示用の配列です。年齢制限フラグ (`isR18` / `isR18G`) は `session.rating` 配下で管理します。概要文は `scenario.description`、表示系フラグは `custom.showSmallTitle` と `custom.isCompactDescription` を使います。
+`session.type` は `normal` / `another` / `deleted` の3種類です。`session.storyDate` は作中日付、`session.timelineCast` はタイムライン表示用の配列、`session.cast` はログ表示用の配列です。年齢制限フラグ (`isR18` / `isR18G`) は `session.rating` 配下で管理します。概要文は `scenario.description`、表示系フラグは `custom.showSmallTitle` と `custom.isCompactDescription` を使います。
 
 任意で `prologue.md`、`epilogue.md`、`background.md`、`omake.md` 

@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2024.12.12"
-  timelineCast: "千秋21歳（通信大学3年） 千冬21歳（建築士2年）"
+  timelineCast: ["千秋21歳（通信大学3年）", "千冬21歳（建築士2年）"]
   cast: ["染谷千秋"]
 scenario:
   title: "お前が人を殺すのだ"

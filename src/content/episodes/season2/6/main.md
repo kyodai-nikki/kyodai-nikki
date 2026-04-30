@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.08.01"
-  timelineCast: "千秋19歳（通信大学2年） 千冬20歳（建築士1年）"
+  timelineCast: ["千秋19歳（通信大学2年）", "千冬20歳（建築士1年）"]
   cast: ["染谷千秋"]
 scenario:
   title: "貴方の顔も知らない"

@@ -13,7 +13,7 @@ export interface EpisodeEntry {
   description: string;
   smallText?: boolean;
   date?: string;
-  cast?: string;
+  cast?: string[];
   isR18?: boolean;
   isR18G?: boolean;
   scenario?: EpisodeScenarioInfo;

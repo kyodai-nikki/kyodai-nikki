@@ -59,7 +59,11 @@ const grouped = await groupedEpisodesTimeline();
                       <span class="tl-row__rail" aria-hidden="true"></span>
                       <div class="tl-row__meta">
                         {e.date && <div class="tl-row__date">{e.date}</div>}
-                        {e.cast && <div class="tl-row__cast">{e.cast}</div>}
+                        {e.cast && (
+                          <div class="tl-row__cast">
+                            {e.cast.map((cast) => <span>{cast}</span>)}
+                          </div>
+                        )}
                       </div>
                     </li>
                   );

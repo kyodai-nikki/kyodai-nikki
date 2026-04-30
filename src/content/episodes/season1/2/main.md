@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2021.08.15"
-  timelineCast: "千秋17歳（高校3年） 千冬18歳（専門1年）"
+  timelineCast: ["千秋17歳（高校3年）", "千冬18歳（専門1年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "傘に臨界"

@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2024.11.22"
-  timelineCast: "千秋21歳（通信大学3年） 千冬21歳（建築士2年）"
+  timelineCast: ["千秋21歳（通信大学3年）", "千冬21歳（建築士2年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "奪取脱出ストラグル"

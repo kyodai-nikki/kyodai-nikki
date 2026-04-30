@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2025.03.18"
-  timelineCast: "千秋21歳（通信大学3年） 千冬22歳（建築士2年）"
+  timelineCast: ["千秋21歳（通信大学3年）", "千冬22歳（建築士2年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "水中密室"
