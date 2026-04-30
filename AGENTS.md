@@ -61,3 +61,9 @@ background-size: 1920px;
 ```powershell
 $env:ASTRO_TELEMETRY_DISABLED='1'; & 'C:\Users\PC_User\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe' .\node_modules\astro\astro.js build
 ```
+
+- When starting the Astro dev server on Windows, avoid nesting double-quoted `cmd.exe /c` commands inside another quoted PowerShell string. If the command fails because of quoting, use PowerShell single quotes around the `cmd.exe /c` payload:
+
+```powershell
+cmd.exe /c 'set ASTRO_TELEMETRY_DISABLED=1&& start "" /B "C:\Users\PC_User\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" "C:\Users\PC_User\Desktop\it\kyodai-nikki\node_modules\astro\astro.js" dev --host 127.0.0.1 --port 4321 > .astro-dev.out.log 2> .astro-dev.err.log'
+```
