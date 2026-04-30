@@ -17,5 +17,18 @@ height: "177cm"
 weight: "65kg"
 birthday: "12月13日"
 externalLinks:
-  [{ label: "いあきゃら", url: "https://iachara.com/view/5394952" }]
+  [
+    {
+      label: "いあきゃら（なんてね「」通過時）",
+      url: "https://iachara.com/view/6972537",
+    },
+    {
+      label: "いあきゃら（なんてね～建築士）",
+      url: "https://iachara.com/view/5394952",
+    },
+    {
+      label: "いあきゃら（最新/YouTuber）",
+      url: "https://iachara.com/view/13610940",
+    },
+  ]
 ---
