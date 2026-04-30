@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2026.01.01"
-  timelineCast: "タイムラインに表示する年齢や職業"
+  timelineCast: ["千秋{年齢}歳（{所属}）", "千冬{年齢}歳（{所属}）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "Episode title"

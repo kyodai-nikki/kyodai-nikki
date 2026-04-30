@@ -97,7 +97,8 @@ const fanArt = await orderedFanArt();
 
   @media (--bp-tablet) {
     .others-fanart {
-      grid-template-columns: minmax(0, 320px);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 680px;
       min-height: auto;
     }
   }

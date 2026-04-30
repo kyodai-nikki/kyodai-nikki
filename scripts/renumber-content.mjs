@@ -29,9 +29,18 @@ const TYPES = {
   episodes: {
     label: "episodes",
     groups: true,
+    groupPattern: /^season\d+$/,
     contentRoot: contentRoot("episodes"),
     assetRoot: publicImageRoot("episodes"),
     entryKind: "directory",
+  },
+  settings: {
+    label: "settings",
+    groups: true,
+    groupPattern: /^(?!_).+$/,
+    contentRoot: contentRoot("settings"),
+    assetRoot: publicImageRoot("settings"),
+    entryKind: "file",
   },
   gallery: {
     label: "gallery",
@@ -62,8 +71,9 @@ const usage = () => {
 
 Types:
   episodes  Renumber src/content/episodes/season*/N and public/images/episodes/season*/N
-  gallery   Renumber src/content/gallery/N.md and public/images/gallery/N
-  goods     Renumber src/content/goods/N.md and public/images/goods/N
+  settings  Renumber number-prefixed material files in src/content/settings/*/N*.md and public/images/settings/*/N*
+  gallery   Renumber src/content/gallery/N*.md and public/images/gallery/N*
+  goods     Renumber src/content/goods/N*.md and public/images/goods/N*
   movies    Renumber src/content/movies/N.md
   all       Run every type above
 `);
@@ -86,15 +96,16 @@ const numberedName = (name) => /^\d+/.test(name);
 const entryId = (entry, kind) =>
   kind === "file" ? basename(entry.name, extname(entry.name)) : entry.name;
 
-const listEntries = async (dir, kind) => {
+const listEntries = async (dir, config) => {
+  const { entryKind } = config;
   const dirents = await readdir(dir, { withFileTypes: true });
   return dirents
     .filter((entry) => {
       if (entry.name.startsWith("_")) return false;
-      if (kind === "directory") return entry.isDirectory() && numberedName(entry.name);
-      return entry.isFile() && extname(entry.name) === ".md" && numberedName(entryId(entry, kind));
+      if (entryKind === "directory") return entry.isDirectory() && numberedName(entry.name);
+      return entry.isFile() && extname(entry.name) === ".md" && numberedName(entryId(entry, entryKind));
     })
-    .sort((a, b) => naturalCompare(entryId(a, kind), entryId(b, kind)));
+    .sort((a, b) => naturalCompare(entryId(a, entryKind), entryId(b, entryKind)));
 };
 
 const listGroups = async (config) => {
@@ -103,8 +114,9 @@ const listGroups = async (config) => {
   }
 
   const dirents = await readdir(config.contentRoot, { withFileTypes: true });
+  const groupPattern = config.groupPattern ?? /^season\d+$/;
   return dirents
-    .filter((entry) => entry.isDirectory() && /^season\d+$/.test(entry.name))
+    .filter((entry) => entry.isDirectory() && groupPattern.test(entry.name))
     .map((entry) => ({
       name: entry.name,
       contentRoot: join(config.contentRoot, entry.name),
@@ -132,7 +144,7 @@ const makeMove = (from, to, label) => ({
 });
 
 const collectMovesForGroup = async (config, group) => {
-  const entries = await listEntries(group.contentRoot, config.entryKind);
+  const entries = await listEntries(group.contentRoot, config);
   const moves = [];
 
   for (const [index, entry] of entries.entries()) {

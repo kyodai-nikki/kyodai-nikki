@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2023.11.26"
-  timelineCast: "千秋20歳（通信大学2年） 千冬20歳（建築士1年）"
+  timelineCast: ["千秋20歳（通信大学2年）", "千冬20歳（建築士1年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "愛猫の上手な鳴かせ方"

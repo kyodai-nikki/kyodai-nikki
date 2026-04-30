@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2025.12.26"
-  timelineCast: "千秋22歳（通信大学4年） 千冬23歳（-）"
+  timelineCast: ["千秋22歳（通信大学4年）", "千冬23歳（-）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "催眠ダーリンLv1"

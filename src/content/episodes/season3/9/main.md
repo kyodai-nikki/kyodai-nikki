@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2025.12.24"
-  timelineCast: "千秋22歳（通信大学4年） 千冬23歳（建築士3年）"
+  timelineCast: ["千秋22歳（通信大学4年）", "千冬23歳（建築士3年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "地獄と天国は酷似する"

@@ -52,35 +52,41 @@ const hasQuote = Boolean(character.data.quote);
 
 <style>
   .char-detail {
-    max-width: 1040px;
+    max-width: 1000px;
     margin: 0 auto;
     border: 1px solid var(--c-fg);
     border-radius: var(--r-md);
     background: #ffffff;
-    padding: 0 clamp(var(--s-5), 4vw, var(--s-8));
+    padding: 0 90px;
     overflow: hidden;
   }
 
   .char-detail__inner {
+    position: relative;
     display: grid;
-    grid-template-columns: auto minmax(220px, 320px) 1fr;
-    gap: clamp(var(--s-4), 3vw, var(--s-6));
+    grid-template-columns: 270px minmax(0, 1fr);
+    justify-content: end;
+    gap: 0;
     align-items: start;
   }
 
   /* 各グリッドアイテムの位置はページ側で決める。
      CharacterPortrait / CharacterQuote の見た目自体はコンポーネント内に閉じる。
      並び順: 台詞 → 立ち絵 → 情報 */
-  .char-detail__quote { grid-column: 1; }
-  .char-detail__portrait { grid-column: 2; }
-
-  .char-detail--no-quote .char-detail__inner {
-    grid-template-columns: minmax(220px, 320px) minmax(0, 550px);
-    justify-content: center;
-    gap: clamp(var(--s-5), 5vw, var(--s-8));
+  :global(.char-detail__quote) {
+    position: absolute;
+    inset: auto auto 40px -60px;
+    transform-origin: left bottom;
+    z-index: 1;
   }
 
-  .char-detail--no-quote .char-detail__portrait {
+  :global(.char-detail__portrait) { grid-column: 1; }
+
+  .char-detail--no-quote .char-detail__inner {
+    grid-template-columns: 270px minmax(0, 1fr);
+  }
+
+  .char-detail--no-quote :global(.char-detail__portrait) {
     grid-column: 1;
   }
 
@@ -90,12 +96,14 @@ const hasQuote = Boolean(character.data.quote);
   }
 
   .char-info {
-    grid-column: 3;
-    padding: clamp(var(--s-4), 3vw, var(--s-6)) 0;
+    grid-column: 2;
+    padding: 50px 0 0;
     display: flex;
     flex-direction: column;
     gap: var(--s-4);
     min-width: 0;
+    width: 100%;
+    max-width: 550px;
   }
 
   .char-info__description {
@@ -103,32 +111,47 @@ const hasQuote = Boolean(character.data.quote);
     padding-bottom: var(--s-4);
     border-bottom: 1px solid var(--c-fg);
     font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    line-height: 1.9;
+    font-size: 18px;
+    line-height: 1.6;
     color: var(--c-fg-body);
     white-space: pre-wrap;
   }
 
   @media (--bp-tablet) {
-    .char-detail__inner {
-      grid-template-columns: 1fr;
-    }
-    .char-detail__portrait,
-    .char-detail__quote,
-    .char-info,
-    .char-detail--no-quote .char-detail__portrait,
-    .char-detail--no-quote .char-info {
-      grid-column: 1;
+    .char-detail {
+      padding: 0 20px;
     }
 
-    .char-detail--no-quote .char-info {
-      padding-top: 0;
+    .char-detail__inner,
+    .char-detail--no-quote .char-detail__inner {
+      grid-template-columns: 245px minmax(0, 1fr);
+    }
+
+    :global(.char-detail__portrait) {
+      margin-left: -25px;
+    }
+
+    :global(.char-detail__quote) {
+      inset: auto auto 40px -15px;
+    }
+
+    .char-info {
+      padding: 20px 0;
     }
   }
 
   @media (--bp-mobile) {
-    .char-detail {
-      padding: 0 var(--s-3);
+    .char-detail__inner,
+    .char-detail--no-quote .char-detail__inner {
+      grid-template-columns: 120px minmax(0, 1fr);
+    }
+
+    :global(.char-detail__portrait) {
+      margin-left: -45px;
+    }
+
+    .char-info__description {
+      font-size: 12px;
     }
   }
 </style>

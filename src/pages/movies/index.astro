@@ -99,13 +99,20 @@ const orderedVideos = await orderedMovies();
 
   @media (--bp-tablet) {
     .movies-grid {
-      grid-template-columns: 1fr;
-      max-width: 300px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 680px;
       gap: 32px;
     }
 
     .movie-card__title {
       font-size: 17px;
+    }
+  }
+
+  @media (--bp-mobile) {
+    .movies-grid {
+      grid-template-columns: 1fr;
+      max-width: 300px;
     }
   }
 </style>

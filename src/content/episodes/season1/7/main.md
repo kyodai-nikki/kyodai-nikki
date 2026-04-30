@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2022.03.12"
-  timelineCast: "千秋18歳（専門1年） 千冬19歳（専門2年）"
+  timelineCast: ["千秋18歳（専門1年）", "千冬19歳（専門2年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "探索者に猫耳生えるだけ"

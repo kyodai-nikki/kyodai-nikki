@@ -33,7 +33,7 @@
   --c-fg-muted: #8a8a8a; /* meta / 補助 */
   --c-fg-subtle: #b5b5b5; /* disabled / プレースホルダ */
 
-  --c-border: #e5e5e5; /* デフォルト罫線（ごく薄い） */
+  --c-border: #333333; /* デフォルト罫線 */
   --c-border-strong: #cfcfcf; /* hover やフォーカス時 */
   --c-border-black: #000000;
 
@@ -201,7 +201,7 @@
   --fs-4xl: 3.25rem; /* 52px — ヒーローの 兄弟日記 ロゴ想定 */
 
   --lh-tight: 1.2;
-  --lh-normal: 1.7;
+  --lh-normal: 1.6;
   --lh-loose: 2; /* 本文・ログ用。日本語の読みやすさ重視 */
 
   --fw-regular: 400;
@@ -261,6 +261,17 @@
   --h-header-top: 90px;
   --h-header-nav: 60px;
   --h-header-tablet: 75px;
+
+  /* Layering -------------------------------------------- */
+  --z-page-base: 0;
+  --z-footer: 900;
+  --z-header: 1000;
+  --z-header-control: 1001;
+  --z-nav-drawer-page-shell: 1090;
+  --z-nav-drawer-backdrop: 1100;
+  --z-nav-drawer-trigger-open: 1105;
+  --z-nav-drawer-panel: 1110;
+  --z-nav-drawer-trigger: 1120;
 
   /* Motion ---------------------------------------------- */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);

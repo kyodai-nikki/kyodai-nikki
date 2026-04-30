@@ -1,0 +1,60 @@
+---
+import StickyNoteNav from "../common/nav/StickyNoteNav.astro";
+import { commonMsg } from "../../msg/common";
+import { episodesPageMsg } from "../../msg/episodes";
+
+export interface EpisodeStickyNavItem {
+  href: string;
+  numberLabel: string;
+  title: string;
+  active?: boolean;
+}
+
+interface Props {
+  items: EpisodeStickyNavItem[];
+  class?: string;
+}
+
+const { items, class: className = "" } = Astro.props as Props;
+---
+
+<StickyNoteNav
+  class:list={["episode-sticky-nav", className]}
+  id="episodes-sticky-nav"
+  ariaLabel={episodesPageMsg.aria.episodeStickyNav}
+  openLabel={commonMsg.actions.open(episodesPageMsg.labels.episodeList)}
+  closeLabel={commonMsg.actions.close}
+  drawerWidth="min(320px, calc(100vw - 75px))"
+  drawerMobileWidth="min(300px, calc(100vw - 75px))"
+  listAlign="stretch"
+>
+  {items.map((item) => (
+    <a
+      class="episode-sticky-nav__link"
+      href={item.href}
+      aria-current={item.active ? "page" : undefined}
+    >
+      <span class="episode-sticky-nav__number">{item.numberLabel}</span>
+      <span class="episode-sticky-nav__title">{item.title}</span>
+    </a>
+  ))}
+</StickyNoteNav>
+
+<style>
+  @media (--bp-tablet) {
+    .episode-sticky-nav__link {
+      display: grid;
+      gap: 4px;
+      color: var(--c-fg);
+    }
+
+    .episode-sticky-nav__number {
+      font-size: 13px;
+    }
+
+    .episode-sticky-nav__title {
+      padding-left: 20px;
+      font-size: 16px;
+    }
+  }
+</style>

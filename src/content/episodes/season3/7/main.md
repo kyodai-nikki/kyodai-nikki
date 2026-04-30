@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: true
   storyDate: "2025.05.02"
-  timelineCast: "千秋21歳（通信大学4年） 千冬22歳（建築士3年）"
+  timelineCast: ["千秋21歳（通信大学4年）", "千冬22歳（建築士3年）"]
   cast: ["染谷千秋"]
 scenario:
   title: "縁々獄々"

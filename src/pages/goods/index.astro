@@ -130,8 +130,8 @@ const goods = await orderedGoods();
 
   @media (--bp-tablet) {
     .goods-grid {
-      grid-template-columns: 1fr;
-      max-width: 320px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 680px;
     }
   }
 </style>

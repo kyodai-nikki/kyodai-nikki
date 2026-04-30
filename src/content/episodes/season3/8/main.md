@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2027.11.14"
-  timelineCast: "千秋24歳（-） 千冬24歳（-）"
+  timelineCast: ["千秋24歳（-）", "千冬24歳（-）"]
   cast: ["染谷千冬"]
 scenario:
   title: "やさしい世界と呼吸法"

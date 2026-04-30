@@ -1,0 +1,49 @@
+---
+import StickyNoteNav from "../common/nav/StickyNoteNav.astro";
+import type { SeasonInfo } from "../../lib/episodes";
+import { commonMsg } from "../../msg/common";
+import { episodesPageMsg } from "../../msg/episodes";
+
+interface Props {
+  seasons: SeasonInfo[];
+  class?: string;
+}
+
+const { seasons, class: className = "" } = Astro.props as Props;
+---
+
+<StickyNoteNav
+  class:list={["episode-season-sticky-nav", className]}
+  id="episodes-season-sticky-nav"
+  ariaLabel={episodesPageMsg.aria.timelineJumpNav}
+  heading={episodesPageMsg.labels.seasonList}
+  openLabel={commonMsg.actions.open(episodesPageMsg.labels.seasonList)}
+  closeLabel={commonMsg.actions.close}
+  drawerWidth="min(280px, calc(100vw - 75px))"
+  drawerMobileWidth="min(260px, calc(100vw - 75px))"
+>
+  {seasons.map((season) => (
+    <a class="episode-season-sticky-nav__link" href={`#${season.slug}`}>
+      {season.label}
+    </a>
+  ))}
+</StickyNoteNav>
+
+<style>
+  @media (--bp-tablet) {
+    .episode-season-sticky-nav__link {
+      color: var(--c-fg);
+      font-family: var(--font-family-navigation);
+      font-size: 20px;
+      line-height: var(--lh-normal);
+      text-decoration: none;
+    }
+
+    .episode-season-sticky-nav__link:hover,
+    .episode-season-sticky-nav__link:focus-visible {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 1px;
+    }
+  }
+</style>

@@ -8,42 +8,25 @@ import { imageThumbnailSrc, imageListSrcs } from "./image-utils";
 import { withBase } from "./urls";
 
 export type OthersFanArtEntry = CollectionEntry<"othersFanArt">;
-export type OthersSettingsEntry = CollectionEntry<"othersSettings">;
+export type OthersSettingsCharacterEntry =
+  CollectionEntry<"othersSettingCharacters">;
+export type OthersSettingsMaterialEntry =
+  CollectionEntry<"othersSettingMaterials">;
 
-export type OthersSettingsCharacterEntry = OthersSettingsEntry & {
-  data: {
-    kind: "character";
-    order: number;
-    name: string;
-  };
-};
-
-export type OthersSettingsMaterialEntry = OthersSettingsEntry & {
-  data: {
-    kind: "material";
-    order: number;
-    title: string;
-    documentUrls: string[];
-    details?: {
-      label: string;
-      value: string;
-    }[];
-  };
-};
-
-const isSettingsCharacterEntry = (
-  entry: OthersSettingsEntry,
-): entry is OthersSettingsCharacterEntry => entry.data.kind === "character";
-
-const isSettingsMaterialEntry = (
-  entry: OthersSettingsEntry,
-): entry is OthersSettingsMaterialEntry => entry.data.kind === "material";
+type OthersSettingsEntry =
+  | OthersSettingsCharacterEntry
+  | OthersSettingsMaterialEntry;
 
 export const settingsCharacterSlug = (entry: OthersSettingsEntry): string =>
   entry.id.split("/")[0];
 
 const settingsMaterialSlug = (entry: OthersSettingsMaterialEntry): string =>
   entry.id.split("/")[1]?.replace(/^\d+-/, "") ?? entry.id;
+
+const sortByEntryId = <T extends { id: string }>(entries: readonly T[]): T[] =>
+  entries
+    .slice()
+    .sort((a, b) => a.id.localeCompare(b.id, undefined, { numeric: true }));
 
 // ファンアートコレクションをファイル名の昇順で取得する。
 export const orderedFanArt = async (): Promise<OthersFanArtEntry[]> => {
@@ -69,18 +52,14 @@ export const fanArtImageSrc = (entry: OthersFanArtEntry): string => {
 export const orderedSettingsCharacters = async (): Promise<
   OthersSettingsCharacterEntry[]
 > =>
-  sortByOrder(
-    (await getCollection("othersSettings")).filter(isSettingsCharacterEntry),
-  );
+  sortByOrder(await getCollection("othersSettingCharacters"));
 
 export const orderedSettingsMaterials = async (
   characterSlug: string,
 ): Promise<OthersSettingsMaterialEntry[]> =>
-  sortByOrder(
-    (await getCollection("othersSettings")).filter(
-      (entry): entry is OthersSettingsMaterialEntry =>
-        isSettingsMaterialEntry(entry) &&
-        settingsCharacterSlug(entry) === characterSlug,
+  sortByEntryId(
+    (await getCollection("othersSettingMaterials")).filter(
+      (entry) => settingsCharacterSlug(entry) === characterSlug,
     ),
   );
 

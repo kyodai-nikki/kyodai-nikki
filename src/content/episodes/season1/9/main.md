@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2022.10.15"
-  timelineCast: "千秋18歳（専門1年） 千冬19歳（専門2年）"
+  timelineCast: ["千秋18歳（専門1年）", "千冬19歳（専門2年）"]
   cast: ["染谷千冬"]
 scenario:
   title: "問：死の定義を教えてください"

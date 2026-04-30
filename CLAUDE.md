@@ -46,3 +46,11 @@
 
 「最終形 href / src を返す関数」はbase path込みで設定すること。
 その際は共通関数であるwithBase()を利用すること。
+
+## 検証・開発サーバー
+
+Windows で Astro の開発サーバーを起動する場合、二重引用符で囲んだ PowerShell 文字列の中に `cmd.exe /c` の二重引用符をさらにネストすると失敗しやすい。引用符で失敗した場合は、`cmd.exe /c` のペイロード全体を PowerShell のシングルクォートで囲む。
+
+```powershell
+cmd.exe /c 'set ASTRO_TELEMETRY_DISABLED=1&& start "" /B "C:\Users\PC_User\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe" "C:\Users\PC_User\Desktop\it\kyodai-nikki\node_modules\astro\astro.js" dev --host 127.0.0.1 --port 4321 > .astro-dev.out.log 2> .astro-dev.err.log'
+```

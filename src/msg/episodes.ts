@@ -5,6 +5,7 @@ export const episodesPageMsg = {
   },
   aria: {
     timelineJumpNav: "シーズンへジャンプ",
+    episodeStickyNav: "エピソード一覧",
     logNavigation: "ログナビゲーション",
     previousEpisodeMove: "前の話へ移動",
     nextEpisodeMove: "次の話へ移動",
@@ -12,6 +13,8 @@ export const episodesPageMsg = {
   labels: {
     alternateTag: "Another Episode",
     deletedEpisodeTag: "――",
+    episodeList: "エピソード一覧",
+    seasonList: "season",
     seasonTimeline: "timeline",
     logSuffix: "のログ",
   },

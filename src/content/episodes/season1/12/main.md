@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: true
   storyDate: "2022.12.24"
-  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
+  timelineCast: ["千秋19歳（専門1年）", "千冬20歳（専門2年）"]
   cast: ["染谷千冬", "染谷千秋"]
 scenario:
   title: "純愛、故に"

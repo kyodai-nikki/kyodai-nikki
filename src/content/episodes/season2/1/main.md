@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.02.04"
-  timelineCast: "千秋19歳（専門1年） 千冬20歳（専門2年）"
+  timelineCast: ["千秋19歳（専門1年）", "千冬20歳（専門2年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "52Hzの救難信号"

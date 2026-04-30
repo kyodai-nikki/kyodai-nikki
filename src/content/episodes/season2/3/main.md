@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2023.04.06"
-  timelineCast: "千秋19歳（通信大学2年） 千冬20歳（建築士1年）"
+  timelineCast: ["千秋19歳（通信大学2年）", "千冬20歳（建築士1年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "おはよう、世界。"

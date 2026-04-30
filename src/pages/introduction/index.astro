@@ -24,7 +24,7 @@ import Content from "../../content/introduction.md";
     font-family: var(--f-serif);
     color: var(--c-fg-body);
     line-height: var(--lh-loose);
-    font-size: var(--fs-base);
+    font-size: 18px;
   }
 
   .intro-box :global(p) {
@@ -36,6 +36,10 @@ import Content from "../../content/introduction.md";
   }
 
   @media (--bp-tablet) {
-    .intro-box { font-size: var(--fs-sm); }
+    .intro-box { font-size: 18px; }
+  }
+
+  @media (--bp-mobile) {
+    .intro-box { font-size: 16px; }
   }
 </style>

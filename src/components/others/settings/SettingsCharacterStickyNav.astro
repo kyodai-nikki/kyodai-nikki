@@ -1,0 +1,42 @@
+---
+import StickyNoteNav from "../../common/nav/StickyNoteNav.astro";
+import {
+  settingsCharacterSlug,
+  type OthersSettingsCharacterEntry,
+} from "../../../lib/others";
+import { settingsCharacterHref } from "../../../lib/view/others";
+import { othersPageMsg } from "../../../msg/others";
+
+interface Props {
+  characters: OthersSettingsCharacterEntry[];
+  currentSlug: string;
+  class?: string;
+}
+
+const {
+  characters,
+  currentSlug,
+  class: className = "",
+} = Astro.props as Props;
+---
+
+<StickyNoteNav
+  class:list={["settings-character-sticky-nav", className]}
+  id="others-settings-character-nav"
+  ariaLabel={othersPageMsg.aria.settingsCharacters}
+  heading={othersPageMsg.settings.charactersHeading}
+  openLabel={othersPageMsg.settings.openCharacters}
+  closeLabel={othersPageMsg.settings.closeCharacters}
+>
+  {characters.map((item) => {
+    const slug = settingsCharacterSlug(item);
+    return (
+      <a
+        href={settingsCharacterHref(slug)}
+        aria-current={slug === currentSlug ? "page" : undefined}
+      >
+        {item.data.name}
+      </a>
+    );
+  })}
+</StickyNoteNav>

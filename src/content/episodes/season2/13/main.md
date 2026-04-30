@@ -5,7 +5,7 @@ session:
     isR18: true
     isR18G: false
   storyDate: "2024.06.01"
-  timelineCast: "千秋20歳（通信大学3年）千冬21歳（建築士2年）"
+  timelineCast: ["千秋20歳（通信大学3年）", "千冬21歳（建築士2年）"]
   cast: ["染谷千秋", "染谷千冬"]
 scenario:
   title: "more than WHITE"

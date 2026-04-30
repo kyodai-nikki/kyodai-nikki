@@ -65,7 +65,6 @@ const hasPageShell =
   <body class={bodyClass}>
     <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
     <Header />
-    <div class="site-menu-backdrop" aria-hidden="true"></div>
     <main id="main" data-page-shell style={`--page-shell-bg-image: ${pageShellBgImage};`}>
       {showEpisodeSpoilerNotice && <EpisodeSpoilerNotice topHref={withBase("/")} />}
       {hasPageShell ? (
@@ -87,74 +86,5 @@ const hasPageShell =
     <Footer shareUrl={canonical.href} shareTitle={fullTitle} />
     <BackToTop />
 
-    <style>
-      .site-menu-backdrop {
-        display: none;
-      }
-
-      @media (--bp-laptop) {
-        .site-menu-backdrop {
-          display: block;
-          position: fixed;
-          inset: 0;
-          background: var(--c-site-menu-backdrop);
-          opacity: 0;
-          pointer-events: none;
-          transition: opacity var(--dur-base) var(--ease-out);
-          z-index: 999;
-        }
-
-        .site-menu-backdrop[data-open="true"] {
-          opacity: 1;
-          pointer-events: auto;
-        }
-      }
-    </style>
-
-    <script>
-      const setupNavigation = () => {
-        const btn = document.querySelector<HTMLButtonElement>(".nav-toggle");
-        const nav = document.querySelector<HTMLElement>(".site-nav");
-        const backdrop = document.querySelector<HTMLElement>(".site-menu-backdrop");
-        if (!btn || !nav || btn.dataset.initialized === "true") return;
-
-        btn.dataset.initialized = "true";
-        const labelOpen = btn.dataset.labelOpen ?? btn.getAttribute("aria-label") ?? "";
-        const labelClose = btn.dataset.labelClose ?? labelOpen;
-
-        const setOpen = (open: boolean) => {
-          nav.dataset.open = open.toString();
-          if (backdrop) backdrop.dataset.open = open.toString();
-          btn.setAttribute("aria-expanded", open.toString());
-          btn.setAttribute("aria-label", open ? labelClose : labelOpen);
-          document.body.toggleAttribute("data-nav-open", open);
-        };
-
-        btn.addEventListener("click", () => {
-          setOpen(nav.dataset.open !== "true");
-        });
-
-        nav.addEventListener("click", (event) => {
-          if (event.target instanceof HTMLAnchorElement) setOpen(false);
-        });
-
-        document.addEventListener("keydown", (event) => {
-          if (event.key === "Escape") setOpen(false);
-        });
-
-        document.addEventListener("pointerdown", (event) => {
-          if (nav.dataset.open !== "true" || !(event.target instanceof Node)) return;
-          if (nav.contains(event.target) || btn.contains(event.target)) return;
-          setOpen(false);
-        });
-
-        window.addEventListener("resize", () => {
-          if (window.matchMedia("(min-width: 1025px)").matches) setOpen(false);
-        });
-      };
-
-      setupNavigation();
-      document.addEventListener("astro:page-load", setupNavigation);
-    </script>
   </body>
 </html>

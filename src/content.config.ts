@@ -51,7 +51,7 @@ const episodeLogs = defineCollection({
           })
           .optional(),
         storyDate: z.string().optional(),
-        timelineCast: z.string().optional(),
+        timelineCast: z.array(z.string()).optional(),
         cast: z.array(z.string()).optional(),
       })
       .optional(),
@@ -161,32 +161,34 @@ const othersFanArt = defineCollection({
   }),
 });
 
-const othersSettings = defineCollection({
+const othersSettingCharacters = defineCollection({
   loader: glob({
-    pattern: "**/*.md",
+    pattern: "*/index.md",
     base: `${siteConfig.contentBase}/settings`,
   }),
-  schema: z.discriminatedUnion("kind", [
-    z.object({
-      kind: z.literal("character"),
-      order: z.number().int().positive(),
-      name: z.string(),
-    }),
-    z.object({
-      kind: z.literal("material"),
-      order: z.number().int().positive(),
-      title: z.string(),
-      documentUrls: z.array(z.string()),
-      details: z
-        .array(
-          z.object({
-            label: z.string(),
-            value: z.string(),
-          }),
-        )
-        .optional(),
-    }),
-  ]),
+  schema: z.object({
+    order: z.number().int().positive(),
+    name: z.string(),
+  }),
+});
+
+const othersSettingMaterials = defineCollection({
+  loader: glob({
+    pattern: "*/[0-9]*.md",
+    base: `${siteConfig.contentBase}/settings`,
+  }),
+  schema: z.object({
+    title: z.string(),
+    documentUrls: z.array(z.string()),
+    details: z
+      .array(
+        z.object({
+          label: z.string(),
+          value: z.string(),
+        }),
+      )
+      .optional(),
+  }),
 });
 
 export const collections = {
@@ -198,5 +200,6 @@ export const collections = {
   goods,
   movies,
   othersFanArt,
-  othersSettings,
+  othersSettingCharacters,
+  othersSettingMaterials,
 };

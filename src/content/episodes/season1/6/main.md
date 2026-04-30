@@ -5,7 +5,7 @@ session:
     isR18: false
     isR18G: false
   storyDate: "2022.02.20"
-  timelineCast: "千秋18歳（高校3年） 千冬19歳（専門1年）"
+  timelineCast: ["千秋18歳（高校3年）", "千冬19歳（専門1年）"]
   cast: ["染谷千秋"]
 scenario:
   title: "Multi*Dead*Ending"
