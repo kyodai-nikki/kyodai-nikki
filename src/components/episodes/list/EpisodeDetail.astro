@@ -1,0 +1,195 @@
+---
+import {
+  episodeThumbnailImage,
+  type EpisodeEntry,
+  type SeasonInfo,
+} from "../../../lib/episodes";
+import { episodeOverviewLabel } from "../../../lib/episodes/view";
+import { commonMsg } from "../../../msg/common";
+import { episodesPageMsg } from "../../../msg/episodes";
+import Badge from "../../common/Badge.astro";
+
+type EpisodeMeta = EpisodeEntry & {
+  badge?: string;
+};
+
+interface Props {
+  current?: EpisodeMeta;
+  seasonSlug: SeasonInfo["slug"];
+  logHref?: string;
+  dummyThumbnail: string;
+}
+
+const { current, seasonSlug, logHref, dummyThumbnail } = Astro.props as Props;
+const detailClass =
+  current && current.type !== "normal" ? "ep-detail ep-detail--alt" : "ep-detail";
+const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
+---
+
+{current ? (
+  <article id="ep-detail" class={detailClass} aria-live="polite">
+    <div class="ep-detail__image-wrap">
+      <img
+        class="ep-detail__image"
+        src={episodeThumbnailImage(seasonSlug, current)}
+        alt={episodesPageMsg.alt.thumbnail(current.title)}
+        data-fallback-src={dummyThumbnail}
+      />
+    </div>
+
+    <h2 class="ep-detail__title">
+      <span>{current.title}</span>
+      <span class="ep-detail__subtitle">
+        {episodeOverviewLabel(current)}
+      </span>
+    </h2>
+
+    <p class="ep-detail__body">{current.description}</p>
+
+    <div class="ep-detail__foot">
+      <div>
+        {current.badge && <Badge label={current.badge} variant={badgeVariant} />}
+        {current.isR18 && <Badge label={commonMsg.badges.r18} variant={badgeVariant} />}
+        {current.isR18G && <Badge label={commonMsg.badges.r18g} variant={badgeVariant} />}
+      </div>
+      {logHref && (
+        <a class="ep-detail__read" href={logHref}>
+          {commonMsg.actions.read}
+        </a>
+      )}
+    </div>
+  </article>
+) : (
+  <article class="ep-detail ep-detail--empty">
+    <p>{episodesPageMsg.empty.episodeSelection}</p>
+  </article>
+)}
+
+<style>
+  .ep-detail {
+    border: 1px solid var(--c-border);
+    background: var(--c-bg-elev);
+    color: var(--c-fg);
+    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-4);
+    min-height: 640px;
+  }
+
+  .ep-detail--alt {
+    background: var(--c-bg-dark);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
+  }
+
+  .ep-detail--alt .ep-detail__image {
+    filter: grayscale(1);
+  }
+
+  .ep-detail--alt .ep-detail__title,
+  .ep-detail--alt .ep-detail__subtitle {
+    color: var(--c-fg-on-dark);
+    opacity: 1;
+  }
+
+  .ep-detail--alt .ep-detail__read {
+    border-color: var(--c-fg-on-dark);
+    color: var(--c-fg-on-dark);
+  }
+
+  .ep-detail--alt .ep-detail__read:hover {
+    background: var(--c-fg-on-dark);
+    color: var(--c-bg-dark);
+  }
+
+  .ep-detail--empty {
+    align-items: center;
+    justify-content: center;
+    color: var(--c-fg-muted);
+  }
+
+  .ep-detail__image-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--c-bg-muted);
+    overflow: hidden;
+  }
+
+  .ep-detail__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .ep-detail__title {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    display: flex;
+    align-items: baseline;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+
+  .ep-detail__subtitle {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+    color: inherit;
+    opacity: 0.75;
+    letter-spacing: var(--ls-wide);
+  }
+
+  .ep-detail__body {
+    margin: 0;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    line-height: 1.9;
+    white-space: pre-wrap;
+  }
+
+  .ep-detail__foot {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--s-3);
+    flex-wrap: wrap;
+  }
+
+  .ep-detail__foot > div {
+    display: flex;
+    gap: var(--s-2);
+    flex-wrap: wrap;
+  }
+
+  .ep-detail__read {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: var(--s-2) var(--s-5);
+    border: 1px solid var(--c-fg);
+    color: var(--c-fg);
+    background: transparent;
+    text-decoration: none;
+    font-family: var(--f-serif);
+    font-size: var(--fs-sm);
+    letter-spacing: var(--ls-wide);
+    transition: background var(--dur-fast) var(--ease-out),
+      color var(--dur-fast) var(--ease-out);
+  }
+
+  .ep-detail__read:hover {
+    background: var(--c-fg);
+    color: var(--c-fg-on-dark);
+  }
+
+  @media (--bp-tablet) {
+    .ep-detail {
+      min-height: auto;
+    }
+  }
+</style>

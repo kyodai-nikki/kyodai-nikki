@@ -307,37 +307,6 @@ export const episodeHrefByNumber = async (
 export const timelineEpisodeHref = (entry: TimelineEntry): string =>
   episodeHref(entry.seasonSlug, entry);
 
-export const episodeListNumberLabel = (entry: EpisodeEntry): string =>
-  entry.episodeLabel;
-
-export const episodeOverviewLabel = (entry: EpisodeEntry): string => {
-  switch (entry.type) {
-    case "another":
-      return "Another Episode";
-    case "normal":
-      return `Episode${entry.episodeLabel}`;
-    case "deleted":
-      return entry.episodeLabel;
-  }
-};
-
-export const episodeDetailSubtitle = (entry: EpisodeEntry): string =>
-  episodeOverviewLabel(entry);
-
-export const episodeLogHeadingLabel = (
-  entry: EpisodeEntry,
-  deletedLabel: string,
-): string => {
-  if (entry.type === "deleted") return deletedLabel;
-  if (entry.type === "another") return `Episode${deletedLabel}`;
-  return `Episode${episodeSeasonNumberLabel(entry)}`;
-};
-
-// タイムラインに表示するエピソード番号ラベルを作る。
-export const timelineEpisodeNumberLabel = (entry: TimelineEntry): string => {
-  return episodeOverviewLabel(entry);
-};
-
 // タイムライン項目をシーズンごとにグルーピングする。
 export const groupedEpisodesTimeline = async (): Promise<
   { season: SeasonInfo; items: TimelineEntry[] }[]

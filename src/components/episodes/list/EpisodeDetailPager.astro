@@ -1,0 +1,74 @@
+---
+import { episodesPageMsg } from "../../../msg/episodes";
+import Icon, { IconName } from "../../common/Icon.astro";
+
+interface Props {
+  previousHref?: string;
+  nextHref?: string;
+}
+
+const { previousHref, nextHref } = Astro.props as Props;
+---
+
+<nav class="ep-detail__pager" aria-label={episodesPageMsg.aria.logNavigation}>
+  {previousHref ? (
+    <a
+      class="ep-detail__arrow"
+      href={previousHref}
+      aria-label={episodesPageMsg.aria.previousEpisodeMove}
+    >
+      <Icon name={IconName.KeyboardArrowLeft} size={28} />
+    </a>
+  ) : (
+    <span class="ep-detail__arrow ep-detail__arrow--spacer" aria-hidden="true"></span>
+  )}
+
+  {nextHref ? (
+    <a
+      class="ep-detail__arrow"
+      href={nextHref}
+      aria-label={episodesPageMsg.aria.nextEpisodeMove}
+    >
+      <Icon name={IconName.KeyboardArrowRight} size={28} />
+    </a>
+  ) : (
+    <span class="ep-detail__arrow ep-detail__arrow--spacer" aria-hidden="true"></span>
+  )}
+</nav>
+
+<style>
+  .ep-detail__pager {
+    display: none;
+  }
+
+  .ep-detail__arrow {
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: var(--c-log-arrow-fg);
+    text-decoration: none;
+  }
+
+  .ep-detail__arrow:hover {
+    color: var(--c-log-arrow-fg-hover);
+  }
+
+  .ep-detail__arrow--spacer {
+    visibility: hidden;
+  }
+
+  @media (--bp-tablet) {
+    .ep-detail__pager {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      padding-top: 14px;
+    }
+
+    .ep-detail__arrow {
+      display: inline-flex;
+    }
+  }
+</style>

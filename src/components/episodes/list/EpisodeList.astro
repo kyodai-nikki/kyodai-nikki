@@ -1,0 +1,185 @@
+---
+import {
+  episodeHref,
+  episodeListImage,
+  type EpisodeEntry,
+  type SeasonInfo,
+} from "../../../lib/episodes";
+import { episodeListNumberLabel } from "../../../lib/episodes/view";
+import { episodesPageMsg } from "../../../msg/episodes";
+
+interface Props {
+  list: EpisodeEntry[];
+  seasonSlug: SeasonInfo["slug"];
+  seasonLabel: SeasonInfo["label"];
+  currentOverallNumber?: EpisodeEntry["overallNumber"];
+  dummyEpisodeList: string;
+}
+
+const {
+  list,
+  seasonSlug,
+  seasonLabel,
+  currentOverallNumber,
+  dummyEpisodeList,
+} = Astro.props as Props;
+
+const itemClass = (episode: EpisodeEntry) => {
+  const cls = ["ep-item"];
+  if (episode.type !== "normal") cls.push("ep-item--alt");
+  if (episode.smallText) cls.push("ep-item--sm");
+  if (currentOverallNumber === episode.overallNumber) {
+    cls.push("ep-item--selected");
+  }
+  return cls.join(" ");
+};
+---
+
+<ol class="ep-list" aria-label={`${seasonLabel} episodes`}>
+  {list.length === 0 ? (
+    <li class="ep-empty">{episodesPageMsg.empty.noEpisodesYet}</li>
+  ) : (
+    list.map((episode) => (
+      <li>
+        <a
+          class={itemClass(episode)}
+          href={episodeHref(seasonSlug, episode)}
+          style={{ "--ep-bg": `url("${episodeListImage(seasonSlug, episode)}"), url("${dummyEpisodeList}")` }}
+        >
+          <span class="ep-item__no">{episodeListNumberLabel(episode)}</span>
+          <span class="ep-item__title">{episode.title}</span>
+        </a>
+      </li>
+    ))
+  )}
+</ol>
+
+<style>
+  .ep-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 640px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-3);
+  }
+
+  .ep-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ep-empty {
+    padding: var(--s-5);
+    color: var(--c-fg-muted);
+    text-align: center;
+  }
+
+  .ep-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    align-items: center;
+    gap: var(--s-3);
+    min-height: 88px;
+    padding: var(--s-3) var(--s-4);
+    background-color: var(--c-bg-elev);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
+      ),
+      var(--ep-bg, none);
+    background-size: cover, cover;
+    background-position: left center, right center;
+    background-repeat: no-repeat, no-repeat;
+    border: 1px solid var(--c-border);
+    color: var(--c-fg);
+    text-decoration: none;
+    overflow: hidden;
+    transition: background-color var(--dur-base) var(--ease-out),
+      color var(--dur-base) var(--ease-out),
+      border-color var(--dur-base) var(--ease-out);
+  }
+
+  .ep-item:hover {
+    border-color: var(--c-border-strong);
+  }
+
+  .ep-item__no {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+  }
+
+  .ep-item__title {
+    font-family: var(--f-serif);
+    font-size: var(--fs-base);
+    letter-spacing: var(--ls-wide);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ep-item--sm .ep-item__title {
+    font-size: var(--fs-sm);
+  }
+
+  .ep-item--selected:not(.ep-item--alt) {
+    background-color: var(--c-bg-dark);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-dark) 37%,
+        var(--c-ep-item-grad-mid-dark) 100%,
+        var(--c-ep-item-grad-end-dark) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-dark);
+  }
+
+  .ep-item--alt {
+    background-color: var(--c-bg-darker);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-darker) 37%,
+        var(--c-ep-item-grad-mid-darker) 100%,
+        var(--c-ep-item-grad-end-darker) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg-on-dark);
+    border-color: var(--c-bg-darker);
+  }
+
+  .ep-item--alt.ep-item--selected {
+    background-color: var(--c-bg-elev);
+    background-image:
+      linear-gradient(
+        90deg,
+        var(--c-bg-elev) 37%,
+        var(--c-ep-item-grad-mid-light) 100%,
+        var(--c-ep-item-grad-end-light) 100%
+      ),
+      var(--ep-bg, none);
+    color: var(--c-fg);
+    border-color: var(--c-fg);
+  }
+
+  @media (--bp-tablet) {
+    .ep-list {
+      display: none;
+    }
+  }
+</style>
