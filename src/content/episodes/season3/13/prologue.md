@@ -1,379 +1,379 @@
 <!-- Optional prologue log section. -->
 
-<span class="kp">ひと月前、ふたりの住む街で大規模な怪異事件が発生した。
+<span style="color: #000">ひと月前、ふたりの住む街で大規模な怪異事件が発生した。
 千秋と千冬は、今までの経験からその脅威へと立ち向かうことを決めた。そして街を襲う怪異事件の原因を突き止め、解決まで導いた。
 
 事件が終息した後ふたりは話し合い、より長い時間傍にいるため、千冬は仕事を辞めることになった。
 千秋のYouTuberとして収益を得ており、千冬はこれから千秋の配信活動を手伝うことになる。それに合わせて、事件発生直後に話し合っていた通り、北海道へ引っ越しをすることにした。
-</span><span class="kp">・・・
-</span><span class="kp">あなたはいつもと同じように、千冬の働く会社まで車で迎えに行く。しかし、それも今日で最後となる。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">あなたはいつもと同じように、千冬の働く会社まで車で迎えに行く。しかし、それも今日で最後となる。
 18時を過ぎてすぐ、千冬は会社から出て、千秋の車へとやって来た。
 
-</span><span class="chiaki">染谷千秋 : 「千冬、お疲れ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、お疲れ」
 会社の入り口で待機しています。千冬を見つけてすぐ手をひらひら振りながら千冬の元へ歩いていきます。
-</span><span class="chifuyu">染谷千冬 : 染谷千冬 : 「千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 染谷千冬 : 「千秋」
 入口まで来ているのを珍しく思います。
 「迎え、ありがとう」
-</span><span class="chiaki">染谷千秋 : 律儀にお礼を言う千冬に微笑みを浮かべます。
+</span><span style="color: #db7093">染谷千秋 : 律儀にお礼を言う千冬に微笑みを浮かべます。
 「いーよ。今日最終日だったろ？　早く会いたくてここまで来たんだ」
 にこりと笑い、千冬の腰に手をあてて荷物を持ちます。
-</span><span class="chifuyu">染谷千冬 : 「そうか。……」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか。……」
 荷物を掴む手を離しません。
-</span><span class="chiaki">染谷千秋 : res(17-16) (1d100<=55) ＞ 25 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「ちーふゆ、荷物俺持つ。貸して」
-</span><span class="chifuyu">染谷千冬 : 「いい。すぐそこだ。自分で持つ」
-</span><span class="chiaki">染谷千秋 : 「ふーん？」
-</span><span class="chiaki">染谷千秋 : 「おりゃ」
+</span><span style="color: #db7093">染谷千秋 : res(17-16) (1d100<=55) ＞ 25 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「ちーふゆ、荷物俺持つ。貸して」
+</span><span style="color: #00bcd4">染谷千冬 : 「いい。すぐそこだ。自分で持つ」
+</span><span style="color: #db7093">染谷千秋 : 「ふーん？」
+</span><span style="color: #db7093">染谷千秋 : 「おりゃ」
 千冬の脇腹を擽り荷物を奪います。
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「……っ」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……っ」
 咄嗟のことでしたが、なんとか声を抑えます。その場に硬直し、荷物を奪われます。
-</span><span class="chiaki">染谷千秋 : 「はは」
+</span><span style="color: #db7093">染谷千秋 : 「はは」
 その反応に気を良くしたまま、腰を引き寄せ、千冬の顔を覗き込みます。
 「荷物ゲット〜、最終日お疲れ〜ってことでさ、俺持つぜ？」
-</span><span class="chifuyu">染谷千冬 : 「……もう持ってる」
+</span><span style="color: #00bcd4">染谷千冬 : 「……もう持ってる」
 目を細めます。
-</span><span class="kp">市橋 : 「染谷、弟と仲良いなー」
+</span><span style="color: #000">市橋 : 「染谷、弟と仲良いなー」
 
-</span><span class="kp">二人の後ろから現れたのは、千冬の同僚である市橋だった。
+</span><span style="color: #000">二人の後ろから現れたのは、千冬の同僚である市橋だった。
 
-</span><span class="chifuyu">染谷千冬 : 「市橋。お疲れ」
-</span><span class="kp">市橋 : 「お疲れさまー。……染谷の弟さんですよね？　一回弁当届けに来てた気する」
-</span><span class="chiaki">染谷千秋 : 「市橋さん、お久しぶりです。その節はどうも」
-</span><span class="chiaki">染谷千秋 : 市橋の様子を観察！何しにきたか！何しに行くのか！前回から変わった点！千冬に対する態度！
+</span><span style="color: #00bcd4">染谷千冬 : 「市橋。お疲れ」
+</span><span style="color: #000">市橋 : 「お疲れさまー。……染谷の弟さんですよね？　一回弁当届けに来てた気する」
+</span><span style="color: #db7093">染谷千秋 : 「市橋さん、お久しぶりです。その節はどうも」
+</span><span style="color: #db7093">染谷千秋 : 市橋の様子を観察！何しにきたか！何しに行くのか！前回から変わった点！千冬に対する態度！
 
-</span><span class="kp">目星をどうぞ…？
+</span><span style="color: #000">目星をどうぞ…？
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 36 ＞ 成功
-</span><span class="chiaki">染谷千秋 : フン　かかってこい
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 36 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : フン　かかってこい
 
-</span><span class="kp">？
+</span><span style="color: #000">？
 
-</span><span class="chiaki">染谷千秋 : ？
+</span><span style="color: #db7093">染谷千秋 : ？
 
-</span><span class="kp">市橋は肩に鞄をかけている。千冬と同じく定時上がりで、今から帰宅するところなのだろうと推測できる。様子に変わった点はない。
+</span><span style="color: #000">市橋は肩に鞄をかけている。千冬と同じく定時上がりで、今から帰宅するところなのだろうと推測できる。様子に変わった点はない。
 
-</span><span class="chiaki">染谷千秋 : 「今から帰りっすか？」
-</span><span class="kp">市橋 : 「そうなんですよー。染谷……ああ、弟さんのお兄さんとは案件も違ってるんで帰るタイミングも違ったりするんだけど、今日はたまたまですね。弟さんに会えてラッキーかも」
-</span><span class="chiaki">染谷千秋 : 「そーなんすね。偶然みたいですけど、市橋さんと会えて嬉しいです。挨拶したかったんですよ」
+</span><span style="color: #db7093">染谷千秋 : 「今から帰りっすか？」
+</span><span style="color: #000">市橋 : 「そうなんですよー。染谷……ああ、弟さんのお兄さんとは案件も違ってるんで帰るタイミングも違ったりするんだけど、今日はたまたまですね。弟さんに会えてラッキーかも」
+</span><span style="color: #db7093">染谷千秋 : 「そーなんすね。偶然みたいですけど、市橋さんと会えて嬉しいです。挨拶したかったんですよ」
 千冬と市橋の間に入りながら千冬の手を握って歩きます。
 「長い間、千冬がお世話になりました。今までありがとうございました」
-</span><span class="kp">市橋 : 「ああ、ご丁寧にありがとうございます。こちらこそー。なんか全然お兄さんと似てないですね」
-</span><span class="chiaki">染谷千秋 : 「はは、そーすか？　そうやって言われたの初めてです。どこら辺でそう思いました？」
-</span><span class="chifuyu">染谷千冬 : （……言われたことはある、が）
+</span><span style="color: #000">市橋 : 「ああ、ご丁寧にありがとうございます。こちらこそー。なんか全然お兄さんと似てないですね」
+</span><span style="color: #db7093">染谷千秋 : 「はは、そーすか？　そうやって言われたの初めてです。どこら辺でそう思いました？」
+</span><span style="color: #00bcd4">染谷千冬 : （……言われたことはある、が）
 頭の中でハテナを浮かべながら黙って聞いています。
-</span><span class="kp">市橋 : 「え、ほんまに？　もう全部違いますけどね。お兄さんってちょっとクールな感じじゃないですか」
-</span><span class="chiaki">染谷千秋 : （……千冬が『クール』ね。はは、こいつも全然千冬のこと分かってねぇな〜）
-</span><span class="chiaki">染谷千秋 : 「クールかあ、言われてみればそんなイメージはありますね」
+</span><span style="color: #000">市橋 : 「え、ほんまに？　もう全部違いますけどね。お兄さんってちょっとクールな感じじゃないですか」
+</span><span style="color: #db7093">染谷千秋 : （……千冬が『クール』ね。はは、こいつも全然千冬のこと分かってねぇな〜）
+</span><span style="color: #db7093">染谷千秋 : 「クールかあ、言われてみればそんなイメージはありますね」
 千冬の方を見て目を細めます。
 「俺はそう見えないすか？」
 千冬の手の甲を指の腹で撫でながら、市橋の方を見ます。
-</span><span class="chifuyu">染谷千冬 : （……？）
-</span><span class="kp">市橋 : 「そうですねー、クールっていうよりは明るく見えます。いつもお兄さんのこと迎えに来てるんですよね？　時々話聞いてますよー」
-</span><span class="chiaki">染谷千秋 : 「はは、そう見えるなんてなんか嬉しいっすね。そうですよー。俺どんな風に話されてるんですか？」
-</span><span class="kp">市橋 : 「どんなふうに……って言われるとちょっと難しいですけど、迎えに来てる話も聞いてたし、休日何してるか聞いた時もよく弟の話してたかな」
-</span><span class="kp">市橋 : 「休日といえば、染谷。せっかく最後やし、飯とかどう？　今日は弟さん来てるから悪いしな……明日って空いてる？」
-</span><span class="chifuyu">染谷千冬 : 「予定がある」
-</span><span class="kp">市橋 : 「そっかー日曜は俺が予定あるから無理やわ。俺来週仕事遅くなりそうやし、無理そうやな……残念。たった一人の同期がおらんくなるの寂しいわー」
-</span><span class="chifuyu">染谷千冬 : 「頑張れ」
-</span><span class="kp">市橋 : 「ありがと。染谷も頑張れー」
-</span><span class="kp">市橋 : 「仕事の愚痴あったら染谷にラインで愚痴ろかなー」
-</span><span class="chifuyu">染谷千冬 : 「構わない」
-</span><span class="kp">市橋 : 「マジ？　その時は連絡しよ」
-</span><span class="kp">市橋 : 「あー、引き留めちゃってすみません。そろそろ失礼しまーす。最後にレアキャラと会えて良かったです。それじゃ、二人ともお元気で。お世話になりましたー」
-</span><span class="chiaki">染谷千秋 : 「ありがとうございました～」
+</span><span style="color: #00bcd4">染谷千冬 : （……？）
+</span><span style="color: #000">市橋 : 「そうですねー、クールっていうよりは明るく見えます。いつもお兄さんのこと迎えに来てるんですよね？　時々話聞いてますよー」
+</span><span style="color: #db7093">染谷千秋 : 「はは、そう見えるなんてなんか嬉しいっすね。そうですよー。俺どんな風に話されてるんですか？」
+</span><span style="color: #000">市橋 : 「どんなふうに……って言われるとちょっと難しいですけど、迎えに来てる話も聞いてたし、休日何してるか聞いた時もよく弟の話してたかな」
+</span><span style="color: #000">市橋 : 「休日といえば、染谷。せっかく最後やし、飯とかどう？　今日は弟さん来てるから悪いしな……明日って空いてる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「予定がある」
+</span><span style="color: #000">市橋 : 「そっかー日曜は俺が予定あるから無理やわ。俺来週仕事遅くなりそうやし、無理そうやな……残念。たった一人の同期がおらんくなるの寂しいわー」
+</span><span style="color: #00bcd4">染谷千冬 : 「頑張れ」
+</span><span style="color: #000">市橋 : 「ありがと。染谷も頑張れー」
+</span><span style="color: #000">市橋 : 「仕事の愚痴あったら染谷にラインで愚痴ろかなー」
+</span><span style="color: #00bcd4">染谷千冬 : 「構わない」
+</span><span style="color: #000">市橋 : 「マジ？　その時は連絡しよ」
+</span><span style="color: #000">市橋 : 「あー、引き留めちゃってすみません。そろそろ失礼しまーす。最後にレアキャラと会えて良かったです。それじゃ、二人ともお元気で。お世話になりましたー」
+</span><span style="color: #db7093">染谷千秋 : 「ありがとうございました～」
 市橋を見送ります。
-</span><span class="chifuyu">染谷千冬 : 「元気で。世話になった」
+</span><span style="color: #00bcd4">染谷千冬 : 「元気で。世話になった」
 
-</span><span class="kp">二人が見送ると、市橋は駅の方面へと去っていった。
+</span><span style="color: #000">二人が見送ると、市橋は駅の方面へと去っていった。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。帰ろう」
-</span><span class="chiaki">染谷千秋 : 「ん。仲良いだってさ。はは」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。帰ろう」
+</span><span style="color: #db7093">染谷千秋 : 「ん。仲良いだってさ。はは」
 車の運転席に乗りこみます。千冬のシートベルトを締めて発進します。
 「あいつとは仲良かったの？」
-</span><span class="chifuyu">染谷千冬 : 「仲……」
-</span><span class="chifuyu">染谷千冬 : 「良かった」
-</span><span class="chiaki">染谷千秋 : 「へえ？」
-</span><span class="chifuyu">染谷千冬 : 「？」
-</span><span class="chiaki">染谷千秋 : 「案件別だったんだろ？　話す機会そうなかったんじゃねーかと思ったけど、違うみたいだな？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。時々話した」
-</span><span class="chiaki">染谷千秋 : 「どんな話してたの？」
-</span><span class="chifuyu">染谷千冬 : 「趣味の話や、最近見た番組、映画の話や、休日の話をした」
-</span><span class="chiaki">染谷千秋 : 「……ふ」
-</span><span class="chiaki">染谷千秋 : 「そんだけ？ それ以外は？」
-</span><span class="chifuyu">染谷千冬 : 「……最近聞く曲の話、一人暮らしをしている話を聞いた」
-</span><span class="chiaki">染谷千秋 : 「千冬の話は？」
-</span><span class="chifuyu">染谷千冬 : 「俺の話もした」
-</span><span class="chiaki">染谷千秋 : 「どんな？」
+</span><span style="color: #00bcd4">染谷千冬 : 「仲……」
+</span><span style="color: #00bcd4">染谷千冬 : 「良かった」
+</span><span style="color: #db7093">染谷千秋 : 「へえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「？」
+</span><span style="color: #db7093">染谷千秋 : 「案件別だったんだろ？　話す機会そうなかったんじゃねーかと思ったけど、違うみたいだな？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。時々話した」
+</span><span style="color: #db7093">染谷千秋 : 「どんな話してたの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「趣味の話や、最近見た番組、映画の話や、休日の話をした」
+</span><span style="color: #db7093">染谷千秋 : 「……ふ」
+</span><span style="color: #db7093">染谷千秋 : 「そんだけ？ それ以外は？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……最近聞く曲の話、一人暮らしをしている話を聞いた」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の話は？」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺の話もした」
+</span><span style="color: #db7093">染谷千秋 : 「どんな？」
 内心つまらなさを感じながら言います。
-</span><span class="chifuyu">染谷千冬 : 「同じだ。……同じ番組を見ていた時は、その感想を言い合った。おすすめの場所の話もした」
-</span><span class="chifuyu">染谷千冬 : 「妬いたか？」
-</span><span class="chiaki">染谷千秋 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 信号待ちになり、停車して千冬に口付けます。
+</span><span style="color: #00bcd4">染谷千冬 : 「同じだ。……同じ番組を見ていた時は、その感想を言い合った。おすすめの場所の話もした」
+</span><span style="color: #00bcd4">染谷千冬 : 「妬いたか？」
+</span><span style="color: #db7093">染谷千秋 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 信号待ちになり、停車して千冬に口付けます。
 「ま、俺の方が千冬と『仲良い』し、少しだけだけどな」
-</span><span class="chiaki">染谷千秋 : 「あれとやり取りするって話しただろ？ 少し気になってさ」
-</span><span class="chifuyu">染谷千冬 : 「……ふ」
-</span><span class="chiaki">染谷千秋 : 微笑む千冬の頬を一つ撫でて、再度車を走らせます。
+</span><span style="color: #db7093">染谷千秋 : 「あれとやり取りするって話しただろ？ 少し気になってさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ふ」
+</span><span style="color: #db7093">染谷千秋 : 微笑む千冬の頬を一つ撫でて、再度車を走らせます。
 「そーいや最後の飯、行かなくて良かったの？」
-</span><span class="chifuyu">染谷千冬 : 「……ああ」
-</span><span class="chiaki">染谷千秋 : 千冬の様子！目星！
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……ああ」
+</span><span style="color: #db7093">染谷千秋 : 千冬の様子！目星！
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 50 ＞ 成功
 
-</span><span class="kp">勝手に振るな！
+</span><span style="color: #000">勝手に振るな！
 少し細めた目から、千冬の強い意思が窺える。
-</span><span class="kp">ついでにアイデアを振ってもいいですよ。
+</span><span style="color: #000">ついでにアイデアを振ってもいいですよ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 51 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 51 ＞ 成功
 
-</span><span class="kp">明日ふたりが行く予定の場所は、家から一時間ほどの、少し大きな水族館。千秋が刺された、苦い思い出のある場所だ。
+</span><span style="color: #000">明日ふたりが行く予定の場所は、家から一時間ほどの、少し大きな水族館。千秋が刺された、苦い思い出のある場所だ。
 千冬なりに思うところがあるのだろう。
 
-</span><span class="chiaki">染谷千秋 : 「……そ」
+</span><span style="color: #db7093">染谷千秋 : 「……そ」
 千冬の胸中を思い、短く返事をします。
-</span><span class="chiaki">染谷千秋 : 「千冬、明日目一杯楽しもうぜ。俺イルカショー見たい」
-</span><span class="chifuyu">染谷千冬 : 「ああ。……ゴマフアザラシも、今度こそ見る」
-</span><span class="chiaki">染谷千秋 : 「そーだな。きっと大きくなってるぜ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、明日目一杯楽しもうぜ。俺イルカショー見たい」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。……ゴマフアザラシも、今度こそ見る」
+</span><span style="color: #db7093">染谷千秋 : 「そーだな。きっと大きくなってるぜ」
 くすりと笑い、明日の段取りを考えながら千冬と会話して家に帰る！GO！
 
-</span><span class="kp">ほぼ毎日送り迎えをしていたが、それもこれが最後だ。
+</span><span style="color: #000">ほぼ毎日送り迎えをしていたが、それもこれが最後だ。
 千冬は窓の外を眺めている。二度と見ることがない風景を目に焼きつけているのかもしれない。
 そして、ふたりは家に帰った。
 
-</span><span class="chiaki">染谷千秋 : 「こうして送り迎えすんのも最後か～。……これからはずっと一緒にいれるな？」
+</span><span style="color: #db7093">染谷千秋 : 「こうして送り迎えすんのも最後か～。……これからはずっと一緒にいれるな？」
 ドアを開けた後千冬を抱きしめます。
 「千冬、おかえり」
-</span><span class="chifuyu">染谷千冬 : 「そうだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな」
 微笑んで、家の中に入ります。そして、千秋を抱きしめ返します。
 「千秋。ただいま。おかえり」
-</span><span class="chiaki">染谷千秋 : 「ただいま、千冬」
+</span><span style="color: #db7093">染谷千秋 : 「ただいま、千冬」
 千冬を抱きしめてそう言った後、唇に軽いキスをします。
-</span><span class="chiaki">染谷千秋 : 「千冬、手広げて」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 千冬の外套を脱がせた後、荷物を置きます
+</span><span style="color: #db7093">染谷千秋 : 「千冬、手広げて」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 千冬の外套を脱がせた後、荷物を置きます
 「千冬、夕飯と風呂どっち先にする？」
-</span><span class="chifuyu">染谷千冬 : 「ご飯がいい」
-</span><span class="chiaki">染谷千秋 : 「ん、分かった」
+</span><span style="color: #00bcd4">染谷千冬 : 「ご飯がいい」
+</span><span style="color: #db7093">染谷千秋 : 「ん、分かった」
 TOTTEMO OISHI GOHANを準備します！
 
-</span><span class="kp">千冬はダイニングテーブルに座り、穏やかに微笑みながらご飯の準備をする千秋を眺めている。
+</span><span style="color: #000">千冬はダイニングテーブルに座り、穏やかに微笑みながらご飯の準備をする千秋を眺めている。
 料理当番となってすっかり磨かれた千秋の料理の腕は、慣れた手際で絶品の料理を作り上げる。そしていつものように食卓に料理を並べていく。
 
-</span><span class="chiaki">染谷千秋 : 「千冬、できたぜ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、できたぜ」
 料理を並べた後飲み物を注いで千冬の前に置きます。テーブルに座って微笑みます。
-</span><span class="chifuyu">染谷千冬 : 「ありがとう。いただきます」
-</span><span class="chiaki">染谷千秋 : 「ん。いただきます」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう。いただきます」
+</span><span style="color: #db7093">染谷千秋 : 「ん。いただきます」
 手を合わせた後、千冬が食事を食べるのをじっと見ます。
 「ど？」
-</span><span class="chifuyu">染谷千冬 : 「美味しい」
-</span><span class="chiaki">染谷千秋 : 「だろ？　衣の作り方変えたんだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「美味しい」
+</span><span style="color: #db7093">染谷千秋 : 「だろ？　衣の作り方変えたんだ」
 唐揚げを指しながら、千冬が咀嚼している姿を見て笑います。
-</span><span class="chifuyu">染谷千冬 : 「前も美味しいし今も美味しい」
-</span><span class="chiaki">染谷千秋 : 「……ふ、さんきゅ。千冬ならそー言うと思った。……な、こっちも食べてよ。かぶの時期だろ？　甘そうなの売ってたんだ」
-</span><span class="chifuyu">染谷千冬 : 「食べる」
-</span><span class="chiaki">染谷千秋 : 「ん、どーぞ」
+</span><span style="color: #00bcd4">染谷千冬 : 「前も美味しいし今も美味しい」
+</span><span style="color: #db7093">染谷千秋 : 「……ふ、さんきゅ。千冬ならそー言うと思った。……な、こっちも食べてよ。かぶの時期だろ？　甘そうなの売ってたんだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「食べる」
+</span><span style="color: #db7093">染谷千秋 : 「ん、どーぞ」
 千冬が食べる姿を見ます。
-</span><span class="chifuyu">染谷千冬 : 「美味しい」
-</span><span class="chiaki">染谷千秋 : 「はは、口にあってよかった」
-</span><span class="chiaki">染谷千秋 : 「後でさ、カクテル飲みながらゆっくりしようぜ。退職祝いってことで」
-</span><span class="chifuyu">染谷千冬 : 「……！　する。楽しみだ」
-</span><span class="chiaki">染谷千秋 : 嬉しそうな千冬の顔を見てにんまりと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「美味しい」
+</span><span style="color: #db7093">染谷千秋 : 「はは、口にあってよかった」
+</span><span style="color: #db7093">染谷千秋 : 「後でさ、カクテル飲みながらゆっくりしようぜ。退職祝いってことで」
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　する。楽しみだ」
+</span><span style="color: #db7093">染谷千秋 : 嬉しそうな千冬の顔を見てにんまりと笑います。
 「おー。な、何の酒飲みたい？」
-</span><span class="chifuyu">染谷千冬 : 「千秋の好きなカクテルが飲みたい」
-</span><span class="chiaki">染谷千秋 : 「りょーかい。ならカルーアミルク作るよ」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋の好きなカクテルが飲みたい」
+</span><span style="color: #db7093">染谷千秋 : 「りょーかい。ならカルーアミルク作るよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
 千秋はカルーアミルクが好きなんだなと思いながら頷きます。
-</span><span class="chiaki">染谷千秋 : 「明日早いしちょっとだけな」
+</span><span style="color: #db7093">染谷千秋 : 「明日早いしちょっとだけな」
 千冬とご飯を食べます！
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 ちょっと悲しい目をしています。
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 82 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「ふ、しょげてる？」
-</span><span class="chifuyu">染谷千冬 : 「……退職祝い、なのに」
-</span><span class="chiaki">染谷千秋 : 「もっと飲みてえ？」
-</span><span class="chifuyu">染谷千冬 : 「……飲みたい」
-</span><span class="chiaki">染谷千秋 : res(17-16) 【加虐心】 (1d100<=55) ＞ 3 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 「だめ」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「わかった」
-</span><span class="chiaki">染谷千秋 : 「……けど、千冬がどーしてもって言うなら良いぜ？」
-</span><span class="chifuyu">染谷千冬 : 「……じゃあ、飲みたい」
-</span><span class="chiaki">染谷千秋 : 「どーしても？」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 「態度で見せて」
-</span><span class="chifuyu">染谷千冬 : 「態度？」
-</span><span class="chiaki">染谷千秋 : 「そ。飲みたいって気持ちが分かるようなことして」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 82 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「ふ、しょげてる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……退職祝い、なのに」
+</span><span style="color: #db7093">染谷千秋 : 「もっと飲みてえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……飲みたい」
+</span><span style="color: #db7093">染谷千秋 : res(17-16) 【加虐心】 (1d100<=55) ＞ 3 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 「だめ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
+</span><span style="color: #db7093">染谷千秋 : 「……けど、千冬がどーしてもって言うなら良いぜ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……じゃあ、飲みたい」
+</span><span style="color: #db7093">染谷千秋 : 「どーしても？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「態度で見せて」
+</span><span style="color: #00bcd4">染谷千冬 : 「態度？」
+</span><span style="color: #db7093">染谷千秋 : 「そ。飲みたいって気持ちが分かるようなことして」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 少し考えこみます。
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 千冬の様子をにまにましながら見ています。
-</span><span class="chifuyu">染谷千冬 : 「千秋。手を出せ」
-</span><span class="chiaki">染谷千秋 : 「ん」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。手を出せ」
+</span><span style="color: #db7093">染谷千秋 : 「ん」
 手を出します。
-</span><span class="chifuyu">染谷千冬 : 手首を持って、手のひらと指先にキスをします。
+</span><span style="color: #00bcd4">染谷千冬 : 手首を持って、手のひらと指先にキスをします。
 「……千秋の作る酒で祝われたい。たくさん作ってくれ」
-</span><span class="chiaki">染谷千秋 : 「ふ、……いーよ。俺も沢山祝いたい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……いーよ。俺も沢山祝いたい」
 千冬の手を取り、同じように指先に口付けます。
-</span><span class="chiaki">染谷千秋 : 「ノンアルコールとアルコール入り交えて作るよ。それでいい？」
-</span><span class="chifuyu">染谷千冬 : 「ありがとう」
-</span><span class="chiaki">染谷千秋 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「ノンアルコールとアルコール入り交えて作るよ。それでいい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
+</span><span style="color: #db7093">染谷千秋 : 「ああ」
 
-</span><span class="kp">ご飯を食べ終わった後、千秋の作ったカクテルを味わう。
+</span><span style="color: #000">ご飯を食べ終わった後、千秋の作ったカクテルを味わう。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 33 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 33 ＞ 成功
 
-</span><span class="kp">ノンアルコールのカクテルも交えているからか、数杯飲んでも千冬はそれほど酔っていないようだ。
+</span><span style="color: #000">ノンアルコールのカクテルも交えているからか、数杯飲んでも千冬はそれほど酔っていないようだ。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋、これも美味しい」
-</span><span class="chiaki">染谷千秋 : 「はは、千冬が喜んでくれてよかった。ここずっと忙しくしてたろ」
-</span><span class="chifuyu">染谷千冬 : 「そうだな。でも、引越してからもしばらくだ」
-</span><span class="chiaki">染谷千秋 : 「だな。しばらくは役所手続きと荷解き頑張ろうぜ。ま、つかの間の休憩ってことで」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、これも美味しい」
+</span><span style="color: #db7093">染谷千秋 : 「はは、千冬が喜んでくれてよかった。ここずっと忙しくしてたろ」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな。でも、引越してからもしばらくだ」
+</span><span style="color: #db7093">染谷千秋 : 「だな。しばらくは役所手続きと荷解き頑張ろうぜ。ま、つかの間の休憩ってことで」
 に、と笑ってカクテルをもう一つ作ります。
 「忙しくても千冬とずっといるための準備って思うと身が入るよ。あっちの家は広いしな。千冬の書斎、広げようぜ」
-</span><span class="chifuyu">染谷千冬 : 「ありがとう。頑張る」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう。頑張る」
 カクテルをまた煽ります。
 「……千秋にも、嬉しいことがほしい」
-</span><span class="chiaki">染谷千秋 : 自分を気にかける千冬を可愛く思います。
+</span><span style="color: #db7093">染谷千秋 : 自分を気にかける千冬を可愛く思います。
 「キッチン広くなるだろ？　嬉しいぜ」
-</span><span class="chifuyu">染谷千冬 : 「そうか。良かった」
-</span><span class="chiaki">染谷千秋 : 「キッチン広くなったら効率的に動けてさ、千冬にもっと美味いもん作れるようになる。楽しみ」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか。良かった」
+</span><span style="color: #db7093">染谷千秋 : 「キッチン広くなったら効率的に動けてさ、千冬にもっと美味いもん作れるようになる。楽しみ」
 千冬の頬に一つ口付けを落とします。
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】今までの会話からの気づき (1D100<=80) ＞ 40 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「千秋のためなら何でもする。千秋にこの身を捧げる。俺を好きにしてくれ」
-</span><span class="chiaki">染谷千秋 : ぱち、と一つ瞬きます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】今までの会話からの気づき (1D100<=80) ＞ 40 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のためなら何でもする。千秋にこの身を捧げる。俺を好きにしてくれ」
+</span><span style="color: #db7093">染谷千秋 : ぱち、と一つ瞬きます。
 「千冬、もーちょい詳しく」
 顎先に口付けます。
-</span><span class="chifuyu">染谷千冬 : 「千秋は俺のことだけが好きだろう」
-</span><span class="chiaki">染谷千秋 : 「うん」
-</span><span class="chifuyu">染谷千冬 : 「だから、千秋の望むことをしたい」
-</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋は俺のことだけが好きだろう」
+</span><span style="color: #db7093">染谷千秋 : 「うん」
+</span><span style="color: #00bcd4">染谷千冬 : 「だから、千秋の望むことをしたい」
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑います。
 「俺、十分貰ってるぜ？」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 しょぼくれます。
-</span><span class="chiaki">染谷千秋 : しょぼくれた千冬の頭頂部に口付けます。
+</span><span style="color: #db7093">染谷千秋 : しょぼくれた千冬の頭頂部に口付けます。
 「千冬、ずっと俺と一緒に生きてくれんだろ？」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 「俺のこと好きだろ？」
-</span><span class="chifuyu">染谷千冬 : 「大好きだ」
-</span><span class="chiaki">染谷千秋 : にこりと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「俺のこと好きだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「大好きだ」
+</span><span style="color: #db7093">染谷千秋 : にこりと笑います。
 「千冬の人生も心も貰ってんだ。十分だよ。俺は千冬といれるだけで幸せ」
-</span><span class="chiaki">染谷千秋 : 「どうしても何かしたいってんなら、俺にめいっぱい甘えろよ」
+</span><span style="color: #db7093">染谷千秋 : 「どうしても何かしたいってんなら、俺にめいっぱい甘えろよ」
 千冬の肩を引き寄せ、指を絡めます。そのまま指先に口付けます。
 「俺は千冬に甘えられたい」
-</span><span class="chifuyu">染谷千冬 : 「……足りない気がする。それに、甘えてると思う」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「口にキスをしてほしい」
-</span><span class="chiaki">染谷千秋 : いじらしくお返しを考える千冬を愛おしく思います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……足りない気がする。それに、甘えてると思う」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「口にキスをしてほしい」
+</span><span style="color: #db7093">染谷千秋 : いじらしくお返しを考える千冬を愛おしく思います。
 「ん」
 千冬の唇に一つ口付けを落とし、千冬の瞳を覗き込みます。
-</span><span class="chifuyu">染谷千冬 : 「……好きだ。千秋とのキスは気持ちいい。嬉しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……好きだ。千秋とのキスは気持ちいい。嬉しい」
 千秋の目をじっと見つめて、微笑みます。
 「俺も千秋に甘えられたい」
-</span><span class="chiaki">染谷千秋 : 「俺も好き」
+</span><span style="color: #db7093">染谷千秋 : 「俺も好き」
 もう一度口付けます。
 「それずるくねー？」
-</span><span class="chifuyu">染谷千冬 : 「ふっ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ふっ」
 息を零して笑います。
-</span><span class="chiaki">染谷千秋 : 「……じゃ、お言葉に甘えて」
+</span><span style="color: #db7093">染谷千秋 : 「……じゃ、お言葉に甘えて」
 千冬に近寄り、肩に腕を乗せて顔を覗き込みます。
 「甘やかしてよ」
-</span><span class="chifuyu">染谷千冬 : 目をぱちぱちとさせた後、唇に口づけます。
+</span><span style="color: #00bcd4">染谷千冬 : 目をぱちぱちとさせた後、唇に口づけます。
 千秋を抱きしめて自分の肩に千秋の顎を乗せ、後頭部をふわふわと優しく撫でます。
-</span><span class="chiaki">染谷千秋 : 「ちふゆ～、気持ちいい」
+</span><span style="color: #db7093">染谷千秋 : 「ちふゆ～、気持ちいい」
 甘えた声を出した後、顔をずらして千冬の首筋にキスマークをつけます。
-</span><span class="chifuyu">染谷千冬 : 「そうか、……」
-</span><span class="chifuyu">染谷千冬 : 跡をつけられていることに気づきますが、構わず千秋の頭に触れ続けます。
-</span><span class="chiaki">染谷千秋 : 「千冬、だ～い好き」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか、……」
+</span><span style="color: #00bcd4">染谷千冬 : 跡をつけられていることに気づきますが、構わず千秋の頭に触れ続けます。
+</span><span style="color: #db7093">染谷千秋 : 「千冬、だ～い好き」
 頭を千冬の方へ寄せて頬に口付けます。千冬の身体に腕を回し抱きしめます。
-</span><span class="chifuyu">染谷千冬 : 「俺も大好きだ、千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺も大好きだ、千秋」
 千秋がしてくれたように千秋の頬にキスして、背中を撫でています。
-</span><span class="chiaki">染谷千秋 : 微笑みながら千冬をみます。
+</span><span style="color: #db7093">染谷千秋 : 微笑みながら千冬をみます。
 「はは、嬉しい」
-</span><span class="chiaki">染谷千秋 : 「な、どう甘えてほしいの？」
-</span><span class="chifuyu">染谷千冬 : 「……千秋が甘えたいように甘えてほしい」
-</span><span class="chiaki">染谷千秋 : 「ふ」
-</span><span class="chiaki">染谷千秋 : choice えっち 触れ合う キス (choice えっち 触れ合う キス) ＞ キス
-</span><span class="chiaki">染谷千秋 : 「なら、ん」
+</span><span style="color: #db7093">染谷千秋 : 「な、どう甘えてほしいの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋が甘えたいように甘えてほしい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ」
+</span><span style="color: #db7093">染谷千秋 : choice えっち 触れ合う キス (choice えっち 触れ合う キス) ＞ キス
+</span><span style="color: #db7093">染谷千秋 : 「なら、ん」
 目を閉じて顔を傾けます。
-</span><span class="chifuyu">染谷千冬 : 「……ん」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ん」
 唇を合わせます。
-</span><span class="chiaki">染谷千秋 : 「……もっと」
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「……もっと」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 もっと長く唇を触れ合わせます。
-</span><span class="chiaki">染谷千秋 : 千冬を見たまま唇を開き、舌を絡めます。
-</span><span class="chifuyu">染谷千冬 : 目を閉じたまま千秋の舌に応えます。そしてずっとずっとキスを続けます。
-</span><span class="chiaki">染谷千秋 : 千冬の身体を撫でます。項を触ったりくすぐったりします。
-</span><span class="chifuyu">染谷千冬 : 「あ、……」
+</span><span style="color: #db7093">染谷千秋 : 千冬を見たまま唇を開き、舌を絡めます。
+</span><span style="color: #00bcd4">染谷千冬 : 目を閉じたまま千秋の舌に応えます。そしてずっとずっとキスを続けます。
+</span><span style="color: #db7093">染谷千秋 : 千冬の身体を撫でます。項を触ったりくすぐったりします。
+</span><span style="color: #00bcd4">染谷千冬 : 「あ、……」
 少し目を開いて小さく呟きますが、すぐに閉じて舌を再び絡めます。
-</span><span class="chiaki">染谷千秋 : 「ふ、……」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……」
 頬を緩めて千冬を見つめます。
 服の中に手を忍び込ませた後背骨をなぞります。
-</span><span class="chifuyu">染谷千冬 : 「ち、あき」
+</span><span style="color: #00bcd4">染谷千冬 : 「ち、あき」
 びくんと背中を反らして、細めた目で千秋を見ます。
-</span><span class="chiaki">染谷千秋 : 「甘やかしてくれんだろ？」
+</span><span style="color: #db7093">染谷千秋 : 「甘やかしてくれんだろ？」
 囁いて唇に噛みつきます。
-</span><span class="chifuyu">染谷千冬 : 「す、る……」
+</span><span style="color: #00bcd4">染谷千冬 : 「す、る……」
 熱い視線を向けたあと、唇に柔く噛みついてから、また深くキスを交わします。
-</span><span class="chiaki">染谷千秋 : 「きもちい。……千冬、脱いで」
-</span><span class="chifuyu">染谷千冬 : こくりと頷いて、腕を上げます。
-</span><span class="chiaki">染谷千秋 : 満足げに笑い、時折肌を擽ったり焦ったく触れながら服を脱がせます。千冬に口付け、同じように腕をあげます。
+</span><span style="color: #db7093">染谷千秋 : 「きもちい。……千冬、脱いで」
+</span><span style="color: #00bcd4">染谷千冬 : こくりと頷いて、腕を上げます。
+</span><span style="color: #db7093">染谷千秋 : 満足げに笑い、時折肌を擽ったり焦ったく触れながら服を脱がせます。千冬に口付け、同じように腕をあげます。
 「いーこ。……な、俺のも脱がして」
-</span><span class="chifuyu">染谷千冬 : 「……ん……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ん……」
 千秋に触れられてくぐもった声を発します。
 千秋の服を手に取って脱がします。
-</span><span class="chiaki">染谷千秋 : 上の服を脱ぎ、身体をぴたりとあわせます。
+</span><span style="color: #db7093">染谷千秋 : 上の服を脱ぎ、身体をぴたりとあわせます。
 千冬の身体を撫でながらもう一度口付けます。
 「ふ、……触って」
-</span><span class="chifuyu">染谷千冬 : 「千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋……」
 千秋の体にぺたぺたと触れて、その輪郭を確かめていきます。
-</span><span class="chiaki">染谷千秋 : 同じように千冬の身体に触れます。
+</span><span style="color: #db7093">染谷千秋 : 同じように千冬の身体に触れます。
 「千冬の肌、ハリがあるよな。好きだぜ。触ってて気持ちいーし、凹凸がエロい」
-</span><span class="chiaki">染谷千秋 : 「な、千冬は？ 俺の身体触っててどう思う？」
+</span><span style="color: #db7093">染谷千秋 : 「な、千冬は？ 俺の身体触っててどう思う？」
 耳の輪郭に歯をたて囁きます。
-</span><span class="chifuyu">染谷千冬 : 「……っ……千秋の体は、筋肉があるのにどこか柔らかい。すべすべしている。俺も、触っていて気持ちが良いと思う。浮き出た骨が綺麗だ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……っ……千秋の体は、筋肉があるのにどこか柔らかい。すべすべしている。俺も、触っていて気持ちが良いと思う。浮き出た骨が綺麗だ」
 千秋の脇腹に触れ、背骨をなぞり、同じように耳を噛んで答えます。
-</span><span class="chiaki">染谷千秋 : 「はは、そっか。さんきゅ……」
+</span><span style="color: #db7093">染谷千秋 : 「はは、そっか。さんきゅ……」
 くす、と笑いながら千冬の顎と唇にキスをします。
-</span><span class="chiaki">染谷千秋 : 「な、千冬はさ、耳弱いよな」
+</span><span style="color: #db7093">染谷千秋 : 「な、千冬はさ、耳弱いよな」
 耳に舌を差し込みます。耳朶をなぞり、耳穴へと入れていきます。
 穴をなめ、耳たぶを食み、そうしてしばらく耳の中を堪能した後、わざと音を立てて唇を離します。
-</span><span class="chiaki">染谷千秋 : 「耳だけじゃない。こことかも敏感だし」
+</span><span style="color: #db7093">染谷千秋 : 「耳だけじゃない。こことかも敏感だし」
 胸の中心に指先を滑らせ、ピアスを開けたばかりで一層敏感になっている突起をはじきます。
-</span><span class="chifuyu">染谷千冬 : 「は、ぅ……ッ、あ、ぁ……あっ」
+</span><span style="color: #00bcd4">染谷千冬 : 「は、ぅ……ッ、あ、ぁ……あっ」
 耳を犯されて、小さく喘ぎ声を漏らし続けます。ぎゅっと目を瞑っていましたが、離れた唇に気づき目線をそちらに向けます。
 「あ、ぅッ！？」
 突起を弾かれて駆け巡る快感にぶるぶると首を振ります。
 「ち、千秋」
-</span><span class="chiaki">染谷千秋 : 「千冬のここ元々敏感だったけど、今じゃ触っただけでおっきな声出るようになっちゃったな」
+</span><span style="color: #db7093">染谷千秋 : 「千冬のここ元々敏感だったけど、今じゃ触っただけでおっきな声出るようになっちゃったな」
 くすりと笑い、指の腹で優しく捏ねます。
 「千冬のえっちな声かわいい。な、もっと聞かせてよ」
 首筋にキスを落として突起に触れ続けます。
-</span><span class="chifuyu">染谷千冬 : 「ああぁ、ぁ、あっ、あ、千秋、千秋……っ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああぁ、ぁ、あっ、あ、千秋、千秋……っ」
 千秋にもたれかかって、浅い息を繰り返します。
-</span><span class="chiaki">染谷千秋 : 「千冬可愛い。もっと聞かせて」
+</span><span style="color: #db7093">染谷千秋 : 「千冬可愛い。もっと聞かせて」
 耳に囁いて服の上から千冬の乳首を口に含みます。舌先で転がしたり甘噛みします。
-</span><span class="chifuyu">染谷千冬 : 「あッ、ンうっ、んん……千秋……ッ！」
+</span><span style="color: #00bcd4">染谷千冬 : 「あッ、ンうっ、んん……千秋……ッ！」
 すっかり色気の混じった声で喘ぎます。熱っぽい視線を千秋に向けます。
-</span><span class="chifuyu">染谷千冬 : 「千秋、千秋っ、……千秋とセックスしたい、っ」
-</span><span class="chiaki">染谷千秋 : res(17-16) 【悪戯心】 (1d100<=55) ＞ 87 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 「ん……俺もしたい。ベッド行こうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、千秋っ、……千秋とセックスしたい、っ」
+</span><span style="color: #db7093">染谷千秋 : res(17-16) 【悪戯心】 (1d100<=55) ＞ 87 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 「ん……俺もしたい。ベッド行こうぜ」
 千冬の身体を抱き上げてベッドへ連れて行きます。
-</span><span class="chifuyu">染谷千冬 : 「行く」
+</span><span style="color: #00bcd4">染谷千冬 : 「行く」
 頷きます。体を抱えられて驚きますが、何も言うことなくベッドに連れられます。
-</span><span class="chiaki">染谷千秋 : 千冬に口付けて乳首をくるりと撫で、ピアスの傷口が開かないように優しく抱きます。
+</span><span style="color: #db7093">染谷千秋 : 千冬に口付けて乳首をくるりと撫で、ピアスの傷口が開かないように優しく抱きます。
 
-</span><span class="kp">千秋は千冬をベッドに運び、欲しがりな千冬を優しく愛した。二人は幸せな時間を過ごした後、明日のことを考えながら眠りについたのだった。
-</span><span class="kp">・・・
-</span><span class="kp">来週の水曜に北海道の住まいへと向かう。九州にいるのも残り数日だ。
+</span><span style="color: #000">千秋は千冬をベッドに運び、欲しがりな千冬を優しく愛した。二人は幸せな時間を過ごした後、明日のことを考えながら眠りについたのだった。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">来週の水曜に北海道の住まいへと向かう。九州にいるのも残り数日だ。
 この一ヶ月、後悔のないように近隣のスポットを出歩いていた。今日は土曜日。ふたりは水族館へと向かった。そこは、かつて千秋が刺された場所だった。
-</span><span class="kp">あの事件の後から、千秋は優希とゆいの名前を手がかりにネット上で情報を探したが、二人の情報へは行き着けず、居場所や活動圏の特定はできていなかった。
+</span><span style="color: #000">あの事件の後から、千秋は優希とゆいの名前を手がかりにネット上で情報を探したが、二人の情報へは行き着けず、居場所や活動圏の特定はできていなかった。
 
-</span><span class="chifuyu">染谷千冬 : 「遅くなったな。……別の水族館でも良いと言っていたが……やっぱりここで、気持ちの整理をつけたいと思ったんだ」
-</span><span class="chiaki">染谷千秋 : 「……そっか」
+</span><span style="color: #00bcd4">染谷千冬 : 「遅くなったな。……別の水族館でも良いと言っていたが……やっぱりここで、気持ちの整理をつけたいと思ったんだ」
+</span><span style="color: #db7093">染谷千秋 : 「……そっか」
 チケットを受け取って微笑みます。
 「ありがとな。俺もちゃんと区切りつけたいと思ってた」
 
-</span><span class="kp">フロア案内を確認すると、次のように書かれている。
+</span><span style="color: #000">フロア案内を確認すると、次のように書かれている。
 
 【フロア】
 ・1F
@@ -418,1515 +418,1513 @@ TOTTEMO OISHI GOHANを準備します！
 ・カフェ
 ・ショップ
 
-</span><span class="chiaki">染谷千秋 : 「千冬、どこ見たい？」
-</span><span class="chifuyu">染谷千冬 : 「……一階から順に見よう。いいか？」
-</span><span class="chiaki">染谷千秋 : 「勿論。リベンジマッチだな、行こうぜ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、どこ見たい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……一階から順に見よう。いいか？」
+</span><span style="color: #db7093">染谷千秋 : 「勿論。リベンジマッチだな、行こうぜ」
 千冬の手を握り一階に向かいます。
 千冬の様子に最新の注意を払います。
-</span><span class="chifuyu">染谷千冬 : sCCB<=11*5 【POW × 5】 (1D100<=55) ＞ 31 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : sCCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 31 ＞ 成功
 
-</span><span class="kp">千秋は目星をどうぞ。
+</span><span style="color: #000">千秋は目星をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 49 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 49 ＞ 成功
 
-</span><span class="kp">千冬の表情はいつもと変わりない。千秋の手を固く握っている。
-</span><span class="kp">ふたりは1階の『深海の輝き』から順に見て回る。
+</span><span style="color: #000">千冬の表情はいつもと変わりない。千秋の手を固く握っている。
+</span><span style="color: #000">ふたりは1階の『深海の輝き』から順に見て回る。
 館内は、以前訪れた時ほど混雑はしていなかった。涼しい空気が肌を包む。しかし、今日こそは寒いと感じるほどではない。
 薄暗い照明の中、ぼんやりと揺らぐ明かりが道標として足元を照らしている。静謐としたその空間は、まるで深海のように思わせる。しかし、暗い青の広がる本当の深海に訪れたことのある二人なら、何か違ったことを感じるかもしれない。
 
 千冬はゆっくりと水槽を見て回っている。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。この魚」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。この魚」
 
-</span><span class="kp">千秋はアイデアをどうぞ。
+</span><span style="color: #000">千秋はアイデアをどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 34 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 34 ＞ 成功
 
-</span><span class="kp">千冬が指した魚は、かつて深海で見た魚と同一だった。
+</span><span style="color: #000">千冬が指した魚は、かつて深海で見た魚と同一だった。
 名前は『ソコダラ』と言うらしい。尾部が細く尖って、腹部が発光している魚だった。近くには、深海魚の生態についての解説が書かれている。
 その解説によると、クジラの死骸には豊かな栄養があり、深海の生物が集って生態系が生まれるらしい。そのことを『ホエールフォール』、日本語で『鯨骨生物群集』というのだそうだ。まさにふたりが見たもののことだろう。
 
-</span><span class="chiaki">染谷千秋 : 「……これ、前に見たやつだな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。すごいな」
-</span><span class="chiaki">染谷千秋 : 「だな。こういうのが集まってあの骨ができてたんだ」
-</span><span class="chifuyu">染谷千冬 : 「……貴重な体験だったな」
+</span><span style="color: #db7093">染谷千秋 : 「……これ、前に見たやつだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。すごいな」
+</span><span style="color: #db7093">染谷千秋 : 「だな。こういうのが集まってあの骨ができてたんだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……貴重な体験だったな」
 
-</span><span class="kp">魚の判別は素人目には難しいが、こうして見ると他の水槽にも、あの時見た魚や、それに似た魚が泳いでいる。
+</span><span style="color: #000">魚の判別は素人目には難しいが、こうして見ると他の水槽にも、あの時見た魚や、それに似た魚が泳いでいる。
 特別興味が湧いたのか、千冬は説明パネルの前で毎回立ち止まり、全文を読みながら進んでいる。
-</span><span class="kp">古代の水族館では、カブトガニやオウムガイ、ヌタウナギ、ラブカといった、生きた化石と呼ばれる魚たちを展示していた。
-</span><span class="kp">パネルを見ていると、オウムガイはアンモナイトと同じく、イカやタコといった頭足類の仲間だ。しかし驚くことに、オウムガイよりも、絶滅したアンモナイトのほうがイカやタコの近縁らしい。どちらも、顎板と呼ばれるクチバシを持っていることが特徴だ。
+</span><span style="color: #000">古代の水族館では、カブトガニやオウムガイ、ヌタウナギ、ラブカといった、生きた化石と呼ばれる魚たちを展示していた。
+</span><span style="color: #000">パネルを見ていると、オウムガイはアンモナイトと同じく、イカやタコといった頭足類の仲間だ。しかし驚くことに、オウムガイよりも、絶滅したアンモナイトのほうがイカやタコの近縁らしい。どちらも、顎板と呼ばれるクチバシを持っていることが特徴だ。
 また、オウムガイの眼はピンホール眼と呼ばれ、レンズを持たない。ピンホールカメラと同じ構造のようだ。
-</span><span class="kp">そうしてふたりは、この1階のコーナーを全て見終えるだろう。
+</span><span style="color: #000">そうしてふたりは、この1階のコーナーを全て見終えるだろう。
 
-</span><span class="chiaki">染谷千秋 : 「あのオウムガイってのちょっと可愛かったな」
-</span><span class="chifuyu">染谷千冬 : 「……！　そうか。俺も、可愛いと思う」
+</span><span style="color: #db7093">染谷千秋 : 「あのオウムガイってのちょっと可愛かったな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　そうか。俺も、可愛いと思う」
 嬉しそうに微笑みます。
-</span><span class="chiaki">染谷千秋 : ふ、と微笑みます。
+</span><span style="color: #db7093">染谷千秋 : ふ、と微笑みます。
 「深海魚ん中で唯一癒される見た目してる。……千冬、嬉しそーだな？」
 暗がりの中で指を絡めます。
-</span><span class="chifuyu">染谷千冬 : 千秋の手をぎゅっと握ります。
+</span><span style="color: #00bcd4">染谷千冬 : 千秋の手をぎゅっと握ります。
 「千秋の好きなものが知れて嬉しい」
-</span><span class="chiaki">染谷千秋 : 「はは、俺の好きな物知りたいんだ」
+</span><span style="color: #db7093">染谷千秋 : 「はは、俺の好きな物知りたいんだ」
 にこりと笑います。
 「かわいーの」
-</span><span class="chifuyu">染谷千冬 : 「俺は、千秋のことが知りたい。そして、千秋の好きなものが見つかると、やっぱり嬉しい」
-</span><span class="chiaki">染谷千秋 : 健気な千冬の様子にくすりと笑い、千冬の手をぎゅっと握り返します。
+</span><span style="color: #00bcd4">染谷千冬 : 「俺は、千秋のことが知りたい。そして、千秋の好きなものが見つかると、やっぱり嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 健気な千冬の様子にくすりと笑い、千冬の手をぎゅっと握り返します。
 「千冬以上に俺のこと知ってるやつ、いないと思うぜ？」
 暗がりにまぎれて千冬に口付けます。
-</span><span class="chiaki">染谷千秋 : 「俺も千冬のこと知りたい。な、千冬はどれ好きだった？」
-</span><span class="chifuyu">染谷千冬 : 「でももっと、全部知りたい」
+</span><span style="color: #db7093">染谷千秋 : 「俺も千冬のこと知りたい。な、千冬はどれ好きだった？」
+</span><span style="color: #00bcd4">染谷千冬 : 「でももっと、全部知りたい」
 首を傾けてキスを受けます。
-</span><span class="chifuyu">染谷千冬 : 「……マンボウ、クリオネ、アンコウ……」
-</span><span class="chiaki">染谷千秋 : 唇を離す直前に下唇を甘噛みします。千冬の目をじっと見ます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……マンボウ、クリオネ、アンコウ……」
+</span><span style="color: #db7093">染谷千秋 : 唇を離す直前に下唇を甘噛みします。千冬の目をじっと見ます。
 「……ふ、全部丸い形してんな。どこが好きなの？」
-</span><span class="chifuyu">染谷千冬 : 「……そうか、確かに。気づかなかった。……マンボウは面白い。とてもデリケートな魚で、飼育するのは大変みたいだ。泳ぐのが下手で、よく壁……ビニールにぶつかる。ジャンプしたり、海面に浮かんでたりする。不思議で不器用で、可愛い。クリオネは小さくて可愛く見えるが、それだけじゃないところが好きだ。クリオネが捕食する時、俊敏に動いて、頭からバッカルコーンを出して、獲物を離さない。手をパタパタ動かして泳いでいる時の印象と全然違う。かっこいいと思う。アンコウは平たくて可愛い。それに、よく知ると面白い。メスのほうがずっと体が大きくて、オスはちっちゃい。それで、メスの体にぴったりくっついて、融合する。メスに寄生するんだ。……色んな生き物がいるんだと思う。それが不思議で、楽しい。わくわくして、好きだ」
-</span><span class="chiaki">染谷千秋 : 「ふは」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうか、確かに。気づかなかった。……マンボウは面白い。とてもデリケートな魚で、飼育するのは大変みたいだ。泳ぐのが下手で、よく壁……ビニールにぶつかる。ジャンプしたり、海面に浮かんでたりする。不思議で不器用で、可愛い。クリオネは小さくて可愛く見えるが、それだけじゃないところが好きだ。クリオネが捕食する時、俊敏に動いて、頭からバッカルコーンを出して、獲物を離さない。手をパタパタ動かして泳いでいる時の印象と全然違う。かっこいいと思う。アンコウは平たくて可愛い。それに、よく知ると面白い。メスのほうがずっと体が大きくて、オスはちっちゃい。それで、メスの体にぴったりくっついて、融合する。メスに寄生するんだ。……色んな生き物がいるんだと思う。それが不思議で、楽しい。わくわくして、好きだ」
+</span><span style="color: #db7093">染谷千秋 : 「ふは」
 饒舌に話し始めた千冬の様子から、千冬が生き物を愛していることが伝わります。そんな千冬を可愛く、そして愛おしく思います。
 「生き物たちの生態みたいなの知んの、たしかに面白いな」
-</span><span class="chiaki">染谷千秋 : 「な、バッカルコーンって何？」
-</span><span class="chifuyu">染谷千冬 : 「バッカルコーンは、クリオネの触手のことだ。普段は無いが、捕食の時に6本頭から生やすんだ。それで獲物をしっかり捕らえる」
-</span><span class="chiaki">染谷千秋 : 「へえ。あんな小さいのに6本も出すんだ」
-</span><span class="chiaki">染谷千秋 : 「バッカルコーン出すとこ気になる。千冬はあれが出すとこ見たことあんの？」
-</span><span class="chifuyu">染谷千冬 : 「動画で見たことがある。……実際には見たことがない。クリオネは、長い間食べなくても生きていけるんだ。一年食べなくても平気らしい。だから、捕食シーンは珍しいんだ」
-</span><span class="chiaki">染谷千秋 : 「そうなんだ。あんなちっこいのじゃ寿命精々1～2年だろ？　一生に一度しか食事しねーの？」
-</span><span class="chifuyu">染谷千冬 : 「そんな話もあるが、分かっていない。確か、生育環境によっても異なるかもしれない、らしい」
-</span><span class="chiaki">染谷千秋 : 「ふーん。難儀なもんだな」
-</span><span class="chifuyu">染谷千冬 : 「そうだな」
-</span><span class="chiaki">染谷千秋 : 「千冬って生き物好きだよな。飼いたいって思ったりしねーの？」
-</span><span class="chifuyu">染谷千冬 : 「……考えたことなかった。……飼いたい」
-</span><span class="chiaki">染谷千秋 : 喜んだ様子の千冬を見て微笑みます。
+</span><span style="color: #db7093">染谷千秋 : 「な、バッカルコーンって何？」
+</span><span style="color: #00bcd4">染谷千冬 : 「バッカルコーンは、クリオネの触手のことだ。普段は無いが、捕食の時に6本頭から生やすんだ。それで獲物をしっかり捕らえる」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。あんな小さいのに6本も出すんだ」
+</span><span style="color: #db7093">染谷千秋 : 「バッカルコーン出すとこ気になる。千冬はあれが出すとこ見たことあんの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「動画で見たことがある。……実際には見たことがない。クリオネは、長い間食べなくても生きていけるんだ。一年食べなくても平気らしい。だから、捕食シーンは珍しいんだ」
+</span><span style="color: #db7093">染谷千秋 : 「そうなんだ。あんなちっこいのじゃ寿命精々1～2年だろ？　一生に一度しか食事しねーの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「そんな話もあるが、分かっていない。確か、生育環境によっても異なるかもしれない、らしい」
+</span><span style="color: #db7093">染谷千秋 : 「ふーん。難儀なもんだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな」
+</span><span style="color: #db7093">染谷千秋 : 「千冬って生き物好きだよな。飼いたいって思ったりしねーの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……考えたことなかった。……飼いたい」
+</span><span style="color: #db7093">染谷千秋 : 喜んだ様子の千冬を見て微笑みます。
 「飼うとしたら何がいい？」
-</span><span class="chifuyu">染谷千冬 : 「……犬」
-</span><span class="chiaki">染谷千秋 : 「犬種は？」
-</span><span class="chifuyu">染谷千冬 : 「柴犬」
-</span><span class="chiaki">染谷千秋 : 「へぇ。どうして？」
-</span><span class="chifuyu">染谷千冬 : 「……言葉にできない。顔立ちが可愛い。尻尾やお尻が可愛い。利口で可愛い」
-</span><span class="chiaki">染谷千秋 : 可愛いを連呼する千冬を可愛く思います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……犬」
+</span><span style="color: #db7093">染谷千秋 : 「犬種は？」
+</span><span style="color: #00bcd4">染谷千冬 : 「柴犬」
+</span><span style="color: #db7093">染谷千秋 : 「へぇ。どうして？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……言葉にできない。顔立ちが可愛い。尻尾やお尻が可愛い。利口で可愛い」
+</span><span style="color: #db7093">染谷千秋 : 可愛いを連呼する千冬を可愛く思います。
 「はは、可愛いな。なら飼っちゃう？」
-</span><span class="chifuyu">染谷千冬 : 「……飼わない。怪異に巻き込まれた時、責任が持てない。だからいい」
-</span><span class="chiaki">染谷千秋 : 「そっか」
-</span><span class="chiaki">染谷千秋 : 「千冬の言う通りだな。命を預かるんだから俺達には難しいか～」
-</span><span class="chiaki">染谷千秋 : 「代わりっちゃなんだけど、たまに柴犬カフェ行こうぜ」
-</span><span class="chifuyu">染谷千冬 : 「……！　行く」
-</span><span class="chiaki">染谷千秋 : 「決まりだな。普段は柴犬より利口で柴犬より可愛い弟が側にいるから、それで我慢しろよな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……飼わない。怪異に巻き込まれた時、責任が持てない。だからいい」
+</span><span style="color: #db7093">染谷千秋 : 「そっか」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の言う通りだな。命を預かるんだから俺達には難しいか～」
+</span><span style="color: #db7093">染谷千秋 : 「代わりっちゃなんだけど、たまに柴犬カフェ行こうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　行く」
+</span><span style="color: #db7093">染谷千秋 : 「決まりだな。普段は柴犬より利口で柴犬より可愛い弟が側にいるから、それで我慢しろよな」
 千冬を引き寄せて顔を覗き込みます。
-</span><span class="chifuyu">染谷千冬 : 「……ふ、そうだな。千秋がいればいい」
-</span><span class="chiaki">染谷千秋 : 「はは、俺も」
-</span><span class="chiaki">染谷千秋 : 「千冬がいれば幸せだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ふ、そうだな。千秋がいればいい」
+</span><span style="color: #db7093">染谷千秋 : 「はは、俺も」
+</span><span style="color: #db7093">染谷千秋 : 「千冬がいれば幸せだ」
 千冬に指を絡めます。
-</span><span class="chiaki">染谷千秋 : 「次の階いこーぜ」
+</span><span style="color: #db7093">染谷千秋 : 「次の階いこーぜ」
 千冬をひっぱっていく！
-</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 
-</span><span class="kp">二人は緩やかな階段を上っていく。以前訪れた時には、他のフロアを見ることは叶わなかった。水族館に来てすぐに寒さを訴え、移動中に倒れた千秋には見る隙などなかったのだ。
-</span><span class="kp">階段を上るにつれて、壁の色が深く沈むような青から鮮やかで華々しい青へと変わる。この壁にも小さな水槽が置かれていて、まるで深海から浮き上がるかのようだった。
-</span><span class="kp">そして2階のフロアを踏む。出迎えるのは『熱帯の宝石箱』『カラフルなサンゴの楽園』だった。先ほどの深海の様相と全く異なり、目の前に広がるのはイソギンチャク、サンゴ、そしてカラフルな魚たち。多彩な色相で派手なコントラストを生み出す大海だ。
-</span><span class="kp">二人は説明板を読みながら、ゆっくりと歩いていく。
+</span><span style="color: #000">二人は緩やかな階段を上っていく。以前訪れた時には、他のフロアを見ることは叶わなかった。水族館に来てすぐに寒さを訴え、移動中に倒れた千秋には見る隙などなかったのだ。
+</span><span style="color: #000">階段を上るにつれて、壁の色が深く沈むような青から鮮やかで華々しい青へと変わる。この壁にも小さな水槽が置かれていて、まるで深海から浮き上がるかのようだった。
+</span><span style="color: #000">そして2階のフロアを踏む。出迎えるのは『熱帯の宝石箱』『カラフルなサンゴの楽園』だった。先ほどの深海の様相と全く異なり、目の前に広がるのはイソギンチャク、サンゴ、そしてカラフルな魚たち。多彩な色相で派手なコントラストを生み出す大海だ。
+</span><span style="color: #000">二人は説明板を読みながら、ゆっくりと歩いていく。
 一見植物のように見えるサンゴは、ポリプという個体が本体だ。ポリプには触手や口、胃腔がある。さらにポリプは、褐虫藻という植物プランクトンと共生し、石灰質の骨格を作り出したりして成長するらしい。
-</span><span class="kp">チョウチョウウオは人気の熱帯魚だが、このポリプを主食とする種も多く、その場合飼育難易度は高いようだ。水族館ならではの光景といえるだろう。蝶のようにヒラヒラと泳ぐことがその名前の由来であり、水槽を舞う姿はやはり美しい。
+</span><span style="color: #000">チョウチョウウオは人気の熱帯魚だが、このポリプを主食とする種も多く、その場合飼育難易度は高いようだ。水族館ならではの光景といえるだろう。蝶のようにヒラヒラと泳ぐことがその名前の由来であり、水槽を舞う姿はやはり美しい。
 熱帯魚の代表であるクマノミも展示されている。クマノミの見分け方として「１ハマ２クマ３カクレ」という言葉がある。白いラインが1本のものがハマクマノミ、2本のものがクマノミ、3本のものがカクレクマノミだそうだ。
 クマノミは雌雄同体という、雌雄の生殖器官を一個体が持つもので、成長する過程で環境に合わせて性転換をする特徴がある。
 
-</span><span class="chifuyu">染谷千冬 : 「綺麗だな」
-</span><span class="chiaki">染谷千秋 : 「海ん中にそんままいるみたいだな。こっちの魚の方が馴染みある」
-</span><span class="chifuyu">染谷千冬 : 「そうだな。よく見る」
-</span><span class="chiaki">染谷千秋 : 「カクレクマノミ、ニモに出てたやつだろ。ちっちゃい時さ、千冬繰り返し見てたよな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。今でも好きな映画だ。……ナンヨウハギもいるな。真っ青で、とても綺麗だ」
-</span><span class="chiaki">染谷千秋 : 「ああ、綺麗だな。似た配色の魚がいないから分かりやすいな」
+</span><span style="color: #00bcd4">染谷千冬 : 「綺麗だな」
+</span><span style="color: #db7093">染谷千秋 : 「海ん中にそんままいるみたいだな。こっちの魚の方が馴染みある」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな。よく見る」
+</span><span style="color: #db7093">染谷千秋 : 「カクレクマノミ、ニモに出てたやつだろ。ちっちゃい時さ、千冬繰り返し見てたよな」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。今でも好きな映画だ。……ナンヨウハギもいるな。真っ青で、とても綺麗だ」
+</span><span style="color: #db7093">染谷千秋 : 「ああ、綺麗だな。似た配色の魚がいないから分かりやすいな」
 映画でひたすらに騒がしかったキャラクターが一瞬ちらつきます。脳内からすぐにその存在を消します。
 「ん、こいつニモの友達じゃね？」
 チョウチョウウオを指差します。
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【知識】 (1D100<=75) ＞ 82 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 54 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「ほんとだ、似てる。……こっちも似てる。チョウチョウウオはたくさん種類があるのか。……千秋、よく覚えていたな」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【知識】 (1D100<=75) ＞ 82 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 54 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「ほんとだ、似てる。……こっちも似てる。チョウチョウウオはたくさん種類があるのか。……千秋、よく覚えていたな」
 千秋を見て微笑みます。
-</span><span class="chiaki">染谷千秋 : 「はは、ほんとだ。あっちにもいるぜ」
-</span><span class="chiaki">染谷千秋 : 「そりゃ、千冬に関係する物は全部知りてーし、好きなら尚更全部覚えたいからな」
+</span><span style="color: #db7093">染谷千秋 : 「はは、ほんとだ。あっちにもいるぜ」
+</span><span style="color: #db7093">染谷千秋 : 「そりゃ、千冬に関係する物は全部知りてーし、好きなら尚更全部覚えたいからな」
 微笑みを浮かべる千冬ににまりと笑って顔を覗き込みます。
 「千冬と同じクラスだった奴の名前、今でも言えるぜ？　幼稚園から高校まで」
-</span><span class="chifuyu">染谷千冬 : 「……全員、ということか？」
-</span><span class="chiaki">染谷千秋 : 「ああ」
-</span><span class="chifuyu">染谷千冬 : 「……すごいな。俺は覚えていない」
-</span><span class="chiaki">染谷千秋 : 「はは」
+</span><span style="color: #00bcd4">染谷千冬 : 「……全員、ということか？」
+</span><span style="color: #db7093">染谷千秋 : 「ああ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……すごいな。俺は覚えていない」
+</span><span style="color: #db7093">染谷千秋 : 「はは」
 にこりと笑ってそのまま千冬に口付けます。
 「これからも千冬は覚えなくていいぜ。俺が代わりに覚えるからさ、千冬は俺に集中しな」
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 77 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「千秋のことだけ考えてほしいのか？」
-</span><span class="chiaki">染谷千秋 : 「うん」
-</span><span class="chifuyu">染谷千冬 : 「もう、そうなってる」
-</span><span class="chiaki">染谷千秋 : 「そりゃ良かった」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 77 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のことだけ考えてほしいのか？」
+</span><span style="color: #db7093">染谷千秋 : 「うん」
+</span><span style="color: #00bcd4">染谷千冬 : 「もう、そうなってる」
+</span><span style="color: #db7093">染谷千秋 : 「そりゃ良かった」
 握った手の甲を親指で撫でます。
 「余計なノイズはカットしてやるから、千冬は俺のことだけ考えてて」
-</span><span class="chiaki">染谷千秋 : 「周りのやつなんて全部忘れてさ、俺のことだけ覚えててよ」
+</span><span style="color: #db7093">染谷千秋 : 「周りのやつなんて全部忘れてさ、俺のことだけ覚えててよ」
 千冬に口付けた後、顔を離します。
-</span><span class="chifuyu">染谷千冬 : 「ふ。千秋はかわいいな」
-</span><span class="chiaki">染谷千秋 : 「はは、可愛い弟だろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ふ。千秋はかわいいな」
+</span><span style="color: #db7093">染谷千秋 : 「はは、可愛い弟だろ？」
 両手をぎゅっと握ります。
 「千冬もかわいいぜ」
-</span><span class="chifuyu">染谷千冬 : 「千秋のほうがかわいい」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のほうがかわいい」
 手を強く握り返します。
-</span><span class="chiaki">染谷千秋 : 「ふ、……じゃあ千冬がもっと可愛くなるまで可愛がってやんねーとな？」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……じゃあ千冬がもっと可愛くなるまで可愛がってやんねーとな？」
 にまりと笑って顔を近づけます。
-</span><span class="chifuyu">染谷千冬 : 「……？」
-</span><span class="chiaki">染谷千秋 : 理解していない様子の千冬にく、と笑い、軽く唇を触れ合わせます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……？」
+</span><span style="color: #db7093">染谷千秋 : 理解していない様子の千冬にく、と笑い、軽く唇を触れ合わせます。
 「千冬はすげー可愛いってこと。あんま理解してないみたいだけどな。……な、次行こうぜ？」
-</span><span class="chifuyu">染谷千冬 : 「千秋も分かってない。……行く」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋も分かってない。……行く」
 
-</span><span class="kp">隠れる、もしくは隠すどうぞ。
+</span><span style="color: #000">隠れる、もしくは隠すどうぞ。
 
-</span><span class="chiaki">染谷千秋 : ？
-</span><span class="chiaki">染谷千秋 : 1D100 (1D100) ＞ 98
-</span><span class="chiaki">染谷千秋 : ｯｽｩｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ
+</span><span style="color: #db7093">染谷千秋 : ？
+</span><span style="color: #db7093">染谷千秋 : 1D100 (1D100) ＞ 98
+</span><span style="color: #db7093">染谷千秋 : ｯｽｩｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰｰ
 
-</span><span class="kp">あのう……
+</span><span style="color: #000">あのう……
 
-</span><span class="chiaki">染谷千秋 : CCB<=70 【言いくるめ】 (1D100<=70) ＞ 22 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=70 【言いくるめ】 (1D100<=70) ＞ 22 ＞ 成功
 
-</span><span class="kp">勝手に振るな！
-</span><span class="kp">黙れ！
+</span><span style="color: #000">勝手に振るな！
+</span><span style="color: #000">黙れ！
 
-</span><span class="chiaki">染谷千秋 : KP！私は何の技能か宣言していませんでした。ただ1d100を振っただけの人間です。
-</span><span class="chiaki">染谷千秋 : 今から隠れるor隠すの技能を振ってもいいでしょうか？
+</span><span style="color: #db7093">染谷千秋 : KP！私は何の技能か宣言していませんでした。ただ1d100を振っただけの人間です。
+</span><span style="color: #db7093">染谷千秋 : 今から隠れるor隠すの技能を振ってもいいでしょうか？
 
-</span><span class="kp">黙れ！
+</span><span style="color: #000">黙れ！
 
-</span><span class="chiaki">染谷千秋 : ・ｘ・
+</span><span style="color: #db7093">染谷千秋 : ・ｘ・
 
-</span><span class="kp">男同士でありながら、あなたたちは人目を全く気にせずに手を繋ぎ、それどころか口づけをしています。
+</span><span style="color: #000">男同士でありながら、あなたたちは人目を全く気にせずに手を繋ぎ、それどころか口づけをしています。
 あなたたちに気づいた周囲の人々がぎょっとあなたたちに視線を向けます。
 
-</span><span class="chifuyu">染谷千冬 : 気にしません。
-</span><span class="chiaki">染谷千秋 : 気にする必要が？
+</span><span style="color: #00bcd4">染谷千冬 : 気にしません。
+</span><span style="color: #db7093">染谷千秋 : 気にする必要が？
 
-</span><span class="kp">はい。
-</span><span class="kp">二人は進んで、別のコーナーへと移動する。
+</span><span style="color: #000">はい。
+</span><span style="color: #000">二人は進んで、別のコーナーへと移動する。
 そこは先ほどの華やかなコーナーとは違い、岩礁が混じって光が閉ざされ、薄暗さの増した空間になる。さらに進むと視界は開けて、再び広大な海が広がった。
 そこには、大型の魚――ジンベエザメやアカシュモクザメ、ホシエイが、悠々と泳いでいる。迫力があり、見ごたえのある水槽だ。
 
-</span><span class="chifuyu">染谷千冬 : 水槽に見入って、ふら～っと近寄ります。
-</span><span class="chiaki">染谷千秋 : ふ、と笑い、周囲を警戒しつつ千冬のあとを追いかけます。釘付けになっている千冬の背中の愛おしさに目を細めて写真を撮り、続けて声をかけます。
+</span><span style="color: #00bcd4">染谷千冬 : 水槽に見入って、ふら～っと近寄ります。
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑い、周囲を警戒しつつ千冬のあとを追いかけます。釘付けになっている千冬の背中の愛おしさに目を細めて写真を撮り、続けて声をかけます。
 「迫力あるな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。好きだ。かっこいい」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。好きだ。かっこいい」
 
-</span><span class="kp">ジンベエザメは大きな体をしているが、動物プランクトンなどの小さい餌しか食べない、大人しい性質のサメだ。海水ごと吸いこんで捕食する光景はとても豪快で、その際に立ち泳ぎをする姿が見られる。
+</span><span style="color: #000">ジンベエザメは大きな体をしているが、動物プランクトンなどの小さい餌しか食べない、大人しい性質のサメだ。海水ごと吸いこんで捕食する光景はとても豪快で、その際に立ち泳ぎをする姿が見られる。
 シュモクザメの特徴はやはり左右に張り出した頭だろう。そのため、ハンマーヘッドシャークと呼ばれることがある。その頭部はローレンチーニ器官と呼ばれ、餌を探すための探知機としてとても役立つ。
 アカシュモクザメはメジロザメやホホジロザメほど人を襲うことはない。しかし、日本近海で個体数の多いサメであり、海水浴場の近くでも見られるため警戒はされている。
 ホシエイは、約二メートルほどまで成長する大きなエイだ。背中の小さな斑点を星になぞらえたことからその名前がついたとされている。尾に毒針を持つが、温厚な性格で、自ら攻撃することは基本的にない。
 
-</span><span class="chifuyu">染谷千冬 : 「サメもエイも、大きくて、かっこいい。……エイ、お腹がかわいい」
-</span><span class="chifuyu">染谷千冬 : 「そういえばホホジロザメ、前の怪異で見た。あの後調べたら、ホホジロザメは水族館での飼育が難しいみたいだ。びっくりしたけど、見れて良かった」
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 32 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「前の怪異って？　俺知らねーけど」
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】不機嫌なことに気づくか (1D100<=80) ＞ 53 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「……クジラ……クラゲ……ぐちゃぐちゃの何か……」
+</span><span style="color: #00bcd4">染谷千冬 : 「サメもエイも、大きくて、かっこいい。……エイ、お腹がかわいい」
+</span><span style="color: #00bcd4">染谷千冬 : 「そういえばホホジロザメ、前の怪異で見た。あの後調べたら、ホホジロザメは水族館での飼育が難しいみたいだ。びっくりしたけど、見れて良かった」
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 32 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「前の怪異って？　俺知らねーけど」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】不機嫌なことに気づくか (1D100<=80) ＞ 53 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……クジラ……クラゲ……ぐちゃぐちゃの何か……」
 不機嫌なことが分かり、少し目を逸らします。
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 45 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 顔を覗き込みます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 45 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 顔を覗き込みます。
 「へぇ」
-</span><span class="chifuyu">染谷千冬 : じ、と見ます。
-</span><span class="chiaki">染谷千秋 : 「一人で？」
-</span><span class="chifuyu">染谷千冬 : 「アキがいた」
-</span><span class="chiaki">染谷千秋 : （あいつだけ鮫に喰われりゃ良かったのに）
+</span><span style="color: #00bcd4">染谷千冬 : じ、と見ます。
+</span><span style="color: #db7093">染谷千秋 : 「一人で？」
+</span><span style="color: #00bcd4">染谷千冬 : 「アキがいた」
+</span><span style="color: #db7093">染谷千秋 : （あいつだけ鮫に喰われりゃ良かったのに）
 「ふぅん」
 不機嫌そうに千冬の首に腕を回し甘えます。
-</span><span class="chifuyu">染谷千冬 : 「千秋と別れた時があっただろう。あの時、サメが飛び出してきたんだ。エラに何かが挟まっていて、苦しそうだった。それで俺が捕まえて、アキがエラから物を取った。それが鍵だった」
-</span><span class="chifuyu">染谷千冬 : 腰に手を回します。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋と別れた時があっただろう。あの時、サメが飛び出してきたんだ。エラに何かが挟まっていて、苦しそうだった。それで俺が捕まえて、アキがエラから物を取った。それが鍵だった」
+</span><span style="color: #00bcd4">染谷千冬 : 腰に手を回します。
 「妬いたか？」
-</span><span class="chiaki">染谷千秋 : 「ちょっとな。……あの鍵取るために捕まえたの？　その感想が見れてよかったなんて、……はは、千冬度胸あんな」
-</span><span class="chifuyu">染谷千冬 : 「近くでバタバタしていた。物を取りやすいように、サメを押えていた。びっくりはしたが……不思議と怖くなかった。牙がギザギザで、大きかった。さすが、白い死神だ。きっともう見れる機会は無いだろう。良かった」
-</span><span class="chiaki">染谷千秋 : 「ふ、サメの口デカイしなー。千冬が怖くなかったんなら良かったよ」
-</span><span class="chiaki">染谷千秋 : 「千冬が見たんなら見たかったぜ、俺も」
-</span><span class="chifuyu">染谷千冬 : 「……そうか、そうだな……」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……映画を見よう」
-</span><span class="chiaki">染谷千秋 : 「はは、そーだな。実物には会わねー方がいい」
-</span><span class="chiaki">染谷千秋 : 「けど、いいのかよ？　人喰鮫が出てくる映画、ほとんどホラーだろ」
+</span><span style="color: #db7093">染谷千秋 : 「ちょっとな。……あの鍵取るために捕まえたの？　その感想が見れてよかったなんて、……はは、千冬度胸あんな」
+</span><span style="color: #00bcd4">染谷千冬 : 「近くでバタバタしていた。物を取りやすいように、サメを押えていた。びっくりはしたが……不思議と怖くなかった。牙がギザギザで、大きかった。さすが、白い死神だ。きっともう見れる機会は無いだろう。良かった」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、サメの口デカイしなー。千冬が怖くなかったんなら良かったよ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬が見たんなら見たかったぜ、俺も」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうか、そうだな……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……映画を見よう」
+</span><span style="color: #db7093">染谷千秋 : 「はは、そーだな。実物には会わねー方がいい」
+</span><span style="color: #db7093">染谷千秋 : 「けど、いいのかよ？　人喰鮫が出てくる映画、ほとんどホラーだろ」
 ニヤニヤしてます。
-</span><span class="chifuyu">染谷千冬 : 「……大丈夫だと思う」
-</span><span class="chiaki">染谷千秋 : 表情が硬くなった千冬の頬に緩く触ります。脳内のやることリストに『一番怖い鮫映画を探す』を追加します。
+</span><span style="color: #00bcd4">染谷千冬 : 「……大丈夫だと思う」
+</span><span style="color: #db7093">染谷千秋 : 表情が硬くなった千冬の頬に緩く触ります。脳内のやることリストに『一番怖い鮫映画を探す』を追加します。
 「そーかよ。ま、俺が側にいるし怖かったら手握っててやる安心しな〜」
-</span><span class="chiaki">染谷千秋 : 「あっちに行ったらやりたいこともいっこ増えたな。楽しみにしてるぜ」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「あっちに行ったらやりたいこともいっこ増えたな。楽しみにしてるぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 
-</span><span class="kp">二人はフロアを進む。ライトアップされた円柱の水槽で漂うクラゲを見て、クジラの背に乗りクラゲを捕まえた思い出が蘇るかもしれない。
+</span><span style="color: #000">二人はフロアを進む。ライトアップされた円柱の水槽で漂うクラゲを見て、クジラの背に乗りクラゲを捕まえた思い出が蘇るかもしれない。
 目星をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 51 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 51 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 10 ＞ スペシャル
 
-</span><span class="kp">クラゲが泳ぐ水槽の奥で、ぼんやりと水槽を見つめている人物が目に入る。
+</span><span style="color: #000">クラゲが泳ぐ水槽の奥で、ぼんやりと水槽を見つめている人物が目に入る。
 記憶に引っかかりが生まれる。その姿に見覚えがある。
 彼は紛れもなく、かつてこの水族館で千秋を殺した優希だった。
 
-</span><span class="chifuyu">染谷千冬 : 「！」
-</span><span class="chiaki">染谷千秋 : 「千冬、あいつ優希だよな」
-</span><span class="chifuyu">染谷千冬 : 頷きます。
-</span><span class="chiaki">染谷千秋 : 「随分ぼんやりしてるみたいだぜ。あの様子じゃ前と違って悪巧みしてるようには見えねーけど、……どうする？」
+</span><span style="color: #00bcd4">染谷千冬 : 「！」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、あいつ優希だよな」
+</span><span style="color: #00bcd4">染谷千冬 : 頷きます。
+</span><span style="color: #db7093">染谷千秋 : 「随分ぼんやりしてるみたいだぜ。あの様子じゃ前と違って悪巧みしてるようには見えねーけど、……どうする？」
 
-</span><span class="kp">少し不審な動きをした千秋と千冬を、彼も視界に捉えたのだろう。ふたりの姿に気づくと、優希は驚いたように目を見張った。
+</span><span style="color: #000">少し不審な動きをした千秋と千冬を、彼も視界に捉えたのだろう。ふたりの姿に気づくと、優希は驚いたように目を見張った。
 
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 千秋と優希に視線を交互にやります。
-</span><span class="chiaki">染谷千秋 : （へえ。あの空間での記憶はあるみたいだな。千冬にはわりーけど、話さずに立ち去るわけにはいかなくなった。それに……、）
+</span><span style="color: #db7093">染谷千秋 : （へえ。あの空間での記憶はあるみたいだな。千冬にはわりーけど、話さずに立ち去るわけにはいかなくなった。それに……、）
 「よ～、久しぶり。あの時は世話になったな」
 優希の方へ歩いていきます。
-</span><span class="chifuyu">染谷千冬 : 千秋と手を繋いで一緒に行きます。
-</span><span class="kp">優希 : 「……お久しぶりです」
+</span><span style="color: #00bcd4">染谷千冬 : 千秋と手を繋いで一緒に行きます。
+</span><span style="color: #000">優希 : 「……お久しぶりです」
 
-</span><span class="kp">優希は千秋の様子に怯えながら、ぺこりと頭を下げた。
+</span><span style="color: #000">優希は千秋の様子に怯えながら、ぺこりと頭を下げた。
 
-</span><span class="chiaki">染谷千秋 : 「あれから1年と7ヵ月20日経ったな。その間元気にしてたか？」
-</span><span class="kp">優希 : 「……」
-</span><span class="chifuyu">染谷千冬 : 何日かすぐ計算できて千秋はすごいなあと感心しています。
-</span><span class="chiaki">染谷千秋 : 「聞こえてんだろ〜？ 惨めに負けてからどんな気持ちで過ごしてたかって聞いてんだけど〜？」
-</span><span class="chifuyu">染谷千冬 : 「……ちあ、……」
+</span><span style="color: #db7093">染谷千秋 : 「あれから1年と7ヵ月20日経ったな。その間元気にしてたか？」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 何日かすぐ計算できて千秋はすごいなあと感心しています。
+</span><span style="color: #db7093">染谷千秋 : 「聞こえてんだろ〜？ 惨めに負けてからどんな気持ちで過ごしてたかって聞いてんだけど〜？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ちあ、……」
 口をつぐみます。
 
-</span><span class="kp">優希は眉間を寄せたが、すぐにその皺を解いて眉を下げる。
+</span><span style="color: #000">優希は眉間を寄せたが、すぐにその皺を解いて眉を下げる。
 
-</span><span class="kp">優希 : 「あなたたちへの当てつけ、ではありませんが……元気なわけ、ないじゃないですか。俺の力が足りなくて、ゆいを救えなかった。俺のせいだって、後悔ばかり……今も、ずっと。……あなたたちを、恨んではいませんが」
-</span><span class="chiaki">染谷千秋 : 「へえ。随分としおらしいな？ 　千冬を殴った時とは大違いだ」
-</span><span class="kp">優希 : 「……」
-</span><span class="kp">優希 : 「……今、あなたたちに危害を加えるつもりはありません。……あなたは俺に復讐したいんですか？」
-</span><span class="chifuyu">染谷千冬 : 眉を下げて千秋を見ます。
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 26 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「それが聞けて良かったよ。……復讐したいなんて言ってないぜ？　なんでそう思うんだ？」
-</span><span class="kp">優希 : 「……俺の気のせいだったかもしれませんね」
-</span><span class="chiaki">染谷千秋 : 「……、それで？　千冬に言うことあんじゃねーの？」
-</span><span class="kp">優希 : 「……千冬さんに？」
-</span><span class="chifuyu">染谷千冬 : 「……？」
+</span><span style="color: #000">優希 : 「あなたたちへの当てつけ、ではありませんが……元気なわけ、ないじゃないですか。俺の力が足りなくて、ゆいを救えなかった。俺のせいだって、後悔ばかり……今も、ずっと。……あなたたちを、恨んではいませんが」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。随分としおらしいな？ 　千冬を殴った時とは大違いだ」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #000">優希 : 「……今、あなたたちに危害を加えるつもりはありません。……あなたは俺に復讐したいんですか？」
+</span><span style="color: #00bcd4">染谷千冬 : 眉を下げて千秋を見ます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 26 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「それが聞けて良かったよ。……復讐したいなんて言ってないぜ？　なんでそう思うんだ？」
+</span><span style="color: #000">優希 : 「……俺の気のせいだったかもしれませんね」
+</span><span style="color: #db7093">染谷千秋 : 「……、それで？　千冬に言うことあんじゃねーの？」
+</span><span style="color: #000">優希 : 「……千冬さんに？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……？」
 
-</span><span class="kp">優希も千冬もピンときておらず、心当たりがないようだ。
+</span><span style="color: #000">優希も千冬もピンときておらず、心当たりがないようだ。
 
-</span><span class="chiaki">染谷千秋 : 「人のこと殴ったんだからさ、言うことあるだろ？」
+</span><span style="color: #db7093">染谷千秋 : 「人のこと殴ったんだからさ、言うことあるだろ？」
 
-</span><span class="kp">優希は驚いたように目を丸くするが、すぐにその瞼を下ろす。
+</span><span style="color: #000">優希は驚いたように目を丸くするが、すぐにその瞼を下ろす。
 
-</span><span class="kp">優希 : 「……謝りません」
-</span><span class="chiaki">染谷千秋 : 片眉を上げて続きを待ちます💢
+</span><span style="color: #000">優希 : 「……謝りません」
+</span><span style="color: #db7093">染谷千秋 : 片眉を上げて続きを待ちます💢
 
-</span><span class="kp">優希が言葉を続ける様子はない。
+</span><span style="color: #000">優希が言葉を続ける様子はない。
 
-</span><span class="chiaki">染谷千秋 : 1d5 (1D5) ＞ 5
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 「随分な態度だな？ そんな難しいこと要求してるつもりはねーけど？」
+</span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 5
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 「随分な態度だな？ そんな難しいこと要求してるつもりはねーけど？」
 めっっっっちゃ近づきます。
-</span><span class="kp">優希 : 「……何ですか」
+</span><span style="color: #000">優希 : 「……何ですか」
 
-</span><span class="kp">優希は僅かに目を細める。
+</span><span style="color: #000">優希は僅かに目を細める。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。俺は構わない」
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 24 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 千冬を一瞥した後、にこりと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。俺は構わない」
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 24 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 千冬を一瞥した後、にこりと笑います。
 「大丈夫。理由を聞くだけだよ」
-</span><span class="chiaki">染谷千秋 : 「何でそこまで意固地になってんだ？ 自分の過ちを認めたくねーから？ それとも、あの時の選択は間違ってねーと思ってるから？」
-</span><span class="kp">優希 : 「……俺は間違っていると思います。でも、その選択をしたこと……あなたを殺したこと、千冬さんを殴ったことに対して、反省や後悔はしていません。……それで謝罪されても嬉しいですか？」
-</span><span class="chiaki">染谷千秋 : 「はは、あの時もそうやって俺達の気持ち考えてくれてたら良かったのにな。けど、違うだろ？　お前は人の大事なもんを壊した。それはお前が人の気持ちより自分を優先したからだ。俺たちが謝られて嬉しいかどうかじゃねーだろ？　……言えよ、自分が謝りたくないだけだってさ」
-</span><span class="kp">優希 : 「……違いますよ。そんなに謝られたいんですね。なら、いくらでも言ってあげますよ。あなたたちに迷惑をかけてすみませんでした。あなたたちを殺したり殴ったりしてすみませんでした」
-</span><span class="chiaki">染谷千秋 : 「おー、その調子だぜ。続けろよ。ゆいを生き返らせようとしてすみませんでしたってさ」
-</span><span class="kp">優希 : 「……」
-</span><span class="chiaki">染谷千秋 : 「いくらでも言うんだろ？　言えよ、ほら」
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「何でそこまで意固地になってんだ？ 自分の過ちを認めたくねーから？ それとも、あの時の選択は間違ってねーと思ってるから？」
+</span><span style="color: #000">優希 : 「……俺は間違っていると思います。でも、その選択をしたこと……あなたを殺したこと、千冬さんを殴ったことに対して、反省や後悔はしていません。……それで謝罪されても嬉しいですか？」
+</span><span style="color: #db7093">染谷千秋 : 「はは、あの時もそうやって俺達の気持ち考えてくれてたら良かったのにな。けど、違うだろ？　お前は人の大事なもんを壊した。それはお前が人の気持ちより自分を優先したからだ。俺たちが謝られて嬉しいかどうかじゃねーだろ？　……言えよ、自分が謝りたくないだけだってさ」
+</span><span style="color: #000">優希 : 「……違いますよ。そんなに謝られたいんですね。なら、いくらでも言ってあげますよ。あなたたちに迷惑をかけてすみませんでした。あなたたちを殺したり殴ったりしてすみませんでした」
+</span><span style="color: #db7093">染谷千秋 : 「おー、その調子だぜ。続けろよ。ゆいを生き返らせようとしてすみませんでしたってさ」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「いくらでも言うんだろ？　言えよ、ほら」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 千秋の手を引きます。
-</span><span class="chiaki">染谷千秋 : 「……分かったよ」
+</span><span style="color: #db7093">染谷千秋 : 「……分かったよ」
 千冬をもう一度見た後、沈黙したままのゆうきに向き直ります。
 「それで？　お前はここで何してんの？」
-</span><span class="kp">優希 : 「何って……クラゲを見てました。……ここは、ゆいが好きだった場所で……よく来ています」
-</span><span class="chiaki">染谷千秋 : 「へぇ。幸せだった頃のこと思い出して感傷に浸ってたのか」
-</span><span class="kp">優希 : 「……ええ、そうですよ。ゆいは特に、クラゲが好きでした。……」
-</span><span class="chiaki">染谷千秋 : 「ふーん」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #000">優希 : 「何って……クラゲを見てました。……ここは、ゆいが好きだった場所で……よく来ています」
+</span><span style="color: #db7093">染谷千秋 : 「へぇ。幸せだった頃のこと思い出して感傷に浸ってたのか」
+</span><span style="color: #000">優希 : 「……ええ、そうですよ。ゆいは特に、クラゲが好きでした。……」
+</span><span style="color: #db7093">染谷千秋 : 「ふーん」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 優希に向き直ります。
 「俺は謝らない。俺は優希が許せない」
-</span><span class="kp">優希 : 「……？　はい」
-</span><span class="chifuyu">染谷千冬 : 「それは、優希もそうだ。別に謝らなくていい。だから俺も、反省や後悔をしていない。一緒だ」
-</span><span class="kp">優希 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「本当は、千秋を殺したことを謝ってほしい。でも、俺はゆいを殺したことを謝れない。互いに譲れないのだと分かっている。だから、喧嘩をした。その決着が全てだと思っている」
-</span><span class="kp">優希 : 「……、……はい」
+</span><span style="color: #000">優希 : 「……？　はい」
+</span><span style="color: #00bcd4">染谷千冬 : 「それは、優希もそうだ。別に謝らなくていい。だから俺も、反省や後悔をしていない。一緒だ」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「本当は、千秋を殺したことを謝ってほしい。でも、俺はゆいを殺したことを謝れない。互いに譲れないのだと分かっている。だから、喧嘩をした。その決着が全てだと思っている」
+</span><span style="color: #000">優希 : 「……、……はい」
 
-</span><span class="kp">千冬の分かりづらい話し方を噛み砕いて、苦い顔をしながら優希は頷いた。
+</span><span style="color: #000">千冬の分かりづらい話し方を噛み砕いて、苦い顔をしながら優希は頷いた。
 
-</span><span class="chiaki">染谷千秋 : こっちは被害者なのに対等な目線に立つ千冬が真っ直ぐで好きだなという気持ちを抱えながら頷くゆうきに何頷いてんねん同じ立場だと思うな千冬の慈悲だからという視線で見ます。
-</span><span class="kp">優希 : sCCB<=78 【目星】 (1D100<=78) ＞ 32 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : こっちは被害者なのに対等な目線に立つ千冬が真っ直ぐで好きだなという気持ちを抱えながら頷くゆうきに何頷いてんねん同じ立場だと思うな千冬の慈悲だからという視線で見ます。
+</span><span style="color: #000">優希 : sCCB<=78 【目星】 (1D100<=78) ＞ 32 ＞ 成功
 
-</span><span class="kp">優希はあなたの視線に気づいて眉を顰めたが、すぐに千冬へと視線を戻した。
+</span><span style="color: #000">優希はあなたの視線に気づいて眉を顰めたが、すぐに千冬へと視線を戻した。
 
-</span><span class="chifuyu">染谷千冬 : 「……俺も、千秋を何度か失った。……優希が、納得できる道を歩めるように願っている」
-</span><span class="kp">優希 : sCCB<=80 【アイデア】 (1D100<=80) ＞ 51 ＞ 成功
-</span><span class="kp">優希 : 「……何度か失った？」
-</span><span class="chifuyu">染谷千冬 : 「数年前、色々あって千秋が死んだ。その時は死を受け入れられなかった。優希に千秋を殺された時は耐えられなかった。一ヶ月で自死を決意した。だから、優希の気持ちは分かる、かもしれない」
-</span><span class="kp">優希 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……だから、優希にとっての前を向けるように、願っている」
-</span><span class="kp">優希 : 「……あの時出会ったような魔術師だって、きっと俺たちを弄ぶために手を貸しただけです。そう都合のよいことは何度も起こらないでしょう。今のあなたの話を聞いて一瞬、頭を過ぎりましたが……やっぱり、ゆいが生き返るなんてことはもう、無いんだろうと思います。……それでも、ゆいを忘れるのは間違ってると思うんです。……ゆいと共に生きたい」
-</span><span class="kp">優希 : 「……」
-</span><span class="chifuyu">染谷千冬 : じっと見ます。
-</span><span class="kp">優希 : 「……ふ。こんな話ができるのはあなたたちぐらいでしょうね。皮肉だな。……おかげで、自分の思考が少しクリアになった気がします」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chifuyu">染谷千冬 : ぱちぱちと瞬いたあと、真っ直ぐ見つめます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺も、千秋を何度か失った。……優希が、納得できる道を歩めるように願っている」
+</span><span style="color: #000">優希 : sCCB<=80 【アイデア】 (1D100<=80) ＞ 51 ＞ 成功
+</span><span style="color: #000">優希 : 「……何度か失った？」
+</span><span style="color: #00bcd4">染谷千冬 : 「数年前、色々あって千秋が死んだ。その時は死を受け入れられなかった。優希に千秋を殺された時は耐えられなかった。一ヶ月で自死を決意した。だから、優希の気持ちは分かる、かもしれない」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……だから、優希にとっての前を向けるように、願っている」
+</span><span style="color: #000">優希 : 「……あの時出会ったような魔術師だって、きっと俺たちを弄ぶために手を貸しただけです。そう都合のよいことは何度も起こらないでしょう。今のあなたの話を聞いて一瞬、頭を過ぎりましたが……やっぱり、ゆいが生き返るなんてことはもう、無いんだろうと思います。……それでも、ゆいを忘れるのは間違ってると思うんです。……ゆいと共に生きたい」
+</span><span style="color: #000">優希 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : じっと見ます。
+</span><span style="color: #000">優希 : 「……ふ。こんな話ができるのはあなたたちぐらいでしょうね。皮肉だな。……おかげで、自分の思考が少しクリアになった気がします」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #00bcd4">染谷千冬 : ぱちぱちと瞬いたあと、真っ直ぐ見つめます。
 「……頑張れ」
-</span><span class="kp">優希 : 「……変わった人ですね」
-</span><span class="kp">優希 : 「……俺は帰ります。それでは……お元気で」
-</span><span class="chifuyu">染谷千冬 : 「ああ。優希も」
-</span><span class="chiaki">染谷千秋 : 「二度と会わないことを祈るぜ」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="kp">優希 : 「俺もそう祈っています」
+</span><span style="color: #000">優希 : 「……変わった人ですね」
+</span><span style="color: #000">優希 : 「……俺は帰ります。それでは……お元気で」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。優希も」
+</span><span style="color: #db7093">染谷千秋 : 「二度と会わないことを祈るぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #000">優希 : 「俺もそう祈っています」
 
-</span><span class="kp">そして、優希はこの場を立ち去った。
+</span><span style="color: #000">そして、優希はこの場を立ち去った。
 
-</span><span class="chiaki">染谷千秋 : 「元気にしてたみたいでよかったな」
-</span><span class="chifuyu">染谷千冬 : 「そうだろうか。少し心配だ」
-</span><span class="chiaki">染谷千秋 : 「千冬は優しいな。……優希の強かさは千冬が一番知ってるだろ。あいつは強いよ。大丈夫」
-</span><span class="chiaki">染谷千秋 : 「それに、この一年間、ああしながらも生きてこれたんだ。支えてくれる人が周りにいるかもしんないぜ」
-</span><span class="chifuyu">染谷千冬 : 「……たぶんいない」
-</span><span class="chiaki">染谷千秋 : 「へえ。知ってんの？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。優希とゆいは孤児院の出身で、優希は高校卒業までいたそうだ。ゆいを守るために、働いていると言っていた。たぶん、いない」
-</span><span class="chiaki">染谷千秋 : 「苦労してんだな」
-</span><span class="chifuyu">染谷千冬 : 「……俺ができることは無いんだろうな。……」
-</span><span class="chifuyu">染谷千冬 : 「……千秋、行こう」
-</span><span class="chiaki">染谷千秋 : 「そうだな。……ま、あいつの人生だ。あいつがなんとかするだろ。後はあいつ次第だ」
-</span><span class="chiaki">染谷千秋 : 「ショーの時間に近づいてきたな。売店寄ってから行こうぜ」
+</span><span style="color: #db7093">染谷千秋 : 「元気にしてたみたいでよかったな」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだろうか。少し心配だ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は優しいな。……優希の強かさは千冬が一番知ってるだろ。あいつは強いよ。大丈夫」
+</span><span style="color: #db7093">染谷千秋 : 「それに、この一年間、ああしながらも生きてこれたんだ。支えてくれる人が周りにいるかもしんないぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……たぶんいない」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。知ってんの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。優希とゆいは孤児院の出身で、優希は高校卒業までいたそうだ。ゆいを守るために、働いていると言っていた。たぶん、いない」
+</span><span style="color: #db7093">染谷千秋 : 「苦労してんだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺ができることは無いんだろうな。……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋、行こう」
+</span><span style="color: #db7093">染谷千秋 : 「そうだな。……ま、あいつの人生だ。あいつがなんとかするだろ。後はあいつ次第だ」
+</span><span style="color: #db7093">染谷千秋 : 「ショーの時間に近づいてきたな。売店寄ってから行こうぜ」
 千冬の手をぎゅっとにぎります。
-</span><span class="chifuyu">染谷千冬 : 「……そうだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうだな」
 手を握り返します。
-</span><span class="chiaki">染谷千秋 : ショーに向かいます！
+</span><span style="color: #db7093">染谷千秋 : ショーに向かいます！
 
-</span><span class="kp">ふたりは売店で食べ物を調達してから海上ショーへ向かう。
+</span><span style="color: #000">ふたりは売店で食べ物を調達してから海上ショーへ向かう。
 今日のショーはアザラシのショーだ。前に訪れた時は生まれたばかりだったアザラシが、今ではショーができるほどに成長をしていた。
 いつもは陸にゴロゴロと転がっていて気ままに見えるアザラシだが、ショーの時にはその表情を変える。
-</span><span class="kp">アザラシは軽快な音楽に合わせて、ヒレで叩き首を横に振ってリズムを取った。観客も一緒に手を叩く。千秋が隣の千冬を見ると、千冬もいつもの硬い表情で手を叩いていた。
+</span><span style="color: #000">アザラシは軽快な音楽に合わせて、ヒレで叩き首を横に振ってリズムを取った。観客も一緒に手を叩く。千秋が隣の千冬を見ると、千冬もいつもの硬い表情で手を叩いていた。
 
 スタッフがアザラシに向かってボールを投げると、アザラシは器用に受け止めた。
 ボールの次は、リングを輪投げのようにアザラシに向かって投げる。するとアザラシは頭を動かして輪を首に通した。
 
 水中へと移動し、スタッフがリングを続けて投げる。アザラシは全てのリングを自分の首へと集めた。
-</span><span class="kp">ショーが終わり、アザラシとスタッフがぺこりとお辞儀をする。
+</span><span style="color: #000">ショーが終わり、アザラシとスタッフがぺこりとお辞儀をする。
 「これからも『だいふく』の成長にご期待ください！　本日はありがとうございました！」
 観客から歓声と拍手が送られる。そしてショーは幕を閉じたのだった。
 
-</span><span class="chifuyu">染谷千冬 : 「……よかった」
-</span><span class="chiaki">染谷千秋 : 「見応えあったな。前来た時は生まれたばっかだったのに今じゃあんな器用に受け止めるなんてさ、成長早いな～」
-</span><span class="chifuyu">染谷千冬 : 「そうだな」
-</span><span class="chiaki">染谷千秋 : 「記念に何か買おうぜ。……ほら、千冬。これなんかどう？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……よかった」
+</span><span style="color: #db7093">染谷千秋 : 「見応えあったな。前来た時は生まれたばっかだったのに今じゃあんな器用に受け止めるなんてさ、成長早いな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな」
+</span><span style="color: #db7093">染谷千秋 : 「記念に何か買おうぜ。……ほら、千冬。これなんかどう？」
 売店に向かい、アザラシのぬいぐるみを手に取ります。
-</span><span class="chifuyu">染谷千冬 : 「かわいい」
-</span><span class="chiaki">染谷千秋 : ぬいぐるみをちょこちょこ動かして千冬の手に触れさせます。
+</span><span style="color: #00bcd4">染谷千冬 : 「かわいい」
+</span><span style="color: #db7093">染谷千秋 : ぬいぐるみをちょこちょこ動かして千冬の手に触れさせます。
 「……千冬の方が可愛いけどな～」
-</span><span class="chifuyu">染谷千冬 : 「千秋のほうがかわいい」
-</span><span class="chiaki">染谷千秋 : キリッと眉をあげる千冬に口角を上げます。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のほうがかわいい」
+</span><span style="color: #db7093">染谷千秋 : キリッと眉をあげる千冬に口角を上げます。
 「く、……千冬の方が可愛い。さっきも夢中になって手叩いてたろ。一生懸命で可愛かったぜ」
-</span><span class="chifuyu">染谷千冬 : 「千秋のほうがかわいい」
-</span><span class="chiaki">染谷千秋 : 「千冬のほうがかわいいぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のほうがかわいい」
+</span><span style="color: #db7093">染谷千秋 : 「千冬のほうがかわいいぜ」
 眉間をぐりぐり押し込みます。
-</span><span class="chifuyu">染谷千冬 : 「う……」
-</span><span class="chifuyu">染谷千冬 : 「……ぬいぐるみ、2つ買おう」
-</span><span class="chiaki">染谷千秋 : 「はは、いいな。お揃いにする？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。それで、並べて置く。寂しくない」
-</span><span class="chifuyu">染谷千冬 : 「俺のぶんと、千秋のぶんだ」
-</span><span class="chiaki">染谷千秋 : 「寂しい？　……ふ、ぬいぐるみが？」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 「はは！　そんな発想なかった。いいな、買おうぜ。……どの個体がいい？」
-</span><span class="chifuyu">染谷千冬 : 「千秋のぬいぐるみはどうする？」
-</span><span class="chiaki">染谷千秋 : 「じゃ、これ」
+</span><span style="color: #00bcd4">染谷千冬 : 「う……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ぬいぐるみ、2つ買おう」
+</span><span style="color: #db7093">染谷千秋 : 「はは、いいな。お揃いにする？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。それで、並べて置く。寂しくない」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺のぶんと、千秋のぶんだ」
+</span><span style="color: #db7093">染谷千秋 : 「寂しい？　……ふ、ぬいぐるみが？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「はは！　そんな発想なかった。いいな、買おうぜ。……どの個体がいい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のぬいぐるみはどうする？」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、これ」
 眉毛の形が3ﾐﾘほど千冬に似ている個体を持ち上げます。
 「少し千冬に似てる」
-</span><span class="chifuyu">染谷千冬 : 「……どこがだ？」
-</span><span class="chiaki">染谷千秋 : 「ここ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……どこがだ？」
+</span><span style="color: #db7093">染谷千秋 : 「ここ」
 眉毛を指差します。
 「眉毛が全体的に下がっててキリッとしてるように見えるだろ。他のと比べて眉の形が千冬に似てると思ってさ」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chiaki">染谷千秋 : 「千冬は？　どれにすんの」
-</span><span class="chifuyu">染谷千冬 : じっと探します。
-</span><span class="chifuyu">染谷千冬 : 「……これにする」
-</span><span class="chiaki">染谷千秋 : 「そいつ？　どこが気に入ったの？」
-</span><span class="chifuyu">染谷千冬 : 「なんとなく、一番かわいい。千秋だ」
-</span><span class="chiaki">染谷千秋 : 「ん～？　他のと変わらないようにみえるぜ。……けど、一番可愛いなら千冬だろ～？」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は？　どれにすんの」
+</span><span style="color: #00bcd4">染谷千冬 : じっと探します。
+</span><span style="color: #00bcd4">染谷千冬 : 「……これにする」
+</span><span style="color: #db7093">染谷千秋 : 「そいつ？　どこが気に入ったの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「なんとなく、一番かわいい。千秋だ」
+</span><span style="color: #db7093">染谷千秋 : 「ん～？　他のと変わらないようにみえるぜ。……けど、一番可愛いなら千冬だろ～？」
 むに、と頬をつまみます。
-</span><span class="chifuyu">染谷千冬 : 「……なんとなく思った。微妙に顔のバランスが違っているのだろうか。一番かわいいから、千秋だ」
-</span><span class="chiaki">染谷千秋 : かわいいのが自分だと言い張る千冬を可愛く思います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……なんとなく思った。微妙に顔のバランスが違っているのだろうか。一番かわいいから、千秋だ」
+</span><span style="color: #db7093">染谷千秋 : かわいいのが自分だと言い張る千冬を可愛く思います。
 「千冬の方がかわいいだろ？　……普段抱かれてるくせに」
 最後の方は小さく話します。
-</span><span class="chifuyu">染谷千冬 : 「千秋のほうがかわいい。抱いている千秋がかわいい」
-</span><span class="chiaki">染谷千秋 : 「ふは、どんな理論だよ。……千冬の方がかわいーのに」
-</span><span class="chifuyu">染谷千冬 : 「？」
-</span><span class="chiaki">染谷千秋 : 千冬の頭をくしゃりと撫でます。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のほうがかわいい。抱いている千秋がかわいい」
+</span><span style="color: #db7093">染谷千秋 : 「ふは、どんな理論だよ。……千冬の方がかわいーのに」
+</span><span style="color: #00bcd4">染谷千冬 : 「？」
+</span><span style="color: #db7093">染谷千秋 : 千冬の頭をくしゃりと撫でます。
 「分かってないようだから今日見せてやるよ。きっと可愛いぜ」
-</span><span class="chiaki">染谷千秋 : 「これとこれな～。他はどうする？」
+</span><span style="color: #db7093">染谷千秋 : 「これとこれな～。他はどうする？」
 互いに選んだぬいぐるみを持ち上げます。
-</span><span class="chifuyu">染谷千冬 : 「見せ……る……？」
-</span><span class="chifuyu">染谷千冬 : 「お菓子も買って帰ろう」
-</span><span class="chiaki">染谷千秋 : 「直に分かるよ」
-</span><span class="chiaki">染谷千秋 : 「おー」
+</span><span style="color: #00bcd4">染谷千冬 : 「見せ……る……？」
+</span><span style="color: #00bcd4">染谷千冬 : 「お菓子も買って帰ろう」
+</span><span style="color: #db7093">染谷千秋 : 「直に分かるよ」
+</span><span style="color: #db7093">染谷千秋 : 「おー」
 お菓子を買う！
 
-</span><span class="kp">二人はショップでぬいぐるみや食べ物を購入する。
+</span><span style="color: #000">二人はショップでぬいぐるみや食べ物を購入する。
 その後も水族館を余すことなく見て回った。水族館を出ると、もう夕暮れ時となっていた。
 
-</span><span class="chiaki">染谷千秋 : 「一通り見て回ったな。……気持ちの整理はつけれた？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。楽しかった」
-</span><span class="chifuyu">染谷千冬 : 「……千秋は楽しかったか？」
-</span><span class="chiaki">染谷千秋 : 「なら良かった。ああ、色んなもん見れたし楽しかったぜ」
+</span><span style="color: #db7093">染谷千秋 : 「一通り見て回ったな。……気持ちの整理はつけれた？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。楽しかった」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋は楽しかったか？」
+</span><span style="color: #db7093">染谷千秋 : 「なら良かった。ああ、色んなもん見れたし楽しかったぜ」
 （……途中邪魔はいったけどな）
-</span><span class="chifuyu">染谷千冬 : 「良かった」
+</span><span style="color: #00bcd4">染谷千冬 : 「良かった」
 
-</span><span class="kp">ご飯を食べて、入浴して、いつも通りの穏やかな時間を過ごすだろう。
+</span><span style="color: #000">ご飯を食べて、入浴して、いつも通りの穏やかな時間を過ごすだろう。
 
-</span><span class="chiaki">染谷千秋 : 「ちーーーふゆ」
+</span><span style="color: #db7093">染谷千秋 : 「ちーーーふゆ」
 片付けを終えて、本を読む千冬の背中に抱きついて肩から顔を出します。
-</span><span class="chifuyu">染谷千冬 : 「千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋」
 本を閉じて振り向きます。
-</span><span class="chiaki">染谷千秋 : 「な、今日俺が言ったこと覚えてる？」
-</span><span class="chifuyu">染谷千冬 : 「今日見せてやる、って言った」
-</span><span class="chiaki">染谷千秋 : 「そ。覚えてて偉いな。……何のことか想像つく？」
+</span><span style="color: #db7093">染谷千秋 : 「な、今日俺が言ったこと覚えてる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「今日見せてやる、って言った」
+</span><span style="color: #db7093">染谷千秋 : 「そ。覚えてて偉いな。……何のことか想像つく？」
 首筋に口付けてお腹に手を回します。
-</span><span class="chifuyu">染谷千冬 : 「……？　分からない」
-</span><span class="chiaki">染谷千秋 : 「考えてみろよ。いつだと思う？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……？　分からない」
+</span><span style="color: #db7093">染谷千秋 : 「考えてみろよ。いつだと思う？」
 服の中に手をすべらせます。
-</span><span class="chifuyu">染谷千冬 : 「……抱かれている時、ということか？」
-</span><span class="chifuyu">染谷千冬 : 「でも、千秋のほうがかわいい」
-</span><span class="chiaki">染谷千秋 : 「そ、正解」
-</span><span class="chiaki">染谷千秋 : 「ふ、千冬の方が可愛いって。……抱かれてる時の顔、あんま見たことねーだろ？」
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 82 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 「…… ？」
-</span><span class="chiaki">染谷千秋 : CCB<=80 【幸運】姿見をしまっていない/いる (1D100<=80) ＞ 96 ＞ 致命的失敗
-</span><span class="chiaki">染谷千秋 : 「分かってねーの。かわいー」
+</span><span style="color: #00bcd4">染谷千冬 : 「……抱かれている時、ということか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「でも、千秋のほうがかわいい」
+</span><span style="color: #db7093">染谷千秋 : 「そ、正解」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、千冬の方が可愛いって。……抱かれてる時の顔、あんま見たことねーだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 82 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 「…… ？」
+</span><span style="color: #db7093">染谷千秋 : CCB<=80 【幸運】姿見をしまっていない/いる (1D100<=80) ＞ 96 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : 「分かってねーの。かわいー」
 千冬に軽い口付けをしてから立ち上がり、隣に座りなおします。千冬の項をさわさわと触りながら手を握ります。千冬の目をじっと見ながら焦らすように指を動かします。
-</span><span class="chifuyu">染谷千冬 : 「あ……千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「あ……千秋……」
 千秋に寄りかかります。
-</span><span class="chiaki">染谷千秋 : 「千冬は可愛いぜ。今も期待した目してる。ほら」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は可愛いぜ。今も期待した目してる。ほら」
 千冬に一つ口付け、スマホを取り出してインカメラに変えます。千冬の顔を見せます。
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : 「目が細くなって眉間が緩むんだ。かわいーだろ。……触れられた時とキスした時こうなるんだぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「目が細くなって眉間が緩むんだ。かわいーだろ。……触れられた時とキスした時こうなるんだぜ」
 インカメラの千冬を見ながら口付けます。すぐに口を離して続けます。
-</span><span class="chifuyu">染谷千冬 : 「……千秋もかわいい」
-</span><span class="chiaki">染谷千秋 : 「ふ、自分見ろって。……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋もかわいい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、自分見ろって。……」
 くすりと笑った後、スマホを机の上に起きます。
 千冬の肩に腕を回して顔を覗き込みます。
 「俺がそんなにかわいいの？」
-</span><span class="chifuyu">染谷千冬 : 「かわいい。……千秋が俺と話す時、俺に触れる時の、楽しそうな顔が好きだ。千秋も目が細くなって、にっこり笑うんだ。かわいい。俺のことが好きでかわいい。妬いているところもかわいい。俺を求める千秋がかわいい。……いや、千秋はいつもかわいい。料理を作る時も、お風呂の時も、セックスの時も、寝ている時も、全部好きだ。愛らしい」
-</span><span class="chiaki">染谷千秋 : 「ふは、そんなにかよ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「かわいい。……千秋が俺と話す時、俺に触れる時の、楽しそうな顔が好きだ。千秋も目が細くなって、にっこり笑うんだ。かわいい。俺のことが好きでかわいい。妬いているところもかわいい。俺を求める千秋がかわいい。……いや、千秋はいつもかわいい。料理を作る時も、お風呂の時も、セックスの時も、寝ている時も、全部好きだ。愛らしい」
+</span><span style="color: #db7093">染谷千秋 : 「ふは、そんなにかよ？」
 片眉をあげます。
 「千冬こそいつもかわいいぜ？」
-</span><span class="chifuyu">染谷千冬 : む。
-</span><span class="chiaki">染谷千秋 : 「そーやって納得いかない時むくれんの可愛い。朝の寝顔は少しあどけなくて可愛いだろ。すぐ目あけてぱちぱちしてる所も可愛いし、たまーにたってる寝癖もかわいい。歯を丁寧に磨くとこも可愛い。俺が選んだ服来て俺が作ったご飯美味しそうに食べてるのもかわいい。おっきく一口含んで頬膨らませてんのが可愛い。はじめは俺に世話やかれんの断ってたけど、最近は好きなようにやらせてくれんの嬉しいぜ。黙って俺に世話されてる千冬かわいい。甘えたな千冬も可愛いし、作業に没頭してる千冬も可愛い。集中してる時に驚かせたら目がまんまるになるのも可愛い。仕事行くとき道端の変化に気付くのも可愛いな。他にもまだあるぜ」
+</span><span style="color: #00bcd4">染谷千冬 : む。
+</span><span style="color: #db7093">染谷千秋 : 「そーやって納得いかない時むくれんの可愛い。朝の寝顔は少しあどけなくて可愛いだろ。すぐ目あけてぱちぱちしてる所も可愛いし、たまーにたってる寝癖もかわいい。歯を丁寧に磨くとこも可愛い。俺が選んだ服来て俺が作ったご飯美味しそうに食べてるのもかわいい。おっきく一口含んで頬膨らませてんのが可愛い。はじめは俺に世話やかれんの断ってたけど、最近は好きなようにやらせてくれんの嬉しいぜ。黙って俺に世話されてる千冬かわいい。甘えたな千冬も可愛いし、作業に没頭してる千冬も可愛い。集中してる時に驚かせたら目がまんまるになるのも可愛い。仕事行くとき道端の変化に気付くのも可愛いな。他にもまだあるぜ」
 千冬に口付けた後目を覗き込みます。
-</span><span class="chiaki">染谷千秋 : 「俺のこと可愛いって言いながら、そんな俺に抱かれて喘いでんのが可愛い。可愛さで言ったら千冬の方が総量上だろ？」
-</span><span class="chifuyu">染谷千冬 : 目をぱちぱちさせますが、すぐに細めます。
+</span><span style="color: #db7093">染谷千秋 : 「俺のこと可愛いって言いながら、そんな俺に抱かれて喘いでんのが可愛い。可愛さで言ったら千冬の方が総量上だろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 目をぱちぱちさせますが、すぐに細めます。
 「……千秋のほうがかわいい……」
-</span><span class="chiaki">染谷千秋 : 「千冬の方がかわいい。くすぐりだって弱いし」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の方がかわいい。くすぐりだって弱いし」
 千冬の脇腹をさわさわと触ります。
-</span><span class="chifuyu">染谷千冬 : 「あ……ッ、はぁ、千秋、」
+</span><span style="color: #00bcd4">染谷千冬 : 「あ……ッ、はぁ、千秋、」
 ぎゅっと目を閉じます。
 「……は、くすぐる千秋がかわいい……」
-</span><span class="chiaki">染谷千秋 : 「千冬の方だろ～？　そーやってすぐに悩ましい声出すのも可愛い」
-</span><span class="chifuyu">染谷千冬 : 「千秋、だ……っ」
-</span><span class="chiaki">染谷千秋 : 「ふるふる震えながら言うことかよー？」
-</span><span class="chifuyu">染谷千冬 : こくこく頷きます。
-</span><span class="chiaki">染谷千秋 : 「へえ？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の方だろ～？　そーやってすぐに悩ましい声出すのも可愛い」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、だ……っ」
+</span><span style="color: #db7093">染谷千秋 : 「ふるふる震えながら言うことかよー？」
+</span><span style="color: #00bcd4">染谷千冬 : こくこく頷きます。
+</span><span style="color: #db7093">染谷千秋 : 「へえ？」
 頑なに譲らない千冬の様子に加虐心がわきます。
 「……千冬の方が可愛いって。千冬が認めるまでくすぐりやめてやんない」
-</span><span class="chiaki">染谷千秋 : 「認めな～」
+</span><span style="color: #db7093">染谷千秋 : 「認めな～」
 脇腹に指先を添えてわきわきと動かします。千冬がギブするまでくすぐります。
-</span><span class="chiaki">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 42 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「……はぁ、あっ、俺にとっては、ぅ、……千秋のほうがかわいいっ、はあ」
-</span><span class="chiaki">染谷千秋 : 「弟だから？」
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 42 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……はぁ、あっ、俺にとっては、ぅ、……千秋のほうがかわいいっ、はあ」
+</span><span style="color: #db7093">染谷千秋 : 「弟だから？」
 質問を投げたあと、答えられないように口付けます。くすぐりを続けます。
-</span><span class="chifuyu">染谷千冬 : 「っ、ぷは、……弟で、千秋だから……っうう、あッ」
-</span><span class="chiaki">染谷千秋 : 「ふぅん」
+</span><span style="color: #00bcd4">染谷千冬 : 「っ、ぷは、……弟で、千秋だから……っうう、あッ」
+</span><span style="color: #db7093">染谷千秋 : 「ふぅん」
 くすりと笑った後、悶える千冬の身体に手のひらを這わせて強めに揉みます。
 「なら、そのかわいー弟の主張飲み込んでよ」
-</span><span class="chiaki">染谷千秋 : 「千冬かわいい。脇腹触ってるだけなのに乳首立ってきてんのわかる？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬かわいい。脇腹触ってるだけなのに乳首立ってきてんのわかる？」
 主張しはじめた突起に息を吹き掛けます。
-</span><span class="chifuyu">染谷千冬 : 「は……っ、ぁ、千秋……」
-</span><span class="chifuyu">染谷千冬 : 「……千秋にとってはそうでも、俺にとっては、変わらない、っう、」
-</span><span class="chiaki">染谷千秋 : 「へぇ？」
-</span><span class="chifuyu">染谷千冬 : 「……千秋のほうがかわいい、……っ」
+</span><span style="color: #00bcd4">染谷千冬 : 「は……っ、ぁ、千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋にとってはそうでも、俺にとっては、変わらない、っう、」
+</span><span style="color: #db7093">染谷千秋 : 「へぇ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋のほうがかわいい、……っ」
 染まった頬で千秋を睨みます。
-</span><span class="chiaki">染谷千秋 : 「千冬の方が可愛いぜ。認めろよ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の方が可愛いぜ。認めろよ」
 千冬の鼻に自分の鼻をくっつけてじっと見ます。
-</span><span class="chifuyu">染谷千冬 : 「……違う、意味がない、ッは、……千秋、何をしたいんだ」
-</span><span class="chiaki">染谷千秋 : 「ん～？　なんでだと思う？」
-</span><span class="chifuyu">染谷千冬 : 「分からない、から聞いてる」
-</span><span class="chiaki">染谷千秋 : 千冬の唇に口付けます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……違う、意味がない、ッは、……千秋、何をしたいんだ」
+</span><span style="color: #db7093">染谷千秋 : 「ん～？　なんでだと思う？」
+</span><span style="color: #00bcd4">染谷千冬 : 「分からない、から聞いてる」
+</span><span style="color: #db7093">染谷千秋 : 千冬の唇に口付けます。
 「それでも考えてみてよ」
 脇腹に添えた手を微かに動かします。
-</span><span class="chifuyu">染谷千冬 : 「ン、……っ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ン、……っ」
 浅く息を繰り返します。
 「わ、分からないっ、千秋、」
-</span><span class="chiaki">染谷千秋 : 「ヒントはー、俺が千冬のこと大好きだってこと」
+</span><span style="color: #db7093">染谷千秋 : 「ヒントはー、俺が千冬のこと大好きだってこと」
 千冬の唇を柔らかく喰み、ゆっくりと離します。
-</span><span class="chifuyu">染谷千冬 : 「……分からない、千秋……」
-</span><span class="chiaki">染谷千秋 : 「じゃ、追加のヒント。好きな子の色んな表情が見たいだろ？　俺は千冬が大好きだから、千冬の色んな表情が見たい」
-</span><span class="chifuyu">染谷千冬 : 「……俺を困らせたいのか？」
-</span><span class="chiaki">染谷千秋 : 「そーいうこと」
-</span><span class="chiaki">染谷千秋 : 「千冬を困らせ続けたらどんな表情すんのか知りてーし、その表情を見れんのは俺だけだって実感したいんだよ。……だから千冬が認めるまでやめてやんない」
+</span><span style="color: #00bcd4">染谷千冬 : 「……分からない、千秋……」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、追加のヒント。好きな子の色んな表情が見たいだろ？　俺は千冬が大好きだから、千冬の色んな表情が見たい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺を困らせたいのか？」
+</span><span style="color: #db7093">染谷千秋 : 「そーいうこと」
+</span><span style="color: #db7093">染谷千秋 : 「千冬を困らせ続けたらどんな表情すんのか知りてーし、その表情を見れんのは俺だけだって実感したいんだよ。……だから千冬が認めるまでやめてやんない」
 千冬の脇腹をつっとなぞります。小指を小刻みに動かしてくすぐりながら、脇をぎゅっと挟みます。
-</span><span class="chifuyu">染谷千冬 : 眉を下げた後、千秋をじっと見ます。
+</span><span style="color: #00bcd4">染谷千冬 : 眉を下げた後、千秋をじっと見ます。
 「っ、俺は認めない。でも、千秋がそうしたいなら好きにすればいい。千秋になら何をされてもいい」
-</span><span class="chiaki">染谷千秋 : 「ふ、……じゃ、千冬と俺、どっちが先に根あげるか。根比べに付き合ってよ」
-</span><span class="chifuyu">染谷千冬 : 「俺の考えは変わらない」
-</span><span class="chiaki">染谷千秋 : 「そーかよ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……じゃ、千冬と俺、どっちが先に根あげるか。根比べに付き合ってよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺の考えは変わらない」
+</span><span style="color: #db7093">染谷千秋 : 「そーかよ」
 にまりと笑い、加虐心がある程度おさまるまで擽り続けます！INT/2と千冬のCONの対抗ロールを希望！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chiaki">染谷千秋 : res(17/2-12) (1d100<=30) ＞ 76 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d3*4+10 (1D3*4+10) ＞ 2[2]*4+10 ＞ 18
-</span><span class="chiaki">染谷千秋 : 「はは、降参。千冬のかわいー顔見れたし、これぐらいにしてやるよ」
+</span><span style="color: #db7093">染谷千秋 : res(17/2-12) (1d100<=30) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d3*4+10 (1D3*4+10) ＞ 2[2]\*4+10 ＞ 18
+</span><span style="color: #db7093">染谷千秋 : 「はは、降参。千冬のかわいー顔見れたし、これぐらいにしてやるよ」
 20分程千冬をからかいながら擽ります。加虐心が満たされた頃、擽りを続けていた手を離し、千冬の身体をぎゅっと抱きしめます。
-</span><span class="chifuyu">染谷千冬 : 「は、は……♡　ちあき、ちあきのほうがかわいい、……」
+</span><span style="color: #00bcd4">染谷千冬 : 「は、は……♡　ちあき、ちあきのほうがかわいい、……」
 荒らげた息と蕩けた目で千秋を見て、力の入らない腕で抱きしめます。
-</span><span class="chiaki">染谷千秋 : 「ふ、負けたよ。こんなになるまで耐えてさあ、……やらしーの」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、負けたよ。こんなになるまで耐えてさあ、……やらしーの」
 千冬の中心をすっと撫でて背骨をなぞります。
-</span><span class="chifuyu">染谷千冬 : 「ちあき、気持ちいい、ちあき……」
-</span><span class="chiaki">染谷千秋 : 「ん、気持ちいーな。……どうしてほしい？」
-</span><span class="chifuyu">染谷千冬 : 「千秋とセックスしたい」
-</span><span class="chiaki">染谷千秋 : 「ん、いいぜ。俺も千冬としたい」
+</span><span style="color: #00bcd4">染谷千冬 : 「ちあき、気持ちいい、ちあき……」
+</span><span style="color: #db7093">染谷千秋 : 「ん、気持ちいーな。……どうしてほしい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋とセックスしたい」
+</span><span style="color: #db7093">染谷千秋 : 「ん、いいぜ。俺も千冬としたい」
 千冬の言葉ににこりと笑い、服を脱がします。
-</span><span class="chifuyu">染谷千冬 : 「……千秋はかわいい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋はかわいい」
 服を脱がす千秋にキスをします。
-</span><span class="chiaki">染谷千秋 : 「ふ、おー。千冬もな」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、おー。千冬もな」
 キスを返して深く息を絡めます。
 
-</span><span class="kp">にっこり笑いあって、先ほどの言い合いが嘘のように二人は睦みあった。実際、ただの口実のようなものだったのだろう。些細な触れ合いから愛し合うのもいつものことだった。
-</span><span class="kp">・・・
-</span><span class="kp">日曜日。この家で過ごす休日も最後となる。
+</span><span style="color: #000">にっこり笑いあって、先ほどの言い合いが嘘のように二人は睦みあった。実際、ただの口実のようなものだったのだろう。些細な触れ合いから愛し合うのもいつものことだった。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">日曜日。この家で過ごす休日も最後となる。
 昨日散々いじめた千冬は、体を痛めることも声を枯らすこともなく、いつも通りに過ごしている。千秋と暮らすことで、体力がついたのかもしれない。
-</span><span class="kp">整理された部屋でふたりは穏やかな時間を過ごしているだろう。
+</span><span style="color: #000">整理された部屋でふたりは穏やかな時間を過ごしているだろう。
 千秋がトイレから戻ると、千冬が携帯を触っている。
 
-</span><span class="chiaki">染谷千秋 : 「何見てんの？」
+</span><span style="color: #db7093">染谷千秋 : 「何見てんの？」
 後ろからひょっこり顔を出します。スマホの画面を見ます。
 
-</span><span class="kp">幸運またはDEX×5をどうぞ。
+</span><span style="color: #000">幸運またはDEX×5をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=80 【幸運】 (1D100<=80) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=80 【幸運】 (1D100<=80) ＞ 3 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">(　ﾟдﾟ)
-</span><span class="kp">画面はアキとのトーク画面が表示されていた。
+</span><span style="color: #000">(　ﾟдﾟ)
+</span><span style="color: #000">画面はアキとのトーク画面が表示されていた。
 『千冬くん♪また近々九州に行こうと思ってるんだ。千冬くんに会いたいな♡』
 なんてメッセージが来たばかりのようだ。
 千冬は『いない。ひっこ』……と入力中だった。
 
-</span><span class="chiaki">染谷千秋 : 1d5 (1D5) ＞ 3
-</span><span class="chiaki">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 43 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「千冬。少しあっち向いて」
+</span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 3
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 43 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「千冬。少しあっち向いて」
 キッチンの方を指差します。
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 77 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 77 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 黙ってよそを向きます。
-</span><span class="chiaki">染谷千秋 : スマホカメラを起動してにっこりと笑った自分と見切れた千冬の服を撮ります。
+</span><span style="color: #db7093">染谷千秋 : スマホカメラを起動してにっこりと笑った自分と見切れた千冬の服を撮ります。
 「もういいぜ」
 アキに写真を送り続きの文章を打ち込みます。
 『いない。引っ越し。俺と』
-</span><span class="chifuyu">染谷千冬 : 「何をしたんだ。……？」
+</span><span style="color: #00bcd4">染谷千冬 : 「何をしたんだ。……？」
 何か企みがあったのは分かりますがよく理解できていません。
-</span><span class="chiaki">染谷千秋 : 「アキに近況報告しただけだぜ」
+</span><span style="color: #db7093">染谷千秋 : 「アキに近況報告しただけだぜ」
 千冬のスマホ画面を見せます。
-</span><span class="chifuyu">染谷千冬 : 「俺があっちを見た理由は何だ」
-</span><span class="chiaki">染谷千秋 : 「千冬の顔が映るかもしれないから念の為な～」
-</span><span class="chifuyu">染谷千冬 : 「……なるほど」
-</span><span class="chiaki">染谷千秋 : 『会うの無理』
+</span><span style="color: #00bcd4">染谷千冬 : 「俺があっちを見た理由は何だ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の顔が映るかもしれないから念の為な～」
+</span><span style="color: #00bcd4">染谷千冬 : 「……なるほど」
+</span><span style="color: #db7093">染谷千秋 : 『会うの無理』
 
-</span><span class="kp">『千秋くん？なんで？』
-</span><span class="kp">『引越し祝い持っていくよ！どこに引っ越すの？』
+</span><span style="color: #000">『千秋くん？なんで？』
+</span><span style="color: #000">『引越し祝い持っていくよ！どこに引っ越すの？』
 
-</span><span class="chiaki">染谷千秋 : 『大丈夫だぜ～出向いてもらうの悪いし^^』
+</span><span style="color: #db7093">染谷千秋 : 『大丈夫だぜ～出向いてもらうの悪いし^^』
 
-</span><span class="kp">『気にしなくていいよ、俺が行きたいの^^』
-</span><span class="kp">『どこに引越すか教えて！住所は？』
+</span><span style="color: #000">『気にしなくていいよ、俺が行きたいの^^』
+</span><span style="color: #000">『どこに引越すか教えて！住所は？』
 
-</span><span class="chiaki">染谷千秋 : 『千冬は寝てるぜ。俺の隣でな^^』
-</span><span class="chiaki">染谷千秋 : 「アキもう寝るってさ。プリズンブレイクの続きみようぜ」
+</span><span style="color: #db7093">染谷千秋 : 『千冬は寝てるぜ。俺の隣でな^^』
+</span><span style="color: #db7093">染谷千秋 : 「アキもう寝るってさ。プリズンブレイクの続きみようぜ」
 千冬のスマホの電源を落として机の上に起きます。
 
-</span><span class="kp">『は？じゃあ寝てる千冬くんのスマホを勝手に見て勝手に返信してるの？うわ…』
+</span><span style="color: #000">『は？じゃあ寝てる千冬くんのスマホを勝手に見て勝手に返信してるの？うわ…』
 なんてメッセージを千秋は見たかもしれないし、見なかったかもしれない。
 
-</span><span class="chifuyu">染谷千冬 : 「……そうは言ってなかったが」
-</span><span class="chiaki">染谷千秋 : 「そういうことにしてよ。千冬との時間邪魔されたくねーし。……なぁ、駄目？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうは言ってなかったが」
+</span><span style="color: #db7093">染谷千秋 : 「そういうことにしてよ。千冬との時間邪魔されたくねーし。……なぁ、駄目？」
 千冬の肩に腕を回します。
-</span><span class="chifuyu">染谷千冬 : 「わかった」
-</span><span class="chiaki">染谷千秋 : 予想通りの返答ににっこりと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
+</span><span style="color: #db7093">染谷千秋 : 予想通りの返答ににっこりと笑います。
 「さんきゅ。アキには俺が後で返信するよ。早速見ようぜ〜」
-</span><span class="chifuyu">染谷千冬 : 「俺が返信する」
-</span><span class="chiaki">染谷千秋 : 「いやだ。俺がやる」
-</span><span class="chifuyu">染谷千冬 : 「……どうしてだ？」
-</span><span class="chiaki">染谷千秋 : 「聞きてえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺が返信する」
+</span><span style="color: #db7093">染谷千秋 : 「いやだ。俺がやる」
+</span><span style="color: #00bcd4">染谷千冬 : 「……どうしてだ？」
+</span><span style="color: #db7093">染谷千秋 : 「聞きてえ？」
 首を傾げて千冬の顔を覗き込みます。
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 「分かんねーの？」
-</span><span class="chifuyu">染谷千冬 : 「嫉妬か？」
-</span><span class="chiaki">染谷千秋 : 「そ。それから？」
-</span><span class="chifuyu">染谷千冬 : 「……それから？　分からない」
-</span><span class="chiaki">染谷千秋 : 「嫉妬したら千冬に何してほしくねーと思う？」
-</span><span class="chifuyu">染谷千冬 : 「千秋以外と話してほしくないのか？」
-</span><span class="chiaki">染谷千秋 : 「ああ。それ以外にもいっぱいあるぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「分かんねーの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「嫉妬か？」
+</span><span style="color: #db7093">染谷千秋 : 「そ。それから？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……それから？　分からない」
+</span><span style="color: #db7093">染谷千秋 : 「嫉妬したら千冬に何してほしくねーと思う？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋以外と話してほしくないのか？」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。それ以外にもいっぱいあるぜ」
 にっこりと笑って千冬のスマホをベッドの上に投げます。
-</span><span class="chifuyu">染谷千冬 : 「……それ以外？」
-</span><span class="chiaki">染谷千秋 : 「そう。千冬が考えてみてよ」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……それ以外？」
+</span><span style="color: #db7093">染谷千秋 : 「そう。千冬が考えてみてよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 言葉に悩みます。
-</span><span class="chifuyu">染谷千冬 : 「千秋が、俺の全てを独り占めしたい」
-</span><span class="chiaki">染谷千秋 : 「正解」
-</span><span class="chiaki">染谷千秋 : 「アキ、千冬にベタベタ触るだろ。うぜーからしばらくは接触禁止な」
-</span><span class="chifuyu">染谷千冬 : 「……しばらく？」
-</span><span class="chiaki">染谷千秋 : 「俺が満足するまで。ダメ？ 　ずっと連絡取るななんて言わねーからさ」
-</span><span class="chifuyu">染谷千冬 : 「千秋が満足するまでって、いつまでだ？」
-</span><span class="chiaki">染谷千秋 : 「北海道満喫したらだな～」
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
-</span><span class="chiaki">染谷千秋 : 「なんだよ？」
-</span><span class="chifuyu">染谷千冬 : 「ずっと連絡を取らないでほしいんじゃないのか」
-</span><span class="chiaki">染谷千秋 : 「はは、そうだな。けど無理な話だろ？」
-</span><span class="chifuyu">染谷千冬 : ベッドまで行き、スマホを手に取ります。電源を点けた後、ポチポチと操作し、再び机の上に置きます。
-</span><span class="chifuyu">染谷千冬 : 「連絡先を消した」
-</span><span class="chiaki">染谷千秋 : 「へ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋が、俺の全てを独り占めしたい」
+</span><span style="color: #db7093">染谷千秋 : 「正解」
+</span><span style="color: #db7093">染谷千秋 : 「アキ、千冬にベタベタ触るだろ。うぜーからしばらくは接触禁止な」
+</span><span style="color: #00bcd4">染谷千冬 : 「……しばらく？」
+</span><span style="color: #db7093">染谷千秋 : 「俺が満足するまで。ダメ？ 　ずっと連絡取るななんて言わねーからさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋が満足するまでって、いつまでだ？」
+</span><span style="color: #db7093">染谷千秋 : 「北海道満喫したらだな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「なんだよ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ずっと連絡を取らないでほしいんじゃないのか」
+</span><span style="color: #db7093">染谷千秋 : 「はは、そうだな。けど無理な話だろ？」
+</span><span style="color: #00bcd4">染谷千冬 : ベッドまで行き、スマホを手に取ります。電源を点けた後、ポチポチと操作し、再び机の上に置きます。
+</span><span style="color: #00bcd4">染谷千冬 : 「連絡先を消した」
+</span><span style="color: #db7093">染谷千秋 : 「へ？」
 ぱち、と瞬きして千冬を見ます。
-</span><span class="chifuyu">染谷千冬 : 「俺にとって千秋が全てだ。俺は千秋のためにある。千秋が望まないものは要らない」
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「……へえ、いいのかよ？ 千冬が望むもんも俺の望むもんに入ってんだぜ」
-</span><span class="chifuyu">染谷千冬 : 「……でも、嫌なんじゃないのか？」
-</span><span class="chiaki">染谷千秋 : 「すげー嫌！」
-</span><span class="chifuyu">染谷千冬 : 「めちゃくちゃだ」
-</span><span class="chiaki">染谷千秋 : 「俺もそう思う」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺にとって千秋が全てだ。俺は千秋のためにある。千秋が望まないものは要らない」
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……へえ、いいのかよ？ 千冬が望むもんも俺の望むもんに入ってんだぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……でも、嫌なんじゃないのか？」
+</span><span style="color: #db7093">染谷千秋 : 「すげー嫌！」
+</span><span style="color: #00bcd4">染谷千冬 : 「めちゃくちゃだ」
+</span><span style="color: #db7093">染谷千秋 : 「俺もそう思う」
 にこりと笑って千冬の手を取り床に押し付けます。
-</span><span class="chiaki">染谷千秋 : 「千冬、誰とも連絡とれなくなっちゃうな。せっかく仲良くしてたのにさ、……はは」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、誰とも連絡とれなくなっちゃうな。せっかく仲良くしてたのにさ、……はは」
 漏れ出る笑みを隠しきれないまま千冬の手をにぎにぎします。
-</span><span class="chifuyu">染谷千冬 : 「嬉しそうだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「嬉しそうだ」
 千秋を温かい目で見つめています。
-</span><span class="chiaki">染谷千秋 : 「嬉しーよ。……」
+</span><span style="color: #db7093">染谷千秋 : 「嬉しーよ。……」
 にこにこと笑って口付けます。
 それから自分のスマホを取り出して操作します。
-</span><span class="chiaki">染谷千秋 : 握っていた手を離して千冬の目元を隠します。
-</span><span class="chiaki">染谷千秋 : 位置情報を羽田空港に設定し、Googleマップで現在地を開いた画面をスクショします。
+</span><span style="color: #db7093">染谷千秋 : 握っていた手を離して千冬の目元を隠します。
+</span><span style="color: #db7093">染谷千秋 : 位置情報を羽田空港に設定し、Googleマップで現在地を開いた画面をスクショします。
 アキに最後のLINEを送ります。
-</span><span class="chiaki">染谷千秋 : 『千冬にお前の連絡先消させた』
+</span><span style="color: #db7093">染谷千秋 : 『千冬にお前の連絡先消させた』
 『じゃあな』
 『探したいんなら探してみろよ』
 スクショを添付し、LINEのアカウントを消します。
-</span><span class="chiaki">染谷千秋 : 千冬の目元から手を離してスマホの画面を見せます。
+</span><span style="color: #db7093">染谷千秋 : 千冬の目元から手を離してスマホの画面を見せます。
 「俺も消したぜ。これで平等だろ？」
-</span><span class="chifuyu">染谷千冬 : 「……ふ。俺は望んでない。アキが寂しがるんじゃないか？」
-</span><span class="chiaki">染谷千秋 : 「寂しがらせときゃいーよ。千冬と二人きりがいい」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chiaki">染谷千秋 : 「やっとだ」
-</span><span class="chifuyu">染谷千冬 : 「やっと？」
-</span><span class="chiaki">染谷千秋 : 「ようやく邪魔なしに千冬と暮らせると思ってさ～」
-</span><span class="chifuyu">染谷千冬 : 「何が邪魔なんだ」
-</span><span class="chiaki">染谷千秋 : 「千冬以外のもの」
-</span><span class="chifuyu">染谷千冬 : 「俺以外のもの」
-</span><span class="chiaki">染谷千秋 : 「そ。近所付き合いとかさ」
-</span><span class="chifuyu">染谷千冬 : 「……嫌だったのか」
-</span><span class="chiaki">染谷千秋 : 「嫌ってわけじゃねーけど、その分千冬と一緒にいられる時間が減るだろ？」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chiaki">染谷千秋 : 「千冬は？　無いと寂しい？」
-</span><span class="chifuyu">染谷千冬 : 「嫌いじゃない。でも、無くてもいい」
-</span><span class="chiaki">染谷千秋 : 「千冬がいいならいーんだけどさ。寂しくなったら言えよ～」
-</span><span class="chifuyu">染谷千冬 : 「寂しいって言ったら？」
-</span><span class="chiaki">染谷千秋 : 「そん時はゴキンジョヅキアイを考えねーとな」
-</span><span class="chifuyu">染谷千冬 : 「変だ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ふ。俺は望んでない。アキが寂しがるんじゃないか？」
+</span><span style="color: #db7093">染谷千秋 : 「寂しがらせときゃいーよ。千冬と二人きりがいい」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「やっとだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「やっと？」
+</span><span style="color: #db7093">染谷千秋 : 「ようやく邪魔なしに千冬と暮らせると思ってさ～」
+</span><span style="color: #00bcd4">染谷千冬 : 「何が邪魔なんだ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬以外のもの」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺以外のもの」
+</span><span style="color: #db7093">染谷千秋 : 「そ。近所付き合いとかさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……嫌だったのか」
+</span><span style="color: #db7093">染谷千秋 : 「嫌ってわけじゃねーけど、その分千冬と一緒にいられる時間が減るだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は？　無いと寂しい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「嫌いじゃない。でも、無くてもいい」
+</span><span style="color: #db7093">染谷千秋 : 「千冬がいいならいーんだけどさ。寂しくなったら言えよ～」
+</span><span style="color: #00bcd4">染谷千冬 : 「寂しいって言ったら？」
+</span><span style="color: #db7093">染谷千秋 : 「そん時はゴキンジョヅキアイを考えねーとな」
+</span><span style="color: #00bcd4">染谷千冬 : 「変だ」
 ふ、と笑います。
-</span><span class="chiaki">染谷千秋 : 「ふ、そう？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。……」
-</span><span class="chifuyu">染谷千冬 : 「……千秋がいればいい。千秋が嬉しいなら嬉しい」
-</span><span class="chiaki">染谷千秋 : 「ふ、そっか。俺もだぜ。千冬がいて、千冬と二人で暮らすことが一番幸せだ」
-</span><span class="chifuyu">染谷千冬 : 微笑み、千秋を抱きしめます。
-</span><span class="chifuyu">染谷千冬 : 「嬉しい」
-</span><span class="chiaki">染谷千秋 : 千冬を抱きしめ返して口付けます。
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そう？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋がいればいい。千秋が嬉しいなら嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そっか。俺もだぜ。千冬がいて、千冬と二人で暮らすことが一番幸せだ」
+</span><span style="color: #00bcd4">染谷千冬 : 微笑み、千秋を抱きしめます。
+</span><span style="color: #00bcd4">染谷千冬 : 「嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 千冬を抱きしめ返して口付けます。
 
-</span><span class="kp">・・・
-</span><span class="kp">月曜日。今までは千冬が仕事をしている間にYouTuberとしての活動の準備をしていたが、今日は千冬が休みだ。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">月曜日。今までは千冬が仕事をしている間にYouTuberとしての活動の準備をしていたが、今日は千冬が休みだ。
 千冬のいる横で、準備を行うことになる。
-</span><span class="kp">【撮影予定動画リスト】
+</span><span style="color: #000">【撮影予定動画リスト】
 ・都市伝説
 ・本当にあった怖い話
 ・未解決事件
 ・歴史的事件の闇
 ・料理動画
 
-</span><span class="chiaki">染谷千秋 : choice 都市伝説 本当にあった怖い話 未解決事件 歴史的事件の闇 料理動画 (choice 都市伝説 本当にあった怖い話 未解決事件 歴史的事件の闇 料理動画) ＞ 未解決事件
-</span><span class="chiaki">染谷千秋 : 視聴者から送られてきた情報を精査し、千冬と共に動画向けの資料を作成します。その撮影準備を行いカメラに向けて軽い笑顔を作ります。
+</span><span style="color: #db7093">染谷千秋 : choice 都市伝説 本当にあった怖い話 未解決事件 歴史的事件の闇 料理動画 (choice 都市伝説 本当にあった怖い話 未解決事件 歴史的事件の闇 料理動画) ＞ 未解決事件
+</span><span style="color: #db7093">染谷千秋 : 視聴者から送られてきた情報を精査し、千冬と共に動画向けの資料を作成します。その撮影準備を行いカメラに向けて軽い笑顔を作ります。
 「よ！　今日は未解決事件の話をするぜ。最近は都市伝説の話か料理配信中心にしてたから、未解決事件の話は2ヶ月ぶりってとこか。今日は特に怖い話じゃないから、ホラー苦手なやつは安心していいぜ」
 自己紹介を雑にしてから話し始めます。
 「情報提供は◯◯から、いつもありがとな～。匿名でDMくれたヤツもさんきゅ～」
-</span><span class="chiaki">染谷千秋 : 「じゃ、早速話すぜ。今日取り上げんのは◯◯市の連続失踪事件。界隈では☓☓☓☓☓事件って名前で呼ばれてる。このチャンネル見てるヤツなら、小耳に挟んだことはあるかもしんねーな？」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、早速話すぜ。今日取り上げんのは◯◯市の連続失踪事件。界隈では☓☓☓☓☓事件って名前で呼ばれてる。このチャンネル見てるヤツなら、小耳に挟んだことはあるかもしんねーな？」
 頬杖をつき、空中を指差しながら事件の概要を話し始めます。
 「事件が起ったのは45年前の◯月☓日。◯◯市の◯◯町で大学生三人が消えたんだ。そいつらは遊びに行ったまま、家族への連絡もなしに行方をくらませた」
-</span><span class="chiaki">染谷千秋 : 「最後に目撃情報があった場所は、危険な野生動物が出るって噂のある場所だった。だから警察を含めた住民全員で町中を捜索したんだ。……けど結局何日経っても見つかんなくて、事件性がないってことで捜査は打ち切りになったんだ。ここまでなら浮かれた大学生の事故ってことで終わったかもしんねーな」
+</span><span style="color: #db7093">染谷千秋 : 「最後に目撃情報があった場所は、危険な野生動物が出るって噂のある場所だった。だから警察を含めた住民全員で町中を捜索したんだ。……けど結局何日経っても見つかんなくて、事件性がないってことで捜査は打ち切りになったんだ。ここまでなら浮かれた大学生の事故ってことで終わったかもしんねーな」
 事件に関する概要を説明した後、くすりと笑って話を続けます。
-</span><span class="chiaki">染谷千秋 : 「興味深いのはこっからでさ、その大学生達は全員が3km離れた地点で見つかった。……全員亡くなった状態で。死亡推定時刻は丁度同じ時間で、死因や周囲の状況も一致していた。これは事件性が認められるってんで、警察は複数犯による殺害事件として再調査したんだけど～……」
+</span><span style="color: #db7093">染谷千秋 : 「興味深いのはこっからでさ、その大学生達は全員が3km離れた地点で見つかった。……全員亡くなった状態で。死亡推定時刻は丁度同じ時間で、死因や周囲の状況も一致していた。これは事件性が認められるってんで、警察は複数犯による殺害事件として再調査したんだけど～……」
 その後も話を続けます。再調査の結果やはり調査が打ち切りになってしまったこと、その後も事件解決の鍵に繋がる証拠が見つからなかったこと、時効が過ぎてしまい捜査が打ち切りになったとされるが、その裏には別の理由があったこと。死体としてあがった大学生の目撃情報が事件の5年後にあったこと等、事件の不可思議な点を話します。
 「結局進展がないまま未解決事件として扱われて、その大学生達が目撃されることもなくなったんだ」
-</span><span class="chiaki">染谷千秋 : 「それから25年後の◯月☓日。今から20年前だな。同じように行方不明になった大学生がいたんだ。全く同じ状況、場所、行方不明になった日付や時間帯まで一緒だった。……死体で発見された時間帯までも、死体が発見された5年後に、死んだはずの大学生が目撃されてるってところまでな。作り話だと思うだろ？　これ実際に起ったことなんだぜ？」
-</span><span class="chiaki">染谷千秋 : 「ただの偶然にしては出来すぎてる。おかしいよな。最初の失踪から25年後に同じ事件が起こるなんて普通ありえない。模倣犯にしては手口が一致しすぎてたし、犯人が再犯を起こしたってんで三度目の調査が入ったんだけど……、またもや新しい証拠は見つからなかった。結局事件は未解決のまま、再び時効が成立してしまった。ここまでが☓☓☓☓☓事件の話な。……そんでこっからは新しい話」
-</span><span class="chiaki">染谷千秋 : 「時は飛んで5年後。20年前の被害者Aには兄がいた。その人は大学の研究者だったんだけど、妹の死をきっかけに事件を追うようになった。その人の専攻は文化人類学。文化人類学……お前らも聞いたことあるかもしんねーけど、文化や社会の成り立ちを研究する学問だぜ」
-</span><span class="chiaki">染谷千秋 : 「彼は事件の共通点や関連性、考えうる可能性を片っ端から調べ上げたんだ。家族の死の真相を見つけ出すためにな。警察の捜査が行き詰まったところでも諦めなかった」
-</span><span class="chiaki">染谷千秋 : 「それで、長年の調査の結果、失踪現場付近には昔とある村が存在してたことがわかった。手がかりになったのは一つの布切れ。それには古い文字で▽▽▽と書かれてたんだ。地元の住民からは『存在しない村』と呼ばれるその村は、……」
+</span><span style="color: #db7093">染谷千秋 : 「それから25年後の◯月☓日。今から20年前だな。同じように行方不明になった大学生がいたんだ。全く同じ状況、場所、行方不明になった日付や時間帯まで一緒だった。……死体で発見された時間帯までも、死体が発見された5年後に、死んだはずの大学生が目撃されてるってところまでな。作り話だと思うだろ？　これ実際に起ったことなんだぜ？」
+</span><span style="color: #db7093">染谷千秋 : 「ただの偶然にしては出来すぎてる。おかしいよな。最初の失踪から25年後に同じ事件が起こるなんて普通ありえない。模倣犯にしては手口が一致しすぎてたし、犯人が再犯を起こしたってんで三度目の調査が入ったんだけど……、またもや新しい証拠は見つからなかった。結局事件は未解決のまま、再び時効が成立してしまった。ここまでが☓☓☓☓☓事件の話な。……そんでこっからは新しい話」
+</span><span style="color: #db7093">染谷千秋 : 「時は飛んで5年後。20年前の被害者Aには兄がいた。その人は大学の研究者だったんだけど、妹の死をきっかけに事件を追うようになった。その人の専攻は文化人類学。文化人類学……お前らも聞いたことあるかもしんねーけど、文化や社会の成り立ちを研究する学問だぜ」
+</span><span style="color: #db7093">染谷千秋 : 「彼は事件の共通点や関連性、考えうる可能性を片っ端から調べ上げたんだ。家族の死の真相を見つけ出すためにな。警察の捜査が行き詰まったところでも諦めなかった」
+</span><span style="color: #db7093">染谷千秋 : 「それで、長年の調査の結果、失踪現場付近には昔とある村が存在してたことがわかった。手がかりになったのは一つの布切れ。それには古い文字で▽▽▽と書かれてたんだ。地元の住民からは『存在しない村』と呼ばれるその村は、……」
 地元でも一部の人しか知らないような存在の村があったこと、その村がとある事件をきっかけに廃村になったこと、その村に伝わる因習と、その因習によりもたらされてしまった悲惨な事件、大学生の失踪事件もその因習によるものである可能性が高いこと、現代科学では説明できない点、情報提供で受けた証拠品や、研究者が書き留めていた日記を見せます。
-</span><span class="chiaki">染谷千秋 : それから男が地元民の協力を受け、その村が未だに存在していること、村の場所、儀式が未だに継承されていることを突き止めてその場所に一人で向かったこと、兄は今までに集めた証拠品と日記を知人の男性に預け、自分が戻らなかったら警察に証拠品を提出してほしいと話して行方をくらましたことを話します。
-</span><span class="chiaki">染谷千秋 : 「男が行方不明になってから半年。知人の男は言伝通り、警察に証拠品を渡した。映像を見た警察は、ようやく儀式の存在を認めて捜査を開始したけど、既に遅かった。男が突き止めた村の場所には、何も残っていなかったんだ。人が暮らしていた形跡もなかった。結局、真相は明らかになったものの、事件は未解決のまま残ってしまった。兄も行方不明のまま」
-</span><span class="chiaki">染谷千秋 : 「儀式の存在が明るみになってから、その周辺は閉鎖されているみたいだけど、今から5年後、もしかしたら違う場所で同じことが起こるかもな？　……なーんてな」
-</span><span class="chiaki">染谷千秋 : 「ってことで、今回の話はおしまい。未解決事件について知ってるヤツは、コメント欄、Zのリプ、DMで教えてくれよな～。それじゃ次回の動画で。じゃな～」
+</span><span style="color: #db7093">染谷千秋 : それから男が地元民の協力を受け、その村が未だに存在していること、村の場所、儀式が未だに継承されていることを突き止めてその場所に一人で向かったこと、兄は今までに集めた証拠品と日記を知人の男性に預け、自分が戻らなかったら警察に証拠品を提出してほしいと話して行方をくらましたことを話します。
+</span><span style="color: #db7093">染谷千秋 : 「男が行方不明になってから半年。知人の男は言伝通り、警察に証拠品を渡した。映像を見た警察は、ようやく儀式の存在を認めて捜査を開始したけど、既に遅かった。男が突き止めた村の場所には、何も残っていなかったんだ。人が暮らしていた形跡もなかった。結局、真相は明らかになったものの、事件は未解決のまま残ってしまった。兄も行方不明のまま」
+</span><span style="color: #db7093">染谷千秋 : 「儀式の存在が明るみになってから、その周辺は閉鎖されているみたいだけど、今から5年後、もしかしたら違う場所で同じことが起こるかもな？　……なーんてな」
+</span><span style="color: #db7093">染谷千秋 : 「ってことで、今回の話はおしまい。未解決事件について知ってるヤツは、コメント欄、Zのリプ、DMで教えてくれよな～。それじゃ次回の動画で。じゃな～」
 カメラに向けて手を振りながら動画を終了します。
-</span><span class="chiaki">染谷千秋 : 「終わったぜ～。ちゃんと撮れてたか」
+</span><span style="color: #db7093">染谷千秋 : 「終わったぜ～。ちゃんと撮れてたか」
 動画撮影を終えて千冬に近づきます。千冬を抱きしめながら撮影内容を確認します。
-</span><span class="chifuyu">染谷千冬 : 「……千秋、すごい。好きだ」
-</span><span class="chiaki">染谷千秋 : 千冬に口付けます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋、すごい。好きだ」
+</span><span style="color: #db7093">染谷千秋 : 千冬に口付けます。
 「千冬に見られてるって思うと気ィ引き締まるな」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chifuyu">染谷千冬 : 「千秋。俺は何をしたらいい」
-</span><span class="chiaki">染谷千秋 : 「千冬は動画のチェックと編集作業してよ。まずは～……」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。俺は何をしたらいい」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は動画のチェックと編集作業してよ。まずは～……」
 動画内容の確認や編集方法、成果物に関して話し、千冬の横で指示しながら編集作業をします。
 
-</span><span class="kp">千冬は千秋の指示通りに動画編集をする。出来上がった動画は、普段千秋が作るものとほぼ違いがない。だが、きっとこれから編集を担当するにつれて、千冬が味が出るのだろう。
+</span><span style="color: #000">千冬は千秋の指示通りに動画編集をする。出来上がった動画は、普段千秋が作るものとほぼ違いがない。だが、きっとこれから編集を担当するにつれて、千冬が味が出るのだろう。
 
-</span><span class="chifuyu">染谷千冬 : 「できた」
-</span><span class="chiaki">染谷千秋 : 「ん。完璧だぜ。助かるよ」
-</span><span class="chiaki">染谷千秋 : 「この調子なら次から千冬に任せていいかもな」
-</span><span class="chifuyu">染谷千冬 : 「頑張る。任せてくれ」
-</span><span class="chiaki">染谷千秋 : 「ああ。頼りにしてる」
-</span><span class="chiaki">染谷千秋 : 「そういや、千冬は動画に出たいって思わねーの？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「千秋の手伝いができるなら出たい」
-</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「できた」
+</span><span style="color: #db7093">染谷千秋 : 「ん。完璧だぜ。助かるよ」
+</span><span style="color: #db7093">染谷千秋 : 「この調子なら次から千冬に任せていいかもな」
+</span><span style="color: #00bcd4">染谷千冬 : 「頑張る。任せてくれ」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。頼りにしてる」
+</span><span style="color: #db7093">染谷千秋 : 「そういや、千冬は動画に出たいって思わねーの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋の手伝いができるなら出たい」
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑います。
 「俺のことは抜きで考えてよ」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……特別思わない、が、千秋の気持ちになりたい。だから一度やってみたい」
-</span><span class="chiaki">染谷千秋 : 「どんな動画がいい？」
-</span><span class="chifuyu">染谷千冬 : 「……千秋と喋る動画」
-</span><span class="chifuyu">染谷千冬 : 「千秋がいつもと同じように説明する。俺が相槌したり、質問したりする」
-</span><span class="chiaki">染谷千秋 : 「いいぜ。……言っておくけど、アップロードはしないからな」
-</span><span class="chifuyu">染谷千冬 : 「……なんでだ」
-</span><span class="chiaki">染谷千秋 : 「誰にも千冬を見せたくねーから」
-</span><span class="chifuyu">染谷千冬 : 「……声だけはどうだ」
-</span><span class="chiaki">染谷千秋 : 「聞かせたくねーけど、千冬がどうしても出たいってんなら考えるぜ。変声器とか」
-</span><span class="chifuyu">染谷千冬 : 「……どうして聞いたんだ」
-</span><span class="chiaki">染谷千秋 : 「千冬の動画見たいから」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……せっかくなら、活動の手伝いがしたい」
-</span><span class="chiaki">染谷千秋 : 千冬の頭を撫でます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……特別思わない、が、千秋の気持ちになりたい。だから一度やってみたい」
+</span><span style="color: #db7093">染谷千秋 : 「どんな動画がいい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋と喋る動画」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋がいつもと同じように説明する。俺が相槌したり、質問したりする」
+</span><span style="color: #db7093">染谷千秋 : 「いいぜ。……言っておくけど、アップロードはしないからな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……なんでだ」
+</span><span style="color: #db7093">染谷千秋 : 「誰にも千冬を見せたくねーから」
+</span><span style="color: #00bcd4">染谷千冬 : 「……声だけはどうだ」
+</span><span style="color: #db7093">染谷千秋 : 「聞かせたくねーけど、千冬がどうしても出たいってんなら考えるぜ。変声器とか」
+</span><span style="color: #00bcd4">染谷千冬 : 「……どうして聞いたんだ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の動画見たいから」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……せっかくなら、活動の手伝いがしたい」
+</span><span style="color: #db7093">染谷千秋 : 千冬の頭を撫でます。
 「じゃ、声と姿を出さずに出る方法考える。それでどう？」
-</span><span class="chifuyu">染谷千冬 : 「……例えば？」
-</span><span class="chiaki">染谷千秋 : 「千冬、VTuber知ってるよな。ぱっと思いつくだとテキスト形式でのやりとりとかVTuber化だな～」
-</span><span class="chifuyu">染谷千冬 : 「……それで、千秋のチャンネルを手伝えるのか？」
-</span><span class="chiaki">染谷千秋 : 「そーだな。質問を表示するだけでも分かりやすくなると思うぜ。VTuber化は、……あんまりやりたくねーけど、やれば面白くなる」
-</span><span class="chifuyu">染谷千冬 : 「千秋は顔を出しているだろう。その動画にVTuberの俺が混ざるということか」
-</span><span class="chiaki">染谷千秋 : 「そ。イメージこんな感じ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……例えば？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、VTuber知ってるよな。ぱっと思いつくだとテキスト形式でのやりとりとかVTuber化だな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「……それで、千秋のチャンネルを手伝えるのか？」
+</span><span style="color: #db7093">染谷千秋 : 「そーだな。質問を表示するだけでも分かりやすくなると思うぜ。VTuber化は、……あんまりやりたくねーけど、やれば面白くなる」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋は顔を出しているだろう。その動画にVTuberの俺が混ざるということか」
+</span><span style="color: #db7093">染谷千秋 : 「そ。イメージこんな感じ」
 顔出し配信者とVのコラボ動画を出して千冬に見せます。
-</span><span class="chifuyu">染谷千冬 : 「それは、俺も別のチャンネルを作って活動するということか」
-</span><span class="chiaki">染谷千秋 : 「それはダメ。一緒にやろうぜ」
-</span><span class="chifuyu">染谷千冬 : 「それはコラボ動画だ。一つのチャンネルで、一人が実写、一人がVTuberなのは不自然じゃないか」
-</span><span class="chiaki">染谷千秋 : 「ふ、確かにあんま見ねーな。だからこそ新しい試みで面白いと思うぜ」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「俺は千秋の活動を邪魔したいわけじゃない。嫌ならはっきりと言えばいい」
-</span><span class="chiaki">染谷千秋 : 「邪魔になんねーよ。見てるやつらは何を望んでるか3年やって見えてきたしさ。面白くできる自信あるぜ？　それに、これから二人で運用してくんなら、千冬のやりたいこともやらなきゃ不公平だろ。嫌じゃないぜ」
-</span><span class="chiaki">染谷千秋 : 「ま、それでも千冬が活動の邪魔になるって思うんなら、初めはメインチャンネルじゃなくてサブチャンで試してみんのもいいかもな。……千冬の姿と声は独り占めしたいから顔出しはナシな」
-</span><span class="chifuyu">染谷千冬 : 「……違う、……」
-</span><span class="chifuyu">染谷千冬 : 「……ちゃんと計画をしよう。それで望ましくないなら、俺は動画に出たくない」
-</span><span class="chiaki">染谷千秋 : 「違うって？」
-</span><span class="chifuyu">染谷千冬 : 『俺は、俺が動画に出ることよりも、千秋が人気になる手助けがしたい。もっと人気になるための最善を考えたい」
-</span><span class="chiaki">染谷千秋 : 「……俺の事は抜きでって言ったろ？」
-</span><span class="chifuyu">染谷千冬 : 「俺が、千秋に人気になってほしい」
-</span><span class="chiaki">染谷千秋 : 「へえ。そりゃなんで？」
-</span><span class="chifuyu">染谷千冬 : 「なん、で……？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……仕事だから」
-</span><span class="chiaki">染谷千秋 : 「じゃ、これが仕事じゃなかったら？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……自分でやってみようとは思わない。それに、働きに出る」
-</span><span class="chiaki">染谷千秋 : 「そっか。……なら、俺のチャンネル見てる奴らはあんまvTuberに馴染みないと思うぜ」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【POW × 5】れいせい/ぼうそう (1D100<=55) ＞ 77 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 「わかった。……千秋、俺は北海道に行ったら、自由の利く仕事を探す。千秋の動画制作も手伝う。それでいいか」
-</span><span class="chiaki">染谷千秋 : 「待てって。話はまだ終わりじゃないぜ。俺の動画を見てるのは大体40代以降なんだ。主婦とか。……千冬、これ」
+</span><span style="color: #00bcd4">染谷千冬 : 「それは、俺も別のチャンネルを作って活動するということか」
+</span><span style="color: #db7093">染谷千秋 : 「それはダメ。一緒にやろうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「それはコラボ動画だ。一つのチャンネルで、一人が実写、一人がVTuberなのは不自然じゃないか」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、確かにあんま見ねーな。だからこそ新しい試みで面白いと思うぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺は千秋の活動を邪魔したいわけじゃない。嫌ならはっきりと言えばいい」
+</span><span style="color: #db7093">染谷千秋 : 「邪魔になんねーよ。見てるやつらは何を望んでるか3年やって見えてきたしさ。面白くできる自信あるぜ？　それに、これから二人で運用してくんなら、千冬のやりたいこともやらなきゃ不公平だろ。嫌じゃないぜ」
+</span><span style="color: #db7093">染谷千秋 : 「ま、それでも千冬が活動の邪魔になるって思うんなら、初めはメインチャンネルじゃなくてサブチャンで試してみんのもいいかもな。……千冬の姿と声は独り占めしたいから顔出しはナシな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……違う、……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ちゃんと計画をしよう。それで望ましくないなら、俺は動画に出たくない」
+</span><span style="color: #db7093">染谷千秋 : 「違うって？」
+</span><span style="color: #00bcd4">染谷千冬 : 『俺は、俺が動画に出ることよりも、千秋が人気になる手助けがしたい。もっと人気になるための最善を考えたい」
+</span><span style="color: #db7093">染谷千秋 : 「……俺の事は抜きでって言ったろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺が、千秋に人気になってほしい」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。そりゃなんで？」
+</span><span style="color: #00bcd4">染谷千冬 : 「なん、で……？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……仕事だから」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、これが仕事じゃなかったら？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……自分でやってみようとは思わない。それに、働きに出る」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。……なら、俺のチャンネル見てる奴らはあんまvTuberに馴染みないと思うぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】れいせい/ぼうそう (1D100<=55) ＞ 77 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった。……千秋、俺は北海道に行ったら、自由の利く仕事を探す。千秋の動画制作も手伝う。それでいいか」
+</span><span style="color: #db7093">染谷千秋 : 「待てって。話はまだ終わりじゃないぜ。俺の動画を見てるのは大体40代以降なんだ。主婦とか。……千冬、これ」
 自分のパソコンでチャンネル分析を開きます。千冬の前にパソコンを置きます。
 「ここに視聴者が他にどんな動画を見てるか、どっから辿り着いたのか載ってるんだ」
 視聴者層が見ている動画一覧を見せます。時事系やホラー系、育児動画や料理動画が並んでいます。
 「vtuber関連の動画は並んでないだろ？」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 「メインチャンネルの視聴者層はVTuberに興味ない、もしくは知らないってこと。馴染みないもんが動画に出たら困惑する可能性が高い。関連動画も供給と雰囲気が安定してるジャンルが多いから、エンタメとか流行り物みたいに雰囲気ガンガン変えるよりは今の方針保った方がいいと思うぜ。登録者数も安定して伸びてるしな。……そん代わりテキスト形式でQ&Aいれんのは分かりやすくていいと思う。ショートにも使えるしさ」
-</span><span class="chifuyu">染谷千冬 : 「テキスト形式のQ&Aとは何だ。字幕のことか。……それは、俺が動画に参加したとは言えないと思うが」
-</span><span class="chiaki">染谷千秋 : 「そ。字幕のこと。……千冬が参加すんのはサブチャンな」
-</span><span class="chifuyu">染谷千冬 : 「……？　どういうことだ。俺は結局何をするんだ」
-</span><span class="chiaki">染谷千秋 : 「メインは今まで通りやって、サブチャンで色々試してみるってこと。VTuberもサブチャン見てるやつらなら馴染みあると思うしさ、まずはそっちで試そうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 「メインチャンネルの視聴者層はVTuberに興味ない、もしくは知らないってこと。馴染みないもんが動画に出たら困惑する可能性が高い。関連動画も供給と雰囲気が安定してるジャンルが多いから、エンタメとか流行り物みたいに雰囲気ガンガン変えるよりは今の方針保った方がいいと思うぜ。登録者数も安定して伸びてるしな。……そん代わりテキスト形式でQ&Aいれんのは分かりやすくていいと思う。ショートにも使えるしさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「テキスト形式のQ&Aとは何だ。字幕のことか。……それは、俺が動画に参加したとは言えないと思うが」
+</span><span style="color: #db7093">染谷千秋 : 「そ。字幕のこと。……千冬が参加すんのはサブチャンな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……？　どういうことだ。俺は結局何をするんだ」
+</span><span style="color: #db7093">染谷千秋 : 「メインは今まで通りやって、サブチャンで色々試してみるってこと。VTuberもサブチャン見てるやつらなら馴染みあると思うしさ、まずはそっちで試そうぜ」
 サブチャンの視聴者層情報を見せます。動画一覧には先ほどと違い、歌ってみたやゲーム実況やVTuberなど、新しいジャンルのものが載っています。
-</span><span class="chifuyu">染谷千冬 : 「……それなら、俺は千秋の力になれるのか？　……やったほうがいい取り組みなのか？」
-</span><span class="chiaki">染谷千秋 : 「ふ、長い目で見たらな」
-</span><span class="chifuyu">染谷千冬 : 「……分かった。じゃあ、やりたい。千秋、ありがとう」
-</span><span class="chiaki">染谷千秋 : 「おー。言っておくけど、たまにだからな」
-</span><span class="chifuyu">染谷千冬 : 「……どのくらいの間隔を考えている？」
-</span><span class="chiaki">染谷千秋 : 「俺がムカつかない程度」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : ローディングしている千冬の鼻を摘まんで笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……それなら、俺は千秋の力になれるのか？　……やったほうがいい取り組みなのか？」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、長い目で見たらな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……分かった。じゃあ、やりたい。千秋、ありがとう」
+</span><span style="color: #db7093">染谷千秋 : 「おー。言っておくけど、たまにだからな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……どのくらいの間隔を考えている？」
+</span><span style="color: #db7093">染谷千秋 : 「俺がムカつかない程度」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : ローディングしている千冬の鼻を摘まんで笑います。
 「な、動画とるならどんなジャンルがいい？ サブチャンネルだから千冬のやりたいことしようぜ」
-</span><span class="chifuyu">染谷千冬 : 「う、……俺は、できれば千秋のやっていることを広げたい」
-</span><span class="chiaki">染谷千秋 : 「そっか。じゃまずは俺のやってる延長で考えようぜ。料理動画はどう？　作りながら雑談する感じでさ」
-</span><span class="chifuyu">染谷千冬 : 「したい」
-</span><span class="chiaki">染谷千秋 : 「決まりだな。いつからやりてえ？ アバターなしでも出来るぜ」
-</span><span class="chifuyu">染谷千冬 : 「アバターなしかありか、いつから始めるか、どのように動画を撮るか、慎重に考えたいと思う」
-</span><span class="chiaki">染谷千秋 : 「ん。向こう着いたら話そっか」
-</span><span class="chifuyu">染谷千冬 : 「ああ。それまでに案を練っておこう」
+</span><span style="color: #00bcd4">染谷千冬 : 「う、……俺は、できれば千秋のやっていることを広げたい」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。じゃまずは俺のやってる延長で考えようぜ。料理動画はどう？　作りながら雑談する感じでさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「したい」
+</span><span style="color: #db7093">染谷千秋 : 「決まりだな。いつからやりてえ？ アバターなしでも出来るぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「アバターなしかありか、いつから始めるか、どのように動画を撮るか、慎重に考えたいと思う」
+</span><span style="color: #db7093">染谷千秋 : 「ん。向こう着いたら話そっか」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。それまでに案を練っておこう」
 
-</span><span class="kp">そうして九州での最後の動画撮影を終えた。北海道に引っ越した後には、二人は本格的にYouTuberとして活動を始めることだろう。
-</span><span class="kp">・・・
-</span><span class="kp">翌日の夜、千秋はバイトへ向かう準備をしていた。今日は千秋のバイトの最終日だ。
+</span><span style="color: #000">そうして九州での最後の動画撮影を終えた。北海道に引っ越した後には、二人は本格的にYouTuberとして活動を始めることだろう。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">翌日の夜、千秋はバイトへ向かう準備をしていた。今日は千秋のバイトの最終日だ。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。俺も行っていいか」
-</span><span class="chiaki">染谷千秋 : 「いいぜ。千冬が来てくれんなら最後も頑張れるな～」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chiaki">染谷千秋 : 「今日は全員いるんだ。他の人とあんま喋んなよ」
-</span><span class="chifuyu">染谷千冬 : 「わかった」
-</span><span class="chiaki">染谷千秋 : 「まいが話しかけて来てもあしらえよな～？」
-</span><span class="chifuyu">染谷千冬 : 「あしらう……？」
-</span><span class="chiaki">染谷千秋 : 「テキトーに返事しろってこと」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : 「ヤ？」
-</span><span class="chifuyu">染谷千冬 : 「適当は嫌だ」
-</span><span class="chiaki">染谷千秋 : 「なんでやなの？」
-</span><span class="chifuyu">染谷千冬 : 「……人だから」
-</span><span class="chiaki">染谷千秋 : 「人だとやなの？　なんで？　もーちょい言葉足して」
-</span><span class="chifuyu">染谷千冬 : 「人を適当に扱うのは悲しい。適当に扱われるのも、きっと悲しい」
-</span><span class="chiaki">染谷千秋 : 「ふ、千冬は優しいな。……いいぜ、来いよ」
-</span><span class="chifuyu">染谷千冬 : 「……嘘だ。嫌だと思っているだろう」
-</span><span class="chiaki">染谷千秋 : 「ああ、嫌だぜ。けど、最後だし許してやるよ。千冬の気持ちも大事にしたいしさ」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。俺も行っていいか」
+</span><span style="color: #db7093">染谷千秋 : 「いいぜ。千冬が来てくれんなら最後も頑張れるな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「今日は全員いるんだ。他の人とあんま喋んなよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
+</span><span style="color: #db7093">染谷千秋 : 「まいが話しかけて来てもあしらえよな～？」
+</span><span style="color: #00bcd4">染谷千冬 : 「あしらう……？」
+</span><span style="color: #db7093">染谷千秋 : 「テキトーに返事しろってこと」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「ヤ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「適当は嫌だ」
+</span><span style="color: #db7093">染谷千秋 : 「なんでやなの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……人だから」
+</span><span style="color: #db7093">染谷千秋 : 「人だとやなの？　なんで？　もーちょい言葉足して」
+</span><span style="color: #00bcd4">染谷千冬 : 「人を適当に扱うのは悲しい。適当に扱われるのも、きっと悲しい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、千冬は優しいな。……いいぜ、来いよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……嘘だ。嫌だと思っているだろう」
+</span><span style="color: #db7093">染谷千秋 : 「ああ、嫌だぜ。けど、最後だし許してやるよ。千冬の気持ちも大事にしたいしさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 難しい顔をしています。
-</span><span class="chiaki">染谷千秋 : 「難しい顔してる。……嘘じゃないぜ？」
-</span><span class="chifuyu">染谷千冬 : 「でも、嫌なんだろう」
-</span><span class="chiaki">染谷千秋 : 「まーな。けど千冬がやりてえこと我慢してる方がもっと嫌だぜ」
-</span><span class="chifuyu">染谷千冬 : 「……千秋が嫌なことを進んでやりたいわけじゃない」
-</span><span class="chiaki">染谷千秋 : 「ふ、分かってる。けど、俺のわがままばっか聞いてたら千冬なんもできなくなっちゃうぜ？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「わかった」
-</span><span class="chifuyu">染谷千冬 : 千秋に口づけます。
-</span><span class="chifuyu">染谷千冬 : 「行ってもいいか、千秋」
-</span><span class="chiaki">染谷千秋 : 「後３回キスしてくれたらいいぜ」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「難しい顔してる。……嘘じゃないぜ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「でも、嫌なんだろう」
+</span><span style="color: #db7093">染谷千秋 : 「まーな。けど千冬がやりてえこと我慢してる方がもっと嫌だぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋が嫌なことを進んでやりたいわけじゃない」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、分かってる。けど、俺のわがままばっか聞いてたら千冬なんもできなくなっちゃうぜ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
+</span><span style="color: #00bcd4">染谷千冬 : 千秋に口づけます。
+</span><span style="color: #00bcd4">染谷千冬 : 「行ってもいいか、千秋」
+</span><span style="color: #db7093">染谷千秋 : 「後３回キスしてくれたらいいぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 目を閉じて、唇に3回口づけます。
-</span><span class="chifuyu">染谷千冬 : 「千秋」
-</span><span class="chiaki">染谷千秋 : 5回目に口づけてにこりと微笑みます。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋」
+</span><span style="color: #db7093">染谷千秋 : 5回目に口づけてにこりと微笑みます。
 「いいぜ」
-</span><span class="chifuyu">染谷千冬 : 「ありがとう」
-</span><span class="chiaki">染谷千秋 : 「ふ、……いーよ」
-</span><span class="chifuyu">染谷千冬 : もう一度キスします。
-</span><span class="chiaki">染谷千秋 : 千冬を壁に押し付けて深く口付けます。
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……いーよ」
+</span><span style="color: #00bcd4">染谷千冬 : もう一度キスします。
+</span><span style="color: #db7093">染谷千秋 : 千冬を壁に押し付けて深く口付けます。
 「このままサボっちゃおうか」
-</span><span class="chifuyu">染谷千冬 : 「！？　だめだ」
-</span><span class="chiaki">染谷千秋 : 「はは、じょーだんだよ」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
-</span><span class="chiaki">染谷千秋 : 「そ。ジョーダン。行こうぜ」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span style="color: #00bcd4">染谷千冬 : 「！？　だめだ」
+</span><span style="color: #db7093">染谷千秋 : 「はは、じょーだんだよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「そ。ジョーダン。行こうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 
-</span><span class="kp">二人は千秋が勤めているバーへと向かう。それを多くのスタッフが出迎えた。常連の客も話を聞きつけて集っているようだ。
-</span><span class="kp">「あ、千冬さんだー！　いらっしゃいませ！」
-</span><span class="kp">既に顔見知りとなった舞が千冬に向かってぶんぶんと手を振る。
+</span><span style="color: #000">二人は千秋が勤めているバーへと向かう。それを多くのスタッフが出迎えた。常連の客も話を聞きつけて集っているようだ。
+</span><span style="color: #000">「あ、千冬さんだー！　いらっしゃいませ！」
+</span><span style="color: #000">既に顔見知りとなった舞が千冬に向かってぶんぶんと手を振る。
 
-</span><span class="chifuyu">染谷千冬 : ぺこり。
+</span><span style="color: #00bcd4">染谷千冬 : ぺこり。
 
-</span><span class="kp">「千秋くん、今日でお終いなんだって？　寂しくなるなあ」
+</span><span style="color: #000">「千秋くん、今日でお終いなんだって？　寂しくなるなあ」
 なんて言うのはいつかの時フォトウェディングの招待券をくれた酒井だった。
 
-</span><span class="chiaki">染谷千秋 : 「そうなんすよ～、引っ越しすることになって。今日で卒業です。長い間お世話になりました」
+</span><span style="color: #db7093">染谷千秋 : 「そうなんすよ～、引っ越しすることになって。今日で卒業です。長い間お世話になりました」
 カウンターでグラスを拭きながら答えます。
 「酒井さんにはお世話になったし、今日は頑張ってサービスしますよ。沢山飲んでってください」
-</span><span class="kp">酒井 : 「いいよいいよ！　むしろ千秋くんこそ最後なんだからさ～、何か飲みたいのない？」
-</span><span class="chiaki">染谷千秋 : 「いいんすか？　じゃ、青い珊瑚礁飲みたいです」
-</span><span class="kp">酒井 : 「伊勢さん～、俺が出すから千秋くんに青い珊瑚礁作ってあげて」
+</span><span style="color: #000">酒井 : 「いいよいいよ！　むしろ千秋くんこそ最後なんだからさ～、何か飲みたいのない？」
+</span><span style="color: #db7093">染谷千秋 : 「いいんすか？　じゃ、青い珊瑚礁飲みたいです」
+</span><span style="color: #000">酒井 : 「伊勢さん～、俺が出すから千秋くんに青い珊瑚礁作ってあげて」
 
-</span><span class="kp">マスターは青い珊瑚礁を作り、千秋に差し出した。
-</span><span class="kp">カウンターに座る女性が千秋に話しかける。この人物もかなりの常連だ。最初は友達とグループで来たが、一人でも訪れるようになった客だった。
+</span><span style="color: #000">マスターは青い珊瑚礁を作り、千秋に差し出した。
+</span><span style="color: #000">カウンターに座る女性が千秋に話しかける。この人物もかなりの常連だ。最初は友達とグループで来たが、一人でも訪れるようになった客だった。
 
-</span><span class="kp">女性 : 「千秋さん、辞めちゃうんですか？　寂しいです～。……よければ連絡先の交換とか……」
-</span><span class="chiaki">染谷千秋 : 「俺も寂しいです。けどごめんなさい。店での出会いを大切にしたいんで」
+</span><span style="color: #000">女性 : 「千秋さん、辞めちゃうんですか？　寂しいです～。……よければ連絡先の交換とか……」
+</span><span style="color: #db7093">染谷千秋 : 「俺も寂しいです。けどごめんなさい。店での出会いを大切にしたいんで」
 にこりと微笑みグラスを傾けます。
 「また遊びに来ます。そん時は客と店員じゃなくて、友達として話しましょ」
-</span><span class="kp">女性 : 「本当ですか～！　じゃあ金曜日に来てくださいね！」
-</span><span class="chiaki">染谷千秋 : 「はい」ﾆｺ
+</span><span style="color: #000">女性 : 「本当ですか～！　じゃあ金曜日に来てくださいね！」
+</span><span style="color: #db7093">染谷千秋 : 「はい」ﾆｺ
 
-</span><span class="kp">その頃、千冬は舞に絡まれていた。
+</span><span style="color: #000">その頃、千冬は舞に絡まれていた。
 
-</span><span class="chiaki">染谷千秋 : チッ
+</span><span style="color: #db7093">染谷千秋 : チッ
 
-</span><span class="kp">チッ！？
+</span><span style="color: #000">チッ！？
 
-</span><span class="kp">舞 : 「今日は一杯どうですかー？　せっかくですし、私作りますよ！　そうだ、私おすすめのカクテル飲んでみませんか？」
-</span><span class="chifuyu">染谷千冬 : 「ミシシッピミュールは飲みました」
-</span><span class="kp">舞 : 「えっほんとにー！？　センパイが作ったんですか？　お味はどうでした～？」
-</span><span class="chifuyu">染谷千冬 : 「はい。美味しかったです」
-</span><span class="kp">舞 : 「甘口もいけるんですね！　じゃあ、今日はキウイマティーニ作りますね～！」
-</span><span class="chifuyu">染谷千冬 : 「ありがとうございます」
-</span><span class="kp">舞 : 「センパイと千冬さんって全然タイプ違いますよねー！　センパイはいっぱい喋るのに！　センパイって家でもあんな感じなんですか？」
-</span><span class="chifuyu">染谷千冬 : 「……ここでの千秋を知らないから、分からない。でも、そう変わらないと思います」
-</span><span class="kp">舞 : 「へ～！　千冬さんってセンパイと仲良さそうですよね〜。いっぱい家でも話してます～？」
-</span><span class="chifuyu">染谷千冬 : 「はい」
-</span><span class="kp">舞 : 「兄弟で仲良いのいいなー！　私も仲の良い妹とかほしかった～」
-</span><span class="chifuyu">染谷千冬 : じっ。ぱくぱく。
-</span><span class="kp">舞 : 「千冬さんって今何歳ですかー？」
-</span><span class="chifuyu">染谷千冬 : 「22です」
-</span><span class="kp">舞 : 「あれ？　センパイと同じぐらいじゃないですか？」
-</span><span class="chifuyu">染谷千冬 : 「あと2週間ほどで23です」
-</span><span class="kp">舞 : 「えっ誕生日近いんですか？　いつですかー？」
-</span><span class="chifuyu">染谷千冬 : 「13日です」
-</span><span class="kp">舞 : 「ちかーい！　おめ」
-</span><span class="chiaki">染谷千秋 : 「おめでとう千冬～。何の話してんの」
+</span><span style="color: #000">舞 : 「今日は一杯どうですかー？　せっかくですし、私作りますよ！　そうだ、私おすすめのカクテル飲んでみませんか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ミシシッピミュールは飲みました」
+</span><span style="color: #000">舞 : 「えっほんとにー！？　センパイが作ったんですか？　お味はどうでした～？」
+</span><span style="color: #00bcd4">染谷千冬 : 「はい。美味しかったです」
+</span><span style="color: #000">舞 : 「甘口もいけるんですね！　じゃあ、今日はキウイマティーニ作りますね～！」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとうございます」
+</span><span style="color: #000">舞 : 「センパイと千冬さんって全然タイプ違いますよねー！　センパイはいっぱい喋るのに！　センパイって家でもあんな感じなんですか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ここでの千秋を知らないから、分からない。でも、そう変わらないと思います」
+</span><span style="color: #000">舞 : 「へ～！　千冬さんってセンパイと仲良さそうですよね〜。いっぱい家でも話してます～？」
+</span><span style="color: #00bcd4">染谷千冬 : 「はい」
+</span><span style="color: #000">舞 : 「兄弟で仲良いのいいなー！　私も仲の良い妹とかほしかった～」
+</span><span style="color: #00bcd4">染谷千冬 : じっ。ぱくぱく。
+</span><span style="color: #000">舞 : 「千冬さんって今何歳ですかー？」
+</span><span style="color: #00bcd4">染谷千冬 : 「22です」
+</span><span style="color: #000">舞 : 「あれ？　センパイと同じぐらいじゃないですか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「あと2週間ほどで23です」
+</span><span style="color: #000">舞 : 「えっ誕生日近いんですか？　いつですかー？」
+</span><span style="color: #00bcd4">染谷千冬 : 「13日です」
+</span><span style="color: #000">舞 : 「ちかーい！　おめ」
+</span><span style="color: #db7093">染谷千秋 : 「おめでとう千冬～。何の話してんの」
 千冬と舞の間に身体を差し込み、千冬の方に向き直ります。
-</span><span class="chifuyu">染谷千冬 : 「年齢と、誕生日の話をしていた」
-</span><span class="chiaki">染谷千秋 : 「そっか。千冬の誕生日近いし一足先にお祝いだな～。何飲む？」
-</span><span class="kp">舞 : 「さっき私のおすすめカクテルを作るって話してたんですよー！　私作ります！」
-</span><span class="chiaki">染谷千秋 : 「へえ、舞のおすすめ？　何作んの？」
-</span><span class="kp">舞 : 「キウイマティーニです！」
-</span><span class="chiaki">染谷千秋 : 「キウイマティーニか。千冬に気に入ってもらえるといいな。……俺にも一杯ちょーだい」
-</span><span class="kp">舞 : 「仕方ないな～先輩も今日が最後ですからね、私の奢りです！　……センパイ、ほんとのほんとに辞めちゃうんですか？　やだ～！」
-</span><span class="chiaki">染谷千秋 : 「流石。さんきゅ～」
-</span><span class="chiaki">染谷千秋 : 「ふ、何回目だよ。またどっかで会えるかもしんねーし、その時にまた飲もうぜ」
-</span><span class="kp">舞 : 「関東に引っ越すんですよね！？　会えないじゃないですか～！」
-</span><span class="chiaki">染谷千秋 : 「今よりは少なくなるけど、たまに旅行で来るしさ。そん時顔出すよ」
-</span><span class="kp">舞 : 「……絶対ですからね！　じゃあ、カクテル作ってきまーす」
+</span><span style="color: #00bcd4">染谷千冬 : 「年齢と、誕生日の話をしていた」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。千冬の誕生日近いし一足先にお祝いだな～。何飲む？」
+</span><span style="color: #000">舞 : 「さっき私のおすすめカクテルを作るって話してたんですよー！　私作ります！」
+</span><span style="color: #db7093">染谷千秋 : 「へえ、舞のおすすめ？　何作んの？」
+</span><span style="color: #000">舞 : 「キウイマティーニです！」
+</span><span style="color: #db7093">染谷千秋 : 「キウイマティーニか。千冬に気に入ってもらえるといいな。……俺にも一杯ちょーだい」
+</span><span style="color: #000">舞 : 「仕方ないな～先輩も今日が最後ですからね、私の奢りです！　……センパイ、ほんとのほんとに辞めちゃうんですか？　やだ～！」
+</span><span style="color: #db7093">染谷千秋 : 「流石。さんきゅ～」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、何回目だよ。またどっかで会えるかもしんねーし、その時にまた飲もうぜ」
+</span><span style="color: #000">舞 : 「関東に引っ越すんですよね！？　会えないじゃないですか～！」
+</span><span style="color: #db7093">染谷千秋 : 「今よりは少なくなるけど、たまに旅行で来るしさ。そん時顔出すよ」
+</span><span style="color: #000">舞 : 「……絶対ですからね！　じゃあ、カクテル作ってきまーす」
 
-</span><span class="kp">そう言って、舞はカウンターへと向かった。
+</span><span style="color: #000">そう言って、舞はカウンターへと向かった。
 
-</span><span class="chiaki">染谷千秋 : 「おー」ひらひら
-</span><span class="chiaki">染谷千秋 : 「先に祝われるところだった」
+</span><span style="color: #db7093">染谷千秋 : 「おー」ひらひら
+</span><span style="color: #db7093">染谷千秋 : 「先に祝われるところだった」
 口を尖らせながら首を傾けます。
-</span><span class="chifuyu">染谷千冬 : 「……ふ。千秋、ありがとう」
-</span><span class="chifuyu">染谷千冬 : 「ここでの千秋を見れて嬉しい」
-</span><span class="chiaki">染谷千秋 : 「ふ、千冬がそう思えんなら良かった」
-</span><span class="chiaki">染谷千秋 : 「そうだ。千冬。おつまみ作るよ。何がいい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ふ。千秋、ありがとう」
+</span><span style="color: #00bcd4">染谷千冬 : 「ここでの千秋を見れて嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、千冬がそう思えんなら良かった」
+</span><span style="color: #db7093">染谷千秋 : 「そうだ。千冬。おつまみ作るよ。何がいい？」
 メニューを開いて千冬の前に置きます。顔をぐっと近づけて千冬に寄ります。
-</span><span class="chifuyu">染谷千冬 : ぱちぱちと瞬きます。
+</span><span style="color: #00bcd4">染谷千冬 : ぱちぱちと瞬きます。
 「……から揚げ」
-</span><span class="chiaki">染谷千秋 : 「からあげな。他には？　デザートもあるぜ」
-</span><span class="chifuyu">染谷千冬 : 「じゃあ、千秋のおすすめのデザートも」
-</span><span class="chiaki">染谷千秋 : 「りょーかい。ここで俺のこと見てろよ」
+</span><span style="color: #db7093">染谷千秋 : 「からあげな。他には？　デザートもあるぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「じゃあ、千秋のおすすめのデザートも」
+</span><span style="color: #db7093">染谷千秋 : 「りょーかい。ここで俺のこと見てろよ」
 千冬の頭を撫でておつまみとデザートを作りに行きます。
-</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 調理してる間、千秋をじっと見てます。
-</span><span class="chiaki">染谷千秋 : ９割ほど千冬の方を見ながらおつまみとデザートを作ります。
-</span><span class="chifuyu">染谷千冬 : （……やたら目が合うな）
+</span><span style="color: #db7093">染谷千秋 : ９割ほど千冬の方を見ながらおつまみとデザートを作ります。
+</span><span style="color: #00bcd4">染谷千冬 : （……やたら目が合うな）
 
-</span><span class="kp">千秋は千冬のほうを見ながらも、手際よく調理をした。舞が待っていて、調理を終えた千秋に声をかける。
+</span><span style="color: #000">千秋は千冬のほうを見ながらも、手際よく調理をした。舞が待っていて、調理を終えた千秋に声をかける。
 
-</span><span class="kp">舞 : 「こっちも作り終わりましたよ！　持っていきましょ」
-</span><span class="chiaki">染谷千秋 : 「お～。俺が持ってくよ」
-</span><span class="kp">舞 : 「私も行きますよ！　千冬さんの感想聞きたいですからねー」
-</span><span class="chiaki">染谷千秋 : ﾁｯ
-</span><span class="kp">舞 : ﾁｯ！？
+</span><span style="color: #000">舞 : 「こっちも作り終わりましたよ！　持っていきましょ」
+</span><span style="color: #db7093">染谷千秋 : 「お～。俺が持ってくよ」
+</span><span style="color: #000">舞 : 「私も行きますよ！　千冬さんの感想聞きたいですからねー」
+</span><span style="color: #db7093">染谷千秋 : ﾁｯ
+</span><span style="color: #000">舞 : ﾁｯ！？
 
-</span><span class="kp">二人は千冬の元までできたものを運んだ。
+</span><span style="color: #000">二人は千冬の元までできたものを運んだ。
 
-</span><span class="kp">舞 : 「こちらキウイマティーニです！　センパイもどーぞ」
-</span><span class="chiaki">染谷千秋 : 「さんきゅ～。千冬、これ」
-</span><span class="chifuyu">染谷千冬 : 「ありがとう」
-</span><span class="chifuyu">染谷千冬 : お酒を一口飲み、舞のほうを向きます。
+</span><span style="color: #000">舞 : 「こちらキウイマティーニです！　センパイもどーぞ」
+</span><span style="color: #db7093">染谷千秋 : 「さんきゅ～。千冬、これ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
+</span><span style="color: #00bcd4">染谷千冬 : お酒を一口飲み、舞のほうを向きます。
 「美味しいです」
-</span><span class="kp">舞 : 「お口に合って良かったですー！」
-</span><span class="chiaki">染谷千秋 : 「”俺”が作ったからあげも食べてよ。デザートもさ」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
+</span><span style="color: #000">舞 : 「お口に合って良かったですー！」
+</span><span style="color: #db7093">染谷千秋 : 「”俺”が作ったからあげも食べてよ。デザートもさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 からあげもぐもぐ。
 「美味しい。……このデザートは？」
-</span><span class="chiaki">染谷千秋 : 「カクテルで作ったアイスに季節の果物添えて特製のソースかけたんだ。オリジナルだぜ」
-</span><span class="chifuyu">染谷千冬 : 「……すごい。美味しそうだ」
-</span><span class="chifuyu">染谷千冬 : もぐもぐ。
+</span><span style="color: #db7093">染谷千秋 : 「カクテルで作ったアイスに季節の果物添えて特製のソースかけたんだ。オリジナルだぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……すごい。美味しそうだ」
+</span><span style="color: #00bcd4">染谷千冬 : もぐもぐ。
 「……美味しい。千秋、すごい」
-</span><span class="chiaki">染谷千秋 : 「ふ。……ついてるぜ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ。……ついてるぜ」
 ソースを拭って舐めます。
-</span><span class="chifuyu">染谷千冬 : 「ん……」
-</span><span class="kp">舞 : 「えっ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ん……」
+</span><span style="color: #000">舞 : 「えっ」
 ちょっとびっくりしてます。
-</span><span class="chiaki">染谷千秋 : 全然気にしないで千冬を愛おしげに見ています。
+</span><span style="color: #db7093">染谷千秋 : 全然気にしないで千冬を愛おしげに見ています。
 「ゆっくり食べろよ」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="kp">舞 : 「……そーだ、センパイも飲んでくださいよ～！　美味しいですよ！」
-</span><span class="chiaki">染谷千秋 : 「ん、ああ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #000">舞 : 「……そーだ、センパイも飲んでくださいよ～！　美味しいですよ！」
+</span><span style="color: #db7093">染谷千秋 : 「ん、ああ」
 キウイマティーニを飲みます。
 「おいしーよ。上達したな」
-</span><span class="kp">舞 : 「ほんとですか！　へへ、センパイにそう言ってもらえると嬉しーです！」
+</span><span style="color: #000">舞 : 「ほんとですか！　へへ、センパイにそう言ってもらえると嬉しーです！」
 
-</span><span class="kp">千秋は千冬や馴染みの客と話したりしながら時を過ごす。
+</span><span style="color: #000">千秋は千冬や馴染みの客と話したりしながら時を過ごす。
 気がつけば閉店時間を過ぎ、常連客も皆帰っていった。この場にはスタッフと千冬のみが残っている。
-</span><span class="kp">マスターの伊勢さんが、改めて千秋に酒とおつまみを差し出しながら話す。
+</span><span style="color: #000">マスターの伊勢さんが、改めて千秋に酒とおつまみを差し出しながら話す。
 「染谷くん、お疲れさま。今までありがとう。染谷くんのおかげでずっと助かっていたよ」
 
-</span><span class="chiaki">染谷千秋 : 「マスター、こちらこそありがとうございました」
-</span><span class="chiaki">染谷千秋 : 「ここで働けたのは俺にとって本当に貴重な経験でした。伊勢さんや皆のおかげで長い間楽しく仕事ができました」
-</span><span class="chiaki">染谷千秋 : ｵｻｹｸﾞｲｰｯ
-</span><span class="kp">舞 : 「センパイ、良い飲みっぷりー！」
+</span><span style="color: #db7093">染谷千秋 : 「マスター、こちらこそありがとうございました」
+</span><span style="color: #db7093">染谷千秋 : 「ここで働けたのは俺にとって本当に貴重な経験でした。伊勢さんや皆のおかげで長い間楽しく仕事ができました」
+</span><span style="color: #db7093">染谷千秋 : ｵｻｹｸﾞｲｰｯ
+</span><span style="color: #000">舞 : 「センパイ、良い飲みっぷりー！」
 
-</span><span class="kp">「千秋くんのこれからを応援してるよ。今日は好きなだけ頼んでいいからね。最後に楽しい思い出を作ろう」
+</span><span style="color: #000">「千秋くんのこれからを応援してるよ。今日は好きなだけ頼んでいいからね。最後に楽しい思い出を作ろう」
 
-</span><span class="chiaki">染谷千秋 : 「ありがとうございます、マスター。じゃ、遠慮せず」
-</span><span class="chifuyu">染谷千冬 : 「お疲れさま、千秋」
+</span><span style="color: #db7093">染谷千秋 : 「ありがとうございます、マスター。じゃ、遠慮せず」
+</span><span style="color: #00bcd4">染谷千冬 : 「お疲れさま、千秋」
 
-</span><span class="kp">少し顔を赤くした千冬が千秋を労ってくれる。
+</span><span style="color: #000">少し顔を赤くした千冬が千秋を労ってくれる。
 
-</span><span class="chiaki">染谷千秋 : 「さんきゅ。……顔赤いぜ。酔った？」
+</span><span style="color: #db7093">染谷千秋 : 「さんきゅ。……顔赤いぜ。酔った？」
 千冬の頬に中指の甲を当てます。
-</span><span class="chifuyu">染谷千冬 : 「酔っている。気持ちいい」
-</span><span class="chiaki">染谷千秋 : 「ふ、そっか。無理すんなよ」
-</span><span class="chifuyu">染谷千冬 : 「してない」
-</span><span class="chiaki">染谷千秋 : 「ならいい。千冬が楽しそうでよかったよ。次何飲む？」
-</span><span class="chifuyu">染谷千冬 : 「千秋の好きなものがいい」
-</span><span class="chiaki">染谷千秋 : 「じゃ、X-Y-Zで。マスター、いいっすか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「酔っている。気持ちいい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そっか。無理すんなよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「してない」
+</span><span style="color: #db7093">染谷千秋 : 「ならいい。千冬が楽しそうでよかったよ。次何飲む？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋の好きなものがいい」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、X-Y-Zで。マスター、いいっすか？」
 
-</span><span class="kp">「もちろん」
-</span><span class="kp">しばらくして、マスターお手製のカクテル『X-Y-Z』が作られた。
+</span><span style="color: #000">「もちろん」
+</span><span style="color: #000">しばらくして、マスターお手製のカクテル『X-Y-Z』が作られた。
 「染谷くん、どうぞ」
 
-</span><span class="chiaki">染谷千秋 : 「ありがとうございます。千冬にも同じのお願いします」
+</span><span style="color: #db7093">染谷千秋 : 「ありがとうございます。千冬にも同じのお願いします」
 
-</span><span class="kp">「ええ」
+</span><span style="color: #000">「ええ」
 マスターはもう一つを手早く作り、千秋に差し出す。
 
-</span><span class="chiaki">染谷千秋 : 「ありがとうマスター」
-</span><span class="chiaki">染谷千秋 : 「千冬」
-</span><span class="chiaki">染谷千秋 : 「これ、俺が好きなカクテル。XYZって言うんだ」
-</span><span class="chifuyu">染谷千冬 : 「……そうなのか。飲む」
-</span><span class="chifuyu">染谷千冬 : 「……度が強い。でも、美味しい。千秋の好きなものを知れて嬉しい」
-</span><span class="chiaki">染谷千秋 : 「ゆっくり飲めよ。口にあってよかった」
-</span><span class="chiaki">染谷千秋 : 「これにもちゃんとカクテル言葉があるんだぜ。知ってる？」
-</span><span class="chifuyu">染谷千冬 : 「知らない」
-</span><span class="chiaki">染谷千秋 : 耳元に口付けてぼそぼそと囁きます。その後顔を離してニコリと笑います。
-</span><span class="chifuyu">染谷千冬 : 「……そうか」
+</span><span style="color: #db7093">染谷千秋 : 「ありがとうマスター」
+</span><span style="color: #db7093">染谷千秋 : 「千冬」
+</span><span style="color: #db7093">染谷千秋 : 「これ、俺が好きなカクテル。XYZって言うんだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうなのか。飲む」
+</span><span style="color: #00bcd4">染谷千冬 : 「……度が強い。でも、美味しい。千秋の好きなものを知れて嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 「ゆっくり飲めよ。口にあってよかった」
+</span><span style="color: #db7093">染谷千秋 : 「これにもちゃんとカクテル言葉があるんだぜ。知ってる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「知らない」
+</span><span style="color: #db7093">染谷千秋 : 耳元に口付けてぼそぼそと囁きます。その後顔を離してニコリと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうか」
 
-</span><span class="kp">1d5-1 (1D5-1) ＞ 4[4]-1 ＞ 3
-</span><span class="kp">千秋が千冬の耳元へ頭を寄せたところを、舞やマスター、そしてもう一人の従業員に目撃される。舞は目をぱちぱちと瞬かせた。
+</span><span style="color: #000">1d5-1 (1D5-1) ＞ 4[4]-1 ＞ 3
+</span><span style="color: #000">千秋が千冬の耳元へ頭を寄せたところを、舞やマスター、そしてもう一人の従業員に目撃される。舞は目をぱちぱちと瞬かせた。
 
-</span><span class="chiaki">染谷千秋 : マスターの視線を受け止めてニコリと微笑みます。
+</span><span style="color: #db7093">染谷千秋 : マスターの視線を受け止めてニコリと微笑みます。
 「美味しいです。マスター」
 
-</span><span class="kp">「……そう言ってもらえて嬉しいよ」
+</span><span style="color: #000">「……そう言ってもらえて嬉しいよ」
 マスターはにこりと微笑んだ。
 
-</span><span class="chiaki">染谷千秋 : 「マスターのカクテル飲めなくなっちゃうの残念だな～」
+</span><span style="color: #db7093">染谷千秋 : 「マスターのカクテル飲めなくなっちゃうの残念だな～」
 カクテルを飲みながら千冬にぴったりくっつきます。
-</span><span class="chifuyu">染谷千冬 : （……べったりだ）
+</span><span style="color: #00bcd4">染谷千冬 : （……べったりだ）
 ぽやぽやしながら話を聞いています。
 
-</span><span class="kp">「私も染谷くんがいなくなるのは残念だよ。手際も要領も良くて、お客さんにも人気があったからね。実際に今日は、染谷くんの最終日だから人も多かった」
+</span><span style="color: #000">「私も染谷くんがいなくなるのは残念だよ。手際も要領も良くて、お客さんにも人気があったからね。実際に今日は、染谷くんの最終日だから人も多かった」
 
-</span><span class="chiaki">染谷千秋 : 「マスターの背中見て学んできたんで、そう言ってもらえて光栄です。バイトの皆もお客さんも良くしてくれて、感謝の気持ちでいっぱいですよ」
-</span><span class="chiaki">染谷千秋 : 「本当にありがとうございました。ここでの思い出とマスターのカクテルの味は忘れません」
-</span><span class="chiaki">染谷千秋 : 「千冬にも良くしてくれてありがとうございました。皆も」
+</span><span style="color: #db7093">染谷千秋 : 「マスターの背中見て学んできたんで、そう言ってもらえて光栄です。バイトの皆もお客さんも良くしてくれて、感謝の気持ちでいっぱいですよ」
+</span><span style="color: #db7093">染谷千秋 : 「本当にありがとうございました。ここでの思い出とマスターのカクテルの味は忘れません」
+</span><span style="color: #db7093">染谷千秋 : 「千冬にも良くしてくれてありがとうございました。皆も」
 皆にお礼を言った後、ぽやぽやして千冬の頬に手を当てます。
 「……千冬、大分酔ってんな。XYZ強いだろ。気持ち悪くねえ？」
-</span><span class="chifuyu">染谷千冬 : 「気持ち悪くない。楽しい」
-</span><span class="chifuyu">染谷千冬 : 「千秋は？」
-</span><span class="chiaki">染谷千秋 : 「そっか。千冬に楽しんでほしいって思ってたから、千冬が楽しいならよかった。嬉しいよ」
-</span><span class="chiaki">染谷千秋 : 「俺も楽しいぜ。千冬がいるし、皆と話せてるしな～」
-</span><span class="chiaki">染谷千秋 : 千冬にくっついたりベタベタと触りながら皆と雑談します。しばらくしてから上気した顔で千冬に向きます。
+</span><span style="color: #00bcd4">染谷千冬 : 「気持ち悪くない。楽しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋は？」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。千冬に楽しんでほしいって思ってたから、千冬が楽しいならよかった。嬉しいよ」
+</span><span style="color: #db7093">染谷千秋 : 「俺も楽しいぜ。千冬がいるし、皆と話せてるしな～」
+</span><span style="color: #db7093">染谷千秋 : 千冬にくっついたりベタベタと触りながら皆と雑談します。しばらくしてから上気した顔で千冬に向きます。
 「千冬、名残惜しいけどそろそろ帰ろうぜ」
-</span><span class="chifuyu">染谷千冬 : 軽く千秋に寄りかかります。
+</span><span style="color: #00bcd4">染谷千冬 : 軽く千秋に寄りかかります。
 「なんでだ。遅くまでいてもいい」
-</span><span class="chiaki">染谷千秋 : 千冬を寄りかからせ、その髪の毛で遊びながら頭を撫でます。
+</span><span style="color: #db7093">染谷千秋 : 千冬を寄りかからせ、その髪の毛で遊びながら頭を撫でます。
 「だーめ。明日もあるだろ。ちゃんと休まないとダメだぜ」
-</span><span class="chifuyu">染谷千冬 : 「だいじょうぶだ。千秋の最後の日だから」
-</span><span class="chiaki">染谷千秋 : 「だめだって。呂律も回らなくなってるだろ。それ以上酔うと心配になる。残りよこしな」
-</span><span class="kp">舞 : 「え、えーと……けっこう酔っちゃった感じですか？　無理せず休んでいってもいいと思いますけど……」
+</span><span style="color: #00bcd4">染谷千冬 : 「だいじょうぶだ。千秋の最後の日だから」
+</span><span style="color: #db7093">染谷千秋 : 「だめだって。呂律も回らなくなってるだろ。それ以上酔うと心配になる。残りよこしな」
+</span><span style="color: #000">舞 : 「え、えーと……けっこう酔っちゃった感じですか？　無理せず休んでいってもいいと思いますけど……」
 
-</span><span class="kp">マスターも頷いている。
+</span><span style="color: #000">マスターも頷いている。
 
-</span><span class="chifuyu">染谷千冬 : 「……だいじょうぶ、です」
+</span><span style="color: #00bcd4">染谷千冬 : 「……だいじょうぶ、です」
 グラスに残っていた残りの酒をぐいと飲み干します。
-</span><span class="chiaki">染谷千秋 : 「あ、おい」
-</span><span class="chiaki">染谷千秋 : 千冬がお酒を飲み干す前に口付け、千冬の口内にある酒を自分の口内に移して飲みます。
-</span><span class="chiaki">染谷千秋 : 「これ以上はだめだって言ったろ？」
+</span><span style="color: #db7093">染谷千秋 : 「あ、おい」
+</span><span style="color: #db7093">染谷千秋 : 千冬がお酒を飲み干す前に口付け、千冬の口内にある酒を自分の口内に移して飲みます。
+</span><span style="color: #db7093">染谷千秋 : 「これ以上はだめだって言ったろ？」
 至近距離で千冬を見つめます。
-</span><span class="chifuyu">染谷千冬 : 「……？」
-</span><span class="chiaki">染谷千秋 : 自分の分も飲み干してマスターに向き直ります。
+</span><span style="color: #00bcd4">染谷千冬 : 「……？」
+</span><span style="color: #db7093">染谷千秋 : 自分の分も飲み干してマスターに向き直ります。
 「マスター、千冬酔ってるみたいなんで水もらえますか？ それと、ここで寝るのも悪いし、俺達はそろそろ帰ります。本当にお世話になりました。これからもお店の繁盛を祈ってます。それから舞も、……」
 周りにいる人達へのお礼と一言を話します。
 千冬に水を飲ませてから千冬の荷物を持ち、支えます。
 「千冬、歩けそう？ 無理なら捕まりな」
 
-</span><span class="kp">舞を含めて唖然としているスタッフをさしおいて、千秋と千冬は立ち上がった。
+</span><span style="color: #000">舞を含めて唖然としているスタッフをさしおいて、千秋と千冬は立ち上がった。
 マスターは「気をつけて帰るんだよ」と微笑んでいる。
 
-</span><span class="chifuyu">染谷千冬 : 「……歩ける」
+</span><span style="color: #00bcd4">染谷千冬 : 「……歩ける」
 まだ先ほどキスされたことを理解できておらず、目をぱちぱちさせています。
-</span><span class="chiaki">染谷千秋 : 「はい。ありがとうございます。……そっか。それでも一応捕まっときな。じゃ、行こうぜ」
+</span><span style="color: #db7093">染谷千秋 : 「はい。ありがとうございます。……そっか。それでも一応捕まっときな。じゃ、行こうぜ」
 状況を飲み込めてない千冬の様子を見てくすりと笑います。手を握り、最後に皆に挨拶をして店を後にします。
 「楽しかったな」
 千冬が転ばないよう気をつけつつ帰り道を歩きます。
-</span><span class="chifuyu">染谷千冬 : 「千秋、皆の目の前だった」
-</span><span class="chiaki">染谷千秋 : 「そーだな。嫌だった？」
-</span><span class="chifuyu">染谷千冬 : 「俺は嫌じゃない、が……」
-</span><span class="chiaki">染谷千秋 : 「うん」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、皆の目の前だった」
+</span><span style="color: #db7093">染谷千秋 : 「そーだな。嫌だった？」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺は嫌じゃない、が……」
+</span><span style="color: #db7093">染谷千秋 : 「うん」
 言葉の続きを待ち、微笑みながら千冬をじっと見ます。
-</span><span class="chifuyu">染谷千冬 : 「……千秋の知り合いの前、だ」
-</span><span class="chiaki">染谷千秋 : 「ふ、俺は気にしないぜ。今日で最後だしな。千冬が嫌じゃないんならよかったよ」
-</span><span class="chiaki">染谷千秋 : 「千冬の知り合いん前でもすりゃ良かったな」
-</span><span class="chifuyu">染谷千冬 : 「……困るな」
-</span><span class="chiaki">染谷千秋 : 「はは、困るんだ。どして？」
-</span><span class="chifuyu">染谷千冬 : 「ふつう、兄弟でしない」
-</span><span class="chiaki">染谷千秋 : 「ふ、そうだな。普通はしないな」
-</span><span class="chifuyu">染谷千冬 : 「皆驚く」
-</span><span class="chiaki">染谷千秋 : 「いいだろ？驚かせてやろーぜ。俺と千冬は兄弟で恋人同士だってさ」
-</span><span class="chifuyu">染谷千冬 : 「……俺は、嫌だ。知り合いじゃないなら、いい。知り合いは……俺は、構わない。でも、世間的に見ると、俺たちは変だ。きっと、千秋が損をする。嫌だ……」
-</span><span class="chiaki">染谷千秋 : 「損たって、それで離れてくんならそれまでだろ？」
-</span><span class="chifuyu">染谷千冬 : 「……そう割り切れない時もあると思う」
-</span><span class="chiaki">染谷千秋 : 「そっか。千冬がそう思うんならだめだな～。知り合いん前ではやめとくよ」
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋の知り合いの前、だ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、俺は気にしないぜ。今日で最後だしな。千冬が嫌じゃないんならよかったよ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の知り合いん前でもすりゃ良かったな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……困るな」
+</span><span style="color: #db7093">染谷千秋 : 「はは、困るんだ。どして？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ふつう、兄弟でしない」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そうだな。普通はしないな」
+</span><span style="color: #00bcd4">染谷千冬 : 「皆驚く」
+</span><span style="color: #db7093">染谷千秋 : 「いいだろ？驚かせてやろーぜ。俺と千冬は兄弟で恋人同士だってさ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺は、嫌だ。知り合いじゃないなら、いい。知り合いは……俺は、構わない。でも、世間的に見ると、俺たちは変だ。きっと、千秋が損をする。嫌だ……」
+</span><span style="color: #db7093">染谷千秋 : 「損たって、それで離れてくんならそれまでだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そう割り切れない時もあると思う」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。千冬がそう思うんならだめだな～。知り合いん前ではやめとくよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 少しむくれています。
-</span><span class="chiaki">染谷千秋 : 「ふくれっ面～」
+</span><span style="color: #db7093">染谷千秋 : 「ふくれっ面～」
 千冬の両頬を人差し指と親指で挟みます。
-</span><span class="chifuyu">染谷千冬 : 「う……」
-</span><span class="chiaki">染谷千秋 : 「腑に落ちてねえって顔してる」
-</span><span class="chifuyu">染谷千冬 : 「……俺が思うからだめ、じゃなくて……俺は千秋の考えを大事にしたい……」
-</span><span class="chiaki">染谷千秋 : 「ふ、分かってるよ。さっきのはじょーだん。俺も周りに言いふらす必要ねーと思うぜ」
-</span><span class="chiaki">染谷千秋 : 「バーでのキスはちょっとした悪戯。今日で最後だし、もう関わりなくなるだろ」
-</span><span class="chifuyu">染谷千冬 : 「……？　どこから、冗談だ……？」
+</span><span style="color: #00bcd4">染谷千冬 : 「う……」
+</span><span style="color: #db7093">染谷千秋 : 「腑に落ちてねえって顔してる」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺が思うからだめ、じゃなくて……俺は千秋の考えを大事にしたい……」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、分かってるよ。さっきのはじょーだん。俺も周りに言いふらす必要ねーと思うぜ」
+</span><span style="color: #db7093">染谷千秋 : 「バーでのキスはちょっとした悪戯。今日で最後だし、もう関わりなくなるだろ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……？　どこから、冗談だ……？」
 薄く目を細めています。
-</span><span class="chiaki">染谷千秋 : 「千冬の知り合いん前でもすりゃよかったって話」
-</span><span class="chifuyu">染谷千冬 : 「……ん……」
-</span><span class="chiaki">染谷千秋 : 「わざわざ千冬のキス顔見せる趣味もねーしな。千冬の考え優先して譲ったわけじゃねーから安心しな」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : 目を閉じた千冬に口づけます。
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の知り合いん前でもすりゃよかったって話」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ん……」
+</span><span style="color: #db7093">染谷千秋 : 「わざわざ千冬のキス顔見せる趣味もねーしな。千冬の考え優先して譲ったわけじゃねーから安心しな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 目を閉じた千冬に口づけます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 
-</span><span class="kp">知り合いの前でこそ二人は恋人のような振る舞いをしたことは無かったが、それ以外の時は特に気にしていなかった。僅かに集まる視線も大したものではない。
+</span><span style="color: #000">知り合いの前でこそ二人は恋人のような振る舞いをしたことは無かったが、それ以外の時は特に気にしていなかった。僅かに集まる視線も大したものではない。
 
-</span><span class="chiaki">染谷千秋 : 「可愛くてついな。考え事？」
-</span><span class="chifuyu">染谷千冬 : 「分からない。少し、頭が回らない……。驚かせてやろうとか、離れていくならそれまでとか……千秋がどう考えているのか、知りたい……」
-</span><span class="chiaki">染谷千秋 : 「いーよ。続きは帰ったらな」
+</span><span style="color: #db7093">染谷千秋 : 「可愛くてついな。考え事？」
+</span><span style="color: #00bcd4">染谷千冬 : 「分からない。少し、頭が回らない……。驚かせてやろうとか、離れていくならそれまでとか……千秋がどう考えているのか、知りたい……」
+</span><span style="color: #db7093">染谷千秋 : 「いーよ。続きは帰ったらな」
 酔った様子の千冬を支えて家にGO
 
-</span><span class="kp">歩き始めたからか、千冬は酔いが回っているようだった。少し足取りが怪しい千冬を支えながら、千秋は家へと帰った。
+</span><span style="color: #000">歩き始めたからか、千冬は酔いが回っているようだった。少し足取りが怪しい千冬を支えながら、千秋は家へと帰った。
 
-</span><span class="chiaki">染谷千秋 : 「ぼんやりしてるな。千冬、結構酔ってる？ 服脱いで。……水も飲みな」
+</span><span style="color: #db7093">染谷千秋 : 「ぼんやりしてるな。千冬、結構酔ってる？ 服脱いで。……水も飲みな」
 服脱がす！千冬をソファに座らせる！水持ってくる！ゆっくりと飲ませる！
-</span><span class="chifuyu">染谷千冬 : 「ああ。酔った。ありがとう」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。酔った。ありがとう」
 千秋にされるがままになります。
-</span><span class="chiaki">染谷千秋 : 「歩いたから結構酔い回っちゃったな。顔真っ赤だぜ。気分は？」
+</span><span style="color: #db7093">染谷千秋 : 「歩いたから結構酔い回っちゃったな。顔真っ赤だぜ。気分は？」
 千冬の手を拭いて部屋着を持ってくる！着替えさせる！
-</span><span class="chifuyu">染谷千冬 : 「楽しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「楽しい」
 千秋に着替えさせられます。
-</span><span class="chiaki">染谷千秋 : 「ふ、かわいーの。気分悪くなってねーなら良かった。ほら、楽にして。……じょーず。俺に捕まって。……こんままベッドいこうな」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、かわいーの。気分悪くなってねーなら良かった。ほら、楽にして。……じょーず。俺に捕まって。……こんままベッドいこうな」
 千冬をベッドに運ぶ！
-</span><span class="chifuyu">染谷千冬 : 「あ……千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「あ……千秋……」
 ベッドへと連れられます。
-</span><span class="chiaki">染谷千秋 : 千冬をゆっくりと寝かせた後に優しく頭を撫でます。
+</span><span style="color: #db7093">染谷千秋 : 千冬をゆっくりと寝かせた後に優しく頭を撫でます。
 「今日はもう寝ちゃいな」
-</span><span class="chifuyu">染谷千冬 : 「いやだ」
-</span><span class="chiaki">染谷千秋 : 「千冬〜？」
-</span><span class="chifuyu">染谷千冬 : 目で訴えます。
+</span><span style="color: #00bcd4">染谷千冬 : 「いやだ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬〜？」
+</span><span style="color: #00bcd4">染谷千冬 : 目で訴えます。
 「千秋……」
-</span><span class="chiaki">染谷千秋 : くすくすと笑いながら千冬の頭を撫で付けます。
+</span><span style="color: #db7093">染谷千秋 : くすくすと笑いながら千冬の頭を撫で付けます。
 「話はいつでもできるだろ？ 今日はもう遅いぜ」
-</span><span class="chifuyu">染谷千冬 : 「いやだ。千秋」
-</span><span class="chiaki">染谷千秋 : 「ふ、……わかったよ」
-</span><span class="chifuyu">染谷千冬 : 千秋を抱きしめて、微笑みます。
-</span><span class="chiaki">染谷千秋 : 千冬を抱き締めてから口づけます。微笑む千冬に何度か口づけてから身体を離します。
+</span><span style="color: #00bcd4">染谷千冬 : 「いやだ。千秋」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……わかったよ」
+</span><span style="color: #00bcd4">染谷千冬 : 千秋を抱きしめて、微笑みます。
+</span><span style="color: #db7093">染谷千秋 : 千冬を抱き締めてから口づけます。微笑む千冬に何度か口づけてから身体を離します。
 「ちょっと待ってな。俺も着替える」
-</span><span class="chifuyu">染谷千冬 : 「わかった」
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
 大人しく待ってます。
-</span><span class="chiaki">染谷千秋 : 部屋着に着替えた後千冬の元へと戻ります。
+</span><span style="color: #db7093">染谷千秋 : 部屋着に着替えた後千冬の元へと戻ります。
 「お待たせ」
-</span><span class="chifuyu">染谷千冬 : 「おかえり」
+</span><span style="color: #00bcd4">染谷千冬 : 「おかえり」
 手を伸ばします。
-</span><span class="chiaki">染谷千秋 : 「ただいま」
+</span><span style="color: #db7093">染谷千秋 : 「ただいま」
 千冬を抱き締めて口づけます。何度か口づけた後横たわり、千冬の頭をわしゃわしゃと撫でます。
-</span><span class="chifuyu">染谷千冬 : 「千秋はすごい」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋はすごい」
 頭を撫で返します。
-</span><span class="chiaki">染谷千秋 : 上機嫌な千冬の様子を可愛く思います。
+</span><span style="color: #db7093">染谷千秋 : 上機嫌な千冬の様子を可愛く思います。
 「く、……すごいって？」
-</span><span class="chifuyu">染谷千冬 : 「皆に褒められていたし、好かれていた」
+</span><span style="color: #00bcd4">染谷千冬 : 「皆に褒められていたし、好かれていた」
 ずっと頭を撫でて微笑んでいます。
-</span><span class="chiaki">染谷千秋 : 「ふ、……嬉しそうだな。千冬」
-</span><span class="chifuyu">染谷千冬 : 「嬉しい……」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……嬉しそうだな。千冬」
+</span><span style="color: #00bcd4">染谷千冬 : 「嬉しい……」
 頬を擦り寄せます。
 「お疲れさま、千秋」
-</span><span class="chiaki">染谷千秋 : 「俺は千冬に褒められて嬉しいぜ」
+</span><span style="color: #db7093">染谷千秋 : 「俺は千冬に褒められて嬉しいぜ」
 千冬の身体を引き寄せて抱きしめます。
 「さんきゅ。千冬、今日バーでやりたかったことできた？」
-</span><span class="chifuyu">染谷千冬 : 「働いてる千秋が見れた」
-</span><span class="chiaki">染谷千秋 : 「これからは沢山見れるぜ。なにせ、ずっと家にいんだし」
-</span><span class="chiaki">染谷千秋 : 「北海道行ったらバーカウンター作るのもいいかもな」
-</span><span class="chifuyu">染谷千冬 : 「そうじゃない。でもたくさん見れるのは嬉しい。バーカウンター、良いな」
-</span><span class="chiaki">染谷千秋 : 「色んな人と関わって話してる俺ってこと？」
-</span><span class="chifuyu">染谷千冬 : 「そうだ」
-</span><span class="chiaki">染谷千秋 : 「ふ。前も言ってたよな。千冬は人付き合いしてる俺が好き？」
-</span><span class="chifuyu">染谷千冬 : 「違う。千秋は全部好き」
-</span><span class="chiaki">染谷千秋 : 「知ってる。……嫉妬してくんねえの？」
-</span><span class="chifuyu">染谷千冬 : 「嫉妬は、わからない」
-</span><span class="chiaki">染谷千秋 : 「ちぇ、残念」
-</span><span class="chifuyu">染谷千冬 : 「嫉妬されたいのか」
-</span><span class="chiaki">染谷千秋 : 「ちょっとだけな」
-</span><span class="chifuyu">染谷千冬 : 「どうしてだ？」
-</span><span class="chiaki">染谷千秋 : 「嫉妬する千冬見たことねーから見たい」
-</span><span class="chifuyu">染谷千冬 : 「……難しいな」
-</span><span class="chiaki">染谷千秋 : 「想像してみてよ。俺が別のやつと仲良くしてるとこ」
-</span><span class="chifuyu">染谷千冬 : 「……良いと思う」
-</span><span class="chiaki">染谷千秋 : 「この」
+</span><span style="color: #00bcd4">染谷千冬 : 「働いてる千秋が見れた」
+</span><span style="color: #db7093">染谷千秋 : 「これからは沢山見れるぜ。なにせ、ずっと家にいんだし」
+</span><span style="color: #db7093">染谷千秋 : 「北海道行ったらバーカウンター作るのもいいかもな」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうじゃない。でもたくさん見れるのは嬉しい。バーカウンター、良いな」
+</span><span style="color: #db7093">染谷千秋 : 「色んな人と関わって話してる俺ってこと？」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ。前も言ってたよな。千冬は人付き合いしてる俺が好き？」
+</span><span style="color: #00bcd4">染谷千冬 : 「違う。千秋は全部好き」
+</span><span style="color: #db7093">染谷千秋 : 「知ってる。……嫉妬してくんねえの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「嫉妬は、わからない」
+</span><span style="color: #db7093">染谷千秋 : 「ちぇ、残念」
+</span><span style="color: #00bcd4">染谷千冬 : 「嫉妬されたいのか」
+</span><span style="color: #db7093">染谷千秋 : 「ちょっとだけな」
+</span><span style="color: #00bcd4">染谷千冬 : 「どうしてだ？」
+</span><span style="color: #db7093">染谷千秋 : 「嫉妬する千冬見たことねーから見たい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……難しいな」
+</span><span style="color: #db7093">染谷千秋 : 「想像してみてよ。俺が別のやつと仲良くしてるとこ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……良いと思う」
+</span><span style="color: #db7093">染谷千秋 : 「この」
 千冬の頬をつまみます。
-</span><span class="chifuyu">染谷千冬 : 「う」
-</span><span class="chiaki">染谷千秋 : 「じゃ、俺と別のやつがキスしてるとこ想像して」
-</span><span class="chifuyu">染谷千冬 : 「……悲しい。でも、良いと思う」
-</span><span class="chiaki">染谷千秋 : 「良いの？　なんで？」
-</span><span class="chifuyu">染谷千冬 : 「千秋が望むなら良い」
-</span><span class="chiaki">染谷千秋 : もう一度頬をつまみます。
-</span><span class="chifuyu">染谷千冬 : 「う」
-</span><span class="chiaki">染谷千秋 : 「俺が望んでなかったら？」
-</span><span class="chifuyu">染谷千冬 : 「……千秋の望まないことをした相手に怒る」
-</span><span class="chiaki">染谷千秋 : 「ふ、そりゃそうか。じゃあ俺が千冬ほっぽって別のやつといちゃいちゃしてたら？」
-</span><span class="chifuyu">染谷千冬 : 「千秋がしたいなら構わない」
-</span><span class="chiaki">染谷千秋 : 「いいのかよ？」
-</span><span class="chifuyu">染谷千冬 : 「少し寂しいが、いい」
-</span><span class="chiaki">染谷千秋 : 「自分のこと構えって思わねえの？」
-</span><span class="chifuyu">染谷千冬 : 「思わない」
-</span><span class="chiaki">染谷千秋 : 「千冬は優しいな。けど、ちょっとぐらい思ってくれていいんじゃねーの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「う」
+</span><span style="color: #db7093">染谷千秋 : 「じゃ、俺と別のやつがキスしてるとこ想像して」
+</span><span style="color: #00bcd4">染谷千冬 : 「……悲しい。でも、良いと思う」
+</span><span style="color: #db7093">染谷千秋 : 「良いの？　なんで？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋が望むなら良い」
+</span><span style="color: #db7093">染谷千秋 : もう一度頬をつまみます。
+</span><span style="color: #00bcd4">染谷千冬 : 「う」
+</span><span style="color: #db7093">染谷千秋 : 「俺が望んでなかったら？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋の望まないことをした相手に怒る」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そりゃそうか。じゃあ俺が千冬ほっぽって別のやつといちゃいちゃしてたら？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋がしたいなら構わない」
+</span><span style="color: #db7093">染谷千秋 : 「いいのかよ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「少し寂しいが、いい」
+</span><span style="color: #db7093">染谷千秋 : 「自分のこと構えって思わねえの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「思わない」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は優しいな。けど、ちょっとぐらい思ってくれていいんじゃねーの？」
 口を尖らせながら千冬を抱きしめます。
-</span><span class="chifuyu">染谷千冬 : 「……難しい」
-</span><span class="chiaki">染谷千秋 : 「く、残念」
-</span><span class="chiaki">染谷千秋 : 「ま、いーや。それも千冬らしいしな～」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「千秋は別の人といちゃいちゃすることがあるのか？」
-</span><span class="chiaki">染谷千秋 : 「千冬はどっちだと嬉しい？」
-</span><span class="chifuyu">染谷千冬 : 「……ないほうが嬉しい」
-</span><span class="chiaki">染谷千秋 : 「ふ、……どうしてか言ってよ」
-</span><span class="chifuyu">染谷千冬 : 「千秋が好きだから」
-</span><span class="chiaki">染谷千秋 : 「俺が好きだから、俺が別の人といちゃいちゃしない方が嬉しーんだ？ なんで？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……難しい」
+</span><span style="color: #db7093">染谷千秋 : 「く、残念」
+</span><span style="color: #db7093">染谷千秋 : 「ま、いーや。それも千冬らしいしな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋は別の人といちゃいちゃすることがあるのか？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬はどっちだと嬉しい？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ないほうが嬉しい」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……どうしてか言ってよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋が好きだから」
+</span><span style="color: #db7093">染谷千秋 : 「俺が好きだから、俺が別の人といちゃいちゃしない方が嬉しーんだ？ なんで？」
 にやにやと笑いながら尋ねます。
-</span><span class="chifuyu">染谷千冬 : 「……む……」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……俺がそうされたいから、なのだろうか……」
-</span><span class="chiaki">染谷千秋 : 「それってやきもち？」
-</span><span class="chifuyu">染谷千冬 : 「……わからない。やきもちだろうか」
-</span><span class="chiaki">染谷千秋 : 千冬の胸に手のひらを当てます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……む……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺がそうされたいから、なのだろうか……」
+</span><span style="color: #db7093">染谷千秋 : 「それってやきもち？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……わからない。やきもちだろうか」
+</span><span style="color: #db7093">染谷千秋 : 千冬の胸に手のひらを当てます。
 「別の人といちゃいちゃしないで、千冬としてほしいんだろ？　やきもちだと思うぜ」
-</span><span class="chifuyu">染谷千冬 : 「そうか。じゃあ、やきもちだ」
-</span><span class="chiaki">染谷千秋 : 「千冬もちゃんとやきもち焼くんだな。ちょっと嬉しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか。じゃあ、やきもちだ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬もちゃんとやきもち焼くんだな。ちょっと嬉しい」
 千冬を抱きしめます。頬に口付けます。
 「別のやつといちゃつく気ねーから安心しろよ。俺は生まれてこの方千冬一筋だぜ」
-</span><span class="chifuyu">染谷千冬 : 「嬉しいのか……そうか」
-</span><span class="chifuyu">染谷千冬 : 「ありがとう、千秋」
-</span><span class="chiaki">染谷千秋 : 「嬉しいよ。千冬のことまた一つ知れたしな」
-</span><span class="chiaki">染谷千秋 : 「千冬は？　別のやつといちゃいちゃしねーよな？」
-</span><span class="chifuyu">染谷千冬 : 「しない」
-</span><span class="chiaki">染谷千秋 : ふ、と笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「嬉しいのか……そうか」
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう、千秋」
+</span><span style="color: #db7093">染谷千秋 : 「嬉しいよ。千冬のことまた一つ知れたしな」
+</span><span style="color: #db7093">染谷千秋 : 「千冬は？　別のやつといちゃいちゃしねーよな？」
+</span><span style="color: #00bcd4">染谷千冬 : 「しない」
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑います。
 「知ってる。俺だけの千冬だろ」
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : 満足げに微笑んで千冬をぎゅっと抱きしめます。
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : 満足げに微笑んで千冬をぎゅっと抱きしめます。
 「いーこ」
-</span><span class="chifuyu">染谷千冬 : 「千秋もいいこだ」
-</span><span class="chiaki">染谷千秋 : 「俺が？　千冬の前だけだぜ」
-</span><span class="chifuyu">染谷千冬 : 「そうだろうか」
-</span><span class="chiaki">染谷千秋 : 「ああ。だからさ、俺が悪い子になんないよう千冬が見ててよ」
-</span><span class="chifuyu">染谷千冬 : 「悪い子になるのか？」
-</span><span class="chiaki">染谷千秋 : 「そーだな。千冬が見てないと悪い子になっちゃうかも」
-</span><span class="chifuyu">染谷千冬 : 「そうか。見てるからずっと良い子だ」
-</span><span class="chiaki">染谷千秋 : 「ふ、そうだな。千冬に見られてちゃ悪いことできないな」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋もいいこだ」
+</span><span style="color: #db7093">染谷千秋 : 「俺が？　千冬の前だけだぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだろうか」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。だからさ、俺が悪い子になんないよう千冬が見ててよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「悪い子になるのか？」
+</span><span style="color: #db7093">染谷千秋 : 「そーだな。千冬が見てないと悪い子になっちゃうかも」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか。見てるからずっと良い子だ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そうだな。千冬に見られてちゃ悪いことできないな」
 千冬の身体をさわさわと触ります。
-</span><span class="chifuyu">染谷千冬 : 「ん……千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「ん……千秋」
 同じように千秋の体に触れます。
-</span><span class="chiaki">染谷千秋 : 「な、これって良いことだと思う？　悪いことだと思う？」
+</span><span style="color: #db7093">染谷千秋 : 「な、これって良いことだと思う？　悪いことだと思う？」
 千冬の背骨を薄くなぞりながら耳元で囁きます。
-</span><span class="chifuyu">染谷千冬 : 「……？　悪くない」
+</span><span style="color: #00bcd4">染谷千冬 : 「……？　悪くない」
 体を震わせながら、千秋をじっと見つめます。
-</span><span class="chiaki">染谷千秋 : 「いけないことって言うだろ？」
+</span><span style="color: #db7093">染谷千秋 : 「いけないことって言うだろ？」
 千冬の視線を受け止めながら身体に触れます。
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「悪いことかもしれない。でも、俺は好きだ。千秋は良い子だ」
-</span><span class="chiaki">染谷千秋 : 「ふ、……判定甘くねえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「悪いことかもしれない。でも、俺は好きだ。千秋は良い子だ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……判定甘くねえ？」
 くすくすと笑いながら、上機嫌に千冬の肩をなぞります。
-</span><span class="chifuyu">染谷千冬 : 「ん……」
-</span><span class="chifuyu">染谷千冬 : 「千秋は人付き合いしてる俺に嫉妬する」
-</span><span class="chifuyu">染谷千冬 : 「……俺が人と仲良くしてると、どう思うんだ」
-</span><span class="chiaki">染谷千秋 : 「千冬と仲良くしてるそいつを排除してそこに収まりたいって思うぜ」
-</span><span class="chifuyu">染谷千冬 : 「……排除」
-</span><span class="chifuyu">染谷千冬 : 「俺が別の人とキスをしたら？」
-</span><span class="chiaki">染谷千秋 : 「千冬が望んでなかったらそいつと話す。望んでたら、……千冬のこと攫って俺のこと好きになってもらう」
-</span><span class="chifuyu">染谷千冬 : 「俺が千秋を放って、別の人といちゃいちゃしていたら？」
-</span><span class="chiaki">染谷千秋 : にこりと笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「ん……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋は人付き合いしてる俺に嫉妬する」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺が人と仲良くしてると、どう思うんだ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬と仲良くしてるそいつを排除してそこに収まりたいって思うぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……排除」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺が別の人とキスをしたら？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬が望んでなかったらそいつと話す。望んでたら、……千冬のこと攫って俺のこと好きになってもらう」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺が千秋を放って、別の人といちゃいちゃしていたら？」
+</span><span style="color: #db7093">染谷千秋 : にこりと笑います。
 「千冬は俺のこと放っていちゃいちゃしないだろ？　けど、相手と話して席を外してもらうぜ」
-</span><span class="chifuyu">染谷千冬 : 「それは、どうしてだ？　……俺に対しては何も言わないのか」
-</span><span class="chiaki">染谷千秋 : 「寂しーし千冬と話したいし、構ってほしいから。千冬には何も言わないぜ。悪いとこないしな〜」
-</span><span class="chifuyu">染谷千冬 : 「……何も言わないのか」
+</span><span style="color: #00bcd4">染谷千冬 : 「それは、どうしてだ？　……俺に対しては何も言わないのか」
+</span><span style="color: #db7093">染谷千秋 : 「寂しーし千冬と話したいし、構ってほしいから。千冬には何も言わないぜ。悪いとこないしな〜」
+</span><span style="color: #00bcd4">染谷千冬 : 「……何も言わないのか」
 ｼｮﾓ。
-</span><span class="chiaki">染谷千秋 : ふ、と笑って頬を撫でます。
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑って頬を撫でます。
 「千冬に構ってもらえんならもう寂しくないからな〜。寂しかったことを話すより、千冬といちゃいちゃする方が大事だぜ」
-</span><span class="chifuyu">染谷千冬 : 「……千秋が寂しいと感じたなら、それについても知りたいと思う」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋が寂しいと感じたなら、それについても知りたいと思う」
 頬をすりと寄せます。
-</span><span class="chiaki">染谷千秋 : 頬を一つなでた後、頭へ手を滑らせてそのまま頭もなでます。
+</span><span style="color: #db7093">染谷千秋 : 頬を一つなでた後、頭へ手を滑らせてそのまま頭もなでます。
 「……俺が寂しいって思う時は、千冬が俺以外の物に夢中になってる時だぜ。他の物に夢中になってたり、他のやつと関わってる時」
-</span><span class="chifuyu">染谷千冬 : 「……む」
-</span><span class="chiaki">染谷千秋 : 「千冬には俺だけ見ててほしいんだよ。笑ってる顔とか、本当の千冬の姿とかさ。……千冬を理解できんのは俺だけだろ。他のヤツに見せる必要なんてねーし、千冬が関わる価値なんてない、……って思うぜ」
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「……む」
+</span><span style="color: #db7093">染谷千秋 : 「千冬には俺だけ見ててほしいんだよ。笑ってる顔とか、本当の千冬の姿とかさ。……千冬を理解できんのは俺だけだろ。他のヤツに見せる必要なんてねーし、千冬が関わる価値なんてない、……って思うぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 ぱちぱちと瞬いた後、頭を撫でながらキスをします。
-</span><span class="chifuyu">染谷千冬 : 「かわいいな」
-</span><span class="chiaki">染谷千秋 : キスを受け入れた後、千冬の手を握ります。
+</span><span style="color: #00bcd4">染谷千冬 : 「かわいいな」
+</span><span style="color: #db7093">染谷千秋 : キスを受け入れた後、千冬の手を握ります。
 「ふ、今の発言がかわいいの？」
-</span><span class="chifuyu">染谷千冬 : 「寂しがっている千秋が愛おしいと思った」
-</span><span class="chiaki">染谷千秋 : 「前まではこんな事思わなかったんだぜ。……千冬が甘やかすから変わったんだ」
-</span><span class="chiaki">染谷千秋 : 「責任取れよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「寂しがっている千秋が愛おしいと思った」
+</span><span style="color: #db7093">染谷千秋 : 「前まではこんな事思わなかったんだぜ。……千冬が甘やかすから変わったんだ」
+</span><span style="color: #db7093">染谷千秋 : 「責任取れよ」
 唇同士を合わせて軽く音を立てます。千冬の身体を引き寄せてもう一度口付けます。
-</span><span class="chifuyu">染谷千冬 : 「……ありがとう、千秋。大好きだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ありがとう、千秋。大好きだ」
 千秋の体に両腕を回します。
-</span><span class="chiaki">染谷千秋 : 「俺も。大好きだぜ」
+</span><span style="color: #db7093">染谷千秋 : 「俺も。大好きだぜ」
 千冬の背中を優しく撫でながら、再び深く口付けます。
-</span><span class="chiaki">染谷千秋 : 「……な、笑ってる顔俺以外には見せんなよ。千冬の貴重な時間をどうでもいいやつに使わないでさ、話すことも、笑い合うことも、全部俺だけにして」
-</span><span class="chiaki">染谷千秋 : 千冬に口づけてにこりと笑います。
+</span><span style="color: #db7093">染谷千秋 : 「……な、笑ってる顔俺以外には見せんなよ。千冬の貴重な時間をどうでもいいやつに使わないでさ、話すことも、笑い合うことも、全部俺だけにして」
+</span><span style="color: #db7093">染谷千秋 : 千冬に口づけてにこりと笑います。
 「千冬のことを考えるのは俺だけでいーし、千冬のことなんも理解できねーやつが、外っ面だけで千冬にどんな目を向けてるか、……それを考えるだけで腹が立つし、俺以外の誰かが千冬と話したり、笑いあったり、触れたりしたら殺してやりたくなるけど、……この先、生きてたらそれも難しいだろ？」
-</span><span class="chiaki">染谷千秋 : 「だからさ、誰かが千冬にちょっかいを出そうとすんなら俺がそいつを遠ざけるよ。千冬の側には俺しかいないってこと、他のヤツが千冬に近づくこと自体が間違いだって思わせる。千冬は俺の知らないところで他のヤツと関わんないで。千冬のこと全部全部教えてよ」
-</span><span class="chiaki">染谷千秋 : 「誰と関わってんのか、どこに行って何をしてんのか、何を感じているのか、全部俺に教えて。隠し事なんてしないでくれよ。何を考えているのか、どんな夢を見たのか、新しくできた好きなもの、嫌いなもの、千冬が笑ったり泣いたりする理由も、誰と何を話したのかも、俺に教えてほしい。千冬のことを知って今よりもっと近くなりたい。全部を共有したいんだ。千冬の全部を教えてくれよ」
+</span><span style="color: #db7093">染谷千秋 : 「だからさ、誰かが千冬にちょっかいを出そうとすんなら俺がそいつを遠ざけるよ。千冬の側には俺しかいないってこと、他のヤツが千冬に近づくこと自体が間違いだって思わせる。千冬は俺の知らないところで他のヤツと関わんないで。千冬のこと全部全部教えてよ」
+</span><span style="color: #db7093">染谷千秋 : 「誰と関わってんのか、どこに行って何をしてんのか、何を感じているのか、全部俺に教えて。隠し事なんてしないでくれよ。何を考えているのか、どんな夢を見たのか、新しくできた好きなもの、嫌いなもの、千冬が笑ったり泣いたりする理由も、誰と何を話したのかも、俺に教えてほしい。千冬のことを知って今よりもっと近くなりたい。全部を共有したいんだ。千冬の全部を教えてくれよ」
 千冬の腰に手をあてて中指を滑らせます。鎖骨からみぞおちまで一直線になぞり、腹の奥を探るように手のひらで触れます。
-</span><span class="chiaki">染谷千秋 : 「千冬の一部を他のやつに見せる必要なんてないし、俺以外のやつに関わらせる価値もない。千冬と俺の間に他のやつが入り込むなんて許さない。俺が千冬を守るし、誰にも奪わせねーから。俺だけを見て、俺だけを感じて、俺だけを愛して、俺だけに構ってよ」
-</span><span class="chiaki">染谷千秋 : 「千冬が他の誰かに目移りしないように、全力で千冬のこと愛すからさ。絶対に離れんなよ。ずっと俺のそばにいて、永遠に俺だけの千冬でいて」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の一部を他のやつに見せる必要なんてないし、俺以外のやつに関わらせる価値もない。千冬と俺の間に他のやつが入り込むなんて許さない。俺が千冬を守るし、誰にも奪わせねーから。俺だけを見て、俺だけを感じて、俺だけを愛して、俺だけに構ってよ」
+</span><span style="color: #db7093">染谷千秋 : 「千冬が他の誰かに目移りしないように、全力で千冬のこと愛すからさ。絶対に離れんなよ。ずっと俺のそばにいて、永遠に俺だけの千冬でいて」
 にっこりと笑って千冬に口づけます。
-</span><span class="chifuyu">染谷千冬 : 「……ありがとう、千秋。俺は千秋に愛されているな。……そのことが、本当に嬉しいんだ。千秋が好きだ。好きだから、愛されて嬉しい。千秋に求められて嬉しい。すごく、満たされている。千秋、好きだ。ありがとう」
-</span><span class="chifuyu">染谷千冬 : 「俺も千秋を満たしたい。……他の人と関わらないことは難しいかもしれない。でも、頑張る。千秋の望むことを叶えたい。だから、千秋が遠ざけようとする必要はない。俺から拒否しよう」
-</span><span class="chifuyu">染谷千冬 : 「俺の全ては千秋のものだ。俺の思考も、感覚も、千秋に全部あげよう。千秋だけを見て、千秋だけを感じて、千秋だけを愛して、千秋だけに構う。……元々、千秋だけを愛している。言われるまでもない。ずっと千秋といる。俺はずっと千秋だけのものだ。好きにしてくれていい。何をされてもいい。いや、千秋の好きにされたい。……千秋のものになりたい。千秋、好きだ」
-</span><span class="chiaki">染谷千秋 : 「ありがと、千冬。……すげー嬉しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ありがとう、千秋。俺は千秋に愛されているな。……そのことが、本当に嬉しいんだ。千秋が好きだ。好きだから、愛されて嬉しい。千秋に求められて嬉しい。すごく、満たされている。千秋、好きだ。ありがとう」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺も千秋を満たしたい。……他の人と関わらないことは難しいかもしれない。でも、頑張る。千秋の望むことを叶えたい。だから、千秋が遠ざけようとする必要はない。俺から拒否しよう」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺の全ては千秋のものだ。俺の思考も、感覚も、千秋に全部あげよう。千秋だけを見て、千秋だけを感じて、千秋だけを愛して、千秋だけに構う。……元々、千秋だけを愛している。言われるまでもない。ずっと千秋といる。俺はずっと千秋だけのものだ。好きにしてくれていい。何をされてもいい。いや、千秋の好きにされたい。……千秋のものになりたい。千秋、好きだ」
+</span><span style="color: #db7093">染谷千秋 : 「ありがと、千冬。……すげー嬉しい」
 拒否という千冬の言葉に一度目を丸くした後、目を細めてこの上なく愉快そうに笑います。
-</span><span class="chiaki">染谷千秋 : 「世界で一番愛してる人に受け入れて、応えてもらってさ。言葉も、心も、身体も全部もらった俺は世界で一番幸福な人間だな」
-</span><span class="chiaki">染谷千秋 : 「お互いに愛し合ってずっと一緒にいようぜ。誰にも邪魔されずにお互いだけを見て生きていこう」
-</span><span class="chiaki">染谷千秋 : 「千冬の全部を愛してる。千冬は俺のもんで、俺の全部が千冬のもん」
+</span><span style="color: #db7093">染谷千秋 : 「世界で一番愛してる人に受け入れて、応えてもらってさ。言葉も、心も、身体も全部もらった俺は世界で一番幸福な人間だな」
+</span><span style="color: #db7093">染谷千秋 : 「お互いに愛し合ってずっと一緒にいようぜ。誰にも邪魔されずにお互いだけを見て生きていこう」
+</span><span style="color: #db7093">染谷千秋 : 「千冬の全部を愛してる。千冬は俺のもんで、俺の全部が千冬のもん」
 千冬の手を取って自らの胸に這わせます。心臓の位置に掌を押し付けてにこりと笑います。
-</span><span class="chiaki">染谷千秋 : 愉快な気持ちのまま千冬の背中に手を回します。
+</span><span style="color: #db7093">染谷千秋 : 愉快な気持ちのまま千冬の背中に手を回します。
 「なー千冬、したい」
 喉仏にキスマークをつけます。
-</span><span class="chifuyu">染谷千冬 : 「……俺のほうが幸福だ」
-</span><span class="chifuyu">染谷千冬 : 「ずっと一緒にいる。千秋だけを見ている。千秋の全部を愛している」
-</span><span class="chifuyu">染谷千冬 : 「……俺も、したい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺のほうが幸福だ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ずっと一緒にいる。千秋だけを見ている。千秋の全部を愛している」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺も、したい」
 同じく喉にキスマークをつけます。
-</span><span class="chiaki">染谷千秋 : くすりと笑います。
+</span><span style="color: #db7093">染谷千秋 : くすりと笑います。
 「俺達が一番幸福だな」
-</span><span class="chiaki">染谷千秋 : 千冬の顔を微笑みながら見た後、キスマークがついた箇所を一つ舐めます。服の中に手を滑らせて耳元で囁きます。
+</span><span style="color: #db7093">染谷千秋 : 千冬の顔を微笑みながら見た後、キスマークがついた箇所を一つ舐めます。服の中に手を滑らせて耳元で囁きます。
 「な、どうやって触られたい？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……千秋が触れられたい方法で触れられたい」
-</span><span class="chiaki">染谷千秋 : 「俺が触られたい方法？ ……なんでそうやって触られてえの？」
-</span><span class="chifuyu">染谷千冬 : 「千秋のしてほしい触れ方が分かるし、俺も真似ができる」
-</span><span class="chiaki">染谷千秋 : 「千冬に触られたらどんな方法でも嬉しーぜ？」
-</span><span class="chifuyu">染谷千冬 : 「俺もそうだ」
-</span><span class="chiaki">染谷千秋 : 「ふ、……それなら、一番ドキドキする触り方は？」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : （考えていること、全部……）
-</span><span class="chifuyu">染谷千冬 : 「くすぐられるのは全部、ドキドキする。胸に触れられた時、お腹、脚の付け根……ドキドキする。」
-</span><span class="chifuyu">染谷千冬 : 「……千秋は？」
-</span><span class="chiaki">染谷千秋 : 「へえ。くすぐられるのがいいんだ？ ……こうやって？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋が触れられたい方法で触れられたい」
+</span><span style="color: #db7093">染谷千秋 : 「俺が触られたい方法？ ……なんでそうやって触られてえの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋のしてほしい触れ方が分かるし、俺も真似ができる」
+</span><span style="color: #db7093">染谷千秋 : 「千冬に触られたらどんな方法でも嬉しーぜ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺もそうだ」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、……それなら、一番ドキドキする触り方は？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : （考えていること、全部……）
+</span><span style="color: #00bcd4">染谷千冬 : 「くすぐられるのは全部、ドキドキする。胸に触れられた時、お腹、脚の付け根……ドキドキする。」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋は？」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。くすぐられるのがいいんだ？ ……こうやって？」
 千冬の手を取り、掌を人差し指の先で円を書くように撫でます。
-</span><span class="chiaki">染谷千秋 : 「俺は、……」
+</span><span style="color: #db7093">染谷千秋 : 「俺は、……」
 く、と笑います。
 「千冬のかわいー顔で見つめられた時」
-</span><span class="chifuyu">染谷千冬 : 「う……」
+</span><span style="color: #00bcd4">染谷千冬 : 「う……」
 目を細めて千秋を見ます。
 「……それは、触れた時じゃない……」
-</span><span class="chiaki">染谷千秋 : 「見つめられながら触られると興奮するぜ？ 後は、……千冬、こっち来て、座って」
+</span><span style="color: #db7093">染谷千秋 : 「見つめられながら触られると興奮するぜ？ 後は、……千冬、こっち来て、座って」
 千冬を引き寄せて自分の上に乗せます。
-</span><span class="chifuyu">染谷千冬 : 千秋の上に座ります。
-</span><span class="chiaki">染谷千秋 : 千冬の手を取って自身の服の中に導きます。
+</span><span style="color: #00bcd4">染谷千冬 : 千秋の上に座ります。
+</span><span style="color: #db7093">染谷千秋 : 千冬の手を取って自身の服の中に導きます。
 「こうやって自分で触ってほしいとこに手持ってかれんのも好きだぜ」
-</span><span class="chifuyu">染谷千冬 : 「……俺ばっかりだ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺ばっかりだ」
 ｼｮﾓ(´・ω・｀)
-</span><span class="chiaki">染谷千秋 : しょもりとした千冬の頭を撫でます。
+</span><span style="color: #db7093">染谷千秋 : しょもりとした千冬の頭を撫でます。
 「千冬を触んのが好きなんだよ。それから、こうやってされんのも好きだぜ」
 千冬の腕を強く掴んで引っ張ります。足を千冬の腰に回して踝で千冬の腰を押します。
-</span><span class="chiaki">染谷千秋 : 「えっちしてる時に千冬がやるやつ。俺のこと大好きだって感じるから好き」
-</span><span class="chifuyu">染谷千冬 : 「……そうか。今、俺も嬉しい」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 体を倒して、ぺったりと肌をくっつけます。
-</span><span class="chifuyu">染谷千冬 : 「重くないか」
-</span><span class="chiaki">染谷千秋 : 「全然」
-</span><span class="chifuyu">染谷千冬 : 「そうか」
+</span><span style="color: #db7093">染谷千秋 : 「えっちしてる時に千冬がやるやつ。俺のこと大好きだって感じるから好き」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうか。今、俺も嬉しい」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 体を倒して、ぺったりと肌をくっつけます。
+</span><span style="color: #00bcd4">染谷千冬 : 「重くないか」
+</span><span style="color: #db7093">染谷千秋 : 「全然」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか」
 千秋の上でじっと温もりを感じています。
 「たくさん触ってくれ」
-</span><span class="chiaki">染谷千秋 : にこりと笑って千冬の手をとります。
+</span><span style="color: #db7093">染谷千秋 : にこりと笑って千冬の手をとります。
 「千冬、胸に触られた時ドキドキするって言っただろ。……手は？ ドキドキしない？」
-</span><span class="chifuyu">染谷千冬 : 「ドキドキ……じゃない。ギュッてする」
-</span><span class="chiaki">染谷千秋 : 「ギュッ？ て？」
-</span><span class="chifuyu">染谷千冬 : 「胸が苦しくて、でも幸せだ」
-</span><span class="chiaki">染谷千秋 : 「苦しくなる程俺のこと好きなんだ？ ……」
+</span><span style="color: #00bcd4">染谷千冬 : 「ドキドキ……じゃない。ギュッてする」
+</span><span style="color: #db7093">染谷千秋 : 「ギュッ？ て？」
+</span><span style="color: #00bcd4">染谷千冬 : 「胸が苦しくて、でも幸せだ」
+</span><span style="color: #db7093">染谷千秋 : 「苦しくなる程俺のこと好きなんだ？ ……」
 手の甲に口づけを落とします。その後千冬の手に指を絡めます。
 「今もギュッとする？」
-</span><span class="chifuyu">染谷千冬 : 「する」
-</span><span class="chiaki">染谷千秋 : 「ふ、かわいーの。……千冬、手広げて」
-</span><span class="chifuyu">染谷千冬 : 言われた通りに手を広げます。
-</span><span class="chiaki">染谷千秋 : 千冬の手のひらに指先をたてます。それからゆっくりと円を書くようになぞります。
+</span><span style="color: #00bcd4">染谷千冬 : 「する」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、かわいーの。……千冬、手広げて」
+</span><span style="color: #00bcd4">染谷千冬 : 言われた通りに手を広げます。
+</span><span style="color: #db7093">染谷千秋 : 千冬の手のひらに指先をたてます。それからゆっくりと円を書くようになぞります。
 「こう触ったら？ どう感じる？」
-</span><span class="chifuyu">染谷千冬 : 「あ……う、……千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「あ……う、……千秋……」
 心臓をドクリと鳴らします。
-</span><span class="chiaki">染谷千秋 : 心臓の音に気付いて口角をあげます。
+</span><span style="color: #db7093">染谷千秋 : 心臓の音に気付いて口角をあげます。
 「どうなの？ 答えてよ、千冬」
 千冬の首にひとつ口付けて、千冬が口にするまでくるくるとなぞって遊びます。
-</span><span class="chifuyu">染谷千冬 : 「ギュッてする……苦しい、好き」
-</span><span class="chiaki">染谷千秋 : 「ふ、そっか。これは？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ギュッてする……苦しい、好き」
+</span><span style="color: #db7093">染谷千秋 : 「ふ、そっか。これは？」
 軽く爪を立てた後に指を一本一本なぞります。指先から水かき、手首まで、皮膚の薄い部分を時折擽ります。
-</span><span class="chifuyu">染谷千冬 : 「ん……好き……」
+</span><span style="color: #00bcd4">染谷千冬 : 「ん……好き……」
 鼓動を早めながら、目を閉じて感覚を集中させます。
-</span><span class="chiaki">染谷千秋 : 「その調子だぜ。……擽られんの好きになっちゃった？」
+</span><span style="color: #db7093">染谷千秋 : 「その調子だぜ。……擽られんの好きになっちゃった？」
 千冬の耳元でぼそぼそ話しながら、皮膚の薄い部分を引っ掻いたりなぞります。
-</span><span class="chifuyu">染谷千冬 : 「……手はそれほどくすぐったくない。ドキドキする」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……くすぐられるのも……、ドキドキする……気持ちいい、……」
-</span><span class="chiaki">染谷千秋 : 「気持ちいい時にドキドキするんだ。 今は？ドキドキする？ ギュッとする？」
-</span><span class="chifuyu">染谷千冬 : 「どっちもする……」
-</span><span class="chiaki">染谷千秋 : 上機嫌に笑いながら千冬に口づけます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……手はそれほどくすぐったくない。ドキドキする」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……くすぐられるのも……、ドキドキする……気持ちいい、……」
+</span><span style="color: #db7093">染谷千秋 : 「気持ちいい時にドキドキするんだ。 今は？ドキドキする？ ギュッとする？」
+</span><span style="color: #00bcd4">染谷千冬 : 「どっちもする……」
+</span><span style="color: #db7093">染谷千秋 : 上機嫌に笑いながら千冬に口づけます。
 「ギュッとしてドキドキもしてたら、千冬の心臓疲れちゃうな」
-</span><span class="chifuyu">染谷千冬 : 「でも、幸せだ」
-</span><span class="chiaki">染谷千秋 : 千冬の言葉に微笑みます。
+</span><span style="color: #00bcd4">染谷千冬 : 「でも、幸せだ」
+</span><span style="color: #db7093">染谷千秋 : 千冬の言葉に微笑みます。
 「幸せならいっか。俺も幸せだぜ」
 千冬に口づけた後、手を取り指にもキスを落とします。
-</span><span class="chifuyu">染谷千冬 : 自分からも千秋に口づけを返します。千秋の横に寝転がって、千秋の服の下に手のひらを潜ませながら肌を撫でます。
-</span><span class="chiaki">染谷千秋 : 「好きなだけ触ってよ」
+</span><span style="color: #00bcd4">染谷千冬 : 自分からも千秋に口づけを返します。千秋の横に寝転がって、千秋の服の下に手のひらを潜ませながら肌を撫でます。
+</span><span style="color: #db7093">染谷千秋 : 「好きなだけ触ってよ」
 脚を千冬の脚に絡め、服をたくし上げます。千冬の好きなように触らせます。
-</span><span class="chifuyu">染谷千冬 : 「ああ……」
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chifuyu">染谷千冬 : 「……千秋、たくさんキスがしたい」
-</span><span class="chiaki">染谷千秋 : 「ん、……」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋、たくさんキスがしたい」
+</span><span style="color: #db7093">染谷千秋 : 「ん、……」
 千冬の唇に軽くキスします。
 「どんなキスがいい？」
-</span><span class="chifuyu">染谷千冬 : 「ずっとしたい」
-</span><span class="chiaki">染谷千秋 : 「ずっとな」
+</span><span style="color: #00bcd4">染谷千冬 : 「ずっとしたい」
+</span><span style="color: #db7093">染谷千秋 : 「ずっとな」
 くすりと笑って千冬と唇を合わせます。千冬の頭をなでながら、上唇をやわやわと噛んだ後にそっと舌を差し込みます。
-</span><span class="chifuyu">染谷千冬 : 「んう」
+</span><span style="color: #00bcd4">染谷千冬 : 「んう」
 千秋と舌を交わしながら、ずっと唇を合わせます。千秋の背中を擦り撫でます。
-</span><span class="chiaki">染谷千秋 : 千冬の顔をじっと見つめながら、舌を吸います。柔らかな肉を引きずり出した後絡ませて、唇をぴったり添えます。唇を合わせながら千冬の喉仏を一つなでて、親指を柔らかく押し込みます。
-</span><span class="chifuyu">染谷千冬 : 「ぁ……ちあき……」
+</span><span style="color: #db7093">染谷千秋 : 千冬の顔をじっと見つめながら、舌を吸います。柔らかな肉を引きずり出した後絡ませて、唇をぴったり添えます。唇を合わせながら千冬の喉仏を一つなでて、親指を柔らかく押し込みます。
+</span><span style="color: #00bcd4">染谷千冬 : 「ぁ……ちあき……」
 手を千秋の首に這わせて、同じように喉仏に触れます。
 「……は、……」
-</span><span class="chiaki">染谷千秋 : 「ん、……千冬」
+</span><span style="color: #db7093">染谷千秋 : 「ん、……千冬」
 喉仏や首のラインをなぞります。歯列をなぞり、上顎を舌先で擽ります。舌の付け根に舌先をくっつけて唾液を交換します。千冬の身体全体を撫でながら、脚先を合わせます。
-</span><span class="chifuyu">染谷千冬 : 「ん……はぁ……千秋」
-</span><span class="chiaki">染谷千秋 : 喘ぐ千冬の口を塞ぎます。唇を離した後に立て続けに塞ぎ、唇を重ねます。
+</span><span style="color: #00bcd4">染谷千冬 : 「ん……はぁ……千秋」
+</span><span style="color: #db7093">染谷千秋 : 喘ぐ千冬の口を塞ぎます。唇を離した後に立て続けに塞ぎ、唇を重ねます。
 
-</span><span class="kp">そうして千秋は千冬の望み通りにキスを続けた。ぐらぐらと酩酊するのは酒気が混じっているからだろうか。
+</span><span style="color: #000">そうして千秋は千冬の望み通りにキスを続けた。ぐらぐらと酩酊するのは酒気が混じっているからだろうか。
 ――いや、千秋はバーにいた時から酔っていなかったのだ。今更この程度で酔いはしない。
 互いの存在だけで深く深く沈み込んでいく。手のひらで相手を確かめ、体をひとつに重ね、混ぜ合わせる。
 相手を支配し、支配される感覚に幸福を感じる。それができるのは、この世でたった一人、自身だけなのだから。
 この世界に自分たちしかいないのだと錯覚しそうなほど温かで心地の良い時間に没頭し、互いしか映らない瞳に満足を覚えた。
 そうして長い間行為に耽った後、二人は抱きしめ合って、微笑みながら眠ったのだった。
-</span><span class="kp">・・・
-</span><span class="kp">水曜日。明日は引っ越しだ。今日は九州でゆっくりと過ごせる最後の日となる。予定は一日空いていた。朝ご飯を食べた後、千冬が口を開いた。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">水曜日。明日は引っ越しだ。今日は九州でゆっくりと過ごせる最後の日となる。予定は一日空いていた。朝ご飯を食べた後、千冬が口を開いた。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋、出かけないか」
-</span><span class="chiaki">染谷千秋 : 「いいぜ。出かけるってどこに？」
-</span><span class="chifuyu">染谷千冬 : 「散歩がしたい」
-</span><span class="chiaki">染谷千秋 : 「場所は？　決まってる？」
-</span><span class="chifuyu">染谷千冬 : 「……近くの並木道はどうだ」
-</span><span class="chiaki">染谷千秋 : 「いいな、並木道。行こうぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、出かけないか」
+</span><span style="color: #db7093">染谷千秋 : 「いいぜ。出かけるってどこに？」
+</span><span style="color: #00bcd4">染谷千冬 : 「散歩がしたい」
+</span><span style="color: #db7093">染谷千秋 : 「場所は？　決まってる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……近くの並木道はどうだ」
+</span><span style="color: #db7093">染谷千秋 : 「いいな、並木道。行こうぜ」
 
-</span><span class="kp">小さな鞄を持って二人は家を出る。そして、家の近くの並木道を歩いた。
+</span><span style="color: #000">小さな鞄を持って二人は家を出る。そして、家の近くの並木道を歩いた。
 もう十分に寒い季節だ。冷たい風が頬に当たる。しかし千秋は、首に巻いたマフラーと千冬の手から温もりを感じていた。千冬は満足そうにまわりの景色を眺めている。
-</span><span class="kp">並木道の終わりに差し掛かった時、千冬がふと歩みを止めた。
+</span><span style="color: #000">並木道の終わりに差し掛かった時、千冬がふと歩みを止めた。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。今から海へ行こう」
-</span><span class="chiaki">染谷千秋 : 「ああ、いいぜ。そういやこの近くの海行ったことなかったな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。電車に乗って行こう」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。今から海へ行こう」
+</span><span style="color: #db7093">染谷千秋 : 「ああ、いいぜ。そういやこの近くの海行ったことなかったな」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。電車に乗って行こう」
 千秋の手をぎゅ、と握ります。
-</span><span class="chiaki">染谷千秋 : 「おー、行こうぜ」
+</span><span style="color: #db7093">染谷千秋 : 「おー、行こうぜ」
 千冬の手に指を絡めます！海に行く！
 
-</span><span class="kp">千冬からの誘いだ、千秋が断るわけがない。千冬の突然の思いつきで、二人は海へ向かうこととなった。
+</span><span style="color: #000">千冬からの誘いだ、千秋が断るわけがない。千冬の突然の思いつきで、二人は海へ向かうこととなった。
 かつての千冬は一人でぶらりと出かけることが多かった。それは近場の散歩から、電車で何十駅も離れた場所へ向かうことまであった。
 千秋が千冬に自身の思いを打ち明けてから、あるいは怪異に巻き込まれるようになってから、千冬が一人で突然外出する機会はめっきりと減り、外出は事前に誘われることが多くなった。
 そのため、なんとなく以前の千冬を思い出すかもしれない。なんならもっと幼い頃の千冬は、自然に惹かれてふらふらとどこかに行ってしまうことが多かった。それをいつも千秋が探しに行ったのだ。千冬は今でもあまり変わっていないのだろうか。
-</span><span class="kp">・・・
+</span><span style="color: #000">・・・
 </span>
-
-<style>\*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.green{color:#2a6762}</style>

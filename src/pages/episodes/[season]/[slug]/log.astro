@@ -15,7 +15,7 @@ import {
   type SeasonInfo,
 } from "../../../../lib/episodes";
 import {
-  episodeLogHeadingLabel,
+  episodeOverviewLabel,
   resolveLogNavigation,
 } from "../../../../lib/episodes/view";
 import {
@@ -100,7 +100,7 @@ const mainSection = sectionEntries.main;
 const pageDescription =
   mainSection?.data.scenario?.description ?? episode.description.split("\n")[0] ?? episode.title;
 
-const episodeNumberLabel = episodeLogHeadingLabel(episode, episodesPageMsg.labels.deletedEpisodeTag);
+const episodeNumberLabel = episodeOverviewLabel(episode);
 const badges = [
   episode.isR18G ? commonMsg.badges.r18g : undefined,
   episode.isR18 ? commonMsg.badges.r18 : undefined,

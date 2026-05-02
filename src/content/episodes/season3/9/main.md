@@ -28,532 +28,532 @@ custom:
   isCompactDescription: false
 ---
 
-<span class="kp">あなたは深夜、暗い夜道を歩いている、否早歩きをしているだろうか？それとも走っている？なんのためだろうか、それはあなたの最愛を探すためだ。
+<span style="color: #000">あなたは深夜、暗い夜道を歩いている、否早歩きをしているだろうか？それとも走っている？なんのためだろうか、それはあなたの最愛を探すためだ。
 あなたの最愛である千冬は数日前に失踪した。……目を離した隙に見失い、そのまま見つからず帰らなくなった千冬に、それらに直面し酷く慌てたことだろう、それともまた、またかと諦念を抱いたか。どちらにせよあなたは千冬を探し、見つけ出さなくてはいけない。警察はあてにならないだろう、数日経ったというのに手がかり一つ見つけ出せない彼らなど。
 コンピューターか図書館をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=80 【図書館】 (1D100<=80) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=80 【図書館】 (1D100<=80) ＞ 68 ＞ 成功
 
-</span><span class="kp">あなたは千冬を探す傍ら、他の失踪者についての情報も得ていた。あなたの住んでいる町ではここ一年、失踪者が相次いでいる。それは少年だったり老婆であったりと共通点は薄い。そのせいか警察の捜査も上手くいっていないようだが、一年という期間に対して見るならば、あまりにも進展が遅いと感じる。
-</span><span class="kp">そんな思考をしながら夜道を進む。何もせず待つことはできなかったし、誘拐ならば、誘拐されることで情報が得られる可能性もあった、つまり冷静ではなかった。そんな頭もこの肌を切る冷気で少しは落ち着いたようだ。公園にほの暗さと共に佇む時計を見て、今日はもう帰ろう、そんな考えがよぎる。
-</span><span class="kp">このまま帰ってもいいし、まだ探せば何か手がかりがあるかもしれない。
+</span><span style="color: #000">あなたは千冬を探す傍ら、他の失踪者についての情報も得ていた。あなたの住んでいる町ではここ一年、失踪者が相次いでいる。それは少年だったり老婆であったりと共通点は薄い。そのせいか警察の捜査も上手くいっていないようだが、一年という期間に対して見るならば、あまりにも進展が遅いと感じる。
+</span><span style="color: #000">そんな思考をしながら夜道を進む。何もせず待つことはできなかったし、誘拐ならば、誘拐されることで情報が得られる可能性もあった、つまり冷静ではなかった。そんな頭もこの肌を切る冷気で少しは落ち着いたようだ。公園にほの暗さと共に佇む時計を見て、今日はもう帰ろう、そんな考えがよぎる。
+</span><span style="color: #000">このまま帰ってもいいし、まだ探せば何か手がかりがあるかもしれない。
 千秋はどうする？
 
-</span><span class="chiaki">染谷千秋 : （……、千冬。どこにいるんだよ……）
-</span><span class="chiaki">染谷千秋 : 行方不明者の死亡率は1週間以内がピークだということを知っています。
+</span><span style="color: #db7093">染谷千秋 : （……、千冬。どこにいるんだよ……）
+</span><span style="color: #db7093">染谷千秋 : 行方不明者の死亡率は1週間以内がピークだということを知っています。
 冷静でいられません。警察の捜査を待つ時間すら惜しいです。
 まだまだ探します。
 
-</span><span class="kp">いや、まだだ。そう決めて速度を落としかけた足に力を入れなおし、うつむかけた視線を前に見据えなおす。
+</span><span style="color: #000">いや、まだだ。そう決めて速度を落としかけた足に力を入れなおし、うつむかけた視線を前に見据えなおす。
 目星をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 31 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 31 ＞ 成功
 
-</span><span class="kp">この真夜中の暗闇を照らす街灯、その下、誰かが立っている。見間違いだろうか、顔は影になっていてよく見えないが千冬によく似ている気がする。
+</span><span style="color: #000">この真夜中の暗闇を照らす街灯、その下、誰かが立っている。見間違いだろうか、顔は影になっていてよく見えないが千冬によく似ている気がする。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】冷静/焦ってる (1D100<=80) ＞ 14 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 「……千冬」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】冷静/焦ってる (1D100<=80) ＞ 14 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 「……千冬」
 警戒しながら近づき、声をかけます。
 
-</span><span class="kp">あなたは歩を進める。10m、5m、そして、
-</span><span class="kp">「あなたが千秋ですか？」
-</span><span class="kp">顔が見える。やはり千冬だった。その姿、顔、髪色、目つき、声、どれも間違いない、間違えようがない。
+</span><span style="color: #000">あなたは歩を進める。10m、5m、そして、
+</span><span style="color: #000">「あなたが千秋ですか？」
+</span><span style="color: #000">顔が見える。やはり千冬だった。その姿、顔、髪色、目つき、声、どれも間違いない、間違えようがない。
 
-</span><span class="chiaki">染谷千秋 : まるで千冬をコピーしてきたかような目の前の人物を見て、千冬が人為的な事件に巻き込まれたのではなく、怪奇現象に巻き込まれたのだと察します。
-</span><span class="chiaki">染谷千秋 : 「……ああ。お前は誰だ。千冬は何処にいる？」
+</span><span style="color: #db7093">染谷千秋 : まるで千冬をコピーしてきたかような目の前の人物を見て、千冬が人為的な事件に巻き込まれたのではなく、怪奇現象に巻き込まれたのだと察します。
+</span><span style="color: #db7093">染谷千秋 : 「……ああ。お前は誰だ。千冬は何処にいる？」
 十分な距離を保ったまま尋ねます。
-</span><span class="purple">染谷千冬？ : 「私？　私は……私の個を示す名前はありません。好きに呼んでください」
-</span><span class="purple">染谷千冬？ : 「私が先程までいた場所に、千冬と私の同胞がいます。彼らは他者によって閉じ込められており、おそらくあなたの助けが必要です」
-</span><span class="purple">染谷千冬？ : 「私は同胞のため、あなたは千冬を助けるため。私一人では手に余ります。協力していただけませんか」
-</span><span class="chiaki">染谷千秋 : （……誘いに乗るか。警察も俺も、千冬に繋がる手がかりは何一つ見つけられてない。例の事件と繋がりがあんなら二度と帰ってこない可能性もある。……そんなことはさせねー。こいつの提案が罠だとしても、俺はこの誘いに乗る）
-</span><span class="chiaki">染谷千秋 : 「分かった。その場所は何処だ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「私？　私は……私の個を示す名前はありません。好きに呼んでください」
+</span><span style="color: #ac67c3">染谷千冬？ : 「私が先程までいた場所に、千冬と私の同胞がいます。彼らは他者によって閉じ込められており、おそらくあなたの助けが必要です」
+</span><span style="color: #ac67c3">染谷千冬？ : 「私は同胞のため、あなたは千冬を助けるため。私一人では手に余ります。協力していただけませんか」
+</span><span style="color: #db7093">染谷千秋 : （……誘いに乗るか。警察も俺も、千冬に繋がる手がかりは何一つ見つけられてない。例の事件と繋がりがあんなら二度と帰ってこない可能性もある。……そんなことはさせねー。こいつの提案が罠だとしても、俺はこの誘いに乗る）
+</span><span style="color: #db7093">染谷千秋 : 「分かった。その場所は何処だ」
 
-</span><span class="kp">あなたはもう、目の前の彼が千冬ではないと理解しているだろう。なのに、この同一人物のような、双子のような外見はなんだ？　まるで彼が中身だけ挿げ替えられたかのような、亡霊でも見ているような――そんな奇妙な浮遊感、寒気に❮SANc 0/1❯
+</span><span style="color: #000">あなたはもう、目の前の彼が千冬ではないと理解しているだろう。なのに、この同一人物のような、双子のような外見はなんだ？　まるで彼が中身だけ挿げ替えられたかのような、亡霊でも見ているような――そんな奇妙な浮遊感、寒気に❮SANc 0/1❯
 
-</span><span class="chiaki">染谷千秋 : 1d100<=59 【正気度ロール】 (1D100<=59) ＞ 77 ＞ 失敗
-</span><span class="purple">染谷千冬？ : 「私にはその場所を説明するための語彙が混濁しています。だからついてきてほしいのです」
-</span><span class="chiaki">染谷千秋 : 「そうか。……助けってのは？」
-</span><span class="purple">染谷千冬？ : 「……わかりません。ですが、そして私は私以外の誰かの助けが必要です。だから、記憶にあったあなたに会いに来ました」
-</span><span class="chiaki">染谷千秋 : 「記憶、か。記憶はどうやって読み取ったんだ。……その身体、千冬のものなのか」
-</span><span class="purple">染谷千冬？ : 「それは……分かりません。私は千冬の姿になれますが、千冬ではありません」
-</span><span class="chiaki">染谷千秋 : （千冬の姿になる、か。……千冬の身体じゃないのか？）
-</span><span class="chiaki">染谷千秋 : 「それは嫌んなる程分かってる。……千冬はそんな喋り方しない」
-</span><span class="purple">染谷千冬？ : 「そうですか。千冬はどんな喋り方をしますか？」
-</span><span class="chiaki">染谷千秋 : 「……それ聞いてどうすんだよ」
-</span><span class="purple">染谷千冬？ : 「真似をしてみようかと思いました」
-</span><span class="chiaki">染谷千秋 : 「ハ、……絶対すんな」
-</span><span class="chiaki">染谷千秋 : 「その場所に物は持ってけんのか？」
-</span><span class="purple">染谷千冬？ : 「そうですか」
-</span><span class="purple">染谷千冬？ : 「可能です。むしろ、私たちはこれから敵地ともいえる場所へ行くのです。何か用意するものがあるなら、今しておくべきでしょう」
-</span><span class="chiaki">染谷千秋 : 「敵地……」
-</span><span class="chiaki">染谷千秋 : 「その敵についての情報を教えろ。お前が持ってる情報全部」
-</span><span class="purple">染谷千冬？ : 「仲間が囚われています。囚われている場所は……こう……こんな感じの建物でこう……こういう感じです。敵は……こう……」
+</span><span style="color: #db7093">染谷千秋 : 1d100<=59 【正気度ロール】 (1D100<=59) ＞ 77 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千冬？ : 「私にはその場所を説明するための語彙が混濁しています。だからついてきてほしいのです」
+</span><span style="color: #db7093">染谷千秋 : 「そうか。……助けってのは？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……わかりません。ですが、そして私は私以外の誰かの助けが必要です。だから、記憶にあったあなたに会いに来ました」
+</span><span style="color: #db7093">染谷千秋 : 「記憶、か。記憶はどうやって読み取ったんだ。……その身体、千冬のものなのか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「それは……分かりません。私は千冬の姿になれますが、千冬ではありません」
+</span><span style="color: #db7093">染谷千秋 : （千冬の姿になる、か。……千冬の身体じゃないのか？）
+</span><span style="color: #db7093">染谷千秋 : 「それは嫌んなる程分かってる。……千冬はそんな喋り方しない」
+</span><span style="color: #ac67c3">染谷千冬？ : 「そうですか。千冬はどんな喋り方をしますか？」
+</span><span style="color: #db7093">染谷千秋 : 「……それ聞いてどうすんだよ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「真似をしてみようかと思いました」
+</span><span style="color: #db7093">染谷千秋 : 「ハ、……絶対すんな」
+</span><span style="color: #db7093">染谷千秋 : 「その場所に物は持ってけんのか？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「そうですか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「可能です。むしろ、私たちはこれから敵地ともいえる場所へ行くのです。何か用意するものがあるなら、今しておくべきでしょう」
+</span><span style="color: #db7093">染谷千秋 : 「敵地……」
+</span><span style="color: #db7093">染谷千秋 : 「その敵についての情報を教えろ。お前が持ってる情報全部」
+</span><span style="color: #ac67c3">染谷千冬？ : 「仲間が囚われています。囚われている場所は……こう……こんな感じの建物でこう……こういう感じです。敵は……こう……」
 両手を奇妙に動かしています。
-</span><span class="chiaki">染谷千秋 : 「……」（だりー）
+</span><span style="color: #db7093">染谷千秋 : 「……」（だりー）
 こっちから質問した方が早そうだなと思います。
-</span><span class="chiaki">染谷千秋 : 「その敵の拠点はどこにあんだ。ここから近いのか？」
-</span><span class="purple">染谷千冬？ : 「あっちです。……おそらく……」
-</span><span class="chiaki">染谷千秋 : 「分かんねーの？」
-</span><span class="purple">染谷千冬？ : 「記憶が混濁しています。でも、案内はできます。行けばわかります」
-</span><span class="chiaki">染谷千秋 : 「そーかよ。敵は何人だ」
-</span><span class="purple">染谷千冬？ : 「たくさんいます」
-</span><span class="chiaki">染谷千秋 : 「そ。……頭は働くか？罠仕掛けてきたり、戦略組んできたり、そういうのできるやつらか」
-</span><span class="purple">染谷千冬？ : 「……記憶が……思い出せません」
-</span><span class="chiaki">染谷千秋 : 「ならできると思ってた方がいいな。こっちの攻撃は通じんの。殴ったり蹴ったりで怯むと思うか」
-</span><span class="purple">染谷千冬？ : 「あなたなら大丈夫です」
-</span><span class="chiaki">染谷千秋 : 「俺なら？……それはどういう意味だ？他のやつじゃ駄目なのか」
-</span><span class="purple">染谷千冬？ : 「頼りになるから」
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】無表情/嫌な顔をする (1D100<=80) ＞ 68 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「その敵の拠点はどこにあんだ。ここから近いのか？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「あっちです。……おそらく……」
+</span><span style="color: #db7093">染谷千秋 : 「分かんねーの？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「記憶が混濁しています。でも、案内はできます。行けばわかります」
+</span><span style="color: #db7093">染谷千秋 : 「そーかよ。敵は何人だ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「たくさんいます」
+</span><span style="color: #db7093">染谷千秋 : 「そ。……頭は働くか？罠仕掛けてきたり、戦略組んできたり、そういうのできるやつらか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……記憶が……思い出せません」
+</span><span style="color: #db7093">染谷千秋 : 「ならできると思ってた方がいいな。こっちの攻撃は通じんの。殴ったり蹴ったりで怯むと思うか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「あなたなら大丈夫です」
+</span><span style="color: #db7093">染谷千秋 : 「俺なら？……それはどういう意味だ？他のやつじゃ駄目なのか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「頼りになるから」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無表情/嫌な顔をする (1D100<=80) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「……」
 無表情で次の質問をします。
 「敵地については何も覚えてねーのか。建物の構造は？」
-</span><span class="purple">染谷千冬？ : 「構造は……確かこうで……いや、こうだったかも……」
+</span><span style="color: #ac67c3">染谷千冬？ : 「構造は……確かこうで……いや、こうだったかも……」
 また手を奇妙にぐねぐねしています。
-</span><span class="chiaki">染谷千秋 : 千冬を探す間、情報のやり取りをするために持ち運んでた紙とペンを取り出します。
+</span><span style="color: #db7093">染谷千秋 : 千冬を探す間、情報のやり取りをするために持ち運んでた紙とペンを取り出します。
 「これで書いてみろ」
-</span><span class="purple">染谷千冬？ : 「ここが……こうで……あれ……？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「ここが……こうで……あれ……？」
 迷路のように道が曲がりくねった後、手が止まります。
 「……行けばわかります」
-</span><span class="chiaki">染谷千秋 : 「乗り込んだとして、脱出できる手立てはあんのか」
-</span><span class="purple">染谷千冬？ : 「あなたなら大丈夫です。私も頑張ります」
-</span><span class="chiaki">染谷千秋 : 「俺はどうでもいい。……千冬達が怪我してる可能性もある。できれば事前に脱出経路を確保しておきたい。欲を言えば広い道がいい。分かるか？」
-</span><span class="purple">染谷千冬？ : 「……思い出せません。でも、行けばきっと思い出せます」
-</span><span class="purple">染谷千冬？ : 「夜の間に全て済ませたいです。協力していただけるなら、早く向かいましょう。……あ、でも準備は構いません。お家に帰りますか？」
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 昔ヤクザと関わってた頃の記憶を頼りに武器庫に向かいたいです！なんか振らせてください！
+</span><span style="color: #db7093">染谷千秋 : 「乗り込んだとして、脱出できる手立てはあんのか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「あなたなら大丈夫です。私も頑張ります」
+</span><span style="color: #db7093">染谷千秋 : 「俺はどうでもいい。……千冬達が怪我してる可能性もある。できれば事前に脱出経路を確保しておきたい。欲を言えば広い道がいい。分かるか？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……思い出せません。でも、行けばきっと思い出せます」
+</span><span style="color: #ac67c3">染谷千冬？ : 「夜の間に全て済ませたいです。協力していただけるなら、早く向かいましょう。……あ、でも準備は構いません。お家に帰りますか？」
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 昔ヤクザと関わってた頃の記憶を頼りに武器庫に向かいたいです！なんか振らせてください！
 
-</span><span class="kp">以下のダイスロールをどうぞ！
+</span><span style="color: #000">以下のダイスロールをどうぞ！
 ①この近くに武器庫があるか幸運 「失敗」で存在する
 ②武器庫の場所を思い出せるかアイデア
 ③武器庫に人がいないかどうか幸運-50
 
-</span><span class="chiaki">染谷千秋 : CCB<=80 【幸運】 (1D100<=80) ＞ 24 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 駄目だったﾜ
+</span><span style="color: #db7093">染谷千秋 : CCB<=80 【幸運】 (1D100<=80) ＞ 24 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 駄目だったﾜ
 
-</span><span class="kp">近場には武器庫はありませんでした。
-</span><span class="kp">s1d3+1 (1D3+1) ＞ 2[2]+1 ＞ 3
+</span><span style="color: #000">近場には武器庫はありませんでした。
+</span><span style="color: #000">s1d3+1 (1D3+1) ＞ 2[2]+1 ＞ 3
 
-</span><span class="kp">チンピラ : 「おい兄ちゃんたち！　よぉこんな時間になにしてんの～？」
+</span><span style="color: #000">チンピラ : 「おい兄ちゃんたち！　よぉこんな時間になにしてんの～？」
 
-</span><span class="kp">あなたたちが外で会話をしていると、近場の公園でたむろしていたチンピラ4人に絡まれる。
+</span><span style="color: #000">あなたたちが外で会話をしていると、近場の公園でたむろしていたチンピラ4人に絡まれる。
 
-</span><span class="kp">チンピラ : 「真夜中に出歩くなんてあぶねえなぁ、なあ？？」
-</span><span class="chiaki">染谷千秋 : チンピラに声かけられた瞬間千冬に走れと言って逃げたいです！！！！
-</span><span class="purple">染谷千冬？ : 「走れ……？」
+</span><span style="color: #000">チンピラ : 「真夜中に出歩くなんてあぶねえなぁ、なあ？？」
+</span><span style="color: #db7093">染谷千秋 : チンピラに声かけられた瞬間千冬に走れと言って逃げたいです！！！！
+</span><span style="color: #ac67c3">染谷千冬？ : 「走れ……？」
 
-</span><span class="kp">千秋に声をかけられてもなお、千冬の姿をしたものはぼんやりとしている。状況を飲み込めていないようだ。
+</span><span style="color: #000">千秋に声をかけられてもなお、千冬の姿をしたものはぼんやりとしている。状況を飲み込めていないようだ。
 
-</span><span class="kp">チンピラ : 「ちょうどいいや、俺たちと遊んでこうぜ、いいだろ？　暇なんだろ？」
-</span><span class="purple">染谷千冬？ : 「遊ぶ？　どうしてですか？」
-</span><span class="kp">チンピラ : 「つれねえなぁ～？　いいじゃねえかちょっとくらいよぉ」
+</span><span style="color: #000">チンピラ : 「ちょうどいいや、俺たちと遊んでこうぜ、いいだろ？　暇なんだろ？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「遊ぶ？　どうしてですか？」
+</span><span style="color: #000">チンピラ : 「つれねえなぁ～？　いいじゃねえかちょっとくらいよぉ」
 
-</span><span class="kp">そういいながら、チンピラの一人が「何か」の腕を掴もうとする。その時、
+</span><span style="color: #000">そういいながら、チンピラの一人が「何か」の腕を掴もうとする。その時、
 
 吹っ飛んだ。
 
 チンピラが勢いよく宙を舞い、公園の前に置かれているゴミ箱にホールインワン。
 吹っ飛んだ彼も、仲間のチンピラも、そしてあなたも、何が起きたかまったく理解できない。ただ「誰か」が、
 
-</span><span class="purple">染谷千冬？ : 「あれ、力加減を誤りましたか？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「あれ、力加減を誤りましたか？」
 
-</span><span class="kp">なんて呟いたのが聞こえた。
+</span><span style="color: #000">なんて呟いたのが聞こえた。
 
-</span><span class="kp">チンピラ : 「兄貴ィ！？」
+</span><span style="color: #000">チンピラ : 「兄貴ィ！？」
 
-</span><span class="kp">激高したチンピラの残りがあなたたちに向かってきます。戦闘開始です。
-</span><span class="kp">まずチンピラAの攻撃です。
+</span><span style="color: #000">激高したチンピラの残りがあなたたちに向かってきます。戦闘開始です。
+</span><span style="color: #000">まずチンピラAの攻撃です。
 
-</span><span class="kp">チンピラA : ccb<=50 【こぶし】 (1D100<=50) ＞ 65 ＞ 失敗
+</span><span style="color: #000">チンピラA : ccb<=50 【こぶし】 (1D100<=50) ＞ 65 ＞ 失敗
 
-</span><span class="kp">次に千秋のターンです。
+</span><span style="color: #000">次に千秋のターンです。
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 47 ＞ 成功
-</span><span class="chiaki">染谷千秋 : Aに攻撃します！
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 47 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : Aに攻撃します！
 
-</span><span class="kp">回避しません。どうぞ！
+</span><span style="color: #000">回避しません。どうぞ！
 
-</span><span class="chiaki">染谷千秋 : 1D4+2D6 (1D4+2D6) ＞ 4[4]+11[6,5] ＞ 15
-</span><span class="kp">チンピラA : 「ウワー！」
+</span><span style="color: #db7093">染谷千秋 : 1D4+2D6 (1D4+2D6) ＞ 4[4]+11[6,5] ＞ 15
+</span><span style="color: #000">チンピラA : 「ウワー！」
 
-</span><span class="kp">千秋の鋭い蹴りの一撃をくらい、チンピラは茂みまで吹き飛ばされる。
+</span><span style="color: #000">千秋の鋭い蹴りの一撃をくらい、チンピラは茂みまで吹き飛ばされる。
 
-</span><span class="chiaki">染谷千秋 : 「これ以上はやめといた方がいいんじゃねーの？今なら見逃してやるぜ？」
-</span><span class="kp">チンピラ : 「ウッ……ウウーッ！」
+</span><span style="color: #db7093">染谷千秋 : 「これ以上はやめといた方がいいんじゃねーの？今なら見逃してやるぜ？」
+</span><span style="color: #000">チンピラ : 「ウッ……ウウーッ！」
 
-</span><span class="kp">チンピラの握った拳が震えています。
-</span><span class="kp">「誰か」はチンピラの腕をつかんで投げ飛ばしました。片手で。常人離れしたその力にチンピラはSANc（1/1d3）です。
+</span><span style="color: #000">チンピラの握った拳が震えています。
+</span><span style="color: #000">「誰か」はチンピラの腕をつかんで投げ飛ばしました。片手で。常人離れしたその力にチンピラはSANc（1/1d3）です。
 
-</span><span class="kp">チンピラ : ccb<=50 【SANc】 (1D100<=50) ＞ 25 ＞ 成功
-</span><span class="purple">染谷千冬？ : 「どうやら私の力は一般的な人よりも強いようです」
-</span><span class="kp">チンピラC : 「チ……チクショー！」
-</span><span class="kp">チンピラC : ccb<=50 【こぶし】 (1D100<=50) ＞ 47 ＞ 成功
-</span><span class="kp">チンピラC : choice 千秋 千冬 (choice 千秋 千冬) ＞ 千秋
-</span><span class="chiaki">染谷千秋 : CCB<=83 【回避】 (1D100<=83) ＞ 55 ＞ 成功
+</span><span style="color: #000">チンピラ : ccb<=50 【SANc】 (1D100<=50) ＞ 25 ＞ 成功
+</span><span style="color: #ac67c3">染谷千冬？ : 「どうやら私の力は一般的な人よりも強いようです」
+</span><span style="color: #000">チンピラC : 「チ……チクショー！」
+</span><span style="color: #000">チンピラC : ccb<=50 【こぶし】 (1D100<=50) ＞ 47 ＞ 成功
+</span><span style="color: #000">チンピラC : choice 千秋 千冬 (choice 千秋 千冬) ＞ 千秋
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【回避】 (1D100<=83) ＞ 55 ＞ 成功
 
-</span><span class="kp">千秋はチンピラの攻撃を難なく避けます。千秋のターンです。
+</span><span style="color: #000">千秋はチンピラの攻撃を難なく避けます。千秋のターンです。
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 31 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1D4+2D6 (1D4+2D6) ＞ 4[4]+7[6,1] ＞ 11
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 31 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1D4+2D6 (1D4+2D6) ＞ 4[4]+7[6,1] ＞ 11
 
-</span><span class="kp">チンピラは全員その場に倒れました。戦闘終了です。
+</span><span style="color: #000">チンピラは全員その場に倒れました。戦闘終了です。
 
-</span><span class="purple">染谷千冬？ : 「少しやりすぎてしまったかもしれません。あなたが無事でよかったです。怪我はありませんか？」
-</span><span class="chiaki">染谷千秋 : 「あれぐらいで丁度いいよ。……ああ」
-</span><span class="chiaki">染谷千秋 : 「にしても、お前力強いな。お前の同胞もそんだけ強いわけ？」
-</span><span class="purple">染谷千冬？ : 「はい、そうだと思います」
-</span><span class="chiaki">染谷千秋 : （……そんな奴らが捕まる相手、ねえ）
-</span><span class="chiaki">染谷千秋 : 「向かうぞ」
-</span><span class="purple">染谷千冬？ : 「わかりました」
+</span><span style="color: #ac67c3">染谷千冬？ : 「少しやりすぎてしまったかもしれません。あなたが無事でよかったです。怪我はありませんか？」
+</span><span style="color: #db7093">染谷千秋 : 「あれぐらいで丁度いいよ。……ああ」
+</span><span style="color: #db7093">染谷千秋 : 「にしても、お前力強いな。お前の同胞もそんだけ強いわけ？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「はい、そうだと思います」
+</span><span style="color: #db7093">染谷千秋 : （……そんな奴らが捕まる相手、ねえ）
+</span><span style="color: #db7093">染谷千秋 : 「向かうぞ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「わかりました」
 
-</span><span class="kp">あなたたは近くに止めていた車に乗り、家まで向かう。その道の途中、誰かはぼんやりと外を見ているかと思えば、「いぬ」「つき」「コンビニ」と、目に入ったものを言葉にしている。
+</span><span style="color: #000">あなたたは近くに止めていた車に乗り、家まで向かう。その道の途中、誰かはぼんやりと外を見ているかと思えば、「いぬ」「つき」「コンビニ」と、目に入ったものを言葉にしている。
 
-</span><span class="chiaki">染谷千秋 : 「外の世界は初めてなのか？」
-</span><span class="purple">染谷千冬？ : 「そう……です。そうだと思います」
-</span><span class="purple">染谷千冬？ : 「記憶にはありますが、見るのは初めてです。とても興味深いです」
-</span><span class="purple">染谷千冬？ : 「……そういえば、千秋。千冬はどのようなものでしたか？」
-</span><span class="chiaki">染谷千秋 : 「ふーん」
-</span><span class="chiaki">染谷千秋 : choice テキトー言う 本音で喋る 客観的 (choice テキトー言う 本音で喋る 客観的) ＞ テキトー言う
-</span><span class="chiaki">染谷千秋 : 「俺みたいなやつ」
-</span><span class="purple">染谷千冬？ : 「そうなんですね。……これは好奇心、あるいは知識欲で尋ねています。私は知っていることは多いですが、知らないこともまた多いのです。知れるのならば知りたい。もっと教えてほしい」
+</span><span style="color: #db7093">染谷千秋 : 「外の世界は初めてなのか？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「そう……です。そうだと思います」
+</span><span style="color: #ac67c3">染谷千冬？ : 「記憶にはありますが、見るのは初めてです。とても興味深いです」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……そういえば、千秋。千冬はどのようなものでしたか？」
+</span><span style="color: #db7093">染谷千秋 : 「ふーん」
+</span><span style="color: #db7093">染谷千秋 : choice テキトー言う 本音で喋る 客観的 (choice テキトー言う 本音で喋る 客観的) ＞ テキトー言う
+</span><span style="color: #db7093">染谷千秋 : 「俺みたいなやつ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「そうなんですね。……これは好奇心、あるいは知識欲で尋ねています。私は知っていることは多いですが、知らないこともまた多いのです。知れるのならば知りたい。もっと教えてほしい」
 ちらりと千秋を見ます。
-</span><span class="chiaki">染谷千秋 : 「情報はギブアンドテイクだぜ。教えてほしいならお前が知ってる情報を渡しな」
-</span><span class="purple">染谷千冬？ : 「……初めに言った通り、記憶が混濁しています。私に教えられる情報は少ないです……」
+</span><span style="color: #db7093">染谷千秋 : 「情報はギブアンドテイクだぜ。教えてほしいならお前が知ってる情報を渡しな」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……初めに言った通り、記憶が混濁しています。私に教えられる情報は少ないです……」
 
-</span><span class="kp">心無しか寂しそうな顔をしています。
+</span><span style="color: #000">心無しか寂しそうな顔をしています。
 
-</span><span class="purple">染谷千冬？ : 「……私があなたを訪ねたのは、先ほども言った通り、記憶があるからです。かすかですが、あなたには……好意的な印象…？　信じるに値する何か、そういったものを感じます」
-</span><span class="purple">染谷千冬？ : 「あなたにとって、千冬はどういったものでしたか？」
-</span><span class="chiaki">染谷千秋 : choice テキトー言う テキトー言う 本音で喋る (choice テキトー言う テキトー言う 本音で喋る) ＞ テキトー言う
-</span><span class="chiaki">染谷千秋 : 「へえ。……そうだな、超能力仲間だな」
-</span><span class="purple">染谷千冬？ : 「超能力、仲間？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……私があなたを訪ねたのは、先ほども言った通り、記憶があるからです。かすかですが、あなたには……好意的な印象…？　信じるに値する何か、そういったものを感じます」
+</span><span style="color: #ac67c3">染谷千冬？ : 「あなたにとって、千冬はどういったものでしたか？」
+</span><span style="color: #db7093">染谷千秋 : choice テキトー言う テキトー言う 本音で喋る (choice テキトー言う テキトー言う 本音で喋る) ＞ テキトー言う
+</span><span style="color: #db7093">染谷千秋 : 「へえ。……そうだな、超能力仲間だな」
+</span><span style="color: #ac67c3">染谷千冬？ : 「超能力、仲間？」
 目を見張ります。
-</span><span class="chiaki">染谷千秋 : 「ああ。互いに心読み取って遊んだりしてた」
-</span><span class="purple">染谷千冬？ : 「……そうなんですか！　それは私にもできないことです。千秋と千冬はすごいですね」
-</span><span class="purple">染谷千冬？ : 「他にも仲間はいるのですか？　それとも、千冬だけですか？」
-</span><span class="chiaki">染谷千秋 : 「社外秘だ」
-</span><span class="purple">染谷千冬？ : 「社外秘……ということは、組織ですか。外にはそのようなものが……」
-</span><span class="purple">染谷千冬？ : 「……あなたにとってやはり千冬は……大事な……替えの利かない存在？　そういったもの、であっていますか」
-</span><span class="chiaki">染谷千秋 : 「どっちだと思う？」
-</span><span class="purple">染谷千冬？ : 「記憶……からでしょうか。そう思いました。それに、互いに心読みとって遊ぶような、超能力仲間ですから」
-</span><span class="chiaki">染谷千秋 : 「そうだな」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。互いに心読み取って遊んだりしてた」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……そうなんですか！　それは私にもできないことです。千秋と千冬はすごいですね」
+</span><span style="color: #ac67c3">染谷千冬？ : 「他にも仲間はいるのですか？　それとも、千冬だけですか？」
+</span><span style="color: #db7093">染谷千秋 : 「社外秘だ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「社外秘……ということは、組織ですか。外にはそのようなものが……」
+</span><span style="color: #ac67c3">染谷千冬？ : 「……あなたにとってやはり千冬は……大事な……替えの利かない存在？　そういったもの、であっていますか」
+</span><span style="color: #db7093">染谷千秋 : 「どっちだと思う？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「記憶……からでしょうか。そう思いました。それに、互いに心読みとって遊ぶような、超能力仲間ですから」
+</span><span style="color: #db7093">染谷千秋 : 「そうだな」
 
-</span><span class="kp">また誰かは外を眺める。かと思うと、突然口を開いた。
+</span><span style="color: #000">また誰かは外を眺める。かと思うと、突然口を開いた。
 
-</span><span class="purple">染谷千冬？ : 「私に名前をください」
-</span><span class="chiaki">染谷千秋 : 「名前？」
-</span><span class="purple">染谷千冬？ : 「はい。千冬の真似をされたくないのでしょう？　では、千冬とは異なる名前があったほうがいいのではないかと思いました」
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「ひよこ」
-</span><span class="purple">染谷千冬？ : 「ひよこ。ひよこは知っています。どうしてひよこですか？」
-</span><span class="chiaki">染谷千秋 : 「なんとなく」
-</span><span class="purple">染谷千冬？ : 「そうですか」
+</span><span style="color: #ac67c3">染谷千冬？ : 「私に名前をください」
+</span><span style="color: #db7093">染谷千秋 : 「名前？」
+</span><span style="color: #ac67c3">染谷千冬？ : 「はい。千冬の真似をされたくないのでしょう？　では、千冬とは異なる名前があったほうがいいのではないかと思いました」
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「ひよこ」
+</span><span style="color: #ac67c3">染谷千冬？ : 「ひよこ。ひよこは知っています。どうしてひよこですか？」
+</span><span style="color: #db7093">染谷千秋 : 「なんとなく」
+</span><span style="color: #ac67c3">染谷千冬？ : 「そうですか」
 
-</span><span class="kp">もう一度、目の前の誰かは「……ひよこ」と口にする。
+</span><span style="color: #000">もう一度、目の前の誰かは「……ひよこ」と口にする。
 
-</span><span class="purple">ひよこ : 「……ひよこ。私の名前です」
-</span><span class="purple">ひよこ : 「この辺りで降りてください。後は歩きます」
-</span><span class="chiaki">染谷千秋 : 「分かった」
+</span><span style="color: #ac67c3">ひよこ : 「……ひよこ。私の名前です」
+</span><span style="color: #ac67c3">ひよこ : 「この辺りで降りてください。後は歩きます」
+</span><span style="color: #db7093">染谷千秋 : 「分かった」
 
-</span><span class="kp">千冬の案内に従い車を走らせていた千秋は、そう言われて付近に車を止める。車から降りたひよこは立ち止まり、近くの塀をじっと見ている。
+</span><span style="color: #000">千冬の案内に従い車を走らせていた千秋は、そう言われて付近に車を止める。車から降りたひよこは立ち止まり、近くの塀をじっと見ている。
 
-</span><span class="chiaki">染谷千秋 : 「ここか？」
-</span><span class="purple">ひよこ : 「ねこです」
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 56 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「ここか？」
+</span><span style="color: #ac67c3">ひよこ : 「ねこです」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 56 ＞ 成功
 
-</span><span class="kp">千冬の視線の先を見ると猫がいることに気づく。真っ白な白猫だ。
+</span><span style="color: #000">千冬の視線の先を見ると猫がいることに気づく。真っ白な白猫だ。
 
-</span><span class="purple">ひよこ : 「……これが『ねこ』という生き物で合っていますよね？　どういう生態なのでしょうか」
-</span><span class="chiaki">染谷千秋 : 「急ぎじゃねえなら後にしろ。同胞が囚われてんだろ。行くぞ」
-</span><span class="purple">ひよこ : 「……そうでした。こっちです」
+</span><span style="color: #ac67c3">ひよこ : 「……これが『ねこ』という生き物で合っていますよね？　どういう生態なのでしょうか」
+</span><span style="color: #db7093">染谷千秋 : 「急ぎじゃねえなら後にしろ。同胞が囚われてんだろ。行くぞ」
+</span><span style="color: #ac67c3">ひよこ : 「……そうでした。こっちです」
 
-</span><span class="kp">ひよこは歩き始める。千秋に話しかけながら。
+</span><span style="color: #000">ひよこは歩き始める。千秋に話しかけながら。
 
-</span><span class="purple">ひよこ : 「あなたはねこが好きですか？　それともいぬが好きですか？」
-</span><span class="chiaki">染谷千秋 : 「うるさくねえからねこ」
-</span><span class="purple">ひよこ : 「いぬはうるさいのですか」
+</span><span style="color: #ac67c3">ひよこ : 「あなたはねこが好きですか？　それともいぬが好きですか？」
+</span><span style="color: #db7093">染谷千秋 : 「うるさくねえからねこ」
+</span><span style="color: #ac67c3">ひよこ : 「いぬはうるさいのですか」
 
-</span><span class="kp">そうしてひよこに案内されるまま道を行くと、暗さでひたされる視界に明かりが増える。なんてことのない自販機だ。お茶、コーヒー、オレンジジュース、水、おしるこ――色々と商品がある。
+</span><span style="color: #000">そうしてひよこに案内されるまま道を行くと、暗さでひたされる視界に明かりが増える。なんてことのない自販機だ。お茶、コーヒー、オレンジジュース、水、おしるこ――色々と商品がある。
 
-</span><span class="purple">ひよこ : 「目線と同じ高さに光るもの……これは照明ではないですよね？　文字もあります。あったかい、つめたい、押してください……これも記憶にあります。なんていう名称ですか？」
+</span><span style="color: #ac67c3">ひよこ : 「目線と同じ高さに光るもの……これは照明ではないですよね？　文字もあります。あったかい、つめたい、押してください……これも記憶にあります。なんていう名称ですか？」
 立ち止まり自販機を眺めます。
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 10 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 「自動販売機。見えないとこに照明ついてる。足止めんな。行くぞ」
-</span><span class="purple">ひよこ : 「自動販売機」
-</span><span class="purple">ひよこ : 「自動販売機は、飲料を買うものですよね？　千秋は喉は渇いていないのですか？」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 11 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 「ああ。乾いてない」
-</span><span class="purple">ひよこ : 「しかし、これから赴くのは敵地ですよ？　必要な時の水分補給は、戦士の務めではありませんか？」
-</span><span class="chiaki">染谷千秋 : 「必要な分はリュックに入ってる。……何お前、喉乾いてんの？」
-</span><span class="purple">ひよこ : 「……渇いているような気もしてきました」
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 「自動販売機。見えないとこに照明ついてる。足止めんな。行くぞ」
+</span><span style="color: #ac67c3">ひよこ : 「自動販売機」
+</span><span style="color: #ac67c3">ひよこ : 「自動販売機は、飲料を買うものですよね？　千秋は喉は渇いていないのですか？」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 11 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 「ああ。乾いてない」
+</span><span style="color: #ac67c3">ひよこ : 「しかし、これから赴くのは敵地ですよ？　必要な時の水分補給は、戦士の務めではありませんか？」
+</span><span style="color: #db7093">染谷千秋 : 「必要な分はリュックに入ってる。……何お前、喉乾いてんの？」
+</span><span style="color: #ac67c3">ひよこ : 「……渇いているような気もしてきました」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 自販機に金を突っ込み、適当な飲み物を買います。
-</span><span class="chiaki">染谷千秋 : 「敵地まであとどれぐらいなんだ」
-</span><span class="purple">ひよこ : 「あと少しです。ここをぐっと行ってぐっぐっぐいっです」
-</span><span class="purple">ひよこ : 「……いや、ぐいっ……ぐわ……？」
-</span><span class="chiaki">染谷千秋 : 「そうか。それ飲んだら無駄口叩くなよ。敵に気付かれる可能性もあるから」
+</span><span style="color: #db7093">染谷千秋 : 「敵地まであとどれぐらいなんだ」
+</span><span style="color: #ac67c3">ひよこ : 「あと少しです。ここをぐっと行ってぐっぐっぐいっです」
+</span><span style="color: #ac67c3">ひよこ : 「……いや、ぐいっ……ぐわ……？」
+</span><span style="color: #db7093">染谷千秋 : 「そうか。それ飲んだら無駄口叩くなよ。敵に気付かれる可能性もあるから」
 買った飲み物を渡します。
-</span><span class="purple">ひよこ : 「くれるのですか。ありがとうございます。……無駄口とはなんですか？　無駄な口があるのですか？」
-</span><span class="chiaki">染谷千秋 : 「もう喋んなってこと。俺が良いって言うまでな」
-</span><span class="purple">ひよこ : 「そうですか」
+</span><span style="color: #ac67c3">ひよこ : 「くれるのですか。ありがとうございます。……無駄口とはなんですか？　無駄な口があるのですか？」
+</span><span style="color: #db7093">染谷千秋 : 「もう喋んなってこと。俺が良いって言うまでな」
+</span><span style="color: #ac67c3">ひよこ : 「そうですか」
 千秋から飲み物を受け取り飲みます。
 
-</span><span class="kp">何の飲み物を買ってあげましたか？
+</span><span style="color: #000">何の飲み物を買ってあげましたか？
 
-</span><span class="chiaki">染谷千秋 : choice 水系 ジュース系 変なの (choice 水系 ジュース系 変なの) ＞ ジュース系
-</span><span class="chiaki">染谷千秋 : choice オレンジジュース コーラ サイダー ジンジャーエール ポカリ アクエリアス (choice オレンジジュース コーラ サイダー ジンジャーエール ポカリ アクエリアス) ＞ オレンジジュース
-</span><span class="chiaki">染谷千秋 : オレンジジュースです。
-</span><span class="purple">ひよこ : choice　すごく好き　好みの味　普通　好みではない　苦手 (choice すごく好き 好みの味 普通 好みではない 苦手) ＞ 好みではない
-</span><span class="purple">ひよこ : 「……何か混ざった味がします。これが飲料ですか。興味深い味です」
+</span><span style="color: #db7093">染谷千秋 : choice 水系 ジュース系 変なの (choice 水系 ジュース系 変なの) ＞ ジュース系
+</span><span style="color: #db7093">染谷千秋 : choice オレンジジュース コーラ サイダー ジンジャーエール ポカリ アクエリアス (choice オレンジジュース コーラ サイダー ジンジャーエール ポカリ アクエリアス) ＞ オレンジジュース
+</span><span style="color: #db7093">染谷千秋 : オレンジジュースです。
+</span><span style="color: #ac67c3">ひよこ : choice　すごく好き　好みの味　普通　好みではない　苦手 (choice すごく好き 好みの味 普通 好みではない 苦手) ＞ 好みではない
+</span><span style="color: #ac67c3">ひよこ : 「……何か混ざった味がします。これが飲料ですか。興味深い味です」
 ごくごくと飲みます。
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 誰かが飲むをの確認し、顎で行先を示します。
 空になったペットボトルを受け取りゴミ箱に入れます。
-</span><span class="purple">ひよこ : ひよこって言わないんだ(´・ω・｀)
-</span><span class="purple">ひよこ : 「飲料にもこのような種類があるということですよね、そこまで味の変化にこだわる必要性はなんでしょう……」
+</span><span style="color: #ac67c3">ひよこ : ひよこって言わないんだ(´・ω・｀)
+</span><span style="color: #ac67c3">ひよこ : 「飲料にもこのような種類があるということですよね、そこまで味の変化にこだわる必要性はなんでしょう……」
 千秋がゴミを捨てるのを見ながら呟きます。
-</span><span class="chiaki">染谷千秋 : ごめんね；ｖ；；
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 45 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「呟くのも禁止な。行くぞ」
+</span><span style="color: #db7093">染谷千秋 : ごめんね；ｖ；；
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 45 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「呟くのも禁止な。行くぞ」
 呟いている誰かをそのままにして歩きだします。
-</span><span class="purple">ひよこ : 「わか……」
+</span><span style="color: #ac67c3">ひよこ : 「わか……」
 口をつぐみます。
-</span><span class="chiaki">染谷千秋 : くっそ可愛いこいつ～～～～～～～～～～～～～～～～～～～～～
-</span><span class="chiaki">染谷千秋 : って思う余裕あるわけないだろ
-</span><span class="purple">ひよこ : (´・ω・｀)
-</span><span class="purple">ひよこ : (・x・)
+</span><span style="color: #db7093">染谷千秋 : くっそ可愛いこいつ～～～～～～～～～～～～～～～～～～～～～
+</span><span style="color: #db7093">染谷千秋 : って思う余裕あるわけないだろ
+</span><span style="color: #ac67c3">ひよこ : (´・ω・｀)
+</span><span style="color: #ac67c3">ひよこ : (・x・)
 
-</span><span class="kp">風は先程よりもさらに冷たくするどく感じられた。車道を走る一台の車が、ヘッドライトであなたたちを照らす。「誰か」が振り向いて、その光に目を眩ませる。車が通り過ぎて行っても、「誰か」は立ち止まっている。
+</span><span style="color: #000">風は先程よりもさらに冷たくするどく感じられた。車道を走る一台の車が、ヘッドライトであなたたちを照らす。「誰か」が振り向いて、その光に目を眩ませる。車が通り過ぎて行っても、「誰か」は立ち止まっている。
 
-</span><span class="purple">ひよこ : 「……、……」
-</span><span class="purple">ひよこ : 「……」
+</span><span style="color: #ac67c3">ひよこ : 「……、……」
+</span><span style="color: #ac67c3">ひよこ : 「……」
 
-</span><span class="kp">かと思うと、「誰か」は前を向き、再び歩き始める。
+</span><span style="color: #000">かと思うと、「誰か」は前を向き、再び歩き始める。
 
-</span><span class="chiaki">染谷千秋 : かわいい　えらいね
-</span><span class="chiaki">染谷千秋 : 誰かになっててないちゃった　ごめん
-</span><span class="chiaki">染谷千秋 : ；；
+</span><span style="color: #db7093">染谷千秋 : かわいい　えらいね
+</span><span style="color: #db7093">染谷千秋 : 誰かになっててないちゃった　ごめん
+</span><span style="color: #db7093">染谷千秋 : ；；
 
-</span><span class="kp">千秋は聞き耳をどうぞ。
+</span><span style="color: #000">千秋は聞き耳をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 95 ＞ 失敗
-</span><span class="purple">ひよこ : 「……」
-</span><span class="purple">ひよこ : 「――千秋！」
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 95 ＞ 失敗
+</span><span style="color: #ac67c3">ひよこ : 「……」
+</span><span style="color: #ac67c3">ひよこ : 「――千秋！」
 
-</span><span class="kp">振り返った「誰か」が、あなたの手を強く引く。覆いかぶさるように引き寄せる。同時に乾いた音が静かだった夜道にこだまする。
+</span><span style="color: #000">振り返った「誰か」が、あなたの手を強く引く。覆いかぶさるように引き寄せる。同時に乾いた音が静かだった夜道にこだまする。
 「誰か」を見れば、左腕と腹部、それぞれの場所から穴をあけ血液……否、黒い液体を流していた。
-</span><span class="kp">大事な人の姿をしたものが自分を庇い怪我をする様子にSANc（1/1d3+1）
+</span><span style="color: #000">大事な人の姿をしたものが自分を庇い怪我をする様子にSANc（1/1d3+1）
 
-</span><span class="chiaki">染谷千秋 : 1d100<=58 【正気度ロール】 (1D100<=58) ＞ 75 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d3+1 (1D3+1) ＞ 3[3]+1 ＞ 4
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 58 → 54
-</span><span class="chiaki">染谷千秋 : 「……！」
-</span><span class="chiaki">染谷千秋 : 銃声のした方向と近くに遮蔽物があるか見ます！
+</span><span style="color: #db7093">染谷千秋 : 1d100<=58 【正気度ロール】 (1D100<=58) ＞ 75 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d3+1 (1D3+1) ＞ 3[3]+1 ＞ 4
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 58 → 54
+</span><span style="color: #db7093">染谷千秋 : 「……！」
+</span><span style="color: #db7093">染谷千秋 : 銃声のした方向と近くに遮蔽物があるか見ます！
 
-</span><span class="kp">見れば近代的な武装をした人物が二人、硝煙をあげる銃をかまえ立っていた。
-</span><span class="kp">戦闘開始です。近くにはビルがあり、1ターンかければ物陰に隠れられるでしょう。
-</span><span class="kp">初めに敵の攻撃です。
+</span><span style="color: #000">見れば近代的な武装をした人物が二人、硝煙をあげる銃をかまえ立っていた。
+</span><span style="color: #000">戦闘開始です。近くにはビルがあり、1ターンかければ物陰に隠れられるでしょう。
+</span><span style="color: #000">初めに敵の攻撃です。
 
-</span><span class="kp">研究員A : sccb<=50 【ライフル】 (1D100<=50) ＞ 98 ＞ 致命的失敗
-</span><span class="kp">研究員B : sccb<=50 【ライフル】 (1D100<=50) ＞ 49 ＞ 成功
+</span><span style="color: #000">研究員A : sccb<=50 【ライフル】 (1D100<=50) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #000">研究員B : sccb<=50 【ライフル】 (1D100<=50) ＞ 49 ＞ 成功
 
-</span><span class="kp">一人は銃の弾切れを起こしたようで、ナイフに持ち替えます。
+</span><span style="color: #000">一人は銃の弾切れを起こしたようで、ナイフに持ち替えます。
 もう一人のライフルは「誰か」を目掛けて撃ち抜き、「誰か」の体に穴を開けます。その空洞で、黒い粘液がぼこぼこと蠢くのみです。
 
-</span><span class="purple">ひよこ : 「……千秋、隠れていてもいい」
+</span><span style="color: #ac67c3">ひよこ : 「……千秋、隠れていてもいい」
 
-</span><span class="kp">千秋のターンです。
+</span><span style="color: #000">千秋のターンです。
 
-</span><span class="chiaki">染谷千秋 : 切羽つまった時の呼ばれ方、話し方が千冬みたいで気分が悪いです。
+</span><span style="color: #db7093">染谷千秋 : 切羽つまった時の呼ばれ方、話し方が千冬みたいで気分が悪いです。
 武装してる人間にキック！
-</span><span class="chiaki">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 96 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 96 ＞ 致命的失敗
 
-</span><span class="kp">千冬と同じ声で、千冬と同じ口調で、千秋を庇おうとする姿に精神が乱されます。SANc（1/1d3）
+</span><span style="color: #000">千冬と同じ声で、千冬と同じ口調で、千秋を庇おうとする姿に精神が乱されます。SANc（1/1d3）
 
-</span><span class="chiaki">染谷千秋 : 1d100<=54 【正気度ロール】 (1D100<=54) ＞ 42 ＞ 成功
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 54 → 53
-</span><span class="purple">ひよこ : sccb<=99 (1D100<=99) ＞ 29 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d100<=54 【正気度ロール】 (1D100<=54) ＞ 42 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 54 → 53
+</span><span style="color: #ac67c3">ひよこ : sccb<=99 (1D100<=99) ＞ 29 ＞ 成功
 
-</span><span class="kp">音もなく、「誰か」の腕が膨張する。黒く大きく、それは人二人分ほどまでなったかと想えば、目の前の襲撃者の一人に向けて無慈悲にも振り降ろされた。
+</span><span style="color: #000">音もなく、「誰か」の腕が膨張する。黒く大きく、それは人二人分ほどまでなったかと想えば、目の前の襲撃者の一人に向けて無慈悲にも振り降ろされた。
 
-</span><span class="kp">研究員B : 「クソッ……この化け物が！」
-</span><span class="kp">研究員B : sccb<=50 【ライフル】 (1D100<=50) ＞ 14 ＞ 成功
+</span><span style="color: #000">研究員B : 「クソッ……この化け物が！」
+</span><span style="color: #000">研究員B : sccb<=50 【ライフル】 (1D100<=50) ＞ 14 ＞ 成功
 
-</span><span class="kp">「誰か」は銃弾を身に受ける。しかし平然とした顔で相手を見据えている。
-</span><span class="kp">千秋のターンです。
+</span><span style="color: #000">「誰か」は銃弾を身に受ける。しかし平然とした顔で相手を見据えている。
+</span><span style="color: #000">千秋のターンです。
 
-</span><span class="chiaki">染谷千秋 : （……攻撃がこいつに集まってる。狙いは俺じゃない。 ……一体こいつは何なんだ）
-</span><span class="chiaki">染谷千秋 : キック！
-</span><span class="chiaki">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : （……攻撃がこいつに集まってる。狙いは俺じゃない。 ……一体こいつは何なんだ）
+</span><span style="color: #db7093">染谷千秋 : キック！
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 3 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">ダメージ2倍とします。1d4+4d6どうぞ。
+</span><span style="color: #000">ダメージ2倍とします。1d4+4d6どうぞ。
 
-</span><span class="chiaki">染谷千秋 : 1D4+4D6 (1D4+4D6) ＞ 1[1]+14[1,5,5,3] ＞ 15
+</span><span style="color: #db7093">染谷千秋 : 1D4+4D6 (1D4+4D6) ＞ 1[1]+14[1,5,5,3] ＞ 15
 
-</span><span class="kp">あなたの蹴りは的確に人体の急所を突き、武装した相手を一撃で仕留めた。
+</span><span style="color: #000">あなたの蹴りは的確に人体の急所を突き、武装した相手を一撃で仕留めた。
 戦闘終了です。
 
-</span><span class="purple">ひよこ : 「この人たちは、おそらく追っ手でしょう。私が逃げ出したことがばれているようですね」
+</span><span style="color: #ac67c3">ひよこ : 「この人たちは、おそらく追っ手でしょう。私が逃げ出したことがばれているようですね」
 
-</span><span class="kp">「誰か」は道に飛び散った血をぺろり、指につけて舐めている。
+</span><span style="color: #000">「誰か」は道に飛び散った血をぺろり、指につけて舐めている。
 
-</span><span class="chiaki">染谷千秋 : 「そっか。……その行動は？何の意味あんの」
-</span><span class="purple">ひよこ : 「はい、情報収集です。ＤＮＡには生命の情報が詰まっています。……あ」
-</span><span class="purple">ひよこ : 「すみません、喋ってしまいました」
-</span><span class="chiaki">染谷千秋 : 「別にいーよ。俺の言う無駄口ってのは、千冬とお前の同胞を助けるために約に立たない情報のことな。この施設や敵に関すること、お前の記憶と同胞の話は別だ。千冬に関することもな。救出に役立ちそうなことは話していいよ」
-</span><span class="chiaki">染谷千秋 : 「だから今はいいよ。今後も喋りたい時に喋って良い。……けどお前の知的好奇心からくる質問はナシな」
-</span><span class="chiaki">染谷千秋 : 「で？DNAからわかった情報はあんのか」
-</span><span class="purple">ひよこ : 「なるほど、わかりました」
-</span><span class="purple">ひよこ : 「おいしいです」
-</span><span class="chiaki">染谷千秋 : 「……美味しい、ね。お前達は人を食うのか」
-</span><span class="purple">ひよこ : 「……そうですね。私たちは人間を……捕食していたと思います」
-</span><span class="purple">ひよこ : 「研究所はすぐそこです。急ぎましょう」
-</span><span class="chiaki">染谷千秋 : 「……は、」
-</span><span class="chiaki">染谷千秋 : 「……お前の同胞と千冬は一緒に囚われてんだろ。……なら、千冬は……」
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「そっか。……その行動は？何の意味あんの」
+</span><span style="color: #ac67c3">ひよこ : 「はい、情報収集です。ＤＮＡには生命の情報が詰まっています。……あ」
+</span><span style="color: #ac67c3">ひよこ : 「すみません、喋ってしまいました」
+</span><span style="color: #db7093">染谷千秋 : 「別にいーよ。俺の言う無駄口ってのは、千冬とお前の同胞を助けるために約に立たない情報のことな。この施設や敵に関すること、お前の記憶と同胞の話は別だ。千冬に関することもな。救出に役立ちそうなことは話していいよ」
+</span><span style="color: #db7093">染谷千秋 : 「だから今はいいよ。今後も喋りたい時に喋って良い。……けどお前の知的好奇心からくる質問はナシな」
+</span><span style="color: #db7093">染谷千秋 : 「で？DNAからわかった情報はあんのか」
+</span><span style="color: #ac67c3">ひよこ : 「なるほど、わかりました」
+</span><span style="color: #ac67c3">ひよこ : 「おいしいです」
+</span><span style="color: #db7093">染谷千秋 : 「……美味しい、ね。お前達は人を食うのか」
+</span><span style="color: #ac67c3">ひよこ : 「……そうですね。私たちは人間を……捕食していたと思います」
+</span><span style="color: #ac67c3">ひよこ : 「研究所はすぐそこです。急ぎましょう」
+</span><span style="color: #db7093">染谷千秋 : 「……は、」
+</span><span style="color: #db7093">染谷千秋 : 「……お前の同胞と千冬は一緒に囚われてんだろ。……なら、千冬は……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 考えるのをやめて向かいます。
 
-</span><span class="kp">・・・
+</span><span style="color: #000">・・・
 
-</span><span class="purple">ひよこ : 「ここです」
+</span><span style="color: #ac67c3">ひよこ : 「ここです」
 
-</span><span class="kp">その言葉と共に「誰か」が足を止める。見てみればそこにある建物、その名前が目に入る「机上実験動物研究所」。
+</span><span style="color: #000">その言葉と共に「誰か」が足を止める。見てみればそこにある建物、その名前が目に入る「机上実験動物研究所」。
 深夜のため、勿論明かりは点いておらず、研究所の名前を照らす間接照明のみがぼんやりと光っていた。
-</span><span class="kp">知識どうぞ。
+</span><span style="color: #000">知識どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 93 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 93 ＞ 失敗
 
-</span><span class="kp">あなたは初めて聞く研究所だった。ここは隣県だ、仕方がない。
+</span><span style="color: #000">あなたは初めて聞く研究所だった。ここは隣県だ、仕方がない。
 
-</span><span class="purple">ひよこ : 「行きましょう」
-</span><span class="chiaki">染谷千秋 : 「……ああ」
+</span><span style="color: #ac67c3">ひよこ : 「行きましょう」
+</span><span style="color: #db7093">染谷千秋 : 「……ああ」
 
-</span><span class="kp">扉へむかってすたすたと歩き始める。開かない扉に一度立ち止まるが、しばらくして何かに気づいたような表情をし、右手をあげた。
+</span><span style="color: #000">扉へむかってすたすたと歩き始める。開かない扉に一度立ち止まるが、しばらくして何かに気づいたような表情をし、右手をあげた。
 右手が溶解する。黒く鮮やかにとろけたその右手は鍵穴にするりと入り込み、やがてカチャという子気味のいい音を立てて扉は開いた。
 
-</span><span class="purple">ひよこ : 「やってみたら、できるものですね。良かったです」
+</span><span style="color: #ac67c3">ひよこ : 「やってみたら、できるものですね。良かったです」
 
-</span><span class="kp">暗い研究所内を「誰か」は真っすぐに進んでいく。そうしてある部屋の前で立ち止まり、扉を開け、中に入る。
-</span><span class="kp">入った瞬間に、ぶわり、獣臭、そうとしか形容のできない強烈な匂いが鼻をつく。ケージがところせましと並んだこの部屋は、実験動物を管理している部屋のようだった。見慣れぬ侵入者たちに、動物たちは目を覚まし、その目を爛々と輝かせこちらを見る。暗闇の中無数に光る眼がこちらを見るさまは、よくできたホラー映画のワンシーンのようだった。
-</span><span class="kp">「誰か」はそんな視線などまるで気にしていないのか、一つの机に近寄り、卓上に無造作に折りたたまれた白衣のポケットを探る。黒く無機質なカードキーを手にするとこちらを振り向いた。
+</span><span style="color: #000">暗い研究所内を「誰か」は真っすぐに進んでいく。そうしてある部屋の前で立ち止まり、扉を開け、中に入る。
+</span><span style="color: #000">入った瞬間に、ぶわり、獣臭、そうとしか形容のできない強烈な匂いが鼻をつく。ケージがところせましと並んだこの部屋は、実験動物を管理している部屋のようだった。見慣れぬ侵入者たちに、動物たちは目を覚まし、その目を爛々と輝かせこちらを見る。暗闇の中無数に光る眼がこちらを見るさまは、よくできたホラー映画のワンシーンのようだった。
+</span><span style="color: #000">「誰か」はそんな視線などまるで気にしていないのか、一つの机に近寄り、卓上に無造作に折りたたまれた白衣のポケットを探る。黒く無機質なカードキーを手にするとこちらを振り向いた。
 
-</span><span class="purple">ひよこ : 「これで下に向かうことができます」
+</span><span style="color: #ac67c3">ひよこ : 「これで下に向かうことができます」
 
-</span><span class="kp">「誰か」がそう発した瞬間、堰を切ったかのように一匹の犬が吠え始めた。つられてまた一匹、もう一匹。瞬く間に、部屋は恐怖と興奮の大合唱で包まれる。獣たちの声に鼓膜が揺れる。
+</span><span style="color: #000">「誰か」がそう発した瞬間、堰を切ったかのように一匹の犬が吠え始めた。つられてまた一匹、もう一匹。瞬く間に、部屋は恐怖と興奮の大合唱で包まれる。獣たちの声に鼓膜が揺れる。
 
-</span><span class="purple">ひよこ : 「……」
+</span><span style="color: #ac67c3">ひよこ : 「……」
 驚いたように目を丸くしています。
-</span><span class="chiaki">染谷千秋 : 舌打ちをします。
+</span><span style="color: #db7093">染谷千秋 : 舌打ちをします。
 「行くぞ」
-</span><span class="purple">ひよこ : 「はい、急ぎましょう。……確かにいぬは騒がしいですね」
-</span><span class="chiaki">染谷千秋 : くっそかわいいな
-</span><span class="chiaki">染谷千秋 : 「分かったようで何より」
+</span><span style="color: #ac67c3">ひよこ : 「はい、急ぎましょう。……確かにいぬは騒がしいですね」
+</span><span style="color: #db7093">染谷千秋 : くっそかわいいな
+</span><span style="color: #db7093">染谷千秋 : 「分かったようで何より」
 
-</span><span class="kp">急いでエレベーターへ向かいボタンを押す。
+</span><span style="color: #000">急いでエレベーターへ向かいボタンを押す。
 背後では動物たちの声が鮮明に聞こえ、焦燥感をこれでもかと煽ってくる。一秒が長い、焦る脳裏を宥めながらもエレベーターが開くのを待つ。
 二階建ての表示で、そして今ランプは一階で点灯している。しかし、開くまでには長い時間がかかった。
-</span><span class="kp">アイデアをどうぞ。
+</span><span style="color: #000">アイデアをどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 20 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 20 ＞ 成功
 
-</span><span class="kp">この研究所には表示されていない階層があるのではないか、と思う。
+</span><span style="color: #000">この研究所には表示されていない階層があるのではないか、と思う。
 さらにアイデアどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 46 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 46 ＞ 成功
 
-</span><span class="kp">深夜とはいえ、深夜にも勤務している研究者、もしくは警備員がいるだろう。こんなに騒いでいるなら、だれか一人くらい見に来てもいいはずだ。それぐらいの時間は経っている。
+</span><span style="color: #000">深夜とはいえ、深夜にも勤務している研究者、もしくは警備員がいるだろう。こんなに騒いでいるなら、だれか一人くらい見に来てもいいはずだ。それぐらいの時間は経っている。
 
-</span><span class="purple">ひよこ : 「どうしました？　入らないのですか？」
-</span><span class="chiaki">染谷千秋 : 「……嫌に静かだな」
-</span><span class="chiaki">染谷千秋 : 警戒しながら入ります。
-</span><span class="purple">ひよこ : 千秋が乗り込んだのを確認します。
+</span><span style="color: #ac67c3">ひよこ : 「どうしました？　入らないのですか？」
+</span><span style="color: #db7093">染谷千秋 : 「……嫌に静かだな」
+</span><span style="color: #db7093">染谷千秋 : 警戒しながら入ります。
+</span><span style="color: #ac67c3">ひよこ : 千秋が乗り込んだのを確認します。
 「この研究所には地下があります。そして地下はこの板、カードキーでなくては行けません」
 
-</span><span class="kp">そういいながら「誰か」は手に持ったカードキーをエレベーターに取り付けられた機器へとかざす。カードキーの情報を読み取ったエレベーターは静かに扉を閉め、ゆっくりと下降をはじめた。
+</span><span style="color: #000">そういいながら「誰か」は手に持ったカードキーをエレベーターに取り付けられた機器へとかざす。カードキーの情報を読み取ったエレベーターは静かに扉を閉め、ゆっくりと下降をはじめた。
 
-</span><span class="purple">ひよこ : 「地下には私の同胞、そしてあなたの大事な人がいるはずです。研究員がたくさんいます、あの武装隊員も多くはないとは思いますが、いるでしょう。もしかすると、また荒事になる可能性があります。覚悟してください」
-</span><span class="chiaki">染谷千秋 : 「ああ」
+</span><span style="color: #ac67c3">ひよこ : 「地下には私の同胞、そしてあなたの大事な人がいるはずです。研究員がたくさんいます、あの武装隊員も多くはないとは思いますが、いるでしょう。もしかすると、また荒事になる可能性があります。覚悟してください」
+</span><span style="color: #db7093">染谷千秋 : 「ああ」
 
-</span><span class="kp">やがてチーンという平凡な音が鳴り、目的の地下へ着いたことを告げられる。するりとエレベーターの扉が開く。そこは、暗闇だった。見慣れた暗闇、されど、されど。
+</span><span style="color: #000">やがてチーンという平凡な音が鳴り、目的の地下へ着いたことを告げられる。するりとエレベーターの扉が開く。そこは、暗闇だった。見慣れた暗闇、されど、されど。
 
-</span><span class="purple">ひよこ : 「異常です。私がいたときはいつでも光がついていたはずです」
-</span><span class="purple">ひよこ : 「千秋、何か明かりはありますか？　私は見えるが、あなたは見えないでしょう」
-</span><span class="chiaki">染谷千秋 : 「懐中電灯がある」
+</span><span style="color: #ac67c3">ひよこ : 「異常です。私がいたときはいつでも光がついていたはずです」
+</span><span style="color: #ac67c3">ひよこ : 「千秋、何か明かりはありますか？　私は見えるが、あなたは見えないでしょう」
+</span><span style="color: #db7093">染谷千秋 : 「懐中電灯がある」
 懐中電灯を取り出してつけます。
 
-</span><span class="kp">照らしたかぎり、左右に二つ扉があるのがわかる。その先にも廊下は続いているようだが、明かりは届かない。
+</span><span style="color: #000">照らしたかぎり、左右に二つ扉があるのがわかる。その先にも廊下は続いているようだが、明かりは届かない。
 聞き耳をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 21 ＞ 成功
 
-</span><span class="kp">鉄さびのにおいがする。
+</span><span style="color: #000">鉄さびのにおいがする。
 
 調べられそうな場所は、右の部屋と左の部屋だ。廊下を真っすぐ進むこともできるだろう。
 
-</span><span class="chiaki">染谷千秋 : （……血の匂いがする）
-</span><span class="chiaki">染谷千秋 : 左の部屋に入ります。
+</span><span style="color: #db7093">染谷千秋 : （……血の匂いがする）
+</span><span style="color: #db7093">染谷千秋 : 左の部屋に入ります。
 
-</span><span class="kp">研究員たちの仮眠室兼ロッカールームのようだ。壁にはロッカーが大量に立ち並び、隅には簡易ベッドが置かれている。
+</span><span style="color: #000">研究員たちの仮眠室兼ロッカールームのようだ。壁にはロッカーが大量に立ち並び、隅には簡易ベッドが置かれている。
 
-</span><span class="chiaki">染谷千秋 : 目星！
+</span><span style="color: #db7093">染谷千秋 : 目星！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 73 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 73 ＞ 成功
 
-</span><span class="kp">ベッドの一つに紙が一枚置きっぱなしにされている。おそらくは研究員の誰かが落としていってしまったのだろう。
+</span><span style="color: #000">ベッドの一つに紙が一枚置きっぱなしにされている。おそらくは研究員の誰かが落としていってしまったのだろう。
 
-</span><span class="chiaki">染谷千秋 : 千冬の姿が見えないためすぐに部屋を出ます。右側の部屋に入ります。
+</span><span style="color: #db7093">染谷千秋 : 千冬の姿が見えないためすぐに部屋を出ます。右側の部屋に入ります。
 
-</span><span class="kp">扉を開き、照らす。並んだ机と上にある書類、そしてフォルダが大量に並んだ本棚が見える、それらすべてに血が飛んでいた。床に視線を移せば水たまりのようになった赤が見える。認識した瞬間、鉄錆の匂いが強くなる。それは死体だった。原型をとどめぬ死体だった。ピンク色の肉の塊と、指らしきもの、足らしきもの、眼球、が無造作にころがっている。❮SANc 1d2/1d5❯
+</span><span style="color: #000">扉を開き、照らす。並んだ机と上にある書類、そしてフォルダが大量に並んだ本棚が見える、それらすべてに血が飛んでいた。床に視線を移せば水たまりのようになった赤が見える。認識した瞬間、鉄錆の匂いが強くなる。それは死体だった。原型をとどめぬ死体だった。ピンク色の肉の塊と、指らしきもの、足らしきもの、眼球、が無造作にころがっている。❮SANc 1d2/1d5❯
 
-</span><span class="chiaki">染谷千秋 : 1d100<=53 【正気度ロール】 (1D100<=53) ＞ 7 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1d2 (1D2) ＞ 1
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 53 → 52
-</span><span class="chiaki">染谷千秋 : 千冬の死体か分かりますか？
+</span><span style="color: #db7093">染谷千秋 : 1d100<=53 【正気度ロール】 (1D100<=53) ＞ 7 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d2 (1D2) ＞ 1
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 53 → 52
+</span><span style="color: #db7093">染谷千秋 : 千冬の死体か分かりますか？
 
-</span><span class="kp">目星どうぞ。
+</span><span style="color: #000">目星どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 48 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 48 ＞ 成功
 
-</span><span class="kp">ごろごろと転がる部位をそれぞれ注視するが、千冬ではないようだった。
+</span><span style="color: #000">ごろごろと転がる部位をそれぞれ注視するが、千冬ではないようだった。
 
-</span><span class="chiaki">染谷千秋 : 部屋を出て中央の道を進みます。
+</span><span style="color: #db7093">染谷千秋 : 部屋を出て中央の道を進みます。
 
-</span><span class="kp">暗闇をたよりない明かりで照らしながら進む。頼れるのはこの明かりと横にいる「誰か」だけだ。
+</span><span style="color: #000">暗闇をたよりない明かりで照らしながら進む。頼れるのはこの明かりと横にいる「誰か」だけだ。
 ふと、踏み出した足が何かを踏みつける。ぐにゃり、ぐちゃり、柔らかな肉の中に硬さを感じる。
 照らして確認すれば、人の腕だった。ぎょっとして後ろに下がると、真下を照らしだした光をうけ、死人の白く濁った目が空虚に光を反射する。❮SANc 1/1d4❯
 
-</span><span class="chiaki">染谷千秋 : 1d100<=52 【正気度ロール】 (1D100<=52) ＞ 28 ＞ 成功
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 52 → 51
+</span><span style="color: #db7093">染谷千秋 : 1d100<=52 【正気度ロール】 (1D100<=52) ＞ 28 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 52 → 51
 
-</span><span class="kp">目星どうぞ。
+</span><span style="color: #000">目星どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 91 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 千冬の死体か見ます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 91 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 千冬の死体か見ます。
 
-</span><span class="kp">死体は白衣を着ている、否、白衣だったものを着ている。どうやら研究員で、千冬ではないようだが、すべてが赤く濡れていて面影がない。さらに下半身が目をそむけたくなるほどぐちゃぐちゃになっており、ただの死体ではないとわかる。
+</span><span style="color: #000">死体は白衣を着ている、否、白衣だったものを着ている。どうやら研究員で、千冬ではないようだが、すべてが赤く濡れていて面影がない。さらに下半身が目をそむけたくなるほどぐちゃぐちゃになっており、ただの死体ではないとわかる。
 
-</span><span class="chiaki">染谷千秋 : セキュリティカードのようなもの・武器のようなもの・研究資料など持ってないか調べます。
+</span><span style="color: #db7093">染谷千秋 : セキュリティカードのようなもの・武器のようなもの・研究資料など持ってないか調べます。
 
-</span><span class="kp">押し潰されており原型がない。何を持っていたかも判別できない。少なくとも、ここには肉しかない。
+</span><span style="color: #000">押し潰されており原型がない。何を持っていたかも判別できない。少なくとも、ここには肉しかない。
 
-</span><span class="chiaki">染谷千秋 : そのまま道を進みます。
+</span><span style="color: #db7093">染谷千秋 : そのまま道を進みます。
 
-</span><span class="kp">廊下をさらに進むと突き当りに辿りつく、そこには一つの両開きの扉があった。薄くだが、開いているようだ。
+</span><span style="color: #000">廊下をさらに進むと突き当りに辿りつく、そこには一つの両開きの扉があった。薄くだが、開いているようだ。
 
-</span><span class="chiaki">染谷千秋 : 隙間からそっと中を覗きます。
+</span><span style="color: #db7093">染谷千秋 : 隙間からそっと中を覗きます。
 
-</span><span class="kp">部屋の中をを見ると――そこは凄惨そのものだった。
+</span><span style="color: #000">部屋の中をを見ると――そこは凄惨そのものだった。
 多種多様の赤がそこら中に飛び散る、人の手が、足が、目玉が、髪が、皮膚が、片づけられず放置された玩具のようにそこらじゅうに、足の踏み場もないほどに。
 何かを入れていたと思わしき大きなガラスの容器だったものも、すべて内か、外か、割られて砕けてみる影もない。机も、診察台らしきものも、小難しい器具も、すべてひっくり返されて、壊れ、もう使えない。そんな惨状、惨憺の部屋の中央に蠢く何かがいた。それは床に這いつくばり、もぞもぞと動いてはいるがここからではよく見えない。
 
-</span><span class="chiaki">染谷千秋 : 入ります。
+</span><span style="color: #db7093">染谷千秋 : 入ります。
 
-</span><span class="kp">あなたは部屋へと入った。蠢く何かとはまだ距離がある。
+</span><span style="color: #000">あなたは部屋へと入った。蠢く何かとはまだ距離がある。
 
-</span><span class="chiaki">染谷千秋 : 慎重に距離を詰めてそれを見ます。
+</span><span style="color: #db7093">染谷千秋 : 慎重に距離を詰めてそれを見ます。
 
-</span><span class="kp">慎重に、「誰か」と共に近づく。
+</span><span style="color: #000">慎重に、「誰か」と共に近づく。
 明かりで照らしてみればよく見える。そのショゴスは人を食らっていた。
 
 喰らっていた。
@@ -566,97 +566,97 @@ custom:
 床には、千冬の首。沈痛な表情をした「誰か」と瞳を閉じた千冬、同じ顔をした二人が並んでいる。
 これはなんだ、なんの冗談か悪夢か悲劇か喜劇か現実か。なんで出来の悪い現実なのだろう、なんてよくできた悪夢なんだろう。❮SANc 1d4+3/1d20+5❯
 
-</span><span class="chiaki">染谷千秋 : 自動失敗
+</span><span style="color: #db7093">染谷千秋 : 自動失敗
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chiaki">染谷千秋 : すみません千冬が食われてる場面見たら秒で殴りかかると思います戦闘できませんか？殺す
-</span><span class="chiaki">染谷千秋 : 殺す
+</span><span style="color: #db7093">染谷千秋 : すみません千冬が食われてる場面見たら秒で殴りかかると思います戦闘できませんか？殺す
+</span><span style="color: #db7093">染谷千秋 : 殺す
 
-</span><span class="kp">申し訳ないですが、一瞬飲み込めない時間があり誰かのほうが呟くのが早かったということにします
+</span><span style="color: #000">申し訳ないですが、一瞬飲み込めない時間があり誰かのほうが呟くのが早かったということにします
 SANc後殴りかかるのは自由にどうぞ！
 
-</span><span class="chiaki">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 67 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d20+5 (1D20+5) ＞ 18[18]+5 ＞ 23
+</span><span style="color: #db7093">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 67 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d20+5 (1D20+5) ＞ 18[18]+5 ＞ 23
 
-</span><span class="kp">不定の狂気のアイデアロールどうぞ
+</span><span style="color: #000">不定の狂気のアイデアロールどうぞ
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 9
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d10 (1D10) ＞ 9
 
-</span><span class="kp">1d6ヶ月続きます。ロールどうぞ。
+</span><span style="color: #000">1d6ヶ月続きます。ロールどうぞ。
 
-</span><span class="chiaki">染谷千秋 : 1D6 (1D6) ＞ 6
+</span><span style="color: #db7093">染谷千秋 : 1D6 (1D6) ＞ 6
 
-</span><span class="kp">期間は6ヶ月です。発狂はこの研究所を出てからじわじわ発狂する、という体でお願いします。
+</span><span style="color: #000">期間は6ヶ月です。発狂はこの研究所を出てからじわじわ発狂する、という体でお願いします。
 
-</span><span class="chiaki">染谷千秋 : 承知！「一時的偏執症」発症します！
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】現実だと思う/悪夢だと思い込む (1D100<=80) ＞ 52 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「……、ちふゆ？」
+</span><span style="color: #db7093">染谷千秋 : 承知！「一時的偏執症」発症します！
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】現実だと思う/悪夢だと思い込む (1D100<=80) ＞ 52 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「……、ちふゆ？」
 千冬の顔を見つけ、ぽつりと千冬の名を呟きます。眼の前の惨状を頭で理解する前に踏み出し、一歩、また一歩と千冬の元へ近づいていきます。
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 少しずつ千冬との距離が縮まり、千冬の首が地面に落とされたことを目視します。心臓がドクリと音を立て、指先が急速に冷えていきます。息が浅くなり、視界が急速に狭くなる心地がします。
-</span><span class="chiaki">染谷千秋 : 「千冬！…………ッ！！」
+</span><span style="color: #db7093">染谷千秋 : 「千冬！…………ッ！！」
 変に冷静な思考が、一連の出来事を悪夢ではないと囁きます。
 千冬の元へ、千冬を食らった怪物の元へ駆け出します。
 現実を認識したくありませんが、現実だと認識しています。内側から溢れ出る怒りのまま怪物に殴りかかります。
-</span><span class="chiaki">染谷千秋 : こぶし！
+</span><span style="color: #db7093">染谷千秋 : こぶし！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=50 【こぶし（パンチ）】 (1D100<=50) ＞ 33 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 自分、マーシャルアーツあります。
+</span><span style="color: #db7093">染谷千秋 : CCB<=50 【こぶし（パンチ）】 (1D100<=50) ＞ 33 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 自分、マーシャルアーツあります。
 
-</span><span class="kp">ダメージロールどうぞ！
+</span><span style="color: #000">ダメージロールどうぞ！
 
-</span><span class="chiaki">染谷千秋 : 2d3+1d4 (2D3+1D4) ＞ 5[3,2]+1[1] ＞ 6
-</span><span class="chiaki">染谷千秋 : 今の先制攻撃です！続けて殴る許可をください！
+</span><span style="color: #db7093">染谷千秋 : 2d3+1d4 (2D3+1D4) ＞ 5[3,2]+1[1] ＞ 6
+</span><span style="color: #db7093">染谷千秋 : 今の先制攻撃です！続けて殴る許可をください！
 
-</span><span class="kp">あなたは千冬を喰らった怪物に感情のまま拳を振るう。その一撃は重いものだった、ただし人であれば。スライムのような粘液で形成された体に拳を叩き込んでも、手応えというものは無かった。それでもあなたは続けて殴ろうとする。
+</span><span style="color: #000">あなたは千冬を喰らった怪物に感情のまま拳を振るう。その一撃は重いものだった、ただし人であれば。スライムのような粘液で形成された体に拳を叩き込んでも、手応えというものは無かった。それでもあなたは続けて殴ろうとする。
 
-</span><span class="purple">ひよこ : 「……千秋！」
+</span><span style="color: #ac67c3">ひよこ : 「……千秋！」
 
-</span><span class="kp">「誰か」があなたの体を拘束する。その力はとても人間のものとは思えない、強い力だった。あなたは抗うこともできず、目の前の怪物がどこかへ去るのを見送った。
+</span><span style="color: #000">「誰か」があなたの体を拘束する。その力はとても人間のものとは思えない、強い力だった。あなたは抗うこともできず、目の前の怪物がどこかへ去るのを見送った。
 
-</span><span class="purple">ひよこ : 「千秋、千秋……すみません、落ち着いてください」
-</span><span class="chiaki">染谷千秋 : 「離せ！ッ離せよ！」
+</span><span style="color: #ac67c3">ひよこ : 「千秋、千秋……すみません、落ち着いてください」
+</span><span style="color: #db7093">染谷千秋 : 「離せ！ッ離せよ！」
 後ろ足で蹴ります。
 
-</span><span class="kp">あなたが蹴ったところで、後ろの気配が動じる様子は一切無かった。
+</span><span style="color: #000">あなたが蹴ったところで、後ろの気配が動じる様子は一切無かった。
 
-</span><span class="purple">ひよこ : 「千秋、聞いてください。私たちにはまだ千冬を取り戻す手段があります」
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】落ち着ける/無理～；； (1D100<=80) ＞ 36 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 暴れるのをやめて「誰か」の方へ振り向きます！
-</span><span class="purple">ひよこ : 千秋を真っ直ぐに見ます。
+</span><span style="color: #ac67c3">ひよこ : 「千秋、聞いてください。私たちにはまだ千冬を取り戻す手段があります」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】落ち着ける/無理～；； (1D100<=80) ＞ 36 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 暴れるのをやめて「誰か」の方へ振り向きます！
+</span><span style="color: #ac67c3">ひよこ : 千秋を真っ直ぐに見ます。
 「私がこの、残った頭部、脳を食らいます。そうすれば脳から情報を得て、記憶、つまり人格を私にコピーできる、かもしれません」
-</span><span class="purple">ひよこ : 「……曖昧な表現になってしまってすみません。私にもできると断言はできません。……ただ、」
-</span><span class="purple">ひよこ : 「今しがたはっきりとした人格と呼べるものをもった私と、十数年生きてきた千冬なら、千冬のほうが強いはずです。運よく人格が私に宿れば、きっと千冬の人格がこの肉体の主導権を得るでしょう」
-</span><span class="purple">ひよこ : 「しかし前例はありません。失敗するかもしれない。これが失敗すれば、あなたはこの人を焼いて、弔ってやることもできなくなります。……考える時間をあげたいですが、細胞はすぐに劣化してしまいます。できるだけ早く答えがほしい。千秋、どうしますか？」
-</span><span class="chiaki">染谷千秋 : 「は、コピー？」
-</span><span class="chiaki">染谷千秋 : 「……コピーして生き返ったとしても、それは千冬じゃない」
-</span><span class="chiaki">染谷千秋 : 「……千冬ならそう言うはずだ」
+</span><span style="color: #ac67c3">ひよこ : 「……曖昧な表現になってしまってすみません。私にもできると断言はできません。……ただ、」
+</span><span style="color: #ac67c3">ひよこ : 「今しがたはっきりとした人格と呼べるものをもった私と、十数年生きてきた千冬なら、千冬のほうが強いはずです。運よく人格が私に宿れば、きっと千冬の人格がこの肉体の主導権を得るでしょう」
+</span><span style="color: #ac67c3">ひよこ : 「しかし前例はありません。失敗するかもしれない。これが失敗すれば、あなたはこの人を焼いて、弔ってやることもできなくなります。……考える時間をあげたいですが、細胞はすぐに劣化してしまいます。できるだけ早く答えがほしい。千秋、どうしますか？」
+</span><span style="color: #db7093">染谷千秋 : 「は、コピー？」
+</span><span style="color: #db7093">染谷千秋 : 「……コピーして生き返ったとしても、それは千冬じゃない」
+</span><span style="color: #db7093">染谷千秋 : 「……千冬ならそう言うはずだ」
 首だけになった千冬を見下ろします。「誰か」の手を叩き、暗に離すよう伝えます。
-</span><span class="purple">ひよこ : 「……」
+</span><span style="color: #ac67c3">ひよこ : 「……」
 千秋を離します。
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 千冬の側に近づき、生首を拾い上げます。首だけになってしまった千冬をじっと見つめます。
-</span><span class="chiaki">染谷千秋 : 千冬の両頬を撫でて、唇にそっとキスします。
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 千冬の首を抱え、「誰か」の方へ振り向きます。そうして「誰か」の方に近づいて千冬の首を差し出します。
+</span><span style="color: #db7093">染谷千秋 : 千冬の両頬を撫でて、唇にそっとキスします。
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 千冬の首を抱え、「誰か」の方へ振り向きます。そうして「誰か」の方に近づいて千冬の首を差し出します。
 「……食ってくれ」
-</span><span class="chiaki">染谷千秋 : 「頼みがある」
-</span><span class="chiaki">染谷千秋 : 「お前、人間食えるんだろ。もしお前の人格が勝ったら、その時は俺も食ってくれ」
-</span><span class="purple">ひよこ : 「……わかりました」
+</span><span style="color: #db7093">染谷千秋 : 「頼みがある」
+</span><span style="color: #db7093">染谷千秋 : 「お前、人間食えるんだろ。もしお前の人格が勝ったら、その時は俺も食ってくれ」
+</span><span style="color: #ac67c3">ひよこ : 「……わかりました」
 
-</span><span class="kp">あなたは選択した。「誰か」があなたから千冬の首を受け取る。目の前で「誰か」が、最愛のそっくりの顔の誰かが、同じ顔のあなたの最愛を、口づけるようにして、喰らった。
-</span><span class="kp">あなたは見ている。こんな最低な現実をただじっと睥睨している。こんな地獄でも、奇跡が起こると信じて、あの人がどんな形であったとしても、あなたの前に帰ってきてくれると信じて。
-</span><span class="kp">一口、二口、そして最期の一口。目の前の誰かが目を閉じる。あなたはただ願う、次に目を開く誰かが、あなたの最愛であるとただ、ただこいねがう。
-</span><span class="kp">長い、永い一瞬だった。彼が、目を開く。
+</span><span style="color: #000">あなたは選択した。「誰か」があなたから千冬の首を受け取る。目の前で「誰か」が、最愛のそっくりの顔の誰かが、同じ顔のあなたの最愛を、口づけるようにして、喰らった。
+</span><span style="color: #000">あなたは見ている。こんな最低な現実をただじっと睥睨している。こんな地獄でも、奇跡が起こると信じて、あの人がどんな形であったとしても、あなたの前に帰ってきてくれると信じて。
+</span><span style="color: #000">一口、二口、そして最期の一口。目の前の誰かが目を閉じる。あなたはただ願う、次に目を開く誰かが、あなたの最愛であるとただ、ただこいねがう。
+</span><span style="color: #000">長い、永い一瞬だった。彼が、目を開く。
 
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 
-</span><span class="kp">・・・
-</span><span class="kp">END-1：毒を喰らわば、地獄まで
+</span><span style="color: #000">・・・
+</span><span style="color: #000">END-1：毒を喰らわば、地獄まで
 
 ▼生還報酬
 選択したSAN+1d4
@@ -667,9 +667,9 @@ SANc後殴りかかるのは自由にどうぞ！
 ▼KPC後遺症「ショゴスロード」：自覚のない怪物
 KPCの肉体がショゴスロードと同質のものになる。装甲を持ち、毎ターンHP回復。その他不定形になるなど、ショゴスの力を使えるはずだが、本人はショゴスであるという自覚がないため使用できない。
 
-</span><span class="chiaki">染谷千秋 : 1D4+1d5+1d9 (1D4+1D5+1D9) ＞ 2[2]+3[3]+7[7] ＞ 12
+</span><span style="color: #db7093">染谷千秋 : 1D4+1d5+1d9 (1D4+1D5+1D9) ＞ 2[2]+3[3]+7[7] ＞ 12
 
-</span><span class="kp">▼　▼　▼
+</span><span style="color: #000">▼　▼　▼
 
 悪夢だと信じたかった。しかしそれは、紛れもなく現実だった。
 
@@ -706,351 +706,351 @@ KPCの肉体がショゴスロードと同質のものになる。装甲を持�
 
 ▽　▽　▽
 
-</span><span class="kp">いつもと変わらぬ日、なんてことのない日常の延長線上、あなたは目を覚ます。
+</span><span style="color: #000">いつもと変わらぬ日、なんてことのない日常の延長線上、あなたは目を覚ます。
 あなたは今日をどう過ごすだろうか。
 
-</span><span class="chiaki">染谷千秋 : とりあえず千冬の顔を見ます。千冬はどうしてますか？
+</span><span style="color: #db7093">染谷千秋 : とりあえず千冬の顔を見ます。千冬はどうしてますか？
 
-</span><span class="kp">……はて、「千冬」とは何だろうか？
+</span><span style="color: #000">……はて、「千冬」とは何だろうか？
 あなたは「千冬」という人物は知らない、記憶にない。もちろん日常で「それ」に関わることをすることもない。なぜ「千冬」の顔を見ようとしたのだろうか。脳裏に疑問がよぎる。疲れているのだろうか？
 少しの違和感と共にあなたは日常を再開する。
 
-</span><span class="chiaki">染谷千秋 : ？
-</span><span class="chiaki">染谷千秋 : 千冬の顔見ますが？
+</span><span style="color: #db7093">染谷千秋 : ？
+</span><span style="color: #db7093">染谷千秋 : 千冬の顔見ますが？
 
-</span><span class="kp">「千冬」は存在しない。なのに、この胸のざわめきは何だろう。
+</span><span style="color: #000">「千冬」は存在しない。なのに、この胸のざわめきは何だろう。
 
-</span><span class="chiaki">染谷千秋 : え？
-</span><span class="chiaki">[ 染谷千秋 ] P : 0 → 1
-</span><span class="chiaki">染谷千秋 : 俺の人生から千冬いなくなったら生きる意味がありません
-</span><span class="chiaki">染谷千秋 : でも自覚してないので空虚な人生を空虚に過ごします。
+</span><span style="color: #db7093">染谷千秋 : え？
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 0 → 1
+</span><span style="color: #db7093">染谷千秋 : 俺の人生から千冬いなくなったら生きる意味がありません
+</span><span style="color: #db7093">染谷千秋 : でも自覚してないので空虚な人生を空虚に過ごします。
 
-</span><span class="kp">時刻は午前九時。今日は勤め先のバーのマスターである伊勢さんから頼み事をされていた。近くのショッピングモールへの買い出しと市場調査だ。
+</span><span style="color: #000">時刻は午前九時。今日は勤め先のバーのマスターである伊勢さんから頼み事をされていた。近くのショッピングモールへの買い出しと市場調査だ。
 この数ヶ月の間に入った後輩、猫宮あひると、待ち合わせの約束をしている。
 
-</span><span class="chiaki">染谷千秋 : choice バックレる ない (choice バックレる ない) ＞ バックレる
-</span><span class="chiaki">染谷千秋 : 行きません。
+</span><span style="color: #db7093">染谷千秋 : choice バックレる ない (choice バックレる ない) ＞ バックレる
+</span><span style="color: #db7093">染谷千秋 : 行きません。
 
-</span><span class="kp">約束の時間をとうに過ぎたが、どうにも気力が湧かない。あなたは家でぼんやりとしていた。
-</span><span class="kp">その時、ピンポンと家のチャイムが鳴る。
+</span><span style="color: #000">約束の時間をとうに過ぎたが、どうにも気力が湧かない。あなたは家でぼんやりとしていた。
+</span><span style="color: #000">その時、ピンポンと家のチャイムが鳴る。
 
-</span><span class="chiaki">染谷千秋 : 無視して寝ます。
+</span><span style="color: #db7093">染谷千秋 : 無視して寝ます。
 
-</span><span class="kp">ピンポンピンポンピンポンピンポンピンポンピンポン、と、チャイムが続けて鳴り続ける。
+</span><span style="color: #000">ピンポンピンポンピンポンピンポンピンポンピンポン、と、チャイムが続けて鳴り続ける。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 布団を被って寝ます。
-</span><span class="yellow">猫宮あひる : 「センパ～イ、いるんじゃないんですか～！？　どうしたんですか、体調不良ですか～？　それともバイトぴょんぴょんですか～！？」
-</span><span class="chiaki">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 「体調不良」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 布団を被って寝ます。
+</span><span style="color: #816d32">猫宮あひる : 「センパ～イ、いるんじゃないんですか～！？　どうしたんですか、体調不良ですか～？　それともバイトぴょんぴょんですか～！？」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 「体調不良」
 メールします。
-</span><span class="chiaki">染谷千秋 : 寝ます。
-</span><span class="yellow">猫宮あひる : 「センパイ～？　体調不良まじですか～？　なんか要るものあります～！？」
-</span><span class="chiaki">染谷千秋 : 「要らない。帰れ」
-</span><span class="yellow">猫宮あひる : 「はぁ～い。マスターにも言っとこ～」
+</span><span style="color: #db7093">染谷千秋 : 寝ます。
+</span><span style="color: #816d32">猫宮あひる : 「センパイ～？　体調不良まじですか～？　なんか要るものあります～！？」
+</span><span style="color: #db7093">染谷千秋 : 「要らない。帰れ」
+</span><span style="color: #816d32">猫宮あひる : 「はぁ～い。マスターにも言っとこ～」
 
-</span><span class="kp">そう言ってあひるは帰っていった。
+</span><span style="color: #000">そう言ってあひるは帰っていった。
 次の出勤日は明後日だ。その後も、定期的にバイトの予定はある。
 授業は通信制のため、時間にはとらわれない。あなたはバイトの無い夜に、授業を受けることが多かった。あなたの日々の用事はこれぐらいだろうか。
 さて、あなたはこれからどう過ごす？
 
-</span><span class="chiaki">染谷千秋 : 出勤します。
+</span><span style="color: #db7093">染谷千秋 : 出勤します。
 
-</span><span class="kp">あなたは明後日、バイト先へ向かった。
+</span><span style="color: #000">あなたは明後日、バイト先へ向かった。
 既にカウンターにいるマスター、伊勢さんと、フロアの清掃をしていたあひるがあなたに声をかける。
 
-</span><span class="yellow">猫宮あひる : 「センパ～イ、もう体調大丈夫なんですかぁ？」
-</span><span class="chiaki">染谷千秋 : 「ああ」
-</span><span class="yellow">猫宮あひる : 「買い出しの日、センパイの体調が戻ってからにしよ～って話になったんですよぉ。ってわけで、明日ど～ですかぁ？」
-</span><span class="chiaki">染谷千秋 : 「俺やっぱパスします」
-</span><span class="yellow">猫宮あひる : 「えっなんでですかぁ！？」
-</span><span class="chiaki">染谷千秋 : 「面倒になったんで」
-</span><span class="yellow">猫宮あひる : 「……」
+</span><span style="color: #816d32">猫宮あひる : 「センパ～イ、もう体調大丈夫なんですかぁ？」
+</span><span style="color: #db7093">染谷千秋 : 「ああ」
+</span><span style="color: #816d32">猫宮あひる : 「買い出しの日、センパイの体調が戻ってからにしよ～って話になったんですよぉ。ってわけで、明日ど～ですかぁ？」
+</span><span style="color: #db7093">染谷千秋 : 「俺やっぱパスします」
+</span><span style="color: #816d32">猫宮あひる : 「えっなんでですかぁ！？」
+</span><span style="color: #db7093">染谷千秋 : 「面倒になったんで」
+</span><span style="color: #816d32">猫宮あひる : 「……」
 
-</span><span class="kp">マスターとあひるは顔を見合わせる。
+</span><span style="color: #000">マスターとあひるは顔を見合わせる。
 
-</span><span class="yellow">猫宮あひる : 「……センパイ、どうしました～？　ヤなことありました？　それとも病み期ですかぁ？」
-</span><span class="chiaki">染谷千秋 : 「？何が」
-</span><span class="yellow">猫宮あひる : 「だって、センパイそんなこと言うキャラじゃなかったですよぉ～！」
-</span><span class="chiaki">染谷千秋 : 「そうか」
+</span><span style="color: #816d32">猫宮あひる : 「……センパイ、どうしました～？　ヤなことありました？　それとも病み期ですかぁ？」
+</span><span style="color: #db7093">染谷千秋 : 「？何が」
+</span><span style="color: #816d32">猫宮あひる : 「だって、センパイそんなこと言うキャラじゃなかったですよぉ～！」
+</span><span style="color: #db7093">染谷千秋 : 「そうか」
 どうでも良さそうに答えませう。悲しいめう。
 
-</span><span class="kp">マスターの伊勢さんがカクテルを作り始めたかと思うと、あなたに向かって差し出した。甘くて爽やかなカクテル、フローズンマルガリータだ。
+</span><span style="color: #000">マスターの伊勢さんがカクテルを作り始めたかと思うと、あなたに向かって差し出した。甘くて爽やかなカクテル、フローズンマルガリータだ。
 「無理して働かなくていいですよ。何かあったんですか？」
 
-</span><span class="yellow">猫宮あひる : 「ほらぁ～マスターも心配してますよ！　どうしちゃったんですかぁ～」
-</span><span class="chiaki">染谷千秋 : 「……？」
+</span><span style="color: #816d32">猫宮あひる : 「ほらぁ～マスターも心配してますよ！　どうしちゃったんですかぁ～」
+</span><span style="color: #db7093">染谷千秋 : 「……？」
 いつものことなのに突然心配される意味が分かりません。その理由を探そうとして──、それすらもどうでもよく、面倒で、思考を停止します。
 
-</span><span class="kp">アイデアどうぞ！
+</span><span style="color: #000">アイデアどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 20 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 20 ＞ 成功
 
-</span><span class="kp">心配される意味が分からない。何にも気力も湧かず、考える力すら失ったあなたは――それでも、違和感を微かには抱いただろう。
+</span><span style="color: #000">心配される意味が分からない。何にも気力も湧かず、考える力すら失ったあなたは――それでも、違和感を微かには抱いただろう。
 
-</span><span class="chiaki">[ 染谷千秋 ] P : 1 → 2
-</span><span class="chiaki">染谷千秋 : 「何も」
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 1 → 2
+</span><span style="color: #db7093">染谷千秋 : 「何も」
 ぼんやりと突っ立ったままカクテルを見つめます。
-</span><span class="yellow">猫宮あひる : 「も～！　せっかくマスターが作ってくれたんだから、ぐい！　だよ」
+</span><span style="color: #816d32">猫宮あひる : 「も～！　せっかくマスターが作ってくれたんだから、ぐい！　だよ」
 
-</span><span class="kp">そう言ってあひるはカクテルを持ち、あなたの口に当て傾ける。
+</span><span style="color: #000">そう言ってあひるはカクテルを持ち、あなたの口に当て傾ける。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】無気力無抵抗/どうしてかイラつく (1D100<=80) ＞ 7 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : 口にカクテルを押し付けられたまま猫宮を見下ろし、ハァ、とため息を付きます。その後カクテルを奪い一気に飲みます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無気力無抵抗/どうしてかイラつく (1D100<=80) ＞ 7 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : 口にカクテルを押し付けられたまま猫宮を見下ろし、ハァ、とため息を付きます。その後カクテルを奪い一気に飲みます。
 「面倒なんでこういうの要らないです。仕事しないんですか」
 
-</span><span class="kp">「染谷くん……」
+</span><span style="color: #000">「染谷くん……」
 伊勢さんは変わらず、心配そうにあなたを見ている。
 
-</span><span class="yellow">猫宮あひる : 「……マスター、センパイ借りま～す！　いいですよね？」
+</span><span style="color: #816d32">猫宮あひる : 「……マスター、センパイ借りま～す！　いいですよね？」
 
-</span><span class="kp">あひるはあなたの手首を掴んだ。
+</span><span style="color: #000">あひるはあなたの手首を掴んだ。
 伊勢さんもこくりと頷く。
 
-</span><span class="yellow">猫宮あひる : 「センパイ、行きますよ～」
+</span><span style="color: #816d32">猫宮あひる : 「センパイ、行きますよ～」
 
-</span><span class="kp">簡単には抵抗できない力強さで、あひるはあなたを店の外まで引っ張る。
+</span><span style="color: #000">簡単には抵抗できない力強さで、あひるはあなたを店の外まで引っ張る。
 
-</span><span class="chiaki">染谷千秋 : 連れて行かれます。
+</span><span style="color: #db7093">染谷千秋 : 連れて行かれます。
 
-</span><span class="kp">今は夏だ。夜になったとはいえ、外へ出れば蒸し暑い熱気があなたの肌に纒わりつく。空には見事な入道雲が浮かび、塀や路上は新雪で白く彩られている。
+</span><span style="color: #000">今は夏だ。夜になったとはいえ、外へ出れば蒸し暑い熱気があなたの肌に纒わりつく。空には見事な入道雲が浮かび、塀や路上は新雪で白く彩られている。
 
-</span><span class="chiaki">染谷千秋 : 誰かが好きそうな景色だなと思い、スマホでその景色を撮ろうとします。でもそれが誰かは分からないのでやめます。
+</span><span style="color: #db7093">染谷千秋 : 誰かが好きそうな景色だなと思い、スマホでその景色を撮ろうとします。でもそれが誰かは分からないのでやめます。
 
-</span><span class="kp">アイデアもどうぞ。
+</span><span style="color: #000">アイデアもどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 88 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 88 ＞ 失敗
 
-</span><span class="kp">入道雲に白い雪、誰かが好きそうな自然の美しい景色だ。でも、それは果たして誰だったか。まるで思考が霞がかったようだった。
+</span><span style="color: #000">入道雲に白い雪、誰かが好きそうな自然の美しい景色だ。でも、それは果たして誰だったか。まるで思考が霞がかったようだった。
 
-</span><span class="chiaki">[ 染谷千秋 ] P : 2 → 3
-</span><span class="yellow">猫宮あひる : 「先輩、前までもっとにこにこだったじゃないですか。もしかして、彼女にでも振られましたぁ？」
-</span><span class="yellow">猫宮あひる : 「こんな時は～、気晴らしに散歩しましょ～！　目的なしに歩くのも意外と楽しいもんですよぉ、なんなら市場調査も兼ねて！　あ、見て見てあのスイーツやさん、夏だから桃フェアだって！　美味しそ～」
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 2 → 3
+</span><span style="color: #816d32">猫宮あひる : 「先輩、前までもっとにこにこだったじゃないですか。もしかして、彼女にでも振られましたぁ？」
+</span><span style="color: #816d32">猫宮あひる : 「こんな時は～、気晴らしに散歩しましょ～！　目的なしに歩くのも意外と楽しいもんですよぉ、なんなら市場調査も兼ねて！　あ、見て見てあのスイーツやさん、夏だから桃フェアだって！　美味しそ～」
 
-</span><span class="kp">そう言ってあひるはショーウィンドウを指さす。パフェやケーキが並んでいるそのショーウィンドウには、
-</span><span class="kp">『誰かを忘れていない？』
-</span><span class="kp">ガラスいっぱいに、大きく大きく書かれたその文章を認識した瞬間、あなたの頭がずきりずきりと痛んだ。
+</span><span style="color: #000">そう言ってあひるはショーウィンドウを指さす。パフェやケーキが並んでいるそのショーウィンドウには、
+</span><span style="color: #000">『誰かを忘れていない？』
+</span><span style="color: #000">ガラスいっぱいに、大きく大きく書かれたその文章を認識した瞬間、あなたの頭がずきりずきりと痛んだ。
 誰か？　誰かとは誰だったのか、一体自分は誰を忘れたというのか。たしかにその誰かはいた、はず、なのにおぼろげで、霞がかって形にならない。奇妙な感覚に❮SANc 0/1❯
 
-</span><span class="chiaki">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 49 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「……？」
-</span><span class="chiaki">[ 染谷千秋 ] P : 3 → 4
-</span><span class="yellow">猫宮あひる : 「持ち帰りのお菓子も売ってますよぉ。あの店行ってみましょ～」
+</span><span style="color: #db7093">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 49 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「……？」
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 3 → 4
+</span><span style="color: #816d32">猫宮あひる : 「持ち帰りのお菓子も売ってますよぉ。あの店行ってみましょ～」
 千秋をぐいと引っ張ります。
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】忘れたことがきになる/どうでもいい (1D100<=80) ＞ 14 ＞ スペシャル
-</span><span class="chiaki">染谷千秋 : （忘れてる……？誰を？）
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】忘れたことがきになる/どうでもいい (1D100<=80) ＞ 14 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : （忘れてる……？誰を？）
 引っ張られながら記憶を取り出してみます。整合性のない記憶や違和感のある場所はありますか？
 
-</span><span class="kp">今思い返しても、特におかしいと感じることはない。それでもどこか、心にずっと引っかかっている。
-</span><span class="kp">このままではいけないような、理由の分からない焦燥を覚えるかもしれない。
+</span><span style="color: #000">今思い返しても、特におかしいと感じることはない。それでもどこか、心にずっと引っかかっている。
+</span><span style="color: #000">このままではいけないような、理由の分からない焦燥を覚えるかもしれない。
 そんな中、あなたはあひるに手を引かれて店の中に入った。
-</span><span class="kp">ここは比較的最近できたスイーツショップだ。ウッド調のお洒落で雰囲気の良い店内で、華やかな見た目ながらも質の良いスイーツが売りとなっている。
+</span><span style="color: #000">ここは比較的最近できたスイーツショップだ。ウッド調のお洒落で雰囲気の良い店内で、華やかな見た目ながらも質の良いスイーツが売りとなっている。
 
-</span><span class="yellow">猫宮あひる : 「バイト終わったあとに三人で食べるのアリじゃないですか？　季節限定の桃のケーキ、フルーツごろごろ乗っててめっちゃ美味しそ～！　センパイは何のケーキが好きですかぁ」
-</span><span class="chiaki">染谷千秋 : 「……、気分」
-</span><span class="yellow">猫宮あひる : 「あはは、ぽい～。好みとか無さそ～。伊勢さん何が好きだろな、やっぱ無難にショートケーキ？　いちごも生クリームも美味しそうだし」
-</span><span class="yellow">猫宮あひる : 「あ、こっちも良くないですかぁ？　常温のお菓子ですけど。桃チョコレートなんて初めて見たかも。おつまみとかで、チョコレートとか出すじゃないですかぁ。その中に桃チョコとか、いちごチョコとか期間限定のあったらアガりません～？」
-</span><span class="chiaki">染谷千秋 : 「さぁ」
+</span><span style="color: #816d32">猫宮あひる : 「バイト終わったあとに三人で食べるのアリじゃないですか？　季節限定の桃のケーキ、フルーツごろごろ乗っててめっちゃ美味しそ～！　センパイは何のケーキが好きですかぁ」
+</span><span style="color: #db7093">染谷千秋 : 「……、気分」
+</span><span style="color: #816d32">猫宮あひる : 「あはは、ぽい～。好みとか無さそ～。伊勢さん何が好きだろな、やっぱ無難にショートケーキ？　いちごも生クリームも美味しそうだし」
+</span><span style="color: #816d32">猫宮あひる : 「あ、こっちも良くないですかぁ？　常温のお菓子ですけど。桃チョコレートなんて初めて見たかも。おつまみとかで、チョコレートとか出すじゃないですかぁ。その中に桃チョコとか、いちごチョコとか期間限定のあったらアガりません～？」
+</span><span style="color: #db7093">染谷千秋 : 「さぁ」
 期間限定のチョコを見ても特に惹かれません。昔はよく買ったと思いますが何故かは分かりません。
-</span><span class="chiaki">[ 染谷千秋 ] P : 4 → 5
-</span><span class="yellow">猫宮あひる : 「あ、マンゴーとかパイナップルとかレモンとか良い～。チョコよりこっちのほうが夏っぽいかも。てかフルーツ食べた～い」
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 4 → 5
+</span><span style="color: #816d32">猫宮あひる : 「あ、マンゴーとかパイナップルとかレモンとか良い～。チョコよりこっちのほうが夏っぽいかも。てかフルーツ食べた～い」
 
-</span><span class="kp">あひるはそう言って店内をぶらつきながら、ケーキを三人分購入した。そして箱の入った袋をあなたに押しつける。
+</span><span style="color: #000">あひるはそう言って店内をぶらつきながら、ケーキを三人分購入した。そして箱の入った袋をあなたに押しつける。
 目星をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 86 ＞ 失敗
-</span><span class="yellow">猫宮あひる : 「……て、あれ。ノベルティかなぁ。なんか紙入ってる」
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 86 ＞ 失敗
+</span><span style="color: #816d32">猫宮あひる : 「……て、あれ。ノベルティかなぁ。なんか紙入ってる」
 
-</span><span class="kp">あひるが袋の中を指さす。
+</span><span style="color: #000">あひるが袋の中を指さす。
 
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】見る/見ない (1D100<=80) ＞ 77 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 見ます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】見る/見ない (1D100<=80) ＞ 77 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 見ます。
 
-</span><span class="kp">つまんで見てみれば文章が書いてある。
+</span><span style="color: #000">つまんで見てみれば文章が書いてある。
 『すべての物事には代償が必要だよね』
 
-</span><span class="chiaki">染谷千秋 : 「……？」
-</span><span class="chiaki">染谷千秋 : 裏も見ます。
+</span><span style="color: #db7093">染谷千秋 : 「……？」
+</span><span style="color: #db7093">染谷千秋 : 裏も見ます。
 
-</span><span class="kp">裏には特に何も書かれていない。
+</span><span style="color: #000">裏には特に何も書かれていない。
 
-</span><span class="chiaki">[ 染谷千秋 ] P : 5 → 6
-</span><span class="chiaki">染谷千秋 : もう一度表を見ます。
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 5 → 6
+</span><span style="color: #db7093">染谷千秋 : もう一度表を見ます。
 
-</span><span class="kp">表をもう一度見ると、最初に見た時と同じく文字が書かれている。
+</span><span style="color: #000">表をもう一度見ると、最初に見た時と同じく文字が書かれている。
 
-</span><span class="yellow">猫宮あひる : 「え、ただの紙じゃん。メモ帳？」
-</span><span class="chiaki">染谷千秋 : 紙をそのまま捨てます。
-</span><span class="yellow">猫宮あひる : 「捨てててウケる～」
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】帰りたい/帰る (1D100<=80) ＞ 66 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 無言ッ！
+</span><span style="color: #816d32">猫宮あひる : 「え、ただの紙じゃん。メモ帳？」
+</span><span style="color: #db7093">染谷千秋 : 紙をそのまま捨てます。
+</span><span style="color: #816d32">猫宮あひる : 「捨てててウケる～」
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】帰りたい/帰る (1D100<=80) ＞ 66 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 無言ッ！
 
-</span><span class="kp">ゴミ箱に紙を捨てたあなたの目の前に、一枚の紙が落ちてくる。それはまるで雪のように。ごく自然に空から落ちてきたそれを拾いあげて見ると
+</span><span style="color: #000">ゴミ箱に紙を捨てたあなたの目の前に、一枚の紙が落ちてくる。それはまるで雪のように。ごく自然に空から落ちてきたそれを拾いあげて見ると
 『魔女を殺せ』
 ただ一言、そう記されていた。
 
-</span><span class="chiaki">染谷千秋 : （魔女を殺せ？……怪異にでも巻き込まれてんのか？）
-</span><span class="chiaki">染谷千秋 : （いつも通り……、だけど、……？）
-</span><span class="chiaki">[ 染谷千秋 ] P : 6 → 7
+</span><span style="color: #db7093">染谷千秋 : （魔女を殺せ？……怪異にでも巻き込まれてんのか？）
+</span><span style="color: #db7093">染谷千秋 : （いつも通り……、だけど、……？）
+</span><span style="color: #db7093">[ 染谷千秋 ] P : 6 → 7
 
-</span><span class="kp">あなたは再び顔を上げる。街のモニターには何かのCMが再生されていた。と思えば、ぶつり、と映像が途切れ暗転する。そしてその中央に、文字が留まり続ける。
+</span><span style="color: #000">あなたは再び顔を上げる。街のモニターには何かのCMが再生されていた。と思えば、ぶつり、と映像が途切れ暗転する。そしてその中央に、文字が留まり続ける。
 
 『染谷千冬』
 
-</span><span class="kp">積み重なっていた違和感が膨れ上がり、ひとつの確信となる。
+</span><span style="color: #000">積み重なっていた違和感が膨れ上がり、ひとつの確信となる。
 
 そう、そうだ、染谷千冬は、あなたの側にいるべき人、あなたが愛する人、あなたの唯一無二の最愛。
 あなたは染谷千冬がいないことを思い出した。
 染谷千冬の存在、思い出をはっきりと取り戻した。
 
 そしてこの日常に千冬の存在だけが、ぽっかりと抜け落ちていることも認識する。それはまるで黒点のように。やっと気づいた最大の異常、非日常の要因に❮SANc 1d3+2/1d8+3❯
-</span><span class="kp">あ指定します
+</span><span style="color: #000">あ指定します
 
-</span><span class="chiaki">染谷千秋 : 草
+</span><span style="color: #db7093">染谷千秋 : 草
 
-</span><span class="kp">ちょ悩みすぎる
-</span><span class="kp">まあええかこれで どうぞ
+</span><span style="color: #000">ちょ悩みすぎる
+</span><span style="color: #000">まあええかこれで どうぞ
 
-</span><span class="chiaki">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 79 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d8+3 (1D8+3) ＞ 7[7]+3 ＞ 10
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 51 → 41
+</span><span style="color: #db7093">染谷千秋 : 1d100<=51 【正気度ロール】 (1D100<=51) ＞ 79 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d8+3 (1D8+3) ＞ 7[7]+3 ＞ 10
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 51 → 41
 
-</span><span class="kp">アイデアどうぞ。
+</span><span style="color: #000">アイデアどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 77 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1D10 (1D10) ＞ 9
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 77 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1D10 (1D10) ＞ 9
 
-</span><span class="kp">短期にしましょう。1d10+4どうぞ
+</span><span style="color: #000">短期にしましょう。1d10+4どうぞ
 
-</span><span class="chiaki">染谷千秋 : 1d10+4 (1D10+4) ＞ 8[8]+4 ＞ 12
+</span><span style="color: #db7093">染谷千秋 : 1d10+4 (1D10+4) ＞ 8[8]+4 ＞ 12
 
-</span><span class="kp">千冬の存在が消される状況に、あなたの思い出したくもない記憶が掘り起こされる。まるで、あの時と同じだ。なんなら今回は、本当に千冬のことを忘れてしまっていた。もしもずっと忘れたままだったら？　そう考えるとぞっとするだろう。
+</span><span style="color: #000">千冬の存在が消される状況に、あなたの思い出したくもない記憶が掘り起こされる。まるで、あの時と同じだ。なんなら今回は、本当に千冬のことを忘れてしまっていた。もしもずっと忘れたままだったら？　そう考えるとぞっとするだろう。
 だいたい2分ぐらい取り乱します。
 
-</span><span class="chiaki">染谷千秋 : 「……ちふゆ」
-</span><span class="chiaki">染谷千秋 : 家に帰って千冬の痕跡があるか探します。奪取ダッシュ！
-</span><span class="yellow">猫宮あひる : 「あぁ～待ってくださいよセンパイ」
+</span><span style="color: #db7093">染谷千秋 : 「……ちふゆ」
+</span><span style="color: #db7093">染谷千秋 : 家に帰って千冬の痕跡があるか探します。奪取ダッシュ！
+</span><span style="color: #816d32">猫宮あひる : 「あぁ～待ってくださいよセンパイ」
 
-</span><span class="kp">あひるがまた、あなたの手首を掴む。
+</span><span style="color: #000">あひるがまた、あなたの手首を掴む。
 
-</span><span class="chiaki">染谷千秋 : 「うるせえ離せ帰る」
+</span><span style="color: #db7093">染谷千秋 : 「うるせえ離せ帰る」
 早口で答えて腕を振り払います。
-</span><span class="yellow">猫宮あひる : 「そういえばセンパイの落とし物を預かってたのに渡してなかったな～って……はい」
+</span><span style="color: #816d32">猫宮あひる : 「そういえばセンパイの落とし物を預かってたのに渡してなかったな～って……はい」
 
-</span><span class="kp">そういいながらあひるはあなたに無理やり、何かを握らせる。あひるが渡してきたものは「ナイフ」だ。
+</span><span style="color: #000">そういいながらあひるはあなたに無理やり、何かを握らせる。あひるが渡してきたものは「ナイフ」だ。
 柄は何かの装飾が彫りこまれていて美しい。鋭利に、白銀に輝く刃はみるからに切れ味が良さそうだ。
 
-</span><span class="yellow">猫宮あひる : 「センパイのですよね～、これ。……ちゃ～んと、肌身離さず持っておかないと」
-</span><span class="chiaki">染谷千秋 : そのナイフに見覚えはありますか？
+</span><span style="color: #816d32">猫宮あひる : 「センパイのですよね～、これ。……ちゃ～んと、肌身離さず持っておかないと」
+</span><span style="color: #db7093">染谷千秋 : そのナイフに見覚えはありますか？
 
-</span><span class="kp">ありません。
-</span><span class="kp">アイデアもどうぞ。
+</span><span style="color: #000">ありません。
+</span><span style="color: #000">アイデアもどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 68 ＞ 成功
 
-</span><span class="kp">今全てを思い出したあなたの記憶に、『猫宮あひる』は存在しない。
+</span><span style="color: #000">今全てを思い出したあなたの記憶に、『猫宮あひる』は存在しない。
 
-</span><span class="chiaki">染谷千秋 : 「お前……魔女か？」
+</span><span style="color: #db7093">染谷千秋 : 「お前……魔女か？」
 ナイフを取ります。
-</span><span class="yellow">猫宮あひる : 「……はは、面白いことを言うね。私が魔女だったらナイフを渡すわけがないだろう？」
-</span><span class="chiaki">染谷千秋 : 「は、どうだかな。お前達は変な余興が好きだろ？」
-</span><span class="chiaki">染谷千秋 : 「千冬はどこだ」
-</span><span class="yellow">猫宮あひる : 「今回は私のせいじゃない。と言って、信じるかは君次第だけどね」
-</span><span class="yellow">猫宮あひる : 「今の君なら分かるだろう。周りを見てごらん」
+</span><span style="color: #816d32">猫宮あひる : 「……はは、面白いことを言うね。私が魔女だったらナイフを渡すわけがないだろう？」
+</span><span style="color: #db7093">染谷千秋 : 「は、どうだかな。お前達は変な余興が好きだろ？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬はどこだ」
+</span><span style="color: #816d32">猫宮あひる : 「今回は私のせいじゃない。と言って、信じるかは君次第だけどね」
+</span><span style="color: #816d32">猫宮あひる : 「今の君なら分かるだろう。周りを見てごらん」
 
-</span><span class="kp">あなたが周囲を見ると、人が何もない場所で立ち止まっている、そう、まるで信号を待つかのように。人が朽ちた廃墟に吸い込まれるように入る。そう、まるで店に入ったかのように。つい先程までのあなたの姿。異常だ、普通ではない、それを、あなただけが知っている、理解している。❮SANc 1/1d4❯
+</span><span style="color: #000">あなたが周囲を見ると、人が何もない場所で立ち止まっている、そう、まるで信号を待つかのように。人が朽ちた廃墟に吸い込まれるように入る。そう、まるで店に入ったかのように。つい先程までのあなたの姿。異常だ、普通ではない、それを、あなただけが知っている、理解している。❮SANc 1/1d4❯
 
-</span><span class="chiaki">染谷千秋 : 1d100<=41 【正気度ロール】 (1D100<=41) ＞ 12 ＞ 成功
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 41 → 40
+</span><span style="color: #db7093">染谷千秋 : 1d100<=41 【正気度ロール】 (1D100<=41) ＞ 12 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 41 → 40
 
-</span><span class="kp">違和感だらけのこの場所で、ひときわ目を惹くものがある。城だ。淡い空をバックにして、暗く影を帯びた荘厳な城が視界に存在している。丁度目の前を真っすぐ、ずっと真っすぐ進んだ先にあるようだ。
+</span><span style="color: #000">違和感だらけのこの場所で、ひときわ目を惹くものがある。城だ。淡い空をバックにして、暗く影を帯びた荘厳な城が視界に存在している。丁度目の前を真っすぐ、ずっと真っすぐ進んだ先にあるようだ。
 
-</span><span class="chiaki">染谷千秋 : 「あそこに魔女がいるんだな」
-</span><span class="chiaki">染谷千秋 : 「お前の目的は何だ」
-</span><span class="yellow">猫宮あひる : 「さあね」
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「あそこに魔女がいるんだな」
+</span><span style="color: #db7093">染谷千秋 : 「お前の目的は何だ」
+</span><span style="color: #816d32">猫宮あひる : 「さあね」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 城に向かいます。
 
-</span><span class="kp">あなたは城まで足を進める。猫宮あひるはついてこなかった。
+</span><span style="color: #000">あなたは城まで足を進める。猫宮あひるはついてこなかった。
 城の前には、城よりも黒く影を落とす人物がいた。
 
-</span><span class="gray">魔女 : 「ごきげんよう。こんなところまで、どうされたの？」
-</span><span class="chiaki">染谷千秋 : 「いえ。なんとなく。そういう気分になって」
-</span><span class="chiaki">染谷千秋 : 「あなたは？」
+</span><span style="color: #6a6a6a">魔女 : 「ごきげんよう。こんなところまで、どうされたの？」
+</span><span style="color: #db7093">染谷千秋 : 「いえ。なんとなく。そういう気分になって」
+</span><span style="color: #db7093">染谷千秋 : 「あなたは？」
 魔女に近づきます。
-</span><span class="gray">魔女 : 「私はこの楽園の管理人よ」
-</span><span class="chiaki">染谷千秋 : 「へえ。楽園って？」
+</span><span style="color: #6a6a6a">魔女 : 「私はこの楽園の管理人よ」
+</span><span style="color: #db7093">染谷千秋 : 「へえ。楽園って？」
 魔女の隣に立ってナイフで刺します。
 
-</span><span class="kp">目の前の彼女に、ナイフを、刃を刺し込む。
+</span><span style="color: #000">目の前の彼女に、ナイフを、刃を刺し込む。
 
-</span><span class="gray">魔女 : 「……」
+</span><span style="color: #6a6a6a">魔女 : 「……」
 
-</span><span class="kp">彼女は避ける素振りもみせず、妖しく微笑みながらただその光景を見送る。白銀にきらめく刃が心臓を貫いたのが、柄から伝わる感触でわかる。口の端から赤をつたわせながら、彼女が口を開いた。
+</span><span style="color: #000">彼女は避ける素振りもみせず、妖しく微笑みながらただその光景を見送る。白銀にきらめく刃が心臓を貫いたのが、柄から伝わる感触でわかる。口の端から赤をつたわせながら、彼女が口を開いた。
 
-</span><span class="gray">魔女 : 「お気に召さなかったのかしら。なら、帰るといいわ。怪異が満ち、危険が満ち、絶望がはびこる現実に。……あなたは天国では生きられないのね」
+</span><span style="color: #6a6a6a">魔女 : 「お気に召さなかったのかしら。なら、帰るといいわ。怪異が満ち、危険が満ち、絶望がはびこる現実に。……あなたは天国では生きられないのね」
 
-</span><span class="kp">赤く染まった手。ぽたり、ぽたりと刃の先端からは血液がつたう。
+</span><span style="color: #000">赤く染まった手。ぽたり、ぽたりと刃の先端からは血液がつたう。
 瞬きをした瞬間、全てが夢だったかように何もなくなっていた。目の前には、ただ鬱蒼とした森が広がっているだけ。城など、楽園など、天国など、どこにもない。
 日が昇っている。あなたの髪を涼やかな風が揺らした。
 きっと家では、あなたの最愛があなたのことを待っているだろう。
 
-</span><span class="chiaki">染谷千秋 : ダッシュで家に帰ります。千冬がいなかったら自殺します。
+</span><span style="color: #db7093">染谷千秋 : ダッシュで家に帰ります。千冬がいなかったら自殺します。
 
-</span><span class="kp">家に帰り、すぐに千冬のいる部屋に向かい、新しく取り付けた外鍵を開ける。手と足を拘束され、遠くへ移動することのできない――そもそも部屋に鍵がかけられていて移動ができない千冬は、ベッドに腰掛けてぼんやりとしていた。扉が開いた瞬間にゆったりとあなたのほうを向く。
+</span><span style="color: #000">家に帰り、すぐに千冬のいる部屋に向かい、新しく取り付けた外鍵を開ける。手と足を拘束され、遠くへ移動することのできない――そもそも部屋に鍵がかけられていて移動ができない千冬は、ベッドに腰掛けてぼんやりとしていた。扉が開いた瞬間にゆったりとあなたのほうを向く。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋。おかえり」
-</span><span class="chiaki">染谷千秋 : 「千冬……」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋。おかえり」
+</span><span style="color: #db7093">染谷千秋 : 「千冬……」
 千冬の姿を見てひとまず安心します。足早に近寄り千冬の身体に異常がないか調べます。
 「体調は。変なとこねえ？」
-</span><span class="chifuyu">染谷千冬 : 「ない。大丈夫だ」
-</span><span class="chiaki">染谷千秋 : 千冬の言葉を信じれません。目星！
+</span><span style="color: #00bcd4">染谷千冬 : 「ない。大丈夫だ」
+</span><span style="color: #db7093">染谷千秋 : 千冬の言葉を信じれません。目星！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 36 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 36 ＞ 成功
 
-</span><span class="kp">顔色にも体にも特に問題が無いように見える。周囲の暇つぶしになるものや冷蔵庫に触れた形跡はない。
+</span><span style="color: #000">顔色にも体にも特に問題が無いように見える。周囲の暇つぶしになるものや冷蔵庫に触れた形跡はない。
 
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 千冬の髪の毛をわしゃわしゃと撫でます。
 「何してた」
-</span><span class="chifuyu">染谷千冬 : 「……千秋を待ってた」
-</span><span class="chiaki">染谷千秋 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋を待ってた」
+</span><span style="color: #db7093">染谷千秋 : 「……」
 硬い表情のまま千冬を見つめます。
 「待たなくていい」
-</span><span class="chiaki">染谷千秋 : 「……飯食ってねーな。気に入らねえの」
-</span><span class="chifuyu">染谷千冬 : 寂しげに眉を下げます。
-</span><span class="chifuyu">染谷千冬 : 「……なんとなく、食べる気にならなかった。千秋が帰ってからにしようと思った」
-</span><span class="chiaki">染谷千秋 : 「そうか。……なら、作ってくる」
+</span><span style="color: #db7093">染谷千秋 : 「……飯食ってねーな。気に入らねえの」
+</span><span style="color: #00bcd4">染谷千冬 : 寂しげに眉を下げます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……なんとなく、食べる気にならなかった。千秋が帰ってからにしようと思った」
+</span><span style="color: #db7093">染谷千秋 : 「そうか。……なら、作ってくる」
 その場を後にします。
-</span><span class="chifuyu">染谷千冬 : 「ありがとう」
-</span><span class="chiaki">染谷千秋 : キッチンで千冬のご飯を作ります。軽いスープとパンを焼きます。包丁を自分の腕に当ててスープの中に血を入れます。
-</span><span class="chiaki">染谷千秋 : 千冬のご飯を作りながらサプリとゼリーでご飯を済ませます。適当に手当てをして服で隠します。
+</span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
+</span><span style="color: #db7093">染谷千秋 : キッチンで千冬のご飯を作ります。軽いスープとパンを焼きます。包丁を自分の腕に当ててスープの中に血を入れます。
+</span><span style="color: #db7093">染谷千秋 : 千冬のご飯を作りながらサプリとゼリーでご飯を済ませます。適当に手当てをして服で隠します。
 千冬の部屋に持って行きます。
-</span><span class="chiaki">染谷千秋 : 「出来た。食えよ」
-</span><span class="chifuyu">染谷千冬 : 「ああ。……ごめん」
+</span><span style="color: #db7093">染谷千秋 : 「出来た。食えよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。……ごめん」
 千秋に渡されて、ゆっくりと食べ進めます。
-</span><span class="chiaki">染谷千秋 : 千冬が食べ終えるのをじっと見ます。
-</span><span class="chifuyu">染谷千冬 : 「……ごちそうさま。美味しかった」
-</span><span class="chiaki">染谷千秋 : 千冬の頭を撫でながら、手がつけられていない本の山を見ます。
+</span><span style="color: #db7093">染谷千秋 : 千冬が食べ終えるのをじっと見ます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……ごちそうさま。美味しかった」
+</span><span style="color: #db7093">染谷千秋 : 千冬の頭を撫でながら、手がつけられていない本の山を見ます。
 「このシリーズはつまんねーか。近いうちに別の買ってくるよ」
-</span><span class="chifuyu">染谷千冬 : 「いや。面白かった。……気を遣わなくていい」
-</span><span class="chiaki">染谷千秋 : 「……。そっか。……今日もいい子にしてたな」
-</span><span class="chiaki">染谷千秋 : 「……風呂はいる？」
-</span><span class="chifuyu">染谷千冬 : 「わかった」
-</span><span class="chiaki">染谷千秋 : 千冬の拘束を解いて、風呂場へ向かいます。服を脱がし、身体をマッサージしながら風呂に入れます。
-</span><span class="chiaki">染谷千秋 : 「痒いとこねえ？」
-</span><span class="chifuyu">染谷千冬 : 「ない」
-</span><span class="chiaki">染谷千秋 : 「ん」
+</span><span style="color: #00bcd4">染谷千冬 : 「いや。面白かった。……気を遣わなくていい」
+</span><span style="color: #db7093">染谷千秋 : 「……。そっか。……今日もいい子にしてたな」
+</span><span style="color: #db7093">染谷千秋 : 「……風呂はいる？」
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった」
+</span><span style="color: #db7093">染谷千秋 : 千冬の拘束を解いて、風呂場へ向かいます。服を脱がし、身体をマッサージしながら風呂に入れます。
+</span><span style="color: #db7093">染谷千秋 : 「痒いとこねえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ない」
+</span><span style="color: #db7093">染谷千秋 : 「ん」
 髪を丁寧に乾かします。並んで部屋に入り、拘束具をつけます。
-</span><span class="chiaki">染谷千秋 : 「なんかあったらそれ鳴らせよ。しばらくは部屋にいるから」
+</span><span style="color: #db7093">染谷千秋 : 「なんかあったらそれ鳴らせよ。しばらくは部屋にいるから」
 ベッドサイドに置いてるベルを指差します。
-</span><span class="chiaki">染谷千秋 : 「電気消す。……おやすみ」
-</span><span class="chifuyu">染谷千冬 : 「……、おやすみ」
-</span><span class="chiaki">染谷千秋 : 部屋を出てリビングに戻ります。発狂したことで幻聴が聞こえます。日々を過ごす間、ずっと自分を責めているような千冬の言葉が耳に入りますが無視します。今日も千冬を人に戻す手段がないか、眠気が来るまで調べます。
+</span><span style="color: #db7093">染谷千秋 : 「電気消す。……おやすみ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……、おやすみ」
+</span><span style="color: #db7093">染谷千秋 : 部屋を出てリビングに戻ります。発狂したことで幻聴が聞こえます。日々を過ごす間、ずっと自分を責めているような千冬の言葉が耳に入りますが無視します。今日も千冬を人に戻す手段がないか、眠気が来るまで調べます。
 
-</span><span class="kp">千秋は千冬に責められる幻聴に苛まれた。
+</span><span style="color: #000">千秋は千冬に責められる幻聴に苛まれた。
 千冬は千秋が追い詰められた原因なのだろう自分を責めた。
 
 言わないことが増えていく。
@@ -1059,8 +1059,8 @@ KPCの肉体がショゴスロードと同質のものになる。装甲を持�
 
 この世界で生きるのは難しい。
 それでも、ふたりは。
-</span><span class="kp">・・・
-</span><span class="kp">END-1：天国では生きられない feat. knife
+</span><span style="color: #000">・・・
+</span><span style="color: #000">END-1：天国では生きられない feat. knife
 
 ▽生還報酬
 生還したSAN+1d10
@@ -1070,8 +1070,6 @@ KPCの肉体がショゴスロードと同質のものになる。装甲を持�
 ナイフを持って帰る場合：「装飾の綺麗なあなたのナイフ」
 美しいこと以外他のナイフと変わりない。これからも地獄を歩むあなたへの贈り物
 
-</span><span class="chiaki">染谷千秋 : 1d10 (1D10) ＞ 4
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 51
+</span><span style="color: #db7093">染谷千秋 : 1d10 (1D10) ＞ 4
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 40 → 51
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.purple{color:#ac67c3}.yellow{color:#816d32}.gray{color:#6a6a6a}.senri{color:#e91e63}.chika{color:#bc64a4}</style>

@@ -21,7 +21,8 @@ export interface EpisodeTabItem {
 
 const episodeSeasonNumberLabel = (
   episode: Pick<EpisodeEntry, "seasonAllNumber" | "overallNumber">,
-): string => String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0");
+): string =>
+  String(episode.seasonAllNumber ?? episode.overallNumber).padStart(2, "0");
 
 export const episodeListNumberLabel = (entry: EpisodeEntry): string =>
   entry.episodeLabel;
@@ -39,21 +40,14 @@ export const episodeOverviewLabel = (
   }
 };
 
-export const episodeLogHeadingLabel = (
-  entry: Pick<EpisodeEntry, "overallNumber" | "seasonAllNumber" | "type">,
-  deletedLabel: string = episodesPageMsg.labels.deletedEpisodeTag,
-): string => {
-  if (entry.type === "deleted") return deletedLabel;
-  if (entry.type === "another") return `Episode${deletedLabel}`;
-  return `Episode${episodeSeasonNumberLabel(entry)}`;
-};
-
 export const timelineEpisodeNumberLabel = (entry: TimelineEntry): string =>
   episodeOverviewLabel(entry);
 
 // エピソードログページへのパスを返す（base path 込み。episodeHref が base path 込みのため）。
-export const episodeLogHref = (seasonSlug: string, entry: EpisodeEntry): string =>
-  `${episodeHref(seasonSlug, entry)}/log`;
+export const episodeLogHref = (
+  seasonSlug: string,
+  entry: EpisodeEntry,
+): string => `${episodeHref(seasonSlug, entry)}/log`;
 
 export interface LogNavigation {
   previousHref: string | undefined;

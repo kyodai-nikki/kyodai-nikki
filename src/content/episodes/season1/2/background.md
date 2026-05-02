@@ -73,5 +73,3 @@
 ・夢で何かがあったということ
 ・自分が千冬を殺そうとしたことと
 ・その時の明確な殺意
-
-<style>\*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

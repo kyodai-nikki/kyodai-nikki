@@ -182,12 +182,13 @@
     "MS Mincho", Georgia, "Times New Roman", serif;
   --f-mono:
     "Abhaya Libre", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+  --f-log: "游明朝", serif;
 
   /* Font roles ------------------------------------------- */
   --font-family-other: var(--f-sans);
   --font-family-other-heading: var(--f-serif);
   --font-family-page-heading: var(--f-serif);
-  --font-family-log-body: var(--f-serif);
+  --font-family-log-body: var(--f-log);
   --font-family-log-heading: var(--f-serif);
   --font-family-navigation: var(--f-serif);
 
@@ -203,6 +204,7 @@
   --lh-tight: 1.2;
   --lh-normal: 1.6;
   --lh-loose: 2; /* 本文・ログ用。日本語の読みやすさ重視 */
+  --lh-log: 25px; /* 本文・ログ用。日本語の読みやすさ重視 */
 
   --fw-regular: 400;
   --fw-medium: 500;

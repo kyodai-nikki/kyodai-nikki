@@ -1,61 +1,59 @@
 <!-- Optional epilogue log section. -->
 
-<span class="kp">線路に飛び込んだあなたはその後、検査入院をしました。
+<span style="color: #000">線路に飛び込んだあなたはその後、検査入院をしました。
 見舞いにやってきた兄は、思った以上に元気なあなたの様子を見て胸を撫で下ろしました。病院にいる間にも警察からの事情聴取や身体検査があり、そう滞在することもできません。兄はわずかな手土産を置いて帰りました。
 そうしてあなたは二日間、それなりに慌ただしく過ごします。
-</span><span class="kp">そうして入院生活を終え、事故から三日後、あなたは兄とともに家へと帰りました――。
+</span><span style="color: #000">そうして入院生活を終え、事故から三日後、あなたは兄とともに家へと帰りました――。
 
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 
-</span><span class="kp">あなたが何か行動を起こそうとする前に、あなたの前に染谷千冬が立ち塞がります。その目はいつもより細められており――きっとあなたなら、あなたの兄が何を考えているかわかるでしょう。染谷千冬は、あなたの言葉を待っているようです。
+</span><span style="color: #000">あなたが何か行動を起こそうとする前に、あなたの前に染谷千冬が立ち塞がります。その目はいつもより細められており――きっとあなたなら、あなたの兄が何を考えているかわかるでしょう。染谷千冬は、あなたの言葉を待っているようです。
 
-</span><span class="chiaki">染谷千秋 : 「ん？　どした～？」あえて気付かないふりをしつつキッチンの方に向かおうとします。
-</span><span class="chifuyu">染谷千冬 : 腕を掴みます。
+</span><span style="color: #db7093">染谷千秋 : 「ん？　どした～？」あえて気付かないふりをしつつキッチンの方に向かおうとします。
+</span><span style="color: #00bcd4">染谷千冬 : 腕を掴みます。
 「……座っていろ」
-</span><span class="chifuyu">染谷千冬 : キッチンに向かい、自分と千秋のコップにお茶を注いで、ダイニングテーブルに置きます。
-</span><span class="chiaki">染谷千秋 : 「大丈夫だって～、医者も言ってたろ？異常ないってさ」
+</span><span style="color: #00bcd4">染谷千冬 : キッチンに向かい、自分と千秋のコップにお茶を注いで、ダイニングテーブルに置きます。
+</span><span style="color: #db7093">染谷千秋 : 「大丈夫だって～、医者も言ってたろ？異常ないってさ」
 千冬がお茶を注ぎいくのにあわせてキッチンに向かい、冷蔵庫からアイスを取り出します。
 「病院食不味かったわ～。飢え死ぬかと思ったぜ～」
-</span><span class="chiaki">染谷千秋 : 「千冬は？」そのうちの一つを差し出します。
-</span><span class="chifuyu">染谷千冬 : 「俺は要らない」
-</span><span class="chifuyu">染谷千冬 : 「……俺が言いたいのは、どうしてこんなことになったのか、だ」
-</span><span class="chiaki">染谷千秋 : 「ん」アイスを冷蔵庫に戻してテーブルに戻り、話し始めます。
+</span><span style="color: #db7093">染谷千秋 : 「千冬は？」そのうちの一つを差し出します。
+</span><span style="color: #00bcd4">染谷千冬 : 「俺は要らない」
+</span><span style="color: #00bcd4">染谷千冬 : 「……俺が言いたいのは、どうしてこんなことになったのか、だ」
+</span><span style="color: #db7093">染谷千秋 : 「ん」アイスを冷蔵庫に戻してテーブルに戻り、話し始めます。
 「そん時疲れててさ～。人もいないからしゃがんで電車待ってたんだよ」
-</span><span class="chiaki">染谷千秋 : 「で、電車がきたから立ったら急に立ちくらみがしてさ～。スマホ見てたから上手く踏みとどまれなくてそんまま落ちた」
-</span><span class="chiaki">染谷千秋 : 「イヤホンも多分そん時落ちたな。運わり～」といってアイスをかじります。
+</span><span style="color: #db7093">染谷千秋 : 「で、電車がきたから立ったら急に立ちくらみがしてさ～。スマホ見てたから上手く踏みとどまれなくてそんまま落ちた」
+</span><span style="color: #db7093">染谷千秋 : 「イヤホンも多分そん時落ちたな。運わり～」といってアイスをかじります。
 千冬には病院で『イヤホンをなくした』とそれとなく言っていました。
-</span><span class="chiaki">染谷千秋 : 「心配かけてごめんな～」
-</span><span class="chifuyu">染谷千冬 : 「…………」
-</span><span class="chifuyu">染谷千冬 : ずっと黙っています。
-</span><span class="chiaki">染谷千秋 : 「ほんほはっへ」アイスをかじりながら千冬を見てます。
-</span><span class="chifuyu">染谷千冬 : 「……言いたいことはそれだけか」
+</span><span style="color: #db7093">染谷千秋 : 「心配かけてごめんな～」
+</span><span style="color: #00bcd4">染谷千冬 : 「…………」
+</span><span style="color: #00bcd4">染谷千冬 : ずっと黙っています。
+</span><span style="color: #db7093">染谷千秋 : 「ほんほはっへ」アイスをかじりながら千冬を見てます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……言いたいことはそれだけか」
 より顔を顰めます。
-</span><span class="chiaki">染谷千秋 : 「？　うん」無邪気な振りをします。
-</span><span class="chiaki">染谷千秋 : 言いくるめ振っていいですか？
+</span><span style="color: #db7093">染谷千秋 : 「？　うん」無邪気な振りをします。
+</span><span style="color: #db7093">染谷千秋 : 言いくるめ振っていいですか？
 
-</span><span class="kp">だめです。
+</span><span style="color: #000">だめです。
 
-</span><span class="chiaki">染谷千秋 : ちぇ～
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : ちぇ～
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 はぁ、と短く息を零して拳を額に当てます。
-</span><span class="chifuyu">染谷千冬 : （……疑わしい。千秋がそんな不注意だと思えないし、そのせいで線路に落ちてしまうのも信じがたい。でも、それが嘘でも本当でも……千秋は俺に今気を遣っていることだけは確かだ。そういった節を口調から、表情から感じる。……俺は千秋の身に何かあった時にもこうして、千秋に気を遣われてばかりで、千秋から全ての信頼を得られない……）
-</span><span class="chifuyu">染谷千冬 : （……千秋に、何もできない。俺は無力だな。……だからといって、このままじゃだめだ……こんな形で千秋を失うなんてごめんだ……）
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : 千冬をじっと観察してます。
-</span><span class="chifuyu">染谷千冬 : 「……一人で行動するな。俺もついて行く」
-</span><span class="chiaki">染谷千秋 : 「へ？」
-</span><span class="chiaki">染谷千秋 : 「どこに？」
-</span><span class="chifuyu">染谷千冬 : 「どこでもだ。なるべく一人の機会を作るな。一緒に行動しよう」
-</span><span class="chiaki">染谷千秋 : （……千冬からこんな提案されるなんてな。意外だ）
-</span><span class="chiaki">染谷千秋 : （……正直、願ったり叶ったりだ）
-</span><span class="chiaki">染谷千秋 : 「なあ、俺にそう言うってことは、千冬もなるべく一人にならないってことだよな？　俺と一緒に行動するんだよな？」
-</span><span class="chifuyu">染谷千冬 : （……俺が？　……まあ、そうか。千秋と一緒に行動するなら、そういうことだな）
-</span><span class="chifuyu">染谷千冬 : 「ああ」
-</span><span class="chiaki">染谷千秋 : （……しめた）
-</span><span class="chiaki">染谷千秋 : 「わかった。なら、これからは大学も一緒に帰らないとだな～？」
-</span><span class="chiaki">染谷千秋 : 「千冬さ、今期の時間割もう一回見せてよ。一緒に行動するなら予めスケジュール組んだほうがいいだろ？」
-</span><span class="chifuyu">染谷千冬 : 「そうだな」
+</span><span style="color: #00bcd4">染谷千冬 : （……疑わしい。千秋がそんな不注意だと思えないし、そのせいで線路に落ちてしまうのも信じがたい。でも、それが嘘でも本当でも……千秋は俺に今気を遣っていることだけは確かだ。そういった節を口調から、表情から感じる。……俺は千秋の身に何かあった時にもこうして、千秋に気を遣われてばかりで、千秋から全ての信頼を得られない……）
+</span><span style="color: #00bcd4">染谷千冬 : （……千秋に、何もできない。俺は無力だな。……だからといって、このままじゃだめだ……こんな形で千秋を失うなんてごめんだ……）
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 千冬をじっと観察してます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……一人で行動するな。俺もついて行く」
+</span><span style="color: #db7093">染谷千秋 : 「へ？」
+</span><span style="color: #db7093">染谷千秋 : 「どこに？」
+</span><span style="color: #00bcd4">染谷千冬 : 「どこでもだ。なるべく一人の機会を作るな。一緒に行動しよう」
+</span><span style="color: #db7093">染谷千秋 : （……千冬からこんな提案されるなんてな。意外だ）
+</span><span style="color: #db7093">染谷千秋 : （……正直、願ったり叶ったりだ）
+</span><span style="color: #db7093">染谷千秋 : 「なあ、俺にそう言うってことは、千冬もなるべく一人にならないってことだよな？　俺と一緒に行動するんだよな？」
+</span><span style="color: #00bcd4">染谷千冬 : （……俺が？　……まあ、そうか。千秋と一緒に行動するなら、そういうことだな）
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ」
+</span><span style="color: #db7093">染谷千秋 : （……しめた）
+</span><span style="color: #db7093">染谷千秋 : 「わかった。なら、これからは大学も一緒に帰らないとだな～？」
+</span><span style="color: #db7093">染谷千秋 : 「千冬さ、今期の時間割もう一回見せてよ。一緒に行動するなら予めスケジュール組んだほうがいいだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうだな」
 
-</span><span class="kp">そうして二人は互いの時間割を比べて、これからの予定を組むのでした。なるべく、ずっと一緒にいるために――。</span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.red{color:#ff0000}</style>
+</span><span style="color: #000">そうして二人は互いの時間割を比べて、これからの予定を組むのでした。なるべく、ずっと一緒にいるために――。</span>

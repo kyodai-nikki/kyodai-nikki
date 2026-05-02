@@ -1,6 +1,6 @@
 <!-- Optional background log section. -->
 
-<span class="kp">本シナリオで登場した千秋は、最後を除き、全て「問：死の定義を教えてください」で閉じ込められていた千秋である。
+<span style="color: #000">本シナリオで登場した千秋は、最後を除き、全て「問：死の定義を教えてください」で閉じ込められていた千秋である。
 
 別世界の千秋（以降β千秋）が日記を使用した後に初めて神話的事象に遭遇した際、彼らを救う手引きをしたのがノーデンスだった。
 彼らは無事生還を果たすこととなったが、運悪くβ千秋が罠にかかってしまい、「寄せ餌」の呪いを受けてしまった。
@@ -37,5 +37,3 @@
 終わる世界とは、ノーデンスが作り出した「β千秋のための世界」である。
 この世界が終われば、千冬は自動的に元の世界へと戻される。
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.red{color:#ff0000}</style>

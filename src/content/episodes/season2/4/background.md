@@ -1,6 +1,6 @@
 <!-- Optional background log section. -->
 
-<span class="kp">夢占いが大好きな天川薫が、運命の相手を千冬だと思い込む話である。
+<span style="color: #000">夢占いが大好きな天川薫が、運命の相手を千冬だと思い込む話である。
 
 夢でグラーキを見て発狂した天川は、グラーキを夢の神様だと思い込み、「千冬と結ばれたい」と願う。
 天川を利用することにしたグラーキが天川を騙して「儀式したら叶う」と嘘をつく。
@@ -16,5 +16,3 @@
 
 天川は本人の姿じゃなければ千冬と接触しても構わないのではと考え、似姿を利用し千秋の姿となって千冬に近づいた。天川の最終目的は千冬と一緒に湖へ飛び込むことである。
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.green{color:#2a6762}.amakawa{color:#2a6762}</style>

@@ -20,15 +20,15 @@ birthday: "11月14日"
 externalLinks:
   [
     {
-      label: "いあキャラ（なんてね「」通過時）",
+      label: "いあきゃら（なんてね「」通過時）",
       url: "https://iachara.com/view/5357167",
     },
     {
-      label: "いあキャラ（大学時代）",
+      label: "いあきゃら（大学時代）",
       url: "https://iachara.com/view/5597389",
     },
     {
-      label: "いあキャラ（最新/YouTuber）",
+      label: "いあきゃら（最新/YouTuber）",
       url: "https://iachara.com/view/13563689",
     },
   ]
