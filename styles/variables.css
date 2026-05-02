@@ -28,17 +28,17 @@
   --c-bg-elev: #ffffff;
   --c-bg-muted: #f5f5f5; /* セクション背景を少しだけ落としたい時 */
 
-  --c-fg: #111111; /* 見出し・強いテキスト */
-  --c-fg-body: #2a2a2a; /* 本文 */
+  --c-fg: #333; /* 見出し・強いテキスト */
+  --c-fg-body: #333; /* 本文 */
   --c-fg-muted: #8a8a8a; /* meta / 補助 */
   --c-fg-subtle: #b5b5b5; /* disabled / プレースホルダ */
 
-  --c-border: #333333; /* デフォルト罫線 */
+  --c-border: #333; /* デフォルト罫線 */
   --c-border-strong: #cfcfcf; /* hover やフォーカス時 */
   --c-border-black: #000000;
 
   /* アクセントは設けず、本文色を使い回す（兄弟日記のモノクロ感を優先） */
-  --c-accent: #111111;
+  --c-accent: #333;
   --c-accent-hover: #4a4a4a;
   --c-accent-soft: #f2f2f2;
 
@@ -133,7 +133,7 @@
   --c-badge-bg: #333333;
   --c-badge-fg: #ffffff;
   --c-badge-alt-bg: #ffffff;
-  --c-badge-alt-fg: #ff6565; /* --c-bg-dark と同値だが意味別 */
+  --c-badge-alt-fg: #db2f2f; /* --c-bg-dark と同値だが意味別 */
 
   /* キャラクター画像プレースホルダ（縞模様） ----------- */
   --c-placeholder-stripe-dark: #d7d7d7;
@@ -182,27 +182,34 @@
     "MS Mincho", Georgia, "Times New Roman", serif;
   --f-mono:
     "Abhaya Libre", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
+  --f-log: "游明朝", serif;
 
   /* Font roles ------------------------------------------- */
-  --font-family-other: var(--f-sans);
-  --font-family-other-heading: var(--f-serif);
-  --font-family-page-heading: var(--f-serif);
-  --font-family-log-body: var(--f-serif);
-  --font-family-log-heading: var(--f-serif);
-  --font-family-navigation: var(--f-serif);
+  --font-family-base: "Shippori Mincho", var(--f-sans);
+  --font-family-other: "Shippori Mincho", var(--f-sans);
+  --font-family-other-heading: "Shippori Mincho", var(--f-serif);
+  --font-family-page-heading: "Shippori Mincho", var(--f-serif);
+  --font-family-log-body: "Shippori Mincho", var(--f-log);
+  --font-family-log-heading: "Shippori Mincho", var(--f-serif);
+  --font-family-navigation: "Shippori Mincho";
+  --font-family-head: "Libre Baskerville", var(--f-serif);
 
   --fs-xs: 0.75rem; /* 12px */
   --fs-sm: 0.8125rem; /* 13px — ナビ・meta に多用 */
   --fs-base: 1rem; /* 16px */
-  --fs-lg: 1.125rem; /* 18px */
+  --fs-m: 1.125rem; /* 18px */
+  --fs-lg: 1.25rem; /* 20px */
   --fs-xl: 1.375rem; /* 22px */
+  --fs-xl2: 1.5rem; /* 24px */
   --fs-2xl: 1.75rem; /* 28px */
   --fs-3xl: 2.25rem; /* 36px */
   --fs-4xl: 3.25rem; /* 52px — ヒーローの 兄弟日記 ロゴ想定 */
 
   --lh-tight: 1.2;
+  --lh-s-tight: 1.4;
   --lh-normal: 1.6;
   --lh-loose: 2; /* 本文・ログ用。日本語の読みやすさ重視 */
+  --lh-log: 25px; /* 本文・ログ用。日本語の読みやすさ重視 */
 
   --fw-regular: 400;
   --fw-medium: 500;

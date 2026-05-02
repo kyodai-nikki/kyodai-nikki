@@ -27,283 +27,283 @@ custom:
   isCompactDescription: false
 ---
 
-<span class="kp">貴方が目を覚ますと、そこは 10m 四方くらいの正方形の部屋だった。
+<span style="color: #000">貴方が目を覚ますと、そこは 10m 四方くらいの正方形の部屋だった。
 そこに来た記憶はない。直前の記憶も思い出せない。目を覚ましたときにはもうそこにいた。
 
-</span><span class="chifuyu">染谷千冬 : （……夢？　いや……また何か起こったのか？）
+</span><span style="color: #00bcd4">染谷千冬 : （……夢？　いや……また何か起こったのか？）
 千秋の姿を探します。
 
-</span><span class="kp">壁紙も床も白で塗りつぶされているが、一面だけガラス張りのようになっている。そして、そのガラスの向こう側にはこちらと同じような部屋があり、その床に千秋はぐったり倒れていた。
+</span><span style="color: #000">壁紙も床も白で塗りつぶされているが、一面だけガラス張りのようになっている。そして、そのガラスの向こう側にはこちらと同じような部屋があり、その床に千秋はぐったり倒れていた。
 服は拘束着のようなものを着せられており、目隠しがされている。
 さらにその足には足枷のようなものがはめられていて、それは床に繋がれている。
-</span><span class="kp">目星を振ってください。
+</span><span style="color: #000">目星を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 87 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 「……千秋！！」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 87 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋！！」
 ガラス張りの壁に駆け寄って、手を叩きつけます。
 「千秋、大丈夫か！？」
 顔色や怪我が無いかなど、千秋の様子を確認します。
 
-</span><span class="kp">あなたがガラスを叩くと、その音で気付いたのか千秋がもぞりと動き出す。
+</span><span style="color: #000">あなたがガラスを叩くと、その音で気付いたのか千秋がもぞりと動き出す。
 緩慢な様子で起き上がり、辺りをきょろきょろと見回すだろう。
 
-</span><span class="chiaki">染谷千秋 : 「……千冬？」
+</span><span style="color: #db7093">染谷千秋 : 「……千冬？」
 
-</span><span class="kp">千秋の声が部屋中に聞こえる。どうやらこの部屋にはスピーカーが内蔵されているらしく、お互いの声を聞くことが出来る。これなら窓越しに会話もできそうだ。
+</span><span style="color: #000">千秋の声が部屋中に聞こえる。どうやらこの部屋にはスピーカーが内蔵されているらしく、お互いの声を聞くことが出来る。これなら窓越しに会話もできそうだ。
 千秋はもぞもぞ動いて、床に目隠しを擦り付け、どうにか外そうと奮闘する。
 
-</span><span class="chiaki">染谷千秋 : 「なんだこれ、動けねえ。……千冬、どうなってる？」
+</span><span style="color: #db7093">染谷千秋 : 「なんだこれ、動けねえ。……千冬、どうなってる？」
 
-</span><span class="kp">千秋はDEX\*5を振ってください。成功すれば目隠しが外れます。
+</span><span style="color: #000">千秋はDEX\*5を振ってください。成功すれば目隠しが外れます。
 
-</span><span class="chiaki">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 37 ＞ 成功
 
-</span><span class="kp">目隠しを外すことができた。あなたにも千冬の様子が見えるだろう。
+</span><span style="color: #000">目隠しを外すことができた。あなたにも千冬の様子が見えるだろう。
 
-</span><span class="chiaki">染谷千秋 : 「……千冬！……俺は怪我してない。千冬は、なんともねえ？」
+</span><span style="color: #db7093">染谷千秋 : 「……千冬！……俺は怪我してない。千冬は、なんともねえ？」
 どうにか動きながらガラスに近寄ります。
-</span><span class="chifuyu">染谷千冬 : 着ているもの、持っているものや、怪我をしてないかなど自分の体を確認します。
+</span><span style="color: #00bcd4">染谷千冬 : 着ているもの、持っているものや、怪我をしてないかなど自分の体を確認します。
 
-</span><span class="kp">自分の体をくまなく確認する。どうやら怪我はしていないようだ。所持品は全て奪われたらしく、着用している服以外なにももっていない。
+</span><span style="color: #000">自分の体をくまなく確認する。どうやら怪我はしていないようだ。所持品は全て奪われたらしく、着用している服以外なにももっていない。
 
-</span><span class="chifuyu">染谷千冬 : 「俺は大丈夫だ！　千秋……」
+</span><span style="color: #00bcd4">染谷千冬 : 「俺は大丈夫だ！　千秋……」
 千秋は怪我してないとは言いますが、先程まで目隠しされ拘束もされているため心配です。千秋の部屋の様子を見ます。
 
-</span><span class="kp">目星をどうぞ！
+</span><span style="color: #000">目星をどうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 5 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">千秋をよく見てみると、千秋の身体が濡れていることに気付く。そうしてそのまま千秋がいる部屋に視線を映すと、部屋の床が水びだしになっていることが分かる。部屋の天井に蛇口らしきものがあり、そこから水が注入されているのが分かる。
+</span><span style="color: #000">千秋をよく見てみると、千秋の身体が濡れていることに気付く。そうしてそのまま千秋がいる部屋に視線を映すと、部屋の床が水びだしになっていることが分かる。部屋の天井に蛇口らしきものがあり、そこから水が注入されているのが分かる。
 千秋は足枷をされている。このまま水位が上がれば溺れてしまうだろう。
 
 また、目の前のガラスは分厚い強化アクリルで出来ているようだ。
 椅子をぶつけたり鉄パイプのようなもので殴っても割ることの出来ないものであると分かるだろう。
-</span><span class="kp">千秋も目星と知識をどうぞ。
+</span><span style="color: #000">千秋も目星と知識をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 37 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 57 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=65 【知識】 (1D100<=65) ＞ 57 ＞ 成功
 
-</span><span class="kp">千冬と同じ情報が手に入る。
+</span><span style="color: #000">千冬と同じ情報が手に入る。
 
-</span><span class="chiaki">染谷千秋 : 一先ず千冬が怪我してないことに安堵します。
-</span><span class="chifuyu">染谷千冬 : 「……！　千秋、上、水が……！」
-</span><span class="chiaki">染谷千秋 : 「……悪趣味だな」
+</span><span style="color: #db7093">染谷千秋 : 一先ず千冬が怪我してないことに安堵します。
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　千秋、上、水が……！」
+</span><span style="color: #db7093">染谷千秋 : 「……悪趣味だな」
 千冬の部屋にも何かないかみます！
-</span><span class="chifuyu">染谷千冬 : 千秋側の部屋に、扉や装置など蛇口以外のものは無いですか？
+</span><span style="color: #00bcd4">染谷千冬 : 千秋側の部屋に、扉や装置など蛇口以外のものは無いですか？
 無ければ自分の部屋も見回します。
 
-</span><span class="kp">目星を2回どうぞ！一回目の目星を千秋側の部屋、ニ回目の目星を千冬側の判定とします。
+</span><span style="color: #000">目星を2回どうぞ！一回目の目星を千秋側の部屋、ニ回目の目星を千冬側の判定とします。
 千秋は目星を一回どうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 4 ＞ 決定的成功/スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 47 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 95 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 47 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 95 ＞ 失敗
 
-</span><span class="kp">千秋の部屋をよく見る。ガラス張りになっている方の天井付近に小さな取ってがついていることが分かる。しかし手を伸ばしても、棚に乗ってもおそらくそこには届かないだろう。
-</span><span class="kp">千秋が部屋の中をよく見ようとすると、突然天井のスピーカーから声がする。
+</span><span style="color: #000">千秋の部屋をよく見る。ガラス張りになっている方の天井付近に小さな取ってがついていることが分かる。しかし手を伸ばしても、棚に乗ってもおそらくそこには届かないだろう。
+</span><span style="color: #000">千秋が部屋の中をよく見ようとすると、突然天井のスピーカーから声がする。
 。
 「奇跡のリアル脱出ショーへようこそ！貴方に与えられた時間は 60 分、見事脱出出来たら豪華景品をプレゼントしております！」
 機械で加工された声はそれだけ告げるとぶつりと切れてしまう。そんな状況に突然放り込まれた貴方達はSANC 【0/1d3】
 
-</span><span class="chiaki">染谷千秋 : 1d100<=40 【正気度ロール】 (1D100<=40) ＞ 67 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 5 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 2
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 40 → 38
+</span><span style="color: #db7093">染谷千秋 : 1d100<=40 【正気度ロール】 (1D100<=40) ＞ 67 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 5 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 2
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 40 → 38
 
-</span><span class="kp">壁には電子タイマーが埋め込まれており、«60:00»と表示されている。
+</span><span style="color: #000">壁には電子タイマーが埋め込まれており、«60:00»と表示されている。
 
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chifuyu">染谷千冬 : （……天井に取っ手がある。扉は無い。あの場所からこの部屋に入れられた？　……拘束されている千秋には届かない。……脱出ショーか。絶対に出てやる。こっちの部屋に何かあるなら……千秋の部屋と違っている場所だ）
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : （……天井に取っ手がある。扉は無い。あの場所からこの部屋に入れられた？　……拘束されている千秋には届かない。……脱出ショーか。絶対に出てやる。こっちの部屋に何かあるなら……千秋の部屋と違っている場所だ）
 千秋の部屋と同様に天井に取っ手があるか、扉はあるか、蛇口はあるか、その他家具や装置などの置かれてるものがあるか見比べます。
-</span><span class="chiaki">染谷千秋 : 「……千冬、」
+</span><span style="color: #db7093">染谷千秋 : 「……千冬、」
 
-</span><span class="kp">千秋が口を開いて、貴方に部屋の様子を伝える。先程あなたが千秋の部屋を見ていた時、千秋も同じようにあなたの部屋を見ていたようだ。
+</span><span style="color: #000">千秋が口を開いて、貴方に部屋の様子を伝える。先程あなたが千秋の部屋を見ていた時、千秋も同じようにあなたの部屋を見ていたようだ。
 あなたが千秋の説明を聞きながら部屋を見渡すと、部屋には金庫、スチール製の棚、濁った水槽、ロッカー、簡易的なキッチンがあるのが分かるだろう。千秋の部屋と違って、取っ手や蛇口はない。
 →マップ開示
-</span><span class="kp">ふたりともアイデアをどうぞ。
+</span><span style="color: #000">ふたりともアイデアをどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 100 ＞ 致命的失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 47 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 47 ＞ 成功
 
-</span><span class="kp">千秋はSAN-1d3どうぞ。
+</span><span style="color: #000">千秋はSAN-1d3どうぞ。
 
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 2
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 38 → 36
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 2
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 38 → 36
 
-</span><span class="kp">あなたが部屋を見渡していると、壁に対して違和感を覚える。どうやら見た目より柔らかく、鋭いものなら刺さるのではないかということが分かるだろう。
+</span><span style="color: #000">あなたが部屋を見渡していると、壁に対して違和感を覚える。どうやら見た目より柔らかく、鋭いものなら刺さるのではないかということが分かるだろう。
 
-</span><span class="kp">[ KP ] タイムリミット : 60 → 58
-</span><span class="chifuyu">染谷千冬 : 壁と同様に床も確認します。
+</span><span style="color: #000">[ KP ] タイムリミット : 60 → 58
+</span><span style="color: #00bcd4">染谷千冬 : 壁と同様に床も確認します。
 
-</span><span class="kp">ふつうの床だ。気になる箇所はない。壁のように柔らかいと言ったこともないようだ。
+</span><span style="color: #000">ふつうの床だ。気になる箇所はない。壁のように柔らかいと言ったこともないようだ。
 
-</span><span class="chifuyu">染谷千冬 : 「……もっと詳しく見てみる。千秋は体力を消耗しないようにしろ」
-</span><span class="chifuyu">染谷千冬 : 金庫を確認します。
-</span><span class="chiaki">染谷千秋 : 「ああ。……気をつけろよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「……もっと詳しく見てみる。千秋は体力を消耗しないようにしろ」
+</span><span style="color: #00bcd4">染谷千冬 : 金庫を確認します。
+</span><span style="color: #db7093">染谷千秋 : 「ああ。……気をつけろよ」
 
-</span><span class="kp">金庫を確認する。電子パネルがついている。入力方式はアルファベットのようだ。
+</span><span style="color: #000">金庫を確認する。電子パネルがついている。入力方式はアルファベットのようだ。
 
-</span><span class="chifuyu">染谷千冬 : （……回数制限があったらまずい。触るべきじゃないな）
+</span><span style="color: #00bcd4">染谷千冬 : （……回数制限があったらまずい。触るべきじゃないな）
 隣の水槽を見ます。
 
-</span><span class="kp">水槽は180cm程の大型のものだ。中の水は濁っていてよくわからない。
+</span><span style="color: #000">水槽は180cm程の大型のものだ。中の水は濁っていてよくわからない。
 
-</span><span class="kp">[ KP ] タイムリミット : 58 → 57
-</span><span class="chifuyu">染谷千冬 : 水槽は破壊できそうな固さですか？
+</span><span style="color: #000">[ KP ] タイムリミット : 58 → 57
+</span><span style="color: #00bcd4">染谷千冬 : 水槽は破壊できそうな固さですか？
 
-</span><span class="kp">素手では難しいだろうが、あなたの力なら可能かもしれない。割ることに挑戦する場合はSTR\*3を振ってください。素手で割る場合、割れたガラス片が刺さってしまうかもしれない。目星をどうぞ。
+</span><span style="color: #000">素手では難しいだろうが、あなたの力なら可能かもしれない。割ることに挑戦する場合はSTR\*3を振ってください。素手で割る場合、割れたガラス片が刺さってしまうかもしれない。目星をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 27 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 27 ＞ 成功
 
-</span><span class="kp">水槽の中に時折影が見える。中に何か巨大な生き物がいるのではないかということが分かる。
+</span><span style="color: #000">水槽の中に時折影が見える。中に何か巨大な生き物がいるのではないかということが分かる。
 
-</span><span class="chifuyu">染谷千冬 : （……何がいるんだか。危険な生物かもしれない。ワニ、ヘビ、……ただ、わざわざ置かれているんだ。この中に何か隠されている可能性も高い。その時は割るしかないな。その前に、調べられるところは調べる）
-</span><span class="chifuyu">染谷千冬 : ロッカーを開けます。
+</span><span style="color: #00bcd4">染谷千冬 : （……何がいるんだか。危険な生物かもしれない。ワニ、ヘビ、……ただ、わざわざ置かれているんだ。この中に何か隠されている可能性も高い。その時は割るしかないな。その前に、調べられるところは調べる）
+</span><span style="color: #00bcd4">染谷千冬 : ロッカーを開けます。
 
-</span><span class="kp">会社などによく置かれている一般的なロッカーだ。特殊な鍵がかかっている。開けるには鍵が必要だろう。
+</span><span style="color: #000">会社などによく置かれている一般的なロッカーだ。特殊な鍵がかかっている。開けるには鍵が必要だろう。
 
-</span><span class="kp">[ KP ] タイムリミット : 57 → 55
-</span><span class="chifuyu">染谷千冬 : （……ここも鍵か）
+</span><span style="color: #000">[ KP ] タイムリミット : 57 → 55
+</span><span style="color: #00bcd4">染谷千冬 : （……ここも鍵か）
 後ろの本棚を漁ります。
 
-</span><span class="kp">本や書類の詰まったなんの変哲もない棚だ。
-</span><span class="kp">あなたが部屋を調べているとガシャンと音がする。千秋が拘束具を地面に叩きつけているようだ。
+</span><span style="color: #000">本や書類の詰まったなんの変哲もない棚だ。
+</span><span style="color: #000">あなたが部屋を調べているとガシャンと音がする。千秋が拘束具を地面に叩きつけているようだ。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋、動くな」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、動くな」
 時間が惜しいため千秋のほうを見ないまま、本を適当に手を取りパラパラと漁ります。どういった系統の本が並んでいますか？
-</span><span class="chiaki">染谷千秋 : 「簡単には壊せねーな。手の方は鍵穴もついてない。……あと、足の方は解除装置がついてる。パズルみたいだ。……細長いもんあった方がいい」
+</span><span style="color: #db7093">染谷千秋 : 「簡単には壊せねーな。手の方は鍵穴もついてない。……あと、足の方は解除装置がついてる。パズルみたいだ。……細長いもんあった方がいい」
 
-</span><span class="kp">図書館を振ってください。
+</span><span style="color: #000">図書館を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : （……立てるようにか。このままじゃまずい、その手段を早く見つけないと）
+</span><span style="color: #00bcd4">染谷千冬 : （……立てるようにか。このままじゃまずい、その手段を早く見つけないと）
 「細長いもの？　どういうことだ」
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【図書館】 (1D100<=80) ＞ 37 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 「手じゃ細かくてやりづらいと思う。針金とかあれば取っておいて。……合流できたら使えるかも」
-</span><span class="kp">[ KP ] タイムリミット : 55 → 50
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【図書館】 (1D100<=80) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 「手じゃ細かくてやりづらいと思う。針金とかあれば取っておいて。……合流できたら使えるかも」
+</span><span style="color: #000">[ KP ] タイムリミット : 55 → 50
 
-</span><span class="kp">棚には様々なジャンルの本が並んでいるようだ。そのうち、生物図鑑に違和感を感じたあなたはそれを手に取るだろう。そこには大型肉食ナマズについての記載箇所に付箋が貼ってある。また、鮮明な解剖図が載っている。
+</span><span style="color: #000">棚には様々なジャンルの本が並んでいるようだ。そのうち、生物図鑑に違和感を感じたあなたはそれを手に取るだろう。そこには大型肉食ナマズについての記載箇所に付箋が貼ってある。また、鮮明な解剖図が載っている。
 そのリアルさと不気味さを目撃したあなたはSANC 【0/1d2】。
 
-</span><span class="chifuyu">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 57 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 57 ＞ 成功
 
-</span><span class="kp">さらにこのページに 1 枚のメモが挟まっており、「1:72」と書かれている。
+</span><span style="color: #000">さらにこのページに 1 枚のメモが挟まっており、「1:72」と書かれている。
 
-</span><span class="chiaki">染谷千秋 : 部屋に何かないかくまなく探します。
-</span><span class="chifuyu">染谷千冬 : 「わかった、探す」
+</span><span style="color: #db7093">染谷千秋 : 部屋に何かないかくまなく探します。
+</span><span style="color: #00bcd4">染谷千冬 : 「わかった、探す」
 千秋に答えて、メモをポケットにしまいます。
-</span><span class="chifuyu">染谷千冬 : キッチンを調べます。
+</span><span style="color: #00bcd4">染谷千冬 : キッチンを調べます。
 
-</span><span class="kp">普通のキッチンだ。蛇口をひねっても水は出ない。流し台の下を見れば包丁が出てくる。
+</span><span style="color: #000">普通のキッチンだ。蛇口をひねっても水は出ない。流し台の下を見れば包丁が出てくる。
 
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 包丁を手に取ります。
-</span><span class="chifuyu">染谷千冬 : 肉食ナマズについて、生態の記載に気になるところは無かったですか？
+</span><span style="color: #00bcd4">染谷千冬 : 肉食ナマズについて、生態の記載に気になるところは無かったですか？
 
-</span><span class="kp">縄張り意識がとても強く、凶暴性の高い魚だと記載されています。それ以外は特に気になる箇所はありませんでした。
+</span><span style="color: #000">縄張り意識がとても強く、凶暴性の高い魚だと記載されています。それ以外は特に気になる箇所はありませんでした。
 
-</span><span class="kp">[ KP ] タイムリミット : 50 → 48
+</span><span style="color: #000">[ KP ] タイムリミット : 50 → 48
 
-</span><span class="kp">水音がやけに耳につく。タイマーをみると既に10分が経過していた。
+</span><span style="color: #000">水音がやけに耳につく。タイマーをみると既に10分が経過していた。
 覚悟はしていたつもりだが、あと50分後に脱出できていなかったら千秋は死ぬだろう。そしてまた、脱出ゲームに失敗した千冬もどうなるか分からない。
 緊張感と焦りを感じたあなた達はSANC 【1/1d3】
 
-</span><span class="chifuyu">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 33 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 1d100<=36 【正気度ロール】 (1D100<=36) ＞ 17 ＞ 成功
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 36 → 35
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 70 → 69
-</span><span class="chiaki">染谷千秋 : 立ち上がって探索を続けます。
-</span><span class="chifuyu">染谷千冬 : 水槽に近づき破壊を試みます。
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=70 【正気度ロール】 (1D100<=70) ＞ 33 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d100<=36 【正気度ロール】 (1D100<=36) ＞ 17 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 36 → 35
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 70 → 69
+</span><span style="color: #db7093">染谷千秋 : 立ち上がって探索を続けます。
+</span><span style="color: #00bcd4">染谷千冬 : 水槽に近づき破壊を試みます。
 
-</span><span class="kp">素手で破壊するということですか？素手で破壊すると怪我をしてしまうかもしれません。また、傷を負った場合、以降の手を使う技能に補正が入ります。それでも良いですか？
+</span><span style="color: #000">素手で破壊するということですか？素手で破壊すると怪我をしてしまうかもしれません。また、傷を負った場合、以降の手を使う技能に補正が入ります。それでも良いですか？
 
-</span><span class="chifuyu">染谷千冬 : 蹴りたいですけど難しいですか？
+</span><span style="color: #00bcd4">染谷千冬 : 蹴りたいですけど難しいですか？
 
-</span><span class="kp">いいでしょう。STR\*4を振ってください。成功したら割れるでしょう。
+</span><span style="color: #000">いいでしょう。STR\*4を振ってください。成功したら割れるでしょう。
 また、幸運を振ってください。成功したら怪我せずに割れることにします。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=14\*4 【STR × 4】 (1D100<=56) ＞ 10 ＞ スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 29 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : すぐに水槽から離れます！
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=14\*4 【STR × 4】 (1D100<=56) ＞ 10 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 29 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : すぐに水槽から離れます！
 
-</span><span class="kp">力強く水槽を蹴ると罅がはいり、いとも容易く壊れてしまった。中から濁った水があふれ出し、あなたの足元を汚す。水と一緒に130cm程の巨大なナマズが容器から飛び出てくる。家が壊されてしまっては為す術もないようで、床でびちびちと跳ねている。このまま放置すれば死ぬだろう。
+</span><span style="color: #000">力強く水槽を蹴ると罅がはいり、いとも容易く壊れてしまった。中から濁った水があふれ出し、あなたの足元を汚す。水と一緒に130cm程の巨大なナマズが容器から飛び出てくる。家が壊されてしまっては為す術もないようで、床でびちびちと跳ねている。このまま放置すれば死ぬだろう。
 
-</span><span class="kp">[ KP ] タイムリミット : 48 → 46
-</span><span class="chifuyu">染谷千冬 : ナマズに近づき包丁を刺します。
+</span><span style="color: #000">[ KP ] タイムリミット : 48 → 46
+</span><span style="color: #00bcd4">染谷千冬 : ナマズに近づき包丁を刺します。
 
-</span><span class="kp">アイデア+10を振ってください。
+</span><span style="color: #000">アイデア+10を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=80+10 【アイデア+10】 (1D100<=90) ＞ 18 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80+10 【アイデア+10】 (1D100<=90) ＞ 18 ＞ スペシャル
 
-</span><span class="kp">生きたナマズに包丁を差し込む。死んでたまるものかとはげしく抵抗されるが、図鑑を見たあなたはどこが安全に刺せる場所か正しく把握していた。
+</span><span style="color: #000">生きたナマズに包丁を差し込む。死んでたまるものかとはげしく抵抗されるが、図鑑を見たあなたはどこが安全に刺せる場所か正しく把握していた。
 深く深く刺し、そしてしばらくしてナマズは動かなくなった。
 
-</span><span class="kp">[ KP ] タイムリミット : 46 → 44
-</span><span class="chifuyu">染谷千冬 : 体を拓きますが何か無いですか？
+</span><span style="color: #000">[ KP ] タイムリミット : 46 → 44
+</span><span style="color: #00bcd4">染谷千冬 : 体を拓きますが何か無いですか？
 
-</span><span class="kp">幸運を振ってください。
+</span><span style="color: #000">幸運を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 100 ＞ 致命的失敗
 
-</span><span class="kp">1d4+4を振ってください。
+</span><span style="color: #000">1d4+4を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : 1d4+4 (1D4+4) ＞ 4[4]+4 ＞ 8
-</span><span class="kp">[ KP ] タイムリミット : 44 → 36
+</span><span style="color: #00bcd4">染谷千冬 : 1d4+4 (1D4+4) ＞ 4[4]+4 ＞ 8
+</span><span style="color: #000">[ KP ] タイムリミット : 44 → 36
 
-</span><span class="kp">あなたはナマズの腹を割く。脱出ゲームを称していて、用意されている限りはここに手がかりがあるはずだ──。図鑑を思い出しながらあなたはナマズの腹の中を探すが、中々手がかりが見つからない。そうして時間が過ぎ、諦めて他の所を探したほうが良いんじゃないかという考えが脳裏に過ぎった瞬間、腹の奥の方に引っかかっている鍵と小さなメモを見つけた。メモには「２：３４」と書いてある。
+</span><span style="color: #000">あなたはナマズの腹を割く。脱出ゲームを称していて、用意されている限りはここに手がかりがあるはずだ──。図鑑を思い出しながらあなたはナマズの腹の中を探すが、中々手がかりが見つからない。そうして時間が過ぎ、諦めて他の所を探したほうが良いんじゃないかという考えが脳裏に過ぎった瞬間、腹の奥の方に引っかかっている鍵と小さなメモを見つけた。メモには「２：３４」と書いてある。
 生きたナマズを処理したあなたはSANC 【0/1】。
 
-</span><span class="chifuyu">染谷千冬 : 1d100<=69 【正気度ロール】 (1D100<=69) ＞ 55 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=69 【正気度ロール】 (1D100<=69) ＞ 55 ＞ 成功
 
-</span><span class="kp">タイマーを見る。ナマズの腹を割く間、どうやらかなり時間が経ってしまっていたらしい。
+</span><span style="color: #000">タイマーを見る。ナマズの腹を割く間、どうやらかなり時間が経ってしまっていたらしい。
 千秋の方を見ると水は腰程まで使っていて、かなり動きづらそうにしている。
 この調子で行くと千秋は死んでしまうだろう。また、千冬も同様だ。
 焦りを更に感じたあなた達はSANC 【1/1d3】
 
-</span><span class="chiaki">染谷千秋 : 1d100<=35 【正気度ロール】 (1D100<=35) ＞ 3 ＞ 成功
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 35 → 34
-</span><span class="chifuyu">染谷千冬 : 1d100<=69 【正気度ロール】 (1D100<=69) ＞ 55 ＞ 成功
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 69 → 68
-</span><span class="chifuyu">染谷千冬 : （時間がかかった、千秋が、……！）
+</span><span style="color: #db7093">染谷千秋 : 1d100<=35 【正気度ロール】 (1D100<=35) ＞ 3 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 35 → 34
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=69 【正気度ロール】 (1D100<=69) ＞ 55 ＞ 成功
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 69 → 68
+</span><span style="color: #00bcd4">染谷千冬 : （時間がかかった、千秋が、……！）
 急いでメモをポケットにしまい、手に入れた鍵をロッカーに試します。
 
-</span><span class="kp">ナマズの腹から出てきた鍵をロッカーに差し込むと、扉が開く。中にはロープとアイゼンが入っているようだ。
+</span><span style="color: #000">ナマズの腹から出てきた鍵をロッカーに差し込むと、扉が開く。中にはロープとアイゼンが入っているようだ。
 
-</span><span class="chifuyu">染谷千冬 : （……壁でも登るのか？）
+</span><span style="color: #00bcd4">染谷千冬 : （……壁でも登るのか？）
 引っ掛けられそうなところでもあるか、天井を見上げます。
 
-</span><span class="kp">天井を見上げる。先程みつけた天井付近の小さな取っ手の横に、うっすら引き戸のようなものがあることに気付くだろう。
+</span><span style="color: #000">天井を見上げる。先程みつけた天井付近の小さな取っ手の横に、うっすら引き戸のようなものがあることに気付くだろう。
 
-</span><span class="chiaki">染谷千秋 : 「ひふゆ」
-</span><span class="chifuyu">染谷千冬 : 「千秋、どうした」
+</span><span style="color: #db7093">染谷千秋 : 「ひふゆ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、どうした」
 
-</span><span class="kp">千秋はあなたの方に近寄り、咥えている紙をガラスに押し付ける。その紙には「５：９３」と書かれている。
+</span><span style="color: #000">千秋はあなたの方に近寄り、咥えている紙をガラスに押し付ける。その紙には「５：９３」と書かれている。
 
-</span><span class="chifuyu">染谷千冬 : 「……！　俺も見つけた」
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　俺も見つけた」
 見つけたメモ2枚をポケットから取り出し、千秋に見せます。
-</span><span class="chiaki">染谷千秋 : 「……暗号か」
-</span><span class="kp">[ KP ] タイムリミット : 36 → 32
-</span><span class="chiaki">染谷千秋 : 「千冬は部屋を探してくれ。暗号は俺が考える」
+</span><span style="color: #db7093">染谷千秋 : 「……暗号か」
+</span><span style="color: #000">[ KP ] タイムリミット : 36 → 32
+</span><span style="color: #db7093">染谷千秋 : 「千冬は部屋を探してくれ。暗号は俺が考える」
 
-</span><span class="kp">schoice [タコ, サメ, クリーチャー, ウツボ, ナマズ] (choice [タコ, サメ, クリーチャー, ウツボ ナマズ) ＞ ナマズ
-</span><span class="kp">目星をどうぞ。
+</span><span style="color: #000">schoice [タコ, サメ, クリーチャー, ウツボ, ナマズ] (choice [タコ, サメ, クリーチャー, ウツボ ナマズ) ＞ ナマズ
+</span><span style="color: #000">目星をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 7 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 7 ＞ スペシャル
 
-</span><span class="kp">そう千秋が口にした瞬間、あなたの視界に黒い猟犬が映る。いつの間に部屋に忍び込んだのだろうか。猟犬はあなたの方を向いて唸り声をあげる。
+</span><span style="color: #000">そう千秋が口にした瞬間、あなたの視界に黒い猟犬が映る。いつの間に部屋に忍び込んだのだろうか。猟犬はあなたの方を向いて唸り声をあげる。
 
-</span><span class="chiaki">染谷千秋 : 「……！」
+</span><span style="color: #db7093">染谷千秋 : 「……！」
 
-</span><span class="kp">あっと思う日まもなく、猟犬はあなたへ飛びかかってくるだろう。ここで猟犬と戦闘になります。
-</span><span class="kp">千秋も目星をどうぞ。
+</span><span style="color: #000">あっと思う日まもなく、猟犬はあなたへ飛びかかってくるだろう。ここで猟犬と戦闘になります。
+</span><span style="color: #000">千秋も目星をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">千秋のいる部屋の蛇口から大きな影が落ちてくる。それは先程千冬の部屋で見た巨大ナマズだ。千秋は巨大ナマズと戦闘になります。拘束されているため回避に50%の補正を入れてください。
-</span><span class="kp">s3d6 猟犬のDEX (3D6) ＞ 17[6,5,6] ＞ 17
-</span><span class="kp">s3d6 巨大ナマズのDEX (3D6) ＞ 12[6,2,4] ＞ 12
-</span><span class="kp">s3d6 猟犬STR (3D6) ＞ 15[6,5,4] ＞ 15
-</span><span class="kp">s3d6 巨大ナマズSTR (3D6) ＞ 12[6,1,5] ＞ 12
-</span><span class="kp">千冬は猟犬との戦闘、千秋は巨大ナマズとの戦闘になります。
+</span><span style="color: #000">千秋のいる部屋の蛇口から大きな影が落ちてくる。それは先程千冬の部屋で見た巨大ナマズだ。千秋は巨大ナマズと戦闘になります。拘束されているため回避に50%の補正を入れてください。
+</span><span style="color: #000">s3d6 猟犬のDEX (3D6) ＞ 17[6,5,6] ＞ 17
+</span><span style="color: #000">s3d6 巨大ナマズのDEX (3D6) ＞ 12[6,2,4] ＞ 12
+</span><span style="color: #000">s3d6 猟犬STR (3D6) ＞ 15[6,5,4] ＞ 15
+</span><span style="color: #000">s3d6 巨大ナマズSTR (3D6) ＞ 12[6,1,5] ＞ 12
+</span><span style="color: #000">千冬は猟犬との戦闘、千秋は巨大ナマズとの戦闘になります。
 
 【特殊ルール】
 
@@ -312,344 +312,344 @@ custom:
    猟犬(15+17)/2=16、巨大ナマズ(12+12)=12
 3. 成功で戦闘勝利、失敗で次ターンに勝利扱いとします。
 4. 戦闘ラウンド\*1d3ダメージを追ってください。
-   </span><span class="kp">まずはDEXの早い千秋からどうぞ。
-   </span><span class="kp">res((12+13)/2-12) 【巨大ナマズとの戦闘】 (1d100<=50) ＞ 39 ＞ 成功
-   </span><span class="kp">千秋は1ラウンド目で勝利となります。HPを1d3減らしてください。
+   </span><span style="color: #000">まずはDEXの早い千秋からどうぞ。
+   </span><span style="color: #000">res((12+13)/2-12) 【巨大ナマズとの戦闘】 (1d100<=50) ＞ 39 ＞ 成功
+   </span><span style="color: #000">千秋は1ラウンド目で勝利となります。HPを1d3減らしてください。
 
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 1
-</span><span class="chiaki">[ 染谷千秋 ] HP : 12 → 11
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 1
+</span><span style="color: #db7093">[ 染谷千秋 ] HP : 12 → 11
 
-</span><span class="kp">続けて千冬どうぞ。
+</span><span style="color: #000">続けて千冬どうぞ。
 
-</span><span class="chifuyu">染谷千冬 : res((14+9)/2-16) (1d100<=25) ＞ 54 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 「千冬ッ！クソッ……千冬！！」
+</span><span style="color: #00bcd4">染谷千冬 : res((14+9)/2-16) (1d100<=25) ＞ 54 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 「千冬ッ！クソッ……千冬！！」
 ガラスを思いっきり殴ります。
 
-</span><span class="kp">千冬は2ラウンド目で勝利となります。HPを2d3減らしてください。
+</span><span style="color: #000">千冬は2ラウンド目で勝利となります。HPを2d3減らしてください。
 
-</span><span class="chifuyu">染谷千冬 : 「はっ……、なんだ、急に」
-</span><span class="chifuyu">染谷千冬 : 2d3 (2D3) ＞ 3[1,2] ＞ 3
-</span><span class="chifuyu">[ 染谷千冬 ] HP : 13 → 10
+</span><span style="color: #00bcd4">染谷千冬 : 「はっ……、なんだ、急に」
+</span><span style="color: #00bcd4">染谷千冬 : 2d3 (2D3) ＞ 3[1,2] ＞ 3
+</span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 13 → 10
 
-</span><span class="kp">千冬は2d2振ってください。
+</span><span style="color: #000">千冬は2d2振ってください。
 
-</span><span class="chifuyu">染谷千冬 : 2d2 (2D2) ＞ 4[2,2] ＞ 4
-</span><span class="kp">[ KP ] タイムリミット : 32 → 28
+</span><span style="color: #00bcd4">染谷千冬 : 2d2 (2D2) ＞ 4[2,2] ＞ 4
+</span><span style="color: #000">[ KP ] タイムリミット : 32 → 28
 
-</span><span class="kp">あなた達が邪魔者と戦っている間にも、水は流れ続ける。今は千秋の胸まで溜まっているようだ。冷たい水に触れるたびに、千秋は自分が窮地にいることを痛感するだろう。千冬もまた、脳裏に二人で死ぬ未来がよぎる。
+</span><span style="color: #000">あなた達が邪魔者と戦っている間にも、水は流れ続ける。今は千秋の胸まで溜まっているようだ。冷たい水に触れるたびに、千秋は自分が窮地にいることを痛感するだろう。千冬もまた、脳裏に二人で死ぬ未来がよぎる。
 SANC 【1/1d3】
 
-</span><span class="chiaki">染谷千秋 : 1d100<=34 【正気度ロール】 (1D100<=34) ＞ 77 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 34 → 31
-</span><span class="chifuyu">染谷千冬 : 1d100<=68 【正気度ロール】 (1D100<=68) ＞ 60 ＞ 成功
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 68 → 67
+</span><span style="color: #db7093">染谷千秋 : 1d100<=34 【正気度ロール】 (1D100<=34) ＞ 77 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 34 → 31
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=68 【正気度ロール】 (1D100<=68) ＞ 60 ＞ 成功
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 68 → 67
 
-</span><span class="kp">千秋はINT\*1をどうぞ。
+</span><span style="color: #000">千秋はINT\*1をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 80 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : ロープを取っ手に引っ掛けて、壁を登れそうか観察します！
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ロープを取っ手に引っ掛けて、壁を登れそうか観察します！
 
-</span><span class="kp">アイデアどうぞ！
+</span><span style="color: #000">アイデアどうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 87 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 87 ＞ 失敗
 
-</span><span class="kp">ロープは引っかかるかもしれない。壁を登れるかは分からない。
+</span><span style="color: #000">ロープは引っかかるかもしれない。壁を登れるかは分からない。
 
-</span><span class="kp">[ KP ] タイムリミット : 28 → 27
-</span><span class="chifuyu">染谷千冬 : （……これが上手く引っかかれば、この壁質ならアイザンを使って登れるかもしれない。そしたら、あの戸に手が届く）
-</span><span class="chifuyu">染谷千冬 : （……千秋の部屋に通じる戸なら、物を渡せる。でも問題は、細長いものを見つけられていないことだ。鍵……は、細長いとは言えないな。……金庫の中に何かあるのか？　何も入力を試してない。1回ぐらいはやってみてもいいかもしれない。何桁かも確認したい）
+</span><span style="color: #000">[ KP ] タイムリミット : 28 → 27
+</span><span style="color: #00bcd4">染谷千冬 : （……これが上手く引っかかれば、この壁質ならアイザンを使って登れるかもしれない。そしたら、あの戸に手が届く）
+</span><span style="color: #00bcd4">染谷千冬 : （……千秋の部屋に通じる戸なら、物を渡せる。でも問題は、細長いものを見つけられていないことだ。鍵……は、細長いとは言えないな。……金庫の中に何かあるのか？　何も入力を試してない。1回ぐらいはやってみてもいいかもしれない。何桁かも確認したい）
 金庫に寄り、適当に入力して入力可能な文字の範囲と桁数を見ます。
 
-</span><span class="kp">金庫に適当なアルファベットを入力するが、手応えは感じない。ヒントのような類も表示されないようだ。フリー入力となっているようで、最長文字数が20文字だということしかわからない。
+</span><span style="color: #000">金庫に適当なアルファベットを入力するが、手応えは感じない。ヒントのような類も表示されないようだ。フリー入力となっているようで、最長文字数が20文字だということしかわからない。
 
-</span><span class="chifuyu">染谷千冬 : 「千秋、こっちに金庫だが、入力できるのはアルファベット26文字、パスワードは最長20文字だ」
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、こっちに金庫だが、入力できるのはアルファベット26文字、パスワードは最長20文字だ」
 話しかけながら、ロープを引っ掛けようと試みます。
 
-</span><span class="kp">千秋はINT＊2をどうぞ。
+</span><span style="color: #000">千秋はINT＊2をどうぞ。
 
-</span><span class="chiaki">染谷千秋 : CCB<=17\*2 【INT × 2】 (1D100<=34) ＞ 16 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*2 【INT × 2】 (1D100<=34) ＞ 16 ＞ 成功
 
-</span><span class="kp">あなたはロープを取っ手の方へと投げる。ロープはうまく引っかかるが、あなたが少しでも引っ張るとすぐに落ちてきてしまう。
+</span><span style="color: #000">あなたはロープを取っ手の方へと投げる。ロープはうまく引っかかるが、あなたが少しでも引っ張るとすぐに落ちてきてしまう。
 
-</span><span class="chiaki">染谷千秋 : しばらく考えて口を開きます。
+</span><span style="color: #db7093">染谷千秋 : しばらく考えて口を開きます。
 「……初めの数字は順番かもな。その後の数字は……26より大きいからアルファベットには対応させづらい。平仮名に直すのはどうだ？」
-</span><span class="chiaki">染谷千秋 : 「十の位が五十音の列に、一の位を段に当てはめるんだ。みせ……る？」
+</span><span style="color: #db7093">染谷千秋 : 「十の位が五十音の列に、一の位を段に当てはめるんだ。みせ……る？」
 
-</span><span class="kp">千冬はアイデア振ってください。
+</span><span style="color: #000">千冬はアイデア振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 93 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 「みせられる、みせしめる、みせかける……判断するには、文字数が足りない」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 93 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 「みせられる、みせしめる、みせかける……判断するには、文字数が足りない」
 （……リアル脱出『ショー』と言っていたな。共通しそうな言葉だが、関係するか？　とにかく、メモが足りてない。3と4は……）
 他にメモを見落としていないか探します。目星振りたいです。
 
-</span><span class="kp">ではアイデア振ってください！
+</span><span style="color: #000">ではアイデア振ってください！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 98 ＞ 致命的失敗
 
-</span><span class="kp">あなたはメモを見落とした可能性を考えて全体をくまなく探そうとする。そうする間にも時間は過ぎていく。
+</span><span style="color: #000">あなたはメモを見落とした可能性を考えて全体をくまなく探そうとする。そうする間にも時間は過ぎていく。
 
-</span><span class="kp">[ KP ] タイムリミット : 27 → 26
+</span><span style="color: #000">[ KP ] タイムリミット : 27 → 26
 
-</span><span class="kp">もう一度アイデアまたは目星をどうぞ。
+</span><span style="color: #000">もう一度アイデアまたは目星をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 47 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 47 ＞ 成功
 
-</span><span class="kp">濁った水槽、本棚、千秋がいる部屋からそれぞれメモが出てきた。この脱出劇が誰かに用意されたものであるならば、調べられそうな箇所に一つずつメモがあるんじゃないだろうか？と思うだろう。
+</span><span style="color: #000">濁った水槽、本棚、千秋がいる部屋からそれぞれメモが出てきた。この脱出劇が誰かに用意されたものであるならば、調べられそうな箇所に一つずつメモがあるんじゃないだろうか？と思うだろう。
 
-</span><span class="kp">[ KP ] タイムリミット : 26 → 25
-</span><span class="chifuyu">染谷千冬 : キッチン目星！
+</span><span style="color: #000">[ KP ] タイムリミット : 26 → 25
+</span><span style="color: #00bcd4">染谷千冬 : キッチン目星！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 13 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 13 ＞ スペシャル
 
-</span><span class="kp">流しの下の鍋の裏側に「３：９１」と書かれたメモを見つけることが出来る。
-</span><span class="kp">幸運をどうぞ。
+</span><span style="color: #000">流しの下の鍋の裏側に「３：９１」と書かれたメモを見つけることが出来る。
+</span><span style="color: #000">幸運をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 72 ＞ 失敗
-</span><span class="kp">[ KP ] タイムリミット : 25 → 24
-</span><span class="chifuyu">染谷千冬 : 「千秋、メモがあった。3の91だ」
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 72 ＞ 失敗
+</span><span style="color: #000">[ KP ] タイムリミット : 25 → 24
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋、メモがあった。3の91だ」
 ロッカー目星！
-</span><span class="chiaki">染谷千秋 : 「３の９１は『ら』だな」
+</span><span style="color: #db7093">染谷千秋 : 「３の９１は『ら』だな」
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 62 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 62 ＞ 成功
 
-</span><span class="kp">ロッカーの天井部分に「４：６３」と書かれたメモを見つけることが出来る。
+</span><span style="color: #000">ロッカーの天井部分に「４：６３」と書かれたメモを見つけることが出来る。
 
-</span><span class="kp">[ KP ] タイムリミット : 24 → 23
-</span><span class="chifuyu">染谷千冬 : 「あった。4の63だ」
-</span><span class="chiaki">染谷千秋 : 「４の６３……ふ？『みせらふる』、……って単語あるか？」
-</span><span class="chifuyu">染谷千冬 : 「……『ミゼラブル』か？」
+</span><span style="color: #000">[ KP ] タイムリミット : 24 → 23
+</span><span style="color: #00bcd4">染谷千冬 : 「あった。4の63だ」
+</span><span style="color: #db7093">染谷千秋 : 「４の６３……ふ？『みせらふる』、……って単語あるか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……『ミゼラブル』か？」
 金庫ににMISERABLE、と入力してみます。
 
-</span><span class="kp">あなたは金庫に「MISERABLE」と入力してみる。するとパネルが光り、「惜しい！残念だね！」という文字が表示される。扉は開かないようだ。
+</span><span style="color: #000">あなたは金庫に「MISERABLE」と入力してみる。するとパネルが光り、「惜しい！残念だね！」という文字が表示される。扉は開かないようだ。
 
-</span><span class="kp">[ KP ] タイムリミット : 23 → 22
-</span><span class="chifuyu">染谷千冬 : 「惜しいらしい」
+</span><span style="color: #000">[ KP ] タイムリミット : 23 → 22
+</span><span style="color: #00bcd4">染谷千冬 : 「惜しいらしい」
 
-</span><span class="kp">ふたりともアイデアをどうぞ！
+</span><span style="color: #000">ふたりともアイデアをどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 55 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 55 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 10 ＞ スペシャル
 
-</span><span class="kp">命をかけた脱出をゲームと呼んでいたり、パネルに表示された人を小馬鹿にするような文字をみるに、どうやらこのゲームの主催者は意地の悪い人間らしい。まだどこかにメモが隠されているのではないか、と思うだろう。
+</span><span style="color: #000">命をかけた脱出をゲームと呼んでいたり、パネルに表示された人を小馬鹿にするような文字をみるに、どうやらこのゲームの主催者は意地の悪い人間らしい。まだどこかにメモが隠されているのではないか、と思うだろう。
 千秋の部屋を含め、探索できそうな箇所は６つだ。金庫の近くにもメモが隠されているのかもしれない。
 
-</span><span class="kp">[ KP ] タイムリミット : 22 → 21
-</span><span class="chiaki">染谷千秋 : 「……千冬」
-</span><span class="chifuyu">染谷千冬 : 「なんだ」
-</span><span class="chiaki">染谷千秋 : 「金庫の周りにメモがあるかもしれない。探してみてくんねえ？」
-</span><span class="chifuyu">染谷千冬 : 「分かった」
+</span><span style="color: #000">[ KP ] タイムリミット : 22 → 21
+</span><span style="color: #db7093">染谷千秋 : 「……千冬」
+</span><span style="color: #00bcd4">染谷千冬 : 「なんだ」
+</span><span style="color: #db7093">染谷千秋 : 「金庫の周りにメモがあるかもしれない。探してみてくんねえ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「分かった」
 金庫目星！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 36 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 36 ＞ 成功
 
-</span><span class="kp">あなたは金庫の周りをくまなく見てみる。金庫の背中側が壁と密着しておらず、メモが貼ってあった。そこには「０：９４」と書いてある。ひらがなに変換すると「れ」だ。
+</span><span style="color: #000">あなたは金庫の周りをくまなく見てみる。金庫の背中側が壁と密着しておらず、メモが貼ってあった。そこには「０：９４」と書いてある。ひらがなに変換すると「れ」だ。
 
-</span><span class="chifuyu">染谷千冬 : 本棚にレ・ミゼラブルの本がないか見ます。
-</span><span class="kp">[ KP ] タイムリミット : 21 → 20
+</span><span style="color: #00bcd4">染谷千冬 : 本棚にレ・ミゼラブルの本がないか見ます。
+</span><span style="color: #000">[ KP ] タイムリミット : 21 → 20
 
-</span><span class="kp">本棚をくまなく探すが「レ・ミゼラブル」の本は見つからない。しかし、「世界の名著」なる本にレ・ミゼラブルの記載があり、そこに、哀れな人々を意味するタイトルと簡単なあらすじ、作者名が載っていた。
+</span><span style="color: #000">本棚をくまなく探すが「レ・ミゼラブル」の本は見つからない。しかし、「世界の名著」なる本にレ・ミゼラブルの記載があり、そこに、哀れな人々を意味するタイトルと簡単なあらすじ、作者名が載っていた。
 かの本の作者は「HugoVictor」であるようだ。
 
-</span><span class="chifuyu">染谷千冬 : その本を持って、記載のタイトルに英字の綴りがあれば入力します。なければ作者名を入力します。
+</span><span style="color: #00bcd4">染谷千冬 : その本を持って、記載のタイトルに英字の綴りがあれば入力します。なければ作者名を入力します。
 
-</span><span class="kp">タイトル「LesMiserables」と「HugoVictor」をそれぞれ入力する。作者名を入れたところでパネルは開いた。
+</span><span style="color: #000">タイトル「LesMiserables」と「HugoVictor」をそれぞれ入力する。作者名を入れたところでパネルは開いた。
 開けると中にはロープの先に取り付けることの出来る重石と水泳用のゴーグル、シュノーケリング用のフィンが入っている。
-</span><span class="kp">千秋はCON\*5を振ってください。
+</span><span style="color: #000">千秋はCON\*5を振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 49 ＞ 成功
-</span><span class="kp">[ KP ] タイムリミット : 20 → 18
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 49 ＞ 成功
+</span><span style="color: #000">[ KP ] タイムリミット : 20 → 18
 
-</span><span class="kp">部屋にざあざあとふる水音が反響する。
+</span><span style="color: #000">部屋にざあざあとふる水音が反響する。
 水の冷たさが千秋の身体を冷やしていく。
 タイマーは残り20分を切り、水量は千秋の身長をとうに抜かしている。身体が浮かさなければ沈んでしまう状況だが、足の拘束のせいでこれ以上はあげれそうにない。
 後10分もすれば完全に沈んでしまうだろう。そうなれば後は体力勝負だ。
 迫りくる死への恐怖にあなた達はSANC 【1/1d3】
 
-</span><span class="chiaki">染谷千秋 : 1d100<=31 【正気度ロール】 (1D100<=31) ＞ 33 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 31 → 28
-</span><span class="chifuyu">染谷千冬 : 1d100<=67 【正気度ロール】 (1D100<=67) ＞ 31 ＞ 成功
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 67 → 66
-</span><span class="chifuyu">染谷千冬 : 金庫の中と道具に目星！
+</span><span style="color: #db7093">染谷千秋 : 1d100<=31 【正気度ロール】 (1D100<=31) ＞ 33 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 31 → 28
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=67 【正気度ロール】 (1D100<=67) ＞ 31 ＞ 成功
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 67 → 66
+</span><span style="color: #00bcd4">染谷千冬 : 金庫の中と道具に目星！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 63 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 63 ＞ 成功
 
-</span><span class="kp">他に気になるものはなかった。
+</span><span style="color: #000">他に気になるものはなかった。
 
-</span><span class="chifuyu">染谷千冬 : （これで、引き戸を開けれそうだ。千秋のところに、行けるかも。でも、細長いものを見つけてない）
-</span><span class="chifuyu">染谷千冬 : 犬やナマズに目星できますか？
-</span><span class="chifuyu">染谷千冬 : あと自分のいる部屋にも目星したいです。
+</span><span style="color: #00bcd4">染谷千冬 : （これで、引き戸を開けれそうだ。千秋のところに、行けるかも。でも、細長いものを見つけてない）
+</span><span style="color: #00bcd4">染谷千冬 : 犬やナマズに目星できますか？
+</span><span style="color: #00bcd4">染谷千冬 : あと自分のいる部屋にも目星したいです。
 細長いものを探しています。
 
-</span><span class="kp">幸運振ってください！
+</span><span style="color: #000">幸運振ってください！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">部屋全体をくまなく探してみると、キッチンの下からヘアピンが見つかった。
+</span><span style="color: #000">部屋全体をくまなく探してみると、キッチンの下からヘアピンが見つかった。
 
-</span><span class="kp">[ KP ] タイムリミット : 18 → 17
-</span><span class="chifuyu">染谷千冬 : （……あった！）
-</span><span class="chifuyu">染谷千冬 : ヘアピンをポケットにしまいます。ロープに重石を取り付け、一方の端にフィンをぐるぐる巻きにして縛ります。もう一度ロープを投げて、取っ手に引っ掛けようとします。
+</span><span style="color: #000">[ KP ] タイムリミット : 18 → 17
+</span><span style="color: #00bcd4">染谷千冬 : （……あった！）
+</span><span style="color: #00bcd4">染谷千冬 : ヘアピンをポケットにしまいます。ロープに重石を取り付け、一方の端にフィンをぐるぐる巻きにして縛ります。もう一度ロープを投げて、取っ手に引っ掛けようとします。
 
-</span><span class="kp">投擲を振ってください。
+</span><span style="color: #000">投擲を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=25 【投擲】 (1D100<=25) ＞ 52 ＞ 失敗
-</span><span class="kp">[ KP ] タイムリミット : 17 → 16
-</span><span class="chifuyu">染谷千冬 : CCB<=25 【投擲】 (1D100<=25) ＞ 7 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=25 【投擲】 (1D100<=25) ＞ 52 ＞ 失敗
+</span><span style="color: #000">[ KP ] タイムリミット : 17 → 16
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=25 【投擲】 (1D100<=25) ＞ 7 ＞ 成功
 
-</span><span class="kp">成功するまで投擲またはアイデアを触れます。
-</span><span class="kp">あなたは取っ手にロープを引っ掛けることができた。重石のおかげでずり落ちることもない。これなら登ることができるだろう。
+</span><span style="color: #000">成功するまで投擲またはアイデアを触れます。
+</span><span style="color: #000">あなたは取っ手にロープを引っ掛けることができた。重石のおかげでずり落ちることもない。これなら登ることができるだろう。
 
-</span><span class="kp">[ KP ] タイムリミット : 16 → 15
-</span><span class="chifuyu">染谷千冬 : ゴーグルとアイゼンを身につけ、ロープを登り引き戸を開けようとします。
+</span><span style="color: #000">[ KP ] タイムリミット : 16 → 15
+</span><span style="color: #00bcd4">染谷千冬 : ゴーグルとアイゼンを身につけ、ロープを登り引き戸を開けようとします。
 
-</span><span class="kp">登攀+20を振ってください。
+</span><span style="color: #000">登攀+20を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=40+20 【登攀】 (1D100<=60) ＞ 75 ＞ 失敗
-</span><span class="kp">[ KP ] タイムリミット : 15 → 14
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=40+20 【登攀】 (1D100<=60) ＞ 75 ＞ 失敗
+</span><span style="color: #000">[ KP ] タイムリミット : 15 → 14
 
-</span><span class="kp">もう一度どうぞ。
+</span><span style="color: #000">もう一度どうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=40+20 【登攀】 (1D100<=60) ＞ 15 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=40+20 【登攀】 (1D100<=60) ＞ 15 ＞ 成功
 
-</span><span class="kp">取っ手まで辿り着いて小さな引き戸を開けると、壁の中が反対側へと抜けていく通り穴になっていて、突き当りにも同じような引き戸がある。
+</span><span style="color: #000">取っ手まで辿り着いて小さな引き戸を開けると、壁の中が反対側へと抜けていく通り穴になっていて、突き当りにも同じような引き戸がある。
 開けると水槽部屋に入れるようになった。
 
-</span><span class="kp">[ KP ] タイムリミット : 14 → 13
-</span><span class="chifuyu">染谷千冬 : （……千秋の部屋に行ける！）
+</span><span style="color: #000">[ KP ] タイムリミット : 14 → 13
+</span><span style="color: #00bcd4">染谷千冬 : （……千秋の部屋に行ける！）
 「千秋！　今行く！」
 ロープを手繰り寄せ、先に縛っていたフィンを取ります。アイゼンを通路に置き、フィンに履き替えて千秋のところまで行きます。
-</span><span class="chiaki">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
 
-</span><span class="kp">千秋はあなたの声に顔を挙げて小さく応える。
-</span><span class="kp">フィンを着用しているため補正が入ります。水泳+30を振ってください。
+</span><span style="color: #000">千秋はあなたの声に顔を挙げて小さく応える。
+</span><span style="color: #000">フィンを着用しているため補正が入ります。水泳+30を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=25+30 【水泳】 (1D100<=55) ＞ 77 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=25+30 【水泳】 (1D100<=55) ＞ 77 ＞ 失敗
 
-</span><span class="kp">水流により流されてしまい、上手く泳ぐことができない。もう一度どうぞ。
+</span><span style="color: #000">水流により流されてしまい、上手く泳ぐことができない。もう一度どうぞ。
 
-</span><span class="kp">[ KP ] タイムリミット : 13 → 10
-</span><span class="chifuyu">染谷千冬 : CCB<=25+30 【水泳】 (1D100<=55) ＞ 9 ＞ スペシャル
+</span><span style="color: #000">[ KP ] タイムリミット : 13 → 10
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=25+30 【水泳】 (1D100<=55) ＞ 9 ＞ スペシャル
 
-</span><span class="kp">水の量はどんどん増している。拘束具が邪魔をして千秋はとうとう溺れてしまうだろう。千秋はCON\*5を振ってください。
+</span><span style="color: #000">水の量はどんどん増している。拘束具が邪魔をして千秋はとうとう溺れてしまうだろう。千秋はCON\*5を振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 9 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 9 ＞ スペシャル
 
-</span><span class="kp">千冬は無事に千秋に近寄ることができる。千秋の足の方を見ると解除装置がついている。
+</span><span style="color: #000">千冬は無事に千秋に近寄ることができる。千秋の足の方を見ると解除装置がついている。
 
-</span><span class="chifuyu">染谷千冬 : 水の中に潜り、解除装置を外そうとします！ポケットからヘアピンを取り出します。
+</span><span style="color: #00bcd4">染谷千冬 : 水の中に潜り、解除装置を外そうとします！ポケットからヘアピンを取り出します。
 
-</span><span class="kp">あなたは潜って解除装置を外そうと試みる。CON*5とDEX*5をそれぞれ振ってください。
+</span><span style="color: #000">あなたは潜って解除装置を外そうと試みる。CON*5とDEX*5をそれぞれ振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
 
-</span><span class="kp">あなたは水中に潜り、解除装置を外すことができた。
+</span><span style="color: #000">あなたは水中に潜り、解除装置を外すことができた。
 
-</span><span class="kp">[ KP ] タイムリミット : 10 → 8
+</span><span style="color: #000">[ KP ] タイムリミット : 10 → 8
 
-</span><span class="kp">目星を振ってください。
+</span><span style="color: #000">目星を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 55 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 55 ＞ 成功
 
-</span><span class="kp">解除装置を外した瞬間、解除装置の中からぼろりと鍵が出てくる。貴方が周囲をよく見てみる、かなり分かりにくくされているが水底の壁に扉が在ることに気付くだろう。
+</span><span style="color: #000">解除装置を外した瞬間、解除装置の中からぼろりと鍵が出てくる。貴方が周囲をよく見てみる、かなり分かりにくくされているが水底の壁に扉が在ることに気付くだろう。
 
-</span><span class="chifuyu">染谷千冬 : 溺れていた千秋に呼吸させるために、一度浮き上がります！
-</span><span class="kp">[ KP ] タイムリミット : 8 → 6
+</span><span style="color: #00bcd4">染谷千冬 : 溺れていた千秋に呼吸させるために、一度浮き上がります！
+</span><span style="color: #000">[ KP ] タイムリミット : 8 → 6
 
-</span><span class="kp">あなたは千秋を連れて水上にでる。天井ギリギリではあるが無事に呼吸することができる。
+</span><span style="color: #000">あなたは千秋を連れて水上にでる。天井ギリギリではあるが無事に呼吸することができる。
 
-</span><span class="chifuyu">染谷千冬 : 「ごめん、千秋、遅くなった、……っ、……下の扉、行こう」
+</span><span style="color: #00bcd4">染谷千冬 : 「ごめん、千秋、遅くなった、……っ、……下の扉、行こう」
 千秋の呼吸が少し落ち着くのを確認した後、千秋の拘束具を確認します。簡単に外せそうなら外します。
-</span><span class="chiaki">染谷千秋 : 「ゲホッ、っはは、間に合うって思ってた、……ああ」
+</span><span style="color: #db7093">染谷千秋 : 「ゲホッ、っはは、間に合うって思ってた、……ああ」
 
-</span><span class="kp">千秋の拘束具は多少複雑な作りになっている。水中での作業になるため、外すには5分程かかりそうだ。
+</span><span style="color: #000">千秋の拘束具は多少複雑な作りになっている。水中での作業になるため、外すには5分程かかりそうだ。
 
-</span><span class="chifuyu">染谷千冬 : 残り6分というタイムリミットの表示を見ます。
+</span><span style="color: #00bcd4">染谷千冬 : 残り6分というタイムリミットの表示を見ます。
 「千秋、後で取る、……このまま行く」
 千秋を連れて潜り、扉まで向かいます。
 
-</span><span class="kp">千秋はこくりとうなずく。あなた達は扉までいき、最後の扉を開ける。
-</span><span class="kp">CON\*5を振ってください。
+</span><span style="color: #000">千秋はこくりとうなずく。あなた達は扉までいき、最後の扉を開ける。
+</span><span style="color: #000">CON\*5を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
 
-</span><span class="kp">1d6ダメージを追ってください。
+</span><span style="color: #000">1d6ダメージを追ってください。
 
-</span><span class="chifuyu">染谷千冬 : 1d6 (1D6) ＞ 3
-</span><span class="chifuyu">[ 染谷千冬 ] HP : 10 → 7
-</span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 3
-</span><span class="chiaki">[ 染谷千秋 ] HP : 11 → 8
+</span><span style="color: #00bcd4">染谷千冬 : 1d6 (1D6) ＞ 3
+</span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 10 → 7
+</span><span style="color: #db7093">染谷千秋 : 1d6 (1D6) ＞ 3
+</span><span style="color: #db7093">[ 染谷千秋 ] HP : 11 → 8
 
-</span><span class="kp">あなたは千秋を連れて外へと出る。呼吸もままならない中ひたすら泳いで進む。
-</span><span class="kp">＊＊＊
-</span><span class="kp">中にためられていた水と共に勢いよく外に吐き出される。大きく息を吸い、辺りを見回すと、そこがどこか下水道のような場所であると分かるだろう。
+</span><span style="color: #000">あなたは千秋を連れて外へと出る。呼吸もままならない中ひたすら泳いで進む。
+</span><span style="color: #000">＊＊＊
+</span><span style="color: #000">中にためられていた水と共に勢いよく外に吐き出される。大きく息を吸い、辺りを見回すと、そこがどこか下水道のような場所であると分かるだろう。
 
-</span><span class="chifuyu">染谷千冬 : 「はぁ、っはぁ……千秋、大丈夫か、ごめん、ごめん……！」
+</span><span style="color: #00bcd4">染谷千冬 : 「はぁ、っはぁ……千秋、大丈夫か、ごめん、ごめん……！」
 千秋の肩を抱えた後、慌てて拘束具を取ります。
-</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 82 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 3
-</span><span class="chiaki">染谷千秋 : 何度も水を飲み込んだ影響で強く咳き込みながら水を吐き出します。
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 82 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d6 (1D6) ＞ 3
+</span><span style="color: #db7093">染谷千秋 : 何度も水を飲み込んだ影響で強く咳き込みながら水を吐き出します。
 「ゲホゲホッ、ゲホ、ッ……ちふゆ……」
-</span><span class="chiaki">染谷千秋 : 「ッはぁ……、俺は大丈夫だ。千冬こそ。……怪我してただろ」
+</span><span style="color: #db7093">染谷千秋 : 「ッはぁ……、俺は大丈夫だ。千冬こそ。……怪我してただろ」
 ぺたぺたと千冬の身体を触ります。応急手当！
 
-</span><span class="kp">どぞ！
+</span><span style="color: #000">どぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=40 【応急手当】 (1D100<=40) ＞ 9 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=40 【応急手当】 (1D100<=40) ＞ 9 ＞ 成功
 
-</span><span class="kp">1d3を振ってください。
+</span><span style="color: #000">1d3を振ってください。
 
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 1
-</span><span class="chifuyu">[ 染谷千冬 ] HP : 7 → 8
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 1
+</span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 7 → 8
 
-</span><span class="kp">全身が凍るように冷たい。水で悴んで指がうまく動かせない。
+</span><span style="color: #000">全身が凍るように冷たい。水で悴んで指がうまく動かせない。
 
-</span><span class="chifuyu">染谷千冬 : 「……千秋、」
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋、」
 千秋にも応急手当振りたいです！
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=53 【応急手当】 (1D100<=53) ＞ 76 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 千秋に触れて、冷たい全身に悲しくなります。千秋を力強く抱きしめます。
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=53 【応急手当】 (1D100<=53) ＞ 76 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 千秋に触れて、冷たい全身に悲しくなります。千秋を力強く抱きしめます。
 「俺の怪我なんて見てる場合じゃない。ごめん、千秋……良かった、……」
-</span><span class="chiaki">染谷千秋 : 千冬の体温に安心しながら微笑みます。
+</span><span style="color: #db7093">染谷千秋 : 千冬の体温に安心しながら微笑みます。
 「何で千冬が謝んだよ。千冬は助けてくれただろ。ありがとな。……千冬も無事で良かった」
 千冬の身体を抱きしめ返します。
 
-</span><span class="kp">千冬はCON\*5を振ってください。
+</span><span style="color: #000">千冬はCON\*5を振ってください。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 44 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 44 ＞ 成功
 
-</span><span class="kp">あなた達は揃って地上に出ながら、あの場所に行くまでの経緯を思い出す。
+</span><span style="color: #000">あなた達は揃って地上に出ながら、あの場所に行くまでの経緯を思い出す。
 今日は仕事を終えていつも通りの日常を過ごしたはずだ。風呂に入ろうとした時気が遠くなり、気付いたらあの場所に閉じ込められていた。
 そうして歩くあなた達の瞳を、ちかりとした光がかすめる。それは徐々に近付いてきて貴方たちを照らし、手を差し伸べてくれるだろう。
-</span><span class="kp">貴方たちは下水工事の人たちに助けられ、無事帰還することが出来た。
+</span><span style="color: #000">貴方たちは下水工事の人たちに助けられ、無事帰還することが出来た。
 病院で検査をし、警察からの聴取を受け、ようやく解放された。
 長時間冷たい水に晒されていた影響で、千秋は久しぶりに風邪を引いた。
 幸いあなたは風邪を引かずにすんだが、数日間は熱をだした千秋の看病をすることだろう。
-</span><span class="kp">そうして慌ただしい一週間が過ぎた。
+</span><span style="color: #000">そうして慌ただしい一週間が過ぎた。
 今日も仕事を終えた貴方が迎えの車に乗り込むと、ふとポケットに何やら不思議なものが入っていることに気付く。
 それは小さな石のはまったペアの銀細工のバングルだ。その石の中には小さな赤い花が封じ込められている。その花はベゴニアで、「レ・ミゼラブル」という品種だった。
 さらにそこにはカードが添えられており、「勇気ある人に、それを信じた人に、そんな貴方達の未来に、祝福を」と書かれている。
-</span><span class="kp">これをどうするかは貴方次第である。
-</span><span class="kp">──────────
+</span><span style="color: #000">これをどうするかは貴方次第である。
+</span><span style="color: #000">──────────
 クトゥルフ神話TRPG
 「水中密室」改変ver
 完
 ──────────
 お疲れ様でした！
-</span><span class="kp">──────────
+</span><span style="color: #000">──────────
 ◆ 生還報酬
 ・SAN 回復
 1d6
@@ -663,13 +663,11 @@ SANC 【1/1d3】
 ・千秋
 目星*2
 
-</span><span class="chiaki">染谷千秋 : 1d6 (1D6) ＞ 3
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 28 → 31
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 21 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 33 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 1d6 (1D6) ＞ 6
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 66 → 72
-</span><span class="chifuyu">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 28 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 1d6 (1D6) ＞ 3
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 28 → 31
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 33 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 1d6 (1D6) ＞ 6
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 66 → 72
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 28 ＞ 成功
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

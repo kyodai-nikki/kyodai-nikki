@@ -1,6 +1,6 @@
 <!-- Optional omake log section. -->
 
-<span class="kp">◆ シナリオ内での猫耳・尻尾の感情表現
+<span style="color: #000">◆ シナリオ内での猫耳・尻尾の感情表現
 ・耳
 正面に向いてる時…興奮や興味などポジティブ寄りな感情
 後ろ向いてる時…反省や後ろめたさ、ゾワゾワした時などネガティブ寄りな感情
@@ -16,14 +16,12 @@
 ゴロゴロ…リラックスしてる時
 ぐるぐる…興奮している時
 
-◆ 雑談タブで出た「普段セックスする時の体力」ダイス*3
+◆ 雑談タブで出た「普段セックスする時の体力」ダイス\*3
 
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
-</span><span class="chiaki">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 77 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 48 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 77 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 48 ＞ 成功
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

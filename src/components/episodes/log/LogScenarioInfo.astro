@@ -32,7 +32,7 @@ const sourceLabel = scenario?.distributionName;
       <div class="episode-log__meta-line episode-log__meta-line--date">
         {scenario?.storyDate && (
           <div class="episode-log__meta-inline">
-            <dt>Date :</dt>
+            <dt>{episodesPageMsg.scenario.storyDate}</dt>
             <dd>{scenario.storyDate}</dd>
           </div>
         )}
@@ -96,13 +96,14 @@ const sourceLabel = scenario?.distributionName;
     align-items: baseline;
     gap: 18px;
     flex-wrap: wrap;
+    font-weight: var(--fw-bold);
   }
 
   .episode-log__title {
     margin: 0;
     font-family: var(--font-family-log-heading);
     font-size: 32px;
-    font-weight: var(--fw-regular);
+    font-weight: var(--fw-bold);
     line-height: 1.15;
   }
 
@@ -113,7 +114,7 @@ const sourceLabel = scenario?.distributionName;
   .episode-log__episode-no {
     margin: 0;
     font-family: var(--font-family-log-heading);
-    font-size: clamp(1.15rem, 2vw, 1.45rem);
+    font-size: var(--fs-xl2);
     color: var(--c-log-meta-fg);
   }
 
@@ -130,7 +131,6 @@ const sourceLabel = scenario?.distributionName;
     padding: 6px 0;
     border-bottom: 1px solid var(--c-log-divider-strong);
     font-family: var(--font-family-log-body);
-    font-size: 1rem;
     line-height: 1.5;
   }
 
@@ -143,9 +143,13 @@ const sourceLabel = scenario?.distributionName;
 
   .episode-log__meta-line dt,
   .episode-log__meta-line dd,
+  .episode-log__meta-inline dt,
+  .episode-log__meta-inline dd,
   .episode-log__meta-free {
     margin: 0;
     color: var(--c-fg);
+    font-size: var(--fs-lg);
+    line-height: var(--lh-s-tight);
   }
 
   .episode-log__meta-line a {

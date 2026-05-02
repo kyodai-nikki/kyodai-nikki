@@ -74,6 +74,8 @@ const { renderedSections } = Astro.props;
     margin-bottom: 0.75em;
     font-family: var(--font-family-log-body);
     white-space: pre-line;
+    font-size: var(--fs-base);
+    line-height: var(--lh-log);
   }
 
   .episode-log__content-section :global(ul) {
@@ -92,7 +94,7 @@ const { renderedSections } = Astro.props;
   .log {
     margin-inline: auto;
     line-height: var(--lh-loose);
-    font-size: var(--fs-lg);
+    font-size: var(--fs-m);
     color: var(--c-fg-body);
   }
 
@@ -126,7 +128,7 @@ const { renderedSections } = Astro.props;
   .scene::before {
     content: "◆ " attr(data-time) " ／ " attr(data-place);
     display: block;
-    font-family: var(--f-serif);
+    font-family: var(--font-family-base);
     font-size: var(--fs-sm);
     color: var(--c-fg-muted);
     letter-spacing: var(--ls-wide);
@@ -147,7 +149,7 @@ const { renderedSections } = Astro.props;
   }
   .line::before {
     content: attr(data-speaker);
-    font-family: var(--f-serif);
+    font-family: var(--font-family-base);
     font-weight: var(--fw-bold);
     color: var(--c-fg);
     text-align: right;
@@ -171,13 +173,13 @@ const { renderedSections } = Astro.props;
     background: var(--c-roll-bg);
     border: 1px solid color-mix(in srgb, var(--c-roll) 30%, transparent);
     border-radius: var(--r-sm);
-    font-family: var(--f-mono);
+    font-family: var(--font-family-base);
     font-size: var(--fs-sm);
     color: var(--c-roll);
   }
   .roll::before {
     content: "🎲 " attr(data-pc) " / " attr(data-check);
-    font-family: var(--f-sans);
+    font-family : var(--font-family-base);
     color: var(--c-fg-muted);
     font-size: var(--fs-xs);
     letter-spacing: var(--ls-wide);
@@ -202,7 +204,7 @@ const { renderedSections } = Astro.props;
   }
   .session-meta dt {
     color: var(--c-fg-muted);
-    font-family: var(--f-sans);
+    font-family : var(--font-family-base);
     font-weight: var(--fw-regular);
     letter-spacing: var(--ls-wide);
     font-size: var(--fs-xs);
@@ -235,7 +237,7 @@ const { renderedSections } = Astro.props;
   }
   .session-pager__label {
     display: block;
-    font-family: var(--f-sans);
+    font-family : var(--font-family-base);
     font-size: var(--fs-xs);
     color: var(--c-fg-muted);
     letter-spacing: var(--ls-wider);
@@ -243,7 +245,7 @@ const { renderedSections } = Astro.props;
     margin-bottom: var(--s-1);
   }
   .session-pager__title {
-    font-family: var(--f-serif);
+    font-family: var(--font-family-base);
     font-size: var(--fs-base);
     color: var(--c-fg);
   }

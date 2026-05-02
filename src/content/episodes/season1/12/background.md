@@ -1,6 +1,6 @@
 <!-- Optional background log section. -->
 
-<span class="kp">あるシノーソグリスの信者がいた。
+<span style="color: #000">あるシノーソグリスの信者がいた。
 彼はシノーソグリスにより与えられる死は最高のものだと考え、それをほかの人間にもわけあたえようとした。
 そして彼はある駅に『シノーソグリスの道』を作った。
 それはシノーソグリスが定期的に行き来する道であり、死を振りまく道だ。
@@ -31,5 +31,3 @@
 人工知能は千冬がそばにいることに喜びを感じ、千冬に傷つけられることにより苦しみを覚える。
 よってこれにより人間の魂の代わりとなることが出来る、というのが本シナリオである。
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.red{color:#ff0000}</style>

@@ -24,21 +24,21 @@ const {
 ---
 
 <aside class="episode-log__sidebar" aria-label={episodesPageMsg.aria.logNavigation}>
-  <Button class="episode-log__button" href={overviewHref} type="black" size="s">
+  <Button class="episode-log__button" href={overviewHref} type="black" size="m">
     {commonMsg.actions.backToOverview}
   </Button>
   {showNextButton && nextHref && (
-    <Button class="episode-log__button" href={nextHref} type="white" size="s">
+    <Button class="episode-log__button" href={nextHref} type="white" size="m">
       {commonMsg.actions.nextEpisode}
     </Button>
   )}
   {showPreviousButton && previousHref && (
-    <Button class="episode-log__button" href={previousHref} type="white" size="s">
+    <Button class="episode-log__button" href={previousHref} type="white" size="m">
       {commonMsg.actions.previousEpisode}
     </Button>
   )}
   {sections.map((section) => (
-    <Button class="episode-log__button" href={`#${section.anchor}`} type="white" size="s">
+    <Button class="episode-log__button" href={`#${section.anchor}`} type="white" size="m">
       {section.label}
     </Button>
   ))}

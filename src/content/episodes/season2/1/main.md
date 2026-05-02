@@ -25,494 +25,492 @@ custom:
   isCompactDescription: false
 ---
 
-<span class="kp">寒さが身に染みる季節。あなた達は星空の下、人通りの少ない街角を歩いている。
+<span style="color: #000">寒さが身に染みる季節。あなた達は星空の下、人通りの少ない街角を歩いている。
 
-</span><span class="chiaki">染谷千秋 : 「千冬、さむくねー？」
-</span><span class="chifuyu">染谷千冬 : 「……夜は特に冷えるな」
-</span><span class="chiaki">染谷千秋 : 「マフラーもってくりゃ良かった。……この街はよく星が見えるな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。綺麗だ。冬は星がよく見えて良い。……そういえば」
-</span><span class="chifuyu">染谷千冬 : 「この前、北海道に行きたいという話をしたな。北海道は、明かりが少ないから星がよく見える。……修学旅行で北海道に行った時、満天の星が広がっていて、吸い込まれそうなほど美しかった。……千秋にも見てほしい」
-</span><span class="chiaki">染谷千秋 : 「へぇ。こことは違う見え方なんだ」
-</span><span class="chiaki">染谷千秋 : 「なら、冬の星座も見えたりすんの？」
-</span><span class="chifuyu">染谷千冬 : 「ああ。……俺もそこまで星座に詳しくないからわからないが……俺たちのいる街では見えないような、小さく輝く星が全部見える。空に本当にたくさんの星が浮かんでいるんだ。きっとそれらの星を繋げたら、何かの星座になるんだろうな」
-</span><span class="chiaki">染谷千秋 : 「……千冬がそこまで言うんなら綺麗なんだろうな。俺も見てみたい。……一緒に見ようぜ」
-</span><span class="chifuyu">染谷千冬 : 「ああ。見に行こう」
-</span><span class="chiaki">染谷千秋 : ふ、と笑って千冬の頭を撫でます。
+</span><span style="color: #db7093">染谷千秋 : 「千冬、さむくねー？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……夜は特に冷えるな」
+</span><span style="color: #db7093">染谷千秋 : 「マフラーもってくりゃ良かった。……この街はよく星が見えるな」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。綺麗だ。冬は星がよく見えて良い。……そういえば」
+</span><span style="color: #00bcd4">染谷千冬 : 「この前、北海道に行きたいという話をしたな。北海道は、明かりが少ないから星がよく見える。……修学旅行で北海道に行った時、満天の星が広がっていて、吸い込まれそうなほど美しかった。……千秋にも見てほしい」
+</span><span style="color: #db7093">染谷千秋 : 「へぇ。こことは違う見え方なんだ」
+</span><span style="color: #db7093">染谷千秋 : 「なら、冬の星座も見えたりすんの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。……俺もそこまで星座に詳しくないからわからないが……俺たちのいる街では見えないような、小さく輝く星が全部見える。空に本当にたくさんの星が浮かんでいるんだ。きっとそれらの星を繋げたら、何かの星座になるんだろうな」
+</span><span style="color: #db7093">染谷千秋 : 「……千冬がそこまで言うんなら綺麗なんだろうな。俺も見てみたい。……一緒に見ようぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。見に行こう」
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑って千冬の頭を撫でます。
 
-</span><span class="kp">そうやって、あなたたちは会話をしながら歩いていた。
+</span><span style="color: #000">そうやって、あなたたちは会話をしながら歩いていた。
 目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 59 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 59 ＞ 成功
 
-</span><span class="kp">ふと古いレンガ造りの建物に貼られているポスターに目を惹かれた。
-</span><span class="kp">深い青色のポスターには無料上映中「世界でもっとも孤独な鯨」とタイトルが書かれている。どうやらドキュメンタリー映画のポスターのようだ。無料上映であることからして、有名な監督が作った作品ではないと思うだろう。
+</span><span style="color: #000">ふと古いレンガ造りの建物に貼られているポスターに目を惹かれた。
+</span><span style="color: #000">深い青色のポスターには無料上映中「世界でもっとも孤独な鯨」とタイトルが書かれている。どうやらドキュメンタリー映画のポスターのようだ。無料上映であることからして、有名な監督が作った作品ではないと思うだろう。
 そもそも、映画館なんてこんな場所にあるのだろうか。
-</span><span class="kp">同じポスターを見た千冬が、口を開く。
+</span><span style="color: #000">同じポスターを見た千冬が、口を開く。
 
-</span><span class="chifuyu">染谷千冬 : 「52ヘルツのクジラだ。……千秋」
-</span><span class="chiaki">染谷千秋 : 「千冬かわいーな」ウキウキワクワク姿の千冬が可愛くてしょうがなくて思わず声にだします。
-</span><span class="chiaki">染谷千秋 : 『52ヘルツのクジラ』を知ってるか知識！
+</span><span style="color: #00bcd4">染谷千冬 : 「52ヘルツのクジラだ。……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「千冬かわいーな」ウキウキワクワク姿の千冬が可愛くてしょうがなくて思わず声にだします。
+</span><span style="color: #db7093">染谷千秋 : 『52ヘルツのクジラ』を知ってるか知識！
 
-</span><span class="kp">知識1/2でどうぞ！
+</span><span style="color: #000">知識1/2でどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 38 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 「千冬、この映画知ってんの？」
-</span><span class="chifuyu">染谷千冬 : 「映画は知らない。けど、クジラについては知ってる」
-</span><span class="chifuyu">染谷千冬 : 「52ヘルツ、というのは鳴き声の周波数だ。他のクジラの鳴き声の周波数よりも高くて、世界で一匹しか確認されていない。だから、『世界で最も孤独なクジラ』と呼ばれている」
-</span><span class="chifuyu">染谷千冬 : 「その声に答えるクジラはいない。でも、そのクジラは一匹で、長い間健康に生きている。寂しいけれど、そんな姿が……強くてかっこいいと思う。好きなんだ」
-</span><span class="chiaki">染谷千秋 : 「周波数が違う……ってことは、そいつの言葉は他の鯨には通じないのか。難儀してんな～」
-</span><span class="chiaki">染谷千秋 : 「はは、わかったよ。見ようぜ」
-</span><span class="chifuyu">染谷千冬 : 「ああ、見よう。……ミニシアターに入るのは初めてだ」
-</span><span class="chiaki">染谷千秋 : 「俺もだな～。中どうなってんだろ」
+</span><span style="color: #db7093">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 38 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 「千冬、この映画知ってんの？」
+</span><span style="color: #00bcd4">染谷千冬 : 「映画は知らない。けど、クジラについては知ってる」
+</span><span style="color: #00bcd4">染谷千冬 : 「52ヘルツ、というのは鳴き声の周波数だ。他のクジラの鳴き声の周波数よりも高くて、世界で一匹しか確認されていない。だから、『世界で最も孤独なクジラ』と呼ばれている」
+</span><span style="color: #00bcd4">染谷千冬 : 「その声に答えるクジラはいない。でも、そのクジラは一匹で、長い間健康に生きている。寂しいけれど、そんな姿が……強くてかっこいいと思う。好きなんだ」
+</span><span style="color: #db7093">染谷千秋 : 「周波数が違う……ってことは、そいつの言葉は他の鯨には通じないのか。難儀してんな～」
+</span><span style="color: #db7093">染谷千秋 : 「はは、わかったよ。見ようぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ、見よう。……ミニシアターに入るのは初めてだ」
+</span><span style="color: #db7093">染谷千秋 : 「俺もだな～。中どうなってんだろ」
 
-</span><span class="kp">ポスターの横には半開きのドア。その向こうは通路が見えており、奥の映画館につながっているようだ。
-</span><span class="kp">あなたたちが中に入れば、内観は薄暗くかなり寂れており、足元では電気の消えそうな非常灯がちかちかと灯っている。
+</span><span style="color: #000">ポスターの横には半開きのドア。その向こうは通路が見えており、奥の映画館につながっているようだ。
+</span><span style="color: #000">あなたたちが中に入れば、内観は薄暗くかなり寂れており、足元では電気の消えそうな非常灯がちかちかと灯っている。
 小さな劇場のスクリーンはまだ何も映っておらず、自分たち以外の客の姿はない。
-</span><span class="kp">あなた達は好奇心から席に着く。
+</span><span style="color: #000">あなた達は好奇心から席に着く。
 席についてしばらくすると、
-</span><span class="kp">ビ――――――
+</span><span style="color: #000">ビ――――――
 という音と共に、館内の明かりが消え、スクリーンに映像が映し出される。
 映画が始まったのだ。
-</span><span class="kp">ぶくぶくと泡の音が聞こえる。
+</span><span style="color: #000">ぶくぶくと泡の音が聞こえる。
 真っ暗な映画館のスクリーンに青い光が映し出される。
 海の中だ。
 心地よい声のナレーションが入る。
 
-</span><span class="kp">ナレーション : 世界で最も大きな生物、鯨を知っているだろうか。
+</span><span style="color: #000">ナレーション : 世界で最も大きな生物、鯨を知っているだろうか。
 現存する最大の動物であるだけでなく、かつて地球上に存在した確認されている限りの恐竜や動物を含めても、あらゆる動物の中で最大の種であり、記録では体長34メートルのものまで確認されている。
 そんな鯨は、広い海の中で独自のコミュニケーションをとっているという。
-</span><span class="kp">ナレーション : それが「クジラの歌」とよばれるものだ。
+</span><span style="color: #000">ナレーション : それが「クジラの歌」とよばれるものだ。
 鯨が発する声が、鯨学者たちに人間の歌唱を思わせたため、そう呼ばれている。
-</span><span class="kp">ナレーション : この歌の周波数は鯨の種類ごとに異なる。
+</span><span style="color: #000">ナレーション : この歌の周波数は鯨の種類ごとに異なる。
 遠くまで響くこの歌は広い海で仲間を見つける手段なのだろう。
-</span><span class="kp">ナレーション : ―――――1989年。正体不明の鯨の声が、NOAAの水中聴音器によってとらえられた。
+</span><span style="color: #000">ナレーション : ―――――1989年。正体不明の鯨の声が、NOAAの水中聴音器によってとらえられた。
 その個体には「52」という名前がつけられた。
 それはこの鯨が非常に珍しい52ヘルツの周波数で歌っていることに由来している。
-</span><span class="kp">ナレーション : この周波数で鳴くのは世界で唯一の個体であり、姿こそ見た者はいないが、その鳴き声はさまざまな場所で確認されてきた。
+</span><span style="color: #000">ナレーション : この周波数で鳴くのは世界で唯一の個体であり、姿こそ見た者はいないが、その鳴き声はさまざまな場所で確認されてきた。
 52は何十年もの間この周波数を出し続けながら、孤独に海を彷徨っているのだ。
 それ故に、52は「世界でもっとも孤独な鯨」と呼ばれている。
-</span><span class="kp">ナレーション : 一説によると、地球の海で人類が探索したのはわずか5％だという。
+</span><span style="color: #000">ナレーション : 一説によると、地球の海で人類が探索したのはわずか5％だという。
 海には地球上の90％以上の生物が棲んでいると推測されているが、まだその10分の1も調査されていない。
 我々が52Hzの鯨の種を特定するに至っていない理由は、未だ未知なる海底の世界にあるのかもしれない。
 
-</span><span class="kp">明るい青から暗い青へ。沈んでいく。
+</span><span style="color: #000">明るい青から暗い青へ。沈んでいく。
 深く…
 深く…
 泡の音に紛れて、くぐもった楽器のような、水中に反響する音が聞こえてくる。
 画面が光の差す海中を写し、そして巨大な影が頭上を覆う。
 
 高い声が、歌声が聞こえた。
-</span><span class="kp">・・・
-</span><span class="kp">一瞬意識を剥がされたような感覚を覚えて目の前が暗くなる。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">一瞬意識を剥がされたような感覚を覚えて目の前が暗くなる。
 目を閉じたからではない。周囲が深い闇に包まれているようだった。
 周囲はとても寒く、ごぼごぼとくぐもった水の音が聞こえる。
 そしてあなたたちは呼吸ができないことに気づく。
-</span><span class="kp">SANC（1/1D3）
+</span><span style="color: #000">SANC（1/1D3）
 
-</span><span class="chiaki">染谷千秋 : 1d100<=65 【SAN値チェック】 (1D100<=65) ＞ 87 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 63 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 2
-</span><span class="chifuyu">染谷千冬 : 1d3 (1D3) ＞ 1
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 65 → 63
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 42 → 41
+</span><span style="color: #db7093">染谷千秋 : 1d100<=65 【SAN値チェック】 (1D100<=65) ＞ 87 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=42 【SAN値チェック】 (1D100<=42) ＞ 63 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 2
+</span><span style="color: #00bcd4">染谷千冬 : 1d3 (1D3) ＞ 1
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 65 → 63
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 42 → 41
 
-</span><span class="kp">窒息ロールです。CON\*5を振ってください。
+</span><span style="color: #000">窒息ロールです。CON\*5を振ってください。
 
-</span><span class="chiaki">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 46 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 46 ＞ 成功
 
-</span><span class="kp">千秋はHPを-1d3してください。
+</span><span style="color: #000">千秋はHPを-1d3してください。
 
-</span><span class="chiaki">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span class="chiaki">[ 染谷千秋 ] HP : 12 → 9
-</span><span class="chiaki">染谷千秋 : 「……っ」首を抑えます
+</span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
+</span><span style="color: #db7093">[ 染谷千秋 ] HP : 12 → 9
+</span><span style="color: #db7093">染谷千秋 : 「……っ」首を抑えます
 
-</span><span class="kp">あなたは苦しさから喉を押さえる。……しかし、それは一瞬のことだった。すぐに呼吸のリズムを取り戻す。水中でも息ができるようだった。
-</span><span class="kp">しばらくすると目が慣れたのか色が見えてくる。足元は粒子の細かい黒い砂が広がっている。
+</span><span style="color: #000">あなたは苦しさから喉を押さえる。……しかし、それは一瞬のことだった。すぐに呼吸のリズムを取り戻す。水中でも息ができるようだった。
+</span><span style="color: #000">しばらくすると目が慣れたのか色が見えてくる。足元は粒子の細かい黒い砂が広がっている。
 周囲は深海のような深く暗い青に包まれており、見上げれば月夜のような微光が漂っている。
 呼吸はできるはずなのに、まるで水中にいるようにあなた達の髪や服がゆらゆらと浮いていた。
 魚の姿はなく、ただ暗く青い世界にふたりだけ取り残されてしまったように感じるだろう。
 
-</span><span class="chifuyu">染谷千冬 : 「……！！」
-</span><span class="chiaki">染谷千秋 : 「……慣れたもんだな。千冬、身体に異変は？」
-</span><span class="chiaki">染谷千秋 : 辺りに目星！
+</span><span style="color: #00bcd4">染谷千冬 : 「……！！」
+</span><span style="color: #db7093">染谷千秋 : 「……慣れたもんだな。千冬、身体に異変は？」
+</span><span style="color: #db7093">染谷千秋 : 辺りに目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 7 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 7 ＞ スペシャル
 
-</span><span class="kp">青色の中、少し先に白い柱のようなものが並んでいるのが見える。
+</span><span style="color: #000">青色の中、少し先に白い柱のようなものが並んでいるのが見える。
 
-</span><span class="chifuyu">染谷千冬 : 「……たぶん、大丈夫だ。千秋は？」
-</span><span class="chiaki">染谷千秋 : 「おれもへーき。……あっちに柱みたいなものが見える。行ってみようぜ」
-</span><span class="chifuyu">染谷千冬 : 「柱か……わかった」
+</span><span style="color: #00bcd4">染谷千冬 : 「……たぶん、大丈夫だ。千秋は？」
+</span><span style="color: #db7093">染谷千秋 : 「おれもへーき。……あっちに柱みたいなものが見える。行ってみようぜ」
+</span><span style="color: #00bcd4">染谷千冬 : 「柱か……わかった」
 
-</span><span class="kp">白い柱に近づいていくと、それが巨大な何かの骨だということがわかる。もしこの生き物が生きていたら全長は優に30mを超えていただろう。
+</span><span style="color: #000">白い柱に近づいていくと、それが巨大な何かの骨だということがわかる。もしこの生き物が生きていたら全長は優に30mを超えていただろう。
 頭蓋骨は半分以上黒い砂に埋もれ、肋骨は柱のように砂から突き出て立っている。
 骨の傍にはごつごつした石が無数にあり、その周辺を見たことのない海藻、魚が住みかにしているようだった。
-</span><span class="kp">アイデアをどうぞ！
+</span><span style="color: #000">アイデアをどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 84 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 84 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 84 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 84 ＞ 失敗
 
-</span><span class="kp">千秋は、この巨大な生物はクジラなのではないかと思う。
+</span><span style="color: #000">千秋は、この巨大な生物はクジラなのではないかと思う。
 
-</span><span class="chiaki">染谷千秋 : 「……これ、クジラの骨かもな」
-</span><span class="chifuyu">染谷千冬 : 「そうか。これが……」骨に触れます。
-</span><span class="chiaki">染谷千秋 : 「目の前にするとでけーな」骨に触ってみます。
+</span><span style="color: #db7093">染谷千秋 : 「……これ、クジラの骨かもな」
+</span><span style="color: #00bcd4">染谷千冬 : 「そうか。これが……」骨に触れます。
+</span><span style="color: #db7093">染谷千秋 : 「目の前にするとでけーな」骨に触ってみます。
 
-</span><span class="kp">あなたたちが触ると。骨は脆くなっているのか、表面がぼろりと崩れた。
+</span><span style="color: #000">あなたたちが触ると。骨は脆くなっているのか、表面がぼろりと崩れた。
 中は空洞になっており、虫のような生き物の居住になっている。骨になった後でも生物の栄養源となっているのだろう。
 魚はどれも見たことも無い形をしている。恐らく深海魚だろう。
 
-</span><span class="chifuyu">染谷千冬 : 「見たことない、変わった魚だ」
-</span><span class="chiaki">染谷千秋 : 「変なやつ」魚にも触ってみます
+</span><span style="color: #00bcd4">染谷千冬 : 「見たことない、変わった魚だ」
+</span><span style="color: #db7093">染谷千秋 : 「変なやつ」魚にも触ってみます
 
-</span><span class="kp">魚は驚いたように水中を泳ぎ回り、あなたの元から離れていく。
+</span><span style="color: #000">魚は驚いたように水中を泳ぎ回り、あなたの元から離れていく。
 
-</span><span class="chiaki">染谷千秋 : 骨全体に目星！
+</span><span style="color: #db7093">染谷千秋 : 骨全体に目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 88 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 31 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 88 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 31 ＞ 成功
 
-</span><span class="kp">全体の大きさと、保っている部分の形から、やはりクジラの骨であることが窺える。
-</span><span class="kp">聞き耳どうぞ！
+</span><span style="color: #000">全体の大きさと、保っている部分の形から、やはりクジラの骨であることが窺える。
+</span><span style="color: #000">聞き耳どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 83 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 85 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 頭の方に向かってみます
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 83 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 85 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 頭の方に向かってみます
 
-</span><span class="kp">巨大な骨の周りを歩いて調べてみるが、ただの骨が生物の棲み処となっているのみだった。
+</span><span style="color: #000">巨大な骨の周りを歩いて調べてみるが、ただの骨が生物の棲み処となっているのみだった。
 
-</span><span class="chifuyu">染谷千冬 : 「初めて見る生物だ。……水中で息をしているのも、不思議な感覚がする。少し、幻想的だな」
-</span><span class="chiaki">染谷千秋 : 「だな。『52Hzのクジラ』を見たらここに来てて、目の前には鯨の骨があって……まるでこいつに呼び出されたみたいだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「初めて見る生物だ。……水中で息をしているのも、不思議な感覚がする。少し、幻想的だな」
+</span><span style="color: #db7093">染谷千秋 : 「だな。『52Hzのクジラ』を見たらここに来てて、目の前には鯨の骨があって……まるでこいつに呼び出されたみたいだな」
 呼吸できなくなる前に帰らねえとな～って思いながら言います。
 
-</span><span class="kp">もう一度聞き耳をどうぞ！
+</span><span style="color: #000">もう一度聞き耳をどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 12 ＞ スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 87 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 12 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 87 ＞ 失敗
 
-</span><span class="kp">千秋は、遥か頭上から、聞き覚えのあるような高い声がすることに気づく。波紋が広がるように身体に振動を感じる。
+</span><span style="color: #000">千秋は、遥か頭上から、聞き覚えのあるような高い声がすることに気づく。波紋が広がるように身体に振動を感じる。
 見上げると、巨大な白い影が空を飛ぶように泳いでいた。
 白い鯨だ。
 鯨は歌うように鳴きながらどこかに向かって泳いでいく。
 案内するかのようなその鯨を目で追えば、骨の柱が並ぶ先に、巨大な黒い建造物が見える。
-</span><span class="kp">千秋はアイデアどうぞ！
+</span><span style="color: #000">千秋はアイデアどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 33 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 33 ＞ 成功
 
-</span><span class="kp">その声は、先ほど見た映画の中で聞いた声と同じだった。
+</span><span style="color: #000">その声は、先ほど見た映画の中で聞いた声と同じだった。
 
-</span><span class="chiaki">染谷千秋 : 「千冬、あいつの鳴き声……さっき映画で聞いた鳴き声と同じだった」泳いでいるのクジラを指さします。
-</span><span class="chiaki">染谷千秋 : 「あいつが向かった先に黒い建造物がある。……入ってみるか？」
-</span><span class="chifuyu">染谷千冬 : 「じゃあ、あのクジラが……？　やっぱり……俺たちを呼んでいるのかもしれない」
+</span><span style="color: #db7093">染谷千秋 : 「千冬、あいつの鳴き声……さっき映画で聞いた鳴き声と同じだった」泳いでいるのクジラを指さします。
+</span><span style="color: #db7093">染谷千秋 : 「あいつが向かった先に黒い建造物がある。……入ってみるか？」
+</span><span style="color: #00bcd4">染谷千冬 : 「じゃあ、あのクジラが……？　やっぱり……俺たちを呼んでいるのかもしれない」
 クジラの行った方向に向かって歩き始めます。
-</span><span class="chiaki">染谷千秋 : 「ああ。向かおう」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。向かおう」
 千冬の側について同じ方向に歩きだします。
 
-</span><span class="kp">・・・
-</span><span class="kp">鯨を追って黒い砂の上を進んでいくと、次第に周囲に変化が訪れた。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">鯨を追って黒い砂の上を進んでいくと、次第に周囲に変化が訪れた。
 新雪のような白い大地。真っ白な雪がとめどなく辺りに降り積もり、浮遊している。
-</span><span class="kp">知識どうぞ！
+</span><span style="color: #000">知識どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【知識】 (1D100<=55) ＞ 29 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=55 【知識】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【知識】 (1D100<=55) ＞ 29 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=55 【知識】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
 
-</span><span class="kp">ふたりは、その雪がマリンスノーだとわかる。
+</span><span style="color: #000">ふたりは、その雪がマリンスノーだとわかる。
 マリンスノーの正体はプランクトンの排出物、死骸、またはそれらが分解されたものである。
 マリンスノーは1日に数十mから数百mの速さで沈んでいき、やがて深海に生息する生物の餌となる。
 深海は太陽の光も届かないため、深海に生息する生物にとってマリンスノーは貴重な栄養源となるのだ。
-</span><span class="kp">千秋にはクリチケを１枚贈呈します。
+</span><span style="color: #000">千秋にはクリチケを１枚贈呈します。
 
-</span><span class="chiaki">[ 染谷千秋 ] クリチケ : 0 → 1
-</span><span class="chifuyu">染谷千冬 : 「……こんな至近距離で見れるなんてな」しゃがんで触ります。
+</span><span style="color: #db7093">[ 染谷千秋 ] クリチケ : 0 → 1
+</span><span style="color: #00bcd4">染谷千冬 : 「……こんな至近距離で見れるなんてな」しゃがんで触ります。
 
-</span><span class="kp">綿のようなものから細かく棘の付いたものも、大きいものから小さいものまであるのがわかる。それらはあなたの知識通り、どれも生き物の死骸からなっていた。
+</span><span style="color: #000">綿のようなものから細かく棘の付いたものも、大きいものから小さいものまであるのがわかる。それらはあなたの知識通り、どれも生き物の死骸からなっていた。
 
-</span><span class="chiaki">染谷千秋 : 墓地みたいだと思います。周囲に目星！
+</span><span style="color: #db7093">染谷千秋 : 墓地みたいだと思います。周囲に目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 95 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 29 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 95 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 29 ＞ 成功
 
-</span><span class="kp">白い大地はどこまでも続いており、天上のクジラも遠くを泳いでいる。
-</span><span class="kp">あなたたちはふと、背後に気配を感じる。
+</span><span style="color: #000">白い大地はどこまでも続いており、天上のクジラも遠くを泳いでいる。
+</span><span style="color: #000">あなたたちはふと、背後に気配を感じる。
 聞き耳をどうぞ。
 
-</span><span class="chifuyu">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 76 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 57 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=30 【聞き耳】 (1D100<=30) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 57 ＞ 成功
 
-</span><span class="kp">千秋は、後ろから悍ましい低く響く声が近づいてくるのがわかる。
+</span><span style="color: #000">千秋は、後ろから悍ましい低く響く声が近づいてくるのがわかる。
 SANC（0/1）
 
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 63 → 62
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 62 → 63
-</span><span class="chiaki">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 21 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 振り返ります。
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 63 → 62
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 62 → 63
+</span><span style="color: #db7093">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 振り返ります。
 
-</span><span class="kp">振り返るが、その音の発信源は見えない。しかし、ここに留まることは危険だと、本能的に感じるだろう。
+</span><span style="color: #000">振り返るが、その音の発信源は見えない。しかし、ここに留まることは危険だと、本能的に感じるだろう。
 
-</span><span class="chiaki">染谷千秋 : 「……千冬、黒い建物に向かって走れ。後ろから何か来てる。嫌な予感がする」千冬の手を掴んで走ります。
-</span><span class="chifuyu">染谷千冬 : 「……！　わかった」千秋に手を引かれて走ります。
+</span><span style="color: #db7093">染谷千秋 : 「……千冬、黒い建物に向かって走れ。後ろから何か来てる。嫌な予感がする」千冬の手を掴んで走ります。
+</span><span style="color: #00bcd4">染谷千冬 : 「……！　わかった」千秋に手を引かれて走ります。
 
-</span><span class="kp">・・・
-</span><span class="kp">前方には巨大な都市の影が見える。先ほどまで見えていた建造物はほんの一部だったようだ。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">前方には巨大な都市の影が見える。先ほどまで見えていた建造物はほんの一部だったようだ。
 背後の音から逃げるように、あなた達は都市へと進んでいく。
-</span><span class="kp">白い丘を越えると、目の前には信じられないような光景が広がっていた。
-</span><span class="kp">目の前に現れた超高層建築物は、およそ300メートル以下のものは見当たらない程に高い。
+</span><span style="color: #000">白い丘を越えると、目の前には信じられないような光景が広がっていた。
+</span><span style="color: #000">目の前に現れた超高層建築物は、およそ300メートル以下のものは見当たらない程に高い。
 それらが全て巨大な黒い石で積み上げられた遺跡だとわかるだろう。
 
-</span><span class="chifuyu">染谷千冬 : 「……ここはどこなんだろう。海底にこんな都市があるのか……？」
-</span><span class="chiaki">染谷千秋 : 「人間サイズじゃねーな……」
-</span><span class="chiaki">染谷千秋 : 目星！
+</span><span style="color: #00bcd4">染谷千冬 : 「……ここはどこなんだろう。海底にこんな都市があるのか……？」
+</span><span style="color: #db7093">染谷千秋 : 「人間サイズじゃねーな……」
+</span><span style="color: #db7093">染谷千秋 : 目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 92 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 49 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 92 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 49 ＞ 成功
 
-</span><span class="kp">あなたたちはそうやって話しながら、逃げるように遺跡内部に足を進めた。アーチ状の扉や柱が立ち並び、むき出しの石細工には奇妙な曲線があった。
+</span><span style="color: #000">あなたたちはそうやって話しながら、逃げるように遺跡内部に足を進めた。アーチ状の扉や柱が立ち並び、むき出しの石細工には奇妙な曲線があった。
 巨大な丸窓からは外の様子が伺えるだろう。
-</span><span class="kp">千冬は、前方に巨石が立ち並ぶ暗い花崗岩の通路が伸びているのを見つける。階段はなく通路の幅は10メートルほどある。
+</span><span style="color: #000">千冬は、前方に巨石が立ち並ぶ暗い花崗岩の通路が伸びているのを見つける。階段はなく通路の幅は10メートルほどある。
 また、平らな渦巻き状の殻をもつ生き物の化石が建物から露出している箇所を見つける。
-</span><span class="kp">千冬は知識1/2どうぞ！
+</span><span style="color: #000">千冬は知識1/2どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 46 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : 「……この化石、見覚えがあるな。千秋」
-</span><span class="chiaki">染谷千秋 : 「ん？」化石の方を見ます
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 46 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : 「……この化石、見覚えがあるな。千秋」
+</span><span style="color: #db7093">染谷千秋 : 「ん？」化石の方を見ます
 
-</span><span class="kp">千秋も知識1/2どうぞ！
+</span><span style="color: #000">千秋も知識1/2どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 84 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 「……なんだっけ？」
-</span><span class="chifuyu">染谷千冬 : 「渦巻きといえばアンモナイトだが……詳しくは覚えていないな……」
+</span><span style="color: #db7093">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 84 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 「……なんだっけ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「渦巻きといえばアンモナイトだが……詳しくは覚えていないな……」
 
-</span><span class="kp">千冬は制作（製図）、千秋は知識1/2をどうぞ！
+</span><span style="color: #000">千冬は制作（製図）、千秋は知識1/2をどうぞ！
 
-</span><span class="chiaki">染谷千秋 : （……そんなのあったか？）と思います。
-</span><span class="chiaki">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 29 ＞ 失敗
-</span><span class="chifuyu">染谷千冬 : CCB<=55 【製作(製図)】 (1D100<=55) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : （……そんなのあったか？）と思います。
+</span><span style="color: #db7093">染谷千秋 : CCB<=55/2 【知識/2】 (1D100<=27) ＞ 29 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【製作(製図)】 (1D100<=55) ＞ 21 ＞ 成功
 
-</span><span class="kp">千冬は、この建物が人類史では見たことのない建築様式だとわかる。
+</span><span style="color: #000">千冬は、この建物が人類史では見たことのない建築様式だとわかる。
 大昔の巨石文明と似ているが、その時代にこのような巨大建造物が建てられたという歴史や遺跡はないとわかる。
 
-</span><span class="chifuyu">染谷千冬 : 「……こんな建築様式、見たことがない。似ているものはあるが……その時代にこんな技術は存在していない、少なくとも未発見のはずだ」
-</span><span class="chiaki">染谷千秋 : 「へぇ……」建築物を珍しげに眺めます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……こんな建築様式、見たことがない。似ているものはあるが……その時代にこんな技術は存在していない、少なくとも未発見のはずだ」
+</span><span style="color: #db7093">染谷千秋 : 「へぇ……」建築物を珍しげに眺めます。
 「俺らを第一発見者にしたいってわけじゃなさそうだし……、調べろってことかな」
-</span><span class="chifuyu">染谷千冬 : 「ああ。何かあるのかもしれない、ここに」
-</span><span class="chifuyu">染谷千冬 : 「……状況的に、怪異が造ったもの、という可能性が高いな。……」
-</span><span class="chiaki">染谷千秋 : 「そうだな～。……さっさと出ようぜ。行こう」
-</span><span class="chifuyu">染谷千冬 : （じっくり見たかったが……そんな場合ではないな）
+</span><span style="color: #00bcd4">染谷千冬 : 「ああ。何かあるのかもしれない、ここに」
+</span><span style="color: #00bcd4">染谷千冬 : 「……状況的に、怪異が造ったもの、という可能性が高いな。……」
+</span><span style="color: #db7093">染谷千秋 : 「そうだな～。……さっさと出ようぜ。行こう」
+</span><span style="color: #00bcd4">染谷千冬 : （じっくり見たかったが……そんな場合ではないな）
 「ああ」
-</span><span class="chiaki">染谷千秋 : 建物の中には入れますか？
+</span><span style="color: #db7093">染谷千秋 : 建物の中には入れますか？
 
-</span><span class="kp">建物のさらに内部へ進むと、最奥に見上げるほど大きな扉、左右には部屋へ続く大きな入り口が開いています。
+</span><span style="color: #000">建物のさらに内部へ進むと、最奥に見上げるほど大きな扉、左右には部屋へ続く大きな入り口が開いています。
 
-</span><span class="chiaki">染谷千秋 : 「そういや……海の中なのに抵抗感じねーな。あの扉もひょっとして開けれんのかな。……どっち行く？」千冬に聞きます。
-</span><span class="chiaki">染谷千秋 : 部屋にそれぞれ目星！
+</span><span style="color: #db7093">染谷千秋 : 「そういや……海の中なのに抵抗感じねーな。あの扉もひょっとして開けれんのかな。……どっち行く？」千冬に聞きます。
+</span><span style="color: #db7093">染谷千秋 : 部屋にそれぞれ目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 28 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 28 ＞ 成功
 
-</span><span class="kp">ふたりはまわりの様子を窺う。奥の部屋の扉は閉ざされているが、古びているためふたりの力で押し開けられそうだ。
+</span><span style="color: #000">ふたりはまわりの様子を窺う。奥の部屋の扉は閉ざされているが、古びているためふたりの力で押し開けられそうだ。
 左の部屋には、骨董品のようなものが置かれているのが見える。
 右の部屋は、機械類が置かれているようだ。
-</span><span class="kp">千秋は、右の部屋が現代では説明できないような技術が使われた部屋であることがわかります。
+</span><span style="color: #000">千秋は、右の部屋が現代では説明できないような技術が使われた部屋であることがわかります。
 
-</span><span class="chifuyu">染谷千冬 : 「……ひとまず、左」
-</span><span class="chiaki">染谷千秋 : 「おー」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ひとまず、左」
+</span><span style="color: #db7093">染谷千秋 : 「おー」
 
-</span><span class="kp">・・・
-</span><span class="kp">あなたたちは左の部屋に入る。宝物のようなものが並ぶ部屋だ。うすぼんやりと光る玉が照明になっていた。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">あなたたちは左の部屋に入る。宝物のようなものが並ぶ部屋だ。うすぼんやりと光る玉が照明になっていた。
 紫っぽい壺、先端に石がついた壺、奇妙なレリーフや壁画が壁を飾っている。
 
-</span><span class="chiaki">染谷千秋 : 目星！
+</span><span style="color: #db7093">染谷千秋 : 目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 24 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 39 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 24 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 39 ＞ 成功
 
-</span><span class="kp">照明のぼんやりと光る球体は、光源が不明で、何のエネルギーで光っているのか見てもわからないだろう。
+</span><span style="color: #000">照明のぼんやりと光る球体は、光源が不明で、何のエネルギーで光っているのか見てもわからないだろう。
 
 壺は、精密な装飾が施された壺の中は深海魚達の住処となっていた。どれも人より大きく、使い勝手が悪そうに思える。
-</span><span class="kp">――そしてその部屋で最も目を引くだろう壁画には、何かを意味するであろう象形文字が並んでいる。
+</span><span style="color: #000">――そしてその部屋で最も目を引くだろう壁画には、何かを意味するであろう象形文字が並んでいる。
 また、象形文字の近くには奇妙な生物が描かれていた。三角形の天辺からトランペットのような数本の器官とハサミのような触手が伸び、首のような部分は長く、丸い顔のような部分には大きな3つの黒い目がついていた。
 このような生物、文明をあなたは見たことがない。言いようのない恐怖を感じる。
-</span><span class="kp">SANC（0/1D3）
+</span><span style="color: #000">SANC（0/1D3）
 
-</span><span class="chiaki">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 21 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 1d100<=41 【SAN値チェック】 (1D100<=41) ＞ 35 ＞ 成功
-</span><span class="chifuyu">染谷千冬 : 「……この生物」
-</span><span class="chiaki">染谷千秋 : 「……確定だな～？」
-</span><span class="chifuyu">染谷千冬 : 「……怪異に巻き込まれるようになったのは最近だが、きっとそれまでも……身近なところに存在していたんだろうな」
-</span><span class="chiaki">染谷千秋 : 「そうだな。俺達が気付かないところにもあったのかもな」
-</span><span class="chifuyu">染谷千冬 : 「……知らないままよりは、知ることができてよかった」
-</span><span class="chiaki">染谷千秋 : 「……」（俺はそう思えない。命を脅かされるぐらいなら、知らない方がいいことだってある）
+</span><span style="color: #db7093">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 21 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 1d100<=41 【SAN値チェック】 (1D100<=41) ＞ 35 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : 「……この生物」
+</span><span style="color: #db7093">染谷千秋 : 「……確定だな～？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……怪異に巻き込まれるようになったのは最近だが、きっとそれまでも……身近なところに存在していたんだろうな」
+</span><span style="color: #db7093">染谷千秋 : 「そうだな。俺達が気付かないところにもあったのかもな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……知らないままよりは、知ることができてよかった」
+</span><span style="color: #db7093">染谷千秋 : 「……」（俺はそう思えない。命を脅かされるぐらいなら、知らない方がいいことだってある）
 
-</span><span class="kp">その時、丸窓の外から恐ろしい声が聞こえた。それは外を歩いていた時に背後から聞こえてきたのと同じ、身震いするような声だった。
-</span><span class="kp">窓のほうを見ますか？
+</span><span style="color: #000">その時、丸窓の外から恐ろしい声が聞こえた。それは外を歩いていた時に背後から聞こえてきたのと同じ、身震いするような声だった。
+</span><span style="color: #000">窓のほうを見ますか？
 
-</span><span class="chifuyu">染谷千冬 : 思わず見ようとします。
-</span><span class="chiaki">染谷千秋 : 千冬の顔を伏せさせて自分だけ見ます。
-</span><span class="chifuyu">染谷千冬 : 「千秋」
+</span><span style="color: #00bcd4">染谷千冬 : 思わず見ようとします。
+</span><span style="color: #db7093">染谷千秋 : 千冬の顔を伏せさせて自分だけ見ます。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋」
 
-</span><span class="kp">千秋は丸窓の外に目を向けてしまう。
+</span><span style="color: #000">千秋は丸窓の外に目を向けてしまう。
 そして、見てしまう。
 それは黒くぬめり光っている…ねじれた縄のような触手と、いくつもの開いた口を持つ40ｍを超えるだろう塊。
 複数の口の中には粘液で覆われた顔のような部分があり、それと目があったような気がした。
-</span><span class="kp">大洋の恐怖　オトゥームを見た探索者はSANC （1D6/1D20）
+</span><span style="color: #000">大洋の恐怖　オトゥームを見た探索者はSANC （1D6/1D20）
 
-</span><span class="chiaki">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 70 ＞ 失敗
-</span><span class="chiaki">染谷千秋 : 1d20 (1D20) ＞ 11
+</span><span style="color: #db7093">染谷千秋 : 1d100<=63 【SAN値チェック】 (1D100<=63) ＞ 70 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : 1d20 (1D20) ＞ 11
 
-</span><span class="kp">アイデアどうぞ！
+</span><span style="color: #000">アイデアどうぞ！
 
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 63 → 52
-</span><span class="chiaki">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 79 ＞ 成功
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 63 → 52
+</span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 79 ＞ 成功
 
-</span><span class="kp">狂気内容をRoll or Choiceしてください。
+</span><span style="color: #000">狂気内容をRoll or Choiceしてください。
 
-</span><span class="chiaki">染谷千秋 : パニックになります。
-</span><span class="chiaki">染谷千秋 : 「…………ッ！」恐怖から千冬の手を取り、その場から逃げだします。
-</span><span class="chifuyu">染谷千冬 : 「千秋！？　どうした……！？」
+</span><span style="color: #db7093">染谷千秋 : パニックになります。
+</span><span style="color: #db7093">染谷千秋 : 「…………ッ！」恐怖から千冬の手を取り、その場から逃げだします。
+</span><span style="color: #00bcd4">染谷千冬 : 「千秋！？　どうした……！？」
 
-</span><span class="kp">あなたたちはその部屋から逃げ出し、通路へ戻ります。
+</span><span style="color: #000">あなたたちはその部屋から逃げ出し、通路へ戻ります。
 
-</span><span class="chifuyu">染谷千冬 : （……窓の外に何かが？）
-</span><span class="chiaki">染谷千秋 : 何も言わずに千冬を引きずって右の部屋に行きます。
+</span><span style="color: #00bcd4">染谷千冬 : （……窓の外に何かが？）
+</span><span style="color: #db7093">染谷千秋 : 何も言わずに千冬を引きずって右の部屋に行きます。
 
-</span><span class="kp">あなたたちは右の部屋に入る。
+</span><span style="color: #000">あなたたちは右の部屋に入る。
 重厚な八角系の板敷が並ぶ機械の部屋だ。
 ガラス管と金属管からなる不可解な機械が部屋のいたるところに転がっている。
 椅子は見当たらず、作業台のような石造りの大きな机が部屋の中央に置かれていた。
 
-</span><span class="chifuyu">染谷千冬 : 「……千秋、何があったんだ」片手で千秋の肩を掴んで、千秋の様子を窺います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋、何があったんだ」片手で千秋の肩を掴んで、千秋の様子を窺います。
 
-</span><span class="kp">発狂時間を決めます。1d10+4振ってください。
+</span><span style="color: #000">発狂時間を決めます。1d10+4振ってください。
 
-</span><span class="chiaki">染谷千秋 : 1d10+4 (1D10+4) ＞ 6[6]+4 ＞ 10
+</span><span style="color: #db7093">染谷千秋 : 1d10+4 (1D10+4) ＞ 6[6]+4 ＞ 10
 
-</span><span class="kp">数分間、自由に発狂ロールしてください。
+</span><span style="color: #000">数分間、自由に発狂ロールしてください。
 
-</span><span class="chiaki">染谷千秋 : 「俺から離れんな」千冬の腕を強く握って歩き続けます。
-</span><span class="chifuyu">染谷千冬 : 「……千秋」
+</span><span style="color: #db7093">染谷千秋 : 「俺から離れんな」千冬の腕を強く握って歩き続けます。
+</span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 千秋が怯えているのかもしれないと思い、精神分析します。
 
-</span><span class="kp">どうぞ！
+</span><span style="color: #000">どうぞ！
 
-</span><span class="chifuyu">染谷千冬 : CCB<=21 【精神分析】 (1D100<=21) ＞ 93 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=21 【精神分析】 (1D100<=21) ＞ 93 ＞ 失敗
 
-</span><span class="kp">千冬は千秋の様子を窺いました。しかしあなたに千秋の心情は量れないでしょう。
+</span><span style="color: #000">千冬は千秋の様子を窺いました。しかしあなたに千秋の心情は量れないでしょう。
 
-</span><span class="chifuyu">染谷千冬 : 「……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
 千秋を引き留めて、強く抱きしめます。
 （良くないものを見たのかもしれない、できれば千秋の心を落ち着かせたい、でも、急いで部屋を去るほどだ、悠長にしている時間はないのかもしれない……）
-</span><span class="chifuyu">染谷千冬 : 「大丈夫だ。離れない」
+</span><span style="color: #00bcd4">染谷千冬 : 「大丈夫だ。離れない」
 そう言って、すぐに右腕を解きます。左手は繋いだまま。
-</span><span class="chifuyu">染谷千冬 : 中央の大きな机を見ます。
-</span><span class="chiaki">染谷千秋 : 「……千冬……」数分経ち、千冬に抱きしめられたことで落ち着きを取り戻します。
-</span><span class="chiaki">染谷千秋 : 「……デカい化物がいた。タコみてーな……」千冬に化物の詳細を伝えます。
-</span><span class="chiaki">染谷千秋 : 「……あいつは見ない方がいい。次あの声がしても、千冬は絶対見んな。いいか」
-</span><span class="chiaki">染谷千秋 : 大きく息を吐いて机を見ます。
-</span><span class="chifuyu">染谷千冬 : （……そうか、千秋は庇ってくれたんだ。あの虫だとか、壁画だとか、言いようのない恐怖を感じた。きっと、それ以上の――そういえば、千秋が話してくれた『前』の話。そこで千秋は化物を見たと言っていた。また俺は……）
-</span><span class="chifuyu">染谷千冬 : （……違う。そういうことじゃない。だからこそ、千秋は見るなって言った。……俺は、そういう未知の存在がいることを何も知らないまま、危険と隣り合わせで生きるよりは、存在を知ることができて良かったと思った。でも……未知のままのほうがいいこともある。知りすぎることは、恐怖だ……）
-</span><span class="chifuyu">染谷千冬 : （……しっかりしないといけない。もし次に同じようなことがあった時、繰り返さないように）
+</span><span style="color: #00bcd4">染谷千冬 : 中央の大きな机を見ます。
+</span><span style="color: #db7093">染谷千秋 : 「……千冬……」数分経ち、千冬に抱きしめられたことで落ち着きを取り戻します。
+</span><span style="color: #db7093">染谷千秋 : 「……デカい化物がいた。タコみてーな……」千冬に化物の詳細を伝えます。
+</span><span style="color: #db7093">染谷千秋 : 「……あいつは見ない方がいい。次あの声がしても、千冬は絶対見んな。いいか」
+</span><span style="color: #db7093">染谷千秋 : 大きく息を吐いて机を見ます。
+</span><span style="color: #00bcd4">染谷千冬 : （……そうか、千秋は庇ってくれたんだ。あの虫だとか、壁画だとか、言いようのない恐怖を感じた。きっと、それ以上の――そういえば、千秋が話してくれた『前』の話。そこで千秋は化物を見たと言っていた。また俺は……）
+</span><span style="color: #00bcd4">染谷千冬 : （……違う。そういうことじゃない。だからこそ、千秋は見るなって言った。……俺は、そういう未知の存在がいることを何も知らないまま、危険と隣り合わせで生きるよりは、存在を知ることができて良かったと思った。でも……未知のままのほうがいいこともある。知りすぎることは、恐怖だ……）
+</span><span style="color: #00bcd4">染谷千冬 : （……しっかりしないといけない。もし次に同じようなことがあった時、繰り返さないように）
 「……ああ、わかった」
 
-</span><span class="kp">あなたたちは机を見る。机の上には、透明な箱に入った奇妙な機械が置かれていた。箱は完全に密閉されており、蓋などは見当たらない。
+</span><span style="color: #000">あなたたちは机を見る。机の上には、透明な箱に入った奇妙な機械が置かれていた。箱は完全に密閉されており、蓋などは見当たらない。
 中の機械はブロンズ製で、表面には精巧な彫り物が施されている。高さは30cm程で、上に赤い宝石が一つ乗っている。
 
-</span><span class="chiaki">染谷千秋 : 機械と宝石に目星！
+</span><span style="color: #db7093">染谷千秋 : 機械と宝石に目星！
 
-</span><span class="kp">目星どうぞ！
+</span><span style="color: #000">目星どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
-</span><span class="chifuyu">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 42 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=75 【目星】 (1D100<=75) ＞ 42 ＞ 成功
 
-</span><span class="kp">あなたたちは、機械の彫り物の一部に、隠されたスイッチのような部分を見つける。
+</span><span style="color: #000">あなたたちは、機械の彫り物の一部に、隠されたスイッチのような部分を見つける。
 
 千秋は、その箱は破壊してこじ開けることが可能なつくりだと思う。
 
-</span><span class="chifuyu">染谷千冬 : 「……スイッチがある」
-</span><span class="chiaki">染谷千秋 : 「壊せそうだな」
-</span><span class="chiaki">染谷千秋 : キック！
+</span><span style="color: #00bcd4">染谷千冬 : 「……スイッチがある」
+</span><span style="color: #db7093">染谷千秋 : 「壊せそうだな」
+</span><span style="color: #db7093">染谷千秋 : キック！
 
-</span><span class="kp">キックどうぞ！
+</span><span style="color: #000">キックどうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 47 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 47 ＞ 成功
 
-</span><span class="kp">あなたの鍛えられた蹴りの一撃に、その透明な箱は軋み、欠片を散らす。しかし靴を通したあなたの足を傷つけることはなかった。
+</span><span style="color: #000">あなたの鍛えられた蹴りの一撃に、その透明な箱は軋み、欠片を散らす。しかし靴を通したあなたの足を傷つけることはなかった。
 中は乾いていたようで、空気の泡を放出してその後、箱は消えてしまった。
 
-</span><span class="chifuyu">染谷千冬 : 「ふ」
-</span><span class="chiaki">染谷千秋 : 「なんだよ」
-</span><span class="chifuyu">染谷千冬 : 「力技だなと思って」
-</span><span class="chiaki">染谷千秋 : 「スマートだろ？」そう言って笑います
-</span><span class="chifuyu">染谷千冬 : 「どうだろうか」
-</span><span class="chiaki">染谷千秋 : ふ、と笑ってからスイッチ押します。
+</span><span style="color: #00bcd4">染谷千冬 : 「ふ」
+</span><span style="color: #db7093">染谷千秋 : 「なんだよ」
+</span><span style="color: #00bcd4">染谷千冬 : 「力技だなと思って」
+</span><span style="color: #db7093">染谷千秋 : 「スマートだろ？」そう言って笑います
+</span><span style="color: #00bcd4">染谷千冬 : 「どうだろうか」
+</span><span style="color: #db7093">染谷千秋 : ふ、と笑ってからスイッチ押します。
 
-</span><span class="kp">スイッチを押すと機械上部についていた宝石が輝きだし、部屋に白い鯨のホログラムが投影される。
+</span><span style="color: #000">スイッチを押すと機械上部についていた宝石が輝きだし、部屋に白い鯨のホログラムが投影される。
 ホログラムの鯨は何かを伝えるかのようにあなたたちの周りをゆっくり一周ぐるりと回る。
-</span><span class="kp">その時建物が揺れる。外を見ればあの怪物が建物に絡みつき、触手を伸ばしている。
-</span><span class="kp">それに割って入るように、鯨の高い歌声が響いた。
+</span><span style="color: #000">その時建物が揺れる。外を見ればあの怪物が建物に絡みつき、触手を伸ばしている。
+</span><span style="color: #000">それに割って入るように、鯨の高い歌声が響いた。
 その振動があなた達にも伝わる。
 瞬間、化け物は苦痛を感じるかのように大きく触手をうねらせ建物から離れていく。
 意識が遠のいていくさなか、あなたたちはお互いに手を伸ばした。
-</span><span class="kp">・・・
-</span><span class="kp">―――気が付くと、映画館に戻ってきていた。
+</span><span style="color: #000">・・・
+</span><span style="color: #000">―――気が付くと、映画館に戻ってきていた。
 スクリーンには、歌いながら群れの仲間の方へと泳いでいく白い鯨が映し出されていた。
 その声は、あの深海で聞こえていた声より"低い"ように感じる。
 鯨は青い揺らめきの彼方にどんどん小さくなって、やがてその姿が見えなくなると、映画館の明かりもふっと消えた。
 スクリーンにはENDの文字が浮かび、足元には非常口の緑色の明かりだけが灯っている。
-</span><span class="kp">緊張で握り続けていたお互いの手を離すと、手のひらに水が閉じ込められていたようで、微かに潮の香りが漂った。
+</span><span style="color: #000">緊張で握り続けていたお互いの手を離すと、手のひらに水が閉じ込められていたようで、微かに潮の香りが漂った。
 
-</span><span class="chifuyu">染谷千冬 : 「……」
-</span><span class="chiaki">染谷千秋 : 「……」
-</span><span class="chiaki">染谷千秋 : 「何だったんだ……」
-</span><span class="chifuyu">染谷千冬 : 「……何も、わからないな」
-</span><span class="chifuyu">染谷千冬 : 「無事でよかった」
-</span><span class="chiaki">染谷千秋 : 「……。……そうだな。身体は大丈夫か？」
-</span><span class="chifuyu">染谷千冬 : 息を漏らして笑います。
+</span><span style="color: #00bcd4">染谷千冬 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「……」
+</span><span style="color: #db7093">染谷千秋 : 「何だったんだ……」
+</span><span style="color: #00bcd4">染谷千冬 : 「……何も、わからないな」
+</span><span style="color: #00bcd4">染谷千冬 : 「無事でよかった」
+</span><span style="color: #db7093">染谷千秋 : 「……。……そうだな。身体は大丈夫か？」
+</span><span style="color: #00bcd4">染谷千冬 : 息を漏らして笑います。
 「千秋はすぐに俺の心配をするな。大丈夫だ。千秋は？」
-</span><span class="chiaki">染谷千秋 : 「あんなところにいたんだ。心配になるだろ～」千冬の頭を撫でます。
+</span><span style="color: #db7093">染谷千秋 : 「あんなところにいたんだ。心配になるだろ～」千冬の頭を撫でます。
 「おれもへーき」
-</span><span class="chiaki">染谷千秋 : 「はっきりはわかんねーけどさ、……あの鯨が助けてくれたんだな」
-</span><span class="chifuyu">染谷千冬 : 「……そうみたいだな。言葉を交わせない、別の生き物の俺たちに対して……優しいクジラだ。……あのクジラも、これからも元気に生きてるといいな」
-</span><span class="chiaki">染谷千秋 : 「そうだな」
+</span><span style="color: #db7093">染谷千秋 : 「はっきりはわかんねーけどさ、……あの鯨が助けてくれたんだな」
+</span><span style="color: #00bcd4">染谷千冬 : 「……そうみたいだな。言葉を交わせない、別の生き物の俺たちに対して……優しいクジラだ。……あのクジラも、これからも元気に生きてるといいな」
+</span><span style="color: #db7093">染谷千秋 : 「そうだな」
 
-</span><span class="kp">あなたたちが外に出ると、時刻はすっかり深夜を回っていた。
+</span><span style="color: #000">あなたたちが外に出ると、時刻はすっかり深夜を回っていた。
 冷たい風が服を揺らす。ふと空を見上げると、真っ白な雪が降り始めていた。
-</span><span class="kp">
+</span><span style="color: #000">
 ＊　＊　＊
 
 ☆シナリオクリア　ENDA
-</span><span class="kp">★報酬
+</span><span style="color: #000">★報酬
 SAN回復1D10
 イス人を助けた1D6
 
 AF:白い鯨のスノードーム
 いつの間にか千秋の部屋に置かれています。不思議と温かい力を感じます。自室に置かれている場合にCON+1されます。
 
-</span><span class="chiaki">染谷千秋 : 1d10+1d6 (1D10+1D6) ＞ 10[10]+3[3] ＞ 13
-</span><span class="chiaki">[ 染谷千秋 ] SAN : 52 → 65
-</span><span class="chifuyu">染谷千冬 : 1d10+1d6 (1D10+1D6) ＞ 2[2]+1[1] ＞ 3
-</span><span class="chifuyu">[ 染谷千冬 ] SAN : 41 → 44
+</span><span style="color: #db7093">染谷千秋 : 1d10+1d6 (1D10+1D6) ＞ 10[10]+3[3] ＞ 13
+</span><span style="color: #db7093">[ 染谷千秋 ] SAN : 52 → 65
+</span><span style="color: #00bcd4">染谷千冬 : 1d10+1d6 (1D10+1D6) ＞ 2[2]+1[1] ＞ 3
+</span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 41 → 44
 
-</span><span class="kp">千秋は目星2回成長判定どうぞ！
+</span><span style="color: #000">千秋は目星2回成長判定どうぞ！
 
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 19 ＞ 成功
-</span><span class="chiaki">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 29 ＞ 成功
-</span><span class="chiaki">染谷千秋 : 千冬にスノードームを渡します。
-</span><span class="chifuyu">染谷千冬 : 「いいのか」
-</span><span class="chiaki">染谷千秋 : 「ああ。好きなんだろ？」
-</span><span class="chifuyu">染谷千冬 : 「……ありがとう」
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 19 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 29 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 千冬にスノードームを渡します。
+</span><span style="color: #00bcd4">染谷千冬 : 「いいのか」
+</span><span style="color: #db7093">染谷千秋 : 「ああ。好きなんだろ？」
+</span><span style="color: #00bcd4">染谷千冬 : 「……ありがとう」
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}</style>

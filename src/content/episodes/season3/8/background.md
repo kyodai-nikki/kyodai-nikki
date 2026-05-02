@@ -1,6 +1,6 @@
 <!-- Optional background log section. -->
 
-<span class="kp">神々の戦争に巻き込まれて荒廃した世界になる。
+<span style="color: #000">神々の戦争に巻き込まれて荒廃した世界になる。
 あまりの地獄絵図とニャルラトホテプの姿を見た千冬は発狂し、自殺癖を発症するが、一度ニャルラトホテプの姿を見ていた千秋は自我を保つ。
 自殺を繰り返す千冬を千秋が止める形で二人暮らしていた。　※包丁を探した時の幸運補正はこの時の名残である
 イス人の協力の元、世界を戻す手段を探していたが、食事が貧相なことも加わり千冬が衰弱し始める。世界復興の手段が見つからない中、二人は緩やかに死を待つ生活を始める。
@@ -17,5 +17,3 @@
 ・千秋の行動・動機を変更
 
 ・千冬が頷くまでの流れを変更</span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.purple{color:#ac67c3}.green{color:#2a6762}.tansaku{color:#000000}</style>

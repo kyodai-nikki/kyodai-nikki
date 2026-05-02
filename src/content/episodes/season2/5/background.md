@@ -1,6 +1,6 @@
 <!-- Optional background log section. -->
 
-<span class="red">ニャルラトホテプ――
+<span style="color: #ff0000">ニャルラトホテプ――
 混沌をもたらし破壊することがその神性に刻まれている。
 そのため無数にある世界を蹂躙、生物を愚弄し遊んでいる。
 もっとも、その存在そのものが混沌であるため、言葉ひとつでその思考を定義することはできない。
@@ -20,7 +20,5 @@
 シナリオ「問：死の定義を教えてください」や「世界の終わりを君と見たい」で関わったβ世界線千秋（と「帰巣翻弄」でロストエンドを迎えた千冬）。デパートを出た後、海で呆然としている様子。
 「世界の終わりを君と見たい」の時と少し流れは変わるが、この後もニャルラトホテプと対立するノーデンスの目に留まり、憐れまれて「世界の終わりを君と見たい」と同様の展開を迎える。
 
-</span><span class="kp">（シナリオに一部改変有）
+</span><span style="color: #000">（シナリオに一部改変有）
 </span>
-
-<style>*{padding:0;margin:0;margin-bottom:1px;font-size:16px;line-height:25px;} body{font-family: "游明朝", serif;} .kp{color:#000000}.chiaki{color:#db7093}.chifuyu{color:#00bcd4}.red{color:#ff0000}</style>
