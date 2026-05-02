@@ -9,6 +9,7 @@ import { siteConfig } from "../config";
 import { withBase } from "../lib/urls";
 
 import "../../styles/variables.css";
+import "../../styles/initial.css";
 import "../../styles/globals.css";
 
 interface Props {
@@ -61,6 +62,10 @@ const hasPageShell =
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(ogImage, canonical).href} />
     <meta name="twitter:card" content="summary_large_image" />
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Libre+Baskerville%3A400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Shippori+Mincho%3A700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Shippori+Mincho%3A400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Shippori+Mincho%3A600" rel="stylesheet">
   </head>
   <body class={bodyClass}>
     <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>

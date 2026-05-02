@@ -27,7 +27,7 @@ const { character } = Astro.props;
     margin: 0;
     padding-bottom: var(--s-4);
     border-bottom: 1px solid var(--c-fg);
-    font-family: var(--f-serif);
+    font-family: var(--font-family-base);
     font-size: 16px;
     color: var(--c-fg-body);
   }
@@ -44,6 +44,7 @@ const { character } = Astro.props;
   .character-stats dt {
     color: var(--c-fg-body);
     font-weight: var(--fw-regular);
+    line-height: var(--lh-s-tight);
   }
 
   .character-stats dt::after {
@@ -52,6 +53,7 @@ const { character } = Astro.props;
 
   .character-stats dd {
     margin: 0;
+    line-height: var(--lh-s-tight);
   }
 
   @media (--bp-mobile) {

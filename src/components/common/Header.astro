@@ -47,7 +47,7 @@ const items = headerNavItems(path);
 
 <style>
   :global(body) {
-    --site-header-offset: calc(var(--h-header-top) + var(--h-header-nav));
+    --site-header-offset: calc(var(--h-header-top));
     padding-top: calc(var(--h-header-top) + var(--h-header-nav));
   }
 
@@ -57,7 +57,6 @@ const items = headerNavItems(path);
     left: 0;
     right: 0;
     z-index: var(--z-header);
-    background: var(--c-header-bg);
   }
 
   .site-header__top {

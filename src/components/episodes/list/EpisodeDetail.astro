@@ -125,28 +125,26 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
 
   .ep-detail__title {
     margin: 0;
-    font-family: var(--f-serif);
-    font-size: var(--fs-xl);
+    font-family: var(--font-family-base);
+    font-size: var(--fs-xl2);
     font-weight: var(--fw-bold);
     display: flex;
     align-items: baseline;
-    gap: var(--s-3);
+    gap: var(--s-5);
     flex-wrap: wrap;
   }
 
   .ep-detail__subtitle {
-    font-size: var(--fs-sm);
+    font-size: var(--fs-lg);
     font-weight: var(--fw-regular);
-    color: inherit;
-    opacity: 0.75;
     letter-spacing: var(--ls-wide);
   }
 
   .ep-detail__body {
     margin: 0;
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
-    line-height: 1.9;
+    font-family: var(--font-family-base);
+    font-size: var(--fs-base);
+    line-height: var(--lh-normal);
     white-space: pre-wrap;
   }
 
@@ -169,14 +167,15 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 120px;
-    padding: var(--s-2) var(--s-5);
+    min-width: 125px;
+    padding: var(--s-2) 0;
     border: 1px solid var(--c-fg);
     color: var(--c-fg);
     background: transparent;
     text-decoration: none;
-    font-family: var(--f-serif);
-    font-size: var(--fs-sm);
+    font-family: var(--font-family-base);
+    font-size: var(--fs-lg);
+    line-height: var(--lh-s-tight);
     letter-spacing: var(--ls-wide);
     transition: background var(--dur-fast) var(--ease-out),
       color var(--dur-fast) var(--ease-out);

@@ -26,9 +26,10 @@ export const episodesPageMsg = {
     thumbnail: (title: string) => `${title} main visual`,
   },
   scenario: {
-    author: "シナリオ制作者 :",
-    distribution: "シナリオ頒布先 :",
-    adapted: "改変シナリオ :",
+    storyDate: "Date:",
+    author: "シナリオ制作者:",
+    distribution: "シナリオ頒布先:",
+    adapted: "改変シナリオ:",
     adaptedLink: "URL",
   },
 } as const;
