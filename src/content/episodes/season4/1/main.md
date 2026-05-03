@@ -948,7 +948,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : 親指で手の甲をすりすりと撫でながら腰から臀部にかけて撫でます。脚を絡め、全身で千冬の体温を感じます。
 「ふ、……」
 </span><span style="color: #00bcd4">染谷千冬 : 1d5 (1D5) ＞ 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*2 【POW × 2】 (1D100<=22) ＞ 58 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*2 【POW × 2】 (1D100<=22) ＞ 58 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 体の中心を緩く勃起させます。
 「はぁ……」
 ぴたりと体を密着させて、千秋の舌を追いかけます。
@@ -967,7 +967,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : 「んーーーー。これは？」
 ぎゅーーーと子供が抱きつくように抱きつきます。
 </span><span style="color: #00bcd4">染谷千冬 : 1d5 (1D5) ＞ 4
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*4 【POW × 4】 (1D100<=44) ＞ 14 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 14 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……ふ。かわいい」
 じっとしてます。次第に落ち着きます。
 </span><span style="color: #db7093">染谷千秋 : 「かわいーのは千冬だろ？ 少し触っただけなのにさ」

@@ -54,7 +54,7 @@
 </span><span style="color: #000">いや
 </span><span style="color: #000">千冬の体を熟知してる千秋はDEX×5+30！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5+30 【DEX × 5+30】 (1D100<=95) ＞ 94 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5+30 【DEX × 5+30】 (1D100<=95) ＞ 94 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 51 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……ぁ゛、……ッ、は、……♡」
 千秋がそういう触れ方をしてることに気づいて、千秋を振り返り見つめます。
@@ -81,7 +81,7 @@
 </span><span style="color: #db7093">染谷千秋 : 「ふ、悪かったよ。ちゃんと洗おうな」
 </span><span style="color: #db7093">染谷千秋 : 今度はえっちな感覚を与えないように洗います・。・
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 9 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 9 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……ん、……」
 物足りなさと寂しさを覚えながら、黙って体を洗われます。
 </span><span style="color: #db7093">染谷千秋 : 「はは、物足りねーって顔してる」
@@ -533,7 +533,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……ちあき、ごめん、セックスする♡　セックスするからっ♡　ゆるして、ッ♡」
 </span><span style="color: #db7093">染谷千秋 : 「違うだろ？　やっぱ分かってねーな～♡　セックスするじゃなくてさ、したいだろ？」
 千冬の耳の中に指を突っ込んで遊びます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 82 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 82 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「はあ、……ッ！♡」
 胸から与えられていた快感と合わさって背筋を大きく逸らし達します。それでもなお刺激を与えられ続け、体が痙攣しています。
 「したい、ちあきとしたいっ♡　はぁ、ちあきとセックスする♡　おねがい、やめろっ♡」
@@ -583,7 +583,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「いわないっ、ごめん、ちあきっ♡」
 </span><span style="color: #db7093">染谷千秋 : 「ん、……俺も乱暴してごめんな」
 千冬の頭をよしよしと撫でて、玩具と拘束を順々に外します。千冬の身体をぎゅっと抱きしめて口付けます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 80 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「ちあき……セックスしたい……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……はやくほしい……」
 腰を揺らして自身を擦りつけます。精液がべたりと千秋の体に広がります。

@@ -264,9 +264,9 @@ CoCシナリオ『双離の果実』
 </span><span style="color: #000">APP×5とかどう？
 
 </span><span style="color: #db7093">染谷千秋 : フフｗ
-</span><span style="color: #db7093">染谷千秋 : CCB<=14*5 【APP × 5】 (1D100<=70) ＞ 11 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=14\*5 【APP × 5】 (1D100<=70) ＞ 11 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 29 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 29 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「かわいい」
 </span><span style="color: #00bcd4">染谷千冬 : 「着替えてくる」
 </span><span style="color: #db7093">染谷千秋 : 「だろ～？」
@@ -346,8 +346,8 @@ CoCシナリオ『双離の果実』
 </span><span style="color: #000">じゃあ改めて（たぶん切るのは千秋だと思うので千秋が①、千冬が②ということで）ダイスどぞ！
 
 </span><span style="color: #db7093">染谷千秋 : ありがときぱ
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5+30 【DEX × 5+30】 (1D100<=95) ＞ 15 ＞ スペシャル
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 81 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5+30 【DEX × 5+30】 (1D100<=95) ＞ 15 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 81 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「♪」
 
 </span><span style="color: #000">千秋から渡された食材を千冬が鍋に入れて煮る。ぐつぐつ言っているような……。
@@ -430,9 +430,9 @@ CoCシナリオ『双離の果実』
 …1名の場合≪DEX*4≫
 …どちらも失敗≪DEX\*3≫
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16*4 【INT × 4】 (1D100<=64) ＞ 29 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*4 【INT × 4】 (1D100<=64) ＞ 29 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋、覚えたか」
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*4 【INT × 4】 (1D100<=68) ＞ 81 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*4 【INT × 4】 (1D100<=68) ＞ 81 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : エ
 </span><span style="color: #db7093">染谷千秋 : 「まだだな～。後半のステップの後、どうするんだっけ」
 </span><span style="color: #00bcd4">染谷千冬 : 「そこは……こうだ」
@@ -451,8 +451,8 @@ CoCシナリオ『双離の果実』
 </span><span style="color: #000">千冬は千冬で千秋の可愛さに何が正解か分からなくなりました。
 </span><span style="color: #000">じゃあワルツを踊ります。二人ともDEX×4をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 73 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*4 【DEX × 4】 (1D100<=36) ＞ 61 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 73 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 61 ＞ 失敗
 
 </span><span style="color: #000">もたぁ……
 
@@ -468,8 +468,8 @@ CoCシナリオ『双離の果実』
 </span><span style="color: #000">またDEX×4振っていいよ♪
 
 </span><span style="color: #db7093">染谷千秋 : やったー！！！
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 31 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*4 【DEX × 4】 (1D100<=36) ＞ 66 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 31 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 66 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「難しい」
 </span><span style="color: #db7093">染谷千秋 : 「はは、俺がリードするよ。こっち」
 </span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」

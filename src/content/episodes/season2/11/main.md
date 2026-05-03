@@ -200,8 +200,8 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : （なんで、？）
 思考の追いつかないまま千秋の腕を引きます。
 色々な考えが頭を過ぎろうとしますが、それらを無視して、反射的に千秋の唇に口づけをします。
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=16*5 【POW × 5】追いキス 我慢できるか (1D100<=80) ＞ 35 ＞ 成功
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11*5 【CON × 5】体力的にふらつかずにいれるか (1D100<=55) ＞ 73 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=16\*5 【POW × 5】追いキス 我慢できるか (1D100<=80) ＞ 35 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】体力的にふらつかずにいれるか (1D100<=55) ＞ 73 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : s1d100<=25 【SAN値チェック】千冬の身体を離すかどうか　失敗なら反射で離す (1D100<=25) ＞ 36 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 目を閉じて口付けを受け入れようとしましたが、ハッとしたように目を開きます。
 千冬と自分の間に腕を差し込み、千冬から身体を離します。その拍子にふらつき、反射で近くの木に手をつきながら座り込み、困惑したように千冬を見上げます。
@@ -669,33 +669,33 @@ custom:
 これから初期位置を決めます。DEX*5を2回振ってください。
 </span><span style="color: #000">DEX\*5を振ってください。
 
-</span><span style="color: #816d32">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 20 ＞ 成功
-</span><span style="color: #2a6762">河野 : CCB<=12*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 82 ＞ 失敗
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 99 ＞ 致命的失敗
-</span><span style="color: #816d32">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 7 ＞ スペシャル
-</span><span style="color: #2a6762">河野 : CCB<=12*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 20 ＞ 成功
+</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 20 ＞ 成功
+</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 82 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 99 ＞ 致命的失敗
+</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 7 ＞ スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 20 ＞ 成功
 </span><span style="color: #ac67c3">染谷千秋 : 河野を連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 36 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 36 ＞ 成功
 
 </span><span style="color: #000">車に乗り込むまで、ティンダロスの猟犬とのチェイスを開始します。
 初期マスは、[1……千冬・千秋・河野]、[2……三津川]となります。
 三津川→千秋→河野→千冬→ティンダロスの猟犬の順番で行動します。
 
 </span><span style="color: #000">[ KP ] ラウンド : 0 → 1
-</span><span style="color: #816d32">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 8 ＞ スペシャル
+</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 8 ＞ スペシャル
 </span><span style="color: #816d32">[ 三津川 ] マス : 2 → 3
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 98 ＞ 致命的失敗
 
 </span><span style="color: #000">千秋はよろめいて転んでしまいます。
 次に、ティンダロスの猟犬は固定で千秋をターゲットにします。
 
-</span><span style="color: #2a6762">河野 : CCB<=12*5 【DEX × 5】 (1D100<=60) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #2a6762">河野 : 流れで千秋を連れて進みます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 1 → 2
 </span><span style="color: #2a6762">[ 河野 ] マス : 1 → 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 100 ＞ 致命的失敗
 
 </span><span style="color: #000">あなたは転んだ千秋に気を取られて、足元をよく見ることができませんでした。地面にあった石に足をとられて転んでしまいます。
 </span><span style="color: #000">転んだあなたを見て、ティンダロスの猟犬はあなたをターゲットにします。
@@ -704,29 +704,29 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=37 【回避】 (1D100<=37) ＞ 53 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : 1d6+1d4 【前脚ダメージ】 (1D6+1D4) ＞ 6[6]+2[2] ＞ 8
 </span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 10 → 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 46 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 46 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……！」歯を食いしばって堪えます。
 </span><span style="color: #ac67c3">染谷千秋 : 「千冬！！」
 </span><span style="color: #000">[ KP ] ラウンド : 1 → 2
-</span><span style="color: #816d32">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 90 ＞ 失敗
+</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 90 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 戻って千冬を連れていきます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 2 → 1
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 69 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 69 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千冬を連れに戻ります。
 </span><span style="color: #2a6762">[ 河野 ] マス : 2 → 1
-</span><span style="color: #2a6762">河野 : CCB<=12*4 【DEX × 4】 (1D100<=48) ＞ 89 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=48) ＞ 89 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 1d2 距離が近いほうを連れて行こうとします1千秋2河野 (1D2) ＞ 1
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*4 【DEX × 4】 (1D100<=36) ＞ 38 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 38 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 68 ＞ 失敗
 </span><span style="color: #000">[ KP ] ラウンド : 2 → 3
-</span><span style="color: #816d32">三津川 : CCB<=14*5 【DEX × 5】 (1D100<=70) ＞ 21 ＞ 成功
+</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 21 ＞ 成功
 </span><span style="color: #816d32">[ 三津川 ] マス : 3 → 4
 </span><span style="color: #816d32">三津川 : 車に乗り込んで、逃げる皆を拾うために逆走します。
 </span><span style="color: #ac67c3">染谷千秋 : 千冬を連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 24 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 24 ＞ 成功
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 1 → 2
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 1 → 2
-</span><span style="color: #2a6762">河野 : CCB<=12*5 【DEX × 5】 (1D100<=60) ＞ 90 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 90 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 河野を連れて逃げようとします。
 </span><span style="color: #ac67c3">染谷千秋 : 止めます。STR対抗！
 
@@ -743,9 +743,9 @@ custom:
 </span><span style="color: #816d32">三津川 : もう一度車を皆の元へ走らせます。
 </span><span style="color: #ac67c3">染谷千秋 : 河野を連れていきます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 2 → 1
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 95 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 95 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千秋を連れていきます。
-</span><span style="color: #2a6762">河野 : CCB<=12*4 【DEX × 4】 (1D100<=48) ＞ 64 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=48) ＞ 64 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : choice[千秋,河野] 距離が近いほう (choice[千秋,河野]) ＞ 河野
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 2 → 1
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 41 ＞ 失敗
@@ -757,9 +757,9 @@ custom:
 </span><span style="color: #000">[ KP ] 到着マス : 3 → 2
 </span><span style="color: #816d32">三津川 : 車を更に皆の方へ走らせます。
 </span><span style="color: #ac67c3">染谷千秋 : 千冬を車に連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 85 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 85 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千冬を連れていきます。
-</span><span style="color: #2a6762">河野 : CCB<=12*4 【DEX × 4】 (1D100<=60) ＞ 6 ＞ スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=60) ＞ 6 ＞ スペシャル
 </span><span style="color: #2a6762">[ 河野 ] マス : 1 → 2
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 1 → 2
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*2 【DEX × 2】河野に連れられながら、千秋にも手を伸ばします (1D100<=18) ＞ 99 ＞ 致命的失敗
@@ -975,7 +975,7 @@ PCたちの車は1Rに3まで速度を上げることができる。速度を3�
 </span><span style="color: #6a6a6a">[ パトカー ] 速度 : 1 → 2
 </span><span style="color: #000">[ KP ] 差分マス : 2 → 1
 </span><span style="color: #000">[ KP ] 相対速度差分 : 2 → 1
-</span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=12*5 【DEX*5】 (1D100<=60) ＞ 94 ＞ 失敗
+</span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=12\*5 【DEX\*5】 (1D100<=60) ＞ 94 ＞ 失敗
 
 </span><span style="color: #000">千秋はINT\*1を振ってください。
 

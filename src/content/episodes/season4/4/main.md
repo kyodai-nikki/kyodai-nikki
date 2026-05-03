@@ -231,8 +231,8 @@ custom:
 飲み込む他選択肢がないのだろう。だが、こんなものを噛めばこの味がより一層口内に充満するだろう。そうなったことを考えただけでも、吐き気がする。
 </span><span style="color: #000">＜POW\*5＞をどうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 8 ＞ スペシャル
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 65 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 8 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 65 ＞ 成功
 
 </span><span style="color: #000">ほとんど咀嚼することなく、無理やりにだがなんとか飲み込むことが出来た。
 飲み込んだことを確認してか、器具は固定を解除し離れていく。
@@ -240,8 +240,8 @@ custom:
 舌にあの味が酷く残っている感覚はすぐには消えてくれない。鋭敏な味覚が微かなそれを感じ取ってしまっている。
 </span><span style="color: #000">＜CON\*5＞どうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 41 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 46 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 41 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 46 ＞ 成功
 
 </span><span style="color: #000">嘔吐するまでには至らなかったが、二人は何度も酷い吐き気を催した。
 </span><span style="color: #000">1d100どうぞ！
@@ -497,10 +497,10 @@ custom:
 </span><span style="color: #000">探索者は機械室でのバングルの外し方を＜INT\*5＞で覚えられる。
 失敗した場合、＜集中＞に成功することで何度でも再挑戦できる。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 77 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*5 【INT × 5】 (1D100<=85) ＞ 77 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「バングルの外し方は分かったな。千冬、先に他の場所調べようぜ」
 千冬にも情報を共有します！
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16*5 【INT × 5】 (1D100<=80) ＞ 25 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 25 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ。分かった」
 </span><span style="color: #db7093">染谷千秋 : 部屋BGOGOGO
 
@@ -860,8 +860,8 @@ custom:
 
 </span><span style="color: #000">▶＜CON\*8＞どうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*8 【CON × 8】 (1D100<=96) ＞ 4 ＞ 決定的成功/スペシャル
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*8 【CON × 8】 (1D100<=88) ＞ 14 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*8 【CON × 8】 (1D100<=96) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=11\*8 【CON × 8】 (1D100<=88) ＞ 14 ＞ スペシャル
 
 </span><span style="color: #000">吐き気は容易く我慢できる程度だ。
 </span><span style="color: #000">「はんのうち、かんそくしゅうりょう」

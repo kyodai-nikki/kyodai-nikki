@@ -709,9 +709,9 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #000">優希が言葉を続ける様子はない。
 
 </span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 5
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「随分な態度だな？ そんな難しいこと要求してるつもりはねーけど？」
 めっっっっちゃ近づきます。
 </span><span style="color: #000">優希 : 「……何ですか」
@@ -974,7 +974,7 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #000">どうぞ！
 
 </span><span style="color: #db7093">染谷千秋 : res(17/2-12) (1d100<=30) ＞ 76 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : 1d3*4+10 (1D3*4+10) ＞ 2[2]\*4+10 ＞ 18
+</span><span style="color: #db7093">染谷千秋 : 1d3\*4+10 (1D3\*4+10) ＞ 2[2]\*4+10 ＞ 18
 </span><span style="color: #db7093">染谷千秋 : 「はは、降参。千冬のかわいー顔見れたし、これぐらいにしてやるよ」
 20分程千冬をからかいながら擽ります。加虐心が満たされた頃、擽りを続けていた手を離し、千冬の身体をぎゅっと抱きしめます。
 </span><span style="color: #00bcd4">染谷千冬 : 「は、は……♡　ちあき、ちあきのほうがかわいい、……」

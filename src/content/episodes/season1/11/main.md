@@ -204,8 +204,8 @@ custom:
 
 </span><span style="color: #000">千秋、千冬はそれぞれPOW\*2をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 53 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*2 【POW × 2】 (1D100<=22) ＞ 5 ＞ 決定的成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 53 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*2 【POW × 2】 (1D100<=22) ＞ 5 ＞ 決定的成功
 
 </span><span style="color: #000">千秋は千冬の体に触れる。瞬間、千冬がびくりと体を震わせる。
 
@@ -214,8 +214,8 @@ custom:
 驚いた顔をする彼を見た瞬間何か満たされた気がする。
 
 </span><span style="color: #db7093">染谷千秋 : 千冬を引き寄せて首筋に唇を寄せます。
-</span><span style="color: #db7093">染谷千秋 : 噛みつくかどうかPOW*5　成功したら噛みつかない
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 41 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 噛みつくかどうかPOW\*5　成功したら噛みつかない
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 41 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 寸前で我慢して甘噛になりました。
 </span><span style="color: #db7093">染谷千秋 : 「……！」（何だ、今の……）　千冬から身体を離します。
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋……？」
@@ -225,8 +225,8 @@ custom:
 </span><span style="color: #000">そう言ってあなたは扉に手をかけるが、ラブホテルによくあるオートロックらしく、閉まっていてこちらから開けられない。
 </span><span style="color: #000">二人ともPOW\*2をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 80 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*2 【POW × 2】 (1D100<=22) ＞ 6 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*2 【POW × 2】 (1D100<=22) ＞ 6 ＞ 成功
 
 </span><span style="color: #000">あなたの脳内に誘い込むような声が聞こえてくる。
 「　欲望に忠実であれ　」「　理性なんて捨てて　」「　あるがままに溺れればいい　」

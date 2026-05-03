@@ -393,10 +393,10 @@ custom:
 
 </span><span style="color: #000">男は腹部から始まり胸、顔、腕、脚と、次々と全⾝を殴り続けた。淡々と⾔葉を紡ぎながら。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 25 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 82 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 25 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 82 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 32 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……ッ」
 黙って殴られますが、胸を殴られた時に息を詰めます。
@@ -602,8 +602,8 @@ POW\*3をどうぞ。
 </span><span style="color: #000">そう言って彼はあなたの言葉の通り、左腕、左脚の切断を始める。骨に邪魔をされて上手く肉を断てず、断面を抉られる。数分経って、ようやく完全に切り離された。ドクドクと血が零れている。
 </span><span style="color: #000">POW\*3を2回どうぞ。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 61 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 10 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 61 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 10 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「目はもう⼀⽅はやめておきましょうね～。何も⾒えなくなるのは怖いでしょうから。……あ、そういえば目、見せてませんでしたね。見ます？　綺麗な目ですよ。ちょっと傷ついちゃったかもしれないですけど」
 </span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 11 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「……」

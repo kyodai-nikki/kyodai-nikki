@@ -146,10 +146,10 @@ custom:
 </span><span style="color: #ac67c3">千秋？ : 「これまでの"ただの夢"を掴んでみなよ。君の手で」
 </span><span style="color: #db7093">染谷千秋 : 「……戦いたくないって言ったら？」
 </span><span style="color: #ac67c3">千秋？ : 「それはつまらないなあ。賭けにすら乗らないなんて。"ただの夢"にしてしまっていいのかい？」
-</span><span style="color: #db7093">染谷千秋 : 相手の挑発に乗るかどうかPOW*5/3で試します。
+</span><span style="color: #db7093">染谷千秋 : 相手の挑発に乗るかどうかPOW\*5/3で試します。
 成功したら千冬との約束を思い出します。
 失敗したら欲が勝って相手の挑発に乗ります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5/3 【POW × 5/3】 (1D100<=26) ＞ 92 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5/3 【POW × 5/3】 (1D100<=26) ＞ 92 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 負けました。愚かでした。
 </span><span style="color: #db7093">染谷千秋 : 「……戦いたくないなんて言ってないだろ？」
 </span><span style="color: #ac67c3">千秋？ : 「ははは！　期待を裏切らないね。さあ、おいで」

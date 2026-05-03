@@ -90,6 +90,7 @@ const items = await newsListItems();
     letter-spacing: var(--ls-wide);
     text-align: center;
     font-variant-numeric: tabular-nums;
+    line-height: var(--lh-normal);
   }
 
   .news-sep {
@@ -97,13 +98,16 @@ const items = await newsListItems();
     font-family: var(--font-family-base);
     font-size: var(--fs-base);
     user-select: none;
+    line-height: var(--lh-normal);
   }
 
   .news-text {
     font-family: var(--font-family-base);
     font-size: var(--fs-m);
     color: var(--c-news-text-fg);
+    line-height: var(--lh-normal);
   }
+
   a.news-link .news-text {
     text-decoration: underline;
     text-decoration-thickness: 1px;

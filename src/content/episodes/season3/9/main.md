@@ -276,11 +276,11 @@ custom:
 
 </span><span style="color: #ac67c3">ひよこ : 「目線と同じ高さに光るもの……これは照明ではないですよね？　文字もあります。あったかい、つめたい、押してください……これも記憶にあります。なんていう名称ですか？」
 立ち止まり自販機を眺めます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 10 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「自動販売機。見えないとこに照明ついてる。足止めんな。行くぞ」
 </span><span style="color: #ac67c3">ひよこ : 「自動販売機」
 </span><span style="color: #ac67c3">ひよこ : 「自動販売機は、飲料を買うものですよね？　千秋は喉は渇いていないのですか？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 11 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】無/イラッとする (1D100<=80) ＞ 11 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「ああ。乾いてない」
 </span><span style="color: #ac67c3">ひよこ : 「しかし、これから赴くのは敵地ですよ？　必要な時の水分補給は、戦士の務めではありませんか？」
 </span><span style="color: #db7093">染谷千秋 : 「必要な分はリュックに入ってる。……何お前、喉乾いてんの？」
@@ -738,10 +738,10 @@ KPCの肉体がショゴスロードと同質のものになる。装甲を持�
 
 </span><span style="color: #000">ピンポンピンポンピンポンピンポンピンポンピンポン、と、チャイムが続けて鳴り続ける。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 52 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 布団を被って寝ます。
 </span><span style="color: #816d32">猫宮あひる : 「センパ～イ、いるんじゃないんですか～！？　どうしたんですか、体調不良ですか～？　それともバイトぴょんぴょんですか～！？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「体調不良」
 メールします。
 </span><span style="color: #db7093">染谷千秋 : 寝ます。

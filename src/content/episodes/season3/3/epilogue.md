@@ -26,13 +26,13 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……すぐ寝れそうか？」
 </span><span style="color: #db7093">染谷千秋 : 「身体起こしたら目が覚めた。俺は後で寝るから、千冬は先に寝な」
 くしゃりと千冬の髪を撫でてコップを受け取ります。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】平静/不安 (1D100<=55) ＞ 65 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】平静/不安 (1D100<=55) ＞ 65 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 以前の出来事が思い返されます。もし千秋が知らない間に、と思うと不安を感じます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……我儘を、言ってもいいか」
 </span><span style="color: #db7093">染谷千秋 : 「ん、何？」
 </span><span style="color: #00bcd4">染谷千冬 : 「俺の腕の中にいろ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】シャワー浴びない/まあ浴びなくていい/F:浴びたい (1D100<=80) ＞ 6 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】シャワー浴びない/まあ浴びなくていい/F:浴びたい (1D100<=80) ＞ 6 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「ふ、……分かった」
 コップを流しにいれ、ベッドへ戻ります。千冬の腕の中に入ります。
 </span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」

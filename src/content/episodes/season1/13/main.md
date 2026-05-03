@@ -769,8 +769,8 @@ custom:
 
 </span><span style="color: #000">千秋は＜DEX\*4＞で判定してください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*4 【DEX × 4】 (1D100<=52) ＞ 71 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*4 【DEX × 4】 (1D100<=36) ＞ 96 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 71 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 96 ＞ 致命的失敗
 
 </span><span style="color: #000">掲げられた灯りを頼りに、花の嵐の中を駆けようと地を蹴る。
 けれど、一瞬。体がひどく重く、鈍くなる。

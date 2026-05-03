@@ -18,10 +18,10 @@
 
 ◆ 雑談タブで出た「普段セックスする時の体力」ダイス\*3
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
-</span><span style="color: #db7093">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 47 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 5 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 2 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 77 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 48 ＞ 成功
 </span>

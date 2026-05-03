@@ -527,11 +527,11 @@ custom:
 「そうだ拘束、取らないと、」
 慌てて千秋の足首に手を伸ばし、見えない枷を取ろうとします。
 「……取れない、い、嫌だ、千秋、千秋」
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5-25 【DEX × 5--25】よろけない る (1D100<=40) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5-25 【DEX × 5--25】よろけない る (1D100<=40) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : 先程の戦闘で大分酔いが覚めました。千冬に引かれながら並走し、部屋まで戻ります。
 部屋で千冬に口付けされ、空気を送られたあたりで正気になります。
 「……！　千冬……？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*5 【INT × 5】 (1D100<=85) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : 千冬の取り乱した様子を見て、千冬もまたあの時の幻覚を見ていることを思い出します。しゃがんだ千冬の両手を取りその身体を壁に押し付けます。
 「千冬、大丈夫だ、……千冬。俺は無事」
 </span><span style="color: #db7093">染谷千秋 : 「千冬が助けてくれただろ？今も、こうして助けてもらってる。……な、大丈夫だ」
@@ -856,9 +856,9 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「変わらなくない。千秋はここに残って調べろ」
 </span><span style="color: #db7093">染谷千秋 : 「嫌だ」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 49 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 49 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……死んでも大丈夫だからといって、命を軽く扱ってほしくない。だから、試しに潜って、ユグの様子を見て戻ってくる。気を引くかどうかは、ユグの様子次第にしてくれ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】渋々/ヤ！！！！ (1D100<=80) ＞ 70 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】渋々/ヤ！！！！ (1D100<=80) ＞ 70 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : はあ、とため息を付きます。
 「千冬一人でいくより、そっちの方がいいと思っただけだ。……約束な」
 </span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
@@ -914,10 +914,10 @@ custom:
 
 </span><span style="color: #000">千秋はすぐにでも息が続かなくなるでしょう。CON\*10振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*10 【CON × 10】 (1D100<=110) ＞ 34 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11\*10 【CON × 10】 (1D100<=110) ＞ 34 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=95 【水泳】 (1D100<=95) ＞ 22 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : ccb<=25+15 【水泳+15】 (1D100<=40) ＞ 80 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*9 【CON × 9】 (1D100<=99) ＞ 72 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11\*9 【CON × 9】 (1D100<=99) ＞ 72 ＞ 成功
 
 </span><span style="color: #000">千秋は水流に飲み込まれ上手く下層に辿り着くことができません。その間にも千冬はユグの元へいくでしょう。目星-20をどうぞ。
 
@@ -1096,8 +1096,8 @@ custom:
 急に変わる水の流れに翻弄される身体が、ミルク色の濁流に飲まれていく……。
 </span><span style="color: #000">CON\*5どうぞ。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 32 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 32 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 69 ＞ 失敗
 
 </span><span style="color: #000">1d6ダメージどうぞ。
 
@@ -1255,9 +1255,9 @@ custom:
 </span><span style="color: #db7093">染谷千秋 : 「……ちふゆ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……寝ていろ」
 運転席に乗ります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 92 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 92 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「やだ」千冬を引き寄せます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5-60 【INT × 5-60】覚えてるか (1D100<=25) ＞ 91 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*5-60 【INT × 5-60】覚えてるか (1D100<=25) ＞ 91 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……千秋」
 </span><span style="color: #db7093">染谷千秋 : 千冬を抱き寄せたまま沈黙を貫きます。より引き寄せます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」

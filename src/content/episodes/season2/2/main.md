@@ -217,8 +217,8 @@ custom:
 洋館モチーフのお化け屋敷だ。入口では二体のゾンビが待ち構えている。やけに精巧な作りをしており、思わずゾッとしてしまうだろう。
 </span><span style="color: #000">POW\*4を振ってください！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*4 【POW × 4】 (1D100<=64) ＞ 9 ＞ スペシャル
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*4 【POW × 4】 (1D100<=44) ＞ 16 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*4 【POW × 4】 (1D100<=64) ＞ 9 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 16 ＞ 成功
 
 </span><span style="color: #000">目の前に伸びてきたゾンビの手を見ても、あなた達は動じることがなかった。
 すぐにゾンビの姿は消えるが……ここに人はいないはずなのに、やけにリアリティのある動きをしていたような？
@@ -230,8 +230,8 @@ custom:
 </span><span style="color: #db7093">染谷千秋 : 「……千冬は俺に甘いよな。じゃ、ジェットコースターにいこうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #db7093">染谷千秋 : 千冬の手を取り歩きだします。しばらくして、「わっ」と大きな声を出しました。
-</span><span style="color: #00bcd4">染谷千冬 : POW*4振ります
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*4 【POW × 4】 (1D100<=44) ＞ 94 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : POW\*4振ります
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 94 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「……びっくりした？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「びっくりした」
@@ -243,8 +243,8 @@ custom:
 </span><span style="color: #000">パンフレットによると、人気№1のアトラクションのようだ。全体的に緩やかなコースとなっているが、一か所だけほぼ直角の角度で落差が作られている。
 </span><span style="color: #000">POW\*5をどうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 67 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 43 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 67 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 43 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 落ちながら千冬の顔を凝視しています。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」表情筋がいつも以上に硬直しています。
 </span><span style="color: #db7093">染谷千秋 : 「はは、楽しかったな」
@@ -267,9 +267,9 @@ custom:
 
 </span><span style="color: #000">POW\*5をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 12 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 12 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 走行中、千秋の顔を見ます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 59 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 59 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : やはり強張る千冬の顔を見ます。
 </span><span style="color: #db7093">染谷千秋 : 「大丈夫かよ。……ほら」
 
@@ -285,8 +285,8 @@ custom:
 
 </span><span style="color: #000">あなた達はまたジェットコースターに乗り込みます。POW\*5をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 42 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 42 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「慣れたみたいだな」
 </span><span style="color: #00bcd4">染谷千冬 : 「……ああ。やっぱり、何度も挑戦するものだな。楽しさがわかってきた」
 </span><span style="color: #db7093">染谷千秋 : 「はは、千冬が楽しんでくれて嬉しい」
@@ -371,8 +371,8 @@ custom:
 あちこちに行き止まりがあり、簡単に出口へ向かうことは出来なさそうだ。
 </span><span style="color: #000">INT\*5を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 27 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16*5 【INT × 5】 (1D100<=80) ＞ 90 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=17\*5 【INT × 5】 (1D100<=85) ＞ 27 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 90 ＞ 失敗
 
 </span><span style="color: #000">あなた達は鏡の錯覚に惑わされることなく、ゴールへとたどり着いた。
 
@@ -434,20 +434,20 @@ custom:
 </span><span style="color: #000">あなた達は続けてダンシングレボリューションの前にやってきたお馴染みのゲームだ。あなたたちの知っている曲が多数収録されている。
 ダンスorDEX\*5を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 76 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 57 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 76 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 57 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「へぇ、結構難しいな」
 </span><span style="color: #00bcd4">染谷千冬 : ぎこちなく踊ってます。
 </span><span style="color: #db7093">染谷千秋 : 「もっかいやんぞ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 57 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 57 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 21 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……よし」
 </span><span style="color: #db7093">染谷千秋 : 「スコア倍まで伸びてんな。コツ掴んだか？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……けっこう必死だ」
 </span><span style="color: #db7093">染谷千秋 : 「そうは見えねええけど～？……お、次はこの曲な」別の曲を指定します。
 </span><span style="color: #00bcd4">染谷千冬 : 「わかった」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 58 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5 【DEX × 5】 (1D100<=65) ＞ 93 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 58 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 93 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「あークソ」
 </span><span style="color: #00bcd4">染谷千冬 : 「残念だ」
 </span><span style="color: #db7093">染谷千秋 : 「クリアできるまでやりてーけど、そろそろ次いこうな」時計をみてメダルゲームの方へ千冬を引っ張ります。

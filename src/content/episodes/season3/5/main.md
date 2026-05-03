@@ -550,8 +550,8 @@ SANC 【1/1d3】
 
 </span><span style="color: #000">あなたは潜って解除装置を外そうと試みる。CON*5とDEX*5をそれぞれ振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
 
 </span><span style="color: #000">あなたは水中に潜り、解除装置を外すことができた。
 
@@ -581,8 +581,8 @@ SANC 【1/1d3】
 </span><span style="color: #000">千秋はこくりとうなずく。あなた達は扉までいき、最後の扉を開ける。
 </span><span style="color: #000">CON\*5を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
 
 </span><span style="color: #000">1d6ダメージを追ってください。
 
