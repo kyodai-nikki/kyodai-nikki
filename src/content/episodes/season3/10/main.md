@@ -323,7 +323,7 @@ custom:
 </span><span style="color: #673ab7">深山彰人 : ccb 好感度 高いほうが高い (1D100) ＞ 49
 </span><span style="color: #673ab7">深山彰人 : 「……う。まあ、ありがとう……」
 指を絡め返します。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 44 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 44 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : （…………？）
 何故指を絡め返されたか理解できませんが適当に返事を返します。
 「お～」
@@ -419,7 +419,7 @@ custom:
 </span><span style="color: #db7093">染谷千秋 : 「触んなくていいの？」
 千冬に向かって言います。
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】まず脱出/聞く (1D100<=80) ＞ 36 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】まず脱出/聞く (1D100<=80) ＞ 36 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「ん、わかった」
 プレートを見ます。
 
@@ -458,7 +458,7 @@ custom:
 「俺も行く」
 </span><span style="color: #db7093">染谷千秋 : 「さっきの手記見たろ？化物いるかもしんねーし、先に見るのは一人の方がいいと思うぜ。慣れてるし俺が見る。見たらすぐ戻るから千冬はここにいてよ」
 </span><span style="color: #00bcd4">染谷千冬 : 「ここに留まっても仕方ない。慣れとかじゃない。行くしかないなら、一緒に行ったほうが安心だ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 58 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 58 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「一瞬見るだけだって。中の様子先に分かった方がいいだろ。すぐ戻るよ」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「手を繋いでくれ」
@@ -563,7 +563,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「慣れてる」
 </span><span style="color: #db7093">染谷千秋 : 「実際に見たわけじゃない」
 </span><span style="color: #00bcd4">染谷千冬 : 「違う」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】のむ/ヤ！ (1D100<=80) ＞ 50 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】のむ/ヤ！ (1D100<=80) ＞ 50 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……言い合ってもしかたねーな。わかった。後ろからついてこいよ」
 音の出処を探します。
 

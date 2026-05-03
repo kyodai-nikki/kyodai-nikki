@@ -42,8 +42,8 @@ custom:
 迎えに来た千秋と共に帰宅した後、尋ねます。
 </span><span style="color: #db7093">染谷千秋 : 「ああ。見つからなかった。……これでもう三ヶ月か」
 </span><span style="color: #db7093">染谷千秋 : 「会社を出てから家の前までいるのにな。……手を出してこないのはいいけど、何が目的なんだか。……千冬、大丈夫か？」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】吹っ切れた/危機感がある (1D100<=55) ＞ 86 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】警戒している/疲れている (1D100<=55) ＞ 86 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】吹っ切れた/危機感がある (1D100<=55) ＞ 86 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】警戒している/疲れている (1D100<=55) ＞ 86 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 相手の目的が分からないまま、ずっと気を張り詰めているため疲れています。
 </span><span style="color: #00bcd4">染谷千冬 : 千秋を抱きしめます。
@@ -61,7 +61,7 @@ custom:
 「……俺も一緒に行きたい」
 </span><span style="color: #db7093">染谷千秋 : 「けど、休日のホムセンなんて混むだろ。万が一のこともあるし、家に居たほうがいいと思うぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「家が知られている。一人になるほうが良くないと思う。それに、千秋と一緒にいたい」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】命泥棒を乗り越えてる/ない (1D100<=80) ＞ 25 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】命泥棒を乗り越えてる/ない (1D100<=80) ＞ 25 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「分かったよ。……少しでもおかしな事があったら言えよ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋もだ」
 </span><span style="color: #db7093">染谷千秋 : 「ああ」
@@ -103,9 +103,9 @@ custom:
 「カレー……いや、寒くなってきたし、シチューもいい。一度、荷物を車に置きに行こう」
 </span><span style="color: #db7093">染谷千秋 : 「はは、千冬のシチュー楽しみ。……そうだな」
 
-</span><span style="color: #000">千秋はDEX\*5-10振ってください。
+</span><span style="color: #000">千秋はDEX＊5-10振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5-10 【DEX × 5 - 10】 (1D100<=55) ＞ 17 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5-10 【DEX × 5 - 10】 (1D100<=55) ＞ 17 ＞ 成功
 
 </span><span style="color: #000">そんな話をしながら歩き出すと、ある男が突然、千秋目掛けて走ってきた。
 千秋は驚く間もなく、身を交わし、男との衝突を免れた。
@@ -237,7 +237,7 @@ SANC0/1
 
 </span><span style="color: #000">あなた達は白い四角い部屋にいた。窓はなく、前と後ろに１つずつ『茶色い扉』がある。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】覚悟/やれやれ/F:超疲労 (1D100<=55) ＞ 39 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】覚悟/やれやれ/F:超疲労 (1D100<=55) ＞ 39 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……倒れる前、『僕は君を置いていくことはできない』『悲しませるわけにはいかない』と聞こえた」
 </span><span style="color: #00bcd4">染谷千冬 : （全く、迷惑な話だ。でも、ようやく動きがあった。……意識が戻ったらこの空間にいたのは、怪異のせいか、あるいは魔術師……の力か？　……ここで片をつけてやる）
 </span><span style="color: #00bcd4">染谷千冬 : （千秋には……巻き込んでごめん、じゃないな）
@@ -442,11 +442,11 @@ SANC 1/1d2
 </span><span style="color: #db7093">染谷千秋 : 「千冬、逃げよう！」
 
 </span><span style="color: #000">ここからは化け物との逃走or戦闘フェーズになります。
-戦闘をする場合は技能の宣言を、逃走する場合はdex\*5に成功する必要があります。
+戦闘をする場合は技能の宣言を、逃走する場合はdex＊5に成功する必要があります。
 
 </span><span style="color: #00bcd4">染谷千冬 : （……状況を確認するために、一度逃げたほうがいいか……逃げられるのか？）
 </span><span style="color: #00bcd4">染谷千冬 : 逃走を試みます！
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 11 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 11 ＞ 成功
 
 </span><span style="color: #000">あなた達は無事化け物から逃げることが出来ました。
 聞き耳をどうぞ。
@@ -856,12 +856,12 @@ SANC 1/1d2
 
 </span><span style="color: #000">化け物はそれでも尚あなたに近づいてくる。どうしますか？
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】警戒する/しない (1D100<=55) ＞ 46 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】警戒する/しない (1D100<=55) ＞ 46 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「こら、千秋。言うことを聞け」
 
 </span><span style="color: #000">化け物はあなたの言葉に立ち止まるが、しばらくするとあなたに近づいてくる。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*2 【POW × 2】警戒する/しない (1D100<=22) ＞ 92 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊2 【POW × 2】警戒する/しない (1D100<=22) ＞ 92 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……？」
 千秋に自分から近寄ります。
 

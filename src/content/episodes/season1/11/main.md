@@ -93,18 +93,18 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……わかった」
 
 </span><span style="color: #000">そう言って千冬はシャワー室へ行きました。
-</span><span style="color: #000">千秋はPOW\*2を振ってください。
+</span><span style="color: #000">千秋はPOW＊2を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 98 ＞ 致命的失敗
 
 </span><span style="color: #000">――ここに入ってから妙な違和感がある。思考がたまに飛ぶ気がするのだ。
 沸々と湧き上がるこの感情は何か、それを掴む前に頭の防衛本能が警鐘を鳴らす。
 
 </span><span style="color: #db7093">[ 染谷千秋 ] Sポイント : 0 → 5
 
-</span><span style="color: #000">千冬はPOW\*5を振ってください。
+</span><span style="color: #000">千冬はPOW＊5を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 78 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 78 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : （……？なんだ……）
 
 </span><span style="color: #000">千冬は、この部屋に入ってからまとわりつくじっとりとした雰囲気に眉間に皴を寄せるだろう。
@@ -144,9 +144,9 @@ custom:
 この呪文で殺すことはできない。
 
 ◆の部分は文字が掠れていて読むのは難しいだろう。
-</span><span style="color: #000">POW\*2を振ってください！
+</span><span style="color: #000">POW＊2を振ってください！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 59 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 59 ＞ 失敗
 
 </span><span style="color: #000">そのメモを見た瞬間、頭の中によく分からない映像が流れ込む。
 金属的な灰色の巨大な木はあなたにぶつかりそうになる。筒の根本のところで6本の平たい根の様になって別れた枝がついていた。その枝は動き、君を捕まえようとする。しかも、木の梢だと思っていたてっぺんから芽は名のついていない楕円形のものが顔を出し、そのまま君を飲み込もうとしてくるだろう。
@@ -155,9 +155,9 @@ custom:
 </span><span style="color: #db7093">染谷千秋 : 1d100<=62 【SAN値チェック】 (1D100<=62) ＞ 56 ＞ 成功
 
 </span><span style="color: #000">そこで意識は鮮明になる。持っていたメモはくしゃくしゃに握り締めてしまっていた。
-</span><span style="color: #000">染谷千冬はPOW\*4を振ってください。
+</span><span style="color: #000">染谷千冬はPOW＊4を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 10 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊4 【POW × 4】 (1D100<=44) ＞ 10 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : ダブルベッドに目星。
 
 </span><span style="color: #000">目星どうぞ！
@@ -170,13 +170,13 @@ custom:
 
 </span><span style="color: #00bcd4">染谷千冬 : 「……入れ」
 
-</span><span style="color: #000">千秋はPOW\*2を振ってください。
+</span><span style="color: #000">千秋はPOW＊2を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 8 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 8 ＞ 成功
 
-</span><span style="color: #000">千冬はPOW\*3を振ってください。
+</span><span style="color: #000">千冬はPOW＊3を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*3 【POW × 3】 (1D100<=33) ＞ 48 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊3 【POW × 3】 (1D100<=33) ＞ 48 ＞ 失敗
 
 </span><span style="color: #000">吐き出す息が熱い。額に沸々と汗がにじんでいるのが分かる。
 熱は次第に下腹部に集まっているのも理解できるが、冷ます為に首を横に振った。
@@ -188,9 +188,9 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 87 ＞ 失敗
 
-</span><span style="color: #000">千秋はPOW\*2を振ってください！
+</span><span style="color: #000">千秋はPOW＊2を振ってください！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*2 【POW × 2】 (1D100<=32) ＞ 23 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 23 ＞ 成功
 
 </span><span style="color: #000">あなたの思考はぐらぐらと揺れる。千冬の様子を見るにも、何かに邪魔されているような、別の思考が湧いて出るような……そんな中、どうにか立て直そうとするだろう。
 
@@ -202,10 +202,10 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……体が熱い」
 </span><span style="color: #db7093">染谷千秋 : 「は、……どこが」どこに異常がでてるか確認するために、千冬の身体に触れます。
 
-</span><span style="color: #000">千秋、千冬はそれぞれPOW\*2をどうぞ！
+</span><span style="color: #000">千秋、千冬はそれぞれPOW＊2をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 53 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*2 【POW × 2】 (1D100<=22) ＞ 5 ＞ 決定的成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 53 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊2 【POW × 2】 (1D100<=22) ＞ 5 ＞ 決定的成功
 
 </span><span style="color: #000">千秋は千冬の体に触れる。瞬間、千冬がびくりと体を震わせる。
 
@@ -214,8 +214,8 @@ custom:
 驚いた顔をする彼を見た瞬間何か満たされた気がする。
 
 </span><span style="color: #db7093">染谷千秋 : 千冬を引き寄せて首筋に唇を寄せます。
-</span><span style="color: #db7093">染谷千秋 : 噛みつくかどうかPOW*5　成功したら噛みつかない
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】 (1D100<=80) ＞ 41 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 噛みつくかどうかPOW＊5　成功したら噛みつかない
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 41 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 寸前で我慢して甘噛になりました。
 </span><span style="color: #db7093">染谷千秋 : 「……！」（何だ、今の……）　千冬から身体を離します。
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋……？」
@@ -223,10 +223,10 @@ custom:
 </span><span style="color: #db7093">[ 染谷千秋 ] Sポイント : 5 → 10
 
 </span><span style="color: #000">そう言ってあなたは扉に手をかけるが、ラブホテルによくあるオートロックらしく、閉まっていてこちらから開けられない。
-</span><span style="color: #000">二人ともPOW\*2をどうぞ！
+</span><span style="color: #000">二人ともPOW＊2をどうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*2 【POW × 2】 (1D100<=32) ＞ 80 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*2 【POW × 2】 (1D100<=22) ＞ 6 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊2 【POW × 2】 (1D100<=32) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊2 【POW × 2】 (1D100<=22) ＞ 6 ＞ 成功
 
 </span><span style="color: #000">あなたの脳内に誘い込むような声が聞こえてくる。
 「　欲望に忠実であれ　」「　理性なんて捨てて　」「　あるがままに溺れればいい　」
@@ -277,11 +277,11 @@ custom:
 
 </span><span style="color: #db7093">[ 染谷千秋 ] Sポイント : 25 → 30
 </span><span style="color: #db7093">染谷千秋 : 千冬の首を絞めていた手から力を抜き、手を離します。そのまま身体を離し、無言のままキャビネットにある液体を取りに行きます。
-</span><span style="color: #db7093">染谷千秋 : POW\*5で対抗したい！誰か千秋をとめろ
+</span><span style="color: #db7093">染谷千秋 : POW＊5で対抗したい！誰か千秋をとめろ
 
 </span><span style="color: #000">POW×5-Sポイント を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5-30 【POW × 5】 (1D100<=50) ＞ 74 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5-30 【POW × 5】 (1D100<=50) ＞ 74 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 液体を呷り、小瓶を捨てます。千冬の方に戻ります。
 そのまま顎を掴んで千冬に口付けを行い、液体を飲ませます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……な、これは……」謎の液体を飲みこみました。少し噎せながら問います。
@@ -446,16 +446,16 @@ custom:
 
 </span><span style="color: #000">日本語判定どうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【日本語】 (1D100<=55) ＞ 90 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【日本語】 (1D100<=55) ＞ 90 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……汚くて読めないな」
 </span><span style="color: #00bcd4">染谷千冬 : 「……今かけていた粉はなんだ？」
 </span><span style="color: #db7093">染谷千秋 : 「『イブン＝グハジの粉』。見えないものが見えるようになるらしいぜ」　今までしてきた探索の内容を軽く説明します。
 </span><span style="color: #db7093">染谷千秋 : 扉に聞き耳！
 
-</span><span style="color: #000">聞き耳と、POW\*3どうぞ！
+</span><span style="color: #000">聞き耳と、POW＊3どうぞ！
 
 </span><span style="color: #db7093">染谷千秋 : CCB<=75 【聞き耳】 (1D100<=75) ＞ 82 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 23 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊3 【POW × 3】 (1D100<=48) ＞ 23 ＞ 成功
 
 </span><span style="color: #000">その扉の先に耳を澄ますが、特になにも聞こえない。しかし、この中に入るのは少し嫌な感じがする。
 

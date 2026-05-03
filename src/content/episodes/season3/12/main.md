@@ -126,7 +126,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 
 </span><span style="color: #000">千冬は点けたままのテレビの前で、仕事関係の本に目を通していた。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5 【INT × 5】加虐心 (1D100<=85) ＞ 50 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=17＊5 【INT × 5】加虐心 (1D100<=85) ＞ 50 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : こっそりと千冬の背後に忍び寄り、がばっと脇腹を掴みます。
 </span><span style="color: #00bcd4">染谷千冬 : 「ぅ……ッ、千秋」
 後ろを振り返ります。
@@ -176,8 +176,8 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「ああ、急に言われたら困るよな。俺はいいぜ。……千冬はほんとに平気？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……ごめん」
 </span><span style="color: #00bcd4">染谷千冬 : 「……お世話になったから……ちゃんと言って、なるべく迷惑をかけずに辞めたいんだ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】実際のきもち (1D100<=80) ＞ 99 ＞ 致命的失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】おさえようね！ (1D100<=80) ＞ 75 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】実際のきもち (1D100<=80) ＞ 99 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】おさえようね！ (1D100<=80) ＞ 75 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……いーよ。けど、危なくなったらすぐに出る。それでい？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #db7093">染谷千秋 : （嫌な予感がする。……けど、千冬の希望はなるべく聞いてやりてーな。今月はバイト抜いて、ずっと千冬の側にいよう）
@@ -187,7 +187,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「ああ。前に行ったツーリングももっかい行こうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「行く」
 </span><span style="color: #db7093">染谷千秋 : 笑って口付けをして
-</span><span style="color: #db7093">染谷千秋 : CCB<=17*5 【INT × 5】 (1D100<=85) ＞ 28 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=17＊5 【INT × 5】 (1D100<=85) ＞ 28 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 襲います
 </span><span style="color: #00bcd4">染谷千冬 : 「……ふ、千秋……！？」
 </span><span style="color: #db7093">染谷千秋 : 「んー？」
@@ -195,7 +195,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #00bcd4">染谷千冬 : 「……千秋……」
 </span><span style="color: #db7093">染谷千秋 : 「さっきの続き。……千冬」
 甘えるような声を出し、顔を近づけます。そのまま唇が触れない距離でじっとみます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 64 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 64 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 千秋に口づけ、唇を食みます。
 </span><span style="color: #db7093">染谷千秋 : にっこりと笑い、そのまま抱きます！
 
@@ -248,7 +248,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 眉を寄せて目を伏せます。続けて苦しげな表情を作ります。
 「実は僕、みやこさんに嘘をつきました。……すみません。……本当はあまり情報を持っていないんです。友達がどこかの病院に連れて行かれた、ということは共通の友人から聞いているんですが、それだけで。他の友達に聞いても、彼が今どうしてるか、どうなったのか。……それ以上は知らないようでした。友人のご家族に直接聞こうにも、僕は危険人物だと判断されてしまっているから取り付く島もない。……友達を見つけたいのに、何一つ手がかりを持っていませんでした。だから別の方向から調べることにして、この事件の存在を知りました」
 </span><span style="color: #db7093">染谷千秋 : 「それでみやこさんに、……僕と同じように事件に巻き込まれた人に連絡を取りました。事件に関する情報が少しでもほしくて。……嘘をついてごめんなさい。……ですが、お願いします。厚かましくて恐縮ですが、みやこさんさえ良ければもう少しお話を伺えないでしょうか？……実際に起きた事件の情報はお渡しできませんが、友人達と集めた情報と、そこから推測した情報ならお渡しできます」
-</span><span style="color: #db7093">染谷千秋 : CCB<=14\*5 【APP × 5】 (1D100<=70) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=14＊5 【APP × 5】 (1D100<=70) ＞ 10 ＞ スペシャル
 
 </span><span style="color: #000">千秋の振る舞いに女性が特別良い印象を抱いた様子はないが、千秋の話を信じ、千秋を心配してくれているようだ。
 
@@ -374,7 +374,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「ダメ」
 </span><span style="color: #00bcd4">染谷千冬 : 「引っ越す前にたくさん見たい」
 </span><span style="color: #db7093">染谷千秋 : 「それでもダメ。例の事件も起こってるし、体調は万全にしとかなきゃだろ」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……わかった」
 とても残念そうに答えます。
 </span><span style="color: #db7093">染谷千秋 : ふ、と笑って千冬の頭を撫でます。
@@ -388,7 +388,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋は開けてない。開けないのか？」
 </span><span style="color: #db7093">染谷千秋 : 「自分に開けんのはあんまきょーみない」
 </span><span style="color: #00bcd4">染谷千冬 : 「一緒に開けたい」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】いいよ/えー (1D100<=80) ＞ 18 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】いいよ/えー (1D100<=80) ＞ 18 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : res(17-16) 【開けたい好奇心INTvsえーって感情】 (1d100<=55) ＞ 48 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「俺が開けたらあけてくれんの？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
@@ -495,7 +495,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「一緒にいるだけでもいーけど、スキンシップすると眠気を促進するホルモンが出るらしいぜ」
 にっこりと笑います。
 「俺が千冬に背中さすられたら眠くなるみたいにさ、千冬も眠くなるかもな。帰ったらいっぱいハグしよーな♡」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 33 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 33 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……する。千秋もいっぱい寝れると良いな」
 </span><span style="color: #db7093">染谷千秋 : 「ふ、そーだな」
 
@@ -816,9 +816,9 @@ MPは本来時間経過による回復だが、精神力を回復出来る程の
 （例：2日目時点でCON-1、DEX-1されている場合には、このどちらかしか解除できない）
 </span><span style="color: #000">CON×5をどうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 3 ＞ 決定的成功/スペシャル
 </span><span style="color: #00bcd4">[ 染谷千冬 ] クリチケ : 0 → 1
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 98 ＞ 致命的失敗
 
 </span><span style="color: #000">一度目を覚ました千秋だったが、その体は休むことを知らず、いつの間にか限界を迎えていたようだ。
 眠気を自覚すると、糸が切れたように、千秋の意識が暗闇へ落ちる。
@@ -918,14 +918,14 @@ MPは本来時間経過による回復だが、精神力を回復出来る程の
 </span><span style="color: #db7093">染谷千秋 : 「助けてくれたんだな。さんきゅ」
 胸に顔を埋めたままモゾモゾと動きます。
 </span><span style="color: #00bcd4">染谷千冬 : もぞもぞ動く千秋の頭を撫でます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5/5 【POW × 5/5】 (1D100<=16) ＞ 32 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5/5 【POW × 5/5】 (1D100<=16) ＞ 32 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 千冬の顔をじっと見てから両手を取ってシーツに押し付けます。そのまま唇を落とします。
 </span><span style="color: #00bcd4">染谷千冬 : 微笑み、キスを何度も返します。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5/2 【POW × 5/2】 (1D100<=40) ＞ 19 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5/2 【POW × 5/2】 (1D100<=40) ＞ 19 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 満足したように笑い、身体を起こしてスマホを操作します。
 「録音した音声が効くか分かんねーけどさ、昏睡状態にあの歌が効くんだとしたら保険かけとく？定期的に流れるようアラーム設定するとか」
 </span><span style="color: #00bcd4">染谷千冬 : 「……千秋は賢いな。そうしよう」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=15\*1 【EDU × 1】 (1D100<=15) ＞ 88 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=15＊1 【EDU × 1】 (1D100<=15) ＞ 88 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : スマホを操作しようとしますが、手が止まります。
 「……千秋、録音……」
 </span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 9 ＞ スペシャル
@@ -1107,7 +1107,7 @@ Night-inGの動画を無断転載しているアカウントのうち、コメ�
 </span><span style="color: #000">『今回が初めてです！もっとインタビュー増えてほしい～Night-inGくんの情報が足りない泣』
 
 </span><span style="color: #00bcd4">染谷千冬 : 「人を物みたいに言わない」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】聞く　だだこね (1D100<=80) ＞ 15 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】聞く　だだこね (1D100<=80) ＞ 15 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「はーい。……この子」
 口を尖らせながら言い直します。
 </span><span style="color: #db7093">染谷千秋 : 『あ～そうですか、、ほんとですよね、、調べても全然情報出てこない、、』
@@ -1317,7 +1317,7 @@ Night-inGの動画を無断転載しているアカウントのうち、コメ�
 </span><span style="color: #00bcd4">染谷千冬 : 「よく寝たと思う」
 千秋の頭に手を伸ばして、唇が触れるだけのキスをします。
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋、寝るか？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 14 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 14 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「ん、なら良かった。……まだいーや。眠くない」
 上機嫌に笑い、千冬の拘束を解きます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」目線で訴えます。
@@ -1328,7 +1328,7 @@ Night-inGの動画を無断転載しているアカウントのうち、コメ�
 </span><span style="color: #db7093">染谷千秋 : 「んー、眠くない」
 ベッドに寝転がり、千冬の手を引いてともに倒れます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……そうか」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】無理やり眠れそうか (1D100<=80) ＞ 18 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】無理やり眠れそうか (1D100<=80) ＞ 18 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 千冬の表情を見てふ、と笑います。
 「……寝れるか試してみる。こうしてて」
 </span><span style="color: #00bcd4">染谷千冬 : 「わかった」
@@ -1345,7 +1345,7 @@ Night-inGの動画を無断転載しているアカウントのうち、コメ�
 </span><span style="color: #000">千冬は気絶判定を補正値+20でどうぞ。ステータスもいずれかを減少してください。
 千秋はこのターン休息扱いになり、ステータス減少がすぐにリセットされるため処理は行いません。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5+20 【CON × 5 +20】 (1D100<=80) ＞ 79 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5+20 【CON × 5 +20】 (1D100<=80) ＞ 79 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : APP-1します。
 </span><span style="color: #db7093">染谷千秋 : 俺にとってはずっと18だよ❤
 </span><span style="color: #00bcd4">染谷千冬 : ？
@@ -1370,12 +1370,12 @@ APPが7になります。また、これより朝のターンです。
 
 </span><span style="color: #00bcd4">染谷千冬 : （……そろそろ千秋は起きるだろうか）
 洗濯をしながら、千秋が起きるのを待ちます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 79 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 79 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 布団の中で腕を動かし、千冬を探します。
 
 </span><span style="color: #000">千冬も気絶判定をどうぞ。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 41 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 41 ＞ 成功
 
 </span><span style="color: #000">千秋は千冬を探すが、伸ばした手の先に千冬はいない。
 はっきり目が覚めず、うとうとしていた。突然、意識ががくりと落ちた。
@@ -1582,8 +1582,8 @@ APPが7になります。また、これより朝のターンです。
 </span><span style="color: #000">車内で情報共有をしているうちに、あたりが赤く染まり、夕暮れ時となった。
 CON×5どうぞ。千秋は+10補正つきです。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 40 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5+10 【CON × 5+10】 (1D100<=65) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 40 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5+10 【CON × 5+10】 (1D100<=65) ＞ 98 ＞ 致命的失敗
 
 </span><span style="color: #000">その時、千秋の意識がふっと沈む。まるで何かに誘われているようだ。
 千秋を出迎えるのは、幸せな夢だった。温かで心地が良い。揺蕩うようにその夢に浸る。恐れも苦しみも何もない。千冬とずっとこうしていたい。気がつけばその優しい世界に惹かれている。
@@ -1607,7 +1607,7 @@ CON×5どうぞ。千秋は+10補正つきです。
 </span><span style="color: #db7093">染谷千秋 : 「千冬。……はぁ、……クソだりーなこの夢……」
 千冬の身体を強く抱きしめ返しながら眉間に皺を寄せます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 67 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 67 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 千冬の両頬を押さえて口付けます。しばらくしてから顔を離して微笑みます。
 「図書館、閉まる前に行こうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
@@ -1658,7 +1658,7 @@ CON×5どうぞ。千秋は+10補正つきです。
 </span><span style="color: #db7093">染谷千秋 : 「はは」
 目を細めて口角をあげます。
 </span><span style="color: #db7093">[ 染谷千秋 ] SAN : 58 → 61
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 17 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 17 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 千冬の身体にぴっとりくっついて調査を続けます。
 
 </span><span style="color: #000">千冬はアイデアと図書館をどうぞ。
@@ -1721,8 +1721,8 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #000">[ KP ] ☆の数 : 18 → 24
 </span><span style="color: #00bcd4">染谷千冬 : 「……あ」
 </span><span style="color: #db7093">染谷千秋 : 「タイムアップみてーだな」
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5 【CON × 5】 (1D100<=55) ＞ 40 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 40 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 立ち上がり、千冬の分も合わせて本を戻します。
 </span><span style="color: #00bcd4">染谷千冬 : 「……まだ調べたいことがある」
 </span><span style="color: #db7093">染谷千秋 : 「ん、何？」
@@ -1757,7 +1757,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「千冬、」
 千冬の肩を支えて様子を確認します。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】耐え度 (1D100<=60) ＞ 66 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】耐え度 (1D100<=60) ＞ 66 ＞ 失敗
 
 </span><span style="color: #000">千冬はぐらりと体を傾け、全身から力を失う。地面に倒れそうになったところを、千秋に支えられる。千冬は黙ったままだ。
 
@@ -1790,7 +1790,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #db7093">染谷千秋 : 「なら車まで頑張りな。……ん」
 千冬の前にしゃがみます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 6 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 6 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……大丈夫だ」
 歩いて車まで向かいます。
 </span><span style="color: #db7093">染谷千秋 : 「ちぇ」
@@ -1870,7 +1870,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 いずれにせよ、呪文の使い手が正しくその呪文の意味や用途を理解して使用しなければ、効果は激減する。言葉の意味を真に理解してはじめて、呪文として成立するのである。
 </span><span style="color: #000">しっかりと読み込むうちに、気がつけば日が昇っているだろう。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : 千冬の様子を確認してから、リビングへと向かいます。弁当と朝食の下準備をします。
 千冬が起きた時、温かい食事がとれるようにタイミングをあわせて用意します。
 </span><span style="color: #000">[ KP ] ☆の数 : 24 → 32
@@ -1890,7 +1890,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 
 </span><span style="color: #000">ええyo～+20補正どうzo～
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5+20 【CON × 5+20】 (1D100<=80) ＞ 52 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5+20 【CON × 5+20】 (1D100<=80) ＞ 52 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「借りてきた本に情報あったぜ」
 千冬のご飯用意！ご飯食べながら情報共有！着替え！お弁当用意！荷物チェック！
 </span><span style="color: #00bcd4">染谷千冬 : 情報を一通り聞いて、答えます。
@@ -1921,7 +1921,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #00bcd4">染谷千冬 : 「抜いてる」
 微笑んで答えます。
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 26 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 38 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 38 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「ほんとかよ～？」
 抱きしめたまま千冬の顔みて微笑みます。
 </span><span style="color: #00bcd4">染谷千冬 : （……一人にしてる間、千秋が心配だ。……でも、拘束してても調査は進まない。アラームもある。……信じよう）
@@ -1942,15 +1942,15 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋、寝てない」
 </span><span style="color: #db7093">染谷千秋 : 「まだ眠くない」
 じっと千冬を見ます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16*5 【INT × 5】ユーモア (1D100<=80) ＞ 13 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】ユーモア (1D100<=80) ＞ 13 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 拘束具を手に取り千秋を見つめ返します。
 </span><span style="color: #db7093">染谷千秋 : 「あとでちゃんと寝るからさあ、……千冬」
 微かに笑います。そのまま千冬の顔を覗きます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】頑固 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】頑固 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「だめだ」
 千秋の顔を真っ直ぐ見ています。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】千冬絶対送るマン 千冬全肯定マン (1D100<=80) ＞ 93 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】千冬絶対送るマン 千冬全肯定マン (1D100<=80) ＞ 93 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : はあ、と大げさな程ため息をつきます。
 「……わかったよ。その代わり帰りは迎えに行く。それならいい？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
@@ -1991,7 +1991,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 見張りは22時と6時に交代していた。他にも車の出入りがあるが、不定期であり時間が決まっているわけではなさそうだ。
 
 </span><span style="color: #db7093">染谷千秋 : 一度スマホを回収し図書館に向かいます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 96 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 96 ＞ 致命的失敗
 
 </span><span style="color: #000">図書館に移動した頃には昼になった。鳴り出したアラームを止めた後、図書館の中に入る。本を広げ調べ物をしようとしたその時、抗えない眠気に襲われる。
 </span><span style="color: #000">・・・
@@ -2044,7 +2044,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 「俺が言えたことじゃないけど、染谷も気をつけろよ」
 
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 24 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】 (1D100<=80) ＞ 24 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……『LaLu-Lullaby』って知ってますか？」
 
 </span><span style="color: #000">「……ど、どうした染谷。知ってるけどさ」
@@ -2070,7 +2070,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 
 </span><span style="color: #000">「何で聞いたん！？」
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】社会性 (1D100<=80) ＞ 86 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】社会性 (1D100<=80) ＞ 86 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……気になった」
 
 </span><span style="color: #000">「いや分からん分からん」
@@ -2094,9 +2094,9 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #000">「よなー」
 </span><span style="color: #000">その時、始業のチャイムが鳴る。ゆるりと解散して皆席に着き、各々仕事を始めるだろう。
 </span><span style="color: #000">・・・
-</span><span style="color: #000">千秋はCON\*5をどうぞ。
+</span><span style="color: #000">千秋はCON＊5をどうぞ。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 41 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 41 ＞ 成功
 
 </span><span style="color: #000">――千秋は飛び起きた。スマートフォンが『LaLu-Lullaby』を流しながら震えており、周囲がちらりと千秋に視線を向ける。
 嫌な汗をかいている。また夢の中で千冬を失った。何度も何度も何度も。悪夢に慣れた千秋ですら、焦燥や不快感が湧き上がる。
@@ -2173,8 +2173,8 @@ La-Lu La-Lu La-Lu La-Lu La-La
 
 </span><span style="color: #000">補正+20どうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=11*5+20 【CON × 5+20】 (1D100<=75) ＞ 28 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5+20 【CON × 5+20】 (1D100<=75) ＞ 28 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 69 ＞ 失敗
 
 </span><span style="color: #000">千秋がご飯を用意している間、ソファに座って待っている千冬を、強い眠気が襲う。
 料理をしながらも千冬を見ている千秋は、がくりと首を傾けている千冬の様子に気がつくだろう。
@@ -2273,7 +2273,7 @@ La-Lu La-Lu La-Lu La-Lu La-La
 </span><span style="color: #db7093">染谷千秋 : 「ふ」
 思わず笑います。
 </span><span style="color: #db7093">染谷千秋 : 「だーいじょうぶだって。その後触るしさ」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 78 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 78 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「嫌だ」
 やっぱりむくれています。
 </span><span style="color: #db7093">染谷千秋 : 「はは、かわいーの」
@@ -2523,7 +2523,7 @@ GPSを確認します！
 </span><span style="color: #00bcd4">染谷千冬 : 「……分からない。家を出たことに物音で気づいて、電話をかけても出なくて、ずっと追いかけてた。良かった……」
 </span><span style="color: #db7093">染谷千秋 : は、とため息をつきます。
 「助かった。夢見てたんだ。前までとは違って、この施設にこなきゃいけない夢だった。……夢に誘われたみてーに」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 10 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 10 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「この施設の警備24時間体制だっただろ。けど今は誰も居ない。……中で何か起こったんだ。中に入るチャンスだな」
 </span><span style="color: #db7093">染谷千秋 : 「きっと危ないと思う。……死んじゃうかもな。死ぬだけならマシで、生きたまま皮膚剥がれたり、舌切られたり、火で炙られたり、頭蓋骨開けられっかも」
 </span><span style="color: #db7093">染谷千秋 : 「な、千冬はどうしたい？」
@@ -2731,7 +2731,7 @@ GPSを確認します！
 各ベッドに患者の名前の名札が掲示されており、名前が把握出来る。
 
 </span><span style="color: #db7093">染谷千秋 : 目星！
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 99 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 99 ＞ 致命的失敗
 </span><span style="color: #00bcd4">染谷千冬 : どうしても会社の後輩である松井のことが気にかかります。
 「千秋……会社の人を探してもいいか」
 </span><span style="color: #db7093">染谷千秋 : 「いーよ。どんな見た目？」
@@ -2761,13 +2761,13 @@ GPSを確認します！
 </span><span style="color: #db7093">染谷千秋 : （船田はいねーのか。保護されてないやつも、俺みたいに夢で誘われてここにきてんじゃねーかって思ったけど……、違うのか？）
 </span><span style="color: #db7093">染谷千秋 : （見つけられてないだけか。それともここにはいねーのか？……）
 </span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 3
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】船田のことを考える ない (1D100<=48) ＞ 10 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊3 【POW × 3】船田のことを考える ない (1D100<=48) ＞ 10 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「目覚まさねーな」（……気が向いたら探してやろ）
 などと考えながら松井の容態を確認します。
 
 </span><span style="color: #000">容態を見たところ、ただ眠っているのと変わりないように見える。たびたび気絶していた千秋や千冬と同じ様子だ。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】 (1D100<=80) ＞ 50 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】 (1D100<=80) ＞ 50 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 今起こしたところで危険なことには変わりないことや、起こすとなった時のその対象数を考え、目を瞑ります。
 「……行こう、千秋」
 </span><span style="color: #db7093">染谷千秋 : 「ああ。……全部終わった後だな」
@@ -3155,12 +3155,12 @@ d ：dagaz（日中、昼間）
 </span><span style="color: #00bcd4">染谷千冬 : 「……違う……知ってる……」
 </span><span style="color: #db7093">染谷千秋 : 「！」
 </span><span style="color: #db7093">染谷千秋 : 「いつ」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 60 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 60 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」目を閉じてしばらく黙ります。
 </span><span style="color: #db7093">染谷千秋 : 「千冬……」
 背中を擦ります。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 98 ＞ 致命的失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……、……」
 喋ろうとしますが、なぜか言葉が出ません。
 千秋が死ぬ瞬間が、千秋のいない一ヶ月間が思い起こされて呼吸が浅くなります。
@@ -3542,7 +3542,7 @@ d ：dagaz（日中、昼間）
 そのまま千冬の腕を取り、起こします。
 </span><span style="color: #00bcd4">染谷千冬 : ふ、と笑い口にキスをします。
 </span><span style="color: #00bcd4">染谷千冬 : 「人を呼ぶ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=11\*5 【CON × 5】一緒に行く 甘える (1D100<=55) ＞ 42 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=11＊5 【CON × 5】一緒に行く 甘える (1D100<=55) ＞ 42 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「俺も行くよ。身体の調子戻してーし」
 千冬に一つ口付けを返して立ち上がります。
 </span><span style="color: #00bcd4">染谷千冬 : 「わかった」

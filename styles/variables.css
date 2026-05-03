@@ -28,8 +28,8 @@
   --c-bg-elev: #ffffff;
   --c-bg-muted: #f5f5f5; /* セクション背景を少しだけ落としたい時 */
 
-  --c-fg: #333; /* 見出し・強いテキスト */
-  --c-fg-body: #333; /* 本文 */
+  --c-fg: #000000; /* 見出し・強いテキスト */
+  --c-fg-body: #000000; /* 本文 */
   --c-fg-muted: #8a8a8a; /* meta / 補助 */
   --c-fg-subtle: #b5b5b5; /* disabled / プレースホルダ */
 

@@ -25,7 +25,7 @@
 </span><span style="color: #db7093">染谷千秋 : 「ふーん？」
 </span><span style="color: #db7093">染谷千秋 : 「おりゃ」
 千冬の脇腹を擽り荷物を奪います。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 28 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……っ」
 咄嗟のことでしたが、なんとか声を抑えます。その場に硬直し、荷物を奪われます。
 </span><span style="color: #db7093">染谷千秋 : 「はは」
@@ -219,7 +219,7 @@ TOTTEMO OISHI GOHANを準備します！
 
 </span><span style="color: #000">ご飯を食べ終わった後、千秋の作ったカクテルを味わう。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 33 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 33 ＞ 成功
 
 </span><span style="color: #000">ノンアルコールのカクテルも交えているからか、数杯飲んでも千冬はそれほど酔っていないようだ。
 
@@ -423,7 +423,7 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #db7093">染谷千秋 : 「勿論。リベンジマッチだな、行こうぜ」
 千冬の手を握り一階に向かいます。
 千冬の様子に最新の注意を払います。
-</span><span style="color: #00bcd4">染谷千冬 : sCCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 31 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : sCCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 31 ＞ 成功
 
 </span><span style="color: #000">千秋は目星をどうぞ。
 
@@ -709,9 +709,9 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #000">優希が言葉を続ける様子はない。
 
 </span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 5
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】ゆうきの言い分を聞く (1D100<=80) ＞ 68 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊3 【POW × 3】 (1D100<=48) ＞ 64 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「随分な態度だな？ そんな難しいこと要求してるつもりはねーけど？」
 めっっっっちゃ近づきます。
 </span><span style="color: #000">優希 : 「……何ですか」
@@ -720,7 +720,7 @@ TOTTEMO OISHI GOHANを準備します！
 
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋。俺は構わない」
 </span><span style="color: #db7093">染谷千秋 : 1d3 (1D3) ＞ 3
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 24 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊3 【POW × 3】 (1D100<=48) ＞ 24 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 千冬を一瞥した後、にこりと笑います。
 「大丈夫。理由を聞くだけだよ」
 </span><span style="color: #db7093">染谷千秋 : 「何でそこまで意固地になってんだ？ 自分の過ちを認めたくねーから？ それとも、あの時の選択は間違ってねーと思ってるから？」
@@ -930,7 +930,7 @@ TOTTEMO OISHI GOHANを準備します！
 「……千冬の方が可愛いって。千冬が認めるまでくすぐりやめてやんない」
 </span><span style="color: #db7093">染谷千秋 : 「認めな～」
 脇腹に指先を添えてわきわきと動かします。千冬がギブするまでくすぐります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 42 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 42 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……はぁ、あっ、俺にとっては、ぅ、……千秋のほうがかわいいっ、はあ」
 </span><span style="color: #db7093">染谷千秋 : 「弟だから？」
 質問を投げたあと、答えられないように口付けます。くすぐりを続けます。
@@ -974,7 +974,7 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #000">どうぞ！
 
 </span><span style="color: #db7093">染谷千秋 : res(17/2-12) (1d100<=30) ＞ 76 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : 1d3*4+10 (1D3*4+10) ＞ 2[2]\*4+10 ＞ 18
+</span><span style="color: #db7093">染谷千秋 : 1d3＊4+10 (1D3＊4+10) ＞ 2[2]＊4+10 ＞ 18
 </span><span style="color: #db7093">染谷千秋 : 「はは、降参。千冬のかわいー顔見れたし、これぐらいにしてやるよ」
 20分程千冬をからかいながら擽ります。加虐心が満たされた頃、擽りを続けていた手を離し、千冬の身体をぎゅっと抱きしめます。
 </span><span style="color: #00bcd4">染谷千冬 : 「は、は……♡　ちあき、ちあきのほうがかわいい、……」
@@ -1012,7 +1012,7 @@ TOTTEMO OISHI GOHANを準備します！
 千冬は『いない。ひっこ』……と入力中だった。
 
 </span><span style="color: #db7093">染谷千秋 : 1d5 (1D5) ＞ 3
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*3 【POW × 3】 (1D100<=48) ＞ 43 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊3 【POW × 3】 (1D100<=48) ＞ 43 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……」
 </span><span style="color: #db7093">染谷千秋 : 「千冬。少しあっち向いて」
 キッチンの方を指差します。
@@ -1242,7 +1242,7 @@ TOTTEMO OISHI GOHANを準備します！
 </span><span style="color: #db7093">染谷千秋 : 「そっか。……なら、俺のチャンネル見てる奴らはあんまvTuberに馴染みないと思うぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】れいせい/ぼうそう (1D100<=55) ＞ 77 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】れいせい/ぼうそう (1D100<=55) ＞ 77 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「わかった。……千秋、俺は北海道に行ったら、自由の利く仕事を探す。千秋の動画制作も手伝う。それでいいか」
 </span><span style="color: #db7093">染谷千秋 : 「待てって。話はまだ終わりじゃないぜ。俺の動画を見てるのは大体40代以降なんだ。主婦とか。……千冬、これ」
 自分のパソコンでチャンネル分析を開きます。千冬の前にパソコンを置きます。

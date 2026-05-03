@@ -9,7 +9,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=33 【回避】 (1D100<=33) ＞ 92 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 2d6 (2D6) ＞ 9[4,5] ＞ 9
 </span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 13 → 4
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 34 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 34 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=50 【こぶし（パンチ）】 (1D100<=50) ＞ 19 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : CCB<=76 【回避】 (1D100<=76) ＞ 91 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 1d3+1d4 (1D3+1D4) ＞ 2[2]+2[2] ＞ 4
@@ -104,7 +104,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=33 【回避】 (1D100<=33) ＞ 38 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 2d6 (2D6) ＞ 8[2,6] ＞ 8
 </span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 13 → 5
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「全然響いてねえのかよ！」
 </span><span style="color: #00bcd4">染谷千冬 : 「痛いぞ」
 </span><span style="color: #db7093">染谷千秋 : 「痛くなさそうだけど～？」

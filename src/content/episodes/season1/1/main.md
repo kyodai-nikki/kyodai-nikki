@@ -215,7 +215,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……なるほど。やってみよう」
 
 </span><span style="color: #000">あなたたちは簡素な売店で必要なものを購入しました。
-うまく作れるかどうか、DEX\*5もしくはロールプレイでどうぞ！
+うまく作れるかどうか、DEX＊5もしくはロールプレイでどうぞ！
 
 </span><span style="color: #db7093">染谷千秋 : CCB<=65 (1D100<=65) ＞ 68 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : ロールプレイをします！

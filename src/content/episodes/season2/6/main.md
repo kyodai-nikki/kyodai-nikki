@@ -146,10 +146,10 @@ custom:
 </span><span style="color: #ac67c3">千秋？ : 「これまでの"ただの夢"を掴んでみなよ。君の手で」
 </span><span style="color: #db7093">染谷千秋 : 「……戦いたくないって言ったら？」
 </span><span style="color: #ac67c3">千秋？ : 「それはつまらないなあ。賭けにすら乗らないなんて。"ただの夢"にしてしまっていいのかい？」
-</span><span style="color: #db7093">染谷千秋 : 相手の挑発に乗るかどうかPOW*5/3で試します。
+</span><span style="color: #db7093">染谷千秋 : 相手の挑発に乗るかどうかPOW＊5/3で試します。
 成功したら千冬との約束を思い出します。
 失敗したら欲が勝って相手の挑発に乗ります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16*5/3 【POW × 5/3】 (1D100<=26) ＞ 92 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5/3 【POW × 5/3】 (1D100<=26) ＞ 92 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 負けました。愚かでした。
 </span><span style="color: #db7093">染谷千秋 : 「……戦いたくないなんて言ってないだろ？」
 </span><span style="color: #ac67c3">千秋？ : 「ははは！　期待を裏切らないね。さあ、おいで」
@@ -181,7 +181,7 @@ custom:
 </span><span style="color: #ac67c3">千秋？ : CCB<=75 【キック】 (1D100<=75) ＞ 25 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : CCB<=83 【回避】 (1D100<=83) ＞ 93 ＞ 失敗
 </span><span style="color: #ac67c3">千秋？ : 2d6+0 【ダメージ判定】 (2D6+0) ＞ 7[5,2]+0 ＞ 7
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 71 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 71 ＞ 失敗
 </span><span style="color: #db7093">[ 染谷千秋 ] HP : 12 → 5
 </span><span style="color: #db7093">染谷千秋 : 「ッ……！」
 </span><span style="color: #db7093">染谷千秋 : 己が強すぎる
@@ -258,7 +258,7 @@ End【貴方の顔も知らない】
 </span><span style="color: #00bcd4">染谷千冬 : EDU12→15
 </span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 41 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)*5 【STR成長】 (1D100<=40) ＞ 21 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)\*5 【CON成長】 (1D100<=40) ＞ 68 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)＊5 【CON成長】 (1D100<=40) ＞ 68 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 1d3+1 【EDU成長判定（高校卒業時+転学）】 (1D3+1) ＞ 1[1]+1 ＞ 2
 </span><span style="color: #db7093">染谷千秋 : 1d6+1d4 【ダメージ判定】 (1D6+1D4) ＞ 1[1]+1[1] ＞ 2
 </span><span style="color: #db7093">染谷千秋 : 2d6+1d4 【ダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 3[2,1]+4[4] ＞ 7

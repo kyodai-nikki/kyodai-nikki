@@ -806,8 +806,8 @@ SAN値チェック1/1d3。
 その足に赤い切れ込みが入る。ぱっくりと切れた肉の切れ目が見えた。白い骨がちらりと覗いている。
 </span><span style="color: #000">千秋はCON*1、千冬はSTR*3を振ってください。
 
-</span><span style="color: #ac67c3">染谷千秋（人工知能） : CCB<=10*1 【CON × 1】 (1D100<=10) ＞ 16 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=14*3 【STR × 3】 (1D100<=42) ＞ 49 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋（人工知能） : CCB<=10＊1 【CON × 1】 (1D100<=10) ＞ 16 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=14＊3 【STR × 3】 (1D100<=42) ＞ 49 ＞ 失敗
 
 </span><span style="color: #000">CONに失敗した千秋は痛みのあまり気絶してしまうだろう。
 STRに失敗した千冬は、足の切断に時間がかかってしまうだろう。

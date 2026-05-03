@@ -54,9 +54,9 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : 「なんだこれ、動けねえ。……千冬、どうなってる？」
 
-</span><span style="color: #000">千秋はDEX\*5を振ってください。成功すれば目隠しが外れます。
+</span><span style="color: #000">千秋はDEX＊5を振ってください。成功すれば目隠しが外れます。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 37 ＞ 成功
 
 </span><span style="color: #000">目隠しを外すことができた。あなたにも千冬の様子が見えるだろう。
 
@@ -151,7 +151,7 @@ custom:
 </span><span style="color: #000">[ KP ] タイムリミット : 58 → 57
 </span><span style="color: #00bcd4">染谷千冬 : 水槽は破壊できそうな固さですか？
 
-</span><span style="color: #000">素手では難しいだろうが、あなたの力なら可能かもしれない。割ることに挑戦する場合はSTR\*3を振ってください。素手で割る場合、割れたガラス片が刺さってしまうかもしれない。目星をどうぞ。
+</span><span style="color: #000">素手では難しいだろうが、あなたの力なら可能かもしれない。割ることに挑戦する場合はSTR＊3を振ってください。素手で割る場合、割れたガラス片が刺さってしまうかもしれない。目星をどうぞ。
 
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=78 【目星】 (1D100<=78) ＞ 27 ＞ 成功
 
@@ -218,10 +218,10 @@ custom:
 
 </span><span style="color: #00bcd4">染谷千冬 : 蹴りたいですけど難しいですか？
 
-</span><span style="color: #000">いいでしょう。STR\*4を振ってください。成功したら割れるでしょう。
+</span><span style="color: #000">いいでしょう。STR＊4を振ってください。成功したら割れるでしょう。
 また、幸運を振ってください。成功したら怪我せずに割れることにします。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=14\*4 【STR × 4】 (1D100<=56) ＞ 10 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=14＊4 【STR × 4】 (1D100<=56) ＞ 10 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=55 【幸運】 (1D100<=55) ＞ 29 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : すぐに水槽から離れます！
 
@@ -311,7 +311,7 @@ custom:
 2. 戦闘ポイントの対抗を行ってください。
    猟犬(15+17)/2=16、巨大ナマズ(12+12)=12
 3. 成功で戦闘勝利、失敗で次ターンに勝利扱いとします。
-4. 戦闘ラウンド\*1d3ダメージを追ってください。
+4. 戦闘ラウンド＊1d3ダメージを追ってください。
    </span><span style="color: #000">まずはDEXの早い千秋からどうぞ。
    </span><span style="color: #000">res((12+13)/2-12) 【巨大ナマズとの戦闘】 (1d100<=50) ＞ 39 ＞ 成功
    </span><span style="color: #000">千秋は1ラウンド目で勝利となります。HPを1d3減らしてください。
@@ -345,9 +345,9 @@ SANC 【1/1d3】
 </span><span style="color: #00bcd4">染谷千冬 : 1d100<=68 【正気度ロール】 (1D100<=68) ＞ 60 ＞ 成功
 </span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 68 → 67
 
-</span><span style="color: #000">千秋はINT\*1をどうぞ。
+</span><span style="color: #000">千秋はINT＊1をどうぞ。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 80 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=17＊1 【INT × 1】 (1D100<=17) ＞ 80 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : ロープを取っ手に引っ掛けて、壁を登れそうか観察します！
 
 </span><span style="color: #000">アイデアどうぞ！
@@ -368,7 +368,7 @@ SANC 【1/1d3】
 
 </span><span style="color: #000">千秋はINT＊2をどうぞ。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=17\*2 【INT × 2】 (1D100<=34) ＞ 16 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=17＊2 【INT × 2】 (1D100<=34) ＞ 16 ＞ 成功
 
 </span><span style="color: #000">あなたはロープを取っ手の方へと投げる。ロープはうまく引っかかるが、あなたが少しでも引っ張るとすぐに落ちてきてしまう。
 
@@ -461,9 +461,9 @@ SANC 【1/1d3】
 
 </span><span style="color: #000">タイトル「LesMiserables」と「HugoVictor」をそれぞれ入力する。作者名を入れたところでパネルは開いた。
 開けると中にはロープの先に取り付けることの出来る重石と水泳用のゴーグル、シュノーケリング用のフィンが入っている。
-</span><span style="color: #000">千秋はCON\*5を振ってください。
+</span><span style="color: #000">千秋はCON＊5を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 49 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 49 ＞ 成功
 </span><span style="color: #000">[ KP ] タイムリミット : 20 → 18
 
 </span><span style="color: #000">部屋にざあざあとふる水音が反響する。
@@ -528,7 +528,7 @@ SANC 【1/1d3】
 </span><span style="color: #00bcd4">染谷千冬 : （……千秋の部屋に行ける！）
 「千秋！　今行く！」
 ロープを手繰り寄せ、先に縛っていたフィンを取ります。アイゼンを通路に置き、フィンに履き替えて千秋のところまで行きます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
 
 </span><span style="color: #000">千秋はあなたの声に顔を挙げて小さく応える。
 </span><span style="color: #000">フィンを着用しているため補正が入ります。水泳+30を振ってください。
@@ -540,9 +540,9 @@ SANC 【1/1d3】
 </span><span style="color: #000">[ KP ] タイムリミット : 13 → 10
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=25+30 【水泳】 (1D100<=55) ＞ 9 ＞ スペシャル
 
-</span><span style="color: #000">水の量はどんどん増している。拘束具が邪魔をして千秋はとうとう溺れてしまうだろう。千秋はCON\*5を振ってください。
+</span><span style="color: #000">水の量はどんどん増している。拘束具が邪魔をして千秋はとうとう溺れてしまうだろう。千秋はCON＊5を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 9 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 9 ＞ スペシャル
 
 </span><span style="color: #000">千冬は無事に千秋に近寄ることができる。千秋の足の方を見ると解除装置がついている。
 
@@ -550,8 +550,8 @@ SANC 【1/1d3】
 
 </span><span style="color: #000">あなたは潜って解除装置を外そうと試みる。CON*5とDEX*5をそれぞれ振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9*5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 8 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 7 ＞ スペシャル
 
 </span><span style="color: #000">あなたは水中に潜り、解除装置を外すことができた。
 
@@ -579,10 +579,10 @@ SANC 【1/1d3】
 千秋を連れて潜り、扉まで向かいます。
 
 </span><span style="color: #000">千秋はこくりとうなずく。あなた達は扉までいき、最後の扉を開ける。
-</span><span style="color: #000">CON\*5を振ってください。
+</span><span style="color: #000">CON＊5を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12*5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=10*5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 76 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 75 ＞ 失敗
 
 </span><span style="color: #000">1d6ダメージを追ってください。
 
@@ -597,7 +597,7 @@ SANC 【1/1d3】
 
 </span><span style="color: #00bcd4">染谷千冬 : 「はぁ、っはぁ……千秋、大丈夫か、ごめん、ごめん……！」
 千秋の肩を抱えた後、慌てて拘束具を取ります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 82 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 82 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 1d6 (1D6) ＞ 3
 </span><span style="color: #db7093">染谷千秋 : 何度も水を飲み込んだ影響で強く咳き込みながら水を吐き出します。
 「ゲホゲホッ、ゲホ、ッ……ちふゆ……」
@@ -627,9 +627,9 @@ SANC 【1/1d3】
 「何で千冬が謝んだよ。千冬は助けてくれただろ。ありがとな。……千冬も無事で良かった」
 千冬の身体を抱きしめ返します。
 
-</span><span style="color: #000">千冬はCON\*5を振ってください。
+</span><span style="color: #000">千冬はCON＊5を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 44 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 44 ＞ 成功
 
 </span><span style="color: #000">あなた達は揃って地上に出ながら、あの場所に行くまでの経緯を思い出す。
 今日は仕事を終えていつも通りの日常を過ごしたはずだ。風呂に入ろうとした時気が遠くなり、気付いたらあの場所に閉じ込められていた。

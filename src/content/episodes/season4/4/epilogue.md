@@ -48,13 +48,13 @@
 「気持ちいい、ドキドキする、気持ちよくなりたい、千秋に触れられたい……っ」
 </span><span style="color: #db7093">染谷千秋 : 「くく、かわいーの。……やっぱ期待してねえ？」
 </span><span style="color: #db7093">染谷千秋 : 「いっぱい触ってやるよ。……けど、まずは身体洗ってからな」
-</span><span style="color: #db7093">染谷千秋 : 千冬の全身を洗います！わざと期待させるように触れます。DEX\*5で性的な触れ方が出来ませんか？
+</span><span style="color: #db7093">染谷千秋 : 千冬の全身を洗います！わざと期待させるように触れます。DEX＊5で性的な触れ方が出来ませんか？
 
 </span><span style="color: #000">やってよし！
 </span><span style="color: #000">いや
 </span><span style="color: #000">千冬の体を熟知してる千秋はDEX×5+30！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13*5+30 【DEX × 5+30】 (1D100<=95) ＞ 94 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5+30 【DEX × 5+30】 (1D100<=95) ＞ 94 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 51 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……ぁ゛、……ッ、は、……♡」
 千秋がそういう触れ方をしてることに気づいて、千秋を振り返り見つめます。
@@ -81,7 +81,7 @@
 </span><span style="color: #db7093">染谷千秋 : 「ふ、悪かったよ。ちゃんと洗おうな」
 </span><span style="color: #db7093">染谷千秋 : 今度はえっちな感覚を与えないように洗います・。・
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 9 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 9 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……ん、……」
 物足りなさと寂しさを覚えながら、黙って体を洗われます。
 </span><span style="color: #db7093">染谷千秋 : 「はは、物足りねーって顔してる」
@@ -90,7 +90,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「おかしくなりそうだ、……ほしくない」
 </span><span style="color: #db7093">染谷千秋 : 「そりゃ残念」
 千冬の身体を丁寧に丁寧に洗います。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 88 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 88 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : （……ほしくない？　……ほしい……）
 ぐるぐると思考しながらじっとしています。
 </span><span style="color: #db7093">染谷千秋 : 千冬の様子を見て口角を上げます。
@@ -324,7 +324,7 @@
 その度に脚を大きく跳ねさせ、声にならない呻き声を上げながらイキ狂います。
 </span><span style="color: #db7093">染谷千秋 : びくびくと跳ねる千冬の身体と熱く唸る千冬の中を味わいます。千冬が何度も絶頂していることに気付きながらも、律動を止めません。
 イく度に震える千冬の舌や、熱く熟れた中のしこりを堪能しつつ、千冬の表情を楽しみます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 100 ＞ 致命的失敗
 </span><span style="color: #00bcd4">染谷千冬 : (　ﾟдﾟ)
 </span><span style="color: #00bcd4">染谷千冬 : イキすぎて体がもたず気絶しました！
 </span><span style="color: #db7093">染谷千秋 : 100ワロタ
@@ -366,7 +366,7 @@
 くすりと笑います。
 「じゃ、これは？」
 千冬の後頭部に指をすべらせてゆっくりとなぞります。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 62 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 62 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……う……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……よくない」
 </span><span style="color: #db7093">染谷千秋 : 「これもだめなの？ ちぇー」
@@ -533,7 +533,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……ちあき、ごめん、セックスする♡　セックスするからっ♡　ゆるして、ッ♡」
 </span><span style="color: #db7093">染谷千秋 : 「違うだろ？　やっぱ分かってねーな～♡　セックスするじゃなくてさ、したいだろ？」
 千冬の耳の中に指を突っ込んで遊びます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 82 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 82 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「はあ、……ッ！♡」
 胸から与えられていた快感と合わさって背筋を大きく逸らし達します。それでもなお刺激を与えられ続け、体が痙攣しています。
 「したい、ちあきとしたいっ♡　はぁ、ちあきとセックスする♡　おねがい、やめろっ♡」
@@ -583,7 +583,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「いわないっ、ごめん、ちあきっ♡」
 </span><span style="color: #db7093">染谷千秋 : 「ん、……俺も乱暴してごめんな」
 千冬の頭をよしよしと撫でて、玩具と拘束を順々に外します。千冬の身体をぎゅっと抱きしめて口付けます。
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11*5 【POW × 5】 (1D100<=55) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 80 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「ちあき……セックスしたい……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……はやくほしい……」
 腰を揺らして自身を擦りつけます。精液がべたりと千秋の体に広がります。
@@ -663,7 +663,7 @@
 そして夜通し千秋と千冬はセックスに耽った。
 </span><span style="color: #000">千冬がセックス依存ダイスを振るよ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】c鋼の心/しない/する/f壊れる (1D100<=55) ＞ 37 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】c鋼の心/しない/する/f壊れる (1D100<=55) ＞ 37 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80/2 【アイデア/2】 (1D100<=40) ＞ 30 ＞ 成功
 
 </span><span style="color: #000">・・・
@@ -711,8 +711,8 @@ CONの成長は二人とも特例で+20の補正をあげます。
 </span><span style="color: #db7093">染谷千秋 : CCB<=80 【図書館】 (1D100<=80) ＞ 67 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)*5 【STR成長】 (1D100<=25) ＞ 34 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 59 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)\*2 【DEX成長】 (1D100<=10) ＞ 2 ＞ 決定的成功/スペシャル
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-14)\*2 【APP成長】 (1D100<=8) ＞ 25 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)＊2 【DEX成長】 (1D100<=10) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-14)＊2 【APP成長】 (1D100<=8) ＞ 25 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : DEX伸びてるの流石にきもいな
 </span><span style="color: #db7093">染谷千秋 : ふたりとも絶対えっちの技能じゃん（？）
 
