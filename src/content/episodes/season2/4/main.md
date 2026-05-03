@@ -358,9 +358,9 @@ custom:
 
 </span><span style="color: #00bcd4">染谷千冬 : 「！！」反射的に足をかけます。
 
-</span><span style="color: #000">STR\*5をどうぞ！
+</span><span style="color: #000">STR＊5をどうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=14\*5 【STR × 5】 (1D100<=70) ＞ 35 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=14＊5 【STR × 5】 (1D100<=70) ＞ 35 ＞ 成功
 
 </span><span style="color: #000">あなたの足に引っかかり、ひったくり犯は盛大に転ぶ。そうしてひったくり犯を確保すると、おばあさんが声をかけてくる。
 どうやらひったくりにあった張本人のようで、大事そうに鞄を抱え直していた。

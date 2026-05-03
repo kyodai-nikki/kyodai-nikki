@@ -36,9 +36,9 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : 顔だけ振り返って発言者の顔を観察します。
 
-</span><span style="color: #000">DEX\*5どうぞ！
+</span><span style="color: #000">DEX＊5どうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 86 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 86 ＞ 失敗
 
 </span><span style="color: #000">振り返る間もなく、あなたの身体はホームから線路の上へ投げ出されていました。
 </span><span style="color: #000">轟音と、まばゆいばかりの電車のライトがすぐ目の前に迫っています。
@@ -451,7 +451,7 @@ custom:
 
 </span><span style="color: #000">CON×6どうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*6 【CON × 6】 (1D100<=60) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊6 【CON × 6】 (1D100<=60) ＞ 100 ＞ 致命的失敗
 
 </span><span style="color: #000">あなたはその場に崩れ落ちます。痛みのあまり、意識が遠のいていきます。
 </span><span style="color: #000">・・・
@@ -633,7 +633,7 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : 少女を気にかけるか POW*5
 </span><span style="color: #db7093">染谷千秋 : POW*5 に成功したら「千冬ならあの少女と一緒に脱出するかもしれない」という理性が勝って一旦少女のところに戻ります。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 60 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 60 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 少女のところに向かいます。
 
 </span><span style="color: #000">少女のところまで戻りました。

@@ -202,9 +202,9 @@ custom:
 同時に奇妙な寂寥感を覚える。脳から見えないものが剥離していった、ように感じた。
 振り向いてもそこには何も落ちてなどいない。けれど今確かに、自分は何かを落としてしまった……気がする。
 そういえば、さっきまで隣の猫と何を話していただろうか。自分にとって必要なものの話をしていた気がするが、話の内容がどうにも思い出せない。
-</span><span style="color: #000">POW\*7を振ってください。
+</span><span style="color: #000">POW＊7を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*7 【POW × 7】 (1D100<=77) ＞ 80 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊7 【POW × 7】 (1D100<=77) ＞ 80 ＞ 失敗
 
 </span><span style="color: #000">あなたは先程まで話していた内容とその時に考えていたことが全て思い出せなくなった。
 
@@ -262,9 +262,9 @@ custom:
 </span><span style="color: #000">「ヒトは、一番『帰りたい』と願った時どこを思い浮かべるものなのでしょう」
 </span><span style="color: #000">「ヒトは己の意思で自分の家を選べる生物です。他にもそうした動物はいるかもしれませんが、『心が家だと思う場所』と『実際の居住地』が異なる場合があるのは感情や愛着を持つ生物の特徴です」
 </span><span style="color: #000">「貴方の『家』は一体どこなんでしょうね」
-</span><span style="color: #000">POW\*6を振ってください。
+</span><span style="color: #000">POW＊6を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*6 【POW × 6】 (1D100<=66) ＞ 37 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊6 【POW × 6】 (1D100<=66) ＞ 37 ＞ 成功
 
 </span><span style="color: #000">ふと、足が自然と右を向いた。歪んだ自分を映すミラーを横目に、探索者は突き当りを右へ曲がる。辺りの光景を見て、何かのパーツがカチリと嵌ったように感じた。
 
@@ -305,9 +305,9 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……家の場所も、その中も、自分の部屋も、家族のことも、何も思い出せない。わからない……！」
 
 </span><span style="color: #000">「おやおや。前の家も、今の家も思い出せないなんて、なんとも不憫ですねえ」
-</span><span style="color: #000">POW\*5を振ってください。
+</span><span style="color: #000">POW＊5を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 1 ＞ 決定的成功/スペシャル
 
 </span><span style="color: #000">「おやおや、そんな怖い顔しないでくださいよ」
 </span><span style="color: #000">足はひたすら前へと進んでいった。どこかから強い風が吹きつける中、探索者は曲がり角を無視して直進する。
@@ -358,9 +358,9 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「帰りたい」
 
 </span><span style="color: #000">「大事な場所なんですねえ」
-</span><span style="color: #000">POW\*4を振ってください。
+</span><span style="color: #000">POW＊4を振ってください。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 35 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊4 【POW × 4】 (1D100<=44) ＞ 35 ＞ 成功
 
 </span><span style="color: #000">「……いやはや、感嘆しました」
 「実験成功です。素晴らしい結果だ」

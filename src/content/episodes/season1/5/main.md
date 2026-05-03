@@ -757,9 +757,9 @@ STR+SIZ対抗どうぞ！
 </span><span style="color: #db7093">染谷千秋 : 1d100 (1D100) ＞ 15
 </span><span style="color: #00bcd4">染谷千冬 : ccb<=30 【DEX対抗】 (1D100<=30) ＞ 9 ＞ 成功
 
-</span><span style="color: #000">千冬は続けてDEX\*5どうぞ！
+</span><span style="color: #000">千冬は続けてDEX＊5どうぞ！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 50 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 50 ＞ 失敗
 
 </span><span style="color: #000">もう一度DEX対抗どうぞ！
 

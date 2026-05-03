@@ -33,8 +33,8 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「……だめ、なのか？　そうか……でも千秋は千秋で……」
 </span><span style="color: #00bcd4">染谷千冬 : 考え始めて黙り込みます。放置してたら10分以上。
-</span><span style="color: #db7093">染谷千秋 : 千冬の答えを知るために千冬を待てるかPOW\*4　成功なら千冬が次話すまで待ちます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*4 【POW × 4】 (1D100<=64) ＞ 60 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : 千冬の答えを知るために千冬を待てるかPOW＊4　成功なら千冬が次話すまで待ちます。
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊4 【POW × 4】 (1D100<=64) ＞ 60 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……」千冬が話し始めるまで待ちます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……別の世界の千秋だと思っていなかった。……いや、でも……。……」
 </span><span style="color: #00bcd4">染谷千冬 : 「…………これは、浮気なのか？」

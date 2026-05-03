@@ -95,8 +95,8 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : 「……千冬、寒くねえ？」千冬の上着のチャックを少しだけ閉めます。
 </span><span style="color: #00bcd4">染谷千冬 : 「寒くない。千秋は」
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】成功:寒くない/失敗:ちょっと寒い/F:寒い (1D100<=50) ＞ 67 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】我慢できる/できない (1D100<=80) ＞ 81 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】成功:寒くない/失敗:ちょっと寒い/F:寒い (1D100<=50) ＞ 67 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】我慢できる/できない (1D100<=80) ＞ 81 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「少し寒いけど、大丈夫。ここ抜けるまで我慢だな～」千冬の手を固く握ります。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : 「3階に行こう」
@@ -670,7 +670,7 @@ SANC1/1d3どうぞ。
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=37 【回避】 (1D100<=37) ＞ 93 ＞ 失敗
 </span><span style="color: #2a6762">優希 : 1d3+1d4 【ダメージ判定】 (1D3+1D4) ＞ 3[3]+1[1] ＞ 4
 </span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 13 → 9
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 79 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=53 【こぶし（パンチ）】 (1D100<=53) ＞ 86 ＞ 失敗
 </span><span style="color: #2a6762">優希 : CCB<=53 【こぶし（パンチ）】 (1D100<=53) ＞ 58 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=53 【こぶし（パンチ）】 (1D100<=53) ＞ 7 ＞ スペシャル

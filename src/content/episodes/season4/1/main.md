@@ -294,7 +294,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : ？
 </span><span style="color: #816d32">最上ミモリ : 「……恋人？　友だち？　あんまりそういう雰囲気感じないっていうか……ほんとに仲良いんですか～？♡」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 21 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 21 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「”俺の大事な”茜にそれ以上突っかかんなよ～」
 女の額にデコピンして千冬の腰を引き寄せます。
 「怖かったんだろ。1階は安全だから鍵かけて大人しくしてな。後でごほーびやるからさ」
@@ -501,7 +501,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #00bcd4">染谷千冬 : ちらっ。
 </span><span style="color: #db7093">染谷千秋 : 「ここはこんぐらいかな。千冬、行こうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ。……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 53 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 53 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
 </span><span style="color: #00bcd4">染谷千冬 : キリッ。
 </span><span style="color: #db7093">染谷千秋 : 「千冬と俺が好き同士なのは催眠じゃねーからな」
@@ -948,7 +948,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : 親指で手の甲をすりすりと撫でながら腰から臀部にかけて撫でます。脚を絡め、全身で千冬の体温を感じます。
 「ふ、……」
 </span><span style="color: #00bcd4">染谷千冬 : 1d5 (1D5) ＞ 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*2 【POW × 2】 (1D100<=22) ＞ 58 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊2 【POW × 2】 (1D100<=22) ＞ 58 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 体の中心を緩く勃起させます。
 「はぁ……」
 ぴたりと体を密着させて、千秋の舌を追いかけます。
@@ -967,7 +967,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : 「んーーーー。これは？」
 ぎゅーーーと子供が抱きつくように抱きつきます。
 </span><span style="color: #00bcd4">染谷千冬 : 1d5 (1D5) ＞ 4
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*4 【POW × 4】 (1D100<=44) ＞ 14 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊4 【POW × 4】 (1D100<=44) ＞ 14 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……ふ。かわいい」
 じっとしてます。次第に落ち着きます。
 </span><span style="color: #db7093">染谷千秋 : 「かわいーのは千冬だろ？ 少し触っただけなのにさ」
@@ -1143,9 +1143,9 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : 「あ～、ありがとうございます。すみません」
 その隙に設計書をとるぜ！
 
-</span><span style="color: #000">DEX\*5どうぞ！
+</span><span style="color: #000">DEX＊5どうぞ！
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 50 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 50 ＞ 成功
 
 </span><span style="color: #000">千秋は設計書をゴミ袋から取ることができた！
 
@@ -1289,9 +1289,9 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #db7093">染谷千秋 : （ちっ、……アプリは使いたくねーけど、……）
 飛び跳ねて千冬から離れます！アプリの状態を確認しながら距離とってみます！千冬がついてくる気配ありますか？
 
-</span><span style="color: #000">うーーんじゃあDEX\*5！成功でターン消費なしで使用可、失敗で距離をとるために1ターン消費とします。
+</span><span style="color: #000">うーーんじゃあDEX＊5！成功でターン消費なしで使用可、失敗で距離をとるために1ターン消費とします。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 58 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 58 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : アプリはつかわないよ〜
 
 </span><span style="color: #000">なるほど
@@ -1327,7 +1327,7 @@ _ スマホ本体破壊による物理的データ削除
 </span><span style="color: #000">攻撃範囲内から出るぐらいなので視認はできそう？こっちに向かってきてるし見失う可能性はいったん考慮しなくていいかなと思います！
 
 </span><span style="color: #db7093">染谷千秋 : あざますー ほな逃走で
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 72 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 72 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=53 【こぶし（パンチ）】 (1D100<=53) ＞ 100 ＞ 致命的失敗
 
 </span><span style="color: #000">(　ﾟдﾟ)
@@ -1482,7 +1482,7 @@ mp3ファイルを見ます。
 
 </span><span style="color: #000">千冬はPOW×5！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】 (1D100<=55) ＞ 86 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】 (1D100<=55) ＞ 86 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……！」
 
 </span><span style="color: #000">千冬は隣にいる千秋にこぶしを振るってしまう。千秋は回避どうぞ！
@@ -1542,7 +1542,7 @@ mp3ファイルを見ます。
 
 </span><span style="color: #000">ファンブル効果でDEX×5に-15%！
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5-15 【DEX × 5 -15】 (1D100<=30) ＞ 9 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5-15 【DEX × 5 -15】 (1D100<=30) ＞ 9 ＞ 成功
 
 </span><span style="color: #000">千冬が千秋の前に出て庇う！千冬が皆本に組み付かれた！
 </span><span style="color: #000">千冬のターンなので、STR10との抵抗どうぞ！
@@ -1649,7 +1649,7 @@ mp3ファイルを見ます。
 
 </span><span style="color: #000">SAN減少はなしとします。
 ｴﾄ。。。
-</span><span style="color: #000">千冬の催眠依存度を判定します。判定値は《獲得総合催眠ポイント\*2》なんですが、そのうちほとんどはミモリで稼がれたので2ポイント×2で判定します。
+</span><span style="color: #000">千冬の催眠依存度を判定します。判定値は《獲得総合催眠ポイント＊2》なんですが、そのうちほとんどはミモリで稼がれたので2ポイント×2で判定します。
 
 </span><span style="color: #00bcd4">染谷千冬 : 1d100 (1D100) ＞ 92
 

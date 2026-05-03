@@ -723,7 +723,7 @@ SANチェック1/1d3
 
 </span><span style="color: #000">「か、変わらず苦しまれているご様子でした」
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 2 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 2 ＞ 決定的成功/スペシャル
 
 </span><span style="color: #000">(　ﾟдﾟ)！
 
@@ -967,7 +967,7 @@ SANチェック1/1d3
 
 </span><span style="color: #db7093">染谷千秋 : うう；；；
 </span><span style="color: #db7093">染谷千秋 : 1d3+2 (1D3+2) ＞ 3[3]+2 ＞ 5
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : 傷口抑えてこの場から逃げ、……逃げるのか？
 </span><span style="color: #db7093">染谷千秋 : 逃げます　血を止めないと
 </span><span style="color: #db7093">染谷千秋 : 「大丈夫か、じゃないだろ。千冬が、……クソ！」
@@ -1707,7 +1707,7 @@ AF:タロットカード
 </span><span style="color: #db7093">[ 染谷千秋 ] SAN : 42 → 55
 </span><span style="color: #db7093">染谷千秋 : ◤ 成長
 千秋 6c
-目星\*2
+目星＊2
 千冬 1f
 コンピュータ
 </span><span style="color: #db7093">染谷千秋 : CCB<=87 【目星】 (1D100<=87) ＞ 33 ＞ 成功
@@ -1754,7 +1754,7 @@ AF:タロットカード
 </span><span style="color: #00bcd4">染谷千冬 : STR、CON、DEXの成長判定をします
 </span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)*5 【STR成長】 (1D100<=20) ＞ 29 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-12)*5 【CON成長】 (1D100<=30) ＞ 91 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)\*2 【DEX成長】 (1D100<=18) ＞ 22 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)＊2 【DEX成長】 (1D100<=18) ＞ 22 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 頑張ろう
 </span><span style="color: #db7093">染谷千秋 : かわいいね
 </span><span style="color: #00bcd4">染谷千冬 : (´・ω・｀)

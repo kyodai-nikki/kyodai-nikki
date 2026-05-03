@@ -98,7 +98,7 @@
 抱きしめ返して微笑みます。
 </span><span style="color: #db7093">染谷千秋 : にっこりと微笑みます。
 </span><span style="color: #db7093">染谷千秋 : ｢なぁ……、千冬。俺のことおにーちゃんって呼んでみてよ｣
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*5 【INT × 5】なんでだろう (1D100<=80) ＞ 14 ＞ スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】なんでだろう (1D100<=80) ＞ 14 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……なんでだ？」
 </span><span style="color: #db7093">染谷千秋 : ｢洗脳した時面白かったから。……ダメ？｣
 </span><span style="color: #00bcd4">染谷千冬 : 「……お兄ちゃん」
@@ -210,7 +210,7 @@
 </span><span style="color: #db7093">染谷千秋 : いーや俺はお兄ちゃん　全部俺がやる
 </span><span style="color: #00bcd4">染谷千冬 : はい
 </span><span style="color: #00bcd4">染谷千冬 : 1d5 (1D5) ＞ 3
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=16\*3 【INT × 3】お兄ちゃん呼びが楽しくなるかどうか (1D100<=48) ＞ 94 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊3 【INT × 3】お兄ちゃん呼びが楽しくなるかどうか (1D100<=48) ＞ 94 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : いつものように千秋に洗われます。
 「次、お兄ちゃんだ」
 </span><span style="color: #db7093">染谷千秋 : 「ん、千冬。いい子だな」
@@ -285,7 +285,7 @@
 「それで？」
 </span><span style="color: #00bcd4">染谷千冬 : 拘束している千秋の手首を持ち、上下します。
 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】申し訳なくない/申し訳ない (1D100<=55) ＞ 55 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】申し訳なくない/申し訳ない (1D100<=55) ＞ 55 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : また離れて、手錠をもう一つ持ってきます。
 千秋の両腕を上げて、ベッドに縛り、動かせなくします。
 「……嫌だったら言ってくれ」
@@ -293,7 +293,7 @@
 手錠をわざと音を立てて揺らします。目を細めながら、足先で千冬の脇腹をつっと撫でます。
 </span><span style="color: #00bcd4">染谷千冬 : ぴた、と体を止めます。
 「……」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】申し訳なくない/申し訳ない (1D100<=55) ＞ 37 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】申し訳なくない/申し訳ない (1D100<=55) ＞ 37 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 足枷もつけます。鎖をベッドに巻き付けて短くし、脚を動かせないようにします。
 「……嫌じゃないか？」
 </span><span style="color: #db7093">染谷千秋 : 「ふ、大丈夫。千冬の好きにしていーよ」

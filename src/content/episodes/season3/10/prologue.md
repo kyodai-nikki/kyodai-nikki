@@ -16,7 +16,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #db7093">染谷千秋 : 「まだ連絡取ってたんだな。いつ来るんだ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「たぶん、今から」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 7 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 7 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「随分急だな？」
 
 </span><span style="color: #000">その言葉の後、ピンポン、とチャイムが鳴る。
@@ -56,7 +56,7 @@
 「勘違いもここまで来ると滑稽だな」
 </span><span style="color: #db7093">染谷千秋 : 「一回千冬がいる時に言ったんだけどな～。ごめんごめんw俺が覚えるからID教えてくれよ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ、千秋。忘れてたわけじゃない。急だったんだ。……アキ、せっかくだし上がるか？　準備ができてなくて、申し訳ないが。話もあるだろう」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 55 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 55 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「へえ、そっか。先に言えよな～」
 </span><span style="color: #db7093">染谷千秋 : 「千冬、ちょっといいか？」
 千冬を引きずって部屋に行きます。
@@ -71,19 +71,19 @@
 </span><span style="color: #db7093">染谷千秋 : 「へぇ～……。そりゃ知らなかった」
 </span><span style="color: #db7093">染谷千秋 : 「随分仲良いみたいだな？」
 </span><span style="color: #00bcd4">染谷千冬 : 「さっき、千秋の言葉を聞いて思った。確かに友達だ。仲が良いのかもしれない」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 86 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 86 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「へぇ」笑顔が引きつります。
 </span><span style="color: #db7093">染谷千秋 : 「……あれのこと好きなの？」
 </span><span style="color: #00bcd4">染谷千冬 : （好き、か……）
 </span><span style="color: #00bcd4">染谷千冬 : 「……ああ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】我慢/離れろっていう (1D100<=80) ＞ 26 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】我慢/離れろっていう (1D100<=80) ＞ 26 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「そっか。千冬の友達なら大事にしないとな～？」
 </span><span style="color: #db7093">染谷千秋 : 「千冬、少しここにいて」
 </span><span style="color: #db7093">染谷千秋 : 一度千冬の元を離れます。部屋に入り、普段自分が使ってる香水を手に取り戻ってきます。その後千冬にかけます。
 </span><span style="color: #db7093">染谷千秋 : 「魔除け完了～。じゃ、戻ろうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「魔除け……？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……前にも遊びに来たことはあっただろう。千秋にとっては友達じゃないのか？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】正直に言う/水面下でアキに嫌がらせをする (1D100<=80) ＞ 89 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】正直に言う/水面下でアキに嫌がらせをする (1D100<=80) ＞ 89 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「……そうだな？友達～ふれんず～ははは～」
 あれと友達なわけねーけどな、と心の中で悪態をつきます。
 </span><span style="color: #00bcd4">染谷千冬 : 「そうか」
@@ -181,10 +181,10 @@
 </span><span style="color: #673ab7">深山彰人 : 「俺、そんなふうに千冬くんに言われたことないけどな。弟と友だちじゃ立場が違うでしょ？　……ね、千冬くん。本当に嫌……？」
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 24 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : （別に、触られるのは苦手でもないし、千秋とそんな話をしたこともない。でもそう言ったのは……そうか、千秋が嫌なのか。……もしかして、妬いてる？　でも、アキはただの友だちで……）
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】千秋優先/嘘をつけない (1D100<=55) ＞ 54 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】千秋優先/嘘をつけない (1D100<=55) ＞ 54 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……得意ではない」
 </span><span style="color: #673ab7">深山彰人 : 「……そっか。俺、もしかして千冬くんに無理させてたのかな……。ごめんね、俺のクセなんだけど、千冬くんが嫌なら気をつけるね……。だから、友だちでいてくれる……？」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】強い/申し訳ない (1D100<=55) ＞ 39 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】強い/申し訳ない (1D100<=55) ＞ 39 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #673ab7">深山彰人 : 「ありがとう！　……で、話が逸れちゃった。それで、これからお出かけはどうかな……？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ、構わない。……千秋、」
@@ -248,7 +248,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「だめだ」
 </span><span style="color: #db7093">染谷千秋 : 「どーしても？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 94 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 94 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「下準備もしてあるし10分あれば終わるぜ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「だめだ。動くな」
 </span><span style="color: #db7093">染谷千秋 : 千冬の目をじっとみて懇願します。
@@ -281,7 +281,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「可愛い弟が言うことを聞いてくれないからな」
 </span><span style="color: #db7093">染谷千秋 : 「寂しいんだけど？」
 </span><span style="color: #00bcd4">染谷千冬 : 「しっかり休んでくれるか？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 40 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 40 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「ちぇ、わかったよ。……千冬が側にいてくれんなら」
 </span><span style="color: #00bcd4">染谷千冬 : 「なら良い」
 よく眠れるように背中をトントンと叩きます。
@@ -296,13 +296,13 @@
 「ありがとな。落ち着く」
 </span><span style="color: #db7093">染谷千秋 : 「行きてえの？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 23 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 23 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……ふぅん。なんで？」
 少し不貞腐れた様子で聞きます。
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 23 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 千秋の様子に少し戸惑いながら、答えます。
 「……友だちだから。友だちの活躍は見たい」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 75 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……。千冬にとってアキはどんぐらい大切な友達なの」
 </span><span style="color: #00bcd4">染谷千冬 : 「どれくらい？」
 </span><span style="color: #db7093">染谷千秋 : じ、と見ます。
@@ -312,7 +312,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 53 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……妬いてるな」
 </span><span style="color: #00bcd4">染谷千冬 : 「大事な友だちだ。……嫌か？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】正直に言う/言わない (1D100<=80) ＞ 48 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】正直に言う/言わない (1D100<=80) ＞ 48 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 千冬の言葉に目を細めて笑います。
 </span><span style="color: #db7093">染谷千秋 : 「なんて答えてほしい？」
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋の本心が聞きたい」
@@ -351,8 +351,8 @@
 
 </span><span style="color: #000">画面を見ると、深山が千冬に対して最近の出来事、出かけた場所などの日常を報告している。千冬はそれに対して、三日ほど経って一言返したり、返事していなかったりだ。基本的に一往復のみだが、時々会話が続いている。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】これから嫉妬しないように善処する/無理！ (1D100<=80) ＞ 20 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】これぐらいの内容なら許容する/正直嫉妬する (1D100<=80) ＞ 18 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】これから嫉妬しないように善処する/無理！ (1D100<=80) ＞ 20 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】これぐらいの内容なら許容する/正直嫉妬する (1D100<=80) ＞ 18 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : とても仲がいいとまでは言えないLINEを見てふ、と笑みをこぼします。
 「楽しそうだな」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ、そうだな。楽しい」
@@ -406,7 +406,7 @@
 </span><span style="color: #000">チケットの席は最前列だった。ライブが始まると、甲高い声と紫色のペンライトで会場が埋められる。ペンライトは持っていないため振ることはできない。千冬はじっと深山を見て、ライブに夢中になっているようだ。千秋にとっては、たいそうつまらないだろう。深山が、千冬のほうを見た気がする。千冬は、深山と目が合った気がする。そんな瞬間が何度かあった。
 </span><span style="color: #000">ライブは一時間ほどで終わる。深山から控え室に来るかと連絡があったが、二人はそのまま帰るだろう。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】上辺の言葉でもアキを称える感想を捻り出す/気に食わないので感想を言わない (1D100<=80) ＞ 92 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】上辺の言葉でもアキを称える感想を捻り出す/気に食わないので感想を言わない (1D100<=80) ＞ 92 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 「……ライブどうだった？」
 </span><span style="color: #00bcd4">染谷千冬 : 「ライブには行ったことがなかったが、楽しいな。良かった」
 </span><span style="color: #db7093">染谷千秋 : 微笑みながら千冬の手を握ります。
@@ -418,7 +418,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……分からない」
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=80 【アイデア】 (1D100<=80) ＞ 91 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「……アキに聞いてみる。それに、アキのライブももっとちゃんと見たい。ペンライトも無かったし、知らない曲が多かった。準備ができていたら、もっと楽しめるんだろうな」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*4 【POW × 5 - 1（本日一回失敗した分）】 (1D100<=64) ＞ 15 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊4 【POW × 5 - 1（本日一回失敗した分）】 (1D100<=64) ＞ 15 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「アキに？……べつにアキじゃなくてもいいだろ～？思いつかねーならフェス行こうぜ」
 </span><span style="color: #db7093">染谷千秋 : 「色んなバンド出るしさ。そっちなら千冬も楽しめるだろ」
 </span><span style="color: #00bcd4">染谷千冬 : 「俺は詳しくないから、聞いてみようかと思った。そうなのか？　行ってみたい」
@@ -491,7 +491,7 @@
 
 </span><span style="color: #db7093">染谷千秋 : ヨシ！
 </span><span style="color: #673ab7">深山彰人 : 「……千冬くん！　俺助手席に乗りたいんだけどだめ！？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】追撃しない/追撃する (1D100<=80) ＞ 15 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】追撃しない/追撃する (1D100<=80) ＞ 15 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「アキ強く握り過ぎな。千冬～、千冬の隣は俺がいい～」
 腕をさすりながら千冬に抱きつきます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……じゃんけんしたらどうだ」
@@ -518,7 +518,7 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「……もう、このままでいいんじゃないか。帰りに交代しよう」
 </span><span style="color: #db7093">染谷千秋 : 「……千冬はそうしたいわけ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 72 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……、そーかよ」
 運転席に戻り、車を発進させます。
 </span><span style="color: #673ab7">深山彰人 : 「……わがまま言ってごめんね、千冬くん。でもさ、数年振りだよ？　もっと千冬くんの話聞きたいし、俺の話もしたいから……」
@@ -580,7 +580,7 @@
 
 </span><span style="color: #000">車を走らせながら、二人は言い合う。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】これ以上雰囲気壊したくないので引き下がる/理由を聞く (1D100<=80) ＞ 18 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】これ以上雰囲気壊したくないので引き下がる/理由を聞く (1D100<=80) ＞ 18 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……。分かったよ。じゃあ疲れたら交代な」
 </span><span style="color: #00bcd4">染谷千冬 : 「ああ」
 </span><span style="color: #db7093">染谷千秋 : 窓の外を見ながら、アキと不仲に見えない程度に話題を振ります。

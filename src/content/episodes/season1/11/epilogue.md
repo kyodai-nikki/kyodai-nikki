@@ -10,7 +10,7 @@
 欲に呑まれるかPOW
 成功したら呑まれない
 </span><span style="color: #db7093">染谷千秋 : CCB<=85 【アイデア】 (1D100<=85) ＞ 74 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 16 ＞ スペシャル
 </span><span style="color: #db7093">染谷千秋 : 「……千冬」はあ、と息を吐いて千冬の名前を呼びます。その後千冬の首についた噛み痕に触れます。
 「痕ついちゃったな」
 </span><span style="color: #00bcd4">染谷千冬 : 「別に良い」

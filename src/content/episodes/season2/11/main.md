@@ -200,8 +200,8 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : （なんで、？）
 思考の追いつかないまま千秋の腕を引きます。
 色々な考えが頭を過ぎろうとしますが、それらを無視して、反射的に千秋の唇に口づけをします。
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=16\*5 【POW × 5】追いキス 我慢できるか (1D100<=80) ＞ 35 ＞ 成功
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】体力的にふらつかずにいれるか (1D100<=55) ＞ 73 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=16＊5 【POW × 5】追いキス 我慢できるか (1D100<=80) ＞ 35 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11＊5 【CON × 5】体力的にふらつかずにいれるか (1D100<=55) ＞ 73 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : s1d100<=25 【SAN値チェック】千冬の身体を離すかどうか　失敗なら反射で離す (1D100<=25) ＞ 36 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 目を閉じて口付けを受け入れようとしましたが、ハッとしたように目を開きます。
 千冬と自分の間に腕を差し込み、千冬から身体を離します。その拍子にふらつき、反射で近くの木に手をつきながら座り込み、困惑したように千冬を見上げます。
@@ -212,7 +212,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「俺にとって、千秋は千秋だ。……まだ信用はできない。でも、信じたい。だから千秋を拒否するようなことしたくなかった。無かったことにしたくなかった」
 </span><span style="color: #ac67c3">染谷千秋 : 「……、……。千冬…… 」しばらく千冬を見つめていましたが、そのうちふっと笑います。
 「さっきは悪かった。久々に千冬に会えて嬉しかったんだ。……なぁ、触っていい？」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】気持ちが固い/絆される (1D100<=55) ＞ 59 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】気持ちが固い/絆される (1D100<=55) ＞ 59 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : （俺は、この千秋は本当のことを言っていると思う。……信じきるのは危険だからしない、でも信じたい。本当なら、きっと千秋はとても苦しんだ。今まで頑張った千秋に、ありがとうと言いたい）
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋が怒らないぐらいなら」
 </span><span style="color: #ac67c3">染谷千秋 : 「じゃ、駄目だな」肩をすくめて千冬に近づきます。
@@ -395,7 +395,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「仕事を辞めろ」
 </span><span style="color: #2a6762">河野 : 「……突然なんだ。君は、一体……」
 </span><span style="color: #2a6762">河野 : 「……いや、君が誰かはどうでもいい。もういい。疲れた。疲れた……」
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】一通り探索を終えてからの現在体力。失敗したら鎮痛剤を飲むため席を外す。 (1D100<=55) ＞ 77 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11＊5 【CON × 5】一通り探索を終えてからの現在体力。失敗したら鎮痛剤を飲むため席を外す。 (1D100<=55) ＞ 77 ＞ 失敗
 
 </span><span style="color: #000">男は相変わらずぶつぶつと呟いている。
 千秋はゆったりした動作で男に近づき、拘束を強めた。そして傍にあった荷物を取ると、あなたに向かって言う。
@@ -423,7 +423,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「拘束されている。放っておけばいい」
 </span><span style="color: #ac67c3">染谷千秋 : 「……わかった」そう言ってタープを直します。
 </span><span style="color: #ac67c3">染谷千秋 : sCCB<=80 【幸運】千冬にバレずに薬飲めるか (1D100<=80) ＞ 65 ＞ 成功
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=13\*5 【DEX × 5】飲んだ後、薬の包装材を鞄戻す速度。成功なら見つからない。 (1D100<=65) ＞ 74 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=13＊5 【DEX × 5】飲んだ後、薬の包装材を鞄戻す速度。成功なら見つからない。 (1D100<=65) ＞ 74 ＞ 失敗
 
 </span><span style="color: #000">千秋がタープを直し終えて立ち上がる。あなたは千秋が何か怪しい行動をしないよう見張っているだろう。目星をどうぞ。
 
@@ -432,7 +432,7 @@ custom:
 </span><span style="color: #000">千秋が何か荷物に仕舞うのが見えた。
 
 </span><span style="color: #00bcd4">染谷千冬 : 荷物を奪います！
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】反応する体力があるか (1D100<=55) ＞ 16 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11＊5 【CON × 5】反応する体力があるか (1D100<=55) ＞ 16 ＞ 成功
 
 </span><span style="color: #000">STR対抗をどうぞ！11と14の対抗です。
 
@@ -559,7 +559,7 @@ custom:
 </span><span style="color: #000">そうして河野は会社へと向かっていった。
 
 </span><span style="color: #00bcd4">染谷千冬 : 揉めているところへ近づきます。
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】残り体力。千冬の前を歩く余力があるか。 (1D100<=55) ＞ 90 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11＊5 【CON × 5】残り体力。千冬の前を歩く余力があるか。 (1D100<=55) ＞ 90 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 千冬の後に続きます。
 
 </span><span style="color: #000">あなた達が近付くと、捕まっていた女性が高い声をあげる。
@@ -597,7 +597,7 @@ custom:
 </span><span style="color: #ac67c3">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 20 ＞ 成功
 </span><span style="color: #6a6a6a">警備員A : CCB<=26 【回避】 (1D100<=26) ＞ 91 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 2d6+1d4 【キックダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 9[6,3]+3[3] ＞ 12
-</span><span style="color: #6a6a6a">警備員A : CCB<=13\*5 【CON × 5】 (1D100<=65) ＞ 87 ＞ 失敗
+</span><span style="color: #6a6a6a">警備員A : CCB<=13＊5 【CON × 5】 (1D100<=65) ＞ 87 ＞ 失敗
 
 </span><span style="color: #000">警備員は気絶しました。
 </span><span style="color: #000">一人の警備員が倒れたのを見て、もう一人の警備員も向かってきます。
@@ -614,7 +614,7 @@ custom:
 </span><span style="color: #ac67c3">染谷千秋 : CCB<=75 【キック】 (1D100<=75) ＞ 15 ＞ スペシャル
 </span><span style="color: #6a6a6a">警備員B : CCB<=26 【回避】 (1D100<=26) ＞ 45 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 2d6+1d4 【キックダメージ判定+マーシャルアーツ】 (2D6+1D4) ＞ 2[1,1]+2[2] ＞ 4
-</span><span style="color: #6a6a6a">警備員B : CCB<=13\*5 【CON × 5】 (1D100<=65) ＞ 26 ＞ 成功
+</span><span style="color: #6a6a6a">警備員B : CCB<=13＊5 【CON × 5】 (1D100<=65) ＞ 26 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : これからノックアウト攻撃します！
 
 </span><span style="color: #000">承知！
@@ -667,35 +667,35 @@ custom:
 ・勝利条件：車（4マス目）まで逃げ切る。
 ・先に到達したものが居た場合、1Rを使って車を移動させることで勝利条件のマス目を少なく出来る。
 これから初期位置を決めます。DEX*5を2回振ってください。
-</span><span style="color: #000">DEX\*5を振ってください。
+</span><span style="color: #000">DEX＊5を振ってください。
 
-</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 20 ＞ 成功
-</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 82 ＞ 失敗
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 99 ＞ 致命的失敗
-</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 7 ＞ スペシャル
-</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 20 ＞ 成功
+</span><span style="color: #816d32">三津川 : CCB<=14＊5 【DEX × 5】 (1D100<=70) ＞ 20 ＞ 成功
+</span><span style="color: #2a6762">河野 : CCB<=12＊5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 82 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 99 ＞ 致命的失敗
+</span><span style="color: #816d32">三津川 : CCB<=14＊5 【DEX × 5】 (1D100<=70) ＞ 7 ＞ スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12＊5 【DEX × 5】 (1D100<=60) ＞ 69 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 20 ＞ 成功
 </span><span style="color: #ac67c3">染谷千秋 : 河野を連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 36 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 36 ＞ 成功
 
 </span><span style="color: #000">車に乗り込むまで、ティンダロスの猟犬とのチェイスを開始します。
 初期マスは、[1……千冬・千秋・河野]、[2……三津川]となります。
 三津川→千秋→河野→千冬→ティンダロスの猟犬の順番で行動します。
 
 </span><span style="color: #000">[ KP ] ラウンド : 0 → 1
-</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 8 ＞ スペシャル
+</span><span style="color: #816d32">三津川 : CCB<=14＊5 【DEX × 5】 (1D100<=70) ＞ 8 ＞ スペシャル
 </span><span style="color: #816d32">[ 三津川 ] マス : 2 → 3
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*5 【DEX × 5】 (1D100<=65) ＞ 98 ＞ 致命的失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊5 【DEX × 5】 (1D100<=65) ＞ 98 ＞ 致命的失敗
 
 </span><span style="color: #000">千秋はよろめいて転んでしまいます。
 次に、ティンダロスの猟犬は固定で千秋をターゲットにします。
 
-</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 1 ＞ 決定的成功/スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12＊5 【DEX × 5】 (1D100<=60) ＞ 1 ＞ 決定的成功/スペシャル
 </span><span style="color: #2a6762">河野 : 流れで千秋を連れて進みます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 1 → 2
 </span><span style="color: #2a6762">[ 河野 ] マス : 1 → 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*5 【DEX × 5】 (1D100<=45) ＞ 100 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊5 【DEX × 5】 (1D100<=45) ＞ 100 ＞ 致命的失敗
 
 </span><span style="color: #000">あなたは転んだ千秋に気を取られて、足元をよく見ることができませんでした。地面にあった石に足をとられて転んでしまいます。
 </span><span style="color: #000">転んだあなたを見て、ティンダロスの猟犬はあなたをターゲットにします。
@@ -704,36 +704,36 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=37 【回避】 (1D100<=37) ＞ 53 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : 1d6+1d4 【前脚ダメージ】 (1D6+1D4) ＞ 6[6]+2[2] ＞ 8
 </span><span style="color: #00bcd4">[ 染谷千冬 ] HP : 10 → 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【CON × 5】 (1D100<=55) ＞ 46 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【CON × 5】 (1D100<=55) ＞ 46 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……！」歯を食いしばって堪えます。
 </span><span style="color: #ac67c3">染谷千秋 : 「千冬！！」
 </span><span style="color: #000">[ KP ] ラウンド : 1 → 2
-</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 90 ＞ 失敗
+</span><span style="color: #816d32">三津川 : CCB<=14＊5 【DEX × 5】 (1D100<=70) ＞ 90 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 戻って千冬を連れていきます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 2 → 1
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 69 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 69 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千冬を連れに戻ります。
 </span><span style="color: #2a6762">[ 河野 ] マス : 2 → 1
-</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=48) ＞ 89 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12＊4 【DEX × 4】 (1D100<=48) ＞ 89 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 1d2 距離が近いほうを連れて行こうとします1千秋2河野 (1D2) ＞ 1
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 38 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊4 【DEX × 4】 (1D100<=36) ＞ 38 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 68 ＞ 失敗
 </span><span style="color: #000">[ KP ] ラウンド : 2 → 3
-</span><span style="color: #816d32">三津川 : CCB<=14\*5 【DEX × 5】 (1D100<=70) ＞ 21 ＞ 成功
+</span><span style="color: #816d32">三津川 : CCB<=14＊5 【DEX × 5】 (1D100<=70) ＞ 21 ＞ 成功
 </span><span style="color: #816d32">[ 三津川 ] マス : 3 → 4
 </span><span style="color: #816d32">三津川 : 車に乗り込んで、逃げる皆を拾うために逆走します。
 </span><span style="color: #ac67c3">染谷千秋 : 千冬を連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 24 ＞ 成功
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 24 ＞ 成功
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 1 → 2
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 1 → 2
-</span><span style="color: #2a6762">河野 : CCB<=12\*5 【DEX × 5】 (1D100<=60) ＞ 90 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12＊5 【DEX × 5】 (1D100<=60) ＞ 90 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 河野を連れて逃げようとします。
 </span><span style="color: #ac67c3">染谷千秋 : 止めます。STR対抗！
 
 </span><span style="color: #000">千秋は35%で振ってください。
 
 </span><span style="color: #ac67c3">染谷千秋 : ccb<=35 【千冬を止めれるか】 (1D100<=35) ＞ 74 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*2 【DEX × 2】思わず手を伸ばします (1D100<=18) ＞ 54 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊2 【DEX × 2】思わず手を伸ばします (1D100<=18) ＞ 54 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 69 ＞ 失敗
 </span><span style="color: #000">[ KP ] ラウンド : 3 → 4
 
@@ -743,12 +743,12 @@ custom:
 </span><span style="color: #816d32">三津川 : もう一度車を皆の元へ走らせます。
 </span><span style="color: #ac67c3">染谷千秋 : 河野を連れていきます。
 </span><span style="color: #ac67c3">[ 染谷千秋 ] マス : 2 → 1
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 95 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 95 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千秋を連れていきます。
-</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=48) ＞ 64 ＞ 失敗
+</span><span style="color: #2a6762">河野 : CCB<=12＊4 【DEX × 4】 (1D100<=48) ＞ 64 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : choice[千秋,河野] 距離が近いほう (choice[千秋,河野]) ＞ 河野
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 2 → 1
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 41 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊4 【DEX × 4】 (1D100<=36) ＞ 41 ＞ 失敗
 </span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=60 【前脚】 (1D100<=60) ＞ 92 ＞ 失敗
 </span><span style="color: #000">[ KP ] ラウンド : 4 → 5
 
@@ -757,12 +757,12 @@ custom:
 </span><span style="color: #000">[ KP ] 到着マス : 3 → 2
 </span><span style="color: #816d32">三津川 : 車を更に皆の方へ走らせます。
 </span><span style="color: #ac67c3">染谷千秋 : 千冬を車に連れていきます。
-</span><span style="color: #ac67c3">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 85 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 85 ＞ 失敗
 </span><span style="color: #2a6762">河野 : 千冬を連れていきます。
-</span><span style="color: #2a6762">河野 : CCB<=12\*4 【DEX × 4】 (1D100<=60) ＞ 6 ＞ スペシャル
+</span><span style="color: #2a6762">河野 : CCB<=12＊4 【DEX × 4】 (1D100<=60) ＞ 6 ＞ スペシャル
 </span><span style="color: #2a6762">[ 河野 ] マス : 1 → 2
 </span><span style="color: #00bcd4">[ 染谷千冬 ] マス : 1 → 2
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*2 【DEX × 2】河野に連れられながら、千秋にも手を伸ばします (1D100<=18) ＞ 99 ＞ 致命的失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊2 【DEX × 2】河野に連れられながら、千秋にも手を伸ばします (1D100<=18) ＞ 99 ＞ 致命的失敗
 
 </span><span style="color: #000">あなたは傷だらけの身体で千秋に手を伸ばしますが、腕に力が入らず既のところで掴みそこねてしまいます。
 あなたに手を伸ばした千秋が、その拍子に転びます。このままでは、車の外にいるティンダロスの猟犬は千秋を食い殺してしまう可能性が高いでしょう。
@@ -811,7 +811,7 @@ SAN値を1d3引いてください。
 </span><span style="color: #816d32">三津川 : 2d6 (2D6) ＞ 11[5,6] ＞ 11
 
 </span><span style="color: #000">10+1d110 【1ラウンドの秒数】 (10+1D110) ＞ 10+40[40] ＞ 50
-</span><span style="color: #000">あなたの身体は11\*50秒……、約10分かけて、HPを7回復します。
+</span><span style="color: #000">あなたの身体は11＊50秒……、約10分かけて、HPを7回復します。
 千秋はMPを11、SANを1引いてください。
 
 </span><span style="color: #ac67c3">[ 染谷千秋 ] MP : 16 → 5
@@ -903,9 +903,9 @@ SAN値を1d3引いてください。
 </span><span style="color: #00bcd4">染谷千冬 : 「治ったから痛くない。千秋、この人たちは悪くない。……たぶん」
 </span><span style="color: #db7093">染谷千秋（現在） : 千冬を自分の方に引き寄せながら、警戒するように同乗者達を観察します。
 
-</span><span style="color: #000">千秋（現在）はINT\*1を振ってください。
+</span><span style="color: #000">千秋（現在）はINT＊1を振ってください。
 
-</span><span style="color: #db7093">染谷千秋（現在） : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 23 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋（現在） : CCB<=17＊1 【INT × 1】 (1D100<=17) ＞ 23 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「三津川さん、この後どうしたらいい」話を切って三津川さんに聞きます。
 </span><span style="color: #816d32">三津川 : 「そうね、葵君が言ってた『原因を潰す』よう動くのがいいのかしら。……皆、あっち見て」
 
@@ -975,11 +975,11 @@ PCたちの車は1Rに3まで速度を上げることができる。速度を3�
 </span><span style="color: #6a6a6a">[ パトカー ] 速度 : 1 → 2
 </span><span style="color: #000">[ KP ] 差分マス : 2 → 1
 </span><span style="color: #000">[ KP ] 相対速度差分 : 2 → 1
-</span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=12\*5 【DEX\*5】 (1D100<=60) ＞ 94 ＞ 失敗
+</span><span style="color: #6a6a6a">ティンダロスの猟犬 : ccb<=12＊5 【DEX＊5】 (1D100<=60) ＞ 94 ＞ 失敗
 
-</span><span style="color: #000">千秋はINT\*1を振ってください。
+</span><span style="color: #000">千秋はINT＊1を振ってください。
 
-</span><span style="color: #db7093">染谷千秋（現在） : CCB<=17\*1 【INT × 1】 (1D100<=17) ＞ 63 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋（現在） : CCB<=17＊1 【INT × 1】 (1D100<=17) ＞ 63 ＞ 失敗
 </span><span style="color: #000">[ KP ] ラウンド : 1 → 2
 </span><span style="color: #6a6a6a">車 : ccb<=30 【運転+10%】 (1D100<=30) ＞ 5 ＞ 決定的成功/スペシャル
 
@@ -1005,7 +1005,7 @@ PCたちの車は1Rに3まで速度を上げることができる。速度を3�
 「天樹さん」助手席の扉を開け、手を差し出します。
 </span><span style="color: #db7093">染谷千秋（現在） : 千冬の手を握り側にいます。
 </span><span style="color: #2a6762">河野 : 「は、はい……」千冬の手を取り車から出ます。
-</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11\*5 【CON × 5】 MP減少による疲労に耐えれるか(1D100<=55) ＞ 64 ＞ 失敗
+</span><span style="color: #ac67c3">染谷千秋 : sCCB<=11＊5 【CON × 5】 MP減少による疲労に耐えれるか(1D100<=55) ＞ 64 ＞ 失敗
 </span><span style="color: #ac67c3">染谷千秋 : 目を閉じて意識を手放しています。
 </span><span style="color: #816d32">三津川 : 「千冬さん、河野さんのことお願いできるかしら。葵君を起こしたら私達も行くわ」
 </span><span style="color: #00bcd4">染谷千冬 : 「はい」急がないといつ犬が来るか分かりません。未来の千秋が心配ではありますが、自分にできることを考え、二人の手を引いてレストランに向かいます。

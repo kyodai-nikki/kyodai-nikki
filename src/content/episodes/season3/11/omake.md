@@ -17,7 +17,7 @@
 初めての体感する雰囲気に、きょろきょろと店内を見渡します。
 「舞さんは、今日はいないんですか」
 </span><span style="color: #000">マスター : 「今はいませんが、あと1時間もすればきますよ」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 4 ＞ 決定的成功/スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「そうなんですか」
 （挨拶したいな。1時間か）
 メニューを手に取り眺めます。
@@ -85,7 +85,7 @@
 
 </span><span style="color: #000">舞は渋々席を立ち、そのまま貴方に告げて裏へと入っていった。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 36 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 36 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「何話してたの」
 隣の席に座ります。
 </span><span style="color: #00bcd4">染谷千冬 : 「挨拶をした」
@@ -103,9 +103,9 @@
 </span><span style="color: #db7093">染谷千秋 : 「そ」
 にっこり笑って舞と同じように耳打ちをします。
 「飲み物はノンアルコールにしとけよ。ここにいるやつらに千冬の酔ってる姿見せたくない」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】うん/む (1D100<=55) ＞ 86 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】うん/む (1D100<=55) ＞ 86 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 「酔わないように気をつける。せっかく来たから、飲みたい。……だめか？」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 56 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 56 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 半目で千冬を見た後にふっと笑います。席を立って軽く頭を下げます。
 「いーよ。……ジントニックとパスタフリットですね。かしこまりました」
 </span><span style="color: #00bcd4">染谷千冬 : 「ありがとう」
@@ -126,7 +126,7 @@
 
 </span><span style="color: #000">舞はニコニコと笑いながら、お酒を飲むあなたを見つめている。
 
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=12\*5 【CON × 5】 (1D100<=60) ＞ 63 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=12＊5 【CON × 5】 (1D100<=60) ＞ 63 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : （……強いお酒だ）
 「美味しいです。ありがとうございます」
 パスタフリットと一緒にちびちびと飲みますが、頭が少しぽーっとします。体が温かくなっていきます。
@@ -146,11 +146,11 @@
 </span><span style="color: #000">舞は楽しげにあなたにいちおしを語る。指先まで整えられた綺麗な手がメニューを示す。
 
 </span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 16 ＞ スペシャル
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 69 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 69 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「随分楽しそうだな。俺も混ぜてよ～」
 </span><span style="color: #00bcd4">染谷千冬 : 「千秋」
 手元のカクテルを一口飲みます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 51 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 51 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「……」
 千冬の手元に度数の高い！自分が作った覚えのない！カクテルがあってむっとします。
 </span><span style="color: #db7093">染谷千秋 : 「これ度数高いやつだろ。ぼっしゅ～」
@@ -162,7 +162,7 @@
 </span><span style="color: #db7093">染谷千秋 : 「注文する時は俺呼べって言ったろ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「舞さんが、お詫びにくれたものだ」
 しゅんとします。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 77 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 77 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「お詫び？」
 </span><span style="color: #00bcd4">染谷千冬 : ちら、と舞を見ます。
 </span><span style="color: #d61a34">舞 : 「この前迷惑かけちゃったので……。サービスしたのは私なんです！お、怒るなら私を怒ってください！」
@@ -178,9 +178,9 @@
 </span><span style="color: #db7093">染谷千秋 : 舞が席を離れたのを確認した後千冬を見ます。
 「舞のおすすめ？」
 </span><span style="color: #00bcd4">染谷千冬 : 頷きます。
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 37 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「ふーん。……ミシシッピミュールも度数高いぜ。酔っちゃうかもしんねーから家で作るよ。それ以外で飲みたいやつないの？」
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=11\*5 【POW × 5】いいか/…… (1D100<=55) ＞ 43 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=11＊5 【POW × 5】いいか/…… (1D100<=55) ＞ 43 ＞ 成功
 </span><span style="color: #00bcd4">染谷千冬 : 「……わかった。なら、ウィスキーベースのカクテルが飲んでみたい」
 </span><span style="color: #db7093">染谷千秋 : 「ウィスキーな。……さっぱりしたいならこれおすすめだぜ。レモンジュースとシロップが入ってる。さっきとテイスト変えるならこっち。豆乳で割ってクリーム足す。似てるけど、もっと甘い方がいいならこれ。ココアとシロップと生クリーム入ってる」
 メニューを指差しながら話します。
@@ -209,7 +209,7 @@
 
 </span><span style="color: #db7093">染谷千秋 : 「今日はお代いらないってさ。行こうぜ」
 </span><span style="color: #00bcd4">染谷千冬 : 「なんで。払う。それに、仕事は」
-</span><span style="color: #db7093">染谷千秋 : CCB<=16\*5 【POW × 5】言う/言わん (1D100<=80) ＞ 40 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】言う/言わん (1D100<=80) ＞ 40 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 「今日はもう終わり。お代はマスターの好意だってさ。また来てくれりゃそれでいいって」
 千冬の手を握ります。
 </span><span style="color: #00bcd4">染谷千冬 : 「……」

@@ -116,10 +116,10 @@ custom:
 </span><span style="color: #db7093">[ 染谷千秋 ] SAN : 65 → 63
 </span><span style="color: #00bcd4">[ 染谷千冬 ] SAN : 42 → 41
 
-</span><span style="color: #000">窒息ロールです。CON\*5を振ってください。
+</span><span style="color: #000">窒息ロールです。CON＊5を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 46 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 64 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 46 ＞ 成功
 
 </span><span style="color: #000">千秋はHPを-1d3してください。
 

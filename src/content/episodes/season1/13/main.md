@@ -277,9 +277,9 @@ custom:
 </span><span style="color: #000">よく目を凝らすまでもなく、自分の身を確かめると、千冬のように見慣れぬ和服姿になっている。
 雪の中で横たわっていたからだろうか、袖や裾はところどころ濡れてより深い色に染まっていた。
 目覚める前の持ち物はどこにも見当たらない。
-</span><span style="color: #000">【CON \* 5】を振ってください。
+</span><span style="color: #000">【CON ＊ 5】を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=10\*5 【CON × 5】 (1D100<=50) ＞ 70 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=10＊5 【CON × 5】 (1D100<=50) ＞ 70 ＞ 失敗
 
 </span><span style="color: #000">大きなくしゃみを一つしてしまう。体がひどく冷え切って、指先も凍りついたように上手く動かせない。HP-1。
 これ以上ここにいると、全身が氷像のように固まっていく未来すら見えそうだ。
@@ -352,7 +352,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……光の差す方向へ行こう」
 </span><span style="color: #db7093">染谷千秋 : 「ああ」歩きだします
 
-</span><span style="color: #000">【DEX \* 5】を振っても構いません。
+</span><span style="color: #000">【DEX ＊ 5】を振っても構いません。
 
 </span><span style="color: #db7093">染谷千秋 : 振りません。
 
@@ -574,9 +574,9 @@ custom:
 </span><span style="color: #000">舟に乗り込み、提灯も舟底に置く。
 提灯は千秋の手を離れたとて特に変わること無く、あたたかな光をこぼしている。
 頭上では相変わらず小さな光が飛び交い、漕ぎ出そうとするあなたたちのことを眺めるみたいだった。
-</span><span style="color: #000">それでは千秋は＜DEX\*3＞を振ってください。
+</span><span style="color: #000">それでは千秋は＜DEX＊3＞を振ってください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*3 【DEX × 3】 (1D100<=39) ＞ 51 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊3 【DEX × 3】 (1D100<=39) ＞ 51 ＞ 失敗
 
 </span><span style="color: #000">慣れない操縦で、舟が大きく揺れる。しかし前には進めることができるだろう。
 漕いでいるうちにこつを掴んだのか、揺れも次第に収まってきた。
@@ -767,10 +767,10 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「……きっとあと少しだ。走るぞ。しっかり握っていろ」
 </span><span style="color: #db7093">染谷千秋 : 「わかった」
 
-</span><span style="color: #000">千秋は＜DEX\*4＞で判定してください。
+</span><span style="color: #000">千秋は＜DEX＊4＞で判定してください。
 
-</span><span style="color: #db7093">染谷千秋 : CCB<=13\*4 【DEX × 4】 (1D100<=52) ＞ 71 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : CCB<=9\*4 【DEX × 4】 (1D100<=36) ＞ 96 ＞ 致命的失敗
+</span><span style="color: #db7093">染谷千秋 : CCB<=13＊4 【DEX × 4】 (1D100<=52) ＞ 71 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : CCB<=9＊4 【DEX × 4】 (1D100<=36) ＞ 96 ＞ 致命的失敗
 
 </span><span style="color: #000">掲げられた灯りを頼りに、花の嵐の中を駆けようと地を蹴る。
 けれど、一瞬。体がひどく重く、鈍くなる。
@@ -876,7 +876,7 @@ custom:
 
 </span><span style="color: #db7093">染谷千秋 : 振り返りません。
 
-</span><span style="color: #000">100%-(★の数\*5)%=成功率として判定してください。
+</span><span style="color: #000">100%-(★の数＊5)%=成功率として判定してください。
 つまり、85%の成功率です。
 
 </span><span style="color: #db7093">染谷千秋 : ccb<=85 (1D100<=85) ＞ 19 ＞ 成功
