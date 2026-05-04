@@ -97,18 +97,18 @@
 </span><span style="color: #00bcd4">染谷千冬 : 「よかった」
 抱きしめ返して微笑みます。
 </span><span style="color: #db7093">染谷千秋 : にっこりと微笑みます。
-</span><span style="color: #db7093">染谷千秋 : ｢なぁ……、千冬。俺のことおにーちゃんって呼んでみてよ｣
+</span><span style="color: #db7093">染谷千秋 : 「なぁ……、千冬。俺のことおにーちゃんって呼んでみてよ」
 </span><span style="color: #00bcd4">染谷千冬 : CCB<=16＊5 【INT × 5】なんでだろう (1D100<=80) ＞ 14 ＞ スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : 「……なんでだ？」
-</span><span style="color: #db7093">染谷千秋 : ｢洗脳した時面白かったから。……ダメ？｣
+</span><span style="color: #db7093">染谷千秋 : 「洗脳した時面白かったから。……ダメ？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……お兄ちゃん」
 </span><span style="color: #db7093">染谷千秋 : ふ、と笑います。
-｢何だ～？ 可愛い弟よ｣
+「何だ～？ 可愛い弟よ」
 千冬の頬に口付けて顔をじっとみます。
 </span><span style="color: #00bcd4">染谷千冬 : 「……ふ」
 </span><span style="color: #00bcd4">染谷千冬 : 「兄のほうが良かったか？」
-</span><span style="color: #db7093">染谷千秋 : ｢まあな～。俺がお兄ちゃんだったら、千冬が生まれてからずっと世話出来たのにって思うぜ｣
-</span><span style="color: #db7093">染谷千秋 : ｢生まれてから一年ちょっと記憶なくて、2歳までの千冬を知らねーのが気にいらねえ｣
+</span><span style="color: #db7093">染谷千秋 : 「まあな～。俺がお兄ちゃんだったら、千冬が生まれてからずっと世話出来たのにって思うぜ」
+</span><span style="color: #db7093">染谷千秋 : 「生まれてから一年ちょっと記憶なくて、2歳までの千冬を知らねーのが気にいらねえ」
 </span><span style="color: #00bcd4">染谷千冬 : 「……兄の特権だ」
 </span><span style="color: #db7093">染谷千秋 : 「ずるいぜ、おにーちゃん」
 千冬を抱きしめてごろりと寝ころびます。
