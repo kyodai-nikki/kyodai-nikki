@@ -631,8 +631,8 @@ custom:
 
 </span><span style="color: #000">耳がぴくりと動きます。
 
-</span><span style="color: #db7093">染谷千秋 : 少女を気にかけるか POW*5
-</span><span style="color: #db7093">染谷千秋 : POW*5 に成功したら「千冬ならあの少女と一緒に脱出するかもしれない」という理性が勝って一旦少女のところに戻ります。
+</span><span style="color: #db7093">染谷千秋 : 少女を気にかけるか POW＊5
+</span><span style="color: #db7093">染谷千秋 : POW＊5 に成功したら「千冬ならあの少女と一緒に脱出するかもしれない」という理性が勝って一旦少女のところに戻ります。
 </span><span style="color: #db7093">染谷千秋 : CCB<=16＊5 【POW × 5】 (1D100<=80) ＞ 60 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : 少女のところに向かいます。
 

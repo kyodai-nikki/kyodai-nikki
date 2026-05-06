@@ -256,8 +256,8 @@ End【貴方の顔も知らない】
 </span><span style="color: #00bcd4">染谷千冬 : 1d2 【EDU 高校卒業時】 (1D2) ＞ 1
 </span><span style="color: #00bcd4">染谷千冬 : 1d2 【EDU 専門卒業時】 (1D2) ＞ 2
 </span><span style="color: #00bcd4">染谷千冬 : EDU12→15
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 41 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)*5 【STR成長】 (1D100<=40) ＞ 21 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-11)＊5 【CON成長】 (1D100<=35) ＞ 41 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)＊5 【STR成長】 (1D100<=40) ＞ 21 ＞ 成功
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)＊5 【CON成長】 (1D100<=40) ＞ 68 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 1d3+1 【EDU成長判定（高校卒業時+転学）】 (1D3+1) ＞ 1[1]+1 ＞ 2
 </span><span style="color: #db7093">染谷千秋 : 1d6+1d4 【ダメージ判定】 (1D6+1D4) ＞ 1[1]+1[1] ＞ 2

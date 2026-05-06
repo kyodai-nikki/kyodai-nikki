@@ -728,7 +728,7 @@ POWに成功した場合は抵抗しません。
 
 ＊　＊　＊
 
-END1 『True*Dead*Ending』
+END1 『True＊Dead＊Ending』
 
 探索者生還
 後遺症なし

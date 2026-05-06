@@ -1738,10 +1738,10 @@ AF:タロットカード
 
 </span><span style="color: #000">(｀・ω・´)b
 
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-12)*5 【STR成長】 (1D100<=30) ＞ 23 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 38 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)*2 【DEX成長】 (1D100<=10) ＞ 45 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-14)*2 【APP成長】 (1D100<=8) ＞ 24 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-12)＊5 【STR成長】 (1D100<=30) ＞ 23 ＞ 成功
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)＊5 【CON成長】 (1D100<=35) ＞ 38 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)＊2 【DEX成長】 (1D100<=10) ＞ 45 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-14)＊2 【APP成長】 (1D100<=8) ＞ 24 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : POW成長もだめですか？俺今回怒りを飲み込みました
 
 </span><span style="color: #000">ダメ～以降継続して怒りを飲み込めてたら考えます
@@ -1752,8 +1752,8 @@ AF:タロットカード
 
 </span><span style="color: #db7093">染谷千秋 : ？。？
 </span><span style="color: #00bcd4">染谷千冬 : STR、CON、DEXの成長判定をします
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)*5 【STR成長】 (1D100<=20) ＞ 29 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-12)*5 【CON成長】 (1D100<=30) ＞ 91 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)＊5 【STR成長】 (1D100<=20) ＞ 29 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-12)＊5 【CON成長】 (1D100<=30) ＞ 91 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)＊2 【DEX成長】 (1D100<=18) ＞ 22 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : 頑張ろう
 </span><span style="color: #db7093">染谷千秋 : かわいいね

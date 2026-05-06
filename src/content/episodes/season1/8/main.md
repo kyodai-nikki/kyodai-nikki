@@ -358,7 +358,7 @@ custom:
 
 </span><span style="color: #000">認めません。
 
-</span><span style="color: #db7093">染谷千秋 : ｲｨ~ﾝ……
+</span><span style="color: #db7093">染谷千秋 : ｲｨ～ﾝ……
 
 </span><span style="color: #000">あまりにもズタボロのようなのでさっきのSANcを自動失敗とします。さっき減らした2点分回復してから、1d4振ってください。
 

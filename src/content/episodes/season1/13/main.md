@@ -751,7 +751,7 @@ custom:
 
 </span><span style="color: #000">＜聞き耳＞を振っても構いません。
 
-</span><span style="color: #db7093">染谷千秋 : ﾌﾘﾏｾ~~~ﾝ
+</span><span style="color: #db7093">染谷千秋 : ﾌﾘﾏｾ～～～ﾝ
 
 </span><span style="color: #000">不意に。――強く、風が吹き荒れる。
 </span><span style="color: #000">突然訪れたそれは激しく、まるで嵐のような勢いで春を揺らす。

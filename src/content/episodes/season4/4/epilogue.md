@@ -695,12 +695,12 @@ STRとDEX、CONは日頃鍛えています。セックスいっぱいしたの�
 CONの成長は二人とも特例で+20の補正をあげます。
 </span><span style="color: #000">先に言っておきますが千秋はたぶんこのセックス期間に学校を卒業しているので、ハウスルールにしたがってEDUを成長して構いません。
 
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)*5 STR成長 (1D100<=20) ＞ 50 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-12)*5+20 CON成長 (1D100<=50) ＞ 52 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)＊5 STR成長 (1D100<=20) ＞ 50 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-12)＊5+20 CON成長 (1D100<=50) ＞ 52 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : (´・ω・`)
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)*2 DEX成長 (1D100<=18) ＞ 3 ＞ 決定的成功/スペシャル
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)＊2 DEX成長 (1D100<=18) ＞ 3 ＞ 決定的成功/スペシャル
 </span><span style="color: #00bcd4">染谷千冬 : (｀・ω・´)
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-8)*2 APP成長 (1D100<=20) ＞ 44 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-8)＊2 APP成長 (1D100<=20) ＞ 44 ＞ 失敗
 </span><span style="color: #00bcd4">染谷千冬 : いったんステイ
 </span><span style="color: #db7093">染谷千秋 : ぼくは成長ゆるされますか
 </span><span style="color: #db7093">染谷千秋 : APP
@@ -709,8 +709,8 @@ CONの成長は二人とも特例で+20の補正をあげます。
 
 </span><span style="color: #db7093">染谷千秋 : やったぜ。ありがとう！
 </span><span style="color: #db7093">染谷千秋 : CCB<=80 【図書館】 (1D100<=80) ＞ 67 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)*5 【STR成長】 (1D100<=25) ＞ 34 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)*5 【CON成長】 (1D100<=35) ＞ 59 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)＊5 【STR成長】 (1D100<=25) ＞ 34 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)＊5 【CON成長】 (1D100<=35) ＞ 59 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)＊2 【DEX成長】 (1D100<=10) ＞ 2 ＞ 決定的成功/スペシャル
 </span><span style="color: #db7093">染谷千秋 : ccb<=(18-14)＊2 【APP成長】 (1D100<=8) ＞ 25 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : DEX伸びてるの流石にきもいな

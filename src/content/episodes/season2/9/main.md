@@ -502,7 +502,7 @@ custom:
 </span><span style="color: #000">振ってもいいですよ～
 
 </span><span style="color: #db7093">染谷千秋 : CCB<=83 【目星】 (1D100<=83) ＞ 81 ＞ 成功
-</span><span style="color: #db7093">染谷千秋 : abune~
+</span><span style="color: #db7093">染谷千秋 : abune～
 
 </span><span style="color: #000">瞳孔が大きく開いており、正気ではないように思えます。
 100cmにも満たない、タオルに包んだ何かを持っています。
