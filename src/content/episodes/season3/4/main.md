@@ -1474,12 +1474,12 @@ STR対抗をします。
 </span><span style="color: #000">どうぞ！
 
 </span><span style="color: #db7093">染谷千秋 : 身体能力の向上を狙って筋トレと走りこみしてます！STRとCONとDEX成長判定させてください！
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)*5 STR成長 (1D100<=20) ＞ 85 ＞ 失敗
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-11)*5 CON成長 (1D100<=35) ＞ 33 ＞ 成功
-</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)*2 DEX成長 (1D100<=18) ＞ 62 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)*5 【STR成長】 (1D100<=35) ＞ 6 ＞ スペシャル
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)*5 【CON成長】 (1D100<=40) ＞ 67 ＞ 失敗
-</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)*2 【DEX成長】 (1D100<=10) ＞ 87 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-14)＊5 STR成長 (1D100<=20) ＞ 85 ＞ 失敗
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-11)＊5 CON成長 (1D100<=35) ＞ 33 ＞ 成功
+</span><span style="color: #00bcd4">染谷千冬 : ccb<=(18-9)＊2 DEX成長 (1D100<=18) ＞ 62 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-11)＊5 【STR成長】 (1D100<=35) ＞ 6 ＞ スペシャル
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-10)＊5 【CON成長】 (1D100<=40) ＞ 67 ＞ 失敗
+</span><span style="color: #db7093">染谷千秋 : ccb<=(18-13)＊2 【DEX成長】 (1D100<=10) ＞ 87 ＞ 失敗
 </span><span style="color: #db7093">染谷千秋 : 数日後、千冬に夢を見なくなったかどうかを尋ねます！
 </span><span style="color: #db7093">染谷千秋 : 「千冬、あれからあの夢見てる？」
 </span><span style="color: #00bcd4">染谷千冬 : 「……いや、ずっと見てない。千秋、ありがとう」

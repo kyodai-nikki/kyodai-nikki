@@ -287,7 +287,7 @@ custom:
 </span><span style="color: #00bcd4">染谷千冬 : 「しかたないな」
 </span><span style="color: #db7093">染谷千秋 : 「……」その頬にもう一度キスします。
 
-</span><span style="color: #000">\_ 次のシーンで刺される側を決めます。
+</span><span style="color: #000">次のシーンで刺される側を決めます。
 1が千冬、2が千秋です。
 </span><span style="color: #000">s1d2 (1D2) ＞ 1
 </span><span style="color: #000">そうして口付けをしていると、気付けばそこは家庭的なリビングルームだった。
