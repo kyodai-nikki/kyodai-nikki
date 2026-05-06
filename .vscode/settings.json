@@ -1,0 +1,12 @@
+{
+  "[markdown]": {
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabCompletion": "off",
+    "editor.autoIndent": "none"
+  }
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if ! git diff --quiet -- src/content/episodes; then
+  echo "Staging normalized episode content for the next commit..."
+  git add src/content/episodes
+fi

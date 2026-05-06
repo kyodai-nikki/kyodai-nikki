@@ -12,6 +12,8 @@
     "astro": "astro",
     "replace-br": "node scripts/replace-br.mjs",
     "replace-br:dry": "node scripts/replace-br.mjs --dry-run",
+    "normalize-episode-md": "node scripts/normalize-episode-markdown.mjs",
+    "normalize-episode-md:dry": "node scripts/normalize-episode-markdown.mjs --dry-run",
     "optimize-gallery": "node scripts/optimize-gallery.mjs",
     "renumber-content": "node scripts/renumber-content.mjs",
     "renumber-content:dry": "node scripts/renumber-content.mjs --dry-run"
