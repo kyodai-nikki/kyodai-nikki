@@ -14,7 +14,7 @@ const characters = await orderedCharacters();
     {characters.map((c, i) => (
       <li class="chars-card" style={{ "--i": i }}>
         <a href={characterHref(c)} aria-label={c.data.name}>
-          <div class="chars-card__img-wrap">
+          <div class="chars-card__img-wrap u-image-zoom-frame">
             <img
               src={characterPortraitSrc(c)}
               alt={c.data.name}
@@ -30,6 +30,10 @@ const characters = await orderedCharacters();
 
 <style>
   .chars-grid {
+    --characters-card-border: var(--c-border);
+    --characters-placeholder-stripe-dark: var(--bc-gray);
+    --characters-placeholder-stripe-light: rgb(from var(--bc-gray) r g b / 0.35);
+
     list-style: none;
     padding: 0;
     margin: 0 auto;
@@ -56,20 +60,20 @@ const characters = await orderedCharacters();
   }
 
   .chars-card__img-wrap {
+    --image-filter: grayscale(1);
+    --image-hover-filter: grayscale(0);
+    --image-hover-scale: 1.03;
     position: relative;
     width: 150px;
     height: 600px;
-    overflow: hidden;
-    border-radius: var(--r-sm);
-    border: 1px solid var(--c-fg);
+    border-radius: var(--r-md);
+    border: 1px solid var(--characters-card-border);
     background:
       repeating-linear-gradient(
         135deg,
-        #d7d7d7 0 2px,
-        #ebebeb 2px 8px
+        var(--characters-placeholder-stripe-dark) 0 2px,
+        var(--characters-placeholder-stripe-light) 2px 8px
       );
-    transition: transform var(--dur-base) var(--ease-out),
-                filter var(--dur-base) var(--ease-out);
   }
 
   .chars-card__img {
@@ -77,18 +81,8 @@ const characters = await orderedCharacters();
     height: 100%;
     object-fit: cover;
     display: block;
-    filter: grayscale(1);
-    transition: filter var(--dur-base) var(--ease-out);
   }
 
-  .chars-card a:hover .chars-card__img-wrap,
-  .chars-card a:focus-visible .chars-card__img-wrap {
-    transform: translateY(-4px);
-  }
-  .chars-card a:hover .chars-card__img,
-  .chars-card a:focus-visible .chars-card__img {
-    filter: grayscale(0);
-  }
   @keyframes chars-rise {
     from {
       opacity: 0;
@@ -117,8 +111,9 @@ const characters = await orderedCharacters();
       flex-basis: 150px;
     }
 
-    .chars-card__img {
-      filter: none;
+    .chars-card__img-wrap {
+      --image-filter: brightness(1);
+      --image-hover-filter: opacity(1);
     }
   }
 

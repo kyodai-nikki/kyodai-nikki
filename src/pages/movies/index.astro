@@ -40,6 +40,13 @@ const orderedVideos = await orderedMovies();
 
 <style>
   .movies {
+    --movie-frame-bg: var(--c-bg);
+    --movie-frame-border: var(--c-image-card-frame-border);
+    --movie-title-fg: var(--c-fg);
+    --movies-empty-fg: var(--c-fg-muted);
+    --movies-empty-bg: var(--c-white-card-translucent-bg);
+    --movies-empty-border: var(--c-border);
+
     padding-top: 20px;
   }
 
@@ -61,11 +68,10 @@ const orderedVideos = await orderedMovies();
 
   .movie-card__frame {
     width: 100%;
-    max-width: 300px;
     aspect-ratio: 16 / 9;
     overflow: hidden;
-    background: #ffffff;
-    border: 1px solid rgba(17, 17, 17, 0.72);
+    background: var(--movie-frame-bg);
+    border: 1px solid var(--movie-frame-border);
   }
 
   .movie-card__frame iframe {
@@ -84,7 +90,7 @@ const orderedVideos = await orderedMovies();
     font-size: 18px;
     line-height: 1.45;
     font-weight: var(--fw-regular);
-    color: var(--c-fg);
+    color: var(--movie-title-fg);
   }
 
   .movies__empty {
@@ -92,16 +98,16 @@ const orderedVideos = await orderedMovies();
     margin: 0 auto;
     padding: var(--s-6);
     text-align: center;
-    color: var(--c-fg-muted);
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid var(--c-border);
+    color: var(--movies-empty-fg);
+    background: var(--movies-empty-bg);
+    border: 1px solid var(--movies-empty-border);
   }
 
   @media (--bp-tablet) {
     .movies-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
       max-width: 680px;
-      gap: 32px;
+      gap: 30px 20px;
     }
 
     .movie-card__title {

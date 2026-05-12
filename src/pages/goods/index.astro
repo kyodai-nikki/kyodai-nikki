@@ -1,5 +1,6 @@
 ﻿---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import ImageCardFrame from "../../components/common/ImageCardFrame.astro";
 import PageHeading from "../../components/common/PageHeading.astro";
 import GoodsMediaModal from "../../components/goods/GoodsMediaModal.astro";
 import { goodsImage, orderedGoods } from "../../lib/goods";
@@ -34,16 +35,20 @@ const goods = await orderedGoods();
               aria-label={commonMsg.actions.open(item.title)}
               data-modal-open={modalId}
             >
-              <div class="goods-card__image-wrap">
+              <ImageCardFrame
+                class="goods-card__frame"
+                aspectRatio="4 / 2.65"
+                fit="contain"
+                background="var(--goods-image-bg)"
+              >
                 <img
-                  class="goods-card__image"
                   src={goodsImage(entry)}
                   alt={item.title}
                   loading="lazy"
                   width="640"
                   height="480"
                 />
-              </div>
+              </ImageCardFrame>
               <p class="goods-card__title">{item.title}</p>
             </button>
           );
@@ -70,6 +75,13 @@ const goods = await orderedGoods();
 
 <style>
   .goods {
+    --goods-card-title-fg: var(--c-fg);
+    --goods-card-title-hover-fg: var(--c-fg-muted);
+    --goods-empty-fg: var(--c-fg-muted);
+    --goods-empty-bg: var(--c-white-card-translucent-bg);
+    --goods-empty-border: var(--c-border);
+    --goods-image-bg: var(--c-bg);
+
     padding-top: 20px;
   }
 
@@ -92,21 +104,12 @@ const goods = await orderedGoods();
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    color: var(--goods-card-title-fg);
   }
 
-  .goods-card__image-wrap {
-    width: 100%;
-    background: #2f2f2f;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    overflow: hidden;
-  }
-
-  .goods-card__image {
-    width: 100%;
-    aspect-ratio: 4 / 2.65;
-    object-fit: contain;
-    display: block;
-    background: #ffffff;
+  .goods-card:hover,
+  .goods-card:focus-visible {
+    --goods-card-title-fg: var(--goods-card-title-hover-fg);
   }
 
   .goods-card__title {
@@ -115,7 +118,8 @@ const goods = await orderedGoods();
     font-family: var(--font-family-base);
     font-size: 17px;
     line-height: 1.4;
-    color: var(--c-fg);
+    color: var(--goods-card-title-fg);
+    transition: color var(--dur-slow) var(--ease-out);
   }
 
   .goods__empty {
@@ -123,9 +127,9 @@ const goods = await orderedGoods();
     margin: 0 auto;
     padding: var(--s-6);
     text-align: center;
-    color: var(--c-fg-muted);
-    background: rgba(255, 255, 255, 0.8);
-    border: 1px solid var(--c-border);
+    color: var(--goods-empty-fg);
+    background: var(--goods-empty-bg);
+    border: 1px solid var(--goods-empty-border);
   }
 
   @media (--bp-tablet) {
