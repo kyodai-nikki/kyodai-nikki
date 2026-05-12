@@ -55,11 +55,13 @@ const items = headerNavItems(path);
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100vw;
     z-index: var(--z-header);
   }
 
   .site-header__top {
+    --header-bg: var(--c-header-bg);
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,19 +70,20 @@ const items = headerNavItems(path);
     max-width: none;
     height: var(--h-header-top);
     padding-inline: 200px;
-    background: var(--c-header-bg);
+    background: var(--header-bg);
   }
 
   .site-brand {
+    --header-brand-fg: var(--c-header-brand-fg);
+
     display: inline-flex;
     align-items: baseline;
     gap: var(--s-3);
-    font-family: var(--font-family-navigation);
+    font-family: var(--font-family-base);
     font-size: var(--fs-xl);
     font-weight: var(--fw-bold);
-    color: var(--c-fg);
+    color: var(--header-brand-fg);
     text-decoration: none;
-    letter-spacing: var(--ls-normal);
   }
 
   .site-brand__logo {
@@ -98,14 +101,16 @@ const items = headerNavItems(path);
   }
 
   .site-header__nav {
+    --header-nav-bg: var(--c-header-nav-bg);
+
     position: relative;
     z-index: 11;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: var(--h-header-nav);
-    background: var(--c-header-nav-bg);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+    background: var(--header-nav-bg);
+    box-shadow: var(--sh-header);
     backdrop-filter: saturate(1.2) blur(8px);
     -webkit-backdrop-filter: saturate(1.2) blur(8px);
   }
@@ -124,7 +129,7 @@ const items = headerNavItems(path);
       height: 150px;
       padding-inline: var(--s-6);
       position: relative;
-      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+      box-shadow: var(--sh-header);
     }
 
     .site-brand__logo {

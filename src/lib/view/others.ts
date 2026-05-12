@@ -17,7 +17,6 @@ export interface OthersTabItem {
 export interface SettingsMaterialImage {
   src: string;
   alt: string;
-  href?: string;
 }
 
 export const othersTabItems = (
@@ -35,8 +34,7 @@ export const settingsCharacterHref = (characterSlug: string): string =>
 export const settingsMaterialImages = (
   entry: OthersSettingsMaterialEntry,
 ): SettingsMaterialImage[] =>
-  settingsMaterialImageSrcs(entry).map((src, index) => ({
+  settingsMaterialImageSrcs(entry).map((src) => ({
     src,
     alt: entry.data.title,
-    href: entry.data.documentUrls[index],
   }));

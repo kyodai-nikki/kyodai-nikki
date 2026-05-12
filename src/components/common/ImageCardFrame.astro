@@ -1,0 +1,70 @@
+---
+interface Props {
+  class?: string;
+  aspectRatio?: string;
+  mobileAspectRatio?: string;
+  fit?: "cover" | "contain";
+  baseBackground?: string;
+  background?: string;
+  imageBackground?: string;
+}
+
+const {
+  class: className,
+  aspectRatio = "4 / 3",
+  mobileAspectRatio,
+  fit = "cover",
+  baseBackground = "var(--c-bg)",
+  background = "var(--c-image-card-frame-bg)",
+  imageBackground,
+} = Astro.props;
+---
+
+<div
+  class:list={["image-card-frame", "u-image-zoom-frame", className]}
+  style={{
+    "--image-card-frame-aspect": aspectRatio,
+    "--image-card-frame-mobile-aspect": mobileAspectRatio ?? aspectRatio,
+    "--image-card-frame-fit": fit,
+    "--image-card-frame-base-bg": baseBackground,
+    "--image-card-frame-bg": background,
+    "--image-card-frame-img-bg": imageBackground ?? baseBackground,
+  }}
+>
+  <slot />
+</div>
+
+<style>
+  /* Shared frame for card thumbnails. Layout and labels stay with each page. */
+  .image-card-frame {
+    --image-card-frame-border: var(--c-image-card-frame-border);
+
+    width: 100%;
+    border: 1px solid var(--image-card-frame-border);
+    background:
+      linear-gradient(var(--image-card-frame-bg), var(--image-card-frame-bg)),
+      var(--image-card-frame-base-bg);
+  }
+
+  .image-card-frame > :global(picture) {
+    display: contents;
+  }
+
+  .image-card-frame > :global(img),
+  .image-card-frame > :global(picture) > :global(img) {
+    width: 100%;
+    aspect-ratio: var(--image-card-frame-aspect);
+    object-fit: var(--image-card-frame-fit);
+    display: block;
+    background:
+      linear-gradient(var(--image-card-frame-img-bg), var(--image-card-frame-img-bg)),
+      var(--image-card-frame-base-bg);
+  }
+
+  @media (--bp-mobile) {
+    .image-card-frame > :global(img),
+    .image-card-frame > :global(picture) > :global(img) {
+      aspect-ratio: var(--image-card-frame-mobile-aspect);
+    }
+  }
+</style>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ImageCardFrame from "../../../components/common/ImageCardFrame.astro";
 import Button from "../../../components/common/btn/Button.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
@@ -41,24 +42,27 @@ const materials = await orderedSettingsMaterials(characterSlug);
 
   <div class="others-settings">
     <SettingsCharacterStickyNav
-      class="others-settings__sticky-nav"
       characters={settingsCharacters}
       currentSlug={characterSlug}
     />
 
     <nav class="others-settings__nav" aria-label={othersPageMsg.aria.settingsCharacters}>
-      {settingsCharacters.map((item) => (
-        <Button
-          class="others-settings__nav-button"
-          href={settingsCharacterHref(settingsCharacterSlug(item))}
-          type={settingsCharacterSlug(item) === characterSlug ? "black" : "white"}
-          size="m"
-          minWidth="148px"
-          aria-current={settingsCharacterSlug(item) === characterSlug ? "page" : undefined}
-        >
-          {item.data.name}
-        </Button>
-      ))}
+      {settingsCharacters.map((item) => {
+        const slug = settingsCharacterSlug(item);
+        const isCurrent = slug === characterSlug;
+        return (
+          <Button
+            href={isCurrent ? undefined : settingsCharacterHref(slug)}
+            disabled={isCurrent}
+            type={isCurrent ? "black" : "white"}
+            size="m"
+            minWidth="148px"
+            aria-current={isCurrent ? "page" : undefined}
+          >
+            {item.data.name}
+          </Button>
+        );
+      })}
     </nav>
 
     <div class="others-settings__content">
@@ -72,16 +76,15 @@ const materials = await orderedSettingsMaterials(characterSlug);
               aria-label={commonMsg.actions.open(item.data.title)}
               data-modal-open={modalId}
             >
-              <div class="others-settings__card-image-wrap">
+              <ImageCardFrame aspectRatio="4 / 3">
                 <img
-                  class="others-settings__card-image"
                   src={settingsMaterialThumbnailSrc(item)}
                   alt={item.data.title}
                   loading="lazy"
                   width="640"
                   height="480"
                 />
-              </div>
+              </ImageCardFrame>
               <p class="others-settings__card-title">{item.data.title}</p>
             </button>
           );
@@ -113,7 +116,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
     gap: 28px;
     max-width: 1220px;
     margin: 0 auto;
-    min-height: 620px;
+    min-height: 300px;
   }
 
   .others-settings__nav {
@@ -124,7 +127,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
   }
 
   .others-settings__content {
-    border-left: 1px solid var(--c-bg-pure-black);
+    border-left: 1px solid var(--c-border);
     padding-left: 28px;
   }
 
@@ -148,21 +151,6 @@ const materials = await orderedSettingsMaterials(characterSlug);
     align-items: center;
   }
 
-  .others-settings__card-image-wrap {
-    width: 100%;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    overflow: hidden;
-    background: #fff;
-  }
-
-  .others-settings__card-image {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    display: block;
-    object-fit: cover;
-    background: #fff;
-  }
-
   .others-settings__card-title {
     margin: 0;
     text-align: center;
@@ -175,7 +163,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
   @media (--bp-tablet) {
     .others-settings {
       grid-template-columns: 1fr;
-      gap: 24px;
+      gap: 0;
       min-height: auto;
     }
 
@@ -190,7 +178,7 @@ const materials = await orderedSettingsMaterials(characterSlug);
     }
 
     .others-settings__grid {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 20px;
     }
 

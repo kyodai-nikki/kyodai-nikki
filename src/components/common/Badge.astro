@@ -11,23 +11,30 @@ const { label, variant = "default" } = Astro.props;
 
 <style>
   .badge {
+    --badge-bg: var(--c-badge-bg);
+    --badge-fg: var(--c-badge-fg);
+
     display: inline-flex;
     align-items: center;
     padding: var(--s-1) var(--s-3);
-    border-radius: 4px;
+    border-radius: var(--r-md);
     font-family : var(--font-family-base);
     font-size: var(--fs-m);
     line-height: var(--lh-s-tight);
     letter-spacing: var(--ls-wide);
   }
 
+  /* Generated from the `variant` prop: badge--${variant}. */
   .badge--default {
-    background: var(--c-badge-bg);
-    color: var(--c-badge-fg);
+    background: var(--badge-bg);
+    color: var(--badge-fg);
   }
 
   .badge--alt {
-    background: var(--c-badge-alt-bg);
-    color: var(--c-badge-alt-fg);
+    --badge-bg: var(--c-badge-alt-bg);
+    --badge-fg: var(--c-badge-alt-fg);
+
+    background: var(--badge-bg);
+    color: var(--badge-fg);
   }
 </style>

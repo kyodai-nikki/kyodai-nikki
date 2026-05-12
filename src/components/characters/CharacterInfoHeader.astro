@@ -14,12 +14,14 @@ const { name, nameKana } = Astro.props;
 
 <style>
   .character-info-header {
+    --character-info-border: var(--c-character-info-border);
+
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     gap: var(--s-4);
     padding-bottom: var(--s-3);
-    border-bottom: 1px solid var(--c-fg);
+    border-bottom: 1px solid var(--character-info-border);
   }
 
   .character-info-header__name {
@@ -33,7 +35,6 @@ const { name, nameKana } = Astro.props;
   .character-info-header__name-kana {
     font-family: var(--font-family-base);
     font-size: 16px;
-    letter-spacing: var(--ls-wide);
     white-space: nowrap;
   }
 

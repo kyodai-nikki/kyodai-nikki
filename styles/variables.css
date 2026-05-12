@@ -23,128 +23,154 @@
 
 :root {
   /* Colors ------------------------------------------------ */
-  /* 基調：純白 + 濃墨。線や meta はごく薄いグレーで締める */
-  --c-bg: #ffffff;
-  --c-bg-elev: #ffffff;
-  --c-bg-muted: #f5f5f5; /* セクション背景を少しだけ落としたい時 */
+  /*
+    Token placement:
+    - Keep raw palette colors (`--bc-*`) and shared semantic colors (`--c-*`) here.
+    - Keep shared component defaults here when multiple call sites can reuse/override them.
+    - Keep page-only color roles inside that page/component stylesheet instead of promoting them here.
+  */
+  /* Base colors: raw site colors. Components should not use these directly. */
+  --bc-black-strong: #1a1a1a;
+  --bc-black: #333333;
+  --bc-black-soft: #555555;
+  --bc-gray-strong: #7e7e7e;
+  --bc-gray: #bfbfbf;
+  --bc-gray-light: #eae3d7;
+  --bc-gray-lightest: #f5f2ed;
+  --bc-white: #ffffff;
+  --bc-pink: #e86a8b;
+  --bc-cyan: #00bcd4;
+  --bc-red: #db2f2f;
 
-  --c-fg: #000000; /* 見出し・強いテキスト */
-  --c-fg-body: #000000; /* 本文 */
-  --c-fg-muted: #8a8a8a; /* meta / 補助 */
-  --c-fg-subtle: #b5b5b5; /* disabled / プレースホルダ */
+  /* Base -------------------------------------------------- */
+  --c-bg: var(--bc-white);
+  --c-fg: var(--bc-black);
+  --c-fg-body: var(--bc-black);
+  --c-fg-muted: var(--bc-gray-strong);
+  --c-fg-subtle: var(--bc-gray);
+  --c-border: var(--bc-black);
+  --c-alert: var(--bc-red);
+  --c-site-pink: var(--bc-pink);
+  --c-site-cyan: var(--bc-cyan);
 
-  --c-border: #333; /* デフォルト罫線 */
-  --c-border-strong: #cfcfcf; /* hover やフォーカス時 */
-  --c-border-black: #000000;
+  /* Reversed surfaces ------------------------------------ */
+  --c-bg-alt: var(--bc-black);
+  --c-fg-alt: var(--c-bg);
 
-  /* アクセントは設けず、本文色を使い回す（兄弟日記のモノクロ感を優先） */
-  --c-accent: #333;
-  --c-accent-hover: #4a4a4a;
-  --c-accent-soft: #f2f2f2;
+  /* Header / nav / footer ------------------------------- */
+  --c-header-bg: var(--c-bg);
+  --c-header-nav-bg: rgb(from var(--bc-white) r g b / 0.8);
+  --c-header-brand-fg: var(--c-fg);
+  --c-header-menu-icon: var(--bc-black);
+  --c-nav-link: var(--bc-black-soft);
+  --c-nav-link-hover: var(--c-site-cyan);
+  --c-nav-link-active: var(--c-site-pink);
+  --c-nav-drawer-fg: var(--c-fg);
+  --c-nav-drawer-panel-bg: rgb(from var(--bc-white) r g b / 0.94);
+  --c-nav-drawer-backdrop: rgb(from var(--bc-black-strong) r g b / 0.24);
+  --c-nav-text-shadow: rgb(from var(--bc-white) r g b / 0.85);
+  --c-nav-toggle-fg: var(--c-fg);
+  --c-nav-toggle-active-fg: var(--c-header-menu-icon);
+  --c-nav-panel-close-fg: var(--c-header-menu-icon);
+  --c-footer-bg: var(--c-bg);
+  --c-footer-copyright: var(--bc-black-soft);
+  --c-footer-share: var(--bc-black-soft);
+  --c-share-btn-bg: var(--bc-black);
+  --c-share-btn-fg: var(--c-fg-alt);
+  --c-share-btn-bg-on-log: var(--bc-black-soft);
 
-  /* 寒色・暖色のワンポイント（タブのアクティブ/ホバーなどに使用） */
-  --c-site-pink: #e86a8b;
-  --c-site-cyan: #00bcd4;
+  /* BackToTop button ------------------------------------ */
+  --c-back-to-top-bg: rgb(from var(--bc-gray) r g b / 0.96);
+  --c-back-to-top-fg: var(--c-fg-alt);
 
-  /* ログ内の役割色（控えめに残す） */
-  --c-roll: #2f5d3f;
-  --c-roll-bg: #eef3ef;
-  --c-fail: #8a3030;
-  --c-fail-bg: #f5ecec;
+  /* Modal ----------------------------------------------- */
+  --c-modal-bg: var(--c-bg);
+  --c-modal-border: var(--c-border);
+  --c-modal-backdrop: rgb(from var(--bc-black-strong) r g b / 0.5);
+  --c-modal-close-fg: var(--c-fg);
 
-  /* 反転（ダーク）背景・テキスト ----------------------- */
-  /* 同じ色値でも本文色（--c-fg-body）と意味が違うものは別変数として持つ */
-  --c-bg-dark: #2b2b2b; /* 反転サーフェス（選択中エピソード等） */
-  --c-bg-darker: #2a2a2a; /* 反転サーフェス（alt エピソード）*/
-  --c-bg-darker-hover: #2b2b2b; /* 上記 alt の hover */
-  --c-bg-darkest: #2f2f2f; /* 反転サーフェス（グッズカード地・ボタン black 地） */
-  --c-bg-darkest-hover: #232323; /* 反転サーフェスの強 hover */
-  --c-bg-near-black: #1f1f1f; /* 純黒に近い文字色（ログ本文・アロー） */
-  --c-bg-pure-black: #000000; /* ピュア黒（ログアロー hover） */
+  /* Media modal ----------------------------------------- */
+  --c-media-modal-image-backdrop: var(--c-bg);
+  --c-media-modal-loader-track: rgb(from var(--bc-gray-strong) r g b / 0.2);
+  --c-media-modal-loader-active: rgb(from var(--bc-black-soft) r g b / 0.7);
 
-  --c-fg-on-dark: #ffffff; /* ダーク反転背景上のテキスト */
-  --c-fg-on-dark-soft: rgba(255, 255, 255, 0.92); /* 同上、やや弱め */
+  /* Button ------------------------------------ */
+  --c-btn-bg: var(--c-bg-alt);
+  --c-btn-fg: var(--c-fg-alt);
+  --c-btn-border: var(--c-border);
+  --c-btn-hover-bg: var(--c-btn-fg);
+  --c-btn-hover-fg: var(--c-btn-bg);
+  --c-white-btn-bg: var(--c-bg);
+  --c-white-btn-fg: var(--c-fg);
+  --c-white-btn-hover-bg: var(--c-white-btn-fg);
+  --c-white-btn-hover-fg: var(--c-white-btn-bg);
 
-  /* News ------------------------------------------------ */
-  --c-news-border: #333333;
-  --c-news-date-fg: #666666;
-  --c-news-text-fg: #333333;
+  /* Tabs ----------------------------------------------- */
+  --c-tabs-fg: var(--c-fg);
+  --c-tabs-border: var(--c-site-cyan);
+  --c-tabs-active-border: var(--c-site-pink);
 
-  /* ヘッダ / ナビ / フッタ ---------------------------- */
-  --c-header-bg: #ffffff;
-  --c-header-nav-bg: rgba(255, 255, 255, 0.8); /* ぼかし半透明バー */
-  --c-header-menu-icon: #333333;
-  --c-nav-link: #5f5f5f;
-  --c-footer-bg: #ffffff;
-  --c-footer-copyright: #6a6a6a;
-  --c-footer-share: #4d4d4d;
-  --c-share-btn-bg: #000000;
+  /* Episode log ----------------------------------------- */
+  --c-log-fg: var(--c-bg-alt);
+  --c-log-arrow-fg: var(--c-bg-alt);
+  --c-log-body-fg: var(--c-fg-body);
+  --c-log-heading-fg: var(--c-fg);
+  --c-log-quote-border: var(--c-border);
+  --c-log-quote-fg: var(--c-fg-body);
+  --c-log-rule: var(--c-border);
+  --c-log-meta-fg: var(--bc-black-strong);
+  --c-log-divider-strong: var(--c-border);
 
-  /* BackToTop ボタン ----------------------------------- */
-  --c-back-to-top-bg: rgba(206, 206, 206, 0.96);
-  --c-back-to-top-bg-hover: rgba(184, 184, 184, 0.98);
-  --c-back-to-top-fg: #ffffff;
+  /* Episode list / detail ------------------------------- */
+  --c-episode-list-empty-fg: var(--c-fg-muted);
+  --c-episode-list-bg: var(--c-bg);
+  --c-episode-list-fg: var(--c-fg);
+  --c-episode-list-border: var(--c-border);
+  --c-episode-list-alt-bg: var(--c-bg-alt);
+  --c-episode-list-alt-fg: var(--c-fg-alt);
+  --c-episode-detail-bg: var(--c-bg);
+  --c-episode-detail-fg: var(--c-fg);
+  --c-episode-detail-border: var(--c-border);
+  --c-episode-detail-alt-bg: var(--c-bg-alt);
+  --c-episode-detail-alt-fg: var(--c-fg-alt);
+  --c-episode-detail-empty-fg: var(--c-fg-muted);
+  --c-episode-detail-image-bg: var(--c-bg);
+  --c-episode-detail-pager-arrow-fg: var(--c-log-arrow-fg);
+  --c-episode-spoiler-notice-title-fg: var(--c-fg);
+  --c-episode-spoiler-notice-copy-fg: var(--c-fg-body);
 
-  /* モーダル ------------------------------------------ */
-  --c-modal-bg: #ffffff;
-  --c-modal-backdrop: rgba(0, 0, 0, 0.24);
-  --c-modal-spoiler-bg: rgba(255, 255, 255, 0.98);
-  --c-modal-spoiler-backdrop: rgba(0, 0, 0, 0.32);
-  --c-modal-caption-fg: #5b5b5b;
+  /* Episode list gradients ------------------------------ */
+  --c-ep-item-grad-mid-light: rgb(from var(--bc-gray-lightest) r g b / 0.54);
+  --c-ep-item-grad-end-light: rgb(from var(--bc-gray-light) r g b / 0);
+  --c-ep-item-grad-mid-dark: rgb(from var(--bc-black-strong) r g b / 0.54);
+  --c-ep-item-grad-end-dark: rgb(from var(--bc-black-strong) r g b / 0);
+  --c-ep-item-grad-mid-darker: rgb(from var(--bc-black) r g b / 0.54);
+  --c-ep-item-grad-end-darker: rgb(from var(--bc-black) r g b / 0);
 
-  /* ログ詳細 ------------------------------------------ */
-  --c-log-fg: var(--c-bg-near-black); /* ログ本文テキスト */
-  --c-log-arrow-fg: var(--c-bg-near-black); /* フッターアロー */
-  --c-log-arrow-fg-hover: var(--c-bg-pure-black);
-  --c-log-meta-fg: #202020; /* メタ情報テキスト */
-  --c-log-divider-strong: #2d2d2d; /* シナリオ情報・パネルの濃罫線 */
-  --c-log-vertical-divider: #000000; /* レイアウトの縦罫線 */
-  --c-log-panel-bg: rgba(255, 255, 255, 0.98);
+  /* Badge ----------------------------------------------- */
+  --c-badge-bg: var(--bc-black);
+  --c-badge-fg: var(--c-fg-alt);
+  --c-badge-alt-bg: var(--c-bg);
+  --c-badge-alt-fg: var(--c-alert);
 
-  /* タイムライン -------------------------------------- */
-  --c-timeline-rail: #9f9f9f;
-  --c-timeline-rail-strong: rgba(32, 32, 32, 0.7);
-  --c-timeline-dot: #cccccc;
-  --c-timeline-date-fg: #7e7e7e;
-  --c-timeline-cast-fg: #8a8a8a;
-  --c-timeline-card-bg: #343434; /* alt カード地 */
-  --c-timeline-card-bg-hover: #2b2b2b; /* alt カード hover */
-  --c-timeline-card-border-strong: rgba(32, 32, 32, 0.9);
-  --c-timeline-main-bg: rgba(255, 255, 255, 0.82);
+  /* Cards ----------------------------------------------- */
+  --c-white-card-bg: var(--c-bg);
+  --c-white-card-border: var(--c-border);
+  --c-white-card-translucent-bg: rgb(from var(--bc-white) r g b / 0.8);
+  --c-white-card-translucent-border: var(--c-border);
+  --c-image-card-frame-bg: var(--c-bg);
+  --c-image-card-frame-border: var(--c-border);
 
-  /* エピソード一覧の背景グラデーション補色 ------------- */
-  --c-ep-item-grad-mid-light: rgba(245, 242, 237, 0.54);
-  --c-ep-item-grad-end-light: rgba(234, 227, 215, 0);
-  --c-ep-item-grad-mid-dark: rgba(26, 26, 26, 0.54);
-  --c-ep-item-grad-end-dark: rgba(26, 26, 26, 0);
-  --c-ep-item-grad-mid-darker: rgba(42, 42, 42, 0.54);
-  --c-ep-item-grad-end-darker: rgba(42, 42, 42, 0);
+  /* Character detail ------------------------------------ */
+  --c-character-info-border: var(--c-border);
+  --c-character-stats-fg: var(--c-fg-body);
+  --c-character-stats-border: var(--c-border);
+  --c-character-quote-fg: var(--c-fg);
+  --c-character-external-links-fg: var(--c-fg-body);
+  --c-character-external-links-heading-fg: var(--c-fg);
+  --c-character-external-links-link-fg: var(--c-fg);
 
-  /* シェアボタン -------------------------------------- */
-  --c-share-btn-bg-default: #6c6c6c;
-  --c-share-btn-bg-default-hover: #3f3f3f;
-  --c-share-btn-bg-on-log: #6f6f6f;
-  --c-share-btn-bg-on-log-hover: #2f2f2f;
-
-  /* ヘッダーナビ -------------------------------------- */
-  --c-site-menu-backdrop: rgba(17, 17, 17, 0.24);
-
-  /* Badge --------------------------------------------- */
-  --c-badge-bg: #333333;
-  --c-badge-fg: #ffffff;
-  --c-badge-alt-bg: #ffffff;
-  --c-badge-alt-fg: #db2f2f; /* --c-bg-dark と同値だが意味別 */
-
-  /* キャラクター画像プレースホルダ（縞模様） ----------- */
-  --c-placeholder-stripe-dark: #d7d7d7;
-  --c-placeholder-stripe-light: #ebebeb;
-
-  /* ホーム画面 ---------------------------------------- */
-  --c-home-bg: #eef1f4;
-  --c-home-tagline-shadow: rgba(255, 255, 255, 0.6);
-  --c-home-tagline-shadow-strong: #ffffff;
-  --sh-home-tagline: 0 1px 0 var(--c-home-tagline-shadow);
-  --sh-home-tagline-strong: 0 0 10px var(--c-home-tagline-shadow-strong);
+  /* Home ------------------------------------------------- */
   --h-home-tablet-peek: 80px;
   --h-home-mobile-peek: 140px;
   --w-home-logo-tablet: 450px;
@@ -154,45 +180,26 @@
   --fs-home-tagline-tablet: 32px;
   --fs-home-tagline-mobile: 14px;
 
-  /* 半透明サーフェス（empty / 半透明カード） ---------- */
-  --c-surface-translucent: rgba(255, 255, 255, 0.8);
+  /* Shared surfaces and borders ------------------------- */
+  --c-border-medium: var(--c-border);
 
-  /* カード・モーダル罫線 ------------------------------- */
-  --c-border-card: rgba(17, 17, 17, 0.72); /* グッズ・ギャラリー等 */
-  --c-border-modal: rgba(17, 17, 17, 0.75); /* モーダル枠 */
-  --c-border-faint: rgba(17, 17, 17, 0.18); /* settings の細罫線 */
-  --c-border-medium: rgba(17, 17, 17, 0.5); /* contact カード */
-  --c-border-spoiler: rgba(17, 17, 17, 0.16);
-
-  /* ページシェル背景（main の繊細なドットパターン） ---- */
-  --c-page-shell-grad-top: #ffffff;
-  --c-page-shell-grad-bottom: #fbfbfb;
-  --c-page-shell-dot: rgba(17, 17, 17, 0.16);
-
-  /* 画像背景（透過 PNG/SVG の下地） -------------------- */
-  --c-image-backdrop: #ffffff;
-
+  /* Component color roles ------------------------------- */
+  --c-sticky-note-tab-bg: rgb(from var(--bc-cyan) r g b / 0.8);
+  --c-sticky-note-tab-sheet-bg: var(--c-bg);
+  --c-sticky-note-link-fg: var(--c-fg);
+  --c-sticky-note-link-hover: var(--c-site-cyan);
+  --c-sticky-note-link-active: var(--c-site-pink);
   /* Typography ------------------------------------------- */
-  --f-sans:
-    "Abhaya Libre", "Noto Sans JP", "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", "Yu Gothic", "Meiryo", system-ui, -apple-system,
-    "Segoe UI", Roboto, sans-serif;
-  --f-serif:
-    "Abhaya Libre", "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho",
-    "MS Mincho", Georgia, "Times New Roman", serif;
-  --f-mono:
-    "Abhaya Libre", "JetBrains Mono", "Fira Code", Menlo, Consolas, monospace;
-  --f-log: "游明朝", serif;
+  --f-libre: "Libre Baskerville", serif;
+  --f-mincho: "Shippori Mincho", "游明朝", serif;
 
   /* Font roles ------------------------------------------- */
-  --font-family-base: "Shippori Mincho", var(--f-sans);
-  --font-family-other: "Shippori Mincho", var(--f-sans);
-  --font-family-other-heading: "Shippori Mincho", var(--f-serif);
-  --font-family-page-heading: "Shippori Mincho", var(--f-serif);
-  --font-family-log-body: "Shippori Mincho", var(--f-log);
-  --font-family-log-heading: "Shippori Mincho", var(--f-serif);
-  --font-family-navigation: "Shippori Mincho";
-  --font-family-head: "Libre Baskerville", var(--f-serif);
+  --font-family-base: var(--f-mincho);
+  --font-family-page-heading: var(--f-libre);
+  --font-family-log-heading: var(--f-mincho);
+  --font-family-log-body: var(--f-mincho);
+  --font-family-head: var(--f-libre);
+  --font-family-navigation: var(--f-libre);
 
   --fs-xs: 0.75rem; /* 12px */
   --fs-sm: 0.8125rem; /* 13px — ナビ・meta に多用 */
@@ -217,10 +224,7 @@
   --fw-black: 900;
 
   /* letter-spacing：ナビや英字ラベルに広めに入れて抜け感を出す */
-  --ls-tight: -0.01em;
   --ls-normal: 0;
-  --ls-wide: 0.08em;
-  --ls-wider: 0.16em;
 
   /* Spacing (4px ベース) -------------------------------- */
   --m-xs: 4px;
@@ -243,20 +247,16 @@
   --s-10: 8rem;
 
   /* Radius ----------------------------------------------- */
-  --r-sm: 2px; /* 基本的に角丸は控えめ */
-  --r-md: 4px;
-  --r-lg: 8px;
+  --r-md: 2px;
+  --r-m: 4px;
   --r-full: 9999px;
 
   /* Shadows ---------------------------------------------- */
   /* モノクロ基調では影をほぼ使わない。カードは線で区切る方針。 */
-  --sh-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
-  --sh-md: 0 4px 16px rgba(0, 0, 0, 0.06);
-  --sh-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
-  --sh-card-hover: 0 18px 28px rgba(0, 0, 0, 0.14); /* gallery card hover */
-  --sh-timeline-card: 0 8px 18px rgba(0, 0, 0, 0.08); /* timeline card hover */
-  --sh-modal: 0 30px 80px rgba(0, 0, 0, 0.22); /* モーダル外周 */
-  --sh-site-menu: -10px 2px 10px rgba(51, 51, 51, 0.1);
+  --sh-header: 0 2px 2px rgb(from var(--bc-black-strong) r g b / 0.2);
+  --sh-footer: 0 -2px 2px rgb(from var(--bc-black-strong) r g b / 0.2);
+  --sh-modal: 0 30px 80px rgb(from var(--bc-black-strong) r g b / 0.2);
+  --sh-site-menu: -10px 2px 10px rgb(from var(--bc-black-strong) r g b / 0.2);
 
   /* Layout widths --------------------------------------- */
   --w-content: 68ch; /* 本文・ログ本体（読み物向け幅） */
@@ -282,9 +282,9 @@
 
   /* Motion ---------------------------------------------- */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
-  --dur-fast: 120ms;
-  --dur-base: 200ms;
-  --dur-slow: 400ms;
+  --ease-button: cubic-bezier(0.4, 0.4, 0, 1);
+  --dur-base: 0.3s;
+  --dur-slow: 0.3s;
 }
 
 /* Dark mode は後から追加しやすいようにフック用意

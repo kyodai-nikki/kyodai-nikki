@@ -25,7 +25,6 @@ const {
 
 <div class:list={["site-nav-shell", "container", className]}>
   <NavDrawer
-    class="site-nav"
     id={id}
     ariaLabel={ariaLabel}
     openLabel={openLabel}
@@ -34,13 +33,11 @@ const {
   >
     <div class="site-nav__list">
       {items.map((item) => (
-        <a
-          class="site-nav__link"
-          href={item.href}
-          aria-current={item.current ? "page" : undefined}
-        >
-          {item.label}
-        </a>
+        item.current ? (
+          <span class="site-nav__link" aria-current="page">{item.label}</span>
+        ) : (
+          <a class="site-nav__link" href={item.href}>{item.label}</a>
+        )
       ))}
       {twitterHref && (
         <a class="site-nav__social-link" href={twitterHref} target="_blank" rel="noopener">
@@ -53,6 +50,9 @@ const {
 
 <style>
   .site-nav-shell {
+    --site-nav-mobile-link-fg: var(--c-nav-drawer-fg);
+    --site-nav-mobile-text-shadow: var(--c-nav-text-shadow);
+
     padding: 0;
   }
 
@@ -66,26 +66,30 @@ const {
 
   .site-nav__link,
   .site-nav__social-link {
+    --site-nav-link-fg: var(--c-nav-link);
+    --site-nav-link-hover: var(--c-nav-link-hover, var(--c-site-cyan));
+    --site-nav-link-active: var(--c-nav-link-active);
+
     display: inline-block;
-    color: var(--c-nav-link);
+    color: var(--site-nav-link-fg);
     text-decoration: none;
-    font-family: var(--font-family-head);
+    font-family: var(--font-family-navigation);
     font-size: 24px;
     font-weight: var(--fw-regular);
     letter-spacing: 0;
     padding: var(--s-2) 0;
     position: relative;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-
-  .site-nav__link:hover,
-  .site-nav__social-link:hover {
-    color: var(--c-site-cyan);
+    transition: color var(--dur-base) var(--ease-out);
   }
 
   .site-nav__link[aria-current="page"],
   .site-nav__social-link[aria-current="page"] {
-    color: var(--c-site-pink);
+    color: var(--site-nav-link-active);
+  }
+
+  a.site-nav__link:hover,
+  .site-nav__social-link:hover {
+    color: var(--site-nav-link-hover);
   }
 
   .site-nav__social-link {
@@ -114,13 +118,22 @@ const {
       width: min(100%, 340px);
       padding: 0;
       border-bottom: 0;
-      color: var(--c-fg);
+      color: var(--site-nav-mobile-link-fg);
       font-size: 34px;
-      font-weight: var(--fw-bold);
+    font-weight: var(--fw-regular);
       line-height: 1.45;
-      letter-spacing: var(--ls-wider);
       text-align: center;
-      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.85);
+      text-shadow: 0 1px 0 var(--site-nav-mobile-text-shadow);
+    }
+
+    .site-nav__link[aria-current="page"],
+    .site-nav__social-link[aria-current="page"] {
+      color: var(--site-nav-link-active);
+    }
+
+    a.site-nav__link:hover,
+    .site-nav__social-link:hover {
+      color: var(--site-nav-link-hover);
     }
 
     .site-nav__social-link {

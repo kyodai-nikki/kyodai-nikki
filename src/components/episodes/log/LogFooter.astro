@@ -1,6 +1,6 @@
 ﻿---
 import ShareButtons from "../../common/btn/ShareButtons.astro";
-import Icon, { IconName } from "../../common/Icon.astro";
+import EpisodeArrowPager from "../EpisodeArrowPager.astro";
 import { episodesPageMsg } from "../../../msg/episodes";
 
 interface Props {
@@ -23,69 +23,38 @@ const {
 ---
 
 <footer class="episode-log__footer">
-  <div class="episode-log__footer-nav">
-    {showPreviousButton && previousHref ? (
-      <a class="episode-log__arrow" href={previousHref} aria-label={episodesPageMsg.aria.previousEpisodeMove}>
-        <Icon name={IconName.KeyboardArrowLeft} size={28} />
-      </a>
-    ) : (
-      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
-    )}
-
+  <EpisodeArrowPager
+    previousHref={showPreviousButton ? previousHref : undefined}
+    nextHref={showNextButton ? nextHref : undefined}
+    ariaLabel={episodesPageMsg.aria.logNavigation}
+  >
     <ShareButtons
       url={shareUrl}
       title={shareTitle}
       variant="log"
     />
-
-    {showNextButton && nextHref ? (
-      <a class="episode-log__arrow" href={nextHref} aria-label={episodesPageMsg.aria.nextEpisodeMove}>
-        <Icon name={IconName.KeyboardArrowRight} size={28} />
-      </a>
-    ) : (
-      <span class="episode-log__arrow episode-log__arrow--spacer" aria-hidden="true"></span>
-    )}
-  </div>
+  </EpisodeArrowPager>
 </footer>
 
 <style>
   .episode-log__footer {
-    display: grid;
-    justify-content: center;
+    --episode-arrow-pager-width: 50%;
+    --episode-arrow-pager-margin: 0 auto;
+
+    width: 100%;
     padding-top: 6px;
   }
 
-  .episode-log__footer-nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 38px;
-    width: 100%;
-  }
-
-  .episode-log__arrow {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    color: var(--c-log-arrow-fg);
-    font-family: var(--font-family-log-heading);
-    font-size: 2.5rem;
-    line-height: 1;
-  }
-
-  .episode-log__arrow:hover {
-    color: var(--c-log-arrow-fg-hover);
-  }
-
-  .episode-log__arrow--spacer {
-    visibility: hidden;
+  @media (--bp-laptop) {
+    .episode-log__footer {
+      --episode-arrow-pager-width: 65%;
+    }
   }
 
   @media (--bp-tablet) {
-    .episode-log__footer-nav {
-      gap: 22px;
+    .episode-log__footer {
+      --episode-arrow-pager-gap: 22px;
+      --episode-arrow-pager-width: 80%;
     }
   }
 </style>

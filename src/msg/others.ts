@@ -12,7 +12,6 @@ export const othersPageMsg = {
     fallbackLink: "自動で切り替わらない場合はこちら",
   },
   settings: {
-    detailHint: "画像をクリックするとGoogle Driveを開きます。",
     detailsHeading: "詳細",
     charactersHeading: "キャラクター一覧",
     openCharacters: "キャラクター一覧を開く",

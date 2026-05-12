@@ -14,11 +14,21 @@ Project handoff notes for future Codex sessions.
 ## Layout And CSS
 
 - Use `styles/variables.css` for shared colors, spacing, fonts, widths, and breakpoints.
+- Keep `styles/variables.css` limited to raw palette colors, shared semantic roles, and reusable component defaults. If a color role is only used by one page, define it in that page/component stylesheet instead.
+- For common components, expose component-owned CSS custom properties or props so the same component can be customized by component instance rather than by page-level overrides.
 - Put global page foundation styles in `styles/globals.css`.
 - Keep component-specific styles inside each `.astro` component.
 - Parent components should not directly override child component internals. Use a `class` prop, local wrapper class, or CSS custom property when customization is needed.
+- Avoid using `:global()` from a parent component to force child component styling. Prefer explicit component props, CSS custom properties passed to the child root, or a small child-component API extension.
+- Use `border-radius: var(--r-md)` for standard rounded UI corners unless an existing component pattern or token calls for a different radius.
 - Follow the existing responsive breakpoints: `@media (--bp-tablet)` and `@media (--bp-mobile)`.
 - The visual direction is mostly monochrome. Prefer line work, spacing, and typography over heavy shadows or strong color blocks.
+
+## Before Editing Components
+
+- Before styling a child component from a parent, check whether the target is the child component root or an internal element.
+- If styling seems to require `:global()`, pause and first consider using or adding component props, passing CSS custom properties to the child root, adding a local wrapper, or making a small child-component API extension.
+- Use `:global()` only for true global foundations, third-party markup, or documented escape hatches.
 
 ## Icons
 

@@ -23,11 +23,12 @@ const {
 ---
 
 <dialog
-  class:list={["modal", `modal--${variant}`]}
+  class:list={["modal", variant !== "default" && `modal--${variant}`]}
   data-modal-root
   data-modal-id={id}
   data-modal-dismissible={dismissible ? "true" : "false"}
   aria-label={ariaLabel}
+  tabindex="-1"
 >
   <div class:list={["modal__panel", panelPadding === "none" && "modal__panel--padding-none", panelClass]}>
     {showCloseButton && (
@@ -42,169 +43,22 @@ const {
 </dialog>
 
 <script>
-  if (!window.__kyodaiModalInitialized) {
-    window.__kyodaiModalInitialized = true;
-
-    let closingDialog = null;
-
-    const dialogSelector = "[data-modal-root]";
-
-    const isModalDialog = (element) =>
-      element instanceof HTMLDialogElement && element.matches(dialogSelector);
-
-    const isDismissible = (dialog) =>
-      isModalDialog(dialog) && dialog.dataset.modalDismissible !== "false";
-
-    const resolveDialog = (target) => {
-      if (isModalDialog(target)) return target;
-      if (typeof target !== "string") return null;
-
-      const dialog = document.querySelector(`[data-modal-id="${target}"]`);
-      return isModalDialog(dialog) ? dialog : null;
-    };
-
-    const restoreBodyScroll = () => {
-      const hasOpenDialog = Array.from(document.querySelectorAll(dialogSelector)).some(
-        (element) => element instanceof HTMLDialogElement && element.open,
-      );
-
-      if (!hasOpenDialog) {
-        // body のスクロールロックは CSS（globals.css）側で
-        // body[data-modal-locked] と --scrollbar-width に基づいて適用する
-        delete document.body.dataset.modalLocked;
-        document.body.style.removeProperty("--scrollbar-width");
-      }
-    };
-
-    const lockBodyScroll = () => {
-      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-      document.body.style.setProperty("--scrollbar-width", `${scrollbarWidth}px`);
-      document.body.dataset.modalLocked = "true";
-    };
-
-    const openDialog = (dialog) => {
-      if (!isModalDialog(dialog) || dialog.open) return;
-
-      dialog.dataset.state = "open";
-      dialog.showModal();
-      lockBodyScroll();
-
-      const content = dialog.querySelector(".modal__content");
-      if (content instanceof Element) content.scrollTop = 0;
-    };
-
-    const closeWithAnimation = (dialog) => {
-      if (!isModalDialog(dialog) || !dialog.open || dialog.dataset.state === "closing") return;
-
-      dialog.dataset.state = "closing";
-      closingDialog = dialog;
-
-      window.setTimeout(() => {
-        if (closingDialog === dialog) {
-          dialog.close();
-        }
-      }, 220);
-    };
-
-    window.__kyodaiModal = {
-      open(target) {
-        const dialog = resolveDialog(target);
-        if (dialog) openDialog(dialog);
-      },
-      close(target) {
-        const dialog = resolveDialog(target);
-        if (dialog) closeWithAnimation(dialog);
-      },
-      restoreBodyScroll,
-    };
-
-    document.addEventListener("click", (event) => {
-      const target = event.target;
-      if (!(target instanceof Element)) return;
-
-      const openButton = target.closest("[data-modal-open]");
-      if (openButton instanceof HTMLElement) {
-        const dialog = resolveDialog(openButton.dataset.modalOpen);
-        if (dialog) openDialog(dialog);
-        return;
-      }
-
-      const closeButton = target.closest("[data-modal-close]");
-      if (closeButton instanceof HTMLElement) {
-        const dialog = closeButton.closest(dialogSelector);
-        closeWithAnimation(dialog);
-      }
-    });
-
-    document.addEventListener(
-      "cancel",
-      (event) => {
-        const dialog = event.target;
-        if (!isModalDialog(dialog)) return;
-
-        event.preventDefault();
-        if (isDismissible(dialog)) {
-          closeWithAnimation(dialog);
-        }
-      },
-      true,
-    );
-
-    document.addEventListener(
-      "close",
-      (event) => {
-        const dialog = event.target;
-        if (!isModalDialog(dialog)) return;
-
-        if (closingDialog === dialog) {
-          closingDialog = null;
-        }
-
-        dialog.dataset.state = "";
-        restoreBodyScroll();
-      },
-      true,
-    );
-  }
-
-  // モーダル本体に外側クリックで閉じる処理を定義
-  const initModalBackdropListeners = () => {
-    document.querySelectorAll("[data-modal-root]").forEach((dialog) => {
-      if (!(dialog instanceof HTMLDialogElement)) return;
-      if (dialog.dataset.backdropInit === "true") return;
-      dialog.dataset.backdropInit = "true";
-
-      dialog.addEventListener("click", (event) => {
-        // 子要素からのバブルは無視（バックドロップクリックは event.target === dialog）
-        if (event.target !== dialog) return;
-        if (!dialog.open || dialog.dataset.modalDismissible === "false") return;
-
-        const bounds = dialog.getBoundingClientRect();
-        const isBackdropClick =
-          event.clientX < bounds.left ||
-          event.clientX > bounds.right ||
-          event.clientY < bounds.top ||
-          event.clientY > bounds.bottom;
-
-        if (isBackdropClick) {
-          window.__kyodaiModal?.close(dialog);
-        }
-      });
-    });
-  };
-
-  initModalBackdropListeners();
-  document.addEventListener("astro:page-load", initModalBackdropListeners);
+  import "../../scripts/modal";
 </script>
 
 <style>
   .modal {
+    --modal-bg: var(--c-modal-bg);
+    --modal-border: var(--c-modal-border);
+    --modal-backdrop: var(--c-modal-backdrop);
+    --modal-close-fg: var(--c-modal-close-fg);
+
     width: var(--modal-width, min(900px, calc(100vw - 40px)));
     max-height: calc(100dvh - 40px);
     padding: 0;
-    border: 1px solid var(--modal-border-color, var(--c-border-modal));
-    border-radius: var(--modal-border-radius, 0);
-    background: var(--modal-bg, var(--c-modal-bg));
+    border: 1px solid var(--modal-border);
+    border-radius: var(--r-m);
+    background: var(--modal-bg);
     overflow: hidden;
     box-shadow: var(--sh-modal);
     opacity: 0;
@@ -213,16 +67,17 @@ const {
   }
 
   .modal::backdrop {
-    background: var(--modal-backdrop-bg, var(--c-modal-backdrop));
+    background: var(--modal-backdrop);
   }
 
+  .modal:focus {
+    outline: none;
+  }
+
+  /* Generated from the `variant` prop: modal--${variant}. */
   .modal--spoiler {
     --modal-width: min(920px, calc(100vw - 48px));
     --modal-tablet-width: min(100vw - 24px, 920px);
-    --modal-border-radius: 16px;
-    --modal-border-color: var(--c-border-spoiler);
-    --modal-bg: var(--c-modal-spoiler-bg);
-    --modal-backdrop-bg: var(--c-modal-spoiler-backdrop);
   }
 
   .modal[open] {
@@ -243,7 +98,7 @@ const {
 
   .modal__panel {
     position: relative;
-    max-height: calc(100dvh - 40px);
+    max-height: calc(100dvh - 100px);
     display: flex;
     flex-direction: column;
     padding: 56px 0 48px;
@@ -264,7 +119,7 @@ const {
     right: 18px;
     border: 0;
     background: transparent;
-    color: var(--c-fg);
+    color: var(--modal-close-fg);
     font-size: 2rem;
     line-height: 1;
     cursor: pointer;
@@ -276,13 +131,13 @@ const {
     }
 
     to {
-      background: var(--modal-backdrop-bg, var(--c-modal-backdrop));
+      background: var(--modal-backdrop);
     }
   }
 
   @keyframes modal-backdrop-out {
     from {
-      background: var(--c-modal-backdrop);
+      background: var(--modal-backdrop);
     }
 
     to {
@@ -320,7 +175,13 @@ const {
     }
 
     .modal__panel {
+      max-height: calc(100dvh - 40px);
       padding: 48px 0 28px;
+    }
+
+    .modal__close {
+      top: 10px;
+      right: 10px;
     }
   }
 </style>

@@ -38,9 +38,7 @@ const hasQuote = Boolean(character.data.quote);
       <div class="char-info">
         <CharacterInfoHeader name={character.data.name} nameKana={character.data.nameKana} />
 
-        <p class="char-info__description">
-          {character.data.description}
-        </p>
+        <p class="char-info__description">{character.data.description}</p>
 
         <CharacterStats character={character} />
 
@@ -54,9 +52,9 @@ const hasQuote = Boolean(character.data.quote);
   .char-detail {
     max-width: 1000px;
     margin: 0 auto;
-    border: 1px solid var(--c-fg);
+    border: 1px solid var(--c-border);
     border-radius: var(--r-md);
-    background: #ffffff;
+    background: var(--c-bg);
     padding: 0 90px;
     overflow: hidden;
   }
@@ -109,7 +107,7 @@ const hasQuote = Boolean(character.data.quote);
   .char-info__description {
     margin: 0;
     padding-bottom: var(--s-4);
-    border-bottom: 1px solid var(--c-fg);
+    border-bottom: 1px solid var(--c-border);
     font-family: var(--font-family-base);
     font-size: 18px;
     line-height: var(--lh-normal);

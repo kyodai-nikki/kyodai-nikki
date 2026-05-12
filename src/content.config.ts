@@ -179,7 +179,6 @@ const othersSettingMaterials = defineCollection({
   }),
   schema: z.object({
     title: z.string(),
-    documentUrls: z.array(z.string()),
     details: z
       .array(
         z.object({

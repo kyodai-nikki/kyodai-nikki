@@ -13,7 +13,7 @@ const { seasons, class: className = "" } = Astro.props as Props;
 ---
 
 <StickyNoteNav
-  class:list={["episode-season-sticky-nav", className]}
+  class:list={[className]}
   id="episodes-season-sticky-nav"
   ariaLabel={episodesPageMsg.aria.timelineJumpNav}
   heading={episodesPageMsg.labels.seasonList}
@@ -23,27 +23,83 @@ const { seasons, class: className = "" } = Astro.props as Props;
   drawerMobileWidth="min(260px, calc(100vw - 75px))"
 >
   {seasons.map((season) => (
-    <a class="episode-season-sticky-nav__link" href={`#${season.slug}`}>
+    <a
+      class="episode-season-sticky-nav__link"
+      href={`#${season.slug}`}
+      data-season-sticky-link={season.slug}
+    >
       {season.label}
     </a>
   ))}
 </StickyNoteNav>
 
-<style>
-  @media (--bp-tablet) {
-    .episode-season-sticky-nav__link {
-      color: var(--c-fg);
-      font-family: var(--font-family-navigation);
-      font-size: 20px;
-      line-height: var(--lh-normal);
-      text-decoration: none;
+<script>
+  import { onPageLoad } from "../../scripts/onPageLoad";
+
+  onPageLoad("episode-season-sticky-nav", ({ signal }) => {
+    const links = Array.from(
+      document.querySelectorAll<HTMLAnchorElement>("[data-season-sticky-link]")
+    );
+    const sections = links
+      .map((link) => {
+        const id = link.dataset.seasonStickyLink;
+        const section = id ? document.getElementById(id) : null;
+        return section ? { id, link, section } : null;
+      })
+      .filter((item): item is { id: string; link: HTMLAnchorElement; section: HTMLElement } =>
+        Boolean(item)
+      );
+
+    const setCurrentSeason = (id: string) => {
+      for (const item of sections) {
+        if (item.id === id) {
+          item.link.setAttribute("aria-current", "page");
+          item.link.setAttribute("tabindex", "-1");
+        } else {
+          item.link.removeAttribute("aria-current");
+          item.link.removeAttribute("tabindex");
+        }
+      }
+    };
+
+    const currentFromHash = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      if (id && sections.some((item) => item.id === id)) {
+        setCurrentSeason(id);
+        return true;
+      }
+      return false;
+    };
+
+    if (!currentFromHash() && sections[0]) {
+      setCurrentSeason(sections[0].id);
     }
 
-    .episode-season-sticky-nav__link:hover,
-    .episode-season-sticky-nav__link:focus-visible {
-      text-decoration: underline;
-      text-underline-offset: 4px;
-      text-decoration-thickness: 1px;
+    for (const item of sections) {
+      item.link.addEventListener("click", () => setCurrentSeason(item.id), { signal });
     }
-  }
-</style>
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+
+        if (visible?.target.id) {
+          setCurrentSeason(visible.target.id);
+        }
+      },
+      {
+        rootMargin: "-30% 0px -55% 0px",
+        threshold: 0,
+      }
+    );
+
+    for (const item of sections) {
+      observer.observe(item.section);
+    }
+
+    signal.addEventListener("abort", () => observer.disconnect(), { once: true });
+    window.addEventListener("hashchange", currentFromHash, { signal });
+  });
+</script>

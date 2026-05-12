@@ -26,9 +26,13 @@ const { links } = Astro.props;
 
 <style>
   .character-external-links {
+    --character-external-links-fg: var(--c-character-external-links-fg);
+    --character-external-links-heading-fg: var(--c-character-external-links-heading-fg);
+    --character-external-links-link-fg: var(--c-character-external-links-link-fg);
+
     font-family: var(--font-family-base);
     font-size: 16px;
-    color: var(--c-fg-body);
+    color: var(--character-external-links-fg);
     margin: 0;
   }
 
@@ -38,7 +42,7 @@ const { links } = Astro.props;
     font-weight: 700;
     font-family: var(--font-family-base);
     font-size: 16px;
-    color: var(--c-fg);
+    color: var(--character-external-links-heading-fg);
   }
 
   .character-external-links__box {
@@ -50,12 +54,14 @@ const { links } = Astro.props;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
-    color: var(--c-fg);
+    color: var(--character-external-links-link-fg);
     line-height: var(--lh-s-tight);
+    transition: opacity var(--dur-base) var(--ease-out);
   }
 
-  .character-external-links__box a:hover {
-    opacity: 0.8;
+  .character-external-links__box a:hover,
+  .character-external-links__box a:focus-visible {
+    opacity: 0.7;
   }
 
   @media (--bp-mobile) {

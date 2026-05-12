@@ -1,5 +1,6 @@
 ﻿---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ImageCardFrame from "../../../components/common/ImageCardFrame.astro";
 import PageHeading from "../../../components/common/PageHeading.astro";
 import OthersTabs from "../../../components/others/OthersTabs.astro";
 import { fanArtImageSrc, orderedFanArt } from "../../../lib/others";
@@ -26,16 +27,15 @@ const fanArt = await orderedFanArt();
             rel="noopener"
             aria-label={`${item.data.title} 繧呈眠縺励＞繧ｿ繝悶〒髢九￥`}
           >
-            <div class="others-fanart__image-wrap">
+            <ImageCardFrame aspectRatio="4 / 2.65">
               <img
-                class="others-fanart__image"
                 src={fanArtImageSrc(item)}
                 alt={item.data.title}
                 loading="lazy"
                 width="640"
                 height="480"
               />
-            </div>
+            </ImageCardFrame>
             <p class="others-fanart__title">{item.data.title}</p>
           </a>
         ))}
@@ -54,7 +54,7 @@ const fanArt = await orderedFanArt();
     align-items: start;
     gap: 24px 26px;
     max-width: 980px;
-    min-height: 520px;
+    min-height: 300px;
     margin: 0 auto;
   }
 
@@ -65,26 +65,6 @@ const fanArt = await orderedFanArt();
     gap: 10px;
     color: var(--c-fg);
     text-decoration: none;
-  }
-
-  .others-fanart__image-wrap {
-    width: 100%;
-    border: 1px solid rgba(17, 17, 17, 0.72);
-    overflow: hidden;
-    background: #fff;
-  }
-
-  .others-fanart__image {
-    width: 100%;
-    aspect-ratio: 4 / 2.65;
-    display: block;
-    object-fit: cover;
-    transition: transform var(--dur-base) var(--ease-out);
-  }
-
-  .others-fanart__card:hover .others-fanart__image,
-  .others-fanart__card:focus-visible .others-fanart__image {
-    transform: scale(1.03);
   }
 
   .others-fanart__title {

@@ -48,6 +48,7 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
 </div>
 
 <style>
+  :global(html[data-nav-drawer-open]),
   :global(body[data-nav-drawer-open]) {
     overflow: hidden;
   }
@@ -68,25 +69,31 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
   }
 
   .nav-drawer__heading {
+    --nav-drawer-fg: var(--c-nav-drawer-fg);
+
     margin: 0 0 18px;
-    font-family: var(--font-family-navigation);
+    font-family: var(--font-family-base);
     font-size: 18px;
     line-height: var(--lh-normal);
-    color: var(--c-fg);
+    color: var(--nav-drawer-fg);
     text-align: center;
   }
 
   .nav-drawer__nav {
-    font-family: var(--font-family-navigation);
+    --nav-drawer-fg: var(--c-nav-drawer-fg);
+
+    font-family: var(--font-family-base);
     line-height: var(--lh-normal);
-    color: var(--c-fg);
+    color: var(--nav-drawer-fg);
   }
 
   @media (--bp-laptop) {
+    /* Generated from the `activation` prop: nav-drawer--${activation}. */
     .nav-drawer--laptop {
       --nav-drawer-width: 68%;
       --nav-drawer-panel-padding: 132px var(--s-7) 56px;
-      --nav-drawer-panel-bg-color: rgba(255, 255, 255, 0.94);
+      --nav-drawer-panel-bg-color: var(--c-nav-drawer-panel-bg);
+      --nav-drawer-backdrop-bg: var(--c-nav-drawer-backdrop);
       --nav-drawer-panel-z: var(--z-nav-drawer-panel);
       --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
       --nav-drawer-close-z: 1;
@@ -100,7 +107,7 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     .nav-drawer--laptop .nav-drawer__backdrop {
       position: fixed;
       inset: 0;
-      background: var(--c-site-menu-backdrop);
+      background: var(--nav-drawer-backdrop-bg);
       opacity: 0;
       pointer-events: none;
       transition: opacity var(--dur-base) var(--ease-out);
@@ -151,7 +158,8 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
       --nav-drawer-width: min(330px, calc(100vw - 75px));
       --nav-drawer-mobile-width: min(300px, calc(100vw - 75px));
       --nav-drawer-panel-padding: 88px 26px 32px;
-      --nav-drawer-panel-bg-color: rgba(255, 255, 255, 0.94);
+      --nav-drawer-panel-bg-color: var(--c-nav-drawer-panel-bg);
+      --nav-drawer-backdrop-bg: var(--c-nav-drawer-backdrop);
       --nav-drawer-panel-z: var(--z-nav-drawer-panel);
       --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
       --nav-drawer-close-z: 1;
@@ -171,7 +179,7 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
     .nav-drawer--tablet .nav-drawer__backdrop {
       position: fixed;
       inset: 0;
-      background: var(--c-site-menu-backdrop);
+      background: var(--nav-drawer-backdrop-bg);
       opacity: 0;
       pointer-events: none;
       transition: opacity var(--dur-base) var(--ease-out);
@@ -225,87 +233,5 @@ const panelBgImage = `url("${withBase("/images/bg_noline.png")}")`;
 </style>
 
 <script>
-  const setupNavDrawers = () => {
-    const drawers = document.querySelectorAll<HTMLElement>("[data-nav-drawer]");
-
-    const isActive = (drawer: HTMLElement) => {
-      const activation = drawer.dataset.navDrawerActivation;
-      const maxWidth = activation === "laptop" ? 1024 : 768;
-      return window.matchMedia(`(max-width: ${maxWidth}px)`).matches;
-    };
-
-    const updateBodyLock = () => {
-      const openDrawers = Array.from(drawers).filter((drawer) => drawer.dataset.open === "true");
-      const hasOpenDrawer = openDrawers.length > 0;
-      const hasOpenPageDrawer = openDrawers.some((drawer) => drawer.closest("main[data-page-shell]"));
-
-      document.body.toggleAttribute("data-nav-drawer-open", hasOpenDrawer);
-      document.body.toggleAttribute("data-page-nav-drawer-open", hasOpenPageDrawer);
-    };
-
-    drawers.forEach((drawer) => {
-      if (drawer.dataset.initialized === "true") return;
-
-      const id = drawer.dataset.navDrawer;
-      if (!id) return;
-
-      const trigger = document.querySelector<HTMLButtonElement>(`[aria-controls="${id}"]`);
-      const close = drawer.querySelector<HTMLButtonElement>("[data-nav-drawer-close]");
-      const panel = drawer.querySelector<HTMLElement>(".nav-drawer__panel");
-      const backdrop = drawer.querySelector<HTMLElement>("[data-nav-drawer-backdrop]");
-      if (!trigger || !close || !panel || !backdrop) return;
-
-      drawer.dataset.initialized = "true";
-      const labelOpen = drawer.dataset.labelOpen ?? trigger.getAttribute("aria-label") ?? "";
-      const labelClose = drawer.dataset.labelClose ?? close.getAttribute("aria-label") ?? labelOpen;
-
-      const setOpen = (open: boolean) => {
-        const shouldUseDrawer = isActive(drawer);
-        const nextOpen = open && shouldUseDrawer;
-
-        drawer.dataset.open = nextOpen.toString();
-        trigger.setAttribute("aria-expanded", nextOpen.toString());
-        trigger.setAttribute("aria-label", nextOpen ? labelClose : labelOpen);
-        panel.setAttribute("aria-hidden", nextOpen ? "false" : shouldUseDrawer.toString());
-        panel.toggleAttribute("inert", shouldUseDrawer && !nextOpen);
-        updateBodyLock();
-      };
-
-      setOpen(false);
-
-      trigger.addEventListener("click", () => {
-        setOpen(drawer.dataset.open !== "true");
-      });
-
-      close.addEventListener("click", () => {
-        setOpen(false);
-        trigger.focus();
-      });
-
-      panel.addEventListener("click", (event) => {
-        if (event.target instanceof HTMLAnchorElement) setOpen(false);
-      });
-
-      backdrop.addEventListener("click", () => {
-        setOpen(false);
-      });
-
-      document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") setOpen(false);
-      });
-
-      document.addEventListener("pointerdown", (event) => {
-        if (drawer.dataset.open !== "true" || !(event.target instanceof Node)) return;
-        if (drawer.contains(event.target) || trigger.contains(event.target)) return;
-        setOpen(false);
-      });
-
-      window.addEventListener("resize", () => {
-        setOpen(false);
-      });
-    });
-  };
-
-  setupNavDrawers();
-  document.addEventListener("astro:page-load", setupNavDrawers);
+  import "../../../scripts/navDrawer";
 </script>

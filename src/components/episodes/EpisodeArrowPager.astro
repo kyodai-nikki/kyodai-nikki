@@ -1,0 +1,90 @@
+---
+import { episodesPageMsg } from "../../msg/episodes";
+import Icon, { IconName } from "../common/Icon.astro";
+
+interface Props {
+  previousHref?: string;
+  nextHref?: string;
+  ariaLabel?: string;
+  class?: string;
+}
+
+const {
+  previousHref,
+  nextHref,
+  ariaLabel = episodesPageMsg.aria.logNavigation,
+  class: className = "",
+} = Astro.props as Props;
+---
+
+<nav class:list={["episode-arrow-pager", className]} aria-label={ariaLabel}>
+  {previousHref ? (
+    <a
+      class="episode-arrow-pager__arrow"
+      href={previousHref}
+      aria-label={episodesPageMsg.aria.previousEpisodeMove}
+    >
+      <Icon name={IconName.KeyboardArrowLeft} size={28} />
+    </a>
+  ) : (
+    <span
+      class="episode-arrow-pager__arrow episode-arrow-pager__arrow--spacer"
+      aria-hidden="true"
+    ></span>
+  )}
+
+  <slot />
+
+  {nextHref ? (
+    <a
+      class="episode-arrow-pager__arrow"
+      href={nextHref}
+      aria-label={episodesPageMsg.aria.nextEpisodeMove}
+    >
+      <Icon name={IconName.KeyboardArrowRight} size={28} />
+    </a>
+  ) : (
+    <span
+      class="episode-arrow-pager__arrow episode-arrow-pager__arrow--spacer"
+      aria-hidden="true"
+    ></span>
+  )}
+</nav>
+
+<style>
+  .episode-arrow-pager {
+    display: var(--episode-arrow-pager-display, flex);
+    align-items: center;
+    justify-content: var(--episode-arrow-pager-justify, space-between);
+    gap: var(--episode-arrow-pager-gap, 0);
+    width: var(--episode-arrow-pager-width, 100%);
+    margin: var(--episode-arrow-pager-margin, 0);
+    padding-top: var(--episode-arrow-pager-padding-top, 0);
+  }
+
+  .episode-arrow-pager__arrow {
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: var(--episode-arrow-pager-arrow-fg, var(--c-log-arrow-fg));
+    line-height: 1;
+    text-decoration: none;
+    transform: scale(1);
+    transition:
+      color var(--dur-base) var(--ease-button),
+      transform var(--dur-base) var(--ease-button);
+  }
+
+  .episode-arrow-pager__arrow:hover,
+  .episode-arrow-pager__arrow:focus-visible {
+    color: var(--episode-arrow-pager-arrow-hover-fg, var(--c-log-arrow-fg-hover));
+    transform: scale(var(--episode-arrow-pager-arrow-hover-scale, 1.25));
+  }
+
+  .episode-arrow-pager__arrow--spacer {
+    visibility: hidden;
+  }
+</style>

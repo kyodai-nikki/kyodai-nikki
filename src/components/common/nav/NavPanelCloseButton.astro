@@ -27,6 +27,8 @@ const attrs = dataAttribute ? { [dataAttribute]: true } : {};
 
 <style>
   .nav-panel-close {
+    --nav-panel-close-fg: var(--c-nav-panel-close-fg);
+
     appearance: none;
     position: absolute;
     top: 20px;
@@ -36,8 +38,15 @@ const attrs = dataAttribute ? { [dataAttribute]: true } : {};
     padding: 0;
     border: 0;
     background: transparent;
-    color: var(--c-header-menu-icon);
+    color: var(--nav-panel-close-fg);
     line-height: 0;
     cursor: pointer;
+    transform: scale(1);
+    transition: transform var(--dur-base) var(--ease-button);
+  }
+
+  .nav-panel-close:hover,
+  .nav-panel-close:focus-visible {
+    transform: scale(var(--nav-panel-close-hover-scale, 1.14));
   }
 </style>

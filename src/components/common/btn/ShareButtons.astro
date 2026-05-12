@@ -14,7 +14,7 @@ const { url, title, variant = "default", className = "" } = Astro.props;
 const { xHref, lineHref } = shareLinks(url, title);
 ---
 
-<div class:list={["share-buttons", `share-buttons--${variant}`, className]}>
+<div class:list={["share-buttons", variant !== "default" && `share-buttons--${variant}`, className]}>
   <XShareButton href={xHref} />
   <LineShareButton href={lineHref} />
 </div>
@@ -29,12 +29,11 @@ const { xHref, lineHref } = shareLinks(url, title);
     gap: var(--share-buttons-gap, 10px);
   }
 
+  /* Generated from the `variant` prop: share-buttons--${variant}. */
   .share-buttons--log {
     --share-btn-size: 30px;
     --share-line-icon-size: 28px;
     --share-buttons-gap: 18px;
     --share-btn-bg: var(--c-share-btn-bg-on-log);
-    --share-btn-hover-bg: var(--c-share-btn-bg-on-log-hover);
-    --share-btn-hover-transform: none;
   }
 </style>

@@ -57,9 +57,14 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
 
 <style>
   .home {
+    --home-bg: var(--bc-gray-lightest);
+    --home-tagline-fg: var(--c-fg);
+    --home-tagline-shadow: 0 1px 0 rgb(from var(--bc-white) r g b / 0.6);
+    --home-tagline-shadow-strong: 0 0 10px var(--c-bg);
+
     position: relative;
     width: 100%;
-    background: var(--c-home-bg);
+    background: var(--home-bg);
   }
 
   .home__image {
@@ -92,7 +97,7 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
   .home__overlay {
     position: absolute;
     inset: 0;
-    width: 100%;
+    width: 100vw;
     max-width: none;
     margin-inline: auto;
     padding: var(--s-6) 100px;
@@ -119,9 +124,9 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
     font-family: var(--font-family-base);
     font-size: var(--fs-base);
     font-weight: 700;
-    color: var(--c-fg);
+    color: var(--home-tagline-fg);
     line-height: 1.8;
-    text-shadow: var(--sh-home-tagline);
+    text-shadow: var(--home-tagline-shadow);
   }
 
   .home__tagline :global(p) {
@@ -152,7 +157,7 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
 
     .home__tagline {
       text-align: center;
-      text-shadow: var(--sh-home-tagline-strong);
+      text-shadow: var(--home-tagline-shadow-strong);
     }
 
     .home__tagline :global(p) {
@@ -179,15 +184,9 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
 
 <script>
   import { siteConfig } from "../config";
+  import { onPageLoad } from "../scripts/onPageLoad";
 
-  let slideshowTimer: number | undefined;
-
-  const initHomeSlideshow = () => {
-    if (slideshowTimer !== undefined) {
-      clearInterval(slideshowTimer);
-      slideshowTimer = undefined;
-    }
-
+  onPageLoad("home-slideshow", ({ signal }) => {
     const slides = document.querySelectorAll<HTMLElement>(".home__slide");
     if (slides.length <= 1) return;
 
@@ -196,12 +195,12 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
     });
 
     let current = 0;
-    slideshowTimer = window.setInterval(() => {
+    const slideshowTimer = window.setInterval(() => {
       slides[current].classList.remove("is-visible");
       current = (current + 1) % slides.length;
       slides[current].classList.add("is-visible");
     }, siteConfig.slideshowTimeout);
-  };
 
-  document.addEventListener("astro:page-load", initHomeSlideshow);
+    signal.addEventListener("abort", () => window.clearInterval(slideshowTimer), { once: true });
+  });
 </script>

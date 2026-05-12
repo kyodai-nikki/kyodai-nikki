@@ -2,9 +2,9 @@
 interface Props {
   as?: string;
   centered?: boolean;
+  hoverable?: boolean;
   translucent?: boolean;
   padding?: "default" | "none";
-  interactive?: boolean;
   class?: string;
   [key: string]: unknown;
 }
@@ -12,9 +12,9 @@ interface Props {
 const {
   as: Tag = "div",
   centered = false,
+  hoverable = false,
   translucent = false,
   padding = "default",
-  interactive = false,
   class: className,
   ...rest
 } = Astro.props;
@@ -22,9 +22,9 @@ const {
 <Tag class:list={[
   "white-card",
   { "white-card--centered": centered },
+  { "white-card--hoverable": hoverable },
   { "white-card--translucent": translucent },
   { "white-card--padding-none": padding === "none" },
-  { "white-card--interactive": interactive },
   className,
 ]} {...rest}>
   <slot />
@@ -43,26 +43,33 @@ const {
   }
 
   .white-card {
-    background: #ffffff;
-    border: 1px solid var(--white-card-border-color, var(--c-border));
+    --white-card-bg: var(--c-white-card-bg);
+    --white-card-border: var(--c-white-card-border);
+    --white-card-hover-bg: var(--c-bg-alt);
+    --white-card-hover-border: var(--c-bg-alt);
+    --white-card-translucent-bg: var(--c-white-card-translucent-bg);
+    --white-card-translucent-border: var(--c-white-card-translucent-border);
+
+    background: var(--white-card-bg);
+    border: 1px solid var(--white-card-border-color, var(--white-card-border));
     border-radius: var(--r-md);
     padding: clamp(var(--s-6), 5vw, var(--s-8)) clamp(var(--s-5), 6vw, var(--s-9));
+    transition:
+      background-color 180ms var(--ease-out),
+      border-color 180ms var(--ease-out);
     animation: white-card-slide-in 1700ms var(--ease-out) both;
     animation-delay: 160ms;
     will-change: opacity, transform;
   }
 
+  .white-card--hoverable:hover,
+  .white-card--hoverable:focus-within {
+    background: var(--white-card-hover-bg);
+    border-color: var(--white-card-hover-border);
+  }
+
   .white-card--padding-none {
     padding: 0;
-  }
-
-  .white-card--interactive {
-    transition: border-color var(--dur-fast) var(--ease-out),
-                background var(--dur-fast) var(--ease-out);
-  }
-
-  .white-card--interactive:hover {
-    border-color: var(--white-card-hover-border-color, var(--c-fg));
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -70,8 +77,8 @@ const {
   }
 
   .white-card--translucent {
-    background: rgba(255, 255, 255, 0.8);
-    border-color: rgba(17, 17, 17, 0.5);
+    background: var(--white-card-translucent-bg);
+    border-color: var(--white-card-translucent-border);
     border-radius: 0;
   }
 

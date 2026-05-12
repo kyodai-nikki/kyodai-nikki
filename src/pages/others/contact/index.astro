@@ -28,13 +28,9 @@ import ContactBody from "../../../content/contact.md";
 </BaseLayout>
 
 <style>
-  .others {
-    padding-top: 20px;
-  }
-
   .others-contact {
     max-width: 1080px;
-    min-height: 560px;
+    min-height: 300px;
     margin: 0 auto;
   }
 
@@ -66,6 +62,12 @@ import ContactBody from "../../../content/contact.md";
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 4px;
+    transition: opacity var(--dur-base) var(--ease-out);
+  }
+
+  .others-contact__mail a:hover,
+  .others-contact__mail a:focus-visible {
+    opacity: 0.7;
   }
 
   @media (--bp-tablet) {
