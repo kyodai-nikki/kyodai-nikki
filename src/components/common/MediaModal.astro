@@ -7,7 +7,6 @@ export interface MediaModalImage {
   /** 原寸（jpg/png/svg）の URL。<picture> の最終フォールバックに使う */
   src: string;
   alt: string;
-  href?: string;
   /**
    * モーダル表示で使う WebP の URL。指定があれば <picture><source> として優先される。
    * 1x/2x の 2 解像度がある場合は srcset 形式で渡す。
@@ -26,7 +25,7 @@ export interface MediaModalAction {
   ariaLabel?: string;
 }
 
-type MediaModalButtonSize = "ss" | "s" | "m" | "l" | "xl";
+type MediaModalButtonSize = "s" | "m" | "l";
 
 interface Props {
   /** Modal id (data-modal-open のターゲット) */
@@ -36,15 +35,12 @@ interface Props {
   /** 表示する画像（複数可） */
   images: MediaModalImage[];
   /** 画像をクリックしたときの遷移先（Google Drive 等の外部リンク） */
-  imageHref?: string;
-  /** imageHref を持つ画像リンクの aria-label */
+  /** 画像リンクの aria-label */
   imageHrefAriaLabel?: string;
   /** 画像領域の最大幅（CSS値）。デフォルト 720px */
   imageMaxWidth?: string;
   /** タイトル直下の説明文 */
   description?: string;
-  /** description より小さめの補足文（Settings 用） */
-  hint?: string;
   /** クレジット表示の名前 */
   creditName?: string;
   /** クレジットURL */
@@ -68,18 +64,16 @@ const {
   id,
   title,
   images,
-  imageHref,
   imageHrefAriaLabel,
   imageMaxWidth = "720px",
   description,
-  hint,
   creditName,
   creditUrl,
   twitterId,
   details = [],
   detailsAriaLabel,
   actions = [],
-  actionButtonSize = "ss",
+  actionButtonSize = "s",
   closeLabel = commonMsg.actions.back,
   panelClass = "",
 } = Astro.props;
@@ -92,7 +86,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     <div class="media-modal__media">
       {images.map((image, index) => {
         const alt = index === 0 ? image.alt : `${image.alt} ${index + 1}`;
-        const href = image.href ?? imageHref;
+        const href = image.src;
         const ariaLabel = imageHrefAriaLabel ?? `${title} を開く`;
         // WebP 候補がある場合は <picture> で WebP を優先、原寸をフォールバックに。
         // モーダルは閉じている間 <dialog> が display:none で実フェッチを抑止できるが、
@@ -131,7 +125,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
       <p class="media-modal__title">{title}</p>
 
       {description && <p class="media-modal__description">{description}</p>}
-      {hint && <p class="media-modal__hint">{hint}</p>}
       {creditName && <p class="media-modal__credit">{creditName}{commonMsg.honorifics.polite}</p>}
       {creditUrl && (
         <a class="media-modal__link" href={creditUrl} target="_blank" rel="noopener">
@@ -164,7 +157,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
         {actions.map((action) =>
           action.href ? (
             <Button
-              class="media-modal__action"
               href={action.href}
               type="white"
               size={actionButtonSize}
@@ -176,7 +168,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
             </Button>
           ) : (
             <Button
-              class="media-modal__action"
               type="white"
               size={actionButtonSize}
               aria-label={action.ariaLabel}
@@ -186,7 +177,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
           )
         )}
         <Button
-          class="media-modal__action"
           type="white"
           size={actionButtonSize}
           data-modal-close
@@ -200,6 +190,9 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 
 <style>
   .media-modal {
+    --media-modal-image-backdrop: var(--c-media-modal-image-backdrop);
+    --media-modal-loader-track: var(--c-media-modal-loader-track);
+    --media-modal-loader-active: var(--c-media-modal-loader-active);
     --media-modal-image-wide-max: min(100%, max(var(--media-modal-image-max), 760px));
     --media-modal-image-tall-max: min(70dvh, 820px);
 
@@ -246,9 +239,9 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--c-image-backdrop);
+    background: var(--media-modal-image-backdrop);
     pointer-events: none;
-    transition: opacity 0.3s ease;
+    transition: opacity var(--dur-base) var(--ease-out);
   }
 
   .media-modal__loader::after {
@@ -256,8 +249,8 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    border: 3px solid rgba(120, 120, 120, 0.2);
-    border-top-color: rgba(80, 80, 80, 0.7);
+    border: 3px solid var(--media-modal-loader-track);
+    border-top-color: var(--media-modal-loader-active);
     animation: media-modal-spin 0.75s linear infinite;
   }
 
@@ -276,7 +269,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
   /* 画像は読み込み完了までは非表示 */
   .media-modal__img-wrap img {
     opacity: 0;
-    transition: opacity 0.4s ease;
+    transition: opacity var(--dur-base) var(--ease-out);
   }
 
   .media-modal__img-wrap.is-loaded img {
@@ -298,14 +291,12 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     align-items: center;
     gap: 10px;
     text-align: center;
-    color: var(--c-modal-caption-fg);
   }
 
   .media-modal__title {
     margin: 0;
     font-family: var(--font-family-base);
     font-size: clamp(1.375rem, 2vw, 1.75rem);
-    color: var(--c-fg);
     line-height: var(--lh-normal);
   }
 
@@ -320,13 +311,7 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     line-height: var(--lh-normal);
   }
 
-  .media-modal__hint {
-    margin: 0;
-    font-size: 0.95rem;
-  }
-
   .media-modal__link {
-    color: inherit;
     text-decoration: underline;
     text-underline-offset: 2px;
   }
@@ -343,10 +328,6 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
     gap: 10px;
     flex-wrap: wrap;
     font-size: 0.95rem;
-  }
-
-  .media-modal__details dt {
-    color: var(--c-fg);
   }
 
   .media-modal__details dd {

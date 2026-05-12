@@ -2,12 +2,21 @@
 interface Props {
   href?: string;
   type?: "white" | "black";
-  size?: "ss" | "s" | "m" | "l" | "xl";
-  hover?: "default" | "subtle";
+  size?: "s" | "m" | "l";
   fullWidth?: boolean;
   minWidth?: string;
+  minHeight?: string;
+  paddingBlock?: string;
+  paddingInline?: string;
+  borderColor?: string;
+  bg?: string;
+  color?: string;
+  fontSize?: string;
+  lineHeight?: string;
+  radius?: string;
   layout?: "default" | "action";
   buttonType?: "button" | "submit" | "reset";
+  disabled?: boolean;
   class?: string;
   className?: string;
   style?: string;
@@ -17,11 +26,20 @@ const {
   href,
   type = "white",
   size = "m",
-  hover = "default",
   fullWidth = false,
   minWidth,
+  minHeight,
+  paddingBlock,
+  paddingInline,
+  borderColor,
+  bg,
+  color,
+  fontSize,
+  lineHeight,
+  radius,
   layout = "default",
   buttonType = "button",
+  disabled = false,
   class: classProp = "",
   className = "",
   style = "",
@@ -32,25 +50,38 @@ const classes = [
   "ui-button",
   `ui-button--${type}`,
   `ui-button--${size}`,
-  `ui-button--hover-${hover}`,
   fullWidth && "ui-button--full",
   layout !== "default" && `ui-button--layout-${layout}`,
+  disabled && "ui-button--disabled",
   classProp,
   className,
 ];
 const styleVars = [
   style,
   minWidth ? `--button-min-width: ${minWidth}` : "",
+  minHeight ? `--button-min-height: ${minHeight}` : "",
+  paddingBlock ? `--button-padding-block: ${paddingBlock}` : "",
+  paddingInline ? `--button-padding-inline: ${paddingInline}` : "",
+  borderColor ? `--button-border-color: ${borderColor}` : "",
+  bg ? `--button-bg: ${bg}` : "",
+  color ? `--button-color: ${color}` : "",
+  fontSize ? `--button-font-size: ${fontSize}` : "",
+  lineHeight ? `--button-line-height: ${lineHeight}` : "",
+  radius ? `--button-radius: ${radius}` : "",
 ].filter(Boolean).join("; ");
 ---
 
 {
-  href ? (
+  href && !disabled ? (
     <a class:list={classes} href={href} style={styleVars || undefined} {...attrs}>
       <slot />
     </a>
+  ) : href && disabled ? (
+    <span class:list={classes} style={styleVars || undefined} aria-disabled="true" {...attrs}>
+      <slot />
+    </span>
   ) : (
-    <button class:list={classes} type={buttonType} style={styleVars || undefined} {...attrs}>
+    <button class:list={classes} type={buttonType} style={styleVars || undefined} disabled={disabled} {...attrs}>
       <slot />
     </button>
   )
@@ -62,20 +93,20 @@ const styleVars = [
     --button-min-width: auto;
     --button-padding-block: 14px;
     --button-padding-inline: 18px;
-    --button-border-color: var(--c-border-card);
-    --button-bg: var(--c-bg-elev);
-    --button-color: var(--c-fg);
-    --button-hover-bg: var(--c-bg-darkest-hover);
-    --button-hover-border-color: var(--c-bg-darkest-hover);
-    --button-hover-color: var(--c-fg-on-dark);
+    --button-border-color: var(--c-btn-border);
+    --button-bg: var(--c-btn-bg);
+    --button-color: var(--c-btn-fg);
+    --button-hover-bg: var(--c-btn-hover-bg);
+    --button-hover-color: var(--c-btn-hover-fg);
+    --button-active-bg: var(--c-btn-bg);
+    --button-active-color: var(--c-btn-fg);
+    --button-active-border-color: var(--c-btn-border);
     --button-font-family: var(--font-family-base);
     --button-font-size: 1.125rem;
     --button-line-height: 1.2;
-    --button-letter-spacing: var(--ls-normal);
+    --button-radius: var(--r-md);
     --button-box-shadow: none;
-    --button-hover-box-shadow: none;
     --button-transform: translateY(0);
-    --button-hover-transform: translateY(0);
 
     appearance: none;
     display: inline-flex;
@@ -91,63 +122,80 @@ const styleVars = [
     font-family: var(--button-font-family);
     font-size: var(--button-font-size);
     line-height: var(--button-line-height);
-    letter-spacing: var(--button-letter-spacing);
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    border-radius: var(--button-radius);
     box-shadow: var(--button-box-shadow);
     transform: var(--button-transform);
     transition:
-      background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out),
-      border-color var(--dur-fast) var(--ease-out),
-      transform var(--dur-fast) var(--ease-out),
-      box-shadow var(--dur-fast) var(--ease-out);
+      background-color var(--dur-base) var(--ease-button),
+      border-color var(--dur-base) var(--ease-button),
+      color var(--dur-base) var(--ease-button);
   }
 
   .ui-button:hover,
   .ui-button:focus-visible {
     background: var(--button-hover-bg);
     color: var(--button-hover-color);
-    border-color: var(--button-hover-border-color);
-    box-shadow: var(--button-hover-box-shadow);
-    transform: var(--button-hover-transform);
   }
 
+  .ui-button--disabled,
+  .ui-button--disabled:hover,
+  .ui-button--disabled:focus-visible,
+  .ui-button:disabled,
+  .ui-button:disabled:hover,
+  .ui-button:disabled:focus-visible {
+    background: var(--button-bg);
+    border-color: var(--button-border-color);
+    color: var(--button-color);
+    cursor: default;
+  }
+
+  .ui-button[aria-current="page"],
+  .ui-button[aria-current="page"]:hover,
+  .ui-button[aria-current="page"]:focus-visible {
+    background: var(--button-active-bg);
+    border-color: var(--button-active-border-color);
+    color: var(--button-active-color);
+    cursor: default;
+  }
+
+  a.ui-button[aria-current="page"] {
+    pointer-events: none;
+  }
+
+  /* Generated from the `type` prop: ui-button--${type}. */
   .ui-button--white {
-    --button-border-color: var(--c-border-card);
-    --button-bg: var(--c-bg-elev);
-    --button-color: var(--c-fg);
-    --button-hover-bg: var(--c-bg-darkest-hover);
-    --button-hover-border-color: var(--c-bg-darkest-hover);
-    --button-hover-color: var(--c-fg-on-dark);
+    --button-border-color: var(--c-btn-border);
+    --button-bg: var(--c-white-btn-bg);
+    --button-color: var(--c-white-btn-fg);
+    --button-hover-bg: var(--c-white-btn-hover-bg);
+    --button-hover-color: var(--c-white-btn-hover-fg);
+    --button-active-bg: var(--c-btn-bg);
+    --button-active-color: var(--c-btn-fg);
+    --button-active-border-color: var(--c-btn-border);
   }
 
   .ui-button--black {
-    --button-border-color: var(--c-bg-darkest);
-    --button-bg: var(--c-bg-darkest);
-    --button-color: var(--c-fg-on-dark);
-    --button-hover-bg: var(--c-bg-darkest-hover);
-    --button-hover-border-color: var(--c-bg-darkest-hover);
-    --button-hover-color: var(--c-fg-on-dark);
-  }
-
-  .ui-button--hover-subtle {
-    --button-hover-bg: var(--c-bg-muted);
-    --button-hover-border-color: var(--c-border-strong);
-    --button-hover-color: var(--c-fg);
-    --button-hover-transform: translateY(-1px);
+    --button-border-color: var(--c-btn-border);
+    --button-bg: var(--c-btn-bg);
+    --button-color: var(--c-btn-fg);
+    --button-hover-bg: var(--c-btn-hover-bg);
+    --button-hover-color: var(--c-btn-hover-fg);
   }
 
   .ui-button--full {
     width: 100%;
   }
 
+  /* Generated from the `layout` prop: ui-button--layout-${layout}. */
   .ui-button--layout-action {
     --button-min-width: 160px;
   }
 
-  .ui-button--ss {
+  /* Generated from the `size` prop: ui-button--${size}. */
+  .ui-button--s {
     --button-min-width: 90px;
     --button-min-height: 0;
     --button-padding-block: 10px;
@@ -155,36 +203,20 @@ const styleVars = [
     --button-font-size: 1rem;
   }
 
-  .ui-button--s {
-    --button-min-height: 64px;
-    --button-padding-block: 0;
-    --button-padding-inline: 18px;
-    --button-font-size: 1.05rem;
-  }
-
   .ui-button--m {
-    --button-min-height: 58px;
-    --button-padding-block: 14px;
-    --button-padding-inline: 18px;
-    --button-font-size: 1.125rem;
-  }
-
-  .ui-button--l {
     --button-min-width: 165px;
     --button-min-height: 55px;
     --button-padding-block: 0;
     --button-padding-inline: 0;
     --button-font-size: 1.25rem;
-    --button-letter-spacing: var(--ls-normal);
   }
 
-  .ui-button--xl {
+  .ui-button--l {
     --button-min-width: 200px;
     --button-min-height: 64px;
     --button-padding-block: 20px;
     --button-padding-inline: 0;
     --button-font-size: 20px;
-    --button-letter-spacing: var(--ls-wide);
   }
 
   @media (--bp-tablet) {

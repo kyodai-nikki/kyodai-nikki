@@ -11,17 +11,20 @@ const { href, iconSize } = Astro.props;
 ---
 
 <a
-  class="share-button share-button--x"
+  class="share-button"
   href={href}
   target="_blank"
   rel="noopener"
   aria-label={commonMsg.social.shareX}
 >
-  <Icon name={IconName.X} size={iconSize} class="share-button__icon" />
+  <Icon name={IconName.X} size={iconSize} />
 </a>
 
 <style>
   .share-button {
+    --share-btn-bg: var(--c-share-btn-bg);
+    --share-btn-fg: var(--c-share-btn-fg);
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -29,15 +32,15 @@ const { href, iconSize } = Astro.props;
     height: var(--share-btn-size);
     border-radius: var(--share-btn-radius, 25%);
     overflow: hidden;
-    background: var(--c-share-btn-bg);
-    color: var(--share-btn-color, #ffffff);
-    transition: transform var(--dur-fast) var(--ease-out),
-                opacity var(--dur-fast) var(--ease-out);
+    background: var(--share-btn-bg);
+    color: var(--share-btn-color, var(--share-btn-fg));
+    transform: scale(1);
+    transition: transform var(--dur-base) var(--ease-button);
   }
 
-  .share-button:hover {
-    transform: var(--share-btn-hover-transform, translateY(-1px));
-    opacity: 0.8;
+  .share-button:hover,
+  .share-button:focus-visible {
+    transform: scale(var(--share-btn-hover-scale, 1.14));
   }
 
   .share-button :global(svg) {

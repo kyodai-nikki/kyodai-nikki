@@ -10,7 +10,7 @@ const { href } = Astro.props;
 ---
 
 <a
-  class="share-button share-button--line"
+  class="share-button"
   href={href}
   target="_blank"
   rel="noopener"
@@ -28,13 +28,13 @@ const { href } = Astro.props;
     height: var(--share-btn-size);
     border-radius: var(--share-btn-radius, 4px);
     overflow: hidden;
-    transition: transform var(--dur-fast) var(--ease-out),
-                opacity var(--dur-fast) var(--ease-out);
+    transform: scale(1);
+    transition: transform var(--dur-base) var(--ease-button);
   }
 
-  .share-button:hover {
-    transform: var(--share-btn-hover-transform, translateY(-1px));
-    opacity: 0.8;
+  .share-button:hover,
+  .share-button:focus-visible {
+    transform: scale(var(--share-btn-hover-scale, 1.14));
   }
 
   .share-button img {

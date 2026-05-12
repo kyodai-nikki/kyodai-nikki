@@ -12,4 +12,4 @@ const { activeSeason, current = "season" } = Astro.props as Props;
 const items = await episodeSeasonTabItems(current, activeSeason);
 ---
 
-<Tabs items={items} ariaLabel="Season navigation" size="md" />
+<Tabs items={items} ariaLabel="Season navigation" />

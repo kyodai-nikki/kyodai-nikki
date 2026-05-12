@@ -1,41 +1,46 @@
 ---
 export interface TabItem {
-  /** 表示ラベル */
+  /** Display label. */
   label: string;
-  /** 遷移先 URL（base 込みの完成形を渡す） */
+  /** Destination URL with base path already applied. */
   href: string;
-  /** 現在ページならtrue。aria-current="page" になる */
+  /** Adds aria-current="page" for the active tab. */
   active?: boolean;
 }
 
 interface Props {
-  /** タブの並び。渡された順に左から表示する */
+  /** Tabs are displayed in the order they are passed. */
   items: TabItem[];
-  /** <nav> の aria-label。スクリーンリーダー用 */
+  /** Accessible label for the tab navigation. */
   ariaLabel: string;
-  /** サイズ。md = Episodes 系（小さめ）、lg = Others 系（大きめ） */
-  size?: "md" | "lg";
 }
 
-const { items, ariaLabel, size = "md" } = Astro.props;
+const { items, ariaLabel } = Astro.props;
 ---
 
-<nav class:list={["tab-nav", `tab-nav--${size}`]} aria-label={ariaLabel}>
+<nav class="tab-nav" aria-label={ariaLabel}>
   <div class="tab-nav__list">
     {items.map((item) => (
-      <a href={item.href} aria-current={item.active ? "page" : undefined}>
-        {item.label}
-      </a>
+      item.active ? (
+        <span aria-current="page">{item.label}</span>
+      ) : (
+        <a href={item.href}>{item.label}</a>
+      )
     ))}
   </div>
 </nav>
 
 <style>
   .tab-nav {
+    --tabs-fg: var(--c-tabs-fg);
+    --tabs-border: var(--c-tabs-border);
+    --tabs-active-border: var(--c-tabs-active-border);
+
     max-width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
+    padding-bottom: var(--s-3);
   }
 
   .tab-nav__list {
@@ -47,67 +52,41 @@ const { items, ariaLabel, size = "md" } = Astro.props;
     width: max-content;
   }
 
-  .tab-nav a {
+  .tab-nav :is(a, span) {
     flex: 0 0 auto;
     font-weight: 600;
     position: relative;
-    color: var(--c-fg);
-    font-family: var(--font-family-navigation);
-    text-decoration: none;
-    white-space: nowrap;
-    transition: color var(--dur-fast) var(--ease-out);
-  }
-
-  .tab-nav a::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    bottom: -2px;
-    height: 2px;
-    transition:
-      left var(--dur-base) var(--ease-out),
-      right var(--dur-base) var(--ease-out);
-    pointer-events: none;
-  }
-
-  .tab-nav a:hover::after,
-  .tab-nav a:focus-visible::after {
-    left: -4px;
-    right: -4px;
-    border: 2px solid var(--c-site-cyan);
-  }
-
-  .tab-nav a[aria-current="page"]::after {
-    left: -4px;
-    right: -4px;
-    border: 2px solid var(--c-site-pink);
-    transition: none;
-  }
-
-  /* ---- size: md（Episodes 系） */
-  .tab-nav--md {
-    padding-bottom: var(--s-3);
-  }
-
-  .tab-nav--md a {
+    color: var(--tabs-fg);
+    font-family: var(--font-family-base);
     font-size: 24px;
     line-height: var(--lh-s-tight);
+    text-decoration: none;
+    white-space: nowrap;
   }
 
-  .tab-nav--md a::after {
+  .tab-nav :is(a, span)::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    right: -4px;
     bottom: -3px;
+    height: 0;
+    border-bottom: 4px solid var(--tabs-border);
+    pointer-events: none;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition:
+      border-bottom-color var(--dur-base) var(--ease-out),
+      transform var(--dur-base) var(--ease-out);
   }
 
-  /* ---- size: lg（Others 系） */
-  .tab-nav--lg {
-    margin: 20px 0 0;
-    padding-bottom: 8px;
+  .tab-nav a:hover::after {
+    transform: scaleX(1);
   }
 
-  .tab-nav--lg a {
-    font-size: 24px;
-    padding: 6px 0;
+  .tab-nav [aria-current="page"]::after {
+    border-bottom-color: var(--tabs-active-border);
+    transform: scaleX(1);
   }
 
   @media (--bp-tablet) {
@@ -115,8 +94,7 @@ const { items, ariaLabel, size = "md" } = Astro.props;
       gap: 20px;
     }
 
-    .tab-nav--md a,
-    .tab-nav--lg a {
+    .tab-nav :is(a, span) {
       font-size: 18px;
     }
   }
