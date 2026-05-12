@@ -1,5 +1,6 @@
 ---
 import Button from "../../common/btn/Button.astro";
+import StickyNoteNav from "../../common/nav/StickyNoteNav.astro";
 import type { EpisodeLogSection } from "../../../lib/episodes/logs";
 import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
@@ -24,25 +25,51 @@ const {
 ---
 
 <aside class="episode-log__sidebar" aria-label={episodesPageMsg.aria.logNavigation}>
-  <Button class="episode-log__button" href={overviewHref} type="black" size="m">
+  <Button href={overviewHref} type="white" size="m">
     {commonMsg.actions.backToOverview}
   </Button>
   {showNextButton && nextHref && (
-    <Button class="episode-log__button" href={nextHref} type="white" size="m">
+    <Button href={nextHref} type="white" size="m">
       {commonMsg.actions.nextEpisode}
     </Button>
   )}
   {showPreviousButton && previousHref && (
-    <Button class="episode-log__button" href={previousHref} type="white" size="m">
+    <Button href={previousHref} type="white" size="m">
       {commonMsg.actions.previousEpisode}
     </Button>
   )}
   {sections.map((section) => (
-    <Button class="episode-log__button" href={`#${section.anchor}`} type="white" size="m">
+    <Button
+      href={`#${section.anchor}`}
+      type="white"
+      size="m"
+      data-log-sticky-link={section.anchor}
+    >
       {section.label}
     </Button>
   ))}
 </aside>
+
+<StickyNoteNav
+  id="episode-log-sticky-nav"
+  ariaLabel={episodesPageMsg.aria.logNavigation}
+  openLabel={commonMsg.actions.open(episodesPageMsg.aria.logNavigation)}
+  closeLabel={commonMsg.actions.close}
+  drawerWidth="min(300px, calc(100vw - 75px))"
+  drawerMobileWidth="min(280px, calc(100vw - 75px))"
+  listAlign="stretch"
+  listGap="60px"
+  listLinkMargin="0 70px 0 30px"
+>
+  <a href={overviewHref}>{commonMsg.actions.backToOverview}</a>
+  {showNextButton && nextHref && <a href={nextHref}>{commonMsg.actions.nextEpisode}</a>}
+  {showPreviousButton && previousHref && <a href={previousHref}>{commonMsg.actions.previousEpisode}</a>}
+  {sections.map((section) => (
+    <a href={`#${section.anchor}`} data-log-sticky-link={section.anchor}>
+      {section.label}
+    </a>
+  ))}
+</StickyNoteNav>
 
 <style>
   .episode-log__sidebar {
@@ -54,9 +81,98 @@ const {
 
   @media (--bp-tablet) {
     .episode-log__sidebar {
-      position: static;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
+      display: none;
     }
   }
 </style>
+
+<script>
+  import { onPageLoad } from "../../../scripts/onPageLoad";
+
+  onPageLoad("episode-log-sticky-nav", ({ signal }) => {
+    const links = Array.from(
+      document.querySelectorAll<HTMLAnchorElement>("[data-log-sticky-link]")
+    );
+    const sections = links
+      .map((link) => {
+        const id = link.dataset.logStickyLink;
+        const section = id ? document.getElementById(id) : null;
+        return section ? { id, link, section } : null;
+      })
+      .filter((item): item is { id: string; link: HTMLAnchorElement; section: HTMLElement } =>
+        Boolean(item)
+      );
+
+    const setCurrentLogSection = (id: string) => {
+      for (const item of sections) {
+        if (item.id === id) {
+          item.link.setAttribute("aria-current", "page");
+          item.link.setAttribute("tabindex", "-1");
+        } else {
+          item.link.removeAttribute("aria-current");
+          item.link.removeAttribute("tabindex");
+        }
+      }
+    };
+
+    const getActiveLogSectionId = () => {
+      const checkpoint = window.scrollY + window.innerHeight * 0.35;
+      let active = sections[0];
+
+      for (const item of sections) {
+        if (item.section.offsetTop <= checkpoint) {
+          active = item;
+        }
+      }
+
+      return active?.id;
+    };
+
+    const updateCurrentLogSection = () => {
+      const activeId = getActiveLogSectionId();
+      if (activeId) {
+        setCurrentLogSection(activeId);
+      }
+    };
+
+    const currentFromHash = () => {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      if (id && sections.some((item) => item.id === id)) {
+        setCurrentLogSection(id);
+        return true;
+      }
+      return false;
+    };
+
+    if (!currentFromHash() && sections[0]) {
+      setCurrentLogSection(sections[0].id);
+    }
+
+    for (const item of sections) {
+      item.link.addEventListener("click", () => setCurrentLogSection(item.id), {
+        signal,
+      });
+    }
+
+    const observer = new IntersectionObserver(
+      updateCurrentLogSection,
+      {
+        rootMargin: "-25% 0px -60% 0px",
+        threshold: 0,
+      }
+    );
+
+    for (const item of sections) {
+      observer.observe(item.section);
+    }
+
+    signal.addEventListener("abort", () => observer.disconnect(), { once: true });
+    window.addEventListener("scroll", updateCurrentLogSection, {
+      passive: true,
+      signal,
+    });
+    window.addEventListener("hashchange", currentFromHash, {
+      signal,
+    });
+  });
+</script>

@@ -37,6 +37,12 @@ const episodesPath = withBase("/episodes");
 const pageShellBgImage = `url("${withBase("/images/bg.png")}")`;
 const showEpisodeSpoilerNotice =
   Astro.url.pathname === episodesPath || Astro.url.pathname.startsWith(`${episodesPath}/`);
+const episodesSubPath = showEpisodeSpoilerNotice
+  ? Astro.url.pathname.slice(episodesPath.length)
+  : "";
+const episodeSpoilerNoticeKind = /^\/[^/]+\/[^/]+\/log\/?$/.test(episodesSubPath)
+  ? "log"
+  : "default";
 const hasPageTabs = Astro.slots.has("page-tabs");
 const hasPageShell =
   Astro.slots.has("page-heading")
@@ -70,8 +76,12 @@ const hasPageShell =
   <body class={bodyClass}>
     <a href="#main" class="visually-hidden">{commonMsg.accessibility.skipToMain}</a>
     <Header />
-    <main id="main" data-page-shell style={`--page-shell-bg-image: ${pageShellBgImage};`}>
-      {showEpisodeSpoilerNotice && <EpisodeSpoilerNotice topHref={withBase("/")} />}
+    <main
+      id="main"
+      data-page-shell
+      data-page-transition={showEpisodeSpoilerNotice ? "none" : undefined}
+      style={`--page-shell-bg-image: ${pageShellBgImage};`}
+    >
       {hasPageShell ? (
         <section class:list={["section", pageSectionClass]}>
           <div class:list={["container", pageContainerClass]}>
@@ -88,6 +98,9 @@ const hasPageShell =
         <slot />
       )}
     </main>
+    {showEpisodeSpoilerNotice && (
+      <EpisodeSpoilerNotice topHref={withBase("/")} noticeKind={episodeSpoilerNoticeKind} />
+    )}
     <Footer shareUrl={canonical.href} shareTitle={fullTitle} />
     <BackToTop />
 

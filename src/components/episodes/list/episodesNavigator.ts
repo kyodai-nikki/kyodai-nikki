@@ -1,13 +1,43 @@
 import { breakpoints } from "../../../lib/breakpoints.mjs";
+import { onPageLoad } from "../../../scripts/onPageLoad";
 
-const initEpisodesNavigator = () => {
+const listScrollKey = "kyodai-nikki:episode-list-scroll";
+
+const readStoredListScroll = () => {
+  const stored = sessionStorage.getItem(listScrollKey);
+  if (!stored) return undefined;
+
+  sessionStorage.removeItem(listScrollKey);
+  const scrollTop = Number(stored);
+  return Number.isFinite(scrollTop) ? scrollTop : undefined;
+};
+
+const saveListScroll = () => {
+  const list = document.querySelector(".ep-list");
+  if (!(list instanceof HTMLElement)) return;
+
+  sessionStorage.setItem(listScrollKey, String(list.scrollTop));
+};
+
+const initEpisodeListScrollRestore = (signal: AbortSignal) => {
+  document.querySelectorAll(".ep-item").forEach((item) => {
+    item.addEventListener("click", saveListScroll, { signal });
+  });
+};
+
+const initEpisodesNavigator = ({ signal }: { signal: AbortSignal }) => {
+  const storedListScroll = readStoredListScroll();
   const list = document.querySelector(".ep-list");
   if (list instanceof HTMLElement) {
-    const selected = list.querySelector(".ep-item--selected");
-    if (selected instanceof HTMLElement) {
-      const li = selected.closest("li");
-      if (li instanceof HTMLElement) {
-        list.scrollTop = li.offsetTop - list.offsetTop;
+    if (storedListScroll !== undefined) {
+      list.scrollTop = storedListScroll;
+    } else {
+      const selected = list.querySelector(".ep-item--selected");
+      if (selected instanceof HTMLElement) {
+        const li = selected.closest("li");
+        if (li instanceof HTMLElement) {
+          list.scrollTop = li.offsetTop - list.offsetTop;
+        }
       }
     }
   }
@@ -38,6 +68,8 @@ const initEpisodesNavigator = () => {
       }
     }
   }
+
+  initEpisodeListScrollRestore(signal);
 };
 
-document.addEventListener("astro:page-load", initEpisodesNavigator);
+onPageLoad("episodes-navigator", initEpisodesNavigator);

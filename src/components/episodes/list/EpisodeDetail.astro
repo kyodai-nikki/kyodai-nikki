@@ -8,6 +8,7 @@ import { episodeOverviewLabel } from "../../../lib/episodes/view";
 import { commonMsg } from "../../../msg/common";
 import { episodesPageMsg } from "../../../msg/episodes";
 import Badge from "../../common/Badge.astro";
+import Button from "../../common/btn/Button.astro";
 
 type EpisodeMeta = EpisodeEntry & {
   badge?: string;
@@ -24,6 +25,16 @@ const { current, seasonSlug, logHref, dummyThumbnail } = Astro.props as Props;
 const detailClass =
   current && current.type !== "normal" ? "ep-detail ep-detail--alt" : "ep-detail";
 const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
+const isAltEpisode = Boolean(current && current.type !== "normal");
+const readButtonTone = isAltEpisode
+  ? {
+      borderColor: "var(--c-border)",
+      color: "var(--episode-detail-alt-fg)",
+    }
+  : {
+      borderColor: "var(--c-border)",
+      color: "var(--episode-detail-fg)",
+    };
 ---
 
 {current ? (
@@ -53,9 +64,21 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
         {current.isR18G && <Badge label={commonMsg.badges.r18g} variant={badgeVariant} />}
       </div>
       {logHref && (
-        <a class="ep-detail__read" href={logHref}>
+        <Button
+          href={logHref}
+          type="white"
+          size="s"
+          minWidth="125px"
+          minHeight="0"
+          paddingBlock="var(--s-2)"
+          paddingInline="0"
+          bg="transparent"
+          fontSize="var(--fs-lg)"
+          lineHeight="var(--lh-s-tight)"
+          {...readButtonTone}
+        >
           {commonMsg.actions.read}
-        </a>
+        </Button>
       )}
     </div>
   </article>
@@ -67,20 +90,29 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
 
 <style>
   .ep-detail {
-    border: 1px solid var(--c-border);
-    background: var(--c-bg-elev);
-    color: var(--c-fg);
-    padding: clamp(var(--s-4), 3vw, var(--s-6));
+    --episode-detail-bg: var(--c-episode-detail-bg);
+    --episode-detail-fg: var(--c-episode-detail-fg);
+    --episode-detail-border: var(--c-episode-detail-border);
+    --episode-detail-alt-bg: var(--c-episode-detail-alt-bg);
+    --episode-detail-alt-fg: var(--c-episode-detail-alt-fg);
+    --episode-detail-empty-fg: var(--c-episode-detail-empty-fg);
+    --episode-detail-image-bg: var(--c-episode-detail-image-bg);
+
+    border: 1px solid var(--episode-detail-border);
+    background: var(--episode-detail-bg);
+    color: var(--episode-detail-fg);
+    padding: 20px;
     display: flex;
     flex-direction: column;
     gap: var(--s-4);
     min-height: 640px;
+    border-radius: var(--r-md);
   }
 
   .ep-detail--alt {
-    background: var(--c-bg-dark);
-    color: var(--c-fg-on-dark);
-    border-color: var(--c-bg-dark);
+    background: var(--episode-detail-alt-bg);
+    color: var(--episode-detail-alt-fg);
+    border-color: var(--episode-detail-border);
   }
 
   .ep-detail--alt .ep-detail__image {
@@ -89,30 +121,20 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
 
   .ep-detail--alt .ep-detail__title,
   .ep-detail--alt .ep-detail__subtitle {
-    color: var(--c-fg-on-dark);
+    color: var(--episode-detail-alt-fg);
     opacity: 1;
-  }
-
-  .ep-detail--alt .ep-detail__read {
-    border-color: var(--c-fg-on-dark);
-    color: var(--c-fg-on-dark);
-  }
-
-  .ep-detail--alt .ep-detail__read:hover {
-    background: var(--c-fg-on-dark);
-    color: var(--c-bg-dark);
   }
 
   .ep-detail--empty {
     align-items: center;
     justify-content: center;
-    color: var(--c-fg-muted);
+    color: var(--episode-detail-empty-fg);
   }
 
   .ep-detail__image-wrap {
     width: 100%;
     aspect-ratio: 16 / 9;
-    background: var(--c-bg-muted);
+    background: var(--episode-detail-image-bg);
     overflow: hidden;
   }
 
@@ -137,7 +159,6 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
   .ep-detail__subtitle {
     font-size: var(--fs-lg);
     font-weight: var(--fw-regular);
-    letter-spacing: var(--ls-wide);
   }
 
   .ep-detail__body {
@@ -151,7 +172,7 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
   .ep-detail__foot {
     margin-top: auto;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     gap: var(--s-3);
     flex-wrap: wrap;
@@ -161,29 +182,6 @@ const badgeVariant = current && current.type !== "normal" ? "alt" : "default";
     display: flex;
     gap: var(--s-2);
     flex-wrap: wrap;
-  }
-
-  .ep-detail__read {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 125px;
-    padding: var(--s-2) 0;
-    border: 1px solid var(--c-fg);
-    color: var(--c-fg);
-    background: transparent;
-    text-decoration: none;
-    font-family: var(--font-family-base);
-    font-size: var(--fs-lg);
-    line-height: var(--lh-s-tight);
-    letter-spacing: var(--ls-wide);
-    transition: background var(--dur-fast) var(--ease-out),
-      color var(--dur-fast) var(--ease-out);
-  }
-
-  .ep-detail__read:hover {
-    background: var(--c-fg);
-    color: var(--c-fg-on-dark);
   }
 
   @media (--bp-tablet) {

@@ -2,16 +2,19 @@
 import Modal from "../common/Modal.astro";
 import Button from "../common/btn/Button.astro";
 import SpoilerNoticeBody from "../../content/episodes-spoiler-notice.md";
+import LogSpoilerNoticeBody from "../../content/episodes-log-spoiler-notice.md";
 import { commonMsg } from "../../msg/common";
 
 interface Props {
   topHref: string;
+  noticeKind?: "default" | "log";
 }
 
-const { topHref } = Astro.props as Props;
+const { topHref, noticeKind = "default" } = Astro.props as Props;
 const modalId = "episode-spoiler-notice";
 const storageKey = "kyodai-nikki:episodes-spoiler-notice:v1";
 const spoilerNoticeMsg = commonMsg.notices.spoiler;
+const NoticeBody = noticeKind === "log" ? LogSpoilerNoticeBody : SpoilerNoticeBody;
 ---
 
 <Modal
@@ -31,14 +34,14 @@ const spoilerNoticeMsg = commonMsg.notices.spoiler;
     <div class="episode-spoiler-notice__body">
       <h2 class="episode-spoiler-notice__title">{spoilerNoticeMsg.title}</h2>
       <div class="episode-spoiler-notice__copy">
-        <SpoilerNoticeBody />
+        <NoticeBody />
       </div>
     </div>
 
     <div class="episode-spoiler-notice__actions">
       <Button
         type="white"
-        size="l"
+        size="m"
         layout="action"
         data-episode-spoiler-back
       >
@@ -46,7 +49,7 @@ const spoilerNoticeMsg = commonMsg.notices.spoiler;
       </Button>
       <Button
         type="black"
-        size="l"
+        size="m"
         layout="action"
         data-episode-spoiler-accept
       >
@@ -167,6 +170,9 @@ const spoilerNoticeMsg = commonMsg.notices.spoiler;
 
 <style>
   .episode-spoiler-notice {
+    --episode-spoiler-notice-title-fg: var(--c-episode-spoiler-notice-title-fg);
+    --episode-spoiler-notice-copy-fg: var(--c-episode-spoiler-notice-copy-fg);
+
     display: grid;
     gap: var(--s-6);
     padding: clamp(28px, 5vw, 52px) clamp(24px, 7vw, 72px);
@@ -184,7 +190,7 @@ const spoilerNoticeMsg = commonMsg.notices.spoiler;
     font-family: var(--font-family-base);
     font-size: 20px;
     letter-spacing: 0.16em;
-    color: var(--c-fg);
+    color: var(--episode-spoiler-notice-title-fg);
   }
 
   .episode-spoiler-notice__copy {
@@ -198,7 +204,7 @@ const spoilerNoticeMsg = commonMsg.notices.spoiler;
     font-family: var(--font-family-base);
     font-size: 18px;
     line-height: 1.4;
-    color: var(--c-fg-body);
+    color: var(--episode-spoiler-notice-copy-fg);
     white-space: pre-line;
   }
 
