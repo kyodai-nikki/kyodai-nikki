@@ -369,24 +369,5 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
 </style>
 
 <script>
-  function initMediaLoaders() {
-    document.querySelectorAll<HTMLElement>(".media-modal__img-wrap").forEach((wrap) => {
-      const img = wrap.querySelector("img");
-      if (!img) return;
-
-      const markLoaded = () => wrap.classList.add("is-loaded");
-
-      // すでに読み込み済み（キャッシュ等）の場合は即座に表示
-      if (img.complete && img.naturalWidth > 0) {
-        markLoaded();
-        return;
-      }
-
-      img.addEventListener("load", markLoaded, { once: true });
-      img.addEventListener("error", markLoaded, { once: true }); // エラー時もスピナーを消す
-    });
-  }
-
-  initMediaLoaders();
-  document.addEventListener("astro:page-load", initMediaLoaders);
+  import "../../scripts/mediaModal";
 </script>
