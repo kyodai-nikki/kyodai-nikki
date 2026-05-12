@@ -9,9 +9,18 @@ export interface HeaderNavItem {
 
 const rootHref = basePath ? `${basePath}/` : "/";
 
+const stripBasePath = (pathname: string): string => {
+  if (!basePath || !pathname.startsWith(basePath)) return pathname;
+  return pathname.slice(basePath.length) || "/";
+};
+
+const firstPathSegment = (pathname: string): string =>
+  stripBasePath(pathname).split("/").filter(Boolean)[0] ?? "";
+
 export const isCurrentPath = (href: string, pathname: string): boolean => {
   const fullHref = withBase(href);
-  return fullHref === rootHref ? pathname === rootHref : pathname.startsWith(fullHref);
+  if (fullHref === rootHref) return pathname === rootHref;
+  return firstPathSegment(href) === firstPathSegment(pathname);
 };
 
 export const headerNavItems = (pathname: string): HeaderNavItem[] =>

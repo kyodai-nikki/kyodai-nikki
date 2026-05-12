@@ -11,6 +11,7 @@ interface Props {
   drawerMobileWidth?: string;
   listAlign?: string;
   listGap?: string;
+  listLinkMargin?: string;
   class?: string;
 }
 
@@ -24,6 +25,7 @@ const {
   drawerMobileWidth,
   listAlign,
   listGap,
+  listLinkMargin,
   class: className = "",
 } = Astro.props as Props;
 
@@ -32,12 +34,12 @@ const stickyNoteStyle = [
   drawerMobileWidth && `--nav-drawer-mobile-width: ${drawerMobileWidth}`,
   listAlign && `--sticky-note-nav-list-align: ${listAlign}`,
   listGap && `--sticky-note-nav-list-gap: ${listGap}`,
+  listLinkMargin && `--sticky-note-nav-link-margin: ${listLinkMargin}`,
 ].filter(Boolean).join("; ");
 ---
 
 <div class:list={["sticky-note-nav-shell", className]} style={stickyNoteStyle || undefined}>
   <NavDrawer
-    class="sticky-note-nav"
     id={id}
     ariaLabel={ariaLabel}
     openLabel={openLabel}
@@ -76,6 +78,11 @@ const stickyNoteStyle = [
       --nav-drawer-panel-padding: 88px 26px 32px;
       --nav-drawer-panel-z: var(--z-nav-drawer-panel);
       --nav-drawer-backdrop-z: var(--z-nav-drawer-backdrop);
+      --sticky-note-nav-tab-bg: var(--c-sticky-note-tab-bg);
+      --sticky-note-nav-tab-sheet-bg: var(--c-sticky-note-tab-sheet-bg);
+      --sticky-note-nav-link-fg: var(--c-sticky-note-link-fg);
+      --sticky-note-nav-link-hover: var(--c-sticky-note-link-hover);
+      --sticky-note-nav-link-active: var(--c-sticky-note-link-active);
       --sticky-note-nav-list-align: center;
       --sticky-note-nav-list-gap: 50px;
       --sticky-note-nav-tab-color-width: 50px;
@@ -104,7 +111,7 @@ const stickyNoteStyle = [
       border: 0;
       background: transparent;
       cursor: pointer;
-      transition: right var(--dur-base) var(--ease-out);
+      transition: right var(--dur-base) var(--ease-button);
       z-index: var(--z-nav-drawer-trigger);
     }
 
@@ -119,13 +126,13 @@ const stickyNoteStyle = [
       max-width: calc(100% - var(--sticky-note-nav-tab-overlap));
       margin-right: var(--sticky-note-nav-tab-overlap);
       border-radius: 12px 0 0 12px;
-      background: rgba(0, 188, 212, 0.8);
+      background: var(--sticky-note-nav-tab-bg);
     }
 
     .sticky-note-nav__tab-sheet {
       flex: none;
       height: var(--sticky-note-nav-tab-height);
-      background: var(--c-bg);
+      background: var(--sticky-note-nav-tab-sheet-bg);
       z-index: 1;
     }
 
@@ -139,7 +146,29 @@ const stickyNoteStyle = [
       flex-direction: column;
       align-items: var(--sticky-note-nav-list-align);
       gap: var(--sticky-note-nav-list-gap);
+      font-family: var(--font-family-base);
       font-size: 20px;
+      line-height: var(--lh-normal);
+    }
+
+    .sticky-note-nav__list :global(:is(a, span)) {
+      margin: var(--sticky-note-nav-link-margin, 0);
+      color: var(--sticky-note-nav-link-fg);
+      text-decoration: none;
+      transition: color var(--dur-base) var(--ease-out);
+    }
+
+    .sticky-note-nav__list :global(a:not([aria-current="page"]):hover) {
+      color: var(--sticky-note-nav-link-hover);
+    }
+
+    .sticky-note-nav__list :global([aria-current="page"]) {
+      color: var(--sticky-note-nav-link-active);
+    }
+
+    .sticky-note-nav__list :global(a[aria-current="page"]) {
+      pointer-events: none;
+      cursor: default;
     }
   }
 </style>

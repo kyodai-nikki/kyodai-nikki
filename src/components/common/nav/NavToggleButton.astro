@@ -35,6 +35,9 @@ const {
 
 <style>
   .nav-toggle {
+    --nav-toggle-fg: var(--c-nav-toggle-fg);
+    --nav-toggle-active-fg: var(--c-nav-toggle-active-fg);
+
     display: none;
     background: transparent;
     border: 0;
@@ -42,7 +45,7 @@ const {
     height: 44px;
     padding: 10px;
     cursor: pointer;
-    color: var(--c-fg);
+    color: var(--nav-toggle-fg);
     position: relative;
     z-index: var(--z-header-control);
     align-items: center;
@@ -53,7 +56,7 @@ const {
   @media (--bp-laptop) {
     .nav-toggle {
       display: inline-flex;
-      color: var(--c-header-menu-icon);
+      color: var(--nav-toggle-active-fg);
       width: 56px;
       height: 56px;
       padding: 12px;
