@@ -58,6 +58,7 @@ const openDialog = (dialog: HTMLDialogElement) => {
   dialog.dataset.state = "open";
   dialog.showModal();
   lockBodyScroll();
+  dialog.focus({ preventScroll: true });
 
   const content = dialog.querySelector(".modal__content");
   if (content instanceof Element) content.scrollTop = 0;

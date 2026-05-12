@@ -28,6 +28,7 @@ const {
   data-modal-id={id}
   data-modal-dismissible={dismissible ? "true" : "false"}
   aria-label={ariaLabel}
+  tabindex="-1"
 >
   <div class:list={["modal__panel", panelPadding === "none" && "modal__panel--padding-none", panelClass]}>
     {showCloseButton && (
@@ -67,6 +68,10 @@ const {
 
   .modal::backdrop {
     background: var(--modal-backdrop);
+  }
+
+  .modal:focus {
+    outline: none;
   }
 
   /* Generated from the `variant` prop: modal--${variant}. */
