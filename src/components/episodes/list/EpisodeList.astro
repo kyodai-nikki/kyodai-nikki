@@ -105,6 +105,8 @@ const itemClass = (episode: EpisodeEntry) => {
   }
 
   .ep-item {
+    --episode-list-item-overlay-bg: var(--episode-list-selected-normal-bg);
+
     position: relative;
     display: grid;
     grid-template-columns: 56px 1fr;
@@ -130,9 +132,24 @@ const itemClass = (episode: EpisodeEntry) => {
     overflow: hidden;
     border-radius: var(--r-md);
     transition:
-      background-color var(--dur-base) var(--ease-out),
-      border-color var(--dur-base) var(--ease-out),
-      color var(--dur-base) var(--ease-out);
+      background-color var(--dur-base) var(--ease-button),
+      border-color var(--dur-base) var(--ease-button),
+      color var(--dur-base) var(--ease-button);
+  }
+
+  .ep-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(
+      90deg,
+      var(--episode-list-item-overlay-bg) 37%,
+      var(--episode-list-item-overlay-bg) 100%
+    );
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--dur-base) var(--ease-button);
   }
 
   .ep-item__no {
@@ -158,33 +175,28 @@ const itemClass = (episode: EpisodeEntry) => {
   }
 
   .ep-item--normal.ep-item--selected {
-    background-color: var(--episode-list-selected-normal-bg);
-    background-image:
-      linear-gradient(
-        90deg,
-        var(--episode-list-selected-normal-bg) 37%,
-        var(--episode-list-selected-normal-bg) 100%
-    ),
-    var(--ep-bg, none);
     color: var(--episode-list-selected-normal-fg);
     border-color: var(--episode-list-border);
+  }
+
+  .ep-item--normal.ep-item--selected::before {
+    opacity: 1;
   }
 
   a.ep-item--normal:hover,
   a.ep-item--normal:focus-visible {
-    background-color: var(--episode-list-selected-normal-bg);
-    background-image:
-      linear-gradient(
-        90deg,
-        var(--episode-list-selected-normal-bg) 37%,
-        var(--episode-list-selected-normal-bg) 100%
-    ),
-    var(--ep-bg, none);
     color: var(--episode-list-selected-normal-fg);
     border-color: var(--episode-list-border);
   }
 
+  a.ep-item--normal:hover::before,
+  a.ep-item--normal:focus-visible::before {
+    opacity: 1;
+  }
+
   .ep-item--alt {
+    --episode-list-item-overlay-bg: var(--episode-list-selected-alt-bg);
+
     background-color: var(--episode-list-alt-bg);
     background-image:
       linear-gradient(
@@ -199,30 +211,23 @@ const itemClass = (episode: EpisodeEntry) => {
   }
 
   :is(.ep-item--another, .ep-item--deleted).ep-item--selected {
-    background-color: var(--episode-list-selected-alt-bg);
-    background-image:
-      linear-gradient(
-        90deg,
-        var(--episode-list-selected-alt-bg) 37%,
-        var(--episode-list-selected-alt-bg) 100%
-    ),
-    var(--ep-bg, none);
     color: var(--episode-list-selected-alt-fg);
     border-color: var(--episode-list-border);
   }
 
+  :is(.ep-item--another, .ep-item--deleted).ep-item--selected::before {
+    opacity: 1;
+  }
+
   a:is(.ep-item--another, .ep-item--deleted):hover,
   a:is(.ep-item--another, .ep-item--deleted):focus-visible {
-    background-color: var(--episode-list-selected-alt-bg);
-    background-image:
-      linear-gradient(
-        90deg,
-        var(--episode-list-selected-alt-bg) 37%,
-        var(--episode-list-selected-alt-bg) 100%
-    ),
-    var(--ep-bg, none);
     color: var(--episode-list-selected-alt-fg);
     border-color: var(--episode-list-border);
+  }
+
+  a:is(.ep-item--another, .ep-item--deleted):hover::before,
+  a:is(.ep-item--another, .ep-item--deleted):focus-visible::before {
+    opacity: 1;
   }
 
   @media (--bp-tablet) {
