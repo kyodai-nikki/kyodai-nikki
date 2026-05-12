@@ -279,6 +279,7 @@
   --z-nav-drawer-trigger-open: 1105;
   --z-nav-drawer-panel: 1110;
   --z-nav-drawer-trigger: 1120;
+  --z-back-to-top: 1000;
 
   /* Motion ---------------------------------------------- */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
