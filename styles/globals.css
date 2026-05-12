@@ -9,6 +9,7 @@ html {
   -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 :root {
@@ -18,10 +19,13 @@ html {
 
 body {
   margin: 0;
+  width: 100vw;
   min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
   background: var(--c-bg);
   color: var(--c-fg-body);
-  font-family: var(--font-family-other);
+  font-family: var(--font-family-base);
   font-size: var(--fs-base);
   line-height: var(--lh-normal);
   font-feature-settings: "palt";
@@ -32,17 +36,21 @@ body {
 /* Modal が開いている間のスクロールロック。
    Modal.astro が body[data-modal-locked] と --scrollbar-width を付与する。
    スタイル指定は CSS 側に集約することで、JS は状態遷移のみを扱う。 */
+html[data-modal-locked],
 body[data-modal-locked] {
   overflow: hidden;
-  padding-right: var(--scrollbar-width, 0);
 }
 
 main {
-  min-height: 100dvh;
+  flex: 1 0 auto;
   background-image: var(--page-shell-bg-image);
   background-position: center top;
   background-size: 1920px;
   view-transition-name: page-shell;
+}
+
+main[data-page-transition="none"] {
+  view-transition-name: none;
 }
 
 ::view-transition-old(page-shell) {
@@ -88,11 +96,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Libre Baskerville", var(--font-family-other-heading);
+  font-family: var(--font-family-page-heading);
   line-height: var(--lh-tight);
   margin: 0 0 var(--s-4);
   color: var(--c-fg);
-  letter-spacing: var(--ls-normal);
   font-weight: var(--fw-bold);
 }
 
@@ -116,13 +123,6 @@ p {
 a {
   color: inherit;
   text-decoration: none;
-  transition:
-    color var(--dur-fast) var(--ease-out),
-    opacity var(--dur-fast) var(--ease-out);
-}
-
-a:hover {
-  color: var(--c-fg-muted);
 }
 
 .prose a,
@@ -131,11 +131,7 @@ article.prose a {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
-  text-decoration-color: var(--c-border-strong);
-}
-
-.prose a:hover {
-  text-decoration-color: var(--c-fg);
+  text-decoration-color: var(--c-bg);
 }
 
 img,
@@ -152,14 +148,6 @@ hr {
   margin: var(--s-6) 0;
 }
 
-code {
-  font-family: var(--f-mono);
-  font-size: 0.9em;
-  background: var(--c-bg-muted);
-  padding: 0.1em 0.35em;
-  border-radius: var(--r-sm);
-}
-
 .container {
   width: 100%;
   max-width: var(--w-wide);
@@ -170,10 +158,6 @@ code {
 .container--narrow {
   max-width: var(--w-content);
 }
-.container--full {
-  max-width: none;
-  padding-inline: 0;
-}
 
 .stack > * + * {
   margin-top: var(--s-5);
@@ -181,29 +165,48 @@ code {
 .stack-sm > * + * {
   margin-top: var(--s-3);
 }
-.stack-lg > * + * {
-  margin-top: var(--s-7);
+
+.u-image-zoom-frame {
+  --image-hover-extra-transition: visibility 0s linear;
+  --image-filter: brightness(1);
+  --image-hover-filter: opacity(0.7);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.u-image-zoom-frame > img,
+.u-image-zoom-frame > picture > img {
+  backface-visibility: hidden;
+  filter: var(--image-filter);
+  transform: scale(1);
+  transform-origin: center;
+  transition:
+    filter var(--dur-slow) var(--ease-out),
+    transform var(--dur-slow) var(--ease-out),
+    var(--image-hover-extra-transition);
+  will-change: filter, transform;
+}
+
+:is(a, button):hover .u-image-zoom-frame > img,
+:is(a, button):hover .u-image-zoom-frame > picture > img,
+.u-image-zoom-frame:is(a, button):hover > img,
+.u-image-zoom-frame:is(a, button):hover > picture > img {
+  filter: var(--image-hover-filter);
+  transform: scale(var(--image-hover-scale, 1.05));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .u-image-zoom-frame > img,
+  .u-image-zoom-frame > picture > img {
+    transition-duration: 1ms;
+  }
 }
 
 .eyebrow {
-  font-family: var(--font-family-other);
+  font-family: var(--font-family-base);
   font-size: var(--fs-xs);
-  letter-spacing: var(--ls-wider);
   color: var(--c-fg-muted);
   text-transform: uppercase;
-}
-
-.chip {
-  display: inline-block;
-  font-family: var(--font-family-other);
-  font-size: var(--fs-xs);
-  letter-spacing: var(--ls-wide);
-  color: var(--c-fg-muted);
-  padding: 2px var(--s-2);
-  border: 1px solid var(--c-border);
-  border-radius: var(--r-sm);
-  background: transparent;
-  line-height: 1.5;
 }
 
 .visually-hidden {
@@ -219,32 +222,9 @@ code {
   border: 0;
 }
 
-.visually-hidden:focus-visible {
-  position: fixed;
-  top: var(--s-3);
-  left: var(--s-3);
-  width: auto;
-  height: auto;
-  clip: auto;
-  clip-path: none;
-  padding: var(--s-2) var(--s-4);
-  background: var(--c-bg-elev);
-  border: 2px solid var(--c-fg);
-  border-radius: var(--r-sm);
-  font-weight: var(--fw-medium);
-  z-index: 100;
-}
-
 .section {
   padding-top: 30px;
   padding-bottom: 100px;
-}
-
-.section--tight {
-  padding-block: var(--s-6);
-}
-.section--loose {
-  padding-block: var(--s-9);
 }
 
 .section-head {
@@ -259,19 +239,7 @@ code {
   margin-bottom: 30px;
 }
 
-:focus-visible {
-  outline: 1px solid var(--c-fg);
-  outline-offset: 3px;
-  border-radius: var(--r-sm);
-}
-
 @media (--bp-laptop) {
-  main {
-    min-height: calc(
-      100dvh - var(--site-header-offset) - var(--site-footer-offset)
-    );
-  }
-
   .section {
     padding: 30px 0;
   }

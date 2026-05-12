@@ -78,4 +78,5 @@ video {
   -webkit-bsackface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
   word-spacing: 1px;
+  color: inherit;
 }
