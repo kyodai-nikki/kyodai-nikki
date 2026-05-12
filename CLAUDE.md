@@ -1,3 +1,14 @@
+# Project Conventions
+
+- Avoid using `:global()` from a parent component to force child component styling. Prefer explicit component props, CSS custom properties passed to the child root, or a small child-component API extension.
+- Use `border-radius: var(--r-md)` for standard rounded UI corners unless an existing component pattern or token calls for a different radius.
+
+## Before Editing Components
+
+- Before styling a child component from a parent, check whether the target is the child component root or an internal element.
+- If styling seems to require `:global()`, pause and first consider using or adding component props, passing CSS custom properties to the child root, adding a local wrapper, or making a small child-component API extension.
+- Use `:global()` only for true global foundations, third-party markup, or documented escape hatches.
+
 # CSS
 
 ## AGENTS.md / CLAUDE.md の同期
@@ -11,8 +22,9 @@
 
 ## CSSで色定義を行う場合
 
-サイト内で色を定義する場合、コンポーネントの責務ごとに変数を定義し、variables.cssに記載すること。
-各コンポーネントからはvariables.cssを参照すること。
+`styles/variables.css` には、raw palette colors、共有 semantic roles、複数箇所で再利用・上書きされる component defaults を定義する。
+1ページでしか使わない色 role は `variables.css` に昇格させず、そのページまたはコンポーネントの stylesheet 内に閉じること。
+共通コンポーネントの色を変えたい場合は、ページ単位の上書きではなく、コンポーネント側で所有する CSS カスタムプロパティや props を通じて instance ごとにカスタマイズできるようにすること。
 
 # コンポーネント設計方針
 
