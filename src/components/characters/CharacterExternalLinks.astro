@@ -56,6 +56,12 @@ const { links } = Astro.props;
     text-underline-offset: 3px;
     color: var(--character-external-links-link-fg);
     line-height: var(--lh-s-tight);
+    transition: opacity var(--dur-base) var(--ease-out);
+  }
+
+  .character-external-links__box a:hover,
+  .character-external-links__box a:focus-visible {
+    opacity: 0.7;
   }
 
   @media (--bp-mobile) {

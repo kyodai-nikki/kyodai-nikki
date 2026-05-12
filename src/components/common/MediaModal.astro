@@ -314,6 +314,12 @@ const normalizedTwitterId = twitterId?.replace(/^@+/, "").trim();
   .media-modal__link {
     text-decoration: underline;
     text-underline-offset: 2px;
+    transition: opacity var(--dur-base) var(--ease-out);
+  }
+
+  .media-modal__link:hover,
+  .media-modal__link:focus-visible {
+    opacity: 0.7;
   }
 
   .media-modal__details {

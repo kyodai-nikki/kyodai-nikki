@@ -22,4 +22,15 @@ import { notFoundPageMsg } from "../msg/notFound";
   .notfound__description {
     color: var(--c-fg-muted);
   }
+
+  .notfound a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: opacity var(--dur-base) var(--ease-out);
+  }
+
+  .notfound a:hover,
+  .notfound a:focus-visible {
+    opacity: 0.7;
+  }
 </style>

@@ -17,6 +17,16 @@ const { title, redirectTo } = Astro.props as Props;
     <meta http-equiv="refresh" content={`0;url=${redirectTo}`} />
     <link rel="canonical" href={redirectTo} />
     <title>{title}</title>
+    <style>
+      a {
+        transition: opacity 0.3s ease;
+      }
+
+      a:hover,
+      a:focus-visible {
+        opacity: 0.7;
+      }
+    </style>
   </head>
   <body>
     <p><a href={redirectTo}>{commonMsg.redirect.loading}</a></p>
