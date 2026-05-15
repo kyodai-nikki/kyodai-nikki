@@ -13,8 +13,15 @@ const HOME_IMAGE_URL = "/images/home/home.png";
 const HOME_IMAGE_URL_BASE = "/images/home";
 const HOME_IMAGE_HEIGHT_PX = 2000;
 const slideshowDir = resolve(process.cwd(), "public/images/home");
-const slideshowImageDimensions = siteConfig.enableSlideshow
+const slideshowImageDimensionsRaw = siteConfig.enableSlideshow
   ? await imageAllDimensions(slideshowDir, HOME_IMAGE_URL_BASE)
+  : [];
+// home.png を先頭に、残りは数値昇順（1.png → 2.png …）で並べる
+const slideshowImageDimensions = slideshowImageDimensionsRaw.length > 0
+  ? [
+      ...slideshowImageDimensionsRaw.filter((img) => img.src.includes("home.")),
+      ...slideshowImageDimensionsRaw.filter((img) => !img.src.includes("home.")),
+    ]
   : [];
 const slideImages = slideshowImageDimensions.length > 0
   ? slideshowImageDimensions
