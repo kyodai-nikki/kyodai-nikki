@@ -16,7 +16,7 @@ interface Props {
   images: MediaModalImage[];
   creditName?: string;
   creditUrl?: string;
-  twitterId?: string;
+  xId?: string;
 }
 
 const {
@@ -26,7 +26,7 @@ const {
   images,
   creditName,
   creditUrl,
-  twitterId,
+  xId,
 } = Astro.props;
 ---
 
@@ -38,7 +38,7 @@ const {
   imageMaxWidth="420px"
   creditName={creditName}
   creditUrl={creditUrl}
-  twitterId={twitterId}
+  xId={xId}
   closeLabel={commonMsg.actions.close}
   panelClass="gallery-modal-panel"
 />

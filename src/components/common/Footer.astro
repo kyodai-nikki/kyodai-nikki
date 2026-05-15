@@ -86,7 +86,10 @@ const year = new Date().getFullYear();
       bottom: 0;
       left: 0;
       z-index: var(--z-footer);
+      min-height: var(--site-footer-offset);
       padding-block: 40px;
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -97,6 +100,7 @@ const year = new Date().getFullYear();
     }
 
     .site-footer {
+      min-height: var(--site-footer-offset);
       padding-block: 20px;
     }
 

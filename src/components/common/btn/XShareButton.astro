@@ -26,26 +26,49 @@ const { href, iconSize } = Astro.props;
     --share-btn-fg: var(--c-share-btn-fg);
 
     display: inline-flex;
+    flex: 0 0 var(--share-btn-size);
     align-items: center;
     justify-content: center;
     width: var(--share-btn-size);
     height: var(--share-btn-size);
     border-radius: var(--share-btn-radius, 25%);
-    overflow: hidden;
-    background: var(--share-btn-bg);
+    position: relative;
+    overflow: visible;
+    background: transparent;
     color: var(--share-btn-color, var(--share-btn-fg));
-    transform: scale(1);
-    transition: transform var(--dur-base) var(--ease-button);
+    line-height: 0;
   }
 
-  .share-button:hover,
-  .share-button:focus-visible {
+  .share-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    border-radius: inherit;
+    background: var(--share-btn-bg);
+    transform: translateZ(0) scale(1);
+    transform-origin: center;
+    transition: transform var(--dur-base) var(--ease-button);
+    will-change: transform;
+  }
+
+  .share-button:hover::before,
+  .share-button:focus-visible::before,
+  .share-button:hover :global(svg),
+  .share-button:focus-visible :global(svg) {
     transform: scale(var(--share-btn-hover-scale, 1.14));
   }
 
   .share-button :global(svg) {
+    position: relative;
+    z-index: 1;
     width: var(--share-icon-size, 50%);
     height: var(--share-icon-size, 50%);
+    flex: 0 0 auto;
     display: block;
+    transform: translateZ(0) scale(1);
+    transform-origin: center;
+    transition: transform var(--dur-base) var(--ease-button);
+    will-change: transform;
   }
 </style>

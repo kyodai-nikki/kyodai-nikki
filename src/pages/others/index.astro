@@ -38,14 +38,21 @@ const target = withBase(defaultOthersPath());
   }
 
   .others-redirect a {
-    color: var(--c-fg);
+    --others-redirect-link-fg: var(--c-fg);
+    --others-redirect-link-hover-fg: rgb(from var(--others-redirect-link-fg) r g b / 0.7);
+
+    color: var(--others-redirect-link-fg);
     text-decoration: underline;
     text-underline-offset: 3px;
-    transition: opacity var(--dur-base) var(--ease-out);
+    text-decoration-color: currentColor;
+    transition:
+      color var(--dur-base) var(--ease-out),
+      text-decoration-color var(--dur-base) var(--ease-out);
   }
 
   .others-redirect a:hover,
   .others-redirect a:focus-visible {
-    opacity: 0.7;
+    color: var(--others-redirect-link-hover-fg);
+    text-decoration-color: var(--others-redirect-link-hover-fg);
   }
 </style>

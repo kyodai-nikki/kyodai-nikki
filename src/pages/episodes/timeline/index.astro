@@ -141,6 +141,7 @@ const grouped = await groupedEpisodesTimeline();
     gap: clamp(var(--s-6), 4vw, var(--s-8));
     padding: clamp(var(--s-4), 3vw, var(--s-5));
     border: 1px solid var(--tl-main-border);
+    border-radius: var(--r-md);
     background: var(--tl-main-bg);
   }
   .tl-season {
@@ -195,6 +196,7 @@ const grouped = await groupedEpisodesTimeline();
     padding: var(--s-4) var(--s-5);
     background: var(--tl-card-bg);
     border: 1px solid var(--tl-card-border);
+    border-radius: var(--r-md);
     color: var(--tl-card-fg);
     text-decoration: none;
     display: flex;
@@ -411,3 +413,7 @@ const grouped = await groupedEpisodesTimeline();
     }
   }
 </style>
+
+<script>
+  import "../../../components/episodes/list/episodesNavigator";
+</script>

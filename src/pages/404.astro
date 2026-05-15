@@ -24,13 +24,21 @@ import { notFoundPageMsg } from "../msg/notFound";
   }
 
   .notfound a {
+    --notfound-link-fg: currentColor;
+    --notfound-link-hover-fg: rgb(from var(--notfound-link-fg) r g b / 0.7);
+
+    color: var(--notfound-link-fg);
     text-decoration: underline;
     text-underline-offset: 3px;
-    transition: opacity var(--dur-base) var(--ease-out);
+    text-decoration-color: currentColor;
+    transition:
+      color var(--dur-base) var(--ease-out),
+      text-decoration-color var(--dur-base) var(--ease-out);
   }
 
   .notfound a:hover,
   .notfound a:focus-visible {
-    opacity: 0.7;
+    color: var(--notfound-link-hover-fg);
+    text-decoration-color: var(--notfound-link-hover-fg);
   }
 </style>

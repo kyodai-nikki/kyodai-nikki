@@ -59,15 +59,22 @@ import ContactBody from "../../../content/contact.md";
   }
 
   .others-contact__mail a {
-    color: inherit;
+    --others-contact-link-fg: currentColor;
+    --others-contact-link-hover-fg: rgb(from var(--others-contact-link-fg) r g b / 0.7);
+
+    color: var(--others-contact-link-fg);
     text-decoration: underline;
     text-underline-offset: 4px;
-    transition: opacity var(--dur-base) var(--ease-out);
+    text-decoration-color: currentColor;
+    transition:
+      color var(--dur-base) var(--ease-out),
+      text-decoration-color var(--dur-base) var(--ease-out);
   }
 
   .others-contact__mail a:hover,
   .others-contact__mail a:focus-visible {
-    opacity: 0.7;
+    color: var(--others-contact-link-hover-fg);
+    text-decoration-color: var(--others-contact-link-hover-fg);
   }
 
   @media (--bp-tablet) {

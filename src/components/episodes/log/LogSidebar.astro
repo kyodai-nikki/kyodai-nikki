@@ -25,7 +25,7 @@ const {
 ---
 
 <aside class="episode-log__sidebar" aria-label={episodesPageMsg.aria.logNavigation}>
-  <Button href={overviewHref} type="white" size="m">
+  <Button href={overviewHref} type="white" size="m" data-log-overview-link>
     {commonMsg.actions.backToOverview}
   </Button>
   {showNextButton && nextHref && (
@@ -61,7 +61,7 @@ const {
   listGap="60px"
   listLinkMargin="0 70px 0 30px"
 >
-  <a href={overviewHref}>{commonMsg.actions.backToOverview}</a>
+  <a href={overviewHref} data-log-overview-link>{commonMsg.actions.backToOverview}</a>
   {showNextButton && nextHref && <a href={nextHref}>{commonMsg.actions.nextEpisode}</a>}
   {showPreviousButton && previousHref && <a href={previousHref}>{commonMsg.actions.previousEpisode}</a>}
   {sections.map((section) => (
@@ -107,10 +107,8 @@ const {
       for (const item of sections) {
         if (item.id === id) {
           item.link.setAttribute("aria-current", "page");
-          item.link.setAttribute("tabindex", "-1");
         } else {
           item.link.removeAttribute("aria-current");
-          item.link.removeAttribute("tabindex");
         }
       }
     };

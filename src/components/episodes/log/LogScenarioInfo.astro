@@ -98,7 +98,7 @@ const sourceLabel = scenario?.distributionName;
   .episode-log__title-group {
     display: flex;
     align-items: baseline;
-    gap: 18px;
+    gap: var(--s-5);
     flex-wrap: wrap;
     font-weight: var(--fw-bold);
   }
@@ -156,20 +156,34 @@ const sourceLabel = scenario?.distributionName;
   }
 
   .episode-log__meta-line a {
+    --log-scenario-link-hover-fg: rgb(from var(--log-scenario-link-fg) r g b / 0.7);
+
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 2px;
-    transition: opacity var(--dur-base) var(--ease-out);
+    text-decoration-color: currentColor;
+    transition:
+      color var(--dur-base) var(--ease-out),
+      text-decoration-color var(--dur-base) var(--ease-out);
   }
 
   .episode-log__meta-line a:hover,
   .episode-log__meta-line a:focus-visible {
-    opacity: 0.7;
+    color: var(--log-scenario-link-hover-fg);
+    text-decoration-color: var(--log-scenario-link-hover-fg);
   }
 
   @media (--bp-tablet) {
     .episode-log__title-group {
       gap: 8px;
+    }
+
+    .episode-log__title {
+      font-size: var(--fs-xl3);
+    }
+
+    .episode-log__episode-no {
+      font-size: var(--fs-m);
     }
 
     .episode-log__meta-line {

@@ -22,25 +22,31 @@ const { href } = Astro.props;
 <style>
   .share-button {
     display: inline-flex;
+    flex: 0 0 var(--share-btn-size);
     align-items: center;
     justify-content: center;
     width: var(--share-btn-size);
     height: var(--share-btn-size);
     border-radius: var(--share-btn-radius, 4px);
-    overflow: hidden;
-    transform: scale(1);
-    transition: transform var(--dur-base) var(--ease-button);
+    overflow: visible;
+    line-height: 0;
   }
 
-  .share-button:hover,
-  .share-button:focus-visible {
+  .share-button:hover img,
+  .share-button:focus-visible img {
     transform: scale(var(--share-btn-hover-scale, 1.14));
   }
 
   .share-button img {
-    width: 100%;
-    height: 100%;
+    width: var(--share-line-icon-size, 100%);
+    height: var(--share-line-icon-size, 100%);
+    flex: 0 0 auto;
     object-fit: cover;
     display: block;
+    border-radius: inherit;
+    transform: translateZ(0) scale(1);
+    transform-origin: center;
+    transition: transform var(--dur-base) var(--ease-button);
+    will-change: transform;
   }
 </style>

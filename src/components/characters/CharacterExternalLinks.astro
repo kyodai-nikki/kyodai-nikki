@@ -50,18 +50,24 @@ const { links } = Astro.props;
   }
 
   .character-external-links__box a {
+    --character-external-links-hover-fg: rgb(from var(--character-external-links-link-fg) r g b / 0.7);
+
     width: fit-content;
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
+    text-decoration-color: currentColor;
     color: var(--character-external-links-link-fg);
     line-height: var(--lh-s-tight);
-    transition: opacity var(--dur-base) var(--ease-out);
+    transition:
+      color var(--dur-base) var(--ease-out),
+      text-decoration-color var(--dur-base) var(--ease-out);
   }
 
   .character-external-links__box a:hover,
   .character-external-links__box a:focus-visible {
-    opacity: 0.7;
+    color: var(--character-external-links-hover-fg);
+    text-decoration-color: var(--character-external-links-hover-fg);
   }
 
   @media (--bp-mobile) {
