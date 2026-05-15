@@ -1,7 +1,7 @@
 ---
 import { resolve } from "node:path";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { imageAllSrcs, imageMaxHeight } from "../lib/image-utils";
+import { imageAllDimensions } from "../lib/image-utils";
 import { withBase } from "../lib/urls";
 import { homePageMsg } from "../msg/home";
 import { siteConfig } from "../config";
@@ -13,16 +13,16 @@ const HOME_IMAGE_URL = "/images/home/home.png";
 const HOME_IMAGE_URL_BASE = "/images/home";
 const HOME_IMAGE_HEIGHT_PX = 2000;
 const slideshowDir = resolve(process.cwd(), "public/images/home");
-const slideshowImages = siteConfig.enableSlideshow
-  ? imageAllSrcs(slideshowDir, HOME_IMAGE_URL_BASE)
+const slideshowImageDimensions = siteConfig.enableSlideshow
+  ? await imageAllDimensions(slideshowDir, HOME_IMAGE_URL_BASE)
   : [];
-const slideImages = slideshowImages.length > 0
-  ? slideshowImages
-  : [withBase(HOME_IMAGE_URL)];
-const maxImageHeight = siteConfig.enableSlideshow
-  ? await imageMaxHeight(slideshowDir)
-  : HOME_IMAGE_HEIGHT_PX;
-const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
+const slideImages = slideshowImageDimensions.length > 0
+  ? slideshowImageDimensions
+  : [{ src: withBase(HOME_IMAGE_URL), width: HOME_IMAGE_HEIGHT_PX, height: HOME_IMAGE_HEIGHT_PX }];
+const slideHeightPx = HOME_IMAGE_HEIGHT_PX;
+
+const slideObjectPosition = ({ width, height }: { width: number; height: number }) =>
+  width / height >= 1.4 ? "center center" : "center top";
 ---
 <BaseLayout
   title={homePageMsg.meta.title}
@@ -39,12 +39,13 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
       role="img"
       aria-label={homePageMsg.alt.homeFallbackImage}
     >
-      {slideImages.map((src, i) => (
+      {slideImages.map((image, i) => (
         <div
           class:list={["home__slide", i === 0 && "is-visible"]}
           data-index={i}
+          style={`--home-slide-object-position: ${slideObjectPosition(image)};`}
         >
-          <img src={src} alt="" />
+          <img src={image.src} alt="" />
         </div>
       ))}
     </div>
@@ -90,7 +91,7 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: var(--home-slide-object-position, center top);
     display: block;
   }
 
@@ -135,11 +136,13 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
     white-space: pre-wrap;
   }
 
-  @media (--bp-tablet) {
+  @media (--bp-laptop) {
     .home__image {
-      height: calc(100svh - var(--h-header-tablet) - var(--h-home-tablet-peek));
+      height: calc(100svh - var(--site-header-offset) - var(--site-footer-offset));
     }
+  }
 
+  @media (--bp-tablet) {
     .home__overlay {
       padding: var(--s-5) var(--s-4) var(--s-8);
       display: flex;
@@ -166,10 +169,6 @@ const slideHeightPx = maxImageHeight ?? HOME_IMAGE_HEIGHT_PX;
   }
 
   @media (--bp-mobile) {
-    .home__image {
-      height: calc(100svh - var(--h-header-tablet) - var(--h-home-mobile-peek));
-    }
-
     .home__overlay img {
       width: min(var(--w-home-logo-mobile), 100%);
       height: var(--h-home-logo-mobile);

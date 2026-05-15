@@ -8,7 +8,7 @@ interface Props {
   openLabel: string;
   closeLabel: string;
   items: HeaderNavItem[];
-  twitterHref?: string;
+  xHref?: string;
   class?: string;
 }
 
@@ -18,7 +18,7 @@ const {
   openLabel,
   closeLabel,
   items,
-  twitterHref,
+  xHref,
   class: className = "",
 } = Astro.props as Props;
 ---
@@ -33,15 +33,17 @@ const {
   >
     <div class="site-nav__list">
       {items.map((item) => (
-        item.current ? (
-          <span class="site-nav__link" aria-current="page">{item.label}</span>
-        ) : (
-          <a class="site-nav__link" href={item.href}>{item.label}</a>
-        )
+        <a
+          class="site-nav__link"
+          href={item.href}
+          aria-current={item.current ? "page" : undefined}
+        >
+          {item.label}
+        </a>
       ))}
-      {twitterHref && (
-        <a class="site-nav__social-link" href={twitterHref} target="_blank" rel="noopener">
-          Twitter
+      {xHref && (
+        <a class="site-nav__social-link" href={xHref} target="_blank" rel="noopener">
+          X
         </a>
       )}
     </div>

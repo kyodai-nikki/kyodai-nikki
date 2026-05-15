@@ -30,10 +30,13 @@ const {
 >
   {characters.map((item) => {
     const slug = settingsCharacterSlug(item);
-    return slug === currentSlug ? (
-      <span aria-current="page">{item.data.name}</span>
-    ) : (
-      <a href={settingsCharacterHref(slug)}>{item.data.name}</a>
+    return (
+      <a
+        href={settingsCharacterHref(slug)}
+        aria-current={slug === currentSlug ? "page" : undefined}
+      >
+        {item.data.name}
+      </a>
     );
   })}
 </StickyNoteNav>

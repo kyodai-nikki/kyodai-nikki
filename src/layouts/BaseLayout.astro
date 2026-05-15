@@ -67,7 +67,7 @@ const hasPageShell =
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(ogImage, canonical).href} />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="x:card" content="summary_large_image" />
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Libre+Baskerville%3A400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Shippori+Mincho%3A700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Shippori+Mincho%3A400" rel="stylesheet">
@@ -79,7 +79,6 @@ const hasPageShell =
     <main
       id="main"
       data-page-shell
-      data-page-transition={showEpisodeSpoilerNotice ? "none" : undefined}
       style={`--page-shell-bg-image: ${pageShellBgImage};`}
     >
       {hasPageShell ? (

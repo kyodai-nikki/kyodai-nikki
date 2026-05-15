@@ -22,6 +22,7 @@ const { label, variant = "default" } = Astro.props;
     font-size: var(--fs-m);
     line-height: var(--lh-s-tight);
     letter-spacing: var(--ls-wide);
+    white-space: nowrap;
   }
 
   /* Generated from the `variant` prop: badge--${variant}. */
@@ -36,5 +37,11 @@ const { label, variant = "default" } = Astro.props;
 
     background: var(--badge-bg);
     color: var(--badge-fg);
+  }
+
+  @media (--bp-tablet) {
+    .badge {
+      font-size: var(--fs-sm2);
+    }
   }
 </style>

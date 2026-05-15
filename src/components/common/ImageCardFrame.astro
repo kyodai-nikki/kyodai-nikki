@@ -39,11 +39,24 @@ const {
   .image-card-frame {
     --image-card-frame-border: var(--c-image-card-frame-border);
 
+    position: relative;
     width: 100%;
     border: 1px solid var(--image-card-frame-border);
+    border-radius: var(--r-md);
+    background-color: var(--image-card-frame-base-bg);
     background:
       linear-gradient(var(--image-card-frame-bg), var(--image-card-frame-bg)),
       var(--image-card-frame-base-bg);
+    overflow: hidden;
+  }
+
+  .image-card-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: var(--image-card-frame-img-bg);
+    pointer-events: none;
   }
 
   .image-card-frame > :global(picture) {
@@ -56,6 +69,10 @@ const {
     aspect-ratio: var(--image-card-frame-aspect);
     object-fit: var(--image-card-frame-fit);
     display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: inherit;
+    background-color: var(--image-card-frame-img-bg);
     background:
       linear-gradient(var(--image-card-frame-img-bg), var(--image-card-frame-img-bg)),
       var(--image-card-frame-base-bg);

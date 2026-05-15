@@ -54,10 +54,8 @@ const { seasons, class: className = "" } = Astro.props as Props;
       for (const item of sections) {
         if (item.id === id) {
           item.link.setAttribute("aria-current", "page");
-          item.link.setAttribute("tabindex", "-1");
         } else {
           item.link.removeAttribute("aria-current");
-          item.link.removeAttribute("tabindex");
         }
       }
     };

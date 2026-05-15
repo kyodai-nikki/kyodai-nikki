@@ -91,7 +91,7 @@ const displayedImages = await displayedGalleryImages();
             images={detailSrcs}
             creditName={img.creditName}
             creditUrl={img.creditUrl}
-            twitterId={img.twitterId}
+            xId={img.xId}
           />
         );
       })}
@@ -117,6 +117,7 @@ const displayedImages = await displayedGalleryImages();
     color: var(--gallery-empty-fg);
     background: var(--gallery-empty-bg);
     border: 1px solid var(--gallery-empty-border);
+    border-radius: var(--r-md);
   }
 
   .gallery-grid {

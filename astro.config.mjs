@@ -17,4 +17,14 @@ export default defineConfig({
   build: {
     format: "directory",
   },
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        "aria-query",
+        "axobject-query",
+        "astro > aria-query",
+        "astro > axobject-query",
+      ],
+    },
+  },
 });

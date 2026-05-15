@@ -125,7 +125,7 @@ const gallery = defineCollection({
     description: z.string().optional(),
     creditName: z.string().optional(),
     creditUrl: z.string().url().optional(),
-    twitterId: z.string().optional(),
+    xId: z.string().optional(),
   }),
 });
 

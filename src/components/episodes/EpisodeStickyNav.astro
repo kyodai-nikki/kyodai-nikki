@@ -29,17 +29,14 @@ const { items, class: className = "" } = Astro.props as Props;
   listAlign="stretch"
 >
   {items.map((item) => (
-    item.active ? (
-      <span class="episode-sticky-nav__link" aria-current="page">
-        <span class="episode-sticky-nav__number">{item.numberLabel}</span>
-        <span class="episode-sticky-nav__title">{item.title}</span>
-      </span>
-    ) : (
-      <a class="episode-sticky-nav__link" href={item.href}>
-        <span class="episode-sticky-nav__number">{item.numberLabel}</span>
-        <span class="episode-sticky-nav__title">{item.title}</span>
-      </a>
-    )
+    <a
+      class="episode-sticky-nav__link"
+      href={item.href}
+      aria-current={item.active ? "page" : undefined}
+    >
+      <span class="episode-sticky-nav__number">{item.numberLabel}</span>
+      <span class="episode-sticky-nav__title">{item.title}</span>
+    </a>
   ))}
 </StickyNoteNav>
 

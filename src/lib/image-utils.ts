@@ -173,3 +173,45 @@ export const imageListDetail = (
     return [];
   }
 };
+
+export interface ImageDimensions {
+  src: string;
+  width: number;
+  height: number;
+}
+
+export const imageAllDimensions = async (
+  dir: string,
+  urlBase: string,
+): Promise<ImageDimensions[]> => {
+  if (!existsSync(dir)) return [];
+  let files: string[];
+  try {
+    files = readdirSync(dir)
+      .filter(isImageFile)
+      .filter((f) => !isOptimizedVariant(f))
+      .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+  } catch {
+    return [];
+  }
+
+  const dimensions = await Promise.all(
+    files.map(async (file) => {
+      try {
+        const meta = await sharp(join(dir, file)).metadata();
+        const width = meta.width ?? 0;
+        const height = meta.height ?? 0;
+        if (width <= 0 || height <= 0) return undefined;
+        return {
+          src: withBase(`${urlBase}/${file}`),
+          width,
+          height,
+        };
+      } catch {
+        return undefined;
+      }
+    }),
+  );
+
+  return dimensions.filter((item): item is ImageDimensions => Boolean(item));
+};

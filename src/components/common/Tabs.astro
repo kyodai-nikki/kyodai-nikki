@@ -21,11 +21,9 @@ const { items, ariaLabel } = Astro.props;
 <nav class="tab-nav" aria-label={ariaLabel}>
   <div class="tab-nav__list">
     {items.map((item) => (
-      item.active ? (
-        <span aria-current="page">{item.label}</span>
-      ) : (
-        <a href={item.href}>{item.label}</a>
-      )
+      <a href={item.href} aria-current={item.active ? "page" : undefined}>
+        {item.label}
+      </a>
     ))}
   </div>
 </nav>
@@ -52,7 +50,7 @@ const { items, ariaLabel } = Astro.props;
     width: max-content;
   }
 
-  .tab-nav :is(a, span) {
+  .tab-nav a {
     flex: 0 0 auto;
     font-weight: 600;
     position: relative;
@@ -64,7 +62,7 @@ const { items, ariaLabel } = Astro.props;
     white-space: nowrap;
   }
 
-  .tab-nav :is(a, span)::after {
+  .tab-nav a::after {
     content: "";
     position: absolute;
     left: -4px;
@@ -94,7 +92,7 @@ const { items, ariaLabel } = Astro.props;
       gap: 20px;
     }
 
-    .tab-nav :is(a, span) {
+    .tab-nav a {
       font-size: 18px;
     }
   }
