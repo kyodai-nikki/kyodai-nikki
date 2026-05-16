@@ -1,32 +1,15 @@
 ---
-import { resolve } from "node:path";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { imageAllDimensions } from "../lib/image-utils";
+import { breakpoints } from "../lib/breakpoints.mjs";
+import { homeImageHeightPx, homeSlideImages } from "../lib/home";
 import { withBase } from "../lib/urls";
 import { homePageMsg } from "../msg/home";
 import { siteConfig } from "../config";
 import Tagline from "../content/home.md";
 
-// Slideshow is intentionally off for now. Match the hero area to home.png's
-// original height while keeping the slideshow path ready for future use.
-const HOME_IMAGE_URL = "/images/home/home.png";
-const HOME_IMAGE_URL_BASE = "/images/home";
-const HOME_IMAGE_HEIGHT_PX = 2000;
-const slideshowDir = resolve(process.cwd(), "public/images/home");
-const slideshowImageDimensionsRaw = siteConfig.enableSlideshow
-  ? await imageAllDimensions(slideshowDir, HOME_IMAGE_URL_BASE)
-  : [];
-// home.png を先頭に、残りは数値昇順（1.png → 2.png …）で並べる
-const slideshowImageDimensions = slideshowImageDimensionsRaw.length > 0
-  ? [
-      ...slideshowImageDimensionsRaw.filter((img) => img.src.includes("home.")),
-      ...slideshowImageDimensionsRaw.filter((img) => !img.src.includes("home.")),
-    ]
-  : [];
-const slideImages = slideshowImageDimensions.length > 0
-  ? slideshowImageDimensions
-  : [{ src: withBase(HOME_IMAGE_URL), width: HOME_IMAGE_HEIGHT_PX, height: HOME_IMAGE_HEIGHT_PX }];
-const slideHeightPx = HOME_IMAGE_HEIGHT_PX;
+const slideImages = await homeSlideImages(siteConfig.enableSlideshow);
+const slideHeightPx = homeImageHeightPx;
+const mobileMedia = `(max-width: ${breakpoints.mobile}px)`;
 
 const slideObjectPosition = ({ width, height }: { width: number; height: number }) =>
   width / height >= 1.4 ? "center center" : "center top";
@@ -52,7 +35,10 @@ const slideObjectPosition = ({ width, height }: { width: number; height: number 
           data-index={i}
           style={`--home-slide-object-position: ${slideObjectPosition(image)};`}
         >
-          <img src={image.src} alt="" />
+          <picture>
+            {image.mobileSrc && <source media={mobileMedia} srcset={image.mobileSrc} />}
+            <img src={image.src} alt="" />
+          </picture>
         </div>
       ))}
     </div>
@@ -94,12 +80,16 @@ const slideObjectPosition = ({ width, height }: { width: number; height: number 
     opacity: 1;
   }
 
+  .home__slide picture,
   .home__slide img {
+    display: block;
     width: 100%;
     height: 100%;
+  }
+
+  .home__slide img {
     object-fit: cover;
     object-position: var(--home-slide-object-position, center top);
-    display: block;
   }
 
   .home__overlay {
